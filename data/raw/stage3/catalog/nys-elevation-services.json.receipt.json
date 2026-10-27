@@ -1,0 +1,17 @@
+{
+  "request_url": "https://elevation.its.ny.gov/arcgis/rest/services/?f=pjson",
+  "final_url": "https://elevation.its.ny.gov/arcgis/rest/services/?f=pjson",
+  "download_started_at": "2026-10-27T05:37:25.763536+00:00",
+  "download_completed_at": "2026-10-27T05:37:26.485086+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/plain;charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 5040,
+  "sha256": "a72ee5f73eeeae0f2ea652f6a82b6e162245fb622532cb4c86e0a11976728165",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

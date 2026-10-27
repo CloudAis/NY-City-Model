@@ -1,0 +1,21 @@
+{
+  "source": "data/raw/stage3/dem/bronx-mott-haven.lerc",
+  "width": 257,
+  "height": 257,
+  "statistics": [
+    {
+      "minValue": -2.391723394393921,
+      "maxValue": 26.214197158813477,
+      "noDataValue": -3.4027999387901484e+38
+    }
+  ],
+  "maskProvided": true,
+  "validPixels": 65220,
+  "missingPixels": 829,
+  "validRealZeroPixels": 0,
+  "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+  "valuesFile": "data/intermediate/stage3/dem/bronx-mott-haven.f32",
+  "maskFile": "data/intermediate/stage3/dem/bronx-mott-haven.mask",
+  "byteOrder": "little-endian",
+  "exportMetadata": "data/raw/stage3/dem/bronx-mott-haven-lerc-export.json"
+}

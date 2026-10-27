@@ -7,3 +7,5 @@ NYC轮廓、边界、道路、水系适用NYC Open Data条款；DCP的PLUTO和�
 影像item列NYC.gov Terms，元数据另列CC BY4.0，尚需协调；单瓦片只本地参考，未进assets/dist。LiDAR只有元数据，点云包许可/基准待核。OSM仅版权页，未用几何；未来使用须处理ODbL归属与派生数据库义务。
 
 未抓取或打包商业街景、实景瓦片、未知照片或室内。来源明确与独立验证分别记录；年代和精度限制见docs/ACCURACY.md。
+
+阶段3新增数据来自NYS官方公开高程服务的NYC 2017裸地/水底产品，服务署名NYS ITS Geospatial Services；官方NYC元数据列Public及Use Limitations NA。未将其推定为公共领域；实际URL、原始说明和下载/SHA在data/manifests/stage3。GEOID12B由PROJ登记链接取得，open_license标志及参考框架保留。Esri LERC解码器2.0.0为已有锁定依赖、Apache-2.0，使用它保留NoData掩膜；构建继续携带Cesium第三方许可。地形和水系年代、抽稀及配准限制随交付保留。

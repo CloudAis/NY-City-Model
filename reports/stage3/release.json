@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-27T09:18:29.152292+00:00",
+  "archive": "reports/nyc-stage3-foundation.zip",
+  "bytes": 19124162,
+  "sha256": "bb1e1ebd0e41f7b3f9b4257e0ef9aff59ad23f82bb619c63adf88c76da6941b1",
+  "entries": 533,
+  "readback_checksums_passed": true,
+  "actual_browser_js_matches_build": true,
+  "global_vertical_registration_completed": false,
+  "modular_source_included": true,
+  "bulk_inputs_included": false
+}

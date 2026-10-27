@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-27T09:18:20.811894+00:00",
+  "files": 2904,
+  "spatial_or_container_types": {
+    "glTF2 GLB content": 45,
+    "actual normalized building records": 13,
+    "nonspatial catalogue/metadata; no geometry claim": 150,
+    "published globe reference overlays": 6,
+    "published orthometric terrain scene": 12,
+    "canonical height register with raw/provisional values retained": 2,
+    "actual Rhino document": 1,
+    "actual CSV attributes": 1,
+    "versioned evidence SQLite": 1,
+    "GeoPackage actual SRS tables": 1,
+    "actual service/layer coordinate metadata": 26,
+    "Esri feature response": 2202,
+    "GeoJSON FeatureCollection": 428,
+    "ZIP container; no single CRS": 3,
+    "actual LERC ground heights with explicit validity mask": 6,
+    "GDAL inspected raster": 7
+  },
+  "scope": "actual raw payloads, extracted 3dm/CSV, normalized building samples, foundation scenes/registers, published GLBs, city SQLite and context GPKG; receipts/code/libraries/rebuildable internal caches excluded",
+  "all_spatial_files_inspected": true,
+  "unknowns_are_preserved": true,
+  "footprint_attribute_foot_type": "unresolved; never inferred from horizontal EPSG:2263 units",
+  "dem_band_units": "actual files have no band unit; explicit NYS service statement establishes metre values",
+  "datum_conflict": "DEM service/GeoTIFF generic NAD83 vs official index NAD83(2011); ECEF terrain publication blocked",
+  "file_manifest": "data/manifests/stage3/file-coordinate-audit.jsonl"
+}

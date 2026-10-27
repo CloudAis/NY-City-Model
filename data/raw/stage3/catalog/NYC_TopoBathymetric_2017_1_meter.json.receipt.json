@@ -1,0 +1,17 @@
+{
+  "request_url": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer?f=pjson",
+  "final_url": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer?f=pjson",
+  "download_started_at": "2026-10-27T05:38:05.118630+00:00",
+  "download_completed_at": "2026-10-27T05:38:05.444421+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/plain;charset=UTF-8",
+  "etag": "6e974a85",
+  "last_modified_http": null,
+  "bytes": 5596,
+  "sha256": "cbbd81da5941c039a42c9f450f91fbf20217767fc8a26bcd844c1c0ae490132f",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

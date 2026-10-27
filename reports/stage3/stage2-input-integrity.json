@@ -1,0 +1,23 @@
+{
+  "stage2_raw_files_checked": 2775,
+  "missing_raw_files": [],
+  "changed_raw_files": [],
+  "large_inputs": [
+    {
+      "path": "data/processed/city/buildings.sqlite",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "data/processed/context/context.gpkg",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "data/raw/supporting/nyc_pluto_26v2_csv.zip",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "data/raw/supporting/nyc_3dmodel_mn01.zip",
+      "sha256_unchanged": true
+    }
+  ]
+}

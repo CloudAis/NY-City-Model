@@ -1,0 +1,418 @@
+{
+  "at": "2026-10-27T09:12:12.945Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    "existing real footprint picking survives explicit unresolved elevation fields",
+    "real water, roads, metric grid, ground reference points and tile bounds toggle independently",
+    "actual glTF feature picking verifies East West North South Up Down with one engine rotation",
+    "whole-city ECEF view stays numerically stable and keeps unresolved global terrain blocked",
+    "switching all six source areas releases old diagnostic data sources",
+    "actual bare-earth orthometric mesh renders source-derived terrain pixels without global-datum substitution",
+    "six real terrain crops retain varying source elevations and release GPU buffers between loads",
+    "orthometric camera, raycast sampling, all diagnostic layers and narrow layout work without height mutation"
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4183/?diagnostics=1",
+    "http://127.0.0.1:4183/assets/main-D8hls3rJ.js",
+    "http://127.0.0.1:4183/assets/Matrix4-C-Gm_KdH.js",
+    "http://127.0.0.1:4183/assets/main-CQ89KcFq.css",
+    "http://127.0.0.1:4183/datasets/catalog.json",
+    "http://127.0.0.1:4183/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4183/datasets/foundation/manifest.json",
+    "http://127.0.0.1:4183/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4183/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4183/cesium/Workers/createVerticesFromHeightmap.js",
+    "http://127.0.0.1:4183/cesium/Workers/transferTypedArrayTest.js",
+    "http://127.0.0.1:4183/datasets/foundation/axes-diagnostic.json",
+    "http://127.0.0.1:4183/datasets/foundation/building-elevations.json",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-MXXXHGW3.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/buildings.json",
+    "http://127.0.0.1:4183/cesium/Workers/incrementallyBuildTerrainPicker.js",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/tileset.json",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/datasets/midtown/buildings.json",
+    "http://127.0.0.1:4183/datasets/midtown/tileset.json",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/buildings.json",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/tileset.json",
+    "http://127.0.0.1:4183/datasets/queens-lic/buildings.json",
+    "http://127.0.0.1:4183/datasets/queens-lic/tileset.json",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/buildings.json",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/tileset.json",
+    "http://127.0.0.1:4183/datasets/staten-st-george/buildings.json",
+    "http://127.0.0.1:4183/datasets/staten-st-george/tileset.json",
+    "http://127.0.0.1:4183/datasets/foundation/lower-manhattan-overlays.json",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/597_120.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/598_120.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/597_119.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/598_119.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/598_121.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/597_121.glb",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/combineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/datasets/foundation/axes-diagnostic.glb",
+    "http://127.0.0.1:4183/datasets/foundation/midtown-overlays.json",
+    "http://127.0.0.1:4183/datasets/midtown/602_129.glb",
+    "http://127.0.0.1:4183/datasets/midtown/602_130.glb",
+    "http://127.0.0.1:4183/datasets/midtown/603_130.glb",
+    "http://127.0.0.1:4183/datasets/midtown/603_129.glb",
+    "http://127.0.0.1:4183/datasets/midtown/602_131.glb",
+    "http://127.0.0.1:4183/datasets/midtown/601_130.glb",
+    "http://127.0.0.1:4183/datasets/midtown/601_129.glb",
+    "http://127.0.0.1:4183/datasets/midtown/603_131.glb",
+    "http://127.0.0.1:4183/datasets/foundation/brooklyn-dumbo-overlays.json",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/601_118.glb",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/602_118.glb",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/601_119.glb",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/602_119.glb",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/601_117.glb",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/602_117.glb",
+    "http://127.0.0.1:4183/datasets/foundation/queens-lic-overlays.json",
+    "http://127.0.0.1:4183/datasets/queens-lic/609_128.glb",
+    "http://127.0.0.1:4183/datasets/queens-lic/609_129.glb",
+    "http://127.0.0.1:4183/datasets/queens-lic/608_128.glb",
+    "http://127.0.0.1:4183/datasets/queens-lic/608_129.glb",
+    "http://127.0.0.1:4183/datasets/queens-lic/610_129.glb",
+    "http://127.0.0.1:4183/datasets/queens-lic/610_128.glb",
+    "http://127.0.0.1:4183/datasets/queens-lic/609_127.glb",
+    "http://127.0.0.1:4183/datasets/foundation/bronx-mott-haven-overlays.json",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/612_142.glb",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/612_143.glb",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/613_143.glb",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/613_142.glb",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/611_143.glb",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/612_144.glb",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/611_142.glb",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/613_144.glb",
+    "http://127.0.0.1:4183/datasets/foundation/staten-st-george-overlays.json",
+    "http://127.0.0.1:4183/datasets/staten-st-george/586_105.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/587_105.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/586_106.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/587_106.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/586_104.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/585_105.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/585_106.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/587_104.glb",
+    "http://127.0.0.1:4183/datasets/staten-st-george/585_104.glb",
+    "http://127.0.0.1:4183/terrain.html?diagnostics=1",
+    "http://127.0.0.1:4183/assets/terrain-ChMTIPbf.js",
+    "http://127.0.0.1:4183/assets/Matrix4-C-Gm_KdH.js",
+    "http://127.0.0.1:4183/assets/terrain-MqDaHXnX.css",
+    "http://127.0.0.1:4183/datasets/foundation/manifest.json",
+    "http://127.0.0.1:4183/datasets/foundation/lower-manhattan.json",
+    "http://127.0.0.1:4183/datasets/foundation/lower-manhattan.json",
+    "http://127.0.0.1:4183/datasets/foundation/midtown.json",
+    "http://127.0.0.1:4183/datasets/foundation/brooklyn-dumbo.json",
+    "http://127.0.0.1:4183/datasets/foundation/queens-lic.json",
+    "http://127.0.0.1:4183/datasets/foundation/bronx-mott-haven.json",
+    "http://127.0.0.1:4183/datasets/foundation/staten-st-george.json"
+  ],
+  "observations": {
+    "mainLayers": {
+      "water": {
+        "show": true,
+        "entities": 5
+      },
+      "roads": {
+        "show": true,
+        "entities": 599
+      },
+      "grid": {
+        "show": true,
+        "entities": 35
+      },
+      "samples": {
+        "show": true,
+        "entities": 61
+      },
+      "bounds": {
+        "show": true,
+        "entities": 72
+      }
+    },
+    "axes": [
+      {
+        "axis": "E",
+        "worldMidpoint": [
+          1333792.3201558972,
+          -4654623.290655189,
+          4138026.6328525334
+        ],
+        "x": 634.0612192660172,
+        "y": 419.36743765464075,
+        "pickedAxis": "diagnostic:E"
+      },
+      {
+        "axis": "W",
+        "worldMidpoint": [
+          1333667.349258314,
+          -4654659.099519416,
+          4138026.6328525334
+        ],
+        "x": 459.88392899791097,
+        "y": 460.0466776180496,
+        "pickedAxis": "diagnostic:W"
+      },
+      {
+        "axis": "N",
+        "worldMidpoint": [
+          1333718.157360334,
+          -4654600.44181185,
+          4138075.9056656486
+        ],
+        "x": 513.960987043673,
+        "y": 396.7943854970542,
+        "pickedAxis": "diagnostic:N"
+      },
+      {
+        "axis": "S",
+        "worldMidpoint": [
+          1333741.512053877,
+          -4654681.948362755,
+          4137977.360039418
+        ],
+        "x": 592.1234160565033,
+        "y": 488.33111408741513,
+        "pickedAxis": "diagnostic:S"
+      },
+      {
+        "axis": "U",
+        "worldMidpoint": [
+          1333743.4070415278,
+          -4654688.561761775,
+          4138069.026128978
+        ],
+        "x": 550.000004274174,
+        "y": 353.2582481958366,
+        "pickedAxis": "diagnostic:U"
+      },
+      {
+        "axis": "D",
+        "worldMidpoint": [
+          1333716.2623726833,
+          -4654593.82841283,
+          4137984.2395760887
+        ],
+        "x": 549.999996146876,
+        "y": 516.2237517352033,
+        "pickedAxis": "diagnostic:D"
+      }
+    ],
+    "nearBuilding": {
+      "camera": {
+        "position": [
+          1333459.0797317212,
+          -4654669.560355965,
+          4137949.9509455967
+        ],
+        "height": 114.12867083606625
+      },
+      "stable": true
+    },
+    "city": {
+      "camera": {
+        "position": [
+          1348117.9596186674,
+          -4695259.747412328,
+          4174589.8430009536
+        ],
+        "height": 56651.01945464674
+      },
+      "pixelHashFirst": "56edcc71ad73936616494ce1594842334a5e06985693566e86c0f742d3a395b0",
+      "pixelHashSecond": "56edcc71ad73936616494ce1594842334a5e06985693566e86c0f742d3a395b0",
+      "samePixelBuffer": true,
+      "globalRegisteredTerrainTest": "blocked by source-frame conflict; no terrain floating/sinking success claim"
+    },
+    "finalGlobe": {
+      "active": "staten-st-george",
+      "globalTerrainRegistered": false,
+      "verticalBlock": "source horizontal realization conflict",
+      "axisGlbLoaded": true,
+      "axisVisible": false,
+      "axesPoints": [
+        {
+          "axis": "E",
+          "worldMidpoint": [
+            1333792.3201558972,
+            -4654623.290655189,
+            4138026.6328525334
+          ],
+          "x": 1201.0199765412212,
+          "y": -454.74789105290256,
+          "pickedAxis": null
+        },
+        {
+          "axis": "W",
+          "worldMidpoint": [
+            1333667.349258314,
+            -4654659.099519416,
+            4138026.6328525334
+          ],
+          "x": 1183.0371045144614,
+          "y": -453.6503963722121,
+          "pickedAxis": null
+        },
+        {
+          "axis": "N",
+          "worldMidpoint": [
+            1333718.157360334,
+            -4654600.44181185,
+            4138075.9056656486
+          ],
+          "x": 1187.375004286187,
+          "y": -457.8512616514722,
+          "pickedAxis": null
+        },
+        {
+          "axis": "S",
+          "worldMidpoint": [
+            1333741.512053877,
+            -4654681.948362755,
+            4137977.360039418
+          ],
+          "x": 1196.7433004470938,
+          "y": -450.5107969069463,
+          "pickedAxis": null
+        },
+        {
+          "axis": "U",
+          "worldMidpoint": [
+            1333743.4070415278,
+            -4654688.561761775,
+            4138069.026128978
+          ],
+          "x": 1197.6648263639222,
+          "y": -466.9352169239137,
+          "pickedAxis": null
+        },
+        {
+          "axis": "D",
+          "worldMidpoint": [
+            1333716.2623726833,
+            -4654593.82841283,
+            4137984.2395760887
+          ],
+          "x": 1186.5030608499862,
+          "y": -441.68314889556586,
+          "pickedAxis": null
+        }
+      ],
+      "layers": {
+        "water": {
+          "show": false,
+          "entities": 2
+        },
+        "roads": {
+          "show": false,
+          "entities": 311
+        },
+        "grid": {
+          "show": false,
+          "entities": 48
+        },
+        "samples": {
+          "show": false,
+          "entities": 36
+        },
+        "bounds": {
+          "show": false,
+          "entities": 108
+        }
+      },
+      "dataSourceCount": 5,
+      "north": true,
+      "terrainInspection": "terrain.html",
+      "sourceGroundSamples": 36
+    },
+    "terrainPixels": {
+      "terrain": 76596,
+      "water": 36041
+    },
+    "terrainAreas": [
+      {
+        "id": "lower-manhattan",
+        "source": "data/raw/stage3/dem/lower-manhattan.lerc",
+        "range": [
+          -10.478168487548828,
+          14.244046211242676
+        ],
+        "buffers": 22
+      },
+      {
+        "id": "midtown",
+        "source": "data/raw/stage3/dem/midtown.lerc",
+        "range": [
+          -2.350327730178833,
+          25.149194717407227
+        ],
+        "buffers": 22
+      },
+      {
+        "id": "brooklyn-dumbo",
+        "source": "data/raw/stage3/dem/brooklyn-dumbo.lerc",
+        "range": [
+          -0.7802879810333252,
+          27.68108367919922
+        ],
+        "buffers": 22
+      },
+      {
+        "id": "queens-lic",
+        "source": "data/raw/stage3/dem/queens-lic.lerc",
+        "range": [
+          -1.9158987998962402,
+          17.497106552124023
+        ],
+        "buffers": 22
+      },
+      {
+        "id": "bronx-mott-haven",
+        "source": "data/raw/stage3/dem/bronx-mott-haven.lerc",
+        "range": [
+          -2.2926247119903564,
+          25.46771240234375
+        ],
+        "buffers": 22
+      },
+      {
+        "id": "staten-st-george",
+        "source": "data/raw/stage3/dem/staten-st-george.lerc",
+        "range": [
+          -2.163036584854126,
+          71.41908264160156
+        ],
+        "buffers": 22
+      }
+    ]
+  },
+  "scope": "Chromium software WebGL; 30 source correspondences are not field-survey control points; global registered terrain remains blocked"
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://elevation.its.ny.gov/arcgis/rest/services/USGS_NYC2014_1_meter/ImageServer/info/metadata",
+  "final_url": "https://elevation.its.ny.gov/arcgis/rest/services/USGS_NYC2014_1_meter/ImageServer/info/metadata",
+  "download_started_at": "2026-10-27T05:38:06.474628+00:00",
+  "download_completed_at": "2026-10-27T05:38:06.713588+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/xml;charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 10384,
+  "sha256": "7a559a20af588b81db3abae21c57932437bf2ef0bdc9180de794efc9b6debf20",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

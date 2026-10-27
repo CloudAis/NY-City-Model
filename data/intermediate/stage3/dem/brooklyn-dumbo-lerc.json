@@ -1,0 +1,21 @@
+{
+  "source": "data/raw/stage3/dem/brooklyn-dumbo.lerc",
+  "width": 257,
+  "height": 257,
+  "statistics": [
+    {
+      "minValue": -0.7802879810333252,
+      "maxValue": 28.105623245239258,
+      "noDataValue": -3.4027999387901484e+38
+    }
+  ],
+  "maskProvided": true,
+  "validPixels": 55317,
+  "missingPixels": 10732,
+  "validRealZeroPixels": 0,
+  "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+  "valuesFile": "data/intermediate/stage3/dem/brooklyn-dumbo.f32",
+  "maskFile": "data/intermediate/stage3/dem/brooklyn-dumbo.mask",
+  "byteOrder": "little-endian",
+  "exportMetadata": "data/raw/stage3/dem/brooklyn-dumbo-lerc-export.json"
+}

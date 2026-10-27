@@ -1,0 +1,13 @@
+{
+  "path": "data/raw/stage3/geoid/us_noaa_g2012bu0.tif",
+  "source_url": "https://cdn.proj.org/us_noaa_g2012bu0.tif",
+  "sha256": "954b4959720955ba781a015b8001017ce0c3c0895953991fc731594d58db4af1",
+  "model": "GEOID12B",
+  "source_crs": "EPSG:6349",
+  "target_crs": "EPSG:6319",
+  "nominal_operation_accuracy_m": 0.02,
+  "operation": "Inverse of NAD83(2011) to NAVD88 height (1)",
+  "open_license_from_proj_database": true,
+  "applied_to_dem": false,
+  "reason": "source horizontal realization differs between service and index; no implicit reinterpretation as NAD83(2011)"
+}

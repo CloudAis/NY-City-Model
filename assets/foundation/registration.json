@@ -1,0 +1,2573 @@
+{
+  "schema_version": 1,
+  "at": "2026-10-27T09:10:51.061385+00:00",
+  "checkpoints": [
+    {
+      "id": "NYC-SOURCE-01",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "bronx",
+      "building_id": "nyc:footprints:doitt:303633",
+      "bin": "2004149",
+      "source_object_id": 594509,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00057500.json",
+        "sha256": "b8dcd39da2efadd18616975d1533c42b86ee41f687281a3215fa3753a4ace771",
+        "object_id": 594509
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8226635.23561301,
+        4984732.82739475
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        308342.6258686101,
+        71728.24292743704
+      ],
+      "longitude_latitude_deg": [
+        -73.90112169027367,
+        40.81255545943376
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 2.7939677238464355e-09,
+      "pipeline_gpu_reconstruction_error_m": 2.5714546242269413e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.90221922004655,
+          40.812752317454375
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1340416.7059240702,
+          -4644657.811963765,
+          4146707.318432232
+        ],
+        "enu_to_ecef_column_major": [
+          0.9607898945812403,
+          0.2772774395268557,
+          0.0,
+          0.0,
+          -0.1812255044252961,
+          0.6279617757193982,
+          0.7568496051271595,
+          0.0,
+          0.20985732061657056,
+          -0.7271734523239769,
+          0.653589072138498,
+          0.0,
+          1340416.7059240702,
+          -4644657.811963765,
+          4146707.318432232,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-02",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "bronx",
+      "building_id": "nyc:footprints:doitt:951984",
+      "bin": "2120880",
+      "source_object_id": 560562,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00054000.json",
+        "sha256": "7e4c26b7817af42a7ed66a9bfaab08ac1a5047dc38ad8c38cc9873d784f56aca",
+        "object_id": 560562
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8221011.4634089,
+        4984544.95946118
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        312605.3040089726,
+        71592.43862823918
+      ],
+      "longitude_latitude_deg": [
+        -73.85060248502009,
+        40.81127814886703
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 2.4876886847765187e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.84888433630698,
+          40.81269474786443
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1344740.8563780908,
+          -4643412.060559672,
+          4146702.4798000557
+        ],
+        "enu_to_ecef_column_major": [
+          0.9605313692841772,
+          0.27817168910775913,
+          0.0,
+          0.0,
+          -0.18180976463879397,
+          0.6277920759581124,
+          0.7568502618392822,
+          0.0,
+          0.2105343157374829,
+          -0.7269784183475737,
+          0.6535883116716592,
+          0.0,
+          1344740.8563780908,
+          -4643412.060559672,
+          4146702.4798000557,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-03",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "bronx",
+      "building_id": "nyc:footprints:doitt:1204935",
+      "bin": "2124386",
+      "source_object_id": 565691,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00054500.json",
+        "sha256": "fa60f519b5504bee9010bb748d144283e9a98507ba09c3598dc15eb55ba8ebb0",
+        "object_id": 565691
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8215469.48468499,
+        4990514.80189286
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        316795.57682252745,
+        76106.84459866073
+      ],
+      "longitude_latitude_deg": [
+        -73.80081804310053,
+        40.85185497087929
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 6.125622817522724e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.80135469559295,
+          40.85314500142966
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1347772.9613857602,
+          -4639474.401488399,
+          4150101.2358297324
+        ],
+        "enu_to_ecef_column_major": [
+          0.9603002818459062,
+          0.2789684008748536,
+          0.0,
+          0.0,
+          -0.18247950153673367,
+          0.6281539995471999,
+          0.7563886463794666,
+          0.0,
+          0.2110085311203749,
+          -0.7263602303032453,
+          0.6541224775439523,
+          0.0,
+          1347772.9613857602,
+          -4639474.401488399,
+          4150101.2358297324,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-04",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "bronx",
+      "building_id": "nyc:footprints:doitt:449341",
+      "bin": "2100459",
+      "source_object_id": 435004,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00042500.json",
+        "sha256": "13dde01ed7fb5f26e75b39f460c70a6447663da5f13157738dccd470f93d7071",
+        "object_id": 435004
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8215671.92797878,
+        4995489.94492255
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        316633.77325069264,
+        79859.66237702286
+      ],
+      "longitude_latitude_deg": [
+        -73.80263662215035,
+        40.885651881496685
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 1.7840300871670518e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.80126052299309,
+          40.88466202336208
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1347141.7003918511,
+          -4637272.943784775,
+          4152747.972791551
+        ],
+        "enu_to_ecef_column_major": [
+          0.9602998233260269,
+          0.2789699792450818,
+          0.0,
+          0.0,
+          -0.18259657771447632,
+          0.6285531575607345,
+          0.7560287150151056,
+          0.0,
+          0.21090931493644988,
+          -0.7260142414584091,
+          0.6545384496518202,
+          0.0,
+          1347141.7003918511,
+          -4637272.943784775,
+          4152747.972791551,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-05",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "bronx",
+      "building_id": "nyc:footprints:doitt:1268926",
+      "bin": "2128014",
+      "source_object_id": 81339,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00008000.json",
+        "sha256": "c49ddc8748323209437c87d08fca1498ecf7b1adcd65a7616089a6e69bf317b4",
+        "object_id": 81339
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8221064.66142283,
+        4996047.87787737
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        312550.22633766633,
+        80272.37013534208
+      ],
+      "longitude_latitude_deg": [
+        -73.85108037091005,
+        40.88944092999889
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 2.9451005721170265e-09,
+      "pipeline_gpu_reconstruction_error_m": 2.1377926601445535e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.84871034134984,
+          40.889236407904285
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1343208.3578594544,
+          -4638067.604110511,
+          4153132.0170296566
+        ],
+        "enu_to_ecef_column_major": [
+          0.9605305245321675,
+          0.2781746060336191,
+          0.0,
+          0.0,
+          -0.18209276536978775,
+          0.6287621358687813,
+          0.7559764555181012,
+          0.0,
+          0.21029345268443958,
+          -0.7261384613527705,
+          0.6545988074403194,
+          0.0,
+          1343208.3578594544,
+          -4638067.604110511,
+          4153132.0170296566,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-06",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "bronx",
+      "building_id": "nyc:footprints:doitt:1269882",
+      "bin": "2127651",
+      "source_object_id": 81298,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00008000.json",
+        "sha256": "c49ddc8748323209437c87d08fca1498ecf7b1adcd65a7616089a6e69bf317b4",
+        "object_id": 81298
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8226601.97875923,
+        4990389.35377297
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        308362.9983449379,
+        75997.82296856848
+      ],
+      "longitude_latitude_deg": [
+        -73.90082293887315,
+        40.851002559582305
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 2.1351152091734674e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.9021662710673,
+          40.84877207999305
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1339695.8268651199,
+          -4642143.801609875,
+          4149733.9082041066
+        ],
+        "enu_to_ecef_column_major": [
+          0.9607896383393142,
+          0.27727832742536834,
+          0.0,
+          0.0,
+          -0.18135797897558048,
+          0.6284186313724676,
+          0.7564385680316992,
+          0.0,
+          0.20974402094387026,
+          -0.726778338205085,
+          0.654064746637634,
+          0.0,
+          1339695.8268651199,
+          -4642143.801609875,
+          4149733.9082041066,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-07",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "brooklyn",
+      "building_id": "nyc:footprints:doitt:595550",
+      "bin": "3166636",
+      "source_object_id": 449004,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00130500.json",
+        "sha256": "3f414dadbdf062fdd052a1ee08a57f279171c8e46ff3205b1104bd5a1baba382",
+        "object_id": 449004
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8238066.11074413,
+        4954273.1205972
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        299677.7931505978,
+        48690.37832942605
+      ],
+      "longitude_latitude_deg": [
+        -74.00380698868513,
+        40.60513939292235
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 1.2235170572055672e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.00295386279726,
+          40.605676324150615
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1336381.916248142,
+          -4661424.582446099,
+          4129276.1107714456
+        ],
+        "enu_to_ecef_column_major": [
+          0.9612759050431504,
+          0.27558779795824073,
+          0.0,
+          0.0,
+          -0.1793661627304089,
+          0.6256458801522022,
+          0.7592068310519503,
+          0.0,
+          0.20922813876446109,
+          -0.7298072336344057,
+          0.6508494354949195,
+          0.0,
+          1336381.916248142,
+          -4661424.582446099,
+          4129276.1107714456,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-08",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "brooklyn",
+      "building_id": "nyc:footprints:doitt:573223",
+      "bin": "3184351",
+      "source_object_id": 211917,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00057500.json",
+        "sha256": "2079432589685266a72aba72746b573f66d8d236b49e2bc48a10dd61673cade1",
+        "object_id": 211917
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8231879.36703503,
+        4954258.06672719
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        304381.5481755881,
+        48680.264966200535
+      ],
+      "longitude_latitude_deg": [
+        -73.948230524357,
+        40.60503672355638
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 8.062874616311787e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.94978433792822,
+          40.605665392226065
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1340707.282688977,
+          -4660183.194763103,
+          4129275.1891324623
+        ],
+        "enu_to_ecef_column_major": [
+          0.9610197503109841,
+          0.2764797271269882,
+          0.0,
+          0.0,
+          -0.17994663427685928,
+          0.6254790227806497,
+          0.7592069552327572,
+          0.0,
+          0.20990533181566426,
+          -0.7296128785521467,
+          0.6508492906397043,
+          0.0,
+          1340707.282688977,
+          -4660183.194763103,
+          4129275.1891324623,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-09",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "brooklyn",
+      "building_id": "nyc:footprints:doitt:92430",
+      "bin": "3327429",
+      "source_object_id": 80510,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00024500.json",
+        "sha256": "1799fa419d9c7659bc82ac6b76df8dc9ea6afd40b86f2f679e174d13894b0770",
+        "object_id": 80510
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8225748.9068043,
+        4961658.09625419
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        309035.676824354,
+        54286.81961041264
+      ],
+      "longitude_latitude_deg": [
+        -73.89315966311747,
+        40.655486876505186
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 0.0,
+      "pipeline_gpu_reconstruction_error_m": 3.0970114552620253e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.89062599292984,
+          40.6551529280075
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1344525.3105199272,
+          -4655358.435500781,
+          4133445.813454598
+        ],
+        "enu_to_ecef_column_major": [
+          0.9607337706008381,
+          0.27747184006146663,
+          0.0,
+          0.0,
+          -0.18077423298759185,
+          0.6259226537985626,
+          0.7586445202791045,
+          0.0,
+          0.21050249099439175,
+          -0.728855410513408,
+          0.6515047903511435,
+          0.0,
+          1344525.3105199272,
+          -4655358.435500781,
+          4133445.813454598,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-10",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "brooklyn",
+      "building_id": "nyc:footprints:doitt:170420",
+      "bin": "3078947",
+      "source_object_id": 277420,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00077500.json",
+        "sha256": "dcf45a4fcbb046f6ebf29f2a4b7ab1590ff99f1f51f1b742e591f35e594858ce",
+        "object_id": 277420
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8227008.88500691,
+        4967564.758714
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        308073.572102517,
+        58754.45236299699
+      ],
+      "longitude_latitude_deg": [
+        -73.9044782398881,
+        40.6957285514864
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 6.5952382287372195e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.90239090910327,
+          40.69568670601023
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1342755.9133172974,
+          -4652815.699429526,
+          4136859.571674788
+        ],
+        "enu_to_ecef_column_major": [
+          0.9607907254496795,
+          0.27727456048090426,
+          0.0,
+          0.0,
+          -0.1807944728400781,
+          0.6264752612574207,
+          0.7581834247877783,
+          0.0,
+          0.21022497587193797,
+          -0.728455602725772,
+          0.6520413287339042,
+          0.0,
+          1342755.9133172974,
+          -4652815.699429526,
+          4136859.571674788,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-11",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "brooklyn",
+      "building_id": "nyc:footprints:doitt:260903",
+      "bin": "3338415",
+      "source_object_id": 877277,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00262500.json",
+        "sha256": "02c3855480f2124b2717f81bcb77f5d9b6b810cc7f1da5985ae84be1c0a16ca9",
+        "object_id": 877277
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8231926.19991111,
+        4969013.17946915
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        304339.3956366636,
+        59846.73016742326
+      ],
+      "longitude_latitude_deg": [
+        -73.9486512312408,
+        40.70559283136296
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 2.08250058582033e-09,
+      "pipeline_gpu_reconstruction_error_m": 5.219889495272569e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.9497097211368,
+          40.70472223227233
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1338731.936651115,
+          -4653294.254273563,
+          4137620.264791802
+        ],
+        "enu_to_ecef_column_major": [
+          0.9610193902482185,
+          0.2764809786711237,
+          0.0,
+          0.0,
+          -0.18031007998776286,
+          0.6267392569221445,
+          0.758080588649706,
+          0.0,
+          0.20959486306145225,
+          -0.728530145063151,
+          0.6521608859112261,
+          0.0,
+          1338731.936651115,
+          -4653294.254273563,
+          4137620.264791802,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-12",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "brooklyn",
+      "building_id": "nyc:footprints:doitt:23947",
+      "bin": "3010244",
+      "source_object_id": 751237,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00224000.json",
+        "sha256": "c4df21a0084cd9a26a8bebc0a24bbdb06ca0f7f7a26ad83d8dac5b09848d1f37",
+        "object_id": 751237
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8238051.20806965,
+        4961632.09555398
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        299689.35718861816,
+        54261.638828698946
+      ],
+      "longitude_latitude_deg": [
+        -74.00367311568255,
+        40.655309681873256
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 1.0261142320785758e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.00295605578019,
+          40.6552048929083
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1335394.7290291414,
+          -4657981.854468821,
+          4133450.191256061
+        ],
+        "enu_to_ecef_column_major": [
+          0.96127591559121,
+          0.275587761165624,
+          0.0,
+          0.0,
+          -0.17954693618216677,
+          0.626276525271318,
+          0.7586439293909106,
+          0.0,
+          0.2090729820227328,
+          -0.7292661378329609,
+          0.6515054784100583,
+          0.0,
+          1335394.7290291414,
+          -4657981.854468821,
+          4133450.191256061,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-13",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "manhattan",
+      "building_id": "nyc:footprints:doitt:1114216",
+      "bin": "1088954",
+      "source_object_id": 1059510,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+        "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+        "object_id": 1059510
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8239300.11781334,
+        4972068.99329641
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        298741.8733693474,
+        62156.08075670709
+      ],
+      "longitude_latitude_deg": [
+        -74.01489226279497,
+        40.7263992590807
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 1.7154573136936022e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.01479625682755,
+          40.72724502260379
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1332995.7522777473,
+          -4653243.596891571,
+          4139515.9949171543
+        ],
+        "enu_to_ecef_column_major": [
+          0.9613328454119738,
+          0.27538910714136455,
+          0.0,
+          0.0,
+          -0.17968005590860636,
+          0.6272301079858434,
+          0.7578241676964038,
+          0.0,
+          0.20869652091206037,
+          -0.7285212634535447,
+          0.6524588346058721,
+          0.0,
+          1332995.7522777473,
+          -4653243.596891571,
+          4139515.9949171543,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-14",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "manhattan",
+      "building_id": "nyc:footprints:doitt:782494",
+      "bin": "1004486",
+      "source_object_id": 421742,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00014500.json",
+        "sha256": "f976f5c347efaa7e8823a698c8d96ac3e4687b6aee9af6222287a93a0235c204",
+        "object_id": 421742
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8235086.13589338,
+        4971603.75648062
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        301940.0146075083,
+        61804.5064821294
+      ],
+      "longitude_latitude_deg": [
+        -73.97703741913794,
+        40.72323197390411
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 3.900513319537179e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.97928664012771,
+          40.72274156452383
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1335969.4378321446,
+          -4652730.175601479,
+          4139136.9921839004
+        ],
+        "enu_to_ecef_column_major": [
+          0.9611619857199064,
+          0.2759848495967966,
+          0.0,
+          0.0,
+          -0.18005231371284716,
+          0.6270613754144004,
+          0.7578754487315518,
+          0.0,
+          0.20916214173128203,
+          -0.7284410712311834,
+          0.6523992674811562,
+          0.0,
+          1335969.4378321446,
+          -4652730.175601479,
+          4139136.9921839004,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-15",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "manhattan",
+      "building_id": "nyc:footprints:doitt:1119200",
+      "bin": "1088287",
+      "source_object_id": 793299,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00026500.json",
+        "sha256": "45e233bc08bd4185938181d28c1b145f9a2039436dcc4dec957137fd19ed4808",
+        "object_id": 793299
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8229927.96045936,
+        4980391.08407625
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        305849.5572774015,
+        68447.03300689069
+      ],
+      "longitude_latitude_deg": [
+        -73.93070074083244,
+        40.78302974558735
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 4.136054539322271e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.93188200299367,
+          40.781256163809154
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1338644.4499290779,
+          -4647547.158417893,
+          4144059.497164937
+        ],
+        "enu_to_ecef_column_major": [
+          0.9609333160142154,
+          0.27677998875266274,
+          0.0,
+          0.0,
+          -0.18078519467267498,
+          0.6276556241872372,
+          0.7572087762389529,
+          0.0,
+          0.2095802365708349,
+          -0.727627140266363,
+          0.6531729244133649,
+          0.0,
+          1338644.4499290779,
+          -4647547.158417893,
+          4144059.497164937,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-16",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "manhattan",
+      "building_id": "nyc:footprints:doitt:437670",
+      "bin": "1076741",
+      "source_object_id": 270887,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00009500.json",
+        "sha256": "f930c38e0398833a1e324859697b6cccae7929493194ccf3babd88cfe2c6edeb",
+        "object_id": 270887
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8230443.35497402,
+        4988732.2849214
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        305454.10031203466,
+        74744.59753497981
+      ],
+      "longitude_latitude_deg": [
+        -73.93533060853115,
+        40.83974186222962
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 2.08250058582033e-09,
+      "pipeline_gpu_reconstruction_error_m": 9.227846546775565e-07,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.93775058422213,
+          40.8397918425154
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1336992.9590116101,
+          -4643601.696677315,
+          4148979.4885566407
+        ],
+        "enu_to_ecef_column_major": [
+          0.9609616604586219,
+          0.276681562682822,
+          0.0,
+          0.0,
+          -0.1809348505566782,
+          0.628417205468433,
+          0.756541073389461,
+          0.0,
+          0.20932096641913558,
+          -0.7270069660894846,
+          0.653946178423517,
+          0.0,
+          1336992.9590116101,
+          -4643601.696677315,
+          4148979.4885566407,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-17",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "manhattan",
+      "building_id": "nyc:footprints:doitt:1283175",
+      "bin": "1090433",
+      "source_object_id": 68694,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+        "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+        "object_id": 68694
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8232882.68289037,
+        4986801.37188007
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        303606.7209998379,
+        73286.03895393941
+      ],
+      "longitude_latitude_deg": [
+        -73.9572434640335,
+        40.826617828735344
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 2.08250058582033e-09,
+      "pipeline_gpu_reconstruction_error_m": 2.778139025622231e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.95554515393458,
+          40.82629265742448
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1335821.6221657284,
+          -4644958.7198112095,
+          4147845.247116098
+        ],
+        "enu_to_ecef_column_major": [
+          0.9610475441646713,
+          0.2763830997999954,
+          0.0,
+          0.0,
+          -0.18069040296498456,
+          0.6283020493991368,
+          0.7566951255275775,
+          0.0,
+          0.2091377443968585,
+          -0.727219992069656,
+          0.653767915244243,
+          0.0,
+          1335821.6221657284,
+          -4644958.7198112095,
+          4147845.247116098,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-18",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "manhattan",
+      "building_id": "nyc:footprints:doitt:784954",
+      "bin": "1076222",
+      "source_object_id": 34968,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00001000.json",
+        "sha256": "affe10bc7754900f4c6dc38a0dc5691fa5ffda14240618a56cae7163247a73aa",
+        "object_id": 34968
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8237079.07669739,
+        4979005.58058572
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        300427.1493447497,
+        67398.11763912578
+      ],
+      "longitude_latitude_deg": [
+        -73.99494031098381,
+        40.77360496463899
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 9.305091247013588e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.99703874783883,
+          40.772271233992505
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1333538.0500483382,
+          -4649692.86453824,
+          4143303.923731358
+        ],
+        "enu_to_ecef_column_major": [
+          0.96124744872357,
+          0.2756870369140115,
+          0.0,
+          0.0,
+          -0.18003857002841273,
+          0.627746658126804,
+          0.7573111952907826,
+          0.0,
+          0.20878087945152413,
+          -0.7279634543630621,
+          0.6530541734705063,
+          0.0,
+          1333538.0500483382,
+          -4649692.86453824,
+          4143303.923731358,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-19",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "queens",
+      "building_id": "nyc:footprints:doitt:356057",
+      "bin": "4464533",
+      "source_object_id": 1069757,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00454000.json",
+        "sha256": "d98b6777ee2a1a0abe86dba1dcecf0df083718fb18ad12d17112731565a89bde",
+        "object_id": 1069757
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8225678.87188921,
+        4948835.08173738
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        309100.79732516775,
+        44576.30559554127
+      ],
+      "longitude_latitude_deg": [
+        -73.892530528771,
+        40.568040994205255
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 8.265808956284282e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.89076606868117,
+          40.56960349240314
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1346229.768842452,
+          -4661302.794748654,
+          4126234.103778336
+        ],
+        "enu_to_ecef_column_major": [
+          0.960734448956422,
+          0.2774694912749871,
+          0.0,
+          0.0,
+          -0.18045819867437587,
+          0.6248341295702082,
+          0.7596164486472365,
+          0.0,
+          0.2107703895702611,
+          -0.729789690209337,
+          0.6503713177443792,
+          0.0,
+          1346229.768842452,
+          -4661302.794748654,
+          4126234.103778336,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-20",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "queens",
+      "building_id": "nyc:footprints:doitt:301179",
+      "bin": "4297205",
+      "source_object_id": 181559,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00080000.json",
+        "sha256": "5d913a69a4d0d4577828585246ba4c9638edb863208547c12aa0db8c7040e889",
+        "object_id": 181559
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8218082.35032262,
+        4953598.06770244
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        314872.35615325766,
+        48194.01688134651
+      ],
+      "longitude_latitude_deg": [
+        -73.82428981447688,
+        40.60053528869578
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.862645149230957e-09,
+      "pipeline_gpu_reconstruction_error_m": 2.761277514616701e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.82573407763843,
+          40.60104162919375
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1350886.9120322964,
+          -4657590.465906739,
+          4128885.359667405
+        ],
+        "enu_to_ecef_column_major": [
+          0.9604188961010574,
+          0.2785597673965616,
+          0.0,
+          0.0,
+          -0.18128335964381576,
+          0.62502911234393,
+          0.7592594762258881,
+          0.0,
+          0.21149914309111856,
+          -0.7292071480111344,
+          0.6507880206036295,
+          0.0,
+          1350886.9120322964,
+          -4657590.465906739,
+          4128885.359667405,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-21",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "queens",
+      "building_id": "nyc:footprints:doitt:1103555",
+      "bin": "4535185",
+      "source_object_id": 63687,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00024500.json",
+        "sha256": "a2b80766ff9eed12d9ca65217bb3af6e4ca22519e93c3341f1f947c4ec3b82aa",
+        "object_id": 63687
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8210086.23568973,
+        4964552.29509807
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        320928.72839621524,
+        56500.84820223531
+      ],
+      "longitude_latitude_deg": [
+        -73.75245949459392,
+        40.67520788421332
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 5.85986656486116e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.75456518776828,
+          40.67745605286035
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1355125.123916432,
+          -4650602.94624135,
+          4135324.4383646464
+        ],
+        "enu_to_ecef_column_major": [
+          0.960072147430824,
+          0.27975251871532103,
+          0.0,
+          0.0,
+          -0.18234270658065108,
+          0.6257750767684037,
+          0.7583908561238993,
+          0.0,
+          0.2121617521713295,
+          -0.7281099378307732,
+          0.651800053197036,
+          0.0,
+          1355125.123916432,
+          -4650602.94624135,
+          4135324.4383646464,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-22",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "queens",
+      "building_id": "nyc:footprints:doitt:748851",
+      "bin": "4452793",
+      "source_object_id": 926456,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00401000.json",
+        "sha256": "abe775bb90dcfde41b76b0b57d9f9ea6ed3337d624013b64c778133e4de40099",
+        "object_id": 926456
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8210079.08754698,
+        4975528.98064379
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        320910.69654344395,
+        64800.77643908262
+      ],
+      "longitude_latitude_deg": [
+        -73.75239528173508,
+        40.749949773809
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 0.0,
+      "pipeline_gpu_reconstruction_error_m": 4.201631965700297e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.75429977482915,
+          40.74949660536473
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1353686.83802621,
+          -4645586.8229652895,
+          4141388.2749998444
+        ],
+        "enu_to_ecef_column_major": [
+          0.9600708515146319,
+          0.27975696608300876,
+          0.0,
+          0.0,
+          -0.18261222589268025,
+          0.6266892212355032,
+          0.7575707194326872,
+          0.0,
+          0.21193568606181082,
+          -0.7273215656882923,
+          0.6527530965520123,
+          0.0,
+          1353686.83802621,
+          -4645586.8229652895,
+          4141388.2749998444,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-23",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "queens",
+      "building_id": "nyc:footprints:doitt:1268043",
+      "bin": "4518264",
+      "source_object_id": 90295,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00031500.json",
+        "sha256": "851b55251e66d409a56ac39627767e1ba65d4a94c9b06bcdd3cc3d391ad74f77",
+        "object_id": 90295
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8218691.59962744,
+        4975666.70904442
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        314376.66855744744,
+        64889.276660516836
+      ],
+      "longitude_latitude_deg": [
+        -73.82976279410047,
+        40.750887054031764
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 2.08250058582033e-09,
+      "pipeline_gpu_reconstruction_error_m": 6.67212619517932e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.83126587661809,
+          40.749635068763794
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1347442.3515941766,
+          -4647391.414696545,
+          4141399.9235706595
+        ],
+        "enu_to_ecef_column_major": [
+          0.9604457860426068,
+          0.27846703947325463,
+          0.0,
+          0.0,
+          -0.18177073211446332,
+          0.6269357192702278,
+          0.7575691419597911,
+          0.0,
+          0.2109580361578368,
+          -0.7276040900311948,
+          0.6527549273274817,
+          0.0,
+          1347442.3515941766,
+          -4647391.414696545,
+          4141399.9235706595,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-24",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "queens",
+      "building_id": "nyc:footprints:doitt:649259",
+      "bin": "4091040",
+      "source_object_id": 186341,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00082000.json",
+        "sha256": "f6a672db1334783fb1b7af0e79be07ec8a9bc7c2322f1e19822a14305ad65596",
+        "object_id": 186341
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8226717.64228139,
+        4967029.17095523
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        308295.1556580861,
+        58349.603389751384
+      ],
+      "longitude_latitude_deg": [
+        -73.90186196197087,
+        40.69208063125084
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 3.4868296880142686e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.90239750048875,
+          40.69118414461556
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1342845.771189693,
+          -4653129.077468895,
+          4136480.466865202
+        ],
+        "enu_to_ecef_column_major": [
+          0.9607907573477208,
+          0.27727444995021283,
+          0.0,
+          0.0,
+          -0.1807778797887971,
+          0.6264180347853227,
+          0.7582346628021971,
+          0.0,
+          0.2102390990616643,
+          -0.7285048559210167,
+          0.6519817452392654,
+          0.0,
+          1342845.771189693,
+          -4653129.077468895,
+          4136480.466865202,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-25",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "staten-island",
+      "building_id": "nyc:footprints:doitt:714571",
+      "bin": "5116940",
+      "source_object_id": 1069926,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00136500.json",
+        "sha256": "d880eb022ffa93b413327209072776c19529cffb60c55bfab2ab8d0069123d27",
+        "object_id": 1069926
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8261605.53020519,
+        4942977.53340021
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        281759.8804781414,
+        40153.1412214428
+      ],
+      "longitude_latitude_deg": [
+        -74.21526519149685,
+        40.52805767567903
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 2.7939677238464355e-09,
+      "pipeline_gpu_reconstruction_error_m": 4.920843568388651e-07,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.215384608546,
+          40.528929694634776
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1320597.6650263432,
+          -4671680.769341169,
+          4122802.1547863786
+        ],
+        "enu_to_ecef_column_major": [
+          0.9622910693746978,
+          0.2720218700797797,
+          0.0,
+          0.0,
+          -0.17676849099008976,
+          0.6253274421527824,
+          0.7600779503996582,
+          0.0,
+          0.20675782547412105,
+          -0.7314162236982156,
+          0.6498319085088503,
+          0.0,
+          1320597.6650263432,
+          -4671680.769341169,
+          4122802.1547863786,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-26",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "staten-island",
+      "building_id": "nyc:footprints:doitt:1270558",
+      "bin": "5169636",
+      "source_object_id": 76952,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00012500.json",
+        "sha256": "654f3cdf6e50fbfa1a658f9815287401ede30a12ecd288267b35c320791ca16c",
+        "object_id": 76952
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8255029.73858558,
+        4943175.91481781
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        286765.4491580594,
+        40292.943694371155
+      ],
+      "longitude_latitude_deg": [
+        -74.15619385032605,
+        40.52941220738226
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 0.0,
+      "pipeline_gpu_reconstruction_error_m": 1.3909132139610716e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.15637527577447,
+          40.52902523986361
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1325406.478887921,
+          -4670311.566291108,
+          4122810.2190573737
+        ],
+        "enu_to_ecef_column_major": [
+          0.962010401801065,
+          0.27301279608573925,
+          0.0,
+          0.0,
+          -0.17741277236844777,
+          0.6251462747453483,
+          0.7600768667526692,
+          0.0,
+          0.20751071063223406,
+          -0.7312018519844298,
+          0.6498331759978443,
+          0.0,
+          1325406.478887921,
+          -4670311.566291108,
+          4122810.2190573737,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-27",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "staten-island",
+      "building_id": "nyc:footprints:doitt:653397",
+      "bin": "5105776",
+      "source_object_id": 83035,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00014000.json",
+        "sha256": "0cba1179203900b1f239f018404e49dec011b330f187e5e76434a811661f1f57",
+        "object_id": 83035
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8248121.941204,
+        4949635.44800524
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        292028.6243500895,
+        45181.475412564156
+      ],
+      "longitude_latitude_deg": [
+        -74.09414005065129,
+        40.57350239870672
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 4.760028423069557e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.09152650436299,
+          40.574121591754185
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1329799.2127864421,
+          -4665677.447606403,
+          4126615.2020628415
+        ],
+        "enu_to_ecef_column_major": [
+          0.9617007830940695,
+          0.27410144800101577,
+          0.0,
+          0.0,
+          -0.17828413808031673,
+          0.6255202095993905,
+          0.7595651607937881,
+          0.0,
+          0.2081979104247017,
+          -0.7304744099463588,
+          0.6504312158163281,
+          0.0,
+          1329799.2127864421,
+          -4665677.447606403,
+          4126615.2020628415,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-28",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "staten-island",
+      "building_id": "nyc:footprints:doitt:1119550",
+      "bin": "5113147",
+      "source_object_id": 1057913,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00134000.json",
+        "sha256": "aed43aeb1f1d10dddfadad1d79133f17020f0235d7af5cc446e224cf0a6b80c6",
+        "object_id": 1057913
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8248134.9953969,
+        4956207.44841749
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        292024.05110343883,
+        50159.48719434658
+      ],
+      "longitude_latitude_deg": [
+        -74.09425731846133,
+        40.618330449967594
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 1.3170890159654386e-09,
+      "pipeline_gpu_reconstruction_error_m": 4.931918416974108e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.09158824404354,
+          40.61914769436169
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1328902.3636175704,
+          -4662549.860028607,
+          4130411.7298502633
+        ],
+        "enu_to_ecef_column_major": [
+          0.9617010784544606,
+          0.27410041170988314,
+          0.0,
+          0.0,
+          -0.1784470214644311,
+          0.6260942547250536,
+          0.7590537825021048,
+          0.0,
+          0.208056954293771,
+          -0.7299828412372117,
+          0.6510279220350288,
+          0.0,
+          1328902.3636175704,
+          -4662549.860028607,
+          4130411.7298502633,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-29",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "staten-island",
+      "building_id": "nyc:footprints:doitt:713204",
+      "bin": "5101729",
+      "source_object_id": 132316,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00018500.json",
+        "sha256": "5ed98a35b4a49100bd6efd864e341a1f66e4f5aaa588619774479f6e9ff1e36e",
+        "object_id": 132316
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8254850.45767113,
+        4956179.7829098
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        286919.29770115495,
+        50145.7893423072
+      ],
+      "longitude_latitude_deg": [
+        -74.15458334247003,
+        40.61814180470288
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 3.0914564079184974e-06,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.15658624299364,
+          40.61907753381596
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1323613.5622214759,
+          -4664059.284542238,
+          4130405.8159932806
+        ],
+        "enu_to_ecef_column_major": [
+          0.9620114070474765,
+          0.27300925389175834,
+          0.0,
+          0.0,
+          -0.17773639349905954,
+          0.6262953931274632,
+          0.7590545797064028,
+          0.0,
+          0.20722892446876723,
+          -0.7302191642491874,
+          0.6510269925484935,
+          0.0,
+          1323613.5622214759,
+          -4664059.284542238,
+          4130405.8159932806,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    },
+    {
+      "id": "NYC-SOURCE-30",
+      "role": "source-correspondence; NOT an independent surveyed control point",
+      "borough": "staten-island",
+      "building_id": "nyc:footprints:doitt:1186636",
+      "bin": "5169624",
+      "source_object_id": 617769,
+      "source_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00079500.json",
+        "sha256": "d27dc6a1886ee7c33e58fab437a7190acf92cf9a5cf56ed817db10b4b419d28a",
+        "object_id": 617769
+      },
+      "source_coordinate_reference": {
+        "crs": "EPSG:3857",
+        "axis_order": "easting,northing",
+        "units": "metre"
+      },
+      "source_xy": [
+        -8259676.13884475,
+        4949962.75091912
+      ],
+      "vertex_locator": {
+        "ring": 0,
+        "vertex": 0
+      },
+      "normalized_projected_m": [
+        283240.4393155076,
+        45444.123008080576
+      ],
+      "longitude_latitude_deg": [
+        -74.19793317401553,
+        40.57573566477991
+      ],
+      "source_to_metric_operation": {
+        "description": "Inverse of Popular Visualisation Pseudo-Mercator + Inverse of NAD83 to WGS 84 (1) + SPCS83 New York Long Island zone (meter)",
+        "definition": "proj=pipeline step inv proj=webmerc lat_0=0 lon_0=0 x_0=0 y_0=0 ellps=WGS84 step proj=lcc lat_0=40.1666666666667 lon_0=-74 lat_1=41.0333333333333 lat_2=40.6666666666667 x_0=300000 y_0=0 ellps=GRS80",
+        "nominal_accuracy_m": 4.0
+      },
+      "coordinate_roundtrip_m": 9.313225746154785e-10,
+      "pipeline_gpu_reconstruction_error_m": 6.906162330751453e-07,
+      "relative_source_geometry_deviation_m": 0.0,
+      "relative_reality_measurement_error_m": null,
+      "reality_measurement_note": "No independent ground survey or dated independent matching image/control observation available",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.19781508386453,
+          40.573987738664336
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1321144.330957153,
+          -4668145.612058503,
+          4126603.912020896
+        ],
+        "enu_to_ecef_column_major": [
+          0.9622076097000429,
+          0.27231694004473855,
+          0.0,
+          0.0,
+          -0.1771229551795723,
+          0.625848158026249,
+          0.7595666803142476,
+          0.0,
+          0.20684287414311606,
+          -0.7308608398729688,
+          0.6504294413357944,
+          0.0,
+          1321144.330957153,
+          -4668145.612058503,
+          4126603.912020896,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      }
+    }
+  ],
+  "source_correspondence_points": 30,
+  "borough_counts": {
+    "manhattan": 6,
+    "bronx": 6,
+    "brooklyn": 6,
+    "queens": 6,
+    "staten-island": 6
+  },
+  "independently_surveyed_control_points": 0,
+  "reality_accuracy_status": "unmeasured; no 0.10m real-world claim",
+  "numeric_target_m": 0.1,
+  "maximum_roundtrip_m": 2.9451005721170265e-09,
+  "maximum_gpu_pipeline_m": 9.305091247013588e-06,
+  "maximum_relative_source_geometry_m": 0.0,
+  "numeric_target_passed": true,
+  "datum_transformation_uncertainty": "NAD83 to WGS84 operation accuracy is separately declared, not included in numerical residuals",
+  "distances": [
+    {
+      "name": "街区量级：下城两真实建筑角点；非测量街道中心线",
+      "from": "BLOCK-A",
+      "to": "BLOCK-B",
+      "from_building": "nyc:footprints:doitt:1000469",
+      "to_building": "nyc:footprints:doitt:1255672",
+      "from_longitude_latitude_deg": [
+        -74.00991256096972,
+        40.71114191439656
+      ],
+      "to_longitude_latitude_deg": [
+        -74.01168960045904,
+        40.71123648269375
+      ],
+      "geodesic_m": 150.52903197481507,
+      "projected_32118_m": 150.52870463725705,
+      "projected_minus_geodesic_m": -0.00032733755801928055,
+      "mercator_m": 198.30604781144896,
+      "mercator_relative_error": 0.3173940283136043,
+      "one_origin_tangent_horizontal_m": 150.52903195991172,
+      "curvature_below_tangent_plane_m": -0.0017738044359978389,
+      "observed_real_distance_m": null
+    },
+    {
+      "name": "跨东河：下城—DUMBO真实建筑角点",
+      "from": "RIVER-A",
+      "to": "RIVER-B",
+      "from_building": "nyc:footprints:doitt:1000469",
+      "to_building": "nyc:footprints:doitt:1013550",
+      "from_longitude_latitude_deg": [
+        -74.00991256096972,
+        40.71114191439656
+      ],
+      "to_longitude_latitude_deg": [
+        -73.99237421041045,
+        40.699551220008594
+      ],
+      "geodesic_m": 1963.019166160269,
+      "projected_32118_m": 1963.0153937452355,
+      "projected_minus_geodesic_m": -0.0037724150333815487,
+      "mercator_m": 2590.105285779848,
+      "mercator_relative_error": 0.3194498201697036,
+      "one_origin_tangent_horizontal_m": 1963.0191351545452,
+      "curvature_below_tangent_plane_m": -0.3021540900151649,
+      "observed_real_distance_m": null,
+      "intersected_real_water_sources": [
+        {
+          "name": "EAST RIVER",
+          "shape_area": "77362484.0294",
+          "shape_leng": "101054.027248",
+          "feat_code": "2620",
+          "status": "Updated",
+          "sub_code": "262000",
+          "source_id": "21260000005.0",
+          "socrata_row_id": "row-vvcp-p3s3_tfhy"
+        }
+      ]
+    },
+    {
+      "name": "跨区：布朗克斯—史泰登岛实际来源角点",
+      "from": "NYC-SOURCE-06",
+      "to": "NYC-SOURCE-25",
+      "from_building": "nyc:footprints:doitt:1269882",
+      "to_building": "nyc:footprints:doitt:714571",
+      "from_longitude_latitude_deg": [
+        -73.90082293887315,
+        40.851002559582305
+      ],
+      "to_longitude_latitude_deg": [
+        -74.21526519149685,
+        40.52805767567903
+      ],
+      "geodesic_m": 44638.174365206716,
+      "projected_32118_m": 44638.179732011835,
+      "projected_minus_geodesic_m": 0.00536680511868326,
+      "mercator_m": 58933.26161760019,
+      "mercator_relative_error": 0.3202435461503954,
+      "one_origin_tangent_horizontal_m": 44637.80918661,
+      "curvature_below_tangent_plane_m": -156.3684890218051,
+      "observed_real_distance_m": null
+    }
+  ],
+  "metric_rulers": [
+    {
+      "requested_m": 1,
+      "calculated_m": 0.9999999996244823
+    },
+    {
+      "requested_m": 10,
+      "calculated_m": 10.000000000029496
+    },
+    {
+      "requested_m": 100,
+      "calculated_m": 99.99999999971945
+    },
+    {
+      "requested_m": 1000,
+      "calculated_m": 999.9999999996191
+    },
+    {
+      "requested_m": 10000,
+      "calculated_m": 9999.999999999962
+    },
+    {
+      "requested_m": 50000,
+      "calculated_m": 49999.999999999694
+    }
+  ],
+  "single_city_tangent_plane_assessment": {
+    "origin": {
+      "world_crs": "EPSG:4978",
+      "geographic_crs": "EPSG:4979",
+      "origin_longitude_latitude_degrees": [
+        -74,
+        40.75
+      ],
+      "origin_ellipsoid_height_m": 0,
+      "origin_ecef_m": [
+        1333742.827066079,
+        -4651313.999479452,
+        4141430.624185203
+      ],
+      "enu_to_ecef_column_major": [
+        0.9612616959383189,
+        0.27563735581699916,
+        0.0,
+        0.0,
+        -0.1799249721525837,
+        0.6274729466925938,
+        0.7575649843840496,
+        0.0,
+        0.2088132091551657,
+        -0.7282182016724976,
+        0.6527597524627224,
+        0.0,
+        1333742.827066079,
+        -4651313.999479452,
+        4141430.624185203,
+        1.0
+      ],
+      "gltf_coordinates": "East,Up,-North",
+      "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+      "units": "metre",
+      "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+    },
+    "min_up_m": -73.69190812425859,
+    "max_up_m": -0.5542587743147411,
+    "decision": "No common flat city plane; ECEF world and individual local tiles retain curvature",
+    "extent_note": "Evaluated at these 30 real source positions; not an exhaustive surface accuracy proof"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://gis.ny.gov/nys-dem",
+  "final_url": "https://gis.ny.gov/nys-dem",
+  "download_started_at": "2026-10-27T05:36:46.256806+00:00",
+  "download_completed_at": "2026-10-27T05:36:46.681697+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": "Mon, 26 Oct 2026 15:16:16 GMT",
+  "bytes": 53128,
+  "sha256": "5dda9ac6f216ac18419b23ff4bc31c851441f9d32566f781aeaf55585b86edbb",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

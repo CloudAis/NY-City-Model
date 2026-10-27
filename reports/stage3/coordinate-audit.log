@@ -1,0 +1,7 @@
+AUDITED 1 / 2904
+AUDITED 501 / 2904
+AUDITED 1001 / 2904
+AUDITED 1501 / 2904
+AUDITED 2001 / 2904
+AUDITED 2501 / 2904
+COORDINATE_AUDIT_COMPLETE 2904 {'glTF2 GLB content': 45, 'actual normalized building records': 13, 'nonspatial catalogue/metadata; no geometry claim': 150, 'published globe reference overlays': 6, 'published orthometric terrain scene': 12, 'canonical height register with raw/provisional values retained': 2, 'actual Rhino document': 1, 'actual CSV attributes': 1, 'versioned evidence SQLite': 1, 'GeoPackage actual SRS tables': 1, 'actual service/layer coordinate metadata': 26, 'Esri feature response': 2202, 'GeoJSON FeatureCollection': 428, 'ZIP container; no single CRS': 3, 'actual LERC ground heights with explicit validity mask': 6, 'GDAL inspected raster': 7}

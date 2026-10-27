@@ -1,0 +1,485 @@
+{
+  "error": "AssertionError [ERR_ASSERTION]: real GLB pick at expected U ENU midpoint\n+ actual - expected\n\n+ null\n- 'diagnostic:U'\n",
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4183/?diagnostics=1",
+    "http://127.0.0.1:4183/assets/main-DvUC4AOT.js",
+    "http://127.0.0.1:4183/assets/Matrix4-C-Gm_KdH.js",
+    "http://127.0.0.1:4183/assets/main-CQ89KcFq.css",
+    "http://127.0.0.1:4183/datasets/catalog.json",
+    "http://127.0.0.1:4183/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4183/datasets/foundation/manifest.json",
+    "http://127.0.0.1:4183/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4183/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4183/datasets/foundation/axes-diagnostic.json",
+    "http://127.0.0.1:4183/cesium/Workers/createVerticesFromHeightmap.js",
+    "http://127.0.0.1:4183/cesium/Workers/transferTypedArrayTest.js",
+    "http://127.0.0.1:4183/datasets/foundation/building-elevations.json",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-MXXXHGW3.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/buildings.json",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/tileset.json",
+    "http://127.0.0.1:4183/datasets/midtown/buildings.json",
+    "http://127.0.0.1:4183/datasets/midtown/tileset.json",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/buildings.json",
+    "http://127.0.0.1:4183/datasets/brooklyn-dumbo/tileset.json",
+    "http://127.0.0.1:4183/datasets/queens-lic/buildings.json",
+    "http://127.0.0.1:4183/cesium/Workers/incrementallyBuildTerrainPicker.js",
+    "http://127.0.0.1:4183/datasets/queens-lic/tileset.json",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/buildings.json",
+    "http://127.0.0.1:4183/datasets/bronx-mott-haven/tileset.json",
+    "http://127.0.0.1:4183/datasets/staten-st-george/buildings.json",
+    "http://127.0.0.1:4183/datasets/staten-st-george/tileset.json",
+    "http://127.0.0.1:4183/datasets/foundation/lower-manhattan-overlays.json",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/597_120.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/598_120.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/597_119.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/598_119.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/598_121.glb",
+    "http://127.0.0.1:4183/datasets/lower-manhattan/597_121.glb",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolygonGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/combineGeometry.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4183/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4183/datasets/foundation/axes-diagnostic.glb"
+  ],
+  "checks": [
+    "existing real footprint picking survives explicit unresolved elevation fields",
+    "real water, roads, metric grid, ground reference points and tile bounds toggle independently"
+  ],
+  "observations": {
+    "mainLayers": {
+      "water": {
+        "show": true,
+        "entities": 5
+      },
+      "roads": {
+        "show": true,
+        "entities": 599
+      },
+      "grid": {
+        "show": true,
+        "entities": 35
+      },
+      "samples": {
+        "show": true,
+        "entities": 81
+      },
+      "bounds": {
+        "show": true,
+        "entities": 72
+      }
+    },
+    "axes": [
+      {
+        "axis": "E",
+        "worldMidpoint": [
+          1333792.3201558972,
+          -4654623.290655189,
+          4138026.6328525334
+        ],
+        "x": 634.0612192660172,
+        "y": 419.36743765464075,
+        "pickedAxis": "diagnostic:E"
+      },
+      {
+        "axis": "W",
+        "worldMidpoint": [
+          1333667.349258314,
+          -4654659.099519416,
+          4138026.6328525334
+        ],
+        "x": 459.88392899791097,
+        "y": 460.0466776180496,
+        "pickedAxis": "diagnostic:W"
+      },
+      {
+        "axis": "N",
+        "worldMidpoint": [
+          1333718.157360334,
+          -4654600.44181185,
+          4138075.9056656486
+        ],
+        "x": 513.9609870439896,
+        "y": 396.7943854970542,
+        "pickedAxis": "diagnostic:N"
+      },
+      {
+        "axis": "S",
+        "worldMidpoint": [
+          1333741.512053877,
+          -4654681.948362755,
+          4137977.360039418
+        ],
+        "x": 592.1234160561332,
+        "y": 488.33111408741513,
+        "pickedAxis": "diagnostic:S"
+      },
+      {
+        "axis": "U",
+        "worldMidpoint": [
+          1333743.4070415278,
+          -4654688.561761775,
+          4138069.026128978
+        ],
+        "x": 550.000004274534,
+        "y": 353.2582481958366,
+        "pickedAxis": null
+      },
+      {
+        "axis": "D",
+        "worldMidpoint": [
+          1333716.2623726833,
+          -4654593.82841283,
+          4137984.2395760887
+        ],
+        "x": 549.999996146876,
+        "y": 516.2237517339055,
+        "pickedAxis": "diagnostic:D"
+      }
+    ]
+  },
+  "main": {
+    "loaded": 6,
+    "catalog": {
+      "schema_version": 1,
+      "pipeline_version": "0.1.0-stage2",
+      "representation": "real official footprint linework; no building solids",
+      "datasets": [
+        {
+          "id": "lower-manhattan",
+          "title": "Lower Manhattan",
+          "records": 299,
+          "published_real_outlines": 299,
+          "tiles": 6,
+          "bounds_wgs84": [
+            -74.0178581642635,
+            40.70388476015906,
+            -74.0061903407694,
+            40.71292794167325
+          ],
+          "tileset": "lower-manhattan/tileset.json",
+          "buildings": "lower-manhattan/buildings.json",
+          "quality": "lower-manhattan/quality.json"
+        },
+        {
+          "id": "midtown",
+          "title": "Midtown",
+          "records": 812,
+          "published_real_outlines": 811,
+          "tiles": 8,
+          "bounds_wgs84": [
+            -73.9904604753511,
+            40.7474659560927,
+            -73.97586729836158,
+            40.757129595006
+          ],
+          "tileset": "midtown/tileset.json",
+          "buildings": "midtown/buildings.json",
+          "quality": "midtown/quality.json"
+        },
+        {
+          "id": "brooklyn-dumbo",
+          "title": "Brooklyn Dumbo",
+          "records": 211,
+          "published_real_outlines": 211,
+          "tiles": 6,
+          "bounds_wgs84": [
+            -73.99383047514662,
+            40.69726580124448,
+            -73.98470638021327,
+            40.704995219242264
+          ],
+          "tileset": "brooklyn-dumbo/tileset.json",
+          "buildings": "brooklyn-dumbo/buildings.json",
+          "quality": "brooklyn-dumbo/quality.json"
+        },
+        {
+          "id": "queens-lic",
+          "title": "Queens Lic",
+          "records": 406,
+          "published_real_outlines": 406,
+          "tiles": 7,
+          "bounds_wgs84": [
+            -73.94968809623361,
+            40.742422230962795,
+            -73.93908346056749,
+            40.75197177377777
+          ],
+          "tileset": "queens-lic/tileset.json",
+          "buildings": "queens-lic/buildings.json",
+          "quality": "queens-lic/quality.json"
+        },
+        {
+          "id": "bronx-mott-haven",
+          "title": "Bronx Mott Haven",
+          "records": 519,
+          "published_real_outlines": 519,
+          "tiles": 8,
+          "bounds_wgs84": [
+            -73.93022306048732,
+            40.80631459715604,
+            -73.91987985395586,
+            40.8160367929585
+          ],
+          "tileset": "bronx-mott-haven/tileset.json",
+          "buildings": "bronx-mott-haven/buildings.json",
+          "quality": "bronx-mott-haven/quality.json"
+        },
+        {
+          "id": "staten-st-george",
+          "title": "Staten St George",
+          "records": 780,
+          "published_real_outlines": 780,
+          "tiles": 9,
+          "bounds_wgs84": [
+            -74.08448574246428,
+            40.63882606833976,
+            -74.07157895058945,
+            40.64794114474505
+          ],
+          "tileset": "staten-st-george/tileset.json",
+          "buildings": "staten-st-george/buildings.json",
+          "quality": "staten-st-george/quality.json"
+        }
+      ],
+      "source_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
+      "height_note": "HEIGHT_ROOF is feet above ground; null and zero are unknown; not rendered as walls",
+      "ground_note": "Ellipsoid reference only; no terrain. Lines lifted 0.25 m solely to avoid depth fighting."
+    },
+    "recordCount": 3027,
+    "active": "lower-manhattan",
+    "selected": "nyc:footprints:doitt:553851",
+    "pickPoints": [
+      {
+        "id": "nyc:footprints:doitt:1000469",
+        "x": 496.03221075191794,
+        "y": 428.98395998252107
+      },
+      {
+        "id": "nyc:footprints:doitt:100556",
+        "x": 221.29424611487877,
+        "y": 699.2977018677944
+      },
+      {
+        "id": "nyc:footprints:doitt:105139",
+        "x": 420.64931864737207,
+        "y": 905.7838792524739
+      },
+      {
+        "id": "nyc:footprints:doitt:108179",
+        "x": 716.5194822800574,
+        "y": 507.3146527172646
+      },
+      {
+        "id": "nyc:footprints:doitt:1105834",
+        "x": 825.2275384569161,
+        "y": 1005.1109718659566
+      },
+      {
+        "id": "nyc:footprints:doitt:1106418",
+        "x": 257.8207085328025,
+        "y": 620.0657180159836
+      },
+      {
+        "id": "nyc:footprints:doitt:1107962",
+        "x": 963.3679982440843,
+        "y": 617.1117314721342
+      },
+      {
+        "id": "nyc:footprints:doitt:1107967",
+        "x": 647.5084396512842,
+        "y": 526.7740795115924
+      },
+      {
+        "id": "nyc:footprints:doitt:1107968",
+        "x": 645.9475650885415,
+        "y": 520.2111884187974
+      },
+      {
+        "id": "nyc:footprints:doitt:1115090",
+        "x": 95.30147568771991,
+        "y": 942.2889237244352
+      },
+      {
+        "id": "nyc:footprints:doitt:1117717",
+        "x": -91.37184032285336,
+        "y": 594.0071207119987
+      },
+      {
+        "id": "nyc:footprints:doitt:114988",
+        "x": 956.9069454180408,
+        "y": 630.7860613355651
+      }
+    ],
+    "failures": [],
+    "tiles": [
+      {
+        "id": "lower-manhattan",
+        "show": true,
+        "tilesLoaded": true
+      },
+      {
+        "id": "midtown",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "brooklyn-dumbo",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "queens-lic",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "bronx-mott-haven",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "staten-st-george",
+        "show": false,
+        "tilesLoaded": true
+      }
+    ],
+    "foundation": {
+      "active": "lower-manhattan",
+      "globalTerrainRegistered": false,
+      "verticalBlock": "source horizontal realization conflict",
+      "axisGlbLoaded": true,
+      "axisVisible": true,
+      "axesPoints": [
+        {
+          "axis": "E",
+          "worldMidpoint": [
+            1333792.3201558972,
+            -4654623.290655189,
+            4138026.6328525334
+          ],
+          "x": 634.0612192653577,
+          "y": 419.36743765464075,
+          "pickedAxis": "diagnostic:E"
+        },
+        {
+          "axis": "W",
+          "worldMidpoint": [
+            1333667.349258314,
+            -4654659.099519416,
+            4138026.6328525334
+          ],
+          "x": 459.88392899755746,
+          "y": 460.0466776180496,
+          "pickedAxis": "diagnostic:W"
+        },
+        {
+          "axis": "N",
+          "worldMidpoint": [
+            1333718.157360334,
+            -4654600.44181185,
+            4138075.9056656486
+          ],
+          "x": 513.9609870433565,
+          "y": 396.7943854970542,
+          "pickedAxis": "diagnostic:N"
+        },
+        {
+          "axis": "S",
+          "worldMidpoint": [
+            1333741.512053877,
+            -4654681.948362755,
+            4137977.360039418
+          ],
+          "x": 592.1234160557633,
+          "y": 488.33111408741513,
+          "pickedAxis": "diagnostic:S"
+        },
+        {
+          "axis": "U",
+          "worldMidpoint": [
+            1333743.4070415278,
+            -4654688.561761775,
+            4138069.026128978
+          ],
+          "x": 550.0000042738139,
+          "y": 353.2582481958366,
+          "pickedAxis": null
+        },
+        {
+          "axis": "D",
+          "worldMidpoint": [
+            1333716.2623726833,
+            -4654593.82841283,
+            4137984.2395760887
+          ],
+          "x": 549.9999961462274,
+          "y": 516.2237517339055,
+          "pickedAxis": "diagnostic:D"
+        }
+      ],
+      "layers": {
+        "water": {
+          "show": true,
+          "entities": 5
+        },
+        "roads": {
+          "show": true,
+          "entities": 599
+        },
+        "grid": {
+          "show": true,
+          "entities": 35
+        },
+        "samples": {
+          "show": true,
+          "entities": 81
+        },
+        "bounds": {
+          "show": true,
+          "entities": 72
+        }
+      },
+      "dataSourceCount": 5,
+      "north": true,
+      "terrainInspection": "terrain.html",
+      "sourceGroundSamples": 81
+    },
+    "camera": {
+      "position": [
+        1333674.460092025,
+        -4655268.251096979,
+        4137864.662445563
+      ],
+      "height": 539.7708651164385
+    }
+  }
+}

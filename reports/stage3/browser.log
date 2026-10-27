@@ -1,0 +1,9 @@
+PASS existing real footprint picking survives explicit unresolved elevation fields
+PASS real water, roads, metric grid, ground reference points and tile bounds toggle independently
+PASS actual glTF feature picking verifies East West North South Up Down with one engine rotation
+PASS whole-city ECEF view stays numerically stable and keeps unresolved global terrain blocked
+PASS switching all six source areas releases old diagnostic data sources
+PASS actual bare-earth orthometric mesh renders source-derived terrain pixels without global-datum substitution
+PASS six real terrain crops retain varying source elevations and release GPU buffers between loads
+PASS orthometric camera, raycast sampling, all diagnostic layers and narrow layout work without height mutation
+{"checks":8,"errors":[]}

@@ -1,0 +1,674 @@
+{
+  "at": "2026-10-27T09:16:15.591279+00:00",
+  "datasets": [
+    {
+      "id": "lower-manhattan",
+      "dem": {
+        "raster": "data/raw/stage3/dem/lower-manhattan.tif",
+        "height_and_mask_source": "data/raw/stage3/dem/lower-manhattan.lerc",
+        "lerc_mask_applied": true,
+        "lerc_info": {
+          "source": "data/raw/stage3/dem/lower-manhattan.lerc",
+          "width": 257,
+          "height": 257,
+          "statistics": [
+            {
+              "minValue": -10.794368743896484,
+              "maxValue": 15.336339950561523,
+              "noDataValue": -3.4027999387901484e+38
+            }
+          ],
+          "maskProvided": true,
+          "validPixels": 54190,
+          "missingPixels": 11859,
+          "validRealZeroPixels": 0,
+          "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+          "valuesFile": "data/intermediate/stage3/dem/lower-manhattan.f32",
+          "maskFile": "data/intermediate/stage3/dem/lower-manhattan.mask",
+          "byteOrder": "little-endian",
+          "exportMetadata": "data/raw/stage3/dem/lower-manhattan-lerc-export.json"
+        },
+        "tiff_zero_count": 11859,
+        "tiff_zero_but_lerc_missing": 11859,
+        "real_zero_valid_cells": 0,
+        "maximum_valid_tiff_lerc_difference_m": 7.534027099609375e-05,
+        "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+        "driver": "GTiff",
+        "size": [
+          257,
+          257
+        ],
+        "geotransform": [
+          298139.60387323715,
+          6.914316863473867,
+          0.0,
+          61001.367121586576,
+          0.0,
+          -6.914316863473867
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+        "authority": [
+          "EPSG",
+          "32118"
+        ],
+        "data_axis_to_srs_axis_mapping": [
+          1,
+          2
+        ],
+        "band_unit_actual": null,
+        "band_metadata": {
+          "SourceBandIndex": "0"
+        },
+        "nodata": null,
+        "valid_cells": 54190,
+        "missing_cells": 11859,
+        "minimum_valid": -10.794368743896484,
+        "maximum_valid": 15.336339950561523,
+        "numpy_file": "data/intermediate/stage3/dem/lower-manhattan.npy",
+        "gdal_version": "3100300",
+        "numpy_version": "2.2.4",
+        "vertical_datum_from_file": null,
+        "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+      },
+      "source_capture": "2017; not download date",
+      "lod_triangles": 6608,
+      "lod_missing_vertices": 793,
+      "valid_cells": 54190,
+      "resolution_output_m": [
+        6.914316863473867,
+        6.914316863473867
+      ],
+      "water_triangulation": [
+        {
+          "source_id": "nyc:water:row:row-vvcp-p3s3_tfhy",
+          "source_clipped_area_m2": 376012.3199617739,
+          "triangle_area_m2": 376012.3199617739,
+          "area_difference_m2": 0.0,
+          "interior_rings_preserved": 0
+        },
+        {
+          "source_id": "nyc:water:row:row-puza.fq9g.8663",
+          "source_clipped_area_m2": 643497.6770754019,
+          "triangle_area_m2": 643497.6770754018,
+          "area_difference_m2": 1.1641532182693481e-10,
+          "interior_rings_preserved": 0
+        }
+      ],
+      "geometry_repairs": [
+        {
+          "id": "nyc:roadbed:row:row-humm_98tb-rnub",
+          "source_valid": false,
+          "source_area_m2": 1649.312502949393,
+          "repaired_area_m2": 1649.3125029493938,
+          "source_cache": "data/intermediate/stage3/context/lower-manhattan-roadbed.geojson"
+        },
+        {
+          "id": "nyc:roadbed:row:row-dcng~ibum.eg76",
+          "source_valid": false,
+          "source_area_m2": 2291.1563441657895,
+          "repaired_area_m2": 2291.156344165788,
+          "source_cache": "data/intermediate/stage3/context/lower-manhattan-roadbed.geojson"
+        }
+      ],
+      "water_filled_features": 2,
+      "wetland_and_beach_never_filled_as_water": true,
+      "road_z_unresolved": 580,
+      "published_tile_seam_max_m": 3.788164094833842e-05,
+      "shared_boundary_comparisons": 125,
+      "source_overlapping_crops_not_stitched": true,
+      "ecef_terrain_publication": "blocked by unresolved source realization; local NAVD88 preview is available"
+    },
+    {
+      "id": "midtown",
+      "dem": {
+        "raster": "data/raw/stage3/dem/midtown.tif",
+        "height_and_mask_source": "data/raw/stage3/dem/midtown.lerc",
+        "lerc_mask_applied": true,
+        "lerc_info": {
+          "source": "data/raw/stage3/dem/midtown.lerc",
+          "width": 257,
+          "height": 257,
+          "statistics": [
+            {
+              "minValue": -4.398258209228516,
+              "maxValue": 25.243736267089844,
+              "noDataValue": -3.4027999387901484e+38
+            }
+          ],
+          "maskProvided": true,
+          "validPixels": 65992,
+          "missingPixels": 57,
+          "validRealZeroPixels": 0,
+          "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+          "valuesFile": "data/intermediate/stage3/dem/midtown.f32",
+          "maskFile": "data/intermediate/stage3/dem/midtown.mask",
+          "byteOrder": "little-endian",
+          "exportMetadata": "data/raw/stage3/dem/midtown-lerc-export.json"
+        },
+        "tiff_zero_count": 57,
+        "tiff_zero_but_lerc_missing": 57,
+        "real_zero_valid_cells": 0,
+        "maximum_valid_tiff_lerc_difference_m": 7.534027099609375e-05,
+        "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+        "driver": "GTiff",
+        "size": [
+          257,
+          257
+        ],
+        "geotransform": [
+          300337.7521387194,
+          8.54503276860722,
+          0.0,
+          66097.15609435074,
+          0.0,
+          -8.54503276860722
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+        "authority": [
+          "EPSG",
+          "32118"
+        ],
+        "data_axis_to_srs_axis_mapping": [
+          1,
+          2
+        ],
+        "band_unit_actual": null,
+        "band_metadata": {
+          "SourceBandIndex": "0"
+        },
+        "nodata": null,
+        "valid_cells": 65992,
+        "missing_cells": 57,
+        "minimum_valid": -4.398258209228516,
+        "maximum_valid": 25.243696212768555,
+        "numpy_file": "data/intermediate/stage3/dem/midtown.npy",
+        "gdal_version": "3100300",
+        "numpy_version": "2.2.4",
+        "vertical_datum_from_file": null,
+        "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+      },
+      "source_capture": "2017; not download date",
+      "lod_triangles": 8180,
+      "lod_missing_vertices": 6,
+      "valid_cells": 65992,
+      "resolution_output_m": [
+        8.54503276860722,
+        8.54503276860722
+      ],
+      "water_triangulation": [
+        {
+          "source_id": "nyc:water:row:row-vvcp-p3s3_tfhy",
+          "source_clipped_area_m2": 35005.71348045191,
+          "triangle_area_m2": 35005.71348045192,
+          "area_difference_m2": 1.4551915228366852e-11,
+          "interior_rings_preserved": 0
+        }
+      ],
+      "geometry_repairs": [
+        {
+          "id": "nyc:roadbed:row:row-vw6x-ekgj.vzv3",
+          "source_valid": false,
+          "source_area_m2": 1530.5068911710553,
+          "repaired_area_m2": 1530.5068911710566,
+          "source_cache": "data/intermediate/stage3/context/midtown-roadbed.geojson"
+        }
+      ],
+      "water_filled_features": 1,
+      "wetland_and_beach_never_filled_as_water": true,
+      "road_z_unresolved": 1113,
+      "published_tile_seam_max_m": 4.8402162141955503e-05,
+      "shared_boundary_comparisons": 131,
+      "source_overlapping_crops_not_stitched": true,
+      "ecef_terrain_publication": "blocked by unresolved source realization; local NAVD88 preview is available"
+    },
+    {
+      "id": "brooklyn-dumbo",
+      "dem": {
+        "raster": "data/raw/stage3/dem/brooklyn-dumbo.tif",
+        "height_and_mask_source": "data/raw/stage3/dem/brooklyn-dumbo.lerc",
+        "lerc_mask_applied": true,
+        "lerc_info": {
+          "source": "data/raw/stage3/dem/brooklyn-dumbo.lerc",
+          "width": 257,
+          "height": 257,
+          "statistics": [
+            {
+              "minValue": -0.7802879810333252,
+              "maxValue": 28.105623245239258,
+              "noDataValue": -3.4027999387901484e+38
+            }
+          ],
+          "maskProvided": true,
+          "validPixels": 55317,
+          "missingPixels": 10732,
+          "validRealZeroPixels": 0,
+          "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+          "valuesFile": "data/intermediate/stage3/dem/brooklyn-dumbo.f32",
+          "maskFile": "data/intermediate/stage3/dem/brooklyn-dumbo.mask",
+          "byteOrder": "little-endian",
+          "exportMetadata": "data/raw/stage3/dem/brooklyn-dumbo-lerc-export.json"
+        },
+        "tiff_zero_count": 10732,
+        "tiff_zero_but_lerc_missing": 10732,
+        "real_zero_valid_cells": 0,
+        "maximum_valid_tiff_lerc_difference_m": 7.62939453125e-05,
+        "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+        "driver": "GTiff",
+        "size": [
+          257,
+          257
+        ],
+        "geotransform": [
+          299845.7271238633,
+          7.778427542680113,
+          0.0,
+          60335.058676662855,
+          0.0,
+          -7.778427542680113
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+        "authority": [
+          "EPSG",
+          "32118"
+        ],
+        "data_axis_to_srs_axis_mapping": [
+          1,
+          2
+        ],
+        "band_unit_actual": null,
+        "band_metadata": {
+          "SourceBandIndex": "0"
+        },
+        "nodata": null,
+        "valid_cells": 55317,
+        "missing_cells": 10732,
+        "minimum_valid": -0.7802879810333252,
+        "maximum_valid": 28.105571746826172,
+        "numpy_file": "data/intermediate/stage3/dem/brooklyn-dumbo.npy",
+        "gdal_version": "3100300",
+        "numpy_version": "2.2.4",
+        "vertical_datum_from_file": null,
+        "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+      },
+      "source_capture": "2017; not download date",
+      "lod_triangles": 6662,
+      "lod_missing_vertices": 682,
+      "valid_cells": 55317,
+      "resolution_output_m": [
+        7.778427542680113,
+        7.778427542680113
+      ],
+      "water_triangulation": [
+        {
+          "source_id": "nyc:water:row:row-67nr-7y8t_rgvu",
+          "source_clipped_area_m2": 1.6605703260571067,
+          "triangle_area_m2": 1.6605703260571067,
+          "area_difference_m2": 0.0,
+          "interior_rings_preserved": 0
+        },
+        {
+          "source_id": "nyc:water:row:row-vvcp-p3s3_tfhy",
+          "source_clipped_area_m2": 1309024.650067199,
+          "triangle_area_m2": 1309024.650067199,
+          "area_difference_m2": 0.0,
+          "interior_rings_preserved": 0
+        },
+        {
+          "source_id": "nyc:water:row:row-c86f~kqhq_qev7",
+          "source_clipped_area_m2": 2335.961943208389,
+          "triangle_area_m2": 2335.961943208389,
+          "area_difference_m2": 0.0,
+          "interior_rings_preserved": 0
+        },
+        {
+          "source_id": "nyc:water:row:row-hccc-mqnu.26vy",
+          "source_clipped_area_m2": 802.1744812020463,
+          "triangle_area_m2": 802.1744812020465,
+          "area_difference_m2": 2.2737367544323206e-13,
+          "interior_rings_preserved": 0
+        }
+      ],
+      "geometry_repairs": [],
+      "water_filled_features": 4,
+      "wetland_and_beach_never_filled_as_water": true,
+      "road_z_unresolved": 748,
+      "published_tile_seam_max_m": 1.0531783333676602e-05,
+      "shared_boundary_comparisons": 115,
+      "source_overlapping_crops_not_stitched": true,
+      "ecef_terrain_publication": "blocked by unresolved source realization; local NAVD88 preview is available"
+    },
+    {
+      "id": "queens-lic",
+      "dem": {
+        "raster": "data/raw/stage3/dem/queens-lic.tif",
+        "height_and_mask_source": "data/raw/stage3/dem/queens-lic.lerc",
+        "lerc_mask_applied": true,
+        "lerc_info": {
+          "source": "data/raw/stage3/dem/queens-lic.lerc",
+          "width": 257,
+          "height": 257,
+          "statistics": [
+            {
+              "minValue": -15.050167083740234,
+              "maxValue": 17.76073455810547,
+              "noDataValue": -3.4027999387901484e+38
+            }
+          ],
+          "maskProvided": true,
+          "validPixels": 65150,
+          "missingPixels": 899,
+          "validRealZeroPixels": 0,
+          "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+          "valuesFile": "data/intermediate/stage3/dem/queens-lic.f32",
+          "maskFile": "data/intermediate/stage3/dem/queens-lic.mask",
+          "byteOrder": "little-endian",
+          "exportMetadata": "data/raw/stage3/dem/queens-lic-lerc-export.json"
+        },
+        "tiff_zero_count": 899,
+        "tiff_zero_but_lerc_missing": 899,
+        "real_zero_valid_cells": 0,
+        "maximum_valid_tiff_lerc_difference_m": 7.534027099609375e-05,
+        "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+        "driver": "GTiff",
+        "size": [
+          257,
+          257
+        ],
+        "geotransform": [
+          303534.1269047306,
+          8.647278751398831,
+          0.0,
+          65445.32175877225,
+          0.0,
+          -8.647278751398831
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+        "authority": [
+          "EPSG",
+          "32118"
+        ],
+        "data_axis_to_srs_axis_mapping": [
+          1,
+          2
+        ],
+        "band_unit_actual": null,
+        "band_metadata": {
+          "SourceBandIndex": "0"
+        },
+        "nodata": null,
+        "valid_cells": 65150,
+        "missing_cells": 899,
+        "minimum_valid": -15.050167083740234,
+        "maximum_valid": 17.76073455810547,
+        "numpy_file": "data/intermediate/stage3/dem/queens-lic.npy",
+        "gdal_version": "3100300",
+        "numpy_version": "2.2.4",
+        "vertical_datum_from_file": null,
+        "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+      },
+      "source_capture": "2017; not download date",
+      "lod_triangles": 8014,
+      "lod_missing_vertices": 58,
+      "valid_cells": 65150,
+      "resolution_output_m": [
+        8.647278751398831,
+        8.647278751398831
+      ],
+      "water_triangulation": [
+        {
+          "source_id": "nyc:water:row:row-vvcp-p3s3_tfhy",
+          "source_clipped_area_m2": 11703.8422085066,
+          "triangle_area_m2": 11703.842208506598,
+          "area_difference_m2": 1.8189894035458565e-12,
+          "interior_rings_preserved": 0
+        },
+        {
+          "source_id": "nyc:water:row:row-829s.3dqt-xc9s",
+          "source_clipped_area_m2": 261787.88539197398,
+          "triangle_area_m2": 261787.88539197363,
+          "area_difference_m2": 3.4924596548080444e-10,
+          "interior_rings_preserved": 0
+        }
+      ],
+      "geometry_repairs": [],
+      "water_filled_features": 2,
+      "wetland_and_beach_never_filled_as_water": true,
+      "road_z_unresolved": 870,
+      "published_tile_seam_max_m": 6.2102084772069475e-06,
+      "shared_boundary_comparisons": 131,
+      "source_overlapping_crops_not_stitched": true,
+      "ecef_terrain_publication": "blocked by unresolved source realization; local NAVD88 preview is available"
+    },
+    {
+      "id": "bronx-mott-haven",
+      "dem": {
+        "raster": "data/raw/stage3/dem/bronx-mott-haven.tif",
+        "height_and_mask_source": "data/raw/stage3/dem/bronx-mott-haven.lerc",
+        "lerc_mask_applied": true,
+        "lerc_info": {
+          "source": "data/raw/stage3/dem/bronx-mott-haven.lerc",
+          "width": 257,
+          "height": 257,
+          "statistics": [
+            {
+              "minValue": -2.391723394393921,
+              "maxValue": 26.214197158813477,
+              "noDataValue": -3.4027999387901484e+38
+            }
+          ],
+          "maskProvided": true,
+          "validPixels": 65220,
+          "missingPixels": 829,
+          "validRealZeroPixels": 0,
+          "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+          "valuesFile": "data/intermediate/stage3/dem/bronx-mott-haven.f32",
+          "maskFile": "data/intermediate/stage3/dem/bronx-mott-haven.mask",
+          "byteOrder": "little-endian",
+          "exportMetadata": "data/raw/stage3/dem/bronx-mott-haven-lerc-export.json"
+        },
+        "tiff_zero_count": 829,
+        "tiff_zero_but_lerc_missing": 829,
+        "real_zero_valid_cells": 0,
+        "maximum_valid_tiff_lerc_difference_m": 7.534027099609375e-05,
+        "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+        "driver": "GTiff",
+        "size": [
+          257,
+          257
+        ],
+        "geotransform": [
+          305190.2148948383,
+          9.513033924801892,
+          0.0,
+          72776.07797592413,
+          0.0,
+          -9.513033924801892
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+        "authority": [
+          "EPSG",
+          "32118"
+        ],
+        "data_axis_to_srs_axis_mapping": [
+          1,
+          2
+        ],
+        "band_unit_actual": null,
+        "band_metadata": {
+          "SourceBandIndex": "0"
+        },
+        "nodata": null,
+        "valid_cells": 65220,
+        "missing_cells": 829,
+        "minimum_valid": -2.391723394393921,
+        "maximum_valid": 26.214197158813477,
+        "numpy_file": "data/intermediate/stage3/dem/bronx-mott-haven.npy",
+        "gdal_version": "3100300",
+        "numpy_version": "2.2.4",
+        "vertical_datum_from_file": null,
+        "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+      },
+      "source_capture": "2017; not download date",
+      "lod_triangles": 8042,
+      "lod_missing_vertices": 52,
+      "valid_cells": 65220,
+      "resolution_output_m": [
+        9.513033924801892,
+        9.513033924801892
+      ],
+      "water_triangulation": [
+        {
+          "source_id": "nyc:water:row:row-4qvt.wid8~2fj5",
+          "source_clipped_area_m2": 280519.52712230023,
+          "triangle_area_m2": 280519.5271223,
+          "area_difference_m2": 2.3283064365386963e-10,
+          "interior_rings_preserved": 0
+        },
+        {
+          "source_id": "nyc:water:row:row-2wpe.khzw~umhp",
+          "source_clipped_area_m2": 123258.41598687012,
+          "triangle_area_m2": 123258.41598687028,
+          "area_difference_m2": 1.6007106751203537e-10,
+          "interior_rings_preserved": 0
+        }
+      ],
+      "geometry_repairs": [
+        {
+          "id": "nyc:roadbed:row:row-59g3~k2kw_qdyb",
+          "source_valid": false,
+          "source_area_m2": 1605.5687426801117,
+          "repaired_area_m2": 1605.5687426801103,
+          "source_cache": "data/intermediate/stage3/context/bronx-mott-haven-roadbed.geojson"
+        },
+        {
+          "id": "nyc:roadbed:row:row-jx8k_qepx~9qfw",
+          "source_valid": false,
+          "source_area_m2": 4551.870693887399,
+          "repaired_area_m2": 4551.870693887406,
+          "source_cache": "data/intermediate/stage3/context/bronx-mott-haven-roadbed.geojson"
+        },
+        {
+          "id": "nyc:roadbed:row:row-c74w.qauu-fnyu",
+          "source_valid": false,
+          "source_area_m2": 1470.2998324129728,
+          "repaired_area_m2": 1470.2998324129742,
+          "source_cache": "data/intermediate/stage3/context/bronx-mott-haven-roadbed.geojson"
+        }
+      ],
+      "water_filled_features": 2,
+      "wetland_and_beach_never_filled_as_water": true,
+      "road_z_unresolved": 1234,
+      "published_tile_seam_max_m": 1.048454305500195e-05,
+      "shared_boundary_comparisons": 131,
+      "source_overlapping_crops_not_stitched": true,
+      "ecef_terrain_publication": "blocked by unresolved source realization; local NAVD88 preview is available"
+    },
+    {
+      "id": "staten-st-george",
+      "dem": {
+        "raster": "data/raw/stage3/dem/staten-st-george.tif",
+        "height_and_mask_source": "data/raw/stage3/dem/staten-st-george.lerc",
+        "lerc_mask_applied": true,
+        "lerc_info": {
+          "source": "data/raw/stage3/dem/staten-st-george.lerc",
+          "width": 257,
+          "height": 257,
+          "statistics": [
+            {
+              "minValue": -2.3920865058898926,
+              "maxValue": 71.75956726074219,
+              "noDataValue": -3.4027999387901484e+38
+            }
+          ],
+          "maskProvided": true,
+          "validPixels": 31311,
+          "missingPixels": 34738,
+          "validRealZeroPixels": 0,
+          "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+          "valuesFile": "data/intermediate/stage3/dem/staten-st-george.f32",
+          "maskFile": "data/intermediate/stage3/dem/staten-st-george.mask",
+          "byteOrder": "little-endian",
+          "exportMetadata": "data/raw/stage3/dem/staten-st-george-lerc-export.json"
+        },
+        "tiff_zero_count": 34738,
+        "tiff_zero_but_lerc_missing": 34738,
+        "real_zero_valid_cells": 0,
+        "maximum_valid_tiff_lerc_difference_m": 7.62939453125e-05,
+        "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+        "driver": "GTiff",
+        "size": [
+          257,
+          257
+        ],
+        "geotransform": [
+          292277.4124126944,
+          9.081169962625705,
+          0.0,
+          54120.105867717415,
+          0.0,
+          -9.081169962625705
+        ],
+        "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+        "authority": [
+          "EPSG",
+          "32118"
+        ],
+        "data_axis_to_srs_axis_mapping": [
+          1,
+          2
+        ],
+        "band_unit_actual": null,
+        "band_metadata": {
+          "SourceBandIndex": "0"
+        },
+        "nodata": null,
+        "valid_cells": 31311,
+        "missing_cells": 34738,
+        "minimum_valid": -2.3920865058898926,
+        "maximum_valid": 71.75956726074219,
+        "numpy_file": "data/intermediate/stage3/dem/staten-st-george.npy",
+        "gdal_version": "3100300",
+        "numpy_version": "2.2.4",
+        "vertical_datum_from_file": null,
+        "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+      },
+      "source_capture": "2017; not download date",
+      "lod_triangles": 3766,
+      "lod_missing_vertices": 2240,
+      "valid_cells": 31311,
+      "resolution_output_m": [
+        9.081169962625705,
+        9.081169962625705
+      ],
+      "water_triangulation": [
+        {
+          "source_id": "nyc:water:row:row-6vpg_a9s4-g7ve",
+          "source_clipped_area_m2": 235055.9725330262,
+          "triangle_area_m2": 235055.97253302633,
+          "area_difference_m2": 1.4551915228366852e-10,
+          "interior_rings_preserved": 0
+        },
+        {
+          "source_id": "nyc:water:row:row-yazx-mt6p.e5am",
+          "source_clipped_area_m2": 2579717.5503890445,
+          "triangle_area_m2": 2579717.550389046,
+          "area_difference_m2": 1.3969838619232178e-09,
+          "interior_rings_preserved": 0
+        }
+      ],
+      "geometry_repairs": [],
+      "water_filled_features": 2,
+      "wetland_and_beach_never_filled_as_water": true,
+      "road_z_unresolved": 285,
+      "published_tile_seam_max_m": 2.1625768171762034e-05,
+      "shared_boundary_comparisons": 92,
+      "source_overlapping_crops_not_stitched": true,
+      "ecef_terrain_publication": "blocked by unresolved source realization; local NAVD88 preview is available"
+    }
+  ],
+  "building_height_register_count": 3027,
+  "canonical_unknown_foot_heights": 3027,
+  "no_zero_filled_exterior": true,
+  "geoid_grid_available": true,
+  "vertical_registration_unresolved": true
+}

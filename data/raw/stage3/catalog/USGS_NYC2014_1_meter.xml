@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<metadata xml:lang="en">
+<Esri>
+<CreaDate>20150612</CreaDate>
+<CreaTime>08561200</CreaTime>
+<ArcGISFormat>1.0</ArcGISFormat>
+<ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+<SyncOnce>FALSE</SyncOnce>
+<DataProperties>
+<itemProps>
+<itemName Sync="TRUE">USGS_NYC_2014_1_meter</itemName>
+<imsContentType Sync="TRUE">002</imsContentType>
+<nativeExtBox>
+<westBL Sync="TRUE">562313.000000</westBL>
+<eastBL Sync="TRUE">609840.000000</eastBL>
+<southBL Sync="TRUE">4483013.000000</southBL>
+<northBL Sync="TRUE">4530404.000000</northBL>
+<exTypeCode Sync="TRUE">1</exTypeCode>
+</nativeExtBox>
+</itemProps>
+<coordRef>
+<type Sync="TRUE">Projected</type>
+<geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+<projcsn Sync="TRUE">NAD83_UTM_zone_18N</projcsn>
+<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD83_UTM_zone_18N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;false_easting&amp;quot;,500000.0],PARAMETER[&amp;quot;false_northing&amp;quot;,0.0],PARAMETER[&amp;quot;central_meridian&amp;quot;,-75.0],PARAMETER[&amp;quot;scale_factor&amp;quot;,0.9996],PARAMETER[&amp;quot;latitude_of_origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+</coordRef>
+</DataProperties>
+<SyncDate>20150612</SyncDate>
+<SyncTime>08561200</SyncTime>
+<ModDate>20150612</ModDate>
+<ModTime>08561200</ModTime>
+</Esri>
+<dataIdInfo>
+<envirDesc Sync="FALSE">Esri ArcGIS 10.1.0.3035</envirDesc>
+<dataLang>
+<languageCode Sync="TRUE" value="eng">
+</languageCode>
+<countryCode Sync="TRUE" value="USA">
+</countryCode>
+</dataLang>
+<idCitation>
+<resTitle Sync="TRUE">USGS_NYC_2014_1_meter</resTitle>
+<presForm>
+<PresFormCd Sync="TRUE" value="011">
+</PresFormCd>
+</presForm>
+</idCitation>
+<spatRpType>
+<SpatRepTypCd Sync="TRUE" value="002">
+</SpatRepTypCd>
+</spatRpType>
+<dataExt>
+<geoEle>
+<GeoBndBox esriExtentType="search">
+<exTypeCode Sync="TRUE">1</exTypeCode>
+<westBL Sync="TRUE">-74.264656</westBL>
+<eastBL Sync="TRUE">-73.695603</eastBL>
+<northBL Sync="TRUE">40.922378</northBL>
+<southBL Sync="TRUE">40.490554</southBL>
+</GeoBndBox>
+</geoEle>
+</dataExt>
+<idAbs>USGS_NYC2014_1_meter</idAbs>
+<searchKeys>
+
+
+    
+    <keyword>USGS_NYC2014_1_meter</keyword>
+    </searchKeys>
+<idPurp>USGS_NYC2014_1_meter</idPurp>
+<idCredit/>
+<resConst>
+<Consts>
+<useLimit/>
+</Consts>
+</resConst>
+</dataIdInfo>
+<mdLang>
+<languageCode Sync="TRUE" value="eng">
+</languageCode>
+<countryCode Sync="TRUE" value="USA">
+</countryCode>
+</mdLang>
+<mdChar>
+<CharSetCd Sync="TRUE" value="004">
+</CharSetCd>
+</mdChar>
+<distInfo>
+<distFormat>
+<formatName Sync="TRUE">File Geodatabase Raster Dataset</formatName>
+</distFormat>
+</distInfo>
+<mdHrLv>
+<ScopeCd Sync="TRUE" value="005">
+</ScopeCd>
+</mdHrLv>
+<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+<refSysInfo>
+<RefSystem>
+<refSysID>
+<identCode Sync="TRUE" code="0">
+</identCode>
+</refSysID>
+</RefSystem>
+</refSysInfo>
+<spdoinfo>
+<rastinfo>
+<rasttype Sync="TRUE">Pixel</rasttype>
+<rowcount Sync="TRUE">47391</rowcount>
+<colcount Sync="TRUE">47527</colcount>
+<rastxsz Sync="TRUE">1.000000</rastxsz>
+<rastysz Sync="TRUE">1.000000</rastysz>
+<rastbpp Sync="TRUE">32</rastbpp>
+<vrtcount Sync="TRUE">1</vrtcount>
+<rastorig Sync="TRUE">Upper Left</rastorig>
+<rastcmap Sync="TRUE">FALSE</rastcmap>
+<rastcomp Sync="TRUE">LZ77</rastcomp>
+<rastband Sync="TRUE">1</rastband>
+<rastdtyp Sync="TRUE">pixel codes</rastdtyp>
+<rastifor Sync="TRUE">FGDBR</rastifor>
+<rastplyr Sync="TRUE">TRUE</rastplyr>
+</rastinfo>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<planci>
+<plance Sync="TRUE">row and column</plance>
+<coordrep>
+<absres Sync="TRUE">1.000000</absres>
+<ordres Sync="TRUE">1.000000</ordres>
+</coordrep>
+</planci>
+</planar>
+</horizsys>
+</spref>
+<mdDateSt Sync="TRUE">20150612</mdDateSt>
+<Binary>
+    <Thumbnail>
+      <Data EsriPropertyType="PictureX">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</Data>
+    </Thumbnail>
+  </Binary>
+</metadata>

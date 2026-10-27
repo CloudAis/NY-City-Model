@@ -1,0 +1,21 @@
+{
+  "source": "data/raw/stage3/dem/queens-lic.lerc",
+  "width": 257,
+  "height": 257,
+  "statistics": [
+    {
+      "minValue": -15.050167083740234,
+      "maxValue": 17.76073455810547,
+      "noDataValue": -3.4027999387901484e+38
+    }
+  ],
+  "maskProvided": true,
+  "validPixels": 65150,
+  "missingPixels": 899,
+  "validRealZeroPixels": 0,
+  "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+  "valuesFile": "data/intermediate/stage3/dem/queens-lic.f32",
+  "maskFile": "data/intermediate/stage3/dem/queens-lic.mask",
+  "byteOrder": "little-endian",
+  "exportMetadata": "data/raw/stage3/dem/queens-lic-lerc-export.json"
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer/exportImage?f=json&bbox=-73.958%2C40.736%2C-73.932%2C40.756&bboxSR=4326&imageSR=32118&size=257%2C257&format=lerc&pixelType=F32&interpolation=RSP_BilinearInterpolation&noDataInterpretation=esriNoDataMatchAny",
+  "final_url": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer/exportImage?f=json&bbox=-73.958%2C40.736%2C-73.932%2C40.756&bboxSR=4326&imageSR=32118&size=257%2C257&format=lerc&pixelType=F32&interpolation=RSP_BilinearInterpolation&noDataInterpretation=esriNoDataMatchAny",
+  "download_started_at": "2026-10-27T08:33:36.494446+00:00",
+  "download_completed_at": "2026-10-27T08:33:36.872888+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "etag": "47d302d3",
+  "last_modified_http": null,
+  "bytes": 365,
+  "sha256": "fa40877a64ccac2d006857e3cfe1b2df88a2355e77d06a0207e3a4f8b07c047a",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

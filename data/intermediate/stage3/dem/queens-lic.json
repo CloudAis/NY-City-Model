@@ -1,0 +1,67 @@
+{
+  "raster": "data/raw/stage3/dem/queens-lic.tif",
+  "height_and_mask_source": "data/raw/stage3/dem/queens-lic.lerc",
+  "lerc_mask_applied": true,
+  "lerc_info": {
+    "source": "data/raw/stage3/dem/queens-lic.lerc",
+    "width": 257,
+    "height": 257,
+    "statistics": [
+      {
+        "minValue": -15.050167083740234,
+        "maxValue": 17.76073455810547,
+        "noDataValue": -3.4027999387901484e+38
+      }
+    ],
+    "maskProvided": true,
+    "validPixels": 65150,
+    "missingPixels": 899,
+    "validRealZeroPixels": 0,
+    "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+    "valuesFile": "data/intermediate/stage3/dem/queens-lic.f32",
+    "maskFile": "data/intermediate/stage3/dem/queens-lic.mask",
+    "byteOrder": "little-endian",
+    "exportMetadata": "data/raw/stage3/dem/queens-lic-lerc-export.json"
+  },
+  "tiff_zero_count": 899,
+  "tiff_zero_but_lerc_missing": 899,
+  "real_zero_valid_cells": 0,
+  "maximum_valid_tiff_lerc_difference_m": 7.534027099609375e-05,
+  "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+  "driver": "GTiff",
+  "size": [
+    257,
+    257
+  ],
+  "geotransform": [
+    303534.1269047306,
+    8.647278751398831,
+    0.0,
+    65445.32175877225,
+    0.0,
+    -8.647278751398831
+  ],
+  "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+  "authority": [
+    "EPSG",
+    "32118"
+  ],
+  "data_axis_to_srs_axis_mapping": [
+    1,
+    2
+  ],
+  "band_unit_actual": null,
+  "band_metadata": {
+    "SourceBandIndex": "0"
+  },
+  "nodata": null,
+  "valid_cells": 65150,
+  "missing_cells": 899,
+  "minimum_valid": -15.050167083740234,
+  "maximum_valid": 17.76073455810547,
+  "numpy_file": "data/intermediate/stage3/dem/queens-lic.npy",
+  "gdal_version": "3100300",
+  "numpy_version": "2.2.4",
+  "vertical_datum_from_file": null,
+  "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+}

@@ -1,0 +1,262 @@
+{
+ "currentVersion": 10.81,
+ "folders": [
+  "indexes",
+  "Ortho",
+  "Utilities"
+ ],
+ "services": [
+  {
+   "name": "County_Erie2008_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "County_Ontario2006_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "County_Tompkins2008_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "DEM_2024_Long_Island",
+   "type": "ImageServer"
+  },
+  {
+   "name": "DEM_Extents",
+   "type": "FeatureServer"
+  },
+  {
+   "name": "DEM_Extents",
+   "type": "MapServer"
+  },
+  {
+   "name": "Dem_Indexes",
+   "type": "FeatureServer"
+  },
+  {
+   "name": "Dem_Indexes",
+   "type": "MapServer"
+  },
+  {
+   "name": "FEMA_2019_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_DelawareSullivan2007_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_FultonSaratogaHerkimerFranklin2017_1meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_GreatLakesChautauqua2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_GreatLakesJefferson2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_GreatLakesOrleans2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_GreatLakesStLawrence2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_GreatLakesWayneCayugaOswego2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_HudsonHoosic_2014_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_Mohawk2007_Oneida2008_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_OneidaSubbasin_2017_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_SenecaWatershed2012_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_StLawrenceFranklin_2017_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_Suffolk2006_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "FEMA_SusquehannaBasin2007_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "In_Progress_LiDAR_Collections_in_NYS",
+   "type": "FeatureServer"
+  },
+  {
+   "name": "In_Progress_LiDAR_Collections_in_NYS",
+   "type": "MapServer"
+  },
+  {
+   "name": "LAS_Indexes",
+   "type": "FeatureServer"
+  },
+  {
+   "name": "LAS_Indexes",
+   "type": "MapServer"
+  },
+  {
+   "name": "Latest_DEM",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYC_TopoBathymetric_2017_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYS_LakeOntarioShoreline_2023_JeffersonOswegoWayneStLawrence",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYS_LakeOntarioShoreline_Orleans",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYS_Southeast_4_County_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYS_Statewide_Hillshade",
+   "type": "MapServer"
+  },
+  {
+   "name": "NYSDEC_Coastal2011_1_Meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_AlleganySteuben2016_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_CapitalDistrict2008_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_CayugaOswego2018_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_CentralFingerLakes2020_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_ColumbiaRensselaer2015_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_ErieGeneseeLivingston_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_GreatGully2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_JeffersonBlackRiver2010_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_MadisonOtsego2015_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_Putnam2008_EastOfHudson2009_2_Meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_RensselaerHoosickRiver2010_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_Southwest2017_Spring_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_Southwest2017B_Fall_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_WarrenWashingtonEssex2015_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "NYSGPO_WestOfHudson2009_Greene2010_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USDA_DeanCreek2011_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USDA_Genesee2012_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USDA_Lewis2011_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USDA_Livingston2012_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_10_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_2024_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_3County2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_ClintonEssexFranklin2015_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_LakeOntario_HudsonRiver_2022_1meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_LongIsland2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_Northeast2011_2_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_NYC2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "USGS_Schoharie2014_1_meter",
+   "type": "ImageServer"
+  },
+  {
+   "name": "Vermont_GrandIsle2013_07_meter",
+   "type": "ImageServer"
+  }
+ ]
+}

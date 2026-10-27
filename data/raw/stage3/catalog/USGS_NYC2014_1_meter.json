@@ -1,0 +1,109 @@
+{
+ "currentVersion": 10.81,
+ "serviceDescription": "USGS_NYC2014_1_meter",
+ "name": "USGS_NYC2014_1_meter",
+ "description": "USGS_NYC2014_1_meter",
+ "extent": {
+  "xmin": 562313,
+  "ymin": 4483013,
+  "xmax": 609840,
+  "ymax": 4530404,
+  "spatialReference": {
+   "wkid": 26918,
+   "latestWkid": 26918
+  }
+ },
+ "initialExtent": {
+  "xmin": 562313,
+  "ymin": 4483013,
+  "xmax": 609840,
+  "ymax": 4530404,
+  "spatialReference": {
+   "wkid": 26918,
+   "latestWkid": 26918
+  }
+ },
+ "fullExtent": {
+  "xmin": 562313,
+  "ymin": 4483013,
+  "xmax": 609840,
+  "ymax": 4530404,
+  "spatialReference": {
+   "wkid": 26918,
+   "latestWkid": 26918
+  }
+ },
+ "pixelSizeX": 1,
+ "pixelSizeY": 1,
+ "bandCount": 1,
+ "pixelType": "F32",
+ "minPixelSize": 0,
+ "maxPixelSize": 0,
+ "copyrightText": "",
+ "serviceDataType": "esriImageServiceDataTypeGeneric",
+ "minValues": [
+  -27.139999389648438
+ ],
+ "maxValues": [
+  129.0399932861328
+ ],
+ "meanValues": [
+  12.166624195329353
+ ],
+ "stdvValues": [
+  15.688929885435154
+ ],
+ "objectIdField": "",
+ "fields": [],
+ "capabilities": "Mensuration,Image,Metadata",
+ "defaultMosaicMethod": "Center",
+ "allowedMosaicMethods": "",
+ "sortField": "",
+ "sortValue": null,
+ "sortAscending": true,
+ "mosaicOperator": "First",
+ "defaultCompressionQuality": 75,
+ "defaultResamplingMethod": "Bilinear",
+ "maxImageHeight": 4100,
+ "maxImageWidth": 15000,
+ "allowRasterFunction": true,
+ "rasterFunctionInfos": [
+  {
+   "name": "None",
+   "description": "",
+   "help": ""
+  }
+ ],
+ "rasterTypeInfos": [
+  {
+   "name": "Raster Dataset",
+   "description": "Supports all ArcGIS Raster Datasets",
+   "help": ""
+  }
+ ],
+ "mensurationCapabilities": "Basic",
+ "hasHistograms": true,
+ "hasColormap": false,
+ "hasRasterAttributeTable": false,
+ "minScale": 0,
+ "maxScale": 0,
+ "exportTilesAllowed": false,
+ "hasMultidimensions": false,
+ "supportsStatistics": false,
+ "supportsAdvancedQueries": false,
+ "editFieldsInfo": null,
+ "ownershipBasedAccessControlForRasters": null,
+ "allowComputeTiePoints": false,
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": false,
+  "supportsOrderBy": false,
+  "supportsDistinct": false,
+  "supportsPagination": false
+ },
+ "spatialReference": {
+  "wkid": 26918,
+  "latestWkid": 26918
+ }
+}

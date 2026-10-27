@@ -1,0 +1,236 @@
+[
+  {
+    "id": "lower-manhattan",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -74.021,
+      40.7,
+      -74.002,
+      40.716
+    ],
+    "export_metadata": "data/raw/stage3/dem/lower-manhattan-export.json",
+    "raster": "data/raw/stage3/dem/lower-manhattan.tif",
+    "sha256": "2b57a69cfdac30f931a5903daf6cb164d52a33371f9ff0b35f446f75df6fd41c",
+    "extent": {
+      "xmin": 298139.60387323715,
+      "ymin": 59224.38768767379,
+      "xmax": 299916.58330714994,
+      "ymax": 61001.367121586576,
+      "spatialReference": {
+        "wkid": 32118,
+        "latestWkid": 32118
+      }
+    },
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "NAD83 realization unresolved; service 2263 vs index 6539",
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "processing": "server bilinear resampling to 257x257; native service XY resolution is 1 US survey foot despite its name; output is not native-resolution terrain",
+    "masked_raster": "data/raw/stage3/dem/lower-manhattan.lerc",
+    "masked_sha256": "124c270347e08a2682a017b9bf25cbf3490489dc0bde12711a77bed438db99d0",
+    "lerc_export_metadata": "data/raw/stage3/dem/lower-manhattan-lerc-export.json",
+    "primary_height_values_source": "LERC decoded pixels and validity mask; TIFF is retained for actual GDAL georeferencing only",
+    "tiff_mask_warning": "NYS TIFF export has no NoData tag and turns absent samples into zero; never use unmasked TIFF heights"
+  },
+  {
+    "id": "midtown",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -73.996,
+      40.743,
+      -73.97,
+      40.761
+    ],
+    "export_metadata": "data/raw/stage3/dem/midtown-export.json",
+    "raster": "data/raw/stage3/dem/midtown.tif",
+    "sha256": "1c7d6ca9ea00f4e03fe921c336d536fcfa413b0bbb451755922e9db8e81c3fea",
+    "extent": {
+      "xmin": 300337.7521387194,
+      "ymin": 63901.08267281868,
+      "xmax": 302533.8255602515,
+      "ymax": 66097.15609435074,
+      "spatialReference": {
+        "wkid": 32118,
+        "latestWkid": 32118
+      }
+    },
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "NAD83 realization unresolved; service 2263 vs index 6539",
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "processing": "server bilinear resampling to 257x257; native service XY resolution is 1 US survey foot despite its name; output is not native-resolution terrain",
+    "masked_raster": "data/raw/stage3/dem/midtown.lerc",
+    "masked_sha256": "952474d4ba2a1b16e973d6c633c7cd6b5fee676fba4d1dca634b447fe2819e80",
+    "lerc_export_metadata": "data/raw/stage3/dem/midtown-lerc-export.json",
+    "primary_height_values_source": "LERC decoded pixels and validity mask; TIFF is retained for actual GDAL georeferencing only",
+    "tiff_mask_warning": "NYS TIFF export has no NoData tag and turns absent samples into zero; never use unmasked TIFF heights"
+  },
+  {
+    "id": "brooklyn-dumbo",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -74.0,
+      40.692,
+      -73.98,
+      40.71
+    ],
+    "export_metadata": "data/raw/stage3/dem/brooklyn-dumbo-export.json",
+    "raster": "data/raw/stage3/dem/brooklyn-dumbo.tif",
+    "sha256": "7e98f783300bd2e68881dcd9e02500d6444645b650963fc626c6e6003d476803",
+    "extent": {
+      "xmin": 299845.7271238633,
+      "ymin": 58336.002798194066,
+      "xmax": 301844.7830023321,
+      "ymax": 60335.058676662855,
+      "spatialReference": {
+        "wkid": 32118,
+        "latestWkid": 32118
+      }
+    },
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "NAD83 realization unresolved; service 2263 vs index 6539",
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "processing": "server bilinear resampling to 257x257; native service XY resolution is 1 US survey foot despite its name; output is not native-resolution terrain",
+    "masked_raster": "data/raw/stage3/dem/brooklyn-dumbo.lerc",
+    "masked_sha256": "c10d59239b13fedf79467178d92951cf476e44ffdf7872c437e04d922dc9fc7e",
+    "lerc_export_metadata": "data/raw/stage3/dem/brooklyn-dumbo-lerc-export.json",
+    "primary_height_values_source": "LERC decoded pixels and validity mask; TIFF is retained for actual GDAL georeferencing only",
+    "tiff_mask_warning": "NYS TIFF export has no NoData tag and turns absent samples into zero; never use unmasked TIFF heights"
+  },
+  {
+    "id": "queens-lic",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -73.958,
+      40.736,
+      -73.932,
+      40.756
+    ],
+    "export_metadata": "data/raw/stage3/dem/queens-lic-export.json",
+    "raster": "data/raw/stage3/dem/queens-lic.tif",
+    "sha256": "2a3264d92ada91da3298045147e9e5e88022c8f027b6e6acf7b6116475da5ddb",
+    "extent": {
+      "xmin": 303534.1269047306,
+      "ymin": 63222.97111966275,
+      "xmax": 305756.4775438401,
+      "ymax": 65445.32175877225,
+      "spatialReference": {
+        "wkid": 32118,
+        "latestWkid": 32118
+      }
+    },
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "NAD83 realization unresolved; service 2263 vs index 6539",
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "processing": "server bilinear resampling to 257x257; native service XY resolution is 1 US survey foot despite its name; output is not native-resolution terrain",
+    "masked_raster": "data/raw/stage3/dem/queens-lic.lerc",
+    "masked_sha256": "4a8344336a0ffd322aa4ef7eed51de0ebd85d45f2c4f06f15681e3f19894bca3",
+    "lerc_export_metadata": "data/raw/stage3/dem/queens-lic-lerc-export.json",
+    "primary_height_values_source": "LERC decoded pixels and validity mask; TIFF is retained for actual GDAL georeferencing only",
+    "tiff_mask_warning": "NYS TIFF export has no NoData tag and turns absent samples into zero; never use unmasked TIFF heights"
+  },
+  {
+    "id": "bronx-mott-haven",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -73.936,
+      40.8,
+      -73.912,
+      40.822
+    ],
+    "export_metadata": "data/raw/stage3/dem/bronx-mott-haven-export.json",
+    "raster": "data/raw/stage3/dem/bronx-mott-haven.tif",
+    "sha256": "796d8ba7b72b716912ff3a591c0b26f65e30b406cb51e50f2504e20ebb96471f",
+    "extent": {
+      "xmin": 305190.2148948383,
+      "ymin": 70331.22825725004,
+      "xmax": 307635.06461351237,
+      "ymax": 72776.07797592413,
+      "spatialReference": {
+        "wkid": 32118,
+        "latestWkid": 32118
+      }
+    },
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "NAD83 realization unresolved; service 2263 vs index 6539",
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "processing": "server bilinear resampling to 257x257; native service XY resolution is 1 US survey foot despite its name; output is not native-resolution terrain",
+    "masked_raster": "data/raw/stage3/dem/bronx-mott-haven.lerc",
+    "masked_sha256": "2a1f4ca4b175b90aaaddf4d78814c411d28375337049a1d43e38e2e0bbab86c3",
+    "lerc_export_metadata": "data/raw/stage3/dem/bronx-mott-haven-lerc-export.json",
+    "primary_height_values_source": "LERC decoded pixels and validity mask; TIFF is retained for actual GDAL georeferencing only",
+    "tiff_mask_warning": "NYS TIFF export has no NoData tag and turns absent samples into zero; never use unmasked TIFF heights"
+  },
+  {
+    "id": "staten-st-george",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -74.09,
+      40.633,
+      -74.065,
+      40.654
+    ],
+    "export_metadata": "data/raw/stage3/dem/staten-st-george-export.json",
+    "raster": "data/raw/stage3/dem/staten-st-george.tif",
+    "sha256": "2f21cd267e455bef2668e9d075c17748ebfb2db51f829b924146ce641b8d72f0",
+    "extent": {
+      "xmin": 292277.4124126944,
+      "ymin": 51786.24518732261,
+      "xmax": 294611.2730930892,
+      "ymax": 54120.105867717415,
+      "spatialReference": {
+        "wkid": 32118,
+        "latestWkid": 32118
+      }
+    },
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "NAD83 realization unresolved; service 2263 vs index 6539",
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "processing": "server bilinear resampling to 257x257; native service XY resolution is 1 US survey foot despite its name; output is not native-resolution terrain",
+    "masked_raster": "data/raw/stage3/dem/staten-st-george.lerc",
+    "masked_sha256": "f34eab2d8b3e104f38a3bf9ca243e72ca85e7fc3807c3cc14777d809d4ebabdd",
+    "lerc_export_metadata": "data/raw/stage3/dem/staten-st-george-lerc-export.json",
+    "primary_height_values_source": "LERC decoded pixels and validity mask; TIFF is retained for actual GDAL georeferencing only",
+    "tiff_mask_warning": "NYS TIFF export has no NoData tag and turns absent samples into zero; never use unmasked TIFF heights"
+  }
+]

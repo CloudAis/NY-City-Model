@@ -1,0 +1,109 @@
+{
+ "currentVersion": 10.81,
+ "serviceDescription": "The bare earth digital elevation model (DEM) represents the earth's surface with all vegetation and anthropogenic features removed. It is derived from Green and NIR LiDAR data using TIN processing of the ground and bathymetric bottom point returns. Green LiDAR was used within the water's edge breakline for data splicing shape only (provided as another deliverable) and NIR LiDAR was used everywhere outside of this shape. Within the NIR-only portion of the AOI all rivers greater than 20 feet in width and lakes at least 0.25 acres in size have been flattened to consistent elevations. Some smaller streams and ponds were also flattened when deemed appropriate. Water boundary polygons were developed manually and by using automatic algorithms. Elevation values were then assigned to the water's edge from the LiDAR data creating 3D breaklines enforced during model creation to flatten water bodies. Some elevation values inside the NIR-only AOI have been interpolated across areas in the ground model where there is no elevation data (e.g. under dense vegetation). Within the green-only portion of the AOI (inside the low tide breaklines shape), the data has been clipped to avoid triangulation and false interpolation over areas identified as voids in the Bathymetric Coverage Polygon (provided as a separate deliverable).The horizontal datum for this dataset is NAD83, the vertical datum is NAVD88, Geoid 12B, and the data is projected in New York State Plane - Long Island. Quantum Spatial collected the New York City LiDAR data for The City of New York between 05/03/17 and 07/26/17. Units converted to meters by NYS",
+ "name": "NYC_TopoBathymetric_2017_1_meter",
+ "description": "The bare earth digital elevation model (DEM) represents the earth's surface with all vegetation and anthropogenic features removed. It is derived from Green and NIR LiDAR data using TIN processing of the ground and bathymetric bottom point returns. Green LiDAR was used within the water's edge breakline for data splicing shape only (provided as another deliverable) and NIR LiDAR was used everywhere outside of this shape. Within the NIR-only portion of the AOI all rivers greater than 20 feet in width and lakes at least 0.25 acres in size have been flattened to consistent elevations. Some smaller streams and ponds were also flattened when deemed appropriate. Water boundary polygons were developed manually and by using automatic algorithms. Elevation values were then assigned to the water's edge from the LiDAR data creating 3D breaklines enforced during model creation to flatten water bodies. Some elevation values inside the NIR-only AOI have been interpolated across areas in the ground model where there is no elevation data (e.g. under dense vegetation). Within the green-only portion of the AOI (inside the low tide breaklines shape), the data has been clipped to avoid triangulation and false interpolation over areas identified as voids in the Bathymetric Coverage Polygon (provided as a separate deliverable).The horizontal datum for this dataset is NAD83, the vertical datum is NAVD88, Geoid 12B, and the data is projected in New York State Plane - Long Island. Quantum Spatial collected the New York City LiDAR data for The City of New York between 05/03/17 and 07/26/17. Units converted to meters by NYS",
+ "extent": {
+  "xmin": 913082,
+  "ymin": 118396.00000000745,
+  "xmax": 1067709,
+  "ymax": 273169.00000000745,
+  "spatialReference": {
+   "wkid": 102718,
+   "latestWkid": 2263
+  }
+ },
+ "initialExtent": {
+  "xmin": 913082,
+  "ymin": 118396.00000000745,
+  "xmax": 1067709,
+  "ymax": 273169.00000000745,
+  "spatialReference": {
+   "wkid": 102718,
+   "latestWkid": 2263
+  }
+ },
+ "fullExtent": {
+  "xmin": 913082,
+  "ymin": 118396.00000000745,
+  "xmax": 1067709,
+  "ymax": 273169.00000000745,
+  "spatialReference": {
+   "wkid": 102718,
+   "latestWkid": 2263
+  }
+ },
+ "pixelSizeX": 1,
+ "pixelSizeY": 1,
+ "bandCount": 1,
+ "pixelType": "F32",
+ "minPixelSize": 0,
+ "maxPixelSize": 0,
+ "copyrightText": "NYS ITS Geospatial Services",
+ "serviceDataType": "esriImageServiceDataTypeGeneric",
+ "minValues": [
+  -15.148560523986816
+ ],
+ "maxValues": [
+  125.71476745605469
+ ],
+ "meanValues": [
+  14.84544870715436
+ ],
+ "stdvValues": [
+  15.58754912944186
+ ],
+ "objectIdField": "",
+ "fields": [],
+ "capabilities": "Image,Metadata,Mensuration",
+ "defaultMosaicMethod": "Center",
+ "allowedMosaicMethods": "",
+ "sortField": "",
+ "sortValue": null,
+ "sortAscending": true,
+ "mosaicOperator": "First",
+ "defaultCompressionQuality": 75,
+ "defaultResamplingMethod": "Bilinear",
+ "maxImageHeight": 4100,
+ "maxImageWidth": 15000,
+ "allowRasterFunction": true,
+ "rasterFunctionInfos": [
+  {
+   "name": "None",
+   "description": "",
+   "help": ""
+  }
+ ],
+ "rasterTypeInfos": [
+  {
+   "name": "Raster Dataset",
+   "description": "Supports all ArcGIS Raster Datasets",
+   "help": ""
+  }
+ ],
+ "mensurationCapabilities": "Basic",
+ "hasHistograms": true,
+ "hasColormap": false,
+ "hasRasterAttributeTable": false,
+ "minScale": 0,
+ "maxScale": 0,
+ "exportTilesAllowed": false,
+ "hasMultidimensions": false,
+ "supportsStatistics": false,
+ "supportsAdvancedQueries": false,
+ "editFieldsInfo": null,
+ "ownershipBasedAccessControlForRasters": null,
+ "allowComputeTiePoints": false,
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": false,
+  "supportsOrderBy": false,
+  "supportsDistinct": false,
+  "supportsPagination": false
+ },
+ "spatialReference": {
+  "wkid": 102718,
+  "latestWkid": 2263
+ }
+}

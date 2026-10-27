@@ -1,0 +1,10 @@
+
+> nyc-real-scale-3d@0.1.0 dev
+> vite --host 0.0.0.0 --port 5180 --strictPort
+
+
+  VITE v8.3.5  ready in 233 ms
+
+  ➜  Local:   http://localhost:5180/
+  ➜  Network: http://172.26.91.249:5180/  eth0
+  ➜  Network: http://172.31.9.30:5180/    eth1

@@ -1,0 +1,31 @@
+{
+  "at_utc": "2026-10-27T09:24:55.842714+00:00",
+  "port": 5180,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 362
+    },
+    {
+      "path": "terrain.html",
+      "status": 200,
+      "bytes": 390
+    },
+    {
+      "path": "datasets/foundation/manifest.json",
+      "status": 200,
+      "bytes": 4460
+    },
+    {
+      "path": "datasets/foundation/summary.json",
+      "status": 200,
+      "bytes": 1396
+    },
+    {
+      "path": "datasets/foundation/sources.json",
+      "status": 200,
+      "bytes": 32980
+    }
+  ]
+}

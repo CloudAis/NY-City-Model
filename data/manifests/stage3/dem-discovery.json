@@ -1,0 +1,14 @@
+[
+  {
+    "path": "data/raw/stage3/catalog/nys-elevation-services.json",
+    "url": "https://elevation.its.ny.gov/arcgis/rest/services/?f=pjson"
+  },
+  {
+    "path": "data/raw/stage3/catalog/nyc-dem.xml",
+    "url": "https://gisdata.ny.gov/elevation/DEM/NYC_TopoBathymetric2017/be_NYC.tif.xml"
+  },
+  {
+    "path": "data/raw/stage3/catalog/nyc-dem-index.zip",
+    "url": "https://gisdata.ny.gov/elevation/DEM/NYC_TopoBathymetric2017/NYC_Topobathy2017_DEM_Index.zip"
+  }
+]

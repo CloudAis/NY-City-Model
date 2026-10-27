@@ -1,5 +1,6 @@
 # Preserve captured bytes; never normalize upstream responses or terminal logs.
 data/raw/** binary
 reports/*.log binary
+reports/**/*.log binary
 *.png binary
 *.glb binary

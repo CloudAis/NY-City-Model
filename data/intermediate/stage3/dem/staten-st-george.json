@@ -1,0 +1,67 @@
+{
+  "raster": "data/raw/stage3/dem/staten-st-george.tif",
+  "height_and_mask_source": "data/raw/stage3/dem/staten-st-george.lerc",
+  "lerc_mask_applied": true,
+  "lerc_info": {
+    "source": "data/raw/stage3/dem/staten-st-george.lerc",
+    "width": 257,
+    "height": 257,
+    "statistics": [
+      {
+        "minValue": -2.3920865058898926,
+        "maxValue": 71.75956726074219,
+        "noDataValue": -3.4027999387901484e+38
+      }
+    ],
+    "maskProvided": true,
+    "validPixels": 31311,
+    "missingPixels": 34738,
+    "validRealZeroPixels": 0,
+    "decoder": "Esri lerc@2.0.0 (installed and pinned through Cesium)",
+    "valuesFile": "data/intermediate/stage3/dem/staten-st-george.f32",
+    "maskFile": "data/intermediate/stage3/dem/staten-st-george.mask",
+    "byteOrder": "little-endian",
+    "exportMetadata": "data/raw/stage3/dem/staten-st-george-lerc-export.json"
+  },
+  "tiff_zero_count": 34738,
+  "tiff_zero_but_lerc_missing": 34738,
+  "real_zero_valid_cells": 0,
+  "maximum_valid_tiff_lerc_difference_m": 7.62939453125e-05,
+  "tiff_mask_problem": "Absent TIFF mask makes some NoData appear as zero; corrected using actual LERC mask",
+  "driver": "GTiff",
+  "size": [
+    257,
+    257
+  ],
+  "geotransform": [
+    292277.4124126944,
+    9.081169962625705,
+    0.0,
+    54120.105867717415,
+    0.0,
+    -9.081169962625705
+  ],
+  "crs_wkt": "PROJCS[\"NAD83 / New York Long Island\",GEOGCS[\"NAD83\",DATUM[\"North_American_Datum_1983\",SPHEROID[\"GRS 1980\",6378137,298.257222101004,AUTHORITY[\"EPSG\",\"7019\"]],AUTHORITY[\"EPSG\",\"6269\"]],PRIMEM[\"Greenwich\",0],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4269\"]],PROJECTION[\"Lambert_Conformal_Conic_2SP\"],PARAMETER[\"latitude_of_origin\",40.1666666666667],PARAMETER[\"central_meridian\",-74],PARAMETER[\"standard_parallel_1\",41.0333333333333],PARAMETER[\"standard_parallel_2\",40.6666666666667],PARAMETER[\"false_easting\",300000],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH],AUTHORITY[\"EPSG\",\"32118\"]]",
+  "authority": [
+    "EPSG",
+    "32118"
+  ],
+  "data_axis_to_srs_axis_mapping": [
+    1,
+    2
+  ],
+  "band_unit_actual": null,
+  "band_metadata": {
+    "SourceBandIndex": "0"
+  },
+  "nodata": null,
+  "valid_cells": 31311,
+  "missing_cells": 34738,
+  "minimum_valid": -2.3920865058898926,
+  "maximum_valid": 71.75956726074219,
+  "numpy_file": "data/intermediate/stage3/dem/staten-st-george.npy",
+  "gdal_version": "3100300",
+  "numpy_version": "2.2.4",
+  "vertical_datum_from_file": null,
+  "note": "Actual TIFF georeference plus actual LERC heights/mask; unit and datum established only by explicit source evidence."
+}

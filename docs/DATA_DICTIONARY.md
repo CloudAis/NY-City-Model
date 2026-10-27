@@ -30,3 +30,13 @@ PLUTO 26v2：NumFloors为地块上最高建筑层数，可有2.5等部分楼层�
 3dm GUID是历史对象ID，不是当前DOITT_ID/BIN；对象含曲线、Brep、重复表示和地形道路，数量不能当建筑数。Feet与US survey foot差异作为单位冲突保留。
 
 SQLite capture=抓取标签:行政区，payload为完整规范JSON，payload_sha用于语义校验；height_m/ground_m为查询列，前者null不补值，后者负值合法。processor_meta记录处理器SHA；跨capture查询须显式选版本。
+
+阶段3 `foundation/building-elevations.json`覆盖六样区3,027来源记录。`ground`、`building_relative`、`roof_absolute`、`spire_height`、`antenna_height`各含value/unit/quantity/datum/horizontal_frame/ground_reference_id/source；已知原值保存raw_values。`legacy_stage2_*_m`只是旧假设审计值，新canonical米值因foot种类未核为null。地面负数和真实零值可有效，相对楼高不能为负；绝对屋顶禁止再次加地面。
+
+DEM样本采用metre/NAVD88，2017采集；`masked_raster`为真实LERC，`lerc_export_metadata`保留范围/CRS，`raster`TIFF只提供实际地理参考与原始证据。`valid_cells/missing_cells/real_zero_valid_cells/tiff_zero_but_lerc_missing`区分有效、缺失、真实零、错误露零，`maximum_valid_tiff_lerc_difference_m`为编码/处理差，不是测绘精度。缺失写null/NaN，不进入显示三角形。
+
+水系代码2600湖库、2610塘、2620河、2630溪、2640湿地、2650海滩岸线、2660海湾海洋，依据保存的官方Capture Rules。当前只给2620/2660展示水面；其`display_water_level_m=0`有明确场景基准和非潮位标识。未知湖塘不填、湿地沙滩不当水面。道路`elevation/deck_height=null`，不生成贴地桥面。地形上的建筑轮廓是投影检视线，不是已确认基础；`dem_ground_reference`只记录已知2017采样范围。
+
+检查点role固定source-correspondence，现实测量误差为null；geographic字段显式longitude/latitude degrees，source_xy有实际原始CRS。方向箭头的diagnostic_only=true且默认关闭，不计入建筑/地标数量。
+
+新发布GLB属性不再用无标识的height_m暴露旧暂算值，改为relative_height_raw_ft与legacy_stage2_height_m；canonical高度来自严格注册表。GLB和瓦片索引同时保存实际局部原点及完整ENU→ECEF矩阵，外部矩阵只由tileset施加一次，不再作为glTF节点矩阵重复应用。

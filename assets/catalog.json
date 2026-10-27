@@ -101,6 +101,6 @@
     }
   ],
   "source_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
-  "height_note": "HEIGHT_ROOF is feet above ground; null and zero are unknown; not rendered as walls",
-  "ground_note": "Ellipsoid reference only; no terrain. Lines lifted 0.25 m solely to avoid depth fighting."
+  "height_note": "HEIGHT_ROOF source feet subtype unresolved; canonical height unknown; null/zero unknown; legacy metres never drive geometry",
+  "ground_note": "World view is an ellipsoid reference; masked NAVD88 terrain has a separate inspector pending global vertical registration. Lines lifted 0.25m only for visibility."
 }

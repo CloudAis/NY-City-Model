@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "pipeline_version": "0.1.0-stage2",
+  "representation": "real official footprint linework; no building solids",
+  "datasets": [
+    {
+      "id": "lower-manhattan",
+      "title": "Lower Manhattan",
+      "records": 299,
+      "published_real_outlines": 299,
+      "tiles": 6,
+      "bounds_wgs84": [
+        -74.0178581642635,
+        40.70388476015906,
+        -74.0061903407694,
+        40.71292794167325
+      ],
+      "tileset": "lower-manhattan/tileset.json",
+      "buildings": "lower-manhattan/buildings.json",
+      "quality": "lower-manhattan/quality.json"
+    },
+    {
+      "id": "midtown",
+      "title": "Midtown",
+      "records": 812,
+      "published_real_outlines": 811,
+      "tiles": 8,
+      "bounds_wgs84": [
+        -73.9904604753511,
+        40.7474659560927,
+        -73.97586729836158,
+        40.757129595006
+      ],
+      "tileset": "midtown/tileset.json",
+      "buildings": "midtown/buildings.json",
+      "quality": "midtown/quality.json"
+    },
+    {
+      "id": "brooklyn-dumbo",
+      "title": "Brooklyn Dumbo",
+      "records": 211,
+      "published_real_outlines": 211,
+      "tiles": 6,
+      "bounds_wgs84": [
+        -73.99383047514662,
+        40.69726580124448,
+        -73.98470638021327,
+        40.704995219242264
+      ],
+      "tileset": "brooklyn-dumbo/tileset.json",
+      "buildings": "brooklyn-dumbo/buildings.json",
+      "quality": "brooklyn-dumbo/quality.json"
+    },
+    {
+      "id": "queens-lic",
+      "title": "Queens Lic",
+      "records": 406,
+      "published_real_outlines": 406,
+      "tiles": 7,
+      "bounds_wgs84": [
+        -73.94968809623361,
+        40.742422230962795,
+        -73.93908346056749,
+        40.75197177377777
+      ],
+      "tileset": "queens-lic/tileset.json",
+      "buildings": "queens-lic/buildings.json",
+      "quality": "queens-lic/quality.json"
+    },
+    {
+      "id": "bronx-mott-haven",
+      "title": "Bronx Mott Haven",
+      "records": 519,
+      "published_real_outlines": 519,
+      "tiles": 8,
+      "bounds_wgs84": [
+        -73.93022306048732,
+        40.80631459715604,
+        -73.91987985395586,
+        40.8160367929585
+      ],
+      "tileset": "bronx-mott-haven/tileset.json",
+      "buildings": "bronx-mott-haven/buildings.json",
+      "quality": "bronx-mott-haven/quality.json"
+    },
+    {
+      "id": "staten-st-george",
+      "title": "Staten St George",
+      "records": 780,
+      "published_real_outlines": 780,
+      "tiles": 9,
+      "bounds_wgs84": [
+        -74.08448574246428,
+        40.63882606833976,
+        -74.07157895058945,
+        40.64794114474505
+      ],
+      "tileset": "staten-st-george/tileset.json",
+      "buildings": "staten-st-george/buildings.json",
+      "quality": "staten-st-george/quality.json"
+    }
+  ],
+  "source_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
+  "height_note": "HEIGHT_ROOF source feet subtype unresolved; canonical height unknown; null/zero unknown; legacy metres never drive geometry",
+  "ground_note": "World view is an ellipsoid reference; masked NAVD88 terrain has a separate inspector pending global vertical registration. Lines lifted 0.25m only for visibility."
+}

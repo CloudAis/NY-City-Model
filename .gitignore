@@ -24,3 +24,18 @@ data/raw/vectors/water-rowid/
 data/intermediate/context-cache/
 data/intermediate/city-normalize-work/
 data/processed/context/
+# Rebuildable stage3 caches and full audit-ready scenes; published compact assets stay tracked.
+data/intermediate/stage3/context/
+data/intermediate/stage3/coastline-proof-source.json
+data/intermediate/stage3/dem/*.f32
+data/intermediate/stage3/dem/*.mask
+data/intermediate/stage3/dem/*.npy
+data/processed/foundation/lower-manhattan.json
+data/processed/foundation/midtown.json
+data/processed/foundation/brooklyn-dumbo.json
+data/processed/foundation/queens-lic.json
+data/processed/foundation/bronx-mott-haven.json
+data/processed/foundation/staten-st-george.json
+# Small actual TIFF crops are useful reproducible inputs; the large geoid stays local with receipt/SHA.
+!data/raw/stage3/dem/*.tif
+!data/raw/stage3/catalog/nyc-dem-index.zip

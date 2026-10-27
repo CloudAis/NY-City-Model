@@ -1,0 +1,17 @@
+{
+  "request_url": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer/identify?f=json&geometry=%7B%22x%22%3A+294098.1869902009%2C+%22y%22%3A+52953.17552752001%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+32118%7D%7D&geometryType=esriGeometryPoint&returnGeometry=false&returnCatalogItems=false&returnPixelValues=true",
+  "final_url": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer/identify?f=json&geometry=%7B%22x%22%3A+294098.1869902009%2C+%22y%22%3A+52953.17552752001%2C+%22spatialReference%22%3A+%7B%22wkid%22%3A+32118%7D%7D&geometryType=esriGeometryPoint&returnGeometry=false&returnCatalogItems=false&returnPixelValues=true",
+  "download_started_at": "2026-10-27T08:28:32.303197+00:00",
+  "download_completed_at": "2026-10-27T08:28:33.022739+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=UTF-8",
+  "etag": "9087c7fe",
+  "last_modified_http": null,
+  "bytes": 224,
+  "sha256": "6b95ecb4fee165ead0574c8bdbf57e59e3d59233bf5d208922b92055143db69c",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}
