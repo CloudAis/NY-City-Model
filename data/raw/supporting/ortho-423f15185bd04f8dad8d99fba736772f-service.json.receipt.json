@@ -1,0 +1,17 @@
+{
+  "request_url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2024/MapServer?f=pjson",
+  "final_url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2024/MapServer?f=pjson",
+  "download_started_at": "2026-10-27T04:57:02.894500+00:00",
+  "download_completed_at": "2026-10-27T04:57:03.207438+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "\"3f992c524b837423190d45bfc4e83352\"",
+  "last_modified_http": "Tue, 17 Jun 2025 19:49:56 GMT",
+  "bytes": 3286,
+  "sha256": "619e9c9e7eb0290557446ce4d92efd0128b4d05f0d3986a3ba02a88fa1faccb1",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

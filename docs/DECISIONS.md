@@ -6,3 +6,9 @@
 - D004：源3857与来源2263分开；标准32118米，ENU局部GLB，float64来源保留。
 - D005：以DOITT_ID建身份，BIN/BBL作为多对多关系线索；PLUTO是地块级，不传播为楼级真值。
 - D006：时间分别保存page_modified/data_published/observation/downloaded；动态API非事务快照，记录两端edit与ID集。
+- D007：全市SQLite事务/RTree，网页仅有限真实样区，避免百万JSON整体载入或以样区冒充全市。
+- D008：长ID查询超过1500字符改POST；按规范参数复用等价GET/POST缓存，失败历史保留。
+- D009：道路source_id不唯一，重取Socrata行ID分页，旧结果不宣称唯一性通过。
+- D010：PLUTO只做地块关联，保留scope冲突；较新空值不能覆盖旧有效证据。
+- D011：2024影像单瓦片仅参考、不进构建；LiDAR访问/预算阻塞如实记录，不绕过权限。
+- D012：历史3dm的foot/基准/重复表示与当前身份匹配待解决，未发布成当前建筑。

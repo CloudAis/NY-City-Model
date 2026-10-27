@@ -1,0 +1,19 @@
+{
+  "borough": "staten-island",
+  "source_manifest": "data/intermediate/city-staten-island/manifest.json",
+  "capture": "2026-10-27-city:staten-island",
+  "raw_records": 142461,
+  "normalized_records": 142461,
+  "source_defined_entities": 142461,
+  "geometry_parts": 142461,
+  "valid_source_height_records": 142372,
+  "independently_verified_heights": 0,
+  "negative_ground_records_preserved": 0,
+  "failed_geometries": 0,
+  "unknown_roof_geometry_records": 142461,
+  "unknown_facade_records": 142461,
+  "matched_legacy_models": 0,
+  "acquired_legacy_model_archives": 0,
+  "complete_for_source_bbl_partition": true,
+  "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation"
+}

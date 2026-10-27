@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-27T04:12:03.495553+00:00",
+  "official_item": "423f15185bd04f8dad8d99fba736772f",
+  "service": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2024/MapServer",
+  "tile": {
+    "level": 18,
+    "row": 98565,
+    "column": 77178
+  },
+  "source_response_crs": "EPSG:3857",
+  "bounds": [
+    -8238994.403182635,
+    4969324.08080763,
+    -8238841.529126044,
+    4969476.954864221
+  ],
+  "pixel_dimensions": [
+    256,
+    256
+  ],
+  "resolution_map_units_per_pixel": 0.597164283559817,
+  "path": "data/raw/imagery/2024/18-98565-77178.image",
+  "sha256": "33a7a81dff2d247c7dafde4267bb16e11d409717eaeaf9ee62907cf345b5f241",
+  "bytes": 12586,
+  "downloaded_twice": true,
+  "original_raw_unchanged": true,
+  "license": "<a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use</a>",
+  "observation_year": 2024,
+  "item_modified_date": 1772825207000,
+  "reuse_class": "reference-only pending terms/third-party review; NOT bundled into viewer"
+}

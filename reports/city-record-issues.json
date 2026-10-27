@@ -1,0 +1,167 @@
+{
+  "version": "2026-10-27-city",
+  "records": [
+    {
+      "building_id": "nyc:footprints:doitt:292703",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003500.json",
+        "sha256": "9dbc63d028d9b85f8e45148022a4a5ba2dfad7e56beed20c3daca2d06d4bf8ac",
+        "object_id": 84928
+      },
+      "repair": {
+        "id": "nyc:footprints:doitt:292703",
+        "original_valid": false,
+        "area_before_m2": 1540.1345992276315,
+        "area_after_m2": 1540.1345992276317,
+        "area_change_m2": 2.2737367544323206e-13,
+        "area_change_fraction": 1.4763234041833658e-16,
+        "duplicate_points_removed": 0,
+        "method": "Shapely make_valid; containment-depth holes; no simplification",
+        "raw_record": {
+          "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003500.json",
+          "object_id": 84928
+        }
+      },
+      "height_raw_ft": 80.90665192,
+      "height_status": "valid",
+      "height_m": 24.660347505216002
+    },
+    {
+      "building_id": "nyc:footprints:doitt:751920",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003500.json",
+        "sha256": "9dbc63d028d9b85f8e45148022a4a5ba2dfad7e56beed20c3daca2d06d4bf8ac",
+        "object_id": 87046
+      },
+      "repair": {
+        "id": "nyc:footprints:doitt:751920",
+        "original_valid": false,
+        "area_before_m2": 826.3278165111475,
+        "area_after_m2": 826.3278165111476,
+        "area_change_m2": 1.1368683772161603e-13,
+        "area_change_fraction": 1.3758079475239637e-16,
+        "duplicate_points_removed": 0,
+        "method": "Shapely make_valid; containment-depth holes; no simplification",
+        "raw_record": {
+          "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003500.json",
+          "object_id": 87046
+        }
+      },
+      "height_raw_ft": 47.00969814,
+      "height_status": "valid",
+      "height_m": 14.328555993072
+    },
+    {
+      "building_id": "nyc:footprints:doitt:819435",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00014000.json",
+        "sha256": "a4ce814053167f2c9bff85d41520d09c3f901fdf3bb4e5410f8f85e4068690a7",
+        "object_id": 413374
+      },
+      "repair": {
+        "id": "nyc:footprints:doitt:819435",
+        "original_valid": false,
+        "area_before_m2": 678.497105827916,
+        "area_after_m2": 678.4971058279159,
+        "area_change_m2": -1.1368683772161603e-13,
+        "area_change_fraction": -1.675568499041614e-16,
+        "duplicate_points_removed": 0,
+        "method": "Shapely make_valid; containment-depth holes; no simplification",
+        "raw_record": {
+          "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00014000.json",
+          "object_id": 413374
+        }
+      },
+      "height_raw_ft": 64.68,
+      "height_status": "valid",
+      "height_m": 19.714464000000003
+    },
+    {
+      "building_id": "nyc:footprints:doitt:775805",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00029000.json",
+        "sha256": "4d70f00d013c45b12d6c16accd6b3c3fc1deaa576cf16eb59470a764130d4f89",
+        "object_id": 862980
+      },
+      "repair": {
+        "id": "nyc:footprints:doitt:775805",
+        "original_valid": false,
+        "area_before_m2": 626.0553214143785,
+        "area_after_m2": 626.0553214143787,
+        "area_change_m2": 2.2737367544323206e-13,
+        "area_change_fraction": 3.631846382673524e-16,
+        "duplicate_points_removed": 0,
+        "method": "Shapely make_valid; containment-depth holes; no simplification",
+        "raw_record": {
+          "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00029000.json",
+          "object_id": 862980
+        }
+      },
+      "height_raw_ft": 17.09,
+      "height_status": "valid",
+      "height_m": 5.2090320000000006
+    },
+    {
+      "building_id": "nyc:footprints:doitt:1307001",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00104000.json",
+        "sha256": "86f0b6c01214f73e821d901430fe2cc3e0de3dcea3a64b677bc8b7cd8146fa09",
+        "object_id": 1092381
+      },
+      "repair": null,
+      "height_raw_ft": 2130353,
+      "height_status": "anomalous_range",
+      "height_m": null
+    },
+    {
+      "building_id": "nyc:footprints:doitt:809298",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00150000.json",
+        "sha256": "6adaa635f7d4d12fd37d4928bfcd4aa23dd4a81a924fff04d7065bdf5d6feebf",
+        "object_id": 343713
+      },
+      "repair": {
+        "id": "nyc:footprints:doitt:809298",
+        "original_valid": false,
+        "area_before_m2": 2129.950738202305,
+        "area_after_m2": 2129.9507382023044,
+        "area_change_m2": -4.547473508864641e-13,
+        "area_change_fraction": -2.1350134664160095e-16,
+        "duplicate_points_removed": 0,
+        "method": "Shapely make_valid; containment-depth holes; no simplification",
+        "raw_record": {
+          "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00150000.json",
+          "object_id": 343713
+        }
+      },
+      "height_raw_ft": 85.28497625,
+      "height_status": "valid",
+      "height_m": 25.994860761
+    },
+    {
+      "building_id": "nyc:footprints:doitt:160828",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00053500.json",
+        "sha256": "7625cae1eed0acfc8a0c3bf32c08e956de4be8626f1cc38027f862f13dbcb745",
+        "object_id": 410314
+      },
+      "repair": {
+        "id": "nyc:footprints:doitt:160828",
+        "original_valid": false,
+        "area_before_m2": 44682.492817190905,
+        "area_after_m2": 44682.49281719092,
+        "area_change_m2": 1.4551915228366852e-11,
+        "area_change_fraction": 3.2567375522003607e-16,
+        "duplicate_points_removed": 0,
+        "method": "Shapely make_valid; containment-depth holes; no simplification",
+        "raw_record": {
+          "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00053500.json",
+          "object_id": 410314
+        }
+      },
+      "height_raw_ft": 41.31,
+      "height_status": "valid",
+      "height_m": 12.591288
+    }
+  ]
+}

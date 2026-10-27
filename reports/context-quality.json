@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-27T04:46:04.116716+00:00",
+  "path": "data/processed/context/context.gpkg",
+  "layers": [
+    {
+      "layer": "borough",
+      "records": 5,
+      "source_manifest": "data/raw/vectors/borough/manifest.json",
+      "crs": "EPSG:32118",
+      "units": "metre",
+      "vertical_datum": null,
+      "independently_verified": false
+    },
+    {
+      "layer": "roadbed",
+      "records": 104961,
+      "source_manifest": "data/raw/vectors/roadbed-rowid/manifest.json",
+      "crs": "EPSG:32118",
+      "units": "metre",
+      "vertical_datum": null,
+      "independently_verified": false
+    },
+    {
+      "layer": "water",
+      "records": 2206,
+      "source_manifest": "data/raw/vectors/water-rowid/manifest.json",
+      "crs": "EPSG:32118",
+      "units": "metre",
+      "vertical_datum": null,
+      "independently_verified": false
+    }
+  ],
+  "sha256": "644f1d0af6f96f7493d3881e026985ef819c436152c5c4f9d5d5854d60d13292",
+  "processor": "system ogr2ogr; version in reports/environment.json"
+}

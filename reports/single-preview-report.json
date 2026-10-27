@@ -1,12 +1,12 @@
 {
-  "at": "2026-10-27T04:06:12.901Z",
+  "at": "2026-10-27T05:04:50.383Z",
   "file": "reports/nyc-real-sample-preview.html",
   "offline": true,
   "fileNavigationBlocked": true,
   "executionMode": "offline-setContent",
   "snapshot": {
-    "areas": 1,
-    "features": 299,
+    "areas": 2,
+    "features": 811,
     "height_applied": false,
     "selected": -1,
     "error": "",
@@ -14,7 +14,7 @@
     "camera": {
       "yaw": 0.64,
       "pitch": 1.2200000000000002,
-      "scale": 738.172,
+      "scale": 830.874625,
       "pan": [
         0,
         0

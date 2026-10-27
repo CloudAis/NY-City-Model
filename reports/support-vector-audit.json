@@ -1,0 +1,17 @@
+[
+  {
+    "dataset": "borough",
+    "count": 5,
+    "manifest": "data/raw/vectors/borough/manifest.json"
+  },
+  {
+    "dataset": "roadbed",
+    "count": 104961,
+    "manifest": "data/raw/vectors/roadbed-rowid/manifest.json"
+  },
+  {
+    "dataset": "water",
+    "count": 2206,
+    "manifest": "data/raw/vectors/water-rowid/manifest.json"
+  }
+]

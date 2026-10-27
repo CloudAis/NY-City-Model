@@ -1,0 +1,38 @@
+{
+  "pipeline_version": "0.1.0-stage2",
+  "processor_sha256": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+  "scope": {
+    "borough": null,
+    "bbox_wgs84": null,
+    "local_import": true
+  },
+  "source_manifest": "data/intermediate/local/e7b17c7a12f5e41bf92984f664ca7500b47eb3a180e44ebf3542ae048adb896f/manifest.json",
+  "raw_records": 1,
+  "normalized_records": 1,
+  "source_defined_entities": 1,
+  "physical_building_count": "not independently resolved; DOITT entities are not guaranteed physical one-to-one",
+  "polygon_parts": 1,
+  "valid_height_records": 0,
+  "placeholder_records": 0,
+  "independently_verified_heights": 0,
+  "downloaded_3d_building_models": 0,
+  "unknown_roof_form": 1,
+  "unknown_facade": 1,
+  "failed": 0,
+  "repairs": 0,
+  "unique_bin_count": 1,
+  "output_sha256": "02288b197656f504a75ae03f8390e7220bda7a47863660a981370dc395e2a871",
+  "projection": {
+    "source_crs": "4326",
+    "standard_crs": "EPSG:32118",
+    "to_wgs84_operation": "Inverse of SPCS83 New York Long Island zone (meter) + NAD83 to WGS 84 (1) (with axis order normalized for visualization)",
+    "nominal_transform_accuracy_m": 4.0
+  },
+  "geometry_fully_downloaded": true,
+  "citywide_complete": false,
+  "source_id": "local-reviewed-sample",
+  "source_url": "https://github.com/CityOfNewYork/nyc-geo-metadata",
+  "source_declared_not_verified": true,
+  "publication_allowed": false,
+  "publication_block": "license and source provenance require review; this command never changes default scene"
+}

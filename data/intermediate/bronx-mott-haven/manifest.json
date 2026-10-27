@@ -1,0 +1,88 @@
+{
+  "started_at": "2026-10-27T04:10:31.026919+00:00",
+  "signature": "b50280582706ead2d3f9fe66d142eefb47a7c24367bae2a4807b003921f5a52c",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-pilot",
+  "count_expected": 519,
+  "ids_sha256": "a862648857e83ebf5140987eb4103124eba4790e8a621e8828311a41d4495414",
+  "scope": {
+    "borough": "bronx",
+    "bbox_wgs84": [
+      -73.929,
+      40.807,
+      -73.921,
+      40.815
+    ],
+    "where": "BASE_BBL LIKE '2%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:10:33.581384+00:00",
+  "finished_at": "2026-10-27T04:10:34.262685+00:00",
+  "pages": [
+    {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-pilot/bronx-mott-haven/page-00000000.json",
+      "sha256": "8cd740aa70fb322c8efbf958468a4f468e3d7c9e18d222552d8d84410d089377",
+      "records": 100
+    },
+    {
+      "id": "page-00000100",
+      "path": "data/raw/footprints/2026-10-27-pilot/bronx-mott-haven/page-00000100.json",
+      "sha256": "fe8e25159efeb1fdafd1aaf10e3c69de318d3fcd1d88ab6b7e824d5a96c22bb4",
+      "records": 100
+    },
+    {
+      "id": "page-00000200",
+      "path": "data/raw/footprints/2026-10-27-pilot/bronx-mott-haven/page-00000200.json",
+      "sha256": "508b17416ecec5dcfdfb41bb23c260b9e82c27574fe1deac1e510d39d8399027",
+      "records": 100
+    },
+    {
+      "id": "page-00000300",
+      "path": "data/raw/footprints/2026-10-27-pilot/bronx-mott-haven/page-00000300.json",
+      "sha256": "504fbe44da09739c66081e5c6fa54a6e6849c6ab502aaf587ca8d62878aa69fb",
+      "records": 100
+    },
+    {
+      "id": "page-00000400",
+      "path": "data/raw/footprints/2026-10-27-pilot/bronx-mott-haven/page-00000400.json",
+      "sha256": "6841d870a89494657325c1384d0222f818802145918e0bd4fafa2d1f8a9b77df",
+      "records": 100
+    },
+    {
+      "id": "page-00000500",
+      "path": "data/raw/footprints/2026-10-27-pilot/bronx-mott-haven/page-00000500.json",
+      "sha256": "d8bb0ce684b2af4ab1dc2e4acdf716723afb3c636931483759ab5c01cd8854d7",
+      "records": 19
+    }
+  ],
+  "records_downloaded": 519,
+  "unique_object_ids": 519,
+  "consistency": {
+    "start_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "end_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "id_set_equal": true,
+    "service_changed_during_window": false,
+    "atomic_snapshot": false,
+    "limitation": "Dynamic service; unchanged last-edit and ID set are checks, not a transactional snapshot. Re-fetch a new version if flagged."
+  },
+  "raw_spatial_reference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "height_units": "feet; relative roof height, not elevation",
+  "vertical_datum": "Ground often NAVD88 per metadata; per-feature datum not guaranteed",
+  "downloaded_at": "2026-10-27T04:10:34.262752+00:00",
+  "observation_date": null,
+  "source_metadata_date": "2025-10-09",
+  "license": "NYC Open Data Terms; see captured terms; not blanket CC0",
+  "license_class": "local-processing-and-distribution-subject-to-NYC-terms"
+}

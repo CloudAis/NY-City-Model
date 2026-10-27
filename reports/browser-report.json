@@ -1,6 +1,10 @@
 {
-  "at": "2026-10-27T04:03:07.253Z",
+  "at": "2026-10-27T05:06:12.927Z",
   "browser": "154.0.8037.57",
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
   "checks": [
     "real official sample and local 3D Tiles load with no cloud/ion requests",
     "actual GLB feature picking preserves a stable source ID and shows separate evidence",
@@ -10,7 +14,7 @@
   "errors": [],
   "requests": [
     "http://127.0.0.1:4180/?diagnostics=1",
-    "http://127.0.0.1:4180/assets/index-DtLTXwOG.js",
+    "http://127.0.0.1:4180/assets/index-CoPJZlo7.js",
     "http://127.0.0.1:4180/assets/index-C0Tiu7Ha.css",
     "http://127.0.0.1:4180/datasets/catalog.json",
     "http://127.0.0.1:4180/cesium/Assets/approximateTerrainHeights.json",
@@ -23,18 +27,66 @@
     "http://127.0.0.1:4180/cesium/Workers/chunk-MXXXHGW3.js",
     "http://127.0.0.1:4180/cesium/Workers/chunk-J6FR5PFB.js",
     "http://127.0.0.1:4180/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4180/datasets/midtown/buildings.json",
+    "http://127.0.0.1:4180/datasets/midtown/tileset.json",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/buildings.json",
+    "http://127.0.0.1:4180/cesium/Workers/incrementallyBuildTerrainPicker.js",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/tileset.json",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4180/datasets/queens-lic/buildings.json",
+    "http://127.0.0.1:4180/datasets/queens-lic/tileset.json",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/buildings.json",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/tileset.json",
+    "http://127.0.0.1:4180/datasets/staten-st-george/buildings.json",
+    "http://127.0.0.1:4180/datasets/staten-st-george/tileset.json",
     "http://127.0.0.1:4180/datasets/lower-manhattan/597_120.glb",
     "http://127.0.0.1:4180/datasets/lower-manhattan/598_120.glb",
     "http://127.0.0.1:4180/datasets/lower-manhattan/597_119.glb",
     "http://127.0.0.1:4180/datasets/lower-manhattan/598_119.glb",
     "http://127.0.0.1:4180/datasets/lower-manhattan/598_121.glb",
     "http://127.0.0.1:4180/datasets/lower-manhattan/597_121.glb",
-    "http://127.0.0.1:4180/cesium/Workers/incrementallyBuildTerrainPicker.js",
-    "http://127.0.0.1:4180/cesium/Workers/chunk-J6FR5PFB.js",
-    "http://127.0.0.1:4180/cesium/Workers/chunk-GWE2HRAQ.js"
+    "http://127.0.0.1:4180/datasets/midtown/602_129.glb",
+    "http://127.0.0.1:4180/datasets/midtown/602_130.glb",
+    "http://127.0.0.1:4180/datasets/midtown/603_130.glb",
+    "http://127.0.0.1:4180/datasets/midtown/603_129.glb",
+    "http://127.0.0.1:4180/datasets/midtown/602_131.glb",
+    "http://127.0.0.1:4180/datasets/midtown/601_130.glb",
+    "http://127.0.0.1:4180/datasets/midtown/601_129.glb",
+    "http://127.0.0.1:4180/datasets/midtown/603_131.glb",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/601_118.glb",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/602_118.glb",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/601_119.glb",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/602_119.glb",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/601_117.glb",
+    "http://127.0.0.1:4180/datasets/brooklyn-dumbo/602_117.glb",
+    "http://127.0.0.1:4180/datasets/queens-lic/609_128.glb",
+    "http://127.0.0.1:4180/datasets/queens-lic/609_129.glb",
+    "http://127.0.0.1:4180/datasets/queens-lic/608_128.glb",
+    "http://127.0.0.1:4180/datasets/queens-lic/608_129.glb",
+    "http://127.0.0.1:4180/datasets/queens-lic/610_129.glb",
+    "http://127.0.0.1:4180/datasets/queens-lic/610_128.glb",
+    "http://127.0.0.1:4180/datasets/queens-lic/609_127.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/612_142.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/612_143.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/613_143.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/613_142.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/611_143.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/612_144.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/611_142.glb",
+    "http://127.0.0.1:4180/datasets/bronx-mott-haven/613_144.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/586_105.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/587_105.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/586_106.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/587_106.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/586_104.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/585_105.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/585_106.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/587_104.glb",
+    "http://127.0.0.1:4180/datasets/staten-st-george/585_104.glb"
   ],
   "snapshot": {
-    "loaded": 1,
+    "loaded": 6,
     "catalog": {
       "schema_version": 1,
       "pipeline_version": "0.1.0-stage2",
@@ -55,92 +107,197 @@
           "tileset": "lower-manhattan/tileset.json",
           "buildings": "lower-manhattan/buildings.json",
           "quality": "lower-manhattan/quality.json"
+        },
+        {
+          "id": "midtown",
+          "title": "Midtown",
+          "records": 812,
+          "published_real_outlines": 811,
+          "tiles": 8,
+          "bounds_wgs84": [
+            -73.9904604753511,
+            40.7474659560927,
+            -73.97586729836158,
+            40.757129595006
+          ],
+          "tileset": "midtown/tileset.json",
+          "buildings": "midtown/buildings.json",
+          "quality": "midtown/quality.json"
+        },
+        {
+          "id": "brooklyn-dumbo",
+          "title": "Brooklyn Dumbo",
+          "records": 211,
+          "published_real_outlines": 211,
+          "tiles": 6,
+          "bounds_wgs84": [
+            -73.99383047514662,
+            40.69726580124448,
+            -73.98470638021327,
+            40.704995219242264
+          ],
+          "tileset": "brooklyn-dumbo/tileset.json",
+          "buildings": "brooklyn-dumbo/buildings.json",
+          "quality": "brooklyn-dumbo/quality.json"
+        },
+        {
+          "id": "queens-lic",
+          "title": "Queens Lic",
+          "records": 406,
+          "published_real_outlines": 406,
+          "tiles": 7,
+          "bounds_wgs84": [
+            -73.94968809623361,
+            40.742422230962795,
+            -73.93908346056749,
+            40.75197177377777
+          ],
+          "tileset": "queens-lic/tileset.json",
+          "buildings": "queens-lic/buildings.json",
+          "quality": "queens-lic/quality.json"
+        },
+        {
+          "id": "bronx-mott-haven",
+          "title": "Bronx Mott Haven",
+          "records": 519,
+          "published_real_outlines": 519,
+          "tiles": 8,
+          "bounds_wgs84": [
+            -73.93022306048732,
+            40.80631459715604,
+            -73.91987985395586,
+            40.8160367929585
+          ],
+          "tileset": "bronx-mott-haven/tileset.json",
+          "buildings": "bronx-mott-haven/buildings.json",
+          "quality": "bronx-mott-haven/quality.json"
+        },
+        {
+          "id": "staten-st-george",
+          "title": "Staten St George",
+          "records": 780,
+          "published_real_outlines": 780,
+          "tiles": 9,
+          "bounds_wgs84": [
+            -74.08448574246428,
+            40.63882606833976,
+            -74.07157895058945,
+            40.64794114474505
+          ],
+          "tileset": "staten-st-george/tileset.json",
+          "buildings": "staten-st-george/buildings.json",
+          "quality": "staten-st-george/quality.json"
         }
       ],
       "source_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
       "height_note": "HEIGHT_ROOF is feet above ground; null and zero are unknown; not rendered as walls",
       "ground_note": "Ellipsoid reference only; no terrain. Lines lifted 0.25 m solely to avoid depth fighting."
     },
-    "recordCount": 299,
-    "active": "lower-manhattan",
+    "recordCount": 3027,
+    "active": "staten-st-george",
     "selected": null,
     "pickPoints": [
       {
-        "id": "nyc:footprints:doitt:1000469",
-        "x": 238.81733986840072,
-        "y": 272.5534562768135
+        "id": "nyc:footprints:doitt:1000269",
+        "x": 278.09955807348024,
+        "y": 452.900139669179
       },
       {
-        "id": "nyc:footprints:doitt:100556",
-        "x": 135.43891592457078,
-        "y": 370.7061781014071
+        "id": "nyc:footprints:doitt:1007941",
+        "x": 185.22744717063438,
+        "y": 408.9508156597636
       },
       {
-        "id": "nyc:footprints:doitt:105139",
-        "x": 179.220068897808,
-        "y": 441.573337048943
+        "id": "nyc:footprints:doitt:1010906",
+        "x": 122.18039455461636,
+        "y": 379.0783205820148
       },
       {
-        "id": "nyc:footprints:doitt:108179",
-        "x": 304.48527662793634,
-        "y": 330.221661108914
+        "id": "nyc:footprints:doitt:1012793",
+        "x": 164.2964016900761,
+        "y": 490.80850714039224
       },
       {
-        "id": "nyc:footprints:doitt:1105834",
-        "x": 264.52670778952313,
-        "y": 486.7371574799633
+        "id": "nyc:footprints:doitt:1015141",
+        "x": 148.8555240950504,
+        "y": 418.7454991321408
       },
       {
-        "id": "nyc:footprints:doitt:1106418",
-        "x": 147.07249280789677,
-        "y": 344.45136100872367
+        "id": "nyc:footprints:doitt:1017330",
+        "x": 146.97577405112614,
+        "y": 419.0734054442079
       },
       {
-        "id": "nyc:footprints:doitt:1107962",
-        "x": 362.6833040316254,
-        "y": 394.1716432769536
+        "id": "nyc:footprints:doitt:1022532",
+        "x": 182.72720573681315,
+        "y": 410.44879525064005
       },
       {
-        "id": "nyc:footprints:doitt:1107967",
-        "x": 277.3029966440342,
-        "y": 333.7662718957027
+        "id": "nyc:footprints:doitt:1026194",
+        "x": 180.20368534571944,
+        "y": 410.91665023236646
       },
       {
-        "id": "nyc:footprints:doitt:1107968",
-        "x": 277.8646367918092,
-        "y": 330.6768970265217
+        "id": "nyc:footprints:doitt:103398",
+        "x": 60.334254522365825,
+        "y": 432.2980408110342
       },
       {
-        "id": "nyc:footprints:doitt:1115090",
-        "x": 105.19016516477132,
-        "y": 431.261758243111
+        "id": "nyc:footprints:doitt:1034017",
+        "x": 165.95849814359778,
+        "y": 490.2697315693657
       },
       {
-        "id": "nyc:footprints:doitt:1117717",
-        "x": 46.00544391485815,
-        "y": 310.27635420014593
+        "id": "nyc:footprints:doitt:1041780",
+        "x": 141.87549994978843,
+        "y": 420.8072836302184
       },
       {
-        "id": "nyc:footprints:doitt:114988",
-        "x": 357.428705945557,
-        "y": 398.5339881105018
+        "id": "nyc:footprints:doitt:1051440",
+        "x": 151.67971334680064,
+        "y": 422.2553146111054
       }
     ],
     "failures": [],
     "tiles": [
       {
         "id": "lower-manhattan",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "midtown",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "brooklyn-dumbo",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "queens-lic",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "bronx-mott-haven",
+        "show": false,
+        "tilesLoaded": true
+      },
+      {
+        "id": "staten-st-george",
         "show": true,
         "tilesLoaded": true
       }
     ],
     "camera": {
       "position": [
-        1333929.8501537992,
-        -4656117.500444786,
-        4138239.512978368
+        1329875.1642320605,
+        -4662271.356581703,
+        4132779.227885973
       ],
-      "height": 1456.4698667624089
+      "height": 1540.7365983689256
     }
   }
 }

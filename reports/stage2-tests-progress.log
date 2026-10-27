@@ -1,0 +1,19 @@
+
+> nyc-real-scale-3d@0.1.0 test
+> .venv/bin/python -m unittest discover -s tests -v
+
+test_newer_null_never_replaces_old_valid_and_parcel_is_not_a_building (test_pipeline.EvidenceTests.test_newer_null_never_replaces_old_valid_and_parcel_is_not_a_building) ... ok
+test_true_zero_ground_and_bool_are_distinguished (test_pipeline.EvidenceTests.test_true_zero_ground_and_bool_are_distinguished) ... ok
+test_glb_local_precision_axis_and_real_identity (test_pipeline.PipelineTests.test_glb_local_precision_axis_and_real_identity) ... ok
+test_height_semantics_and_negative_ground (test_pipeline.PipelineTests.test_height_semantics_and_negative_ground) ... ok
+test_holes_and_multipart_and_invalid (test_pipeline.PipelineTests.test_holes_and_multipart_and_invalid) ... ok
+test_real_normalization_is_repeatable (test_pipeline.PipelineTests.test_real_normalization_is_repeatable) ... ok
+test_real_source_counts_and_geography (test_pipeline.PipelineTests.test_real_source_counts_and_geography) ... /workspace/nyc-3d-html/tests/test_pipeline.py:16: ResourceWarning: unclosed file <_io.TextIOWrapper name='/workspace/nyc-3d-html/data/intermediate/lower-manhattan/manifest.json' mode='r' encoding='UTF-8'>
+  mf=json.load(open(ROOT/'data/intermediate/lower-manhattan/manifest.json'));rows=[json.loads(x)for x in(ROOT/'data/processed/lower-manhattan/buildings.jsonl').read_text().splitlines()];self.assertEqual(len(rows),mf['records_downloaded']);self.assertEqual(len(set(r['id']for r in rows)),len(rows));self.assertTrue(all(not r['evidence']['height']['independently_verified']for r in rows));self.assertTrue(any(r['height_m']is None for r in rows));self.assertTrue(all(r['evidence']['roof']['status']=='unknown'for r in rows))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.384s
+
+OK

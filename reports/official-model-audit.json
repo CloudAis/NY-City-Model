@@ -1,0 +1,992 @@
+{
+  "at": "2026-10-27T04:58:38.676223+00:00",
+  "archive": {
+    "archive": "data/raw/supporting/nyc_3dmodel_mn01.zip",
+    "archive_sha256": "820fcc1a65ce892e10e82139e87cf6e528ca8590b0dc8bcc62f49d8677020b8a",
+    "at": "2026-10-27T04:14:58.144206+00:00",
+    "files": [
+      {
+        "name": "NYC_3DModel_MN01.3dm",
+        "bytes": 374030466,
+        "sha256": "58f874e508a2e0501f0b803ad69c0ea4ef3e2262a86feec7a743b16600732c7c"
+      }
+    ]
+  },
+  "file": "data/intermediate/extracted/nyc_3dmodel_mn01/NYC_3DModel_MN01.3dm",
+  "unit_system": "UnitSystem.Feet",
+  "absolute_tolerance_source_units": 0.001,
+  "source_crs": "EPSG:2263 stated by OTI metadata; document units inspected separately",
+  "vertical_datum": "source 3D report must be reconciled; not directly applied as WGS84 ellipsoid height",
+  "bbox_source_units": [
+    [
+      913161.690661655,
+      120091.06848785997,
+      -192.51086983358837
+    ],
+    [
+      1067370.619769583,
+      272845.8406941904,
+      1797.5775484808876
+    ]
+  ],
+  "geometry_objects": 132223,
+  "unique_object_ids": 132223,
+  "geometry_types": {
+    "PolylineCurve": 72108,
+    "PolyCurve": 59,
+    "Text": 60,
+    "Brep": 59996
+  },
+  "layers": [
+    {
+      "index": 0,
+      "name": "Community District",
+      "parent_id": "00000000-0000-0000-0000-000000000000",
+      "objects": 183
+    },
+    {
+      "index": 1,
+      "name": "Name",
+      "parent_id": "25cf68b0-d5b3-4fe7-8d5c-9438bdebad33",
+      "objects": 60
+    },
+    {
+      "index": 2,
+      "name": "Buildings",
+      "parent_id": "00000000-0000-0000-0000-000000000000",
+      "objects": 0
+    },
+    {
+      "index": 3,
+      "name": "Building_Facade",
+      "parent_id": "adb0c5f3-042b-4ce0-b602-28d200112563",
+      "objects": 50020
+    },
+    {
+      "index": 4,
+      "name": "Building_FootPrint",
+      "parent_id": "adb0c5f3-042b-4ce0-b602-28d200112563",
+      "objects": 1752
+    },
+    {
+      "index": 5,
+      "name": "Building_RoofTop",
+      "parent_id": "adb0c5f3-042b-4ce0-b602-28d200112563",
+      "objects": 7757
+    },
+    {
+      "index": 6,
+      "name": "Facade Surface",
+      "parent_id": "adb0c5f3-042b-4ce0-b602-28d200112563",
+      "objects": 49941
+    },
+    {
+      "index": 7,
+      "name": "FootPrint Surface",
+      "parent_id": "adb0c5f3-042b-4ce0-b602-28d200112563",
+      "objects": 1751
+    },
+    {
+      "index": 8,
+      "name": "RoofTop Surface",
+      "parent_id": "adb0c5f3-042b-4ce0-b602-28d200112563",
+      "objects": 7256
+    },
+    {
+      "index": 9,
+      "name": "Statue_of_Liberty",
+      "parent_id": "adb0c5f3-042b-4ce0-b602-28d200112563",
+      "objects": 2457
+    },
+    {
+      "index": 10,
+      "name": "Linework",
+      "parent_id": "00000000-0000-0000-0000-000000000000",
+      "objects": 0
+    },
+    {
+      "index": 11,
+      "name": "Bridge_Tunnel_Overpass",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 23
+    },
+    {
+      "index": 12,
+      "name": "Building Footprints",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 1709
+    },
+    {
+      "index": 13,
+      "name": "Contour Lines",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 4667
+    },
+    {
+      "index": 14,
+      "name": "Edge of Pavement",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 1535
+    },
+    {
+      "index": 15,
+      "name": "Open Space",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 34
+    },
+    {
+      "index": 16,
+      "name": "Parking Lots",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 54
+    },
+    {
+      "index": 17,
+      "name": "Parks",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 59
+    },
+    {
+      "index": 18,
+      "name": "Roadbed",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 744
+    },
+    {
+      "index": 19,
+      "name": "Shoreline",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 145
+    },
+    {
+      "index": 20,
+      "name": "Sidewalks",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 431
+    },
+    {
+      "index": 21,
+      "name": "Subway Entrances",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 128
+    },
+    {
+      "index": 22,
+      "name": "Subway Envelopes",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 18
+    },
+    {
+      "index": 23,
+      "name": "Subway Lines",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 27
+    },
+    {
+      "index": 24,
+      "name": "Tax Lots",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 1466
+    },
+    {
+      "index": 25,
+      "name": "Water",
+      "parent_id": "2c70aaba-f9e0-4c8a-8cdc-7c3c60bebb89",
+      "objects": 6
+    }
+  ],
+  "sample_objects": [
+    {
+      "object_id": "f9b5417f-0929-4c3e-8ec3-de7792f933f8",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          983590.8087212595,
+          201035.4801967368,
+          7.9557948907149285
+        ],
+        [
+          983704.0876941674,
+          201118.4692039868,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "9965d294-3c11-475f-8e04-bae9b800bc2b",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981084.2947054204,
+          202545.1635290608,
+          7.9557948907149285
+        ],
+        [
+          981200.6855487524,
+          202634.6935337258,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "dbe8c94c-bb44-469f-925a-369cf060bec6",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981640.9947075094,
+          197637.41186165082,
+          7.9557948907149285
+        ],
+        [
+          981684.6166675084,
+          197682.04595873482,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "4aa1b2ea-ac4a-4f5a-9d96-c6e2cc00303c",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          983805.5576355904,
+          200949.75136556482,
+          7.9557948907149285
+        ],
+        [
+          983877.8603125064,
+          201049.71999765182,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "d52c5902-b284-4ab2-a520-048d5169ae60",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981366.7042455825,
+          200800.7490388978,
+          7.9557948907149285
+        ],
+        [
+          981476.4176088425,
+          200872.2239615698,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "bb23c774-44f0-4b97-bcea-92c01a118866",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          980047.6612800064,
+          199971.3491229048,
+          7.9557948907149285
+        ],
+        [
+          980250.3094967605,
+          200287.2641734858,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "a259bbe6-ae14-4b5b-84f1-1ca454062309",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          979351.9454798395,
+          197065.83524889481,
+          7.9557948907149285
+        ],
+        [
+          979586.8423197564,
+          197319.1477343968,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "e8275f66-1f12-400a-bf28-57b80b5b5602",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          983646.5563131714,
+          196850.7425032338,
+          7.9557948907149285
+        ],
+        [
+          983704.8107898384,
+          196932.3968674768,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "cba160c0-be0d-454c-b42a-ee272faea534",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981640.8368994144,
+          197946.6228573998,
+          7.9557948907149285
+        ],
+        [
+          981891.1936821635,
+          198232.5619180728,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "b2dc4895-983b-41d4-b7c9-78ce41ec6490",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981706.8679353445,
+          199688.99141990382,
+          7.9557948907149285
+        ],
+        [
+          981782.8110249185,
+          199790.9042738158,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "6b24cc37-bab1-441d-9d30-2a51a7afc52b",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981332.1902070044,
+          195600.17249781682,
+          7.9557948907149285
+        ],
+        [
+          981400.0309505904,
+          195677.6011487318,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "67712f12-7ed4-469f-a54e-fb212fc1ff81",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          979660.8523423375,
+          201209.4122635648,
+          7.9557948907149285
+        ],
+        [
+          980678.9490594264,
+          201639.0167193188,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "1cd84250-fe09-49ac-829b-01ad12602056",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          982049.5431030095,
+          201574.9735403138,
+          7.9557948907149285
+        ],
+        [
+          982128.6978003384,
+          201759.8622781558,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "9bc53e58-2c12-4a34-8919-bbe7270dd561",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          982760.5741612614,
+          200385.63011848181,
+          7.9557948907149285
+        ],
+        [
+          982856.0526448335,
+          200500.6722112378,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "7cc1c803-6f04-4066-b9f0-3c15d6f8979d",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981249.8389937574,
+          198988.54432997882,
+          7.9557948907149285
+        ],
+        [
+          981632.1978090855,
+          199304.5407452358,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "1022164a-8080-4941-b771-c474206cdac1",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          982296.2552080004,
+          199616.8944512388,
+          7.9557948907149285
+        ],
+        [
+          982398.7645174264,
+          199764.4850353228,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "ec157f9d-3626-4b2a-8ce9-6d95e8c5cfb2",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981867.2242419274,
+          197845.9636098968,
+          7.9557948907149285
+        ],
+        [
+          981979.9694232495,
+          197958.6441588178,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "58146d9a-5aff-4010-a6fd-e95d093018e5",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          982330.4641290904,
+          199918.1815783158,
+          7.9557948907149285
+        ],
+        [
+          982416.7529985005,
+          200038.5133586458,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "e1cac139-6652-4991-b412-84140079712a",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          983088.8303945065,
+          201187.46775365682,
+          7.9557948907149285
+        ],
+        [
+          983187.4594623444,
+          201307.3169234028,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "375fb68c-c212-430a-ab62-191b7cb6570b",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          982909.3638899174,
+          196488.6100253988,
+          7.9557948907149285
+        ],
+        [
+          983023.4574937525,
+          196603.9500178178,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "d6b7dcd1-10b0-48a4-914a-ceb45144aab8",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          983747.7975805104,
+          200814.6788010678,
+          7.9557948907149285
+        ],
+        [
+          983824.6451958414,
+          200915.13758965582,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "b4c67495-e60f-4b78-84ec-34f74cad30a7",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981687.9814901644,
+          201878.73900889582,
+          7.9557948907149285
+        ],
+        [
+          981873.0687184185,
+          202072.6162458138,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "9a2aaaf9-b6f1-4f1c-af65-8e38c2887775",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981284.5705515884,
+          201065.9975241498,
+          7.9557948907149285
+        ],
+        [
+          981315.2679967585,
+          201129.5475938988,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "22114b39-c2da-421e-a463-38858934b59b",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981155.6049302515,
+          201062.55527382382,
+          7.9557948907149285
+        ],
+        [
+          981238.4164444205,
+          201095.7687900738,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    },
+    {
+      "object_id": "e7305a66-d64b-4481-a2d4-261f722b201a",
+      "name": "",
+      "geometry_type": "PolylineCurve",
+      "layer_index": 24,
+      "bbox_source_units": [
+        [
+          981479.1026428344,
+          200354.6659415738,
+          7.9557948907149285
+        ],
+        [
+          981529.4732770025,
+          200414.99751382382,
+          7.9557948907149285
+        ]
+      ],
+      "user_strings": []
+    }
+  ],
+  "bbox_unavailable_annotation_objects": [
+    {
+      "id": "c298148f-fec6-4801-963c-4da35a8a3241",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "2170965c-8a73-4b4a-a52b-9d8393274afa",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "ff0447c8-ad55-45f1-b654-fcad00293f55",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "78a4756f-9995-496c-bc16-382583cd3711",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "2032fef0-f536-4b90-8449-a543206eb3d5",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "889918cc-eebc-4b1c-afeb-b272748c88b9",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "a982bb13-37dc-44f2-a1f9-d15d3c1e4258",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "16325ce8-8710-453c-8178-f403147aae4d",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "117368eb-226a-4d9c-af3c-508bcc9ac281",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "19b89eef-f3a9-462a-9cdd-0abe4e681f54",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "640fd0ca-e1b2-4f0b-908f-278c1369804e",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "ed0a4bf3-f084-4b2f-a0df-853e35bacf15",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "afb36bce-cd64-439c-882d-798d65ebe461",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "531d24af-1a86-4c62-bf04-dd5d35e5d3d2",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "0d424458-524b-4dd6-8860-5c9fb2cc5a95",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "a6c1b815-6aae-4f9a-918c-380a06081448",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "a7e63720-2fbe-4ea1-882c-69336cbceef0",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "aea9341f-08e4-432f-9f9f-204eacc95fa6",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "fab64a31-01df-4abc-a020-51d1bffd0085",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "16fec7ab-c5ba-4e24-9499-3fd0eea9b9f5",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "c2c53567-9757-4e06-bde8-f153f34d0627",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "d85c82d1-7d69-45f9-8db2-def81fc3592c",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "a79bddc0-bd32-4c46-95bc-0e55b0028958",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "a94f5cf0-a489-4abd-9886-cb758083f21b",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "bca9175e-2a06-428f-b9c9-cdd665ccbc7f",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "9783f7e6-ab7f-46ef-9bdd-1d216b60e56d",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "2a034ca5-4354-4e17-bdaa-d20e528e5f6b",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "4e81b59a-4c13-4c9f-b8f3-16f0c1eba9b9",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "d6b0796e-6310-499a-9f3d-734a05a52ea4",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "16f628d4-3c52-48ea-a08f-376fff67e9f0",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "c63360ce-9866-4b95-9efa-af4fb6e2e639",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "a9c497ee-e2ee-47bb-bfe4-d780fbb9bc3f",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "071a0ae0-abe7-4210-b6e7-fbc7354d3a4a",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "0c049b26-3bd6-4bc3-85cd-f185630f584c",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "29aceb31-db0e-45ef-b883-badecd0418a6",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "b8810f62-0b07-44cc-b7d1-c8de739e8e0e",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "6895de5b-26f1-46f9-9ff3-249be42d6944",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "769358ca-51d6-495d-9569-d13c3d1385bb",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "f8d8169a-e40e-4b2b-871f-773f042f2125",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "1e7d74dc-627c-4b1a-ab5d-fefee698473c",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "56ec9c2b-eeb7-456a-b5fa-34f36b135a1d",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "87c02cfe-9fcc-4705-afaa-4555d937a672",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "c45229c5-d260-4160-b7aa-b8b8480055f2",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "11cca819-f4f0-4e4d-8006-d29156ee6424",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "9c86f6e9-0513-4f83-a607-bdf961c1290e",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "d4ec4d29-67d3-49d4-82e0-440c6f8a6181",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "8cfd4351-4c19-418d-a6b9-9c7f682a9df0",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "6eb56997-0cc1-4e7b-bef4-22bf094c88a2",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "9bb630e1-aa13-474e-90d7-bd57d9dac4fd",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "93f535ed-f4dc-443d-ae07-b6f97ee7c378",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "47a27b93-5aaf-4c62-83aa-905c71be035b",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "378d7e28-1bd9-4180-ab08-23d5bd6b8453",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "c93dfc22-0d92-4749-ad95-b2398b22266c",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "7fca2207-b430-4ff1-8bce-c0fab49d7ce1",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "f1075d6c-24cf-4757-ac7f-9512c9f5f5da",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "b99a914c-209b-4320-bfed-17743ef9bbf7",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "0f862515-8959-4fb2-9fa1-153eadd2af30",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "99c72859-5a17-41e5-9e5e-85a1913b85ac",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "ea789600-8f1f-4318-91fd-dba93cc1d16b",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    },
+    {
+      "id": "0263ce95-fa1f-45cf-a1d7-d916c7f87126",
+      "type": "Text",
+      "reason": "annotation requires a dimension style; not treated as building geometry"
+    }
+  ],
+  "observation_year": 2014,
+  "dcp_data_date": "2018-08",
+  "dcp_release_date": "2018-10-19",
+  "publication_state": "downloaded and parsed; not yet spatially matched or converted to current buildings",
+  "matched_current_buildings": 0,
+  "independently_verified_models": 0,
+  "no_interiors_generated": true,
+  "unit_conflict": {
+    "metadata_horizontal": "US survey foot, EPSG:2263",
+    "document_units": "UnitSystem.Feet",
+    "selection": null,
+    "reason": "Reconcile control points and vendor documentation before model transformation; do not silently apply international-foot or survey-foot scaling."
+  },
+  "object_count_warning": "Layers include curves and Brep surfaces representing overlapping components; geometry object count is not a count of physical buildings.",
+  "overall_bbox_warning": "Includes broad context/contours; not an audited building-only MN01 coverage envelope."
+}

@@ -1,0 +1,82 @@
+{
+  "started_at": "2026-10-27T04:10:26.488867+00:00",
+  "signature": "781af54a47e79b223cba643b96af720aeef8d4b9a20dc3d6e7e93d6662b42afe",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-pilot",
+  "count_expected": 406,
+  "ids_sha256": "90203fb14616623469b9155d4dc7341c8b3a0114239175e8834067729ae91fcc",
+  "scope": {
+    "borough": "queens",
+    "bbox_wgs84": [
+      -73.949,
+      40.743,
+      -73.94,
+      40.751
+    ],
+    "where": "BASE_BBL LIKE '4%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:10:28.511771+00:00",
+  "finished_at": "2026-10-27T04:10:29.295079+00:00",
+  "pages": [
+    {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-pilot/queens-lic/page-00000000.json",
+      "sha256": "25f32268b0e97d2c2de6eb2872415ca503a2b8aad9eea2c7e3b4826098a580fa",
+      "records": 100
+    },
+    {
+      "id": "page-00000100",
+      "path": "data/raw/footprints/2026-10-27-pilot/queens-lic/page-00000100.json",
+      "sha256": "839e84b0e8c545a299b91c741a4f077ca9ef1b1be40245da7d11b54bac44554f",
+      "records": 100
+    },
+    {
+      "id": "page-00000200",
+      "path": "data/raw/footprints/2026-10-27-pilot/queens-lic/page-00000200.json",
+      "sha256": "7acf7eb261da6077db99df57b9f17c84affbf657e1011f7ac16b501f41ed91f3",
+      "records": 100
+    },
+    {
+      "id": "page-00000300",
+      "path": "data/raw/footprints/2026-10-27-pilot/queens-lic/page-00000300.json",
+      "sha256": "d1d5d0e45330a9ddbc071f44379b12c7c12ca646e750f0874fac163b03b0dba2",
+      "records": 100
+    },
+    {
+      "id": "page-00000400",
+      "path": "data/raw/footprints/2026-10-27-pilot/queens-lic/page-00000400.json",
+      "sha256": "46db9b6a34ca9a3eadebbad70b49afec2711b61a5b149dc45753de25ee1e39b0",
+      "records": 6
+    }
+  ],
+  "records_downloaded": 406,
+  "unique_object_ids": 406,
+  "consistency": {
+    "start_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "end_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "id_set_equal": true,
+    "service_changed_during_window": false,
+    "atomic_snapshot": false,
+    "limitation": "Dynamic service; unchanged last-edit and ID set are checks, not a transactional snapshot. Re-fetch a new version if flagged."
+  },
+  "raw_spatial_reference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "height_units": "feet; relative roof height, not elevation",
+  "vertical_datum": "Ground often NAVD88 per metadata; per-feature datum not guaranteed",
+  "downloaded_at": "2026-10-27T04:10:29.295144+00:00",
+  "observation_date": null,
+  "source_metadata_date": "2025-10-09",
+  "license": "NYC Open Data Terms; see captured terms; not blanket CC0",
+  "license_class": "local-processing-and-distribution-subject-to-NYC-terms"
+}

@@ -1,0 +1,21 @@
+{
+  "query_bbox_wgs84": [
+    -74.0165,
+    40.7045,
+    -74.007,
+    40.7115
+  ],
+  "borough": "manhattan",
+  "capture_version": "2026-10-27-city",
+  "raw_records": 299,
+  "normalized_records": 299,
+  "polygon_parts": 299,
+  "valid_height_records": 297,
+  "independently_verified_heights": 0,
+  "failed": 0,
+  "citywide_complete": false,
+  "publication_allowed": true,
+  "license": "NYC Open Data Terms",
+  "output_sha256": "19f64044d7259dbeb48ce09ae0e428785a96d4b6b550472fcfd9c4c1ade3ad57",
+  "identity_sha256": "97d40e4ffaddb82dbbae9718132d73a9ee74cf327214f66ac3db7e89d6356ace"
+}

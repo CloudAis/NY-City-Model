@@ -1,0 +1,76 @@
+{
+  "completed": {
+    "page-00000000": {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000000.json",
+      "sha256": "fb830fcff7e978c684c8d6416aed9be43e13bac46badc55d2a38ea91a8e509e0",
+      "records": 100
+    },
+    "page-00000100": {
+      "id": "page-00000100",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000100.json",
+      "sha256": "6bdefa8da38c8f3b9cba4239ae71da0ebdf8e96879ca5121ffd2fae618390de8",
+      "records": 100
+    },
+    "page-00000200": {
+      "id": "page-00000200",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000200.json",
+      "sha256": "561b6977e745c4c8fe3838a784221099a62b9903c18c8116769df5a7375a18b8",
+      "records": 100
+    },
+    "page-00000300": {
+      "id": "page-00000300",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000300.json",
+      "sha256": "1d4f7767d3dd4797c62dee700c3ed78877d796df9325d026ed229bff1f866785",
+      "records": 100
+    },
+    "page-00000400": {
+      "id": "page-00000400",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000400.json",
+      "sha256": "7b6f386bcadbb455401e83a0b540bf77d1740be7fab510d181edfaba3bdcbdb9",
+      "records": 100
+    },
+    "page-00000500": {
+      "id": "page-00000500",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000500.json",
+      "sha256": "f7a4522b7f82e6a195c0ba1edcd38772a392df88f989ea60f006729d3f5e0132",
+      "records": 100
+    },
+    "page-00000600": {
+      "id": "page-00000600",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000600.json",
+      "sha256": "e735d632633e7452f13c74c291842be83dd33de151997dc220b0965e5ba37bd6",
+      "records": 100
+    },
+    "page-00000700": {
+      "id": "page-00000700",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000700.json",
+      "sha256": "b9e77d4b93dba97ad02af810cf6f7e1953a4ca36579f7c158d71686c885a4051",
+      "records": 100
+    },
+    "page-00000800": {
+      "id": "page-00000800",
+      "path": "data/raw/footprints/2026-10-27-pilot/midtown/page-00000800.json",
+      "sha256": "0c0585b707ff472e953805da0983d6d553784dfc3f8a52be15a80fcb2c75a524",
+      "records": 12
+    }
+  },
+  "started_at": "2026-10-27T04:08:34.571824+00:00",
+  "signature": "c66a1cbb238ec6903e4b45e2cc17feff6351d164f02d59514bb14b019eb26b22",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-pilot",
+  "count_expected": 812,
+  "ids_sha256": "e7f5497c1e49ff9ae8b807a0d7493cdab9e7af739ddda17f985156d0a21eb8bb",
+  "scope": {
+    "borough": "manhattan",
+    "bbox_wgs84": [
+      -73.989,
+      40.748,
+      -73.977,
+      40.7565
+    ],
+    "where": "BASE_BBL LIKE '1%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:08:38.410256+00:00"
+}

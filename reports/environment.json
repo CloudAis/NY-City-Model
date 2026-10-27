@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-27T05:12:19.234073+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "node": "v24.19.0",
+  "npm": "11.9.0",
+  "gdal": "GDAL 3.10.3, released 2025/04/01",
+  "python_libraries": {
+    "pyproj": "3.8.0",
+    "shapely": "2.2.0",
+    "numpy": "2.5.4",
+    "rhino3dm": "8.35.0",
+    "laspy": "2.7.0",
+    "lazrs": "0.8.2"
+  },
+  "pdal_cli": null,
+  "gdal_python_bindings": false,
+  "free_disk_bytes": 22593724416,
+  "chromium": "Chromium 154.0.8037.57 built on Debian GNU/Linux 13 (trixie)",
+  "browser_evidence": "reports/browser-report.json; actual WebGL2/SwiftShader",
+  "single_file_limitation": "file:// blocked by enterprise policy; offline setContent executed"
+}

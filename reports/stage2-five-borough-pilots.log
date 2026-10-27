@@ -1,0 +1,170 @@
+brooklyn-dumbo page-00000000 100 validated
+brooklyn-dumbo page-00000100 100 validated
+brooklyn-dumbo page-00000200 11 validated
+{
+  "pipeline_version": "0.1.0-stage2",
+  "scope": {
+    "borough": "brooklyn",
+    "bbox_wgs84": [
+      -73.993,
+      40.698,
+      -73.985,
+      40.705
+    ],
+    "where": "BASE_BBL LIKE '3%'"
+  },
+  "source_manifest": "data/intermediate/brooklyn-dumbo/manifest.json",
+  "raw_records": 211,
+  "normalized_records": 211,
+  "source_defined_entities": 211,
+  "physical_building_count": "not independently resolved; DOITT entities are not guaranteed physical one-to-one",
+  "polygon_parts": 211,
+  "valid_height_records": 211,
+  "placeholder_records": 0,
+  "independently_verified_heights": 0,
+  "downloaded_3d_building_models": 0,
+  "unknown_roof_form": 211,
+  "unknown_facade": 211,
+  "failed": 0,
+  "repairs": 0,
+  "unique_bin_count": 211,
+  "output_sha256": "6e075bed79ec18215b7b1eaee7c6682b5b89d2f308d26a257ee8717603e3234a",
+  "projection": {
+    "source_crs": "3857",
+    "standard_crs": "EPSG:32118",
+    "to_wgs84_operation": "Inverse of SPCS83 New York Long Island zone (meter) + NAD83 to WGS 84 (1) (with axis order normalized for visualization)",
+    "nominal_transform_accuracy_m": 4.0
+  },
+  "geometry_fully_downloaded": true,
+  "citywide_complete": false
+}
+queens-lic page-00000000 100 validated
+queens-lic page-00000100 100 validated
+queens-lic page-00000200 100 validated
+queens-lic page-00000300 100 validated
+queens-lic page-00000400 6 validated
+{
+  "pipeline_version": "0.1.0-stage2",
+  "scope": {
+    "borough": "queens",
+    "bbox_wgs84": [
+      -73.949,
+      40.743,
+      -73.94,
+      40.751
+    ],
+    "where": "BASE_BBL LIKE '4%'"
+  },
+  "source_manifest": "data/intermediate/queens-lic/manifest.json",
+  "raw_records": 406,
+  "normalized_records": 406,
+  "source_defined_entities": 406,
+  "physical_building_count": "not independently resolved; DOITT entities are not guaranteed physical one-to-one",
+  "polygon_parts": 406,
+  "valid_height_records": 403,
+  "placeholder_records": 0,
+  "independently_verified_heights": 0,
+  "downloaded_3d_building_models": 0,
+  "unknown_roof_form": 406,
+  "unknown_facade": 406,
+  "failed": 0,
+  "repairs": 0,
+  "unique_bin_count": 406,
+  "output_sha256": "b9c4619b751e6eb3b98423a5c38d1586f3a4719f0796b993dc383b3a520c681c",
+  "projection": {
+    "source_crs": "3857",
+    "standard_crs": "EPSG:32118",
+    "to_wgs84_operation": "Inverse of SPCS83 New York Long Island zone (meter) + NAD83 to WGS 84 (1) (with axis order normalized for visualization)",
+    "nominal_transform_accuracy_m": 4.0
+  },
+  "geometry_fully_downloaded": true,
+  "citywide_complete": false
+}
+bronx-mott-haven page-00000000 100 validated
+bronx-mott-haven page-00000100 100 validated
+bronx-mott-haven page-00000200 100 validated
+bronx-mott-haven page-00000300 100 validated
+bronx-mott-haven page-00000400 100 validated
+bronx-mott-haven page-00000500 19 validated
+{
+  "pipeline_version": "0.1.0-stage2",
+  "scope": {
+    "borough": "bronx",
+    "bbox_wgs84": [
+      -73.929,
+      40.807,
+      -73.921,
+      40.815
+    ],
+    "where": "BASE_BBL LIKE '2%'"
+  },
+  "source_manifest": "data/intermediate/bronx-mott-haven/manifest.json",
+  "raw_records": 519,
+  "normalized_records": 519,
+  "source_defined_entities": 519,
+  "physical_building_count": "not independently resolved; DOITT entities are not guaranteed physical one-to-one",
+  "polygon_parts": 519,
+  "valid_height_records": 516,
+  "placeholder_records": 0,
+  "independently_verified_heights": 0,
+  "downloaded_3d_building_models": 0,
+  "unknown_roof_form": 519,
+  "unknown_facade": 519,
+  "failed": 0,
+  "repairs": 0,
+  "unique_bin_count": 519,
+  "output_sha256": "2aaf418dc1896a233223a5c1ac88a6a3cb9fd55a07aa172c410cd4157771aa53",
+  "projection": {
+    "source_crs": "3857",
+    "standard_crs": "EPSG:32118",
+    "to_wgs84_operation": "Inverse of SPCS83 New York Long Island zone (meter) + NAD83 to WGS 84 (1) (with axis order normalized for visualization)",
+    "nominal_transform_accuracy_m": 4.0
+  },
+  "geometry_fully_downloaded": true,
+  "citywide_complete": false
+}
+staten-st-george page-00000000 100 validated
+staten-st-george page-00000100 100 validated
+staten-st-george page-00000200 100 validated
+staten-st-george page-00000300 100 validated
+staten-st-george page-00000400 100 validated
+staten-st-george page-00000500 100 validated
+staten-st-george page-00000600 100 validated
+staten-st-george page-00000700 80 validated
+{
+  "pipeline_version": "0.1.0-stage2",
+  "scope": {
+    "borough": "staten-island",
+    "bbox_wgs84": [
+      -74.084,
+      40.639,
+      -74.073,
+      40.648
+    ],
+    "where": "BASE_BBL LIKE '5%'"
+  },
+  "source_manifest": "data/intermediate/staten-st-george/manifest.json",
+  "raw_records": 780,
+  "normalized_records": 780,
+  "source_defined_entities": 780,
+  "physical_building_count": "not independently resolved; DOITT entities are not guaranteed physical one-to-one",
+  "polygon_parts": 780,
+  "valid_height_records": 780,
+  "placeholder_records": 0,
+  "independently_verified_heights": 0,
+  "downloaded_3d_building_models": 0,
+  "unknown_roof_form": 780,
+  "unknown_facade": 780,
+  "failed": 0,
+  "repairs": 0,
+  "unique_bin_count": 780,
+  "output_sha256": "f10c2de5ba2563e533bce7b1e0cc450293859ac4c43ab7199842d2ca9f44640e",
+  "projection": {
+    "source_crs": "3857",
+    "standard_crs": "EPSG:32118",
+    "to_wgs84_operation": "Inverse of SPCS83 New York Long Island zone (meter) + NAD83 to WGS 84 (1) (with axis order normalized for visualization)",
+    "nominal_transform_accuracy_m": 4.0
+  },
+  "geometry_fully_downloaded": true,
+  "citywide_complete": false
+}

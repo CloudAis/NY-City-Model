@@ -1,0 +1,38 @@
+{
+  "pipeline_version": "0.1.0-stage2",
+  "processor_sha256": "38ff71852c5fd5e06f052ea38a818cee9130f6862d11c59229bf17679d639d00",
+  "scope": {
+    "borough": "staten-island",
+    "bbox_wgs84": [
+      -74.084,
+      40.639,
+      -74.073,
+      40.648
+    ],
+    "where": "BASE_BBL LIKE '5%'"
+  },
+  "source_manifest": "data/intermediate/staten-st-george/manifest.json",
+  "raw_records": 780,
+  "normalized_records": 780,
+  "source_defined_entities": 780,
+  "physical_building_count": "not independently resolved; DOITT entities are not guaranteed physical one-to-one",
+  "polygon_parts": 780,
+  "valid_height_records": 780,
+  "placeholder_records": 0,
+  "independently_verified_heights": 0,
+  "downloaded_3d_building_models": 0,
+  "unknown_roof_form": 780,
+  "unknown_facade": 780,
+  "failed": 0,
+  "repairs": 0,
+  "unique_bin_count": 780,
+  "output_sha256": "f10c2de5ba2563e533bce7b1e0cc450293859ac4c43ab7199842d2ca9f44640e",
+  "projection": {
+    "source_crs": "3857",
+    "standard_crs": "EPSG:32118",
+    "to_wgs84_operation": "Inverse of SPCS83 New York Long Island zone (meter) + NAD83 to WGS 84 (1) (with axis order normalized for visualization)",
+    "nominal_transform_accuracy_m": 4.0
+  },
+  "geometry_fully_downloaded": true,
+  "citywide_complete": false
+}

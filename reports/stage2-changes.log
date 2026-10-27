@@ -1,0 +1,415 @@
+ .gitignore                                         |     12 +
+ README.md                                          |     89 +-
+ THIRD_PARTY_NOTICES.md                             |      9 +
+ assets/bronx-mott-haven/611_142.glb                |    Bin 0 -> 5052 bytes
+ assets/bronx-mott-haven/611_143.glb                |    Bin 0 -> 5476 bytes
+ assets/bronx-mott-haven/612_142.glb                |    Bin 0 -> 66840 bytes
+ assets/bronx-mott-haven/612_143.glb                |    Bin 0 -> 79212 bytes
+ assets/bronx-mott-haven/612_144.glb                |    Bin 0 -> 5460 bytes
+ assets/bronx-mott-haven/613_142.glb                |    Bin 0 -> 56832 bytes
+ assets/bronx-mott-haven/613_143.glb                |    Bin 0 -> 27124 bytes
+ assets/bronx-mott-haven/613_144.glb                |    Bin 0 -> 5520 bytes
+ assets/bronx-mott-haven/buildings.json             | 142910 +++++++++
+ assets/bronx-mott-haven/quality.json               |     38 +
+ assets/bronx-mott-haven/tiles.json                 |    721 +
+ assets/bronx-mott-haven/tileset.json               |    345 +
+ assets/brooklyn-dumbo/601_117.glb                  |    Bin 0 -> 7260 bytes
+ assets/brooklyn-dumbo/601_118.glb                  |    Bin 0 -> 49804 bytes
+ assets/brooklyn-dumbo/601_119.glb                  |    Bin 0 -> 14052 bytes
+ assets/brooklyn-dumbo/602_117.glb                  |    Bin 0 -> 3116 bytes
+ assets/brooklyn-dumbo/602_118.glb                  |    Bin 0 -> 14948 bytes
+ assets/brooklyn-dumbo/602_119.glb                  |    Bin 0 -> 25516 bytes
+ assets/brooklyn-dumbo/buildings.json               |  60198 ++++
+ assets/brooklyn-dumbo/quality.json                 |     38 +
+ assets/brooklyn-dumbo/tiles.json                   |    363 +
+ assets/brooklyn-dumbo/tileset.json                 |    265 +
+ assets/catalog.json                                |     80 +
+ assets/lower-manhattan/quality.json                |      1 +
+ assets/midtown/601_129.glb                         |    Bin 0 -> 12592 bytes
+ assets/midtown/601_130.glb                         |    Bin 0 -> 18220 bytes
+ assets/midtown/602_129.glb                         |    Bin 0 -> 75928 bytes
+ assets/midtown/602_130.glb                         |    Bin 0 -> 58832 bytes
+ assets/midtown/602_131.glb                         |    Bin 0 -> 8568 bytes
+ assets/midtown/603_129.glb                         |    Bin 0 -> 103748 bytes
+ assets/midtown/603_130.glb                         |    Bin 0 -> 52008 bytes
+ assets/midtown/603_131.glb                         |    Bin 0 -> 5352 bytes
+ assets/midtown/buildings.json                      | 202804 ++++++++++++
+ assets/midtown/quality.json                        |     38 +
+ assets/midtown/tiles.json                          |   1013 +
+ assets/midtown/tileset.json                        |    345 +
+ assets/provenance/coverage.json                    |    317 +
+ assets/provenance/field-priorities.json            |     30 +
+ assets/provenance/sources.json                     |    318 +
+ assets/queens-lic/608_128.glb                      |    Bin 0 -> 27484 bytes
+ assets/queens-lic/608_129.glb                      |    Bin 0 -> 26784 bytes
+ assets/queens-lic/609_127.glb                      |    Bin 0 -> 3348 bytes
+ assets/queens-lic/609_128.glb                      |    Bin 0 -> 47720 bytes
+ assets/queens-lic/609_129.glb                      |    Bin 0 -> 33044 bytes
+ assets/queens-lic/610_128.glb                      |    Bin 0 -> 7800 bytes
+ assets/queens-lic/610_129.glb                      |    Bin 0 -> 12524 bytes
+ assets/queens-lic/buildings.json                   |  94650 ++++++
+ assets/queens-lic/quality.json                     |     38 +
+ assets/queens-lic/tiles.json                       |    583 +
+ assets/queens-lic/tileset.json                     |    305 +
+ assets/staten-st-george/585_104.glb                |    Bin 0 -> 8512 bytes
+ assets/staten-st-george/585_105.glb                |    Bin 0 -> 63368 bytes
+ assets/staten-st-george/585_106.glb                |    Bin 0 -> 29316 bytes
+ assets/staten-st-george/586_104.glb                |    Bin 0 -> 23796 bytes
+ assets/staten-st-george/586_105.glb                |    Bin 0 -> 181472 bytes
+ assets/staten-st-george/586_106.glb                |    Bin 0 -> 67256 bytes
+ assets/staten-st-george/587_104.glb                |    Bin 0 -> 3852 bytes
+ assets/staten-st-george/587_105.glb                |    Bin 0 -> 28936 bytes
+ assets/staten-st-george/587_106.glb                |    Bin 0 -> 11396 bytes
+ assets/staten-st-george/buildings.json             | 235154 ++++++++++++++
+ assets/staten-st-george/quality.json               |     38 +
+ assets/staten-st-george/tiles.json                 |   1007 +
+ assets/staten-st-george/tileset.json               |    385 +
+ .../intermediate/bronx-mott-haven/fetch-state.json |     58 +
+ data/intermediate/bronx-mott-haven/manifest.json   |     88 +
+ data/intermediate/brooklyn-dumbo/fetch-state.json  |     40 +
+ data/intermediate/brooklyn-dumbo/manifest.json     |     70 +
+ data/intermediate/city-bronx/fetch-state.json      |   1271 +
+ data/intermediate/city-bronx/manifest.json         |   1301 +
+ data/intermediate/city-brooklyn/fetch-state.json   |   3983 +
+ data/intermediate/city-brooklyn/manifest.json      |   4013 +
+ data/intermediate/city-manhattan/fetch-state.json  |    563 +
+ data/intermediate/city-manhattan/manifest.json     |    593 +
+ data/intermediate/city-queens/fetch-state.json     |   5549 +
+ data/intermediate/city-queens/manifest.json        |   5579 +
+ .../city-staten-island/fetch-state.json            |   1727 +
+ data/intermediate/city-staten-island/manifest.json |   1757 +
+ data/intermediate/local-declared/buildings.jsonl   |      1 +
+ data/intermediate/local-declared/conflicts.json    |      1 +
+ data/intermediate/local-declared/failures.json     |      1 +
+ data/intermediate/local-declared/quality.json      |     38 +
+ data/intermediate/local-declared/repairs.json      |      1 +
+ data/intermediate/local-declared/source.json       |     16 +
+ data/intermediate/local-unknown/source.json        |     16 +
+ .../manifest.json                                  |     22 +
+ .../parsed-esri.json                               |     87 +
+ data/intermediate/midtown/fetch-state.json         |     76 +
+ data/intermediate/midtown/manifest.json            |    106 +
+ data/intermediate/queens-lic/fetch-state.json      |     52 +
+ data/intermediate/queens-lic/manifest.json         |     82 +
+ .../intermediate/staten-st-george/fetch-state.json |     70 +
+ data/intermediate/staten-st-george/manifest.json   |    100 +
+ data/manifests/coverage.json                       |    317 +
+ data/manifests/field-priorities.json               |     30 +
+ data/manifests/files.jsonl                         |   2775 +
+ data/manifests/large-inputs.json                   |     30 +
+ ...f664ca7500b47eb3a180e44ebf3542ae048adb896f.json |     16 +
+ data/manifests/nyc-lidar-viewer-links.json         |     13 +
+ data/manifests/nys-lidar-details-links.json        |    206 +
+ data/manifests/sources.json                        |    292 +-
+ data/processed/bronx-mott-haven/buildings.jsonl    |    519 +
+ data/processed/bronx-mott-haven/conflicts.json     |      1 +
+ data/processed/bronx-mott-haven/failures.json      |      1 +
+ data/processed/bronx-mott-haven/quality.json       |     38 +
+ data/processed/bronx-mott-haven/repairs.json       |      1 +
+ data/processed/brooklyn-dumbo/buildings.jsonl      |    211 +
+ data/processed/brooklyn-dumbo/conflicts.json       |      1 +
+ data/processed/brooklyn-dumbo/failures.json        |      1 +
+ data/processed/brooklyn-dumbo/quality.json         |     38 +
+ data/processed/brooklyn-dumbo/repairs.json         |      1 +
+ data/processed/field-conflicts.json                |  16035 +
+ data/processed/lower-manhattan/quality.json        |      1 +
+ data/processed/midtown/buildings.jsonl             |    812 +
+ data/processed/midtown/conflicts.json              |      1 +
+ data/processed/midtown/failures.json               |      1 +
+ data/processed/midtown/quality.json                |     38 +
+ data/processed/midtown/repairs.json                |      1 +
+ data/processed/pluto-pilot-links.json              | 299932 ++++++++++++++++++
+ data/processed/queens-lic/buildings.jsonl          |    406 +
+ data/processed/queens-lic/conflicts.json           |      1 +
+ data/processed/queens-lic/failures.json            |      1 +
+ data/processed/queens-lic/quality.json             |     38 +
+ data/processed/queens-lic/repairs.json             |      1 +
+ data/processed/query-lower/buildings.jsonl         |    299 +
+ data/processed/query-lower/quality.json            |     21 +
+ data/processed/staten-st-george/buildings.jsonl    |    780 +
+ data/processed/staten-st-george/conflicts.json     |      1 +
+ data/processed/staten-st-george/failures.json      |      1 +
+ data/processed/staten-st-george/quality.json       |     38 +
+ data/processed/staten-st-george/repairs.json       |      1 +
+ data/raw/catalog/laspy-package.json                |    Bin 0 -> 74032 bytes
+ data/raw/catalog/laspy-package.json.receipt.json   |    Bin 0 -> 523 bytes
+ data/raw/catalog/lazrs-package.json                |    Bin 0 -> 548820 bytes
+ data/raw/catalog/lazrs-package.json.receipt.json   |    Bin 0 -> 524 bytes
+ data/raw/catalog/rhino3dm-package.json             |    Bin 0 -> 770844 bytes
+ .../raw/catalog/rhino3dm-package.json.receipt.json |    Bin 0 -> 530 bytes
+ .../2026-10-27-pilot/bronx-mott-haven/count.json   |    Bin 0 -> 13 bytes
+ .../bronx-mott-haven/count.json.receipt.json       |    Bin 0 -> 1060 bytes
+ .../2026-10-27-pilot/bronx-mott-haven/ids-end.json |    Bin 0 -> 3760 bytes
+ .../bronx-mott-haven/ids-end.json.receipt.json     |    Bin 0 -> 1058 bytes
+ .../2026-10-27-pilot/bronx-mott-haven/ids.json     |    Bin 0 -> 3760 bytes
+ .../bronx-mott-haven/ids.json.receipt.json         |    Bin 0 -> 1058 bytes
+ .../bronx-mott-haven/layer-end.json                |    Bin 0 -> 15404 bytes
+ .../bronx-mott-haven/layer-end.json.receipt.json   |    Bin 0 -> 693 bytes
+ .../bronx-mott-haven/layer-start.json              |    Bin 0 -> 15404 bytes
+ .../bronx-mott-haven/layer-start.json.receipt.json |    Bin 0 -> 693 bytes
+ .../bronx-mott-haven/page-00000000.json            |    Bin 0 -> 98296 bytes
+ .../page-00000000.json.receipt.json                |    Bin 0 -> 2553 bytes
+ .../bronx-mott-haven/page-00000100.json            |    Bin 0 -> 85980 bytes
+ .../page-00000100.json.receipt.json                |    Bin 0 -> 2675 bytes
+ .../bronx-mott-haven/page-00000200.json            |    Bin 0 -> 87652 bytes
+ .../page-00000200.json.receipt.json                |    Bin 0 -> 2675 bytes
+ .../bronx-mott-haven/page-00000300.json            |    Bin 0 -> 93556 bytes
+ .../page-00000300.json.receipt.json                |    Bin 0 -> 2721 bytes
+ .../bronx-mott-haven/page-00000400.json            |    Bin 0 -> 90530 bytes
+ .../page-00000400.json.receipt.json                |    Bin 0 -> 2875 bytes
+ .../bronx-mott-haven/page-00000500.json            |    Bin 0 -> 17222 bytes
+ .../page-00000500.json.receipt.json                |    Bin 0 -> 1255 bytes
+ .../2026-10-27-pilot/brooklyn-dumbo/count.json     |    Bin 0 -> 13 bytes
+ .../brooklyn-dumbo/count.json.receipt.json         |    Bin 0 -> 1060 bytes
+ .../2026-10-27-pilot/brooklyn-dumbo/ids-end.json   |    Bin 0 -> 1564 bytes
+ .../brooklyn-dumbo/ids-end.json.receipt.json       |    Bin 0 -> 1058 bytes
+ .../2026-10-27-pilot/brooklyn-dumbo/ids.json       |    Bin 0 -> 1564 bytes
+ .../brooklyn-dumbo/ids.json.receipt.json           |    Bin 0 -> 1058 bytes
+ .../2026-10-27-pilot/brooklyn-dumbo/layer-end.json |    Bin 0 -> 15404 bytes
+ .../brooklyn-dumbo/layer-end.json.receipt.json     |    Bin 0 -> 693 bytes
+ .../brooklyn-dumbo/layer-start.json                |    Bin 0 -> 15404 bytes
+ .../brooklyn-dumbo/layer-start.json.receipt.json   |    Bin 0 -> 693 bytes
+ .../brooklyn-dumbo/page-00000000.json              |    Bin 0 -> 96717 bytes
+ .../brooklyn-dumbo/page-00000000.json.receipt.json |    Bin 0 -> 2615 bytes
+ .../brooklyn-dumbo/page-00000100.json              |    Bin 0 -> 91586 bytes
+ .../brooklyn-dumbo/page-00000100.json.receipt.json |    Bin 0 -> 2795 bytes
+ .../brooklyn-dumbo/page-00000200.json              |    Bin 0 -> 12531 bytes
+ .../brooklyn-dumbo/page-00000200.json.receipt.json |    Bin 0 -> 1095 bytes
+ .../footprints/2026-10-27-pilot/midtown/count.json |    Bin 0 -> 13 bytes
+ .../midtown/count.json.receipt.json                |    Bin 0 -> 1062 bytes
+ .../2026-10-27-pilot/midtown/ids-end.json          |    Bin 0 -> 5776 bytes
+ .../midtown/ids-end.json.receipt.json              |    Bin 0 -> 1060 bytes
+ .../footprints/2026-10-27-pilot/midtown/ids.json   |    Bin 0 -> 5776 bytes
+ .../2026-10-27-pilot/midtown/ids.json.receipt.json |    Bin 0 -> 1060 bytes
+ .../2026-10-27-pilot/midtown/layer-end.json        |    Bin 0 -> 15404 bytes
+ .../midtown/layer-end.json.receipt.json            |    Bin 0 -> 693 bytes
+ .../2026-10-27-pilot/midtown/layer-start.json      |    Bin 0 -> 15404 bytes
+ .../midtown/layer-start.json.receipt.json          |    Bin 0 -> 693 bytes
+ .../2026-10-27-pilot/midtown/page-00000000.json    |    Bin 0 -> 87089 bytes
+ .../midtown/page-00000000.json.receipt.json        |    Bin 0 -> 2497 bytes
+ .../2026-10-27-pilot/midtown/page-00000100.json    |    Bin 0 -> 81769 bytes
+ .../midtown/page-00000100.json.receipt.json        |    Bin 0 -> 2675 bytes
+ .../2026-10-27-pilot/midtown/page-00000200.json    |    Bin 0 -> 84017 bytes
+ .../midtown/page-00000200.json.receipt.json        |    Bin 0 -> 2675 bytes
+ .../2026-10-27-pilot/midtown/page-00000300.json    |    Bin 0 -> 84456 bytes
+ .../midtown/page-00000300.json.receipt.json        |    Bin 0 -> 2675 bytes
+ .../2026-10-27-pilot/midtown/page-00000400.json    |    Bin 0 -> 81593 bytes
+ .../midtown/page-00000400.json.receipt.json        |    Bin 0 -> 2675 bytes
+ .../2026-10-27-pilot/midtown/page-00000500.json    |    Bin 0 -> 81612 bytes
+ .../midtown/page-00000500.json.receipt.json        |    Bin 0 -> 2675 bytes
+ .../2026-10-27-pilot/midtown/page-00000600.json    |    Bin 0 -> 82930 bytes
+ .../midtown/page-00000600.json.receipt.json        |    Bin 0 -> 2721 bytes
+ .../2026-10-27-pilot/midtown/page-00000700.json    |    Bin 0 -> 81888 bytes
+ .../midtown/page-00000700.json.receipt.json        |    Bin 0 -> 2875 bytes
+ .../2026-10-27-pilot/midtown/page-00000800.json    |    Bin 0 -> 12721 bytes
+ .../midtown/page-00000800.json.receipt.json        |    Bin 0 -> 1115 bytes
+ .../2026-10-27-pilot/queens-lic/count.json         |    Bin 0 -> 13 bytes
+ .../queens-lic/count.json.receipt.json             |    Bin 0 -> 1058 bytes
+ .../2026-10-27-pilot/queens-lic/ids-end.json       |    Bin 0 -> 2950 bytes
+ .../queens-lic/ids-end.json.receipt.json           |    Bin 0 -> 1056 bytes
+ .../2026-10-27-pilot/queens-lic/ids.json           |    Bin 0 -> 2950 bytes
+ .../queens-lic/ids.json.receipt.json               |    Bin 0 -> 1056 bytes
+ .../2026-10-27-pilot/queens-lic/layer-end.json     |    Bin 0 -> 15404 bytes
+ .../queens-lic/layer-end.json.receipt.json         |    Bin 0 -> 693 bytes
+ .../2026-10-27-pilot/queens-lic/layer-start.json   |    Bin 0 -> 15404 bytes
+ .../queens-lic/layer-start.json.receipt.json       |    Bin 0 -> 693 bytes
+ .../2026-10-27-pilot/queens-lic/page-00000000.json |    Bin 0 -> 82494 bytes
+ .../queens-lic/page-00000000.json.receipt.json     |    Bin 0 -> 2553 bytes
+ .../2026-10-27-pilot/queens-lic/page-00000100.json |    Bin 0 -> 77942 bytes
+ .../queens-lic/page-00000100.json.receipt.json     |    Bin 0 -> 2675 bytes
+ .../2026-10-27-pilot/queens-lic/page-00000200.json |    Bin 0 -> 79096 bytes
+ .../queens-lic/page-00000200.json.receipt.json     |    Bin 0 -> 2709 bytes
+ .../2026-10-27-pilot/queens-lic/page-00000300.json |    Bin 0 -> 72748 bytes
+ .../queens-lic/page-00000300.json.receipt.json     |    Bin 0 -> 2875 bytes
+ .../2026-10-27-pilot/queens-lic/page-00000400.json |    Bin 0 -> 6138 bytes
+ .../queens-lic/page-00000400.json.receipt.json     |    Bin 0 -> 994 bytes
+ .../2026-10-27-pilot/staten-st-george/count.json   |    Bin 0 -> 13 bytes
+ .../staten-st-george/count.json.receipt.json       |    Bin 0 -> 1060 bytes
+ .../2026-10-27-pilot/staten-st-george/ids-end.json |    Bin 0 -> 5537 bytes
+ .../staten-st-george/ids-end.json.receipt.json     |    Bin 0 -> 1058 bytes
+ .../2026-10-27-pilot/staten-st-george/ids.json     |    Bin 0 -> 5537 bytes
+ .../staten-st-george/ids.json.receipt.json         |    Bin 0 -> 1058 bytes
+ .../staten-st-george/layer-end.json                |    Bin 0 -> 15404 bytes
+ .../staten-st-george/layer-end.json.receipt.json   |    Bin 0 -> 693 bytes
+ .../staten-st-george/layer-start.json              |    Bin 0 -> 15404 bytes
+ .../staten-st-george/layer-start.json.receipt.json |    Bin 0 -> 693 bytes
+ .../staten-st-george/page-00000000.json            |    Bin 0 -> 102975 bytes
+ .../page-00000000.json.receipt.json                |    Bin 0 -> 2532 bytes
+ .../staten-st-george/page-00000100.json            |    Bin 0 -> 98306 bytes
+ .../page-00000100.json.receipt.json                |    Bin 0 -> 2675 bytes
+ .../staten-st-george/page-00000200.json            |    Bin 0 -> 110193 bytes
+ .../page-00000200.json.receipt.json                |    Bin 0 -> 2676 bytes
+ .../staten-st-george/page-00000300.json            |    Bin 0 -> 94152 bytes
+ .../page-00000300.json.receipt.json                |    Bin 0 -> 2675 bytes
+ .../staten-st-george/page-00000400.json            |    Bin 0 -> 95707 bytes
+ .../page-00000400.json.receipt.json                |    Bin 0 -> 2675 bytes
+ .../staten-st-george/page-00000500.json            |    Bin 0 -> 97193 bytes
+ .../page-00000500.json.receipt.json                |    Bin 0 -> 2675 bytes
+ .../staten-st-george/page-00000600.json            |    Bin 0 -> 95413 bytes
+ .../page-00000600.json.receipt.json                |    Bin 0 -> 2721 bytes
+ .../staten-st-george/page-00000700.json            |    Bin 0 -> 77716 bytes
+ .../page-00000700.json.receipt.json                |    Bin 0 -> 2475 bytes
+ data/raw/inventory/all-count.json                  |    Bin 0 -> 17 bytes
+ data/raw/inventory/all-count.json.receipt.json     |    Bin 0 -> 851 bytes
+ data/raw/inventory/bronx-count.json                |    Bin 0 -> 16 bytes
+ data/raw/inventory/bronx-count.json.receipt.json   |    Bin 0 -> 889 bytes
+ data/raw/inventory/brooklyn-count.json             |    Bin 0 -> 16 bytes
+ .../raw/inventory/brooklyn-count.json.receipt.json |    Bin 0 -> 889 bytes
+ data/raw/inventory/manhattan-count.json            |    Bin 0 -> 15 bytes
+ .../inventory/manhattan-count.json.receipt.json    |    Bin 0 -> 889 bytes
+ data/raw/inventory/queens-count.json               |    Bin 0 -> 16 bytes
+ data/raw/inventory/queens-count.json.receipt.json  |    Bin 0 -> 889 bytes
+ data/raw/inventory/staten-island-count.json        |    Bin 0 -> 18 bytes
+ .../staten-island-count.json.receipt.json          |    Bin 0 -> 889 bytes
+ ...4ca7500b47eb3a180e44ebf3542ae048adb896f.geojson |    Bin 0 -> 801 bytes
+ data/raw/supporting/borough-metadata.json          |    Bin 0 -> 7395 bytes
+ .../supporting/borough-metadata.json.receipt.json  |    Bin 0 -> 557 bytes
+ data/raw/supporting/nyc-lidar-viewer.html          |    Bin 0 -> 2423 bytes
+ .../supporting/nyc-lidar-viewer.html.receipt.json  |    Bin 0 -> 540 bytes
+ data/raw/supporting/nys-lidar-details.html         |    Bin 0 -> 45926 bytes
+ .../supporting/nys-lidar-details.html.receipt.json |    Bin 0 -> 518 bytes
+ data/raw/supporting/nys-nyc-lidar2017.xml          |    Bin 0 -> 22180 bytes
+ .../supporting/nys-nyc-lidar2017.xml.receipt.json  |    Bin 0 -> 770 bytes
+ ...o-423f15185bd04f8dad8d99fba736772f-service.json |    Bin 0 -> 3286 bytes
+ ...04f8dad8d99fba736772f-service.json.receipt.json |    Bin 0 -> 792 bytes
+ data/raw/supporting/ortho2024-service.json         |    Bin 0 -> 3286 bytes
+ .../supporting/ortho2024-service.json.receipt.json |    Bin 0 -> 713 bytes
+ data/raw/supporting/osm-copyright.html             |    Bin 0 -> 21314 bytes
+ .../raw/supporting/osm-copyright.html.receipt.json |    Bin 0 -> 636 bytes
+ data/raw/supporting/roadbed-metadata.json          |    Bin 0 -> 12506 bytes
+ .../supporting/roadbed-metadata.json.receipt.json  |    Bin 0 -> 558 bytes
+ data/raw/supporting/water-metadata.json            |    Bin 0 -> 14433 bytes
+ .../supporting/water-metadata.json.receipt.json    |    Bin 0 -> 558 bytes
+ data/raw/vectors/borough/count-end.json            |    Bin 0 -> 16 bytes
+ .../vectors/borough/count-end.json.receipt.json    |    Bin 0 -> 810 bytes
+ data/raw/vectors/borough/count.json                |    Bin 0 -> 16 bytes
+ data/raw/vectors/borough/count.json.receipt.json   |    Bin 0 -> 810 bytes
+ data/raw/vectors/borough/manifest.json             |    Bin 0 -> 1102 bytes
+ data/raw/vectors/borough/metadata-end.json         |    Bin 0 -> 7395 bytes
+ .../vectors/borough/metadata-end.json.receipt.json |    Bin 0 -> 636 bytes
+ data/raw/vectors/borough/page-00000000.geojson     |    Bin 0 -> 3167672 bytes
+ .../borough/page-00000000.geojson.receipt.json     |    Bin 0 -> 879 bytes
+ data/raw/vectors/roadbed-rowid-probe.geojson       |    Bin 0 -> 18855 bytes
+ .../roadbed-rowid-probe.geojson.receipt.json       |    Bin 0 -> 1076 bytes
+ docs/ACCURACY.md                                   |      6 +-
+ docs/ARCHITECTURE.md                               |      8 +
+ docs/COORDINATES.md                                |      4 +
+ docs/DATA_DICTIONARY.md                            |     10 +
+ docs/DECISIONS.md                                  |      6 +
+ docs/KNOWN_GAPS.md                                 |     19 +-
+ docs/NEXT_STEPS.md                                 |     17 +-
+ docs/PROGRESS.md                                   |     30 +
+ reports/ASSET_AUDIT.md                             |      9 +
+ reports/VALIDATION.md                              |     27 +
+ reports/borough-coverage.csv                       |      6 +
+ reports/browser-midtown.png                        |    Bin 0 -> 148882 bytes
+ reports/browser-mobile.png                         |    Bin 54793 -> 52595 bytes
+ reports/browser-overview.png                       |    Bin 126316 -> 131460 bytes
+ reports/browser-picked.png                         |    Bin 131639 -> 136729 bytes
+ reports/browser-report.json                        |    253 +-
+ reports/check-whitespace.log                       |    Bin 0 -> 792 bytes
+ reports/city-bronx-quality.json                    |     19 +
+ reports/city-brooklyn-quality.json                 |     19 +
+ reports/city-dimensions.json                       |     83 +
+ reports/city-idempotence.json                      |      8 +
+ reports/city-idempotent-rerun.log                  |    Bin 0 -> 3429 bytes
+ reports/city-manhattan-quality.json                |     19 +
+ reports/city-normalize.log                         |    Bin 0 -> 6826 bytes
+ reports/city-quality-before-rerun.json             |    106 +
+ reports/city-quality.json                          |    106 +
+ reports/city-queens-quality.json                   |     19 +
+ reports/city-query.log                             |    Bin 0 -> 15 bytes
+ reports/city-record-issues.json                    |    167 +
+ reports/city-scan.log                              |    Bin 0 -> 275 bytes
+ reports/city-staten-island-quality.json            |     19 +
+ reports/citywide-fetch-confirmed.log               |    Bin 0 -> 89204 bytes
+ reports/citywide-fetch-final.log                   |    Bin 0 -> 4548 bytes
+ reports/citywide-fetch-resumed.log                 |    Bin 0 -> 15532 bytes
+ reports/citywide-fetch.log                         |    Bin 0 -> 4420 bytes
+ reports/context-idempotence.json                   |      5 +
+ reports/context-normalize.log                      |    Bin 0 -> 613 bytes
+ reports/context-quality.json                       |     35 +
+ reports/data-quality.json                          |    317 +
+ reports/data-quality.log                           |    Bin 0 -> 94 bytes
+ reports/dev-server.log                             |    Bin 313 -> 780 bytes
+ reports/download-attempts.jsonl                    |     12 +
+ reports/environment.json                           |     22 +
+ reports/evidence-link.log                          |    Bin 0 -> 60 bytes
+ reports/extra-gis-install.log                      |    Bin 0 -> 1252 bytes
+ reports/failure-summary.json                       |     51 +
+ ...f5d2630a8cdf87f69c8a3e84002c98295e4e13b9f7.json |     13 +
+ ...925d0d6b243c57defbce10629a0c755afa61999f18.json |     31 +
+ ...b47f706a9173e6790e4bafb947cb88604f91603438.json |     31 +
+ ...4d46c21a71e9ed78911d3e0acc8994c37acbf92b94.json |     13 +
+ ...b7f673b952c1216ca631a390499ced7a00f901fa5a.json |     13 +
+ reports/http-success.jsonl                         |   2686 +
+ reports/laspy-version.txt                          |      1 +
+ reports/lazrs-version.txt                          |      1 +
+ reports/lidar-attachment-head.json                 |      4 +
+ reports/local-declared-import.log                  |    Bin 0 -> 1521 bytes
+ reports/local-unknown-import.log                   |    Bin 0 -> 77 bytes
+ reports/midtown-quality.log                        |    Bin 0 -> 1167 bytes
+ reports/model-audit-rerun.log                      |    Bin 0 -> 107 bytes
+ reports/nyc-real-sample-preview.html               |      2 +-
+ reports/nyc-stage2-browser.zip                     |    Bin 0 -> 8820351 bytes
+ reports/official-model-audit.json                  |    992 +
+ reports/ortho-command-refetch.log                  |    Bin 0 -> 1238 bytes
+ reports/ortho-tile-latest.json                     |     35 +
+ reports/pluto-audit.json                           |    144 +
+ reports/pluto-dictionary.txt                       |   2893 +
+ reports/pluto-readme.txt                           |    854 +
+ reports/provenance-pending.json                    |    266 +
+ reports/real-local-import.geojson                  |      1 +
+ reports/real-resume.json                           |     22 +
+ reports/real-tile-refetch.json                     |     31 +
+ reports/release.json                               |     11 +
+ reports/release.log                                |    Bin 0 -> 60 bytes
+ reports/resume-before.json                         |      1 +
+ reports/rhino3dm-version.txt                       |      1 +
+ reports/single-preview-report.json                 |      8 +-
+ reports/source-catalog.log                         |    Bin 0 -> 39 bytes
+ reports/source-city-inventory.json                 |     14 +
+ reports/spatial-index.json                         |      8 +
+ reports/spatial-index.log                          |    Bin 0 -> 341 bytes
+ reports/stage1-checkpoint.log                      |    Bin 0 -> 13923 bytes
+ reports/stage2-browser.log                         |    Bin 0 -> 416 bytes
+ reports/stage2-build.log                           |    Bin 0 -> 838 bytes
+ reports/stage2-five-borough-pilots.log             |    Bin 0 -> 5636 bytes
+ reports/stage2-interrupted.log                     |    Bin 0 -> 65 bytes
+ reports/stage2-publish.log                         |    Bin 0 -> 3115 bytes
+ reports/stage2-resumed.log                         |    Bin 0 -> 320 bytes
+ reports/stage2-single-browser.log                  |    Bin 0 -> 137 bytes
+ reports/stage2-single-build.log                    |    Bin 0 -> 70 bytes
+ reports/stage2-tests-progress.log                  |    Bin 0 -> 1888 bytes
+ reports/stage2-tests.log                           |    Bin 0 -> 1964 bytes
+ reports/support-vector-audit.json                  |     17 +
+ reports/support-vectors-consistency.log            |    Bin 0 -> 36 bytes
+ reports/support-vectors-final.log                  |    Bin 0 -> 36 bytes
+ reports/support-vectors.log                        |    Bin 0 -> 418 bytes
+ reports/supporting-parse-final.log                 |    Bin 0 -> 202 bytes
+ reports/supporting-parse.log                       |    Bin 0 -> 906 bytes
+ requirements-lock.txt                              |      3 +
+ scripts/fetch_footprints.py                        |      8 +-
+ scripts/fetch_ortho_tile.py                        |     34 +
+ scripts/fetch_support_vectors.py                   |     30 +
+ scripts/import_local.py                            |     37 +
+ scripts/index_city.py                              |     47 +
+ scripts/link_evidence.py                           |     26 +
+ scripts/normalize_context.py                       |     38 +
+ scripts/nyc/download.py                            |     31 +-
+ scripts/nyc/evidence.py                            |     15 +
+ scripts/nyc/normalize.py                           |      8 +-
+ scripts/nyc/tiles.py                               |      3 +
+ scripts/package_release.py                         |     46 +
+ scripts/process_supporting.py                      |     73 +
+ scripts/query_city.py                              |     23 +
+ scripts/report_quality.py                          |     26 +
+ scripts/report_sources.py                          |     63 +
+ scripts/scan_city_quality.py                       |     16 +
+ scripts/spatial_index.py                           |     18 +
+ src/main.ts                                        |      3 +-
+ tests/browser.mjs                                  |      4 +-
+ tests/test_download.py                             |     39 +
+ tests/test_pipeline.py                             |     25 +-
+ vite.config.ts                                     |      4 +-
+ 414 files changed, 1102282 insertions(+), 88 deletions(-)

@@ -43,6 +43,9 @@ def make_glb(records,x,y):
  return glb,matrix,box,ll
 
 def publish(dataset_paths):
+ for candidate in dataset_paths:
+  quality=json.loads((Path(candidate)/'quality.json').read_text())
+  if quality.get('publication_allowed')is False:raise ValueError('dataset source/license is quarantined; refusing scene publication: '+str(candidate))
  out=ROOT/'assets';out.mkdir(exist_ok=True);catalog={'schema_version':1,'pipeline_version':PIPELINE_VERSION,'representation':'real official footprint linework; no building solids','datasets':[],'source_url':'https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md','height_note':'HEIGHT_ROOF is feet above ground; null and zero are unknown; not rendered as walls','ground_note':'Ellipsoid reference only; no terrain. Lines lifted 0.25 m solely to avoid depth fighting.'}
  for path in dataset_paths:
   path=Path(path);name=path.name;records=[json.loads(s)for s in(path/'buildings.jsonl').read_text().splitlines()if s];groups=defaultdict(list)

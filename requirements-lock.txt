@@ -1,4 +1,7 @@
 certifi==2026.10.23
+laspy==2.7.0
+lazrs==0.8.2
 numpy==2.5.4
 pyproj==3.8.0
+rhino3dm==8.35.0
 shapely==2.2.0

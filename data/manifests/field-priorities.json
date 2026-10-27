@@ -1,0 +1,30 @@
+{
+  "priorities": {
+    "footprint": [
+      "nyc-building-footprints",
+      "nyc-3d-model-2014",
+      "osm"
+    ],
+    "position": [
+      "nyc-building-footprints",
+      "nyc-3d-model-2014",
+      "osm"
+    ],
+    "height": [
+      "nyc-building-footprints",
+      "nyc-nys-lidar-2017",
+      "nyc-3d-model-2014",
+      "osm"
+    ],
+    "roof": [
+      "nyc-3d-model-2014",
+      "nyc-nys-lidar-2017"
+    ],
+    "facade": [],
+    "construction_year": [
+      "nyc-building-footprints",
+      "pluto-parcel"
+    ]
+  },
+  "rule": "parcel fields do not override buildings; non-null old evidence survives newer null; independent verification is not inferred from source labels"
+}

@@ -1,0 +1,14 @@
+{
+  "request_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&objectIds=1075646%2C1075647%2C1076108%2C1076307%2C1076313%2C1077867%2C1077934%2C1079895%2C1081318%2C1082049%2C1082850%2C1084685%2C1085674%2C1085745%2C1085903%2C1086228%2C1088791%2C1089304%2C1090841&outFields=%2A&returnGeometry=true&orderByFields=OBJECTID+ASC&returnZ=false",
+  "final_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&objectIds=1075646%2C1075647%2C1076108%2C1076307%2C1076313%2C1077867%2C1077934%2C1079895%2C1081318%2C1082049%2C1082850%2C1084685%2C1085674%2C1085745%2C1085903%2C1086228%2C1088791%2C1089304%2C1090841&outFields=%2A&returnGeometry=true&orderByFields=OBJECTID+ASC&returnZ=false",
+  "download_started_at": "2026-10-27T04:10:33.214685+00:00",
+  "download_completed_at": "2026-10-27T04:10:33.580489+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "sd544_-202799427",
+  "last_modified_http": "Sun, 25 Oct 2026 02:16:29 GMT",
+  "bytes": 17222,
+  "sha256": "d8bb0ce684b2af4ab1dc2e4acdf716723afb3c636931483759ab5c01cd8854d7",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

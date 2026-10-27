@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "path": "data/intermediate/local/e7b17c7a12f5e41bf92984f664ca7500b47eb3a180e44ebf3542ae048adb896f/parsed-esri.json",
+      "sha256": "86e592af928abbdf9f35898a613653d49b542049dbeb30472d4985796c0bdb0d"
+    }
+  ],
+  "raw_spatial_reference": {
+    "wkid": 4326
+  },
+  "version": "local-test",
+  "scope": {
+    "borough": null,
+    "bbox_wgs84": null,
+    "local_import": true
+  },
+  "records_downloaded": 1,
+  "partition_only": true,
+  "consistency": {
+    "service_changed_during_window": false
+  }
+}

@@ -1,0 +1,1757 @@
+{
+  "started_at": "2026-10-27T04:33:57.762226+00:00",
+  "signature": "3dde3f9e88522ab8e51fd4154cbcdaf77131671c8b842b978a2909138191306d",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-city",
+  "count_expected": 142461,
+  "ids_sha256": "9a59877542dad0bba8d6fe061af433c280d1247d2114a55fdaf27528eaeef28e",
+  "scope": {
+    "borough": "staten-island",
+    "bbox_wgs84": null,
+    "where": "BASE_BBL LIKE '5%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:36:36.067479+00:00",
+  "finished_at": "2026-10-27T04:36:37.187758+00:00",
+  "pages": [
+    {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00000000.json",
+      "sha256": "4a0f37cac8d6757239018acf7286a8e8090ac495579bc48f22f7386fc26e95bd",
+      "records": 500
+    },
+    {
+      "id": "page-00000500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00000500.json",
+      "sha256": "5c143cb4dc51fa05e178199a422c306320adeb91b69c806954b934b847b0c062",
+      "records": 500
+    },
+    {
+      "id": "page-00001000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00001000.json",
+      "sha256": "4f958c731efaec0806a5d45309be2e0ebef5b1131740e49b4e964191f063a2ff",
+      "records": 500
+    },
+    {
+      "id": "page-00001500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00001500.json",
+      "sha256": "781ce288fc55725a8879ca0c31298a05e36fd5a5564ecc1c63af75d0ad2ea3e5",
+      "records": 500
+    },
+    {
+      "id": "page-00002000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00002000.json",
+      "sha256": "0905d207d4bfba378cd3fb6c566360cdfc15a00dfdf050a129a2a1581989de40",
+      "records": 500
+    },
+    {
+      "id": "page-00002500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00002500.json",
+      "sha256": "80eba6e1e8ac659038a10ecdef281cb23b5c156bd7374017a6f49ac10255cf28",
+      "records": 500
+    },
+    {
+      "id": "page-00003000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00003000.json",
+      "sha256": "8b7bb8eeb6ab664a587f4be6d6c37e01ecb1dc8b282969404543271db0c7c1f6",
+      "records": 500
+    },
+    {
+      "id": "page-00003500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00003500.json",
+      "sha256": "3333dde86367837b447eb71f15ab354f55eb2d4c7ae187d943f3b6ff4eda0d0f",
+      "records": 500
+    },
+    {
+      "id": "page-00004000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00004000.json",
+      "sha256": "fb70f95a9df283ddd25fd763a397c7a560624b2891451f95cf811cf8e1e6d955",
+      "records": 500
+    },
+    {
+      "id": "page-00004500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00004500.json",
+      "sha256": "5d5234f642891667ae8c217579bce959002d105565a5b9b29b168099610b806d",
+      "records": 500
+    },
+    {
+      "id": "page-00005000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00005000.json",
+      "sha256": "d7bfc1ca71c4c79a15d5ad9948de012fee28285e9e4f1411cba461f2911d01c0",
+      "records": 500
+    },
+    {
+      "id": "page-00005500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00005500.json",
+      "sha256": "08d719ec0ffc5f9fac953da2798eed2d2e54a4c523fd673abbfcaf5f754878b0",
+      "records": 500
+    },
+    {
+      "id": "page-00006000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00006000.json",
+      "sha256": "f2269477fbcd8a8fc620a9d7f69dac7a9fbfc0e924d1151fc1be3575f2ad44ef",
+      "records": 500
+    },
+    {
+      "id": "page-00006500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00006500.json",
+      "sha256": "076be89087eda64a6324fa0c294d1d752bae089166fd26e0fe90e65e4f8cae65",
+      "records": 500
+    },
+    {
+      "id": "page-00007000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00007000.json",
+      "sha256": "1d427ba5cf3358ba934802682f2588e5d6728a5c878fc49be5bfe4aefb48bcec",
+      "records": 500
+    },
+    {
+      "id": "page-00007500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00007500.json",
+      "sha256": "4ecb88c1a9e62f85af449caa98ab919d9c9023c92fa1ea636f198d059a4849f3",
+      "records": 500
+    },
+    {
+      "id": "page-00008000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00008000.json",
+      "sha256": "a875e63cb9a079c5c430f217580232524d6584e0152ae4b0bdc321793373e9bd",
+      "records": 500
+    },
+    {
+      "id": "page-00008500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00008500.json",
+      "sha256": "9e10392fe1f7975043aa19ad267848f11a923f4b1f1010c42db8bf41d25573c4",
+      "records": 500
+    },
+    {
+      "id": "page-00009000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00009000.json",
+      "sha256": "8c83473e997d484220ecfde42e606691591045da39c2de9896a44f57ecd68bf0",
+      "records": 500
+    },
+    {
+      "id": "page-00009500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00009500.json",
+      "sha256": "651b3d84d9abb00490dbcda46263e8461b5fd08e9bd48abd20ba9a18bb09e8e6",
+      "records": 500
+    },
+    {
+      "id": "page-00010000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00010000.json",
+      "sha256": "e437c8005a88132f07b10883ebdb8bdad417ebef6f99f0965d9414871fb7f7cf",
+      "records": 500
+    },
+    {
+      "id": "page-00010500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00010500.json",
+      "sha256": "700b0f4934f91e1286f884a5b9cee5a44266a63b03fa84e19642baea60e1f16e",
+      "records": 500
+    },
+    {
+      "id": "page-00011000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00011000.json",
+      "sha256": "213d2dd11bad18e52e971a306e3f03b361936087b5a0e003c37ecca7b9b8d4eb",
+      "records": 500
+    },
+    {
+      "id": "page-00011500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00011500.json",
+      "sha256": "49035c9664daa4afddacd56d44003b0dc87aac7fb7883a11706db69d9fb72f45",
+      "records": 500
+    },
+    {
+      "id": "page-00012000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00012000.json",
+      "sha256": "3f679a724c9a86d4e20f2b708472a6e4812f853c4d668ca494ea23f99eefd60c",
+      "records": 500
+    },
+    {
+      "id": "page-00012500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00012500.json",
+      "sha256": "654f3cdf6e50fbfa1a658f9815287401ede30a12ecd288267b35c320791ca16c",
+      "records": 500
+    },
+    {
+      "id": "page-00013000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013000.json",
+      "sha256": "c828125ffe7f25d4b8e75086aba6b2f72f964d9f714a5198b686787b9d851310",
+      "records": 500
+    },
+    {
+      "id": "page-00013500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "records": 500
+    },
+    {
+      "id": "page-00014000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00014000.json",
+      "sha256": "0cba1179203900b1f239f018404e49dec011b330f187e5e76434a811661f1f57",
+      "records": 500
+    },
+    {
+      "id": "page-00014500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00014500.json",
+      "sha256": "9fbb034daaca70946961fbc2c06723941e71abad14f1142c100803bd5c067371",
+      "records": 500
+    },
+    {
+      "id": "page-00015000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00015000.json",
+      "sha256": "06048962d3529a385db8b809d3f64c3bc8c18cbef6229cdd1238c91b470411c8",
+      "records": 500
+    },
+    {
+      "id": "page-00015500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00015500.json",
+      "sha256": "f568291dc9c1ad24b0011418f74c39290a0f00cc9bf1fd72795f3ec8243059ef",
+      "records": 500
+    },
+    {
+      "id": "page-00016000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00016000.json",
+      "sha256": "0bb8fa6b3f5c047ed44fcf80d1daadf01636fb3c270d4127d11481bd7f327232",
+      "records": 500
+    },
+    {
+      "id": "page-00016500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00016500.json",
+      "sha256": "c2f477aa254cc6facc685db556fb6348f90ad721c05a6f39c52ad5c192269d45",
+      "records": 500
+    },
+    {
+      "id": "page-00017000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00017000.json",
+      "sha256": "73c53d6078c4428f6679c6224fcf65383c7928192288b3bf5c43cf3c6a2b501b",
+      "records": 500
+    },
+    {
+      "id": "page-00017500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00017500.json",
+      "sha256": "98bfcaef60857c50d3c1ddf2522d6e7be6feba38da0e920597a62a2ecd55c7c6",
+      "records": 500
+    },
+    {
+      "id": "page-00018000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00018000.json",
+      "sha256": "a818474a04552a8de9e228032f1c8c01fee75da74bcdfc3f00844e5346693e34",
+      "records": 500
+    },
+    {
+      "id": "page-00018500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00018500.json",
+      "sha256": "5ed98a35b4a49100bd6efd864e341a1f66e4f5aaa588619774479f6e9ff1e36e",
+      "records": 500
+    },
+    {
+      "id": "page-00019000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00019000.json",
+      "sha256": "418232c61d0e18c089d5c34667ace8fb7c1f80a1d6b1ea79522d005916227d67",
+      "records": 500
+    },
+    {
+      "id": "page-00019500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00019500.json",
+      "sha256": "5b034638650eaba254ead1088c4384d8ff9e1057cdeec90864d8e5af91e4d404",
+      "records": 500
+    },
+    {
+      "id": "page-00020000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00020000.json",
+      "sha256": "6c7bad59473b2ca6a9ada4e2d0734a9108387f53f4c7ea1ee35a8b2c47aa5354",
+      "records": 500
+    },
+    {
+      "id": "page-00020500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00020500.json",
+      "sha256": "5749b602c868f2a985d39788af7c681b273eba0976d7032e1812b64230f8a8d7",
+      "records": 500
+    },
+    {
+      "id": "page-00021000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00021000.json",
+      "sha256": "a556b7d99d0eb207882813389911b388596d290a75da4b19cbaadbc7b3ef4f2a",
+      "records": 500
+    },
+    {
+      "id": "page-00021500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00021500.json",
+      "sha256": "6c751af2b3a5d59ef70b56c1050b677be3c480d4361412a0e90a530ded1b02cc",
+      "records": 500
+    },
+    {
+      "id": "page-00022000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00022000.json",
+      "sha256": "c309209dfcdf4ed678d53133cbb725315bdfa5fa5bbf2abb3a3a7d417ed1f28e",
+      "records": 500
+    },
+    {
+      "id": "page-00022500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00022500.json",
+      "sha256": "114df7a806cbd6d2046360af987f60b34b3c1bcbcdd6c0c5f6aa3407387e1640",
+      "records": 500
+    },
+    {
+      "id": "page-00023000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00023000.json",
+      "sha256": "379d411478f926b90baf94ae84c96a15cb4a2426b2144d0ca0c98a7f3eab7a37",
+      "records": 500
+    },
+    {
+      "id": "page-00023500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00023500.json",
+      "sha256": "7056cd69a4b8fb378911b37c36a7ffe26dbb2c023cb65d4d5512682bf4df8f4b",
+      "records": 500
+    },
+    {
+      "id": "page-00024000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00024000.json",
+      "sha256": "bbe3d1ffbe46f4a99092ce9ff4d4076a029f0a7b9688ce973c7a13b5a6ccc2e4",
+      "records": 500
+    },
+    {
+      "id": "page-00024500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00024500.json",
+      "sha256": "8e484bc3eadc2a63e34bede37e9c92d5b47c2a03ac5f12bfcf3a773f82c3a954",
+      "records": 500
+    },
+    {
+      "id": "page-00025000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00025000.json",
+      "sha256": "8154a31a71c466f4dbb37adcf9760a3baed3cb500f46cd867b30b47cc91de9ab",
+      "records": 500
+    },
+    {
+      "id": "page-00025500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00025500.json",
+      "sha256": "0af4e80168b031911040e49b82d9890d66887f06d76c442391490c1852428cd5",
+      "records": 500
+    },
+    {
+      "id": "page-00026000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00026000.json",
+      "sha256": "01572e45aa6a8631e433faa4f98f8f9ebeb4be38e01814b20fd90d8b4fb1b10c",
+      "records": 500
+    },
+    {
+      "id": "page-00026500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00026500.json",
+      "sha256": "4c35a176469cc26ccdf6a63c2bab375d301a1ea2d527030057ac6d18cce02363",
+      "records": 500
+    },
+    {
+      "id": "page-00027000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00027000.json",
+      "sha256": "6fa8b833f807eaa1853489fe42f7ab8daa24643f42c4d9002b5ab54803720b3f",
+      "records": 500
+    },
+    {
+      "id": "page-00027500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00027500.json",
+      "sha256": "7bd7a6cdae7a4b8885a94c95ab0b9d703f5efd1fce1dc94ce1df305a4433f73a",
+      "records": 500
+    },
+    {
+      "id": "page-00028000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00028000.json",
+      "sha256": "5261392e00ad5cb39e1a7a73f62b5aeec076b642304f00bbb7f58359e81ef755",
+      "records": 500
+    },
+    {
+      "id": "page-00028500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00028500.json",
+      "sha256": "a49203e9ab367c719ae45b5eca118e6dd39111bbc8ff550ce14cc30c6cb739df",
+      "records": 500
+    },
+    {
+      "id": "page-00029000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00029000.json",
+      "sha256": "4da727fab1b72c42bdfae9444e3acc237dafdb23775c5960439e5be56ba1d240",
+      "records": 500
+    },
+    {
+      "id": "page-00029500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00029500.json",
+      "sha256": "3e32981be99f93a58fc038fad3ed2e51291986fac847a2900bc62d3730cdcf80",
+      "records": 500
+    },
+    {
+      "id": "page-00030000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00030000.json",
+      "sha256": "4634e7306416a1ed325b95db333d7448033113f571e480869ea1bbc4adc9fb4b",
+      "records": 500
+    },
+    {
+      "id": "page-00030500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00030500.json",
+      "sha256": "4789e70531082e6e23e737c2c2698cfa4095bf025d66e97f844df81a7f79be39",
+      "records": 500
+    },
+    {
+      "id": "page-00031000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00031000.json",
+      "sha256": "67f3829664af799d7aad8c8748d2e47aa7a7ec3b63d42af6cc26698030c553bf",
+      "records": 500
+    },
+    {
+      "id": "page-00031500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00031500.json",
+      "sha256": "efecbeb445bdf80f8fd9d03ab06ea79f5414e1ce9fa8f90e4185f0dc404e801f",
+      "records": 500
+    },
+    {
+      "id": "page-00032000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00032000.json",
+      "sha256": "11960fea36cbaa2d459c44c8f61b45296423c7d471d4a3fdfeba2d545878624a",
+      "records": 500
+    },
+    {
+      "id": "page-00032500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00032500.json",
+      "sha256": "78afbcafa3ca8da7a6debafa5cb7cdf864aeeb2658841113ec1867cfa5e108f7",
+      "records": 500
+    },
+    {
+      "id": "page-00033000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00033000.json",
+      "sha256": "568bf56e0d16c3680579f8022eaf3f7dad457a324222c0181dc5b723441ee482",
+      "records": 500
+    },
+    {
+      "id": "page-00033500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00033500.json",
+      "sha256": "ae512b92a9984515c1fc7b5a473660c2f28f6f32d41eab6b831cdb550100b344",
+      "records": 500
+    },
+    {
+      "id": "page-00034000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00034000.json",
+      "sha256": "09d3a68d3110ca914d9cdd1d16d9d653b63d4c8291bdb563b8a8b10f305e09ec",
+      "records": 500
+    },
+    {
+      "id": "page-00034500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00034500.json",
+      "sha256": "4993b58f40a2662e094b183b4d01dbcf05f11a305f020417071acd2e52350ae0",
+      "records": 500
+    },
+    {
+      "id": "page-00035000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00035000.json",
+      "sha256": "d4edc70a60a85c9d92156903d335eae5b1a8b188d31f10a102131d69396e9da9",
+      "records": 500
+    },
+    {
+      "id": "page-00035500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00035500.json",
+      "sha256": "cb1956d0ff08b92cf94a41e759e2e169ce2d58adc4fd470bcf33299a2ead632e",
+      "records": 500
+    },
+    {
+      "id": "page-00036000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00036000.json",
+      "sha256": "0cb4b85ee30faadfbe2c63afca40e651a96874244130c126ff6f367ad935c9f2",
+      "records": 500
+    },
+    {
+      "id": "page-00036500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00036500.json",
+      "sha256": "6108cfb6e19b24e2dc18fddcacaf4f2b70b8b8b2d1b495fa379ab9c74625d7ea",
+      "records": 500
+    },
+    {
+      "id": "page-00037000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00037000.json",
+      "sha256": "80fd293df55b7c351403a38f4003ac848345791edf43851ea26a4c8950478e5e",
+      "records": 500
+    },
+    {
+      "id": "page-00037500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00037500.json",
+      "sha256": "c0dcadd119c6fb4e3a6c3313c1f06ab873f05d30080fad1865db689e6c3da3d3",
+      "records": 500
+    },
+    {
+      "id": "page-00038000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00038000.json",
+      "sha256": "28197c3b7ffd28c4074be5cb748f55f1eecdc4ed79febef4c80f3edf3831ccb3",
+      "records": 500
+    },
+    {
+      "id": "page-00038500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00038500.json",
+      "sha256": "9b04c2f5b7f50e91b693f760b90a9af1cc97114fdbaa3c422e18c053f8d31b03",
+      "records": 500
+    },
+    {
+      "id": "page-00039000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00039000.json",
+      "sha256": "7429a0b95e310f10d5551dc9f80e05b4782913ab985a9d17f5c97fd2cf9e9381",
+      "records": 500
+    },
+    {
+      "id": "page-00039500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00039500.json",
+      "sha256": "d664ad008f1b7c7c75f81b3ac36145d48317e377dd9f0b281a741cbf02123b5c",
+      "records": 500
+    },
+    {
+      "id": "page-00040000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00040000.json",
+      "sha256": "c698143eb39e18640b859616b1e078c5ea7674e1e751d90c8b6beeacc7571cb2",
+      "records": 500
+    },
+    {
+      "id": "page-00040500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00040500.json",
+      "sha256": "4b96f1dbc55e0f5f7cc07f1cb43e02ef8187dd57d93c932cd9e33e2d7e117e2f",
+      "records": 500
+    },
+    {
+      "id": "page-00041000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00041000.json",
+      "sha256": "1cf7c8e0017a5f3d0cae46b7dd205e19bd5ec18fa66a7d144b48081eed497ab9",
+      "records": 500
+    },
+    {
+      "id": "page-00041500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00041500.json",
+      "sha256": "de31f70885c525d8ecff95f82cb41f6e15cbf0828fb84cd889e1d8f96906d7f2",
+      "records": 500
+    },
+    {
+      "id": "page-00042000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00042000.json",
+      "sha256": "1831a6699593c437eb39605541229bec58e370fff966717df998890457a41944",
+      "records": 500
+    },
+    {
+      "id": "page-00042500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00042500.json",
+      "sha256": "ba2308b65cda471d012a80e8bd1140ab1c0a94d3884888abcdf409d25e6e8df4",
+      "records": 500
+    },
+    {
+      "id": "page-00043000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00043000.json",
+      "sha256": "4b19c91178b33047e1c8d7d8042617684cb47f89403ae2ac5e0b05f94ff80753",
+      "records": 500
+    },
+    {
+      "id": "page-00043500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00043500.json",
+      "sha256": "a6673b9d76fa1a0ec2aaf49b682aeddc95a3c3930c7461c986498701c08dd2b0",
+      "records": 500
+    },
+    {
+      "id": "page-00044000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00044000.json",
+      "sha256": "f924bbd1f45584379b87859e4efab36e2f711b6ee42cca05cef0184d95b954ed",
+      "records": 500
+    },
+    {
+      "id": "page-00044500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00044500.json",
+      "sha256": "0db1132dc803647973eba4ae3d337f986c7b54b5f634bb5c1feedfbeab262204",
+      "records": 500
+    },
+    {
+      "id": "page-00045000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00045000.json",
+      "sha256": "ca4a2e2e091a6b7b4e951999e2295befd0c8e6894892245832c1b8db339a0e51",
+      "records": 500
+    },
+    {
+      "id": "page-00045500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00045500.json",
+      "sha256": "6539eeff3ab942b41fdb50441f9c5cf8b945c306a6be92f6d3dab090b58068a1",
+      "records": 500
+    },
+    {
+      "id": "page-00046000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00046000.json",
+      "sha256": "00157b3a203b8527c2ea4d4d219d68b6ab31daec2cc552374d6078d5aff3faf4",
+      "records": 500
+    },
+    {
+      "id": "page-00046500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00046500.json",
+      "sha256": "2d10a38f6602c2167ff5307e0cf4a37b6124c79cb2ef57c937ddcd2aeaec214e",
+      "records": 500
+    },
+    {
+      "id": "page-00047000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00047000.json",
+      "sha256": "08fb105de48ddc114fc2242cf72b428085eb8eb8e5940b206ea36efea6605a1c",
+      "records": 500
+    },
+    {
+      "id": "page-00047500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00047500.json",
+      "sha256": "9e1505441333c343473724006ca39a8dc2ff9122ecab8998d01dbaf43bd68f28",
+      "records": 500
+    },
+    {
+      "id": "page-00048000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00048000.json",
+      "sha256": "32b77bb91b75b5a7ebe54ae78837609ab2ea6f5057c16cd4d96ea28da520e8bc",
+      "records": 500
+    },
+    {
+      "id": "page-00048500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00048500.json",
+      "sha256": "3290b8b1f9913796c2c79ced9e492de3cb4694cfd99e97679ac534d8b7843ac7",
+      "records": 500
+    },
+    {
+      "id": "page-00049000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00049000.json",
+      "sha256": "9da6ad8124d3460e356b20489301031bafc5d3eef81259497cf3ff4d93170666",
+      "records": 500
+    },
+    {
+      "id": "page-00049500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00049500.json",
+      "sha256": "513d40ad4e9816ae3e472ed40f9369168850caf16459e3992c93195eaff01eb1",
+      "records": 500
+    },
+    {
+      "id": "page-00050000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00050000.json",
+      "sha256": "014deefeb62d486564c278bc12db573f7224edb6b6e357655f7bf86fc41d6abc",
+      "records": 500
+    },
+    {
+      "id": "page-00050500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00050500.json",
+      "sha256": "30441c89bd8e0af811c29825cc0b8d56e775a77dfaf15f93be464cbf7b670974",
+      "records": 500
+    },
+    {
+      "id": "page-00051000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00051000.json",
+      "sha256": "1388e8dab276bfa5bd673a0a80c06a33d959b226487ee5fb9af2b407c30d2fd6",
+      "records": 500
+    },
+    {
+      "id": "page-00051500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00051500.json",
+      "sha256": "53af68092c3ec455eea2790f7bd9680370b4d82100c681dca72b692129efed02",
+      "records": 500
+    },
+    {
+      "id": "page-00052000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00052000.json",
+      "sha256": "b128eb4338ac47fc64527303dff9f8dd1e59f67160354d9314c41e4255890ccd",
+      "records": 500
+    },
+    {
+      "id": "page-00052500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00052500.json",
+      "sha256": "7ad7d2fcad3a624f397a6e4b7c3c79b28658da0710dac6ebf345e502b4ae1ccb",
+      "records": 500
+    },
+    {
+      "id": "page-00053000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00053000.json",
+      "sha256": "380955301fc85c8dfb3bf75725c922d07f43d430c8eacefb22097af12d86b8f8",
+      "records": 500
+    },
+    {
+      "id": "page-00053500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00053500.json",
+      "sha256": "7625cae1eed0acfc8a0c3bf32c08e956de4be8626f1cc38027f862f13dbcb745",
+      "records": 500
+    },
+    {
+      "id": "page-00054000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00054000.json",
+      "sha256": "c88a32284b25f8e5c528ff09b60c78b3fc9e21da91c4b4ee0a1918d262c1f626",
+      "records": 500
+    },
+    {
+      "id": "page-00054500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00054500.json",
+      "sha256": "5cc65bb400d13fbf72883b059a60835b850a452f62276cda0d5400c77a0c7a00",
+      "records": 500
+    },
+    {
+      "id": "page-00055000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00055000.json",
+      "sha256": "9409a63421226a3a3bd8f2a88d9161b315f82abad369e3f82885b720af0af6a3",
+      "records": 500
+    },
+    {
+      "id": "page-00055500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00055500.json",
+      "sha256": "0aeb2f951ac3e0e0e65aa6d213e95a5a51a7936e7015f1ef0979b8f2e254a699",
+      "records": 500
+    },
+    {
+      "id": "page-00056000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00056000.json",
+      "sha256": "d44c0a874e4fbe7f7562108620967e9436d1c9a36402b215ac0ad185b0950134",
+      "records": 500
+    },
+    {
+      "id": "page-00056500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00056500.json",
+      "sha256": "40d7ab6402be0f4c664ae5084b50708f0b79a6d96592002821c63b418f477e8c",
+      "records": 500
+    },
+    {
+      "id": "page-00057000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00057000.json",
+      "sha256": "396faea53dd57d87f2eef4e8c254c5d14877c9ea4bd211e3d1bbe19cad30236e",
+      "records": 500
+    },
+    {
+      "id": "page-00057500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00057500.json",
+      "sha256": "fa53ff997932e212a81622e927c68ac7b82a22b72fd5b5fc95a68e4133deeca8",
+      "records": 500
+    },
+    {
+      "id": "page-00058000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00058000.json",
+      "sha256": "fb1dc9f6b86a74e4e10f6fec2977d6ba8bb357950339efd8ad1940e497512389",
+      "records": 500
+    },
+    {
+      "id": "page-00058500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00058500.json",
+      "sha256": "fdc5b2b6712aed80a30cd49ce5214460aca361726277b624f99f0e7bc9cd2900",
+      "records": 500
+    },
+    {
+      "id": "page-00059000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00059000.json",
+      "sha256": "a361c245f719b20a111940d469836dd8e9f64d8937da9fbad9e497d78fb7e9ac",
+      "records": 500
+    },
+    {
+      "id": "page-00059500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00059500.json",
+      "sha256": "9c4262060de213d1e3024e633eb32f1b8149ab5a854ecb916dc88e254454611b",
+      "records": 500
+    },
+    {
+      "id": "page-00060000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00060000.json",
+      "sha256": "3c525a2e215ca7477452ce64fd64bd9b18666a9a0c054791da9b2d77987215b5",
+      "records": 500
+    },
+    {
+      "id": "page-00060500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00060500.json",
+      "sha256": "e79a5477d4d7b3cc82c66b03465e10286dabee6c12c20150b4ff3b2bfa72e596",
+      "records": 500
+    },
+    {
+      "id": "page-00061000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00061000.json",
+      "sha256": "04065f5501c3fc560b7f707cfa3e96e316a5c14394aa8fedfc15b05f067326af",
+      "records": 500
+    },
+    {
+      "id": "page-00061500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00061500.json",
+      "sha256": "b1b8b6c4a6f192e6c575ea7369660bcadef0203efa361c1fa54047db8cc70a3d",
+      "records": 500
+    },
+    {
+      "id": "page-00062000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00062000.json",
+      "sha256": "5f10fa4efd44204d7883ee3f223235fc079234584688b6d7e943948e32c31c18",
+      "records": 500
+    },
+    {
+      "id": "page-00062500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00062500.json",
+      "sha256": "1c1021faf7d813cb84106deff412379600bd7733ce1529d5c07fd77b2ae7832a",
+      "records": 500
+    },
+    {
+      "id": "page-00063000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00063000.json",
+      "sha256": "95baf1e965ba74e4f2f271ce9873abe377ff7bd75b5a3af36cf05dcec7a54b50",
+      "records": 500
+    },
+    {
+      "id": "page-00063500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00063500.json",
+      "sha256": "fa1fa97daad877568dc266b9f7df770581031fa8ebe3355baa2355779ee45226",
+      "records": 500
+    },
+    {
+      "id": "page-00064000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00064000.json",
+      "sha256": "42027b11a34919e3341bbbcbcb77aaea6dba5b3299cd2dae61a1847617d73043",
+      "records": 500
+    },
+    {
+      "id": "page-00064500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00064500.json",
+      "sha256": "49af830312365f0565a23cca69a8e4dca27f0e349aadf22f5632d9e53b0be194",
+      "records": 500
+    },
+    {
+      "id": "page-00065000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00065000.json",
+      "sha256": "ae95cf387fa990310ca545d945c70b799f29c93185e968f680664bfa4cd16f96",
+      "records": 500
+    },
+    {
+      "id": "page-00065500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00065500.json",
+      "sha256": "b7bfbe435759b79dedc3ae8760783ce45d509d2bf4d53829b67dff2128200056",
+      "records": 500
+    },
+    {
+      "id": "page-00066000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00066000.json",
+      "sha256": "fa16cdb14097c51699c97a82764164a9a43b826af424a9a3bf4a9f80f2c829a8",
+      "records": 500
+    },
+    {
+      "id": "page-00066500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00066500.json",
+      "sha256": "78a2ab27eada2ab122d00cfbe6f62e769495309c92c124e1e94e39d0023092d0",
+      "records": 500
+    },
+    {
+      "id": "page-00067000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00067000.json",
+      "sha256": "13d5f2fae3a1011838c2c730d5f62a440982706a0eb962f8a74a81730607f56f",
+      "records": 500
+    },
+    {
+      "id": "page-00067500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00067500.json",
+      "sha256": "9553bf7eed2ecc88b873f237a4ecca8f479b0ee649dc215702a706d21bc306e3",
+      "records": 500
+    },
+    {
+      "id": "page-00068000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00068000.json",
+      "sha256": "6da83bf269afcec0faae69a14f359c1438d284ce61767bc38d122878a3ae5e17",
+      "records": 500
+    },
+    {
+      "id": "page-00068500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00068500.json",
+      "sha256": "e16649d5e84504cd144d5144d56c1c7cd0c885030318bef268ecf02ce0ad4077",
+      "records": 500
+    },
+    {
+      "id": "page-00069000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00069000.json",
+      "sha256": "74d175645a570e7f7fd731a0568de607f4692de4135e3ab98226cf14391fc679",
+      "records": 500
+    },
+    {
+      "id": "page-00069500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00069500.json",
+      "sha256": "b02d04442032c4e97f1978ecec9a53380259923ee1717126a45ee42935111122",
+      "records": 500
+    },
+    {
+      "id": "page-00070000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00070000.json",
+      "sha256": "ea31102da22f00733c7c3cc947f225dccd6e23ddc9933492231705e870d447f4",
+      "records": 500
+    },
+    {
+      "id": "page-00070500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00070500.json",
+      "sha256": "fde735f05d65285957e7c8657e7b5d4535d2a0616a62ac934da6c36edd35dd3d",
+      "records": 500
+    },
+    {
+      "id": "page-00071000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00071000.json",
+      "sha256": "45f84942cccdf0e1b7cf145c5d8bf6bad7a188ededeb03a457e91e4e5eacc536",
+      "records": 500
+    },
+    {
+      "id": "page-00071500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00071500.json",
+      "sha256": "978e64734e5fb12af88ac992cc174d12d1b9e6bcea9baec5fe6d0ab5e68c032c",
+      "records": 500
+    },
+    {
+      "id": "page-00072000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00072000.json",
+      "sha256": "5c814f6ad9b4da4ffeba0ee6ff6857b74f7498e6cd0331af2befed82553cfee7",
+      "records": 500
+    },
+    {
+      "id": "page-00072500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00072500.json",
+      "sha256": "d2dd1b714db45d9ac1474c25c6020c2b38d2cf5ff06d52058a8f6144fcebb8b8",
+      "records": 500
+    },
+    {
+      "id": "page-00073000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00073000.json",
+      "sha256": "a326cdee9008d04a9e964ac94343d999e16c7f240ef490d7f2361c6079a70bae",
+      "records": 500
+    },
+    {
+      "id": "page-00073500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00073500.json",
+      "sha256": "8cb87c12684f81ef5c3b27592fca0b32f98e4ad406a9fd1ee7f1e239512664b0",
+      "records": 500
+    },
+    {
+      "id": "page-00074000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00074000.json",
+      "sha256": "f456cecb4c10f6d29082cf13745652cbf6ebbaaf7f1a61e1f87d05fb82c6a773",
+      "records": 500
+    },
+    {
+      "id": "page-00074500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00074500.json",
+      "sha256": "120b1a47afc8c1609cb02744878d47c5b111d3f27b680db9fc74d0b6978999b5",
+      "records": 500
+    },
+    {
+      "id": "page-00075000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00075000.json",
+      "sha256": "ed8fd60b96aceb5e4761c3afdf67db61e45624e923302e8808e17ea91522c555",
+      "records": 500
+    },
+    {
+      "id": "page-00075500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00075500.json",
+      "sha256": "8da73a8fbae0962c37a9d20540449300d2d955da9082ff9577d94a674a90e83c",
+      "records": 500
+    },
+    {
+      "id": "page-00076000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00076000.json",
+      "sha256": "1fb0753fbc6eead8e36b5772f50962b94f929ca937a10d73561263f8a97fcc31",
+      "records": 500
+    },
+    {
+      "id": "page-00076500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00076500.json",
+      "sha256": "7339828ba49f4fd8d067c3f5060504ce1bcd3572188482d726b4138ef1593c80",
+      "records": 500
+    },
+    {
+      "id": "page-00077000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00077000.json",
+      "sha256": "e195772abef0bacd00967bca77a0b74cbcda262ccc0f7eb3ef83ee866e9dc707",
+      "records": 500
+    },
+    {
+      "id": "page-00077500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00077500.json",
+      "sha256": "6d60c2f059efbd7e7c6d05fdd6756d10a066a7cb65ff15af859cc0ce37f45d38",
+      "records": 500
+    },
+    {
+      "id": "page-00078000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00078000.json",
+      "sha256": "8043e2179c7d58dbe40657b3e5ac7e724ff6c2610a3a586d52db5de95ca9092f",
+      "records": 500
+    },
+    {
+      "id": "page-00078500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00078500.json",
+      "sha256": "35bba968a05a3a95cfb1eaa9bbb76907c505c075b47bf100764d98ab9a39b196",
+      "records": 500
+    },
+    {
+      "id": "page-00079000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00079000.json",
+      "sha256": "80f4ec5facb140174b8c798dd5ea5c258689e80cf70192e71e2258f7260e383a",
+      "records": 500
+    },
+    {
+      "id": "page-00079500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00079500.json",
+      "sha256": "d27dc6a1886ee7c33e58fab437a7190acf92cf9a5cf56ed817db10b4b419d28a",
+      "records": 500
+    },
+    {
+      "id": "page-00080000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00080000.json",
+      "sha256": "7cb893e7ad5e0215f8efccf879aecc3e97f185e998f56fa315e2ec65c3391f64",
+      "records": 500
+    },
+    {
+      "id": "page-00080500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00080500.json",
+      "sha256": "0d73ce2319b03780589877bc3cab7f7f7fe1e23aba58be24ce48729c6f5cd860",
+      "records": 500
+    },
+    {
+      "id": "page-00081000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00081000.json",
+      "sha256": "1dff7f5f0008ba99388d139994574b1cd35e37ae022db0b5d026cdbe4155fa04",
+      "records": 500
+    },
+    {
+      "id": "page-00081500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00081500.json",
+      "sha256": "c29ee3f636831adb58bbdeef9d0d6eed8801bf0a27eb47bd9fe8cd9625ac5ff5",
+      "records": 500
+    },
+    {
+      "id": "page-00082000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00082000.json",
+      "sha256": "4fe56af604d9492165723a03cb9b6c9e498e16e70b3e2e61281aa7e12a5d91b5",
+      "records": 500
+    },
+    {
+      "id": "page-00082500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00082500.json",
+      "sha256": "835eb2ccc5695b0dff0440bea7fcbff9da18f4a6e13a8e23954c56b7d97ce56e",
+      "records": 500
+    },
+    {
+      "id": "page-00083000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00083000.json",
+      "sha256": "1634835e812c07ab1d6735957f0d33558b69a06aa61ad6c2cc57b0e197ab1c4d",
+      "records": 500
+    },
+    {
+      "id": "page-00083500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00083500.json",
+      "sha256": "9cdf3a2ffbef02e21ba212aa3ff806314ba26a71ba2d1cf0423c037fb0b40903",
+      "records": 500
+    },
+    {
+      "id": "page-00084000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00084000.json",
+      "sha256": "44afaf4827cc9b85fc41a2a244889152794d7b60d8d54c54e5d052cf94ec4bf9",
+      "records": 500
+    },
+    {
+      "id": "page-00084500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00084500.json",
+      "sha256": "65cc2bf46539eab564e204cf97539bbdd7a6ea3f464a32aa6eba5df4be4ce7dc",
+      "records": 500
+    },
+    {
+      "id": "page-00085000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00085000.json",
+      "sha256": "7538b83a36de66e1e773cbcefce4d1f707016f400c4826751e2302dded3b8660",
+      "records": 500
+    },
+    {
+      "id": "page-00085500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00085500.json",
+      "sha256": "bfb7c489365c335fd572d2d3240ccd0fa007284226601508dd0d99ad7c12e92b",
+      "records": 500
+    },
+    {
+      "id": "page-00086000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00086000.json",
+      "sha256": "b1b6417c590edb098e5fb147a6bc1c1ad3caee54881463406304db936872ae36",
+      "records": 500
+    },
+    {
+      "id": "page-00086500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00086500.json",
+      "sha256": "928778f729083bbc174f06c115feed2c40260109d22b060a7ec565c2520c1d9d",
+      "records": 500
+    },
+    {
+      "id": "page-00087000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00087000.json",
+      "sha256": "89ddb2aa91ac33dd081e88017bd74c749248ca57cfd9224bbafc15f9a7dfb0b9",
+      "records": 500
+    },
+    {
+      "id": "page-00087500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00087500.json",
+      "sha256": "4b2c7e1ca46894e529005e1b187810af2fe14674820f2ccc301f08c897727636",
+      "records": 500
+    },
+    {
+      "id": "page-00088000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00088000.json",
+      "sha256": "e4e9b06d0da4c6137908e0a13c26c177af038f784a9eedb8d471cd2683bb03da",
+      "records": 500
+    },
+    {
+      "id": "page-00088500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00088500.json",
+      "sha256": "0ab20264e85d90c456285c0bb16340f086d9c94b0960be824dce667172d9f3c4",
+      "records": 500
+    },
+    {
+      "id": "page-00089000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00089000.json",
+      "sha256": "4ed0ae1494c5a0f0bec6d5fd3299da2dd805d06d93cf41be4522dbfe8378928a",
+      "records": 500
+    },
+    {
+      "id": "page-00089500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00089500.json",
+      "sha256": "0774e10089801aa0bee42663dc4639b4892c33bb6388c283e9343e2dfc6f04eb",
+      "records": 500
+    },
+    {
+      "id": "page-00090000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00090000.json",
+      "sha256": "c03e04be300376497a329b7a5d532e7814e0604501ea01eabbae420c2bb3b086",
+      "records": 500
+    },
+    {
+      "id": "page-00090500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00090500.json",
+      "sha256": "621af4f39155162a222e6fed10fd887ae9056fe922f67cb92f8dddfd01fd9dce",
+      "records": 500
+    },
+    {
+      "id": "page-00091000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00091000.json",
+      "sha256": "f98de2e8a740d135ee6f5f56a561b37de0d109badfcb6d4fbd22d91373fdf1e3",
+      "records": 500
+    },
+    {
+      "id": "page-00091500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00091500.json",
+      "sha256": "d36a0274a37ceda49e733ddb4c88ce217dfd5204b26887641b8783ad09bae6d1",
+      "records": 500
+    },
+    {
+      "id": "page-00092000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00092000.json",
+      "sha256": "17743f805404c25fa54e8709f9d640eb0543f87475539942e58d7c3185277017",
+      "records": 500
+    },
+    {
+      "id": "page-00092500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00092500.json",
+      "sha256": "50b757f7342c25795e60d66e940a012f517f1b00b482c49abfe7c58304b98e7c",
+      "records": 500
+    },
+    {
+      "id": "page-00093000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00093000.json",
+      "sha256": "48a1566ea037a59061e4d0e95dd60a0b8a85433657f78a4e5d41ac59299c3cf8",
+      "records": 500
+    },
+    {
+      "id": "page-00093500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00093500.json",
+      "sha256": "4b262808e1a9e3d6c527262bb8aabc2af476cbc86345fbc056d717aab036fb62",
+      "records": 500
+    },
+    {
+      "id": "page-00094000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00094000.json",
+      "sha256": "a51192e3cdb2dd334370e259964e134b10e7d881321349a2f37371afbc44549b",
+      "records": 500
+    },
+    {
+      "id": "page-00094500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00094500.json",
+      "sha256": "60b261354eb6cf974744a808a0cb75e10d66b942b8f9b9deae7d3eed1e9ac1b5",
+      "records": 500
+    },
+    {
+      "id": "page-00095000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00095000.json",
+      "sha256": "1644d8967f2d75847875796f76c19bfdaa7888d3f3f8cf1eb704bc142b2716c2",
+      "records": 500
+    },
+    {
+      "id": "page-00095500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00095500.json",
+      "sha256": "a71448720d528db968dc2b1183142542afdfd19c0249fa5a55bdde9de4ec51ea",
+      "records": 500
+    },
+    {
+      "id": "page-00096000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00096000.json",
+      "sha256": "ee8978e7191d1f7a36da7146e825beef7156a8d1174ed7c9e4800713b65d9bf6",
+      "records": 500
+    },
+    {
+      "id": "page-00096500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00096500.json",
+      "sha256": "4f9c983852af8cb18b0df26e8a4e52b3dbdeb059769ae79d246ecf3155e0a59d",
+      "records": 500
+    },
+    {
+      "id": "page-00097000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00097000.json",
+      "sha256": "0978bb7d8ec0262451540ae1b978f0fb0f1819902284e1c11259d7b13858a39e",
+      "records": 500
+    },
+    {
+      "id": "page-00097500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00097500.json",
+      "sha256": "12d61d984831bc44b37260037b59f9775b0cf5a0bdb7e356618f1e2dfcf85ce2",
+      "records": 500
+    },
+    {
+      "id": "page-00098000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00098000.json",
+      "sha256": "d9d1cfbc5c0203f62dd93407d592ec3622adaf4ecd84b1da595589f7b4adcc92",
+      "records": 500
+    },
+    {
+      "id": "page-00098500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00098500.json",
+      "sha256": "43a184a8421c5e3dac0e9c5e31e42e279259309c1c4e2b04cfe6bde69209fbe8",
+      "records": 500
+    },
+    {
+      "id": "page-00099000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00099000.json",
+      "sha256": "dce609eb029e2bd4322ece683a8b92df582a4aa3d7c74e73acd8644a2a0c4094",
+      "records": 500
+    },
+    {
+      "id": "page-00099500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00099500.json",
+      "sha256": "2b8403dd8dd361f8d3059a9dc19afa05e6c1416e286cbf928dabbb6bafda824d",
+      "records": 500
+    },
+    {
+      "id": "page-00100000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00100000.json",
+      "sha256": "68090af858956785e82e2d6e38133a75e9261006821505e2cc5b83ed74b40903",
+      "records": 500
+    },
+    {
+      "id": "page-00100500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00100500.json",
+      "sha256": "058b15fdf5f53c89a66ed21b8a9c2e71667e8d23b3ddc58ddc462f910fc16928",
+      "records": 500
+    },
+    {
+      "id": "page-00101000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00101000.json",
+      "sha256": "3aeef40ebf69ad5fe63d6b27c0d3fcad367fd6f171b5272cb5c2ee42256523de",
+      "records": 500
+    },
+    {
+      "id": "page-00101500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00101500.json",
+      "sha256": "d1ee91470007e1a0faf8902a0a8b3ea81710b1c0eb57d7c65f6cd9108ec30733",
+      "records": 500
+    },
+    {
+      "id": "page-00102000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00102000.json",
+      "sha256": "2caa1b825eca994b564e84e7752d492f71f1513fbe8902b723a5d5f694d6ccb0",
+      "records": 500
+    },
+    {
+      "id": "page-00102500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00102500.json",
+      "sha256": "253ee0ecb5f57842e295db3d88654a1d9d05ca55ce6f2113d11554692a0019c2",
+      "records": 500
+    },
+    {
+      "id": "page-00103000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00103000.json",
+      "sha256": "8a1ab6c757ae92011ba8cbc0fcb3004774e41a6936712d2aa02af7faec4d4305",
+      "records": 500
+    },
+    {
+      "id": "page-00103500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00103500.json",
+      "sha256": "824a0ae74b36259a88ffc068214f66ab3a63a0ff951ff7c86ab8a4baa544680b",
+      "records": 500
+    },
+    {
+      "id": "page-00104000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00104000.json",
+      "sha256": "ed9b71eacbf04b94afa8091ea2200e40364ac80897952fe3424854a1279692b4",
+      "records": 500
+    },
+    {
+      "id": "page-00104500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00104500.json",
+      "sha256": "fb98dfa8dd9edba8ee840112e06c9ded1a59469b5151eff89885d998a8ab06e3",
+      "records": 500
+    },
+    {
+      "id": "page-00105000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00105000.json",
+      "sha256": "428629de80efb869deb4f8c1bdab857555092777c7ff9eaee62d910c17bb9bca",
+      "records": 500
+    },
+    {
+      "id": "page-00105500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00105500.json",
+      "sha256": "e27dff4375ae52a6351166fef4814fa574c4cdd4c492a6f65215d87131a3f8bb",
+      "records": 500
+    },
+    {
+      "id": "page-00106000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00106000.json",
+      "sha256": "c081ea47d1734ebdeeb0a97498f2bbf93b2019111ca95d30f9ad2908eeb0d57c",
+      "records": 500
+    },
+    {
+      "id": "page-00106500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00106500.json",
+      "sha256": "e02c28c38ab9bc0d906aac2fd2bb40a776b93ec61d0864f727da38f7b9ffecb1",
+      "records": 500
+    },
+    {
+      "id": "page-00107000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00107000.json",
+      "sha256": "35f151db6ce15c9c3f8140e46aa4c5f0398d1146a46cbadf4cc7e1f29e129e45",
+      "records": 500
+    },
+    {
+      "id": "page-00107500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00107500.json",
+      "sha256": "7e0e15a54e8b9cbaa69f4ad8216de4df7ffcdb778f5577cb84f1df78a93d2074",
+      "records": 500
+    },
+    {
+      "id": "page-00108000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00108000.json",
+      "sha256": "11274bcd9a3c16e0011f84d87a2efc988b3d89c1bd60baf6f0d3eb45fd0c19bc",
+      "records": 500
+    },
+    {
+      "id": "page-00108500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00108500.json",
+      "sha256": "34dc5a9546b9bb318f0c20a70bf349c1a4c62ef481f7ba67612a56e6a8cbcb4a",
+      "records": 500
+    },
+    {
+      "id": "page-00109000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00109000.json",
+      "sha256": "679f326dd37ff88db44d97db6067170b065e06e76a2a741cdc9fec5b3ca42844",
+      "records": 500
+    },
+    {
+      "id": "page-00109500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00109500.json",
+      "sha256": "5473e224787000e50fed4e74c6c54613129e485331d2b015ad06fd092e61132e",
+      "records": 500
+    },
+    {
+      "id": "page-00110000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00110000.json",
+      "sha256": "75b3f5f97c43ec84ed01b67f7da6b881e5b3cfa949289c81981185b00b5c8824",
+      "records": 500
+    },
+    {
+      "id": "page-00110500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00110500.json",
+      "sha256": "959fe4a3345d7f36e1e1ee82ef2827a009e117ccd41fd704771636b5e2cc413a",
+      "records": 500
+    },
+    {
+      "id": "page-00111000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00111000.json",
+      "sha256": "f907b87c077ed029f7c93bfa2012fe82d2d130434ce01a7d38894ac4c93a9639",
+      "records": 500
+    },
+    {
+      "id": "page-00111500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00111500.json",
+      "sha256": "6621e2d1b1b34670531c7f8c4b434d256ee0eaa508b8972139950ef0e7aedb7b",
+      "records": 500
+    },
+    {
+      "id": "page-00112000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00112000.json",
+      "sha256": "1b182158760a2af4cc53119297aba18b8680a391bc417d15338522b35520d7a3",
+      "records": 500
+    },
+    {
+      "id": "page-00112500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00112500.json",
+      "sha256": "865287d10174b5dcea52570cd75bffd2543e71866bef8a4f1d07174a6e3149e7",
+      "records": 500
+    },
+    {
+      "id": "page-00113000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00113000.json",
+      "sha256": "7792e2a08cf042053caeae099f6295ef5ab0b012afc3ea3cf86a01bba1264c13",
+      "records": 500
+    },
+    {
+      "id": "page-00113500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00113500.json",
+      "sha256": "d7bef24526f7d50d9da18a8ae7ab72e293969b2af2e6d15f887f1ecbc23b99c0",
+      "records": 500
+    },
+    {
+      "id": "page-00114000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00114000.json",
+      "sha256": "1c9403c64eea32a6d28a9d5ea44435eef8e5d6fac0937ac1faf2fb056d71efe4",
+      "records": 500
+    },
+    {
+      "id": "page-00114500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00114500.json",
+      "sha256": "cb0626453249a29d953b80a0bdb87500ecdc417578fa885e8d64bcb54f6d8574",
+      "records": 500
+    },
+    {
+      "id": "page-00115000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00115000.json",
+      "sha256": "65c93c6700a6c28b22379cf3a73350e0f18764c2a5cffcb8a030cc9d05c42bb1",
+      "records": 500
+    },
+    {
+      "id": "page-00115500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00115500.json",
+      "sha256": "085ef8c8d4a362651ffb5f9b4958637dde94f53c4a9b1753334df919592fe31e",
+      "records": 500
+    },
+    {
+      "id": "page-00116000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00116000.json",
+      "sha256": "9a09bcafb056e6247eccb685fa4115f80cc8c9b198787127b346644356f51921",
+      "records": 500
+    },
+    {
+      "id": "page-00116500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00116500.json",
+      "sha256": "3227727dfbfedc3a256c327e5c10cdb01163d3aff0e81fc4a5741a7cfb5fdcaa",
+      "records": 500
+    },
+    {
+      "id": "page-00117000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00117000.json",
+      "sha256": "94e7fe7cf3f44db5b1b459fcfa9e26b79b7b601dfb122938174303b9ed2e5bd5",
+      "records": 500
+    },
+    {
+      "id": "page-00117500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00117500.json",
+      "sha256": "54aacc4f7cf67245f15ee0d656fa8675da2baca7d88a28daa48404051d02c81d",
+      "records": 500
+    },
+    {
+      "id": "page-00118000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00118000.json",
+      "sha256": "785c8268aa0b968235c129c7915fbf9ffb55fff1f0d4b919845d36073ad03e60",
+      "records": 500
+    },
+    {
+      "id": "page-00118500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00118500.json",
+      "sha256": "23f2f626f97d708c6cb2a74f8b53a7ed0ea11aca1000d53c226cf4b0b1c175a0",
+      "records": 500
+    },
+    {
+      "id": "page-00119000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00119000.json",
+      "sha256": "1475651a524262316f078acb17567d9aceb5a17aa37cc7fddd72dd4d01ef1c6e",
+      "records": 500
+    },
+    {
+      "id": "page-00119500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00119500.json",
+      "sha256": "05cab066174da326e7a72e95d92bb94975cde71afc34c111738d35a7e203a907",
+      "records": 500
+    },
+    {
+      "id": "page-00120000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00120000.json",
+      "sha256": "0d37fbe21ce930cc01b246723d4ccedf8608cccf6d85629bd8c1e16c023af2df",
+      "records": 500
+    },
+    {
+      "id": "page-00120500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00120500.json",
+      "sha256": "507ef8bd0e88fb058ed6289969f1348040c61998f6f4ea51a66e7cb304894704",
+      "records": 500
+    },
+    {
+      "id": "page-00121000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00121000.json",
+      "sha256": "c6333769a5b98410c3186837c64ec60952f59a4ba6a743335ab2bb2cc53ac52f",
+      "records": 500
+    },
+    {
+      "id": "page-00121500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00121500.json",
+      "sha256": "f123e142fd458c7bcac54b7e86ba0d9d94a5e5e494cea945da825f55d35027b5",
+      "records": 500
+    },
+    {
+      "id": "page-00122000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00122000.json",
+      "sha256": "0cec9a2aa1214dc5ff0148a5ec6ecf1325939cb50ad89b99605b2a6c52e13ccc",
+      "records": 500
+    },
+    {
+      "id": "page-00122500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00122500.json",
+      "sha256": "552b45c41fca5ed2b42796b75f02a6725d1418a2feca6e2faebfa765d85eb50b",
+      "records": 500
+    },
+    {
+      "id": "page-00123000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00123000.json",
+      "sha256": "3aeca9fb4db719a23ceba7442a52c4d9b2e22aadf0900137bda4133ddf40dd55",
+      "records": 500
+    },
+    {
+      "id": "page-00123500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00123500.json",
+      "sha256": "9738372a4d795b4ac69f7462523968aa00ca27343a14e9dbdba169b1c00a127e",
+      "records": 500
+    },
+    {
+      "id": "page-00124000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00124000.json",
+      "sha256": "3ad3768adb202834e8fb46ecc4b10f29a372c9b47f938dc26b5dfede5147b1cf",
+      "records": 500
+    },
+    {
+      "id": "page-00124500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00124500.json",
+      "sha256": "949798a0be7b78a02fb0c626efe5fbf171bd9568ad722884c292985c0702ba28",
+      "records": 500
+    },
+    {
+      "id": "page-00125000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00125000.json",
+      "sha256": "0f9d55d119583dcfd038f567e18de21dc59024996da94da947131439a83b1199",
+      "records": 500
+    },
+    {
+      "id": "page-00125500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00125500.json",
+      "sha256": "640a59d17314262e430d3d7a42ab922b4f229b00de28b0a9b62a343d31fe57be",
+      "records": 500
+    },
+    {
+      "id": "page-00126000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00126000.json",
+      "sha256": "39f905e267b54a4dc102c4851703276693a6fc229d86b9dfc7981917d15fe946",
+      "records": 500
+    },
+    {
+      "id": "page-00126500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00126500.json",
+      "sha256": "e88396693d678e303d8172e67561269f9ac074b9816a790d8bd1028a721cb0bf",
+      "records": 500
+    },
+    {
+      "id": "page-00127000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00127000.json",
+      "sha256": "4971334517a235558adc26a4a26b4078974279c81af5d789105966ab4c2ba18b",
+      "records": 500
+    },
+    {
+      "id": "page-00127500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00127500.json",
+      "sha256": "dded9088f8e93682a4dbe38a4c428995856902627719c53c5b97110ef9cb49bd",
+      "records": 500
+    },
+    {
+      "id": "page-00128000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00128000.json",
+      "sha256": "5a77e46830d2b2d62e684e9a232e1118a32597f0880aeab7723aef7062d2b5a0",
+      "records": 500
+    },
+    {
+      "id": "page-00128500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00128500.json",
+      "sha256": "751e73626f1c90d49b81fa7fb821a9a319e8e76f9e6456821916c8216086a177",
+      "records": 500
+    },
+    {
+      "id": "page-00129000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00129000.json",
+      "sha256": "92f57676c9c52cdadc2c01f9dbeea6cc3b11713829f2167a994981b4a2ac563a",
+      "records": 500
+    },
+    {
+      "id": "page-00129500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00129500.json",
+      "sha256": "4c1ca421b558ef9c4b63f0504829cc33d8ff6fb244aeebbfdb82453362d32ddd",
+      "records": 500
+    },
+    {
+      "id": "page-00130000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00130000.json",
+      "sha256": "d84e00e3a6766acf52f8d44518cebc9126b7c99ad625ecca2b0a2a36b9676ee2",
+      "records": 500
+    },
+    {
+      "id": "page-00130500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00130500.json",
+      "sha256": "01065709c6b70077e7b47d56fcead27c0aa5fa4ab01405cfec3f7a474ce7147e",
+      "records": 500
+    },
+    {
+      "id": "page-00131000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00131000.json",
+      "sha256": "385c2a7bf5997fd59557458eca9d27f2941716a3ac890c1093c026cbb489bb21",
+      "records": 500
+    },
+    {
+      "id": "page-00131500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00131500.json",
+      "sha256": "99c39e22e11f71f6f24ca061a38b6d0e1207f798764217c039474746c548b5d6",
+      "records": 500
+    },
+    {
+      "id": "page-00132000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00132000.json",
+      "sha256": "1a190d22489c34ace0579833a35d90690ce0d30a025c0e5a246690537bf2d253",
+      "records": 500
+    },
+    {
+      "id": "page-00132500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00132500.json",
+      "sha256": "95843c54d3555a7067443162c4f852219e91d9c8f1780e249ccd9d2398d8d45f",
+      "records": 500
+    },
+    {
+      "id": "page-00133000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00133000.json",
+      "sha256": "ae1b575d2d72e0e1a139fd6c46d7f3daff6a8ce699b32afc2b943758ebb11e08",
+      "records": 500
+    },
+    {
+      "id": "page-00133500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00133500.json",
+      "sha256": "71618c45dc9cdba2ceb89c367ac666ccf0431e8c7d0057db45dde5be44588116",
+      "records": 500
+    },
+    {
+      "id": "page-00134000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00134000.json",
+      "sha256": "aed43aeb1f1d10dddfadad1d79133f17020f0235d7af5cc446e224cf0a6b80c6",
+      "records": 500
+    },
+    {
+      "id": "page-00134500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00134500.json",
+      "sha256": "34f030ddec1d1e791745f1217a8ba2326668f28b75c2472010a3fc6e98247289",
+      "records": 500
+    },
+    {
+      "id": "page-00135000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00135000.json",
+      "sha256": "48b633935854e62d2a3fac18ff79199cff27e13abb8fa65e7c88172094004e49",
+      "records": 500
+    },
+    {
+      "id": "page-00135500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00135500.json",
+      "sha256": "211c966cf51f4de995e56c5b6b14980d008205f2eac2761a42b0ab265ae0c553",
+      "records": 500
+    },
+    {
+      "id": "page-00136000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00136000.json",
+      "sha256": "4b0012b6baadddb918898e811d1e3b676e7cf1d8534d9719d762bb810216c3d9",
+      "records": 500
+    },
+    {
+      "id": "page-00136500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00136500.json",
+      "sha256": "d880eb022ffa93b413327209072776c19529cffb60c55bfab2ab8d0069123d27",
+      "records": 500
+    },
+    {
+      "id": "page-00137000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00137000.json",
+      "sha256": "b2d4026999c17da361f5475a1954392acc4b151bd42e89e3b8bb8aee1ed70ed0",
+      "records": 500
+    },
+    {
+      "id": "page-00137500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00137500.json",
+      "sha256": "641b58f1845c6dcf2aa85dd4f359a19eed63d5b48380ba62acdb0f1dbd6a6332",
+      "records": 500
+    },
+    {
+      "id": "page-00138000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00138000.json",
+      "sha256": "91263408149cbf29e7b84d793cb4a68760fae9bf242895c71e5e287d474cbffe",
+      "records": 500
+    },
+    {
+      "id": "page-00138500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00138500.json",
+      "sha256": "6c319827c8dfef31455d036e690f54b2b7e687ba4f586d013591e443aaa3fee9",
+      "records": 500
+    },
+    {
+      "id": "page-00139000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00139000.json",
+      "sha256": "558b43f0d0b9266aad8f912cd36db19e6c74d06610400887a87521360d66ba60",
+      "records": 500
+    },
+    {
+      "id": "page-00139500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00139500.json",
+      "sha256": "eaae7d38ba4a57461b211d0020f73edea0769f9aa300e5b11b99a0effaf9dcd7",
+      "records": 500
+    },
+    {
+      "id": "page-00140000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00140000.json",
+      "sha256": "d95ed003b07d3e6d246118f6e6e4a15ed862ef7905f101cec7611fc9d7a5dd8d",
+      "records": 500
+    },
+    {
+      "id": "page-00140500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00140500.json",
+      "sha256": "5b008519c5bfdc5dc8a141a5c1b39743acc13c85b5e19a1437b3d36c84bed7ff",
+      "records": 500
+    },
+    {
+      "id": "page-00141000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00141000.json",
+      "sha256": "ddf42c8912070f1118353475680e7d495c36e96d12bb75e05ac70ea7388bfb35",
+      "records": 500
+    },
+    {
+      "id": "page-00141500",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00141500.json",
+      "sha256": "06ec6ac75d3bbfbb8de8bc7fd7b07642717ce2eaae376d804ed141dfa3326a32",
+      "records": 500
+    },
+    {
+      "id": "page-00142000",
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00142000.json",
+      "sha256": "fbb7a413daca2a0bef7e280aab3a98d03a4df41ee40441517aeace327de8b923",
+      "records": 461
+    }
+  ],
+  "records_downloaded": 142461,
+  "unique_object_ids": 142461,
+  "consistency": {
+    "start_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "end_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "id_set_equal": true,
+    "service_changed_during_window": false,
+    "atomic_snapshot": false,
+    "limitation": "Dynamic service; unchanged last-edit and ID set are checks, not a transactional snapshot. Re-fetch a new version if flagged."
+  },
+  "raw_spatial_reference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "height_units": "feet; relative roof height, not elevation",
+  "vertical_datum": "Ground often NAVD88 per metadata; per-feature datum not guaranteed",
+  "downloaded_at": "2026-10-27T04:36:37.201602+00:00",
+  "observation_date": null,
+  "source_metadata_date": "2025-10-09",
+  "license": "NYC Open Data Terms; see captured terms; not blanket CC0",
+  "license_class": "local-processing-and-distribution-subject-to-NYC-terms"
+}

@@ -7,3 +7,7 @@ US survey foot=1200/3937m，用于2263水平坐标。HEIGHT_ROOF元数据仅称f
 经纬度/标准平面以float64保留；ECEF EPSG:4978，Cesium tileset.transform为ENU到ECEF，GLB顶点是局部float32米。glTF Y-up写成(East,Up,-North)，3D Tiles默认Y-up转Z-up后成为ENU。显示轮廓暂以WGS84椭球高0作为可视参考，不是实际地面，不把NAVD88直接当椭球高。
 
 投影变换需记录pyproj operation/accuracy；NAD83到WGS84未取得本地网格时不承诺厘米定位。实际修复/投影误差报告与建模本身的测绘误差分开。
+
+全市米制范围见reports/city-dimensions.json；RTree为粗筛包围框，精确数据float64。GLB局部坐标按500m网格处理；真实顶点偏离原点215m/315m的测试恢复ECEF偏差<1mm，只证明数值管线，不是测绘精度。可视轮廓增加0.25m防闪烁并明确标注。
+
+MN01 .3dm实测文档UnitSystem.Feet，OTI元数据为EPSG:2263/US survey foot。百万英尺量级坐标不能忽略foot差异，必须以控制点和技术说明核对；当前未发布该模型变换，也未把其Z当椭球高。影像EPSG:3857分辨率是投影米/像素，不是当地地面GSD。

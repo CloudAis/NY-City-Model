@@ -1,0 +1,28 @@
+{
+  "dataset_id": "gthc-hcne",
+  "publisher": "Department of City Planning (DCP)",
+  "count": 5,
+  "unique_ids": 5,
+  "source_id_field": "borocode",
+  "source_logical_id_field": "borocode",
+  "id_stability": "Socrata row ID is version-scoped; logical source IDs may repeat",
+  "pages": [
+    {
+      "path": "data/raw/vectors/borough/page-00000000.geojson",
+      "sha256": "9c90ce27269252c5ea44d264689b294d0fc8e1828687386a711bf90d9c64c65c",
+      "features": 5
+    }
+  ],
+  "crs": "EPSG:4326 per GeoJSON",
+  "units": "degrees raw, convert before metric calculations",
+  "data_updated_at": 1779824150,
+  "page_updated_at": 1779824148,
+  "download_started_at": "2026-10-27T04:22:21.655578+00:00",
+  "download_finished_at": "2026-10-27T04:56:15.027143+00:00",
+  "end_count": 5,
+  "end_data_updated_at": 1779824150,
+  "changed_during_window": false,
+  "license": "NYC Open Data Terms; see source metadata",
+  "coverage": "citywide source dataset",
+  "consistency": "ordered pagination, unique row IDs, count and end publication timestamp checked; not a transactional snapshot or per-row historical diff"
+}

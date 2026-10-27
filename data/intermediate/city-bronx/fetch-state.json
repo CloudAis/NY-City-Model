@@ -1,0 +1,1271 @@
+{
+  "completed": {
+    "page-00000000": {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00000000.json",
+      "sha256": "c7c083ad39328e8aa198d46d8b8d6ed4a8d16760ff6d4e5c00277259169c67e6",
+      "records": 500
+    },
+    "page-00000500": {
+      "id": "page-00000500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00000500.json",
+      "sha256": "2cf3bc20647628b7fb9c3565a232c7086dfd75f57c09f872062cc07a527711ee",
+      "records": 500
+    },
+    "page-00001000": {
+      "id": "page-00001000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00001000.json",
+      "sha256": "65f66de9d50a1bfcb9c7e0fbfda447ab8f282e9f8708a446efc620d6a7b6d37c",
+      "records": 500
+    },
+    "page-00001500": {
+      "id": "page-00001500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00001500.json",
+      "sha256": "6ec17db58b5e5670d1cbc88446c463222f358908baec1e2844f4a06654518e67",
+      "records": 500
+    },
+    "page-00002000": {
+      "id": "page-00002000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00002000.json",
+      "sha256": "cdca15071db17e565039a957813c185840964166c00111570e2dc05a74ea3bc3",
+      "records": 500
+    },
+    "page-00002500": {
+      "id": "page-00002500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00002500.json",
+      "sha256": "ec3e59caff80f2b5e78a8cfe9f769894acbbe947ede87ba81b59ba091ffe7159",
+      "records": 500
+    },
+    "page-00003000": {
+      "id": "page-00003000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00003000.json",
+      "sha256": "39572156b2aa0fd2e43e8e83e12dccd333c9ede4c3dbb616a812c72fb4a61ad1",
+      "records": 500
+    },
+    "page-00003500": {
+      "id": "page-00003500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00003500.json",
+      "sha256": "72c9c156654087cf74f7c23069de4865840395ad6decdc56f169e2b5e5422f8a",
+      "records": 500
+    },
+    "page-00004000": {
+      "id": "page-00004000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00004000.json",
+      "sha256": "be5a2a0fb595b236a039908c48decd4f3d3782f75e6d218c994e710bdd972ccc",
+      "records": 500
+    },
+    "page-00004500": {
+      "id": "page-00004500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00004500.json",
+      "sha256": "a7524d56dc722b770257c9cbb3a892203c83cd0bba4c483ff757d11267fe0437",
+      "records": 500
+    },
+    "page-00005000": {
+      "id": "page-00005000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00005000.json",
+      "sha256": "8db0c3349295f44b583cba9df2e72a18aef7724334e610699e5a19ceb4c651f0",
+      "records": 500
+    },
+    "page-00005500": {
+      "id": "page-00005500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00005500.json",
+      "sha256": "bb7e3cf0898c3293591677c47001b3a54d52e57e475836cb9c7c5c8999ff1a6e",
+      "records": 500
+    },
+    "page-00006000": {
+      "id": "page-00006000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00006000.json",
+      "sha256": "c33d925af7a6f1a259beb2beb6487cc213b9b73318d30fd9c2b54cf69d808c37",
+      "records": 500
+    },
+    "page-00006500": {
+      "id": "page-00006500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00006500.json",
+      "sha256": "bfc751e9be4ebb6b926de67e2ee957dc4608fb99b394cf88cf77fcd52a4de186",
+      "records": 500
+    },
+    "page-00007000": {
+      "id": "page-00007000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00007000.json",
+      "sha256": "44f4bdce27d2ddb62ef9ffc2e8dd1eb55312bf74e403ddeb7db941d034aa46d2",
+      "records": 500
+    },
+    "page-00007500": {
+      "id": "page-00007500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00007500.json",
+      "sha256": "1a60ed56279a82efdcb50c0f1af026fd52d74f41de5a2c90bb502c570197ea93",
+      "records": 500
+    },
+    "page-00008000": {
+      "id": "page-00008000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00008000.json",
+      "sha256": "c49ddc8748323209437c87d08fca1498ecf7b1adcd65a7616089a6e69bf317b4",
+      "records": 500
+    },
+    "page-00008500": {
+      "id": "page-00008500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00008500.json",
+      "sha256": "1404c5513c1ec30af6158bb36d5ad964865d8891ae366da347be57f6cf71f0c6",
+      "records": 500
+    },
+    "page-00009000": {
+      "id": "page-00009000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00009000.json",
+      "sha256": "d53a812db549d779c781b827d86935376c3f6a54b73f9138205182e2b21b7874",
+      "records": 500
+    },
+    "page-00009500": {
+      "id": "page-00009500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00009500.json",
+      "sha256": "c7f599553bd5cb63a801348f9a3b3b2655ee23c6a06ea118e4ca7ecba160cbb5",
+      "records": 500
+    },
+    "page-00010000": {
+      "id": "page-00010000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00010000.json",
+      "sha256": "471b24db7348f0b52f09100a375ac75a10bae7c97fb6d81bc9347b765ee1eaff",
+      "records": 500
+    },
+    "page-00010500": {
+      "id": "page-00010500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00010500.json",
+      "sha256": "92acf24a004058df81860a1c5455268cf098deacf09a35fd3b0301369bdf88c8",
+      "records": 500
+    },
+    "page-00011000": {
+      "id": "page-00011000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00011000.json",
+      "sha256": "7c1a39b1ba49f6babd270ba9588524e3b4ba8ae1c61c2b8237fdd0a8864bfd1a",
+      "records": 500
+    },
+    "page-00011500": {
+      "id": "page-00011500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00011500.json",
+      "sha256": "09d8ae0f8bba2e0e4d8c86d5544356090e984897687983141d5c3d7623498cef",
+      "records": 500
+    },
+    "page-00012000": {
+      "id": "page-00012000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00012000.json",
+      "sha256": "3d2e52a37c99afd505a71d37360e093ae5eb2c02e810a77bc8139653ea24201f",
+      "records": 500
+    },
+    "page-00012500": {
+      "id": "page-00012500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00012500.json",
+      "sha256": "3e8a89996fd0f73d74abf0c390a5295be7e5aff07236ca94c47e5748d196512b",
+      "records": 500
+    },
+    "page-00013000": {
+      "id": "page-00013000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00013000.json",
+      "sha256": "28c59a3ee38c554c99103a6c4fbf67022225dd8bf58773d3c962c041a3ebd51f",
+      "records": 500
+    },
+    "page-00013500": {
+      "id": "page-00013500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00013500.json",
+      "sha256": "a130d891e3c287c3f3fee4da4d4b2fd3e07ffe163f9ae282db0cf3d255765d8b",
+      "records": 500
+    },
+    "page-00014000": {
+      "id": "page-00014000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00014000.json",
+      "sha256": "131520c7c9c20852f4db15f17060bf1431c72fab152211b4d9e50c963082b3fd",
+      "records": 500
+    },
+    "page-00014500": {
+      "id": "page-00014500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00014500.json",
+      "sha256": "9235ebac82f80f427d108e8cbcc6b0dd25c6e21366645feb961ccde37f076506",
+      "records": 500
+    },
+    "page-00015000": {
+      "id": "page-00015000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00015000.json",
+      "sha256": "bc5f6cc4aa6c03278020c810a098038d40745528e040b5ae5f971544883a732d",
+      "records": 500
+    },
+    "page-00015500": {
+      "id": "page-00015500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00015500.json",
+      "sha256": "5d86f5e250f497cccf66dbc0878ad6819d36940f9cde556c1e50efe8f1d387ea",
+      "records": 500
+    },
+    "page-00016000": {
+      "id": "page-00016000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00016000.json",
+      "sha256": "3386b45e99ab0df9d12550177547086b0a59608fe1a496aed46f95d3f407f5ba",
+      "records": 500
+    },
+    "page-00016500": {
+      "id": "page-00016500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00016500.json",
+      "sha256": "2042cc76fd750de2e24d90fe77796356116a464790e34aeb6f7a986c1cca70d9",
+      "records": 500
+    },
+    "page-00017000": {
+      "id": "page-00017000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00017000.json",
+      "sha256": "3cf4330915b36e790a3e5423166ec730746b646267e0a37d619c8450643de941",
+      "records": 500
+    },
+    "page-00017500": {
+      "id": "page-00017500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00017500.json",
+      "sha256": "2b6ce20373975a3190ac208e47a44fd1d530476392df0378c8646feb7164938c",
+      "records": 500
+    },
+    "page-00018000": {
+      "id": "page-00018000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00018000.json",
+      "sha256": "e157cfec64cb9fc4be501e16374a2d0145f291376878972b08f3ac0fef50c1d6",
+      "records": 500
+    },
+    "page-00018500": {
+      "id": "page-00018500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00018500.json",
+      "sha256": "e68ec9717b0ca918376f5816f3835396fcd96904246ff3b60d17cd24fe3c5d57",
+      "records": 500
+    },
+    "page-00019000": {
+      "id": "page-00019000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00019000.json",
+      "sha256": "63adad563385f413f78a472030b322f6cad01ce2e676ede9d1a901f2b72e8e64",
+      "records": 500
+    },
+    "page-00019500": {
+      "id": "page-00019500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00019500.json",
+      "sha256": "43a099fd04a64b8f9adb4b3ef78925b23f72d14efd7bd7cf848c055bd49f21e9",
+      "records": 500
+    },
+    "page-00020000": {
+      "id": "page-00020000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00020000.json",
+      "sha256": "c303d4e8b381e5a708b55183a4fa39cc51b355c6d6c18d476cbc0e845ab63a29",
+      "records": 500
+    },
+    "page-00020500": {
+      "id": "page-00020500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00020500.json",
+      "sha256": "eb73b77c8c18fa2404e6c134980377cc8f9eb3b0373393c042d6225724db5945",
+      "records": 500
+    },
+    "page-00021000": {
+      "id": "page-00021000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00021000.json",
+      "sha256": "f31fce1284eda651fe215243200e346b33e79b9b563bd12e7ce5bf5ae7dac78b",
+      "records": 500
+    },
+    "page-00021500": {
+      "id": "page-00021500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00021500.json",
+      "sha256": "0064fef1bc797950fd6ea6643e4061c61015382bb2ae938f8f8795a357703b31",
+      "records": 500
+    },
+    "page-00022000": {
+      "id": "page-00022000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00022000.json",
+      "sha256": "4743ca47cf3645a09afff85f0f22c91f4e286215197a41007a1e19cc69395f27",
+      "records": 500
+    },
+    "page-00022500": {
+      "id": "page-00022500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00022500.json",
+      "sha256": "73a111bb347697d84a618ddf1fbcebb53aa69c9cba31fc28e8748f4bcf563de2",
+      "records": 500
+    },
+    "page-00023000": {
+      "id": "page-00023000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00023000.json",
+      "sha256": "2b879693862cdc9a5e6389b092a832270d0682fe9b6d30337249f2e97e48fca8",
+      "records": 500
+    },
+    "page-00023500": {
+      "id": "page-00023500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00023500.json",
+      "sha256": "1ee2915899d96062df9ab11115a87d8adb0ad09b3a639f613d480676f80582fd",
+      "records": 500
+    },
+    "page-00024000": {
+      "id": "page-00024000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00024000.json",
+      "sha256": "5686983f35a00bc50716b0243c0a1aa04a85239a0ab9a9bdb768af6a426e2a86",
+      "records": 500
+    },
+    "page-00024500": {
+      "id": "page-00024500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00024500.json",
+      "sha256": "c6fb5f4d2eb3a8039eb115c45c561d2558c4262d1aa0f1392af90d86cb0bb3b8",
+      "records": 500
+    },
+    "page-00025000": {
+      "id": "page-00025000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00025000.json",
+      "sha256": "0b6f7ca4fc3a973ed8bb5c9d996bd39eeb76a836f12185afb937a41435632c67",
+      "records": 500
+    },
+    "page-00025500": {
+      "id": "page-00025500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00025500.json",
+      "sha256": "d78c206b9d7f3dacf5c25c23336fb54429c30bde3f9178ff802a0776d8a264fa",
+      "records": 500
+    },
+    "page-00026000": {
+      "id": "page-00026000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00026000.json",
+      "sha256": "04257c1af06948fa74c2352a2b9b49ba62e84c2d934f82d2a5096234841f062a",
+      "records": 500
+    },
+    "page-00026500": {
+      "id": "page-00026500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00026500.json",
+      "sha256": "89afeab602f11d1a7ecd37c2051ed701bbd78207aa3bda7be9f8cff333d0bf00",
+      "records": 500
+    },
+    "page-00027000": {
+      "id": "page-00027000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00027000.json",
+      "sha256": "6eb411adce172a10ec53c007968fe625cf01b3d307b5b90e85a98fe69452f46a",
+      "records": 500
+    },
+    "page-00027500": {
+      "id": "page-00027500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00027500.json",
+      "sha256": "69f103fbfa47908d9c68c65d41214a84ea9d8aeef9a4f953145d22ba66228624",
+      "records": 500
+    },
+    "page-00028000": {
+      "id": "page-00028000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00028000.json",
+      "sha256": "7c762b1a41ad733ac782d0586c43a1765e1c77f493a203fe583b7ba6bfcf07d4",
+      "records": 500
+    },
+    "page-00028500": {
+      "id": "page-00028500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00028500.json",
+      "sha256": "68fe86fcecded7c9245094fd68813348266f235e4a173164aa9c892cdccad71b",
+      "records": 500
+    },
+    "page-00029000": {
+      "id": "page-00029000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00029000.json",
+      "sha256": "238175b6aab58cab63a1c33eb2022832a6bc177ff17c6ccd0635fdaca786f329",
+      "records": 500
+    },
+    "page-00029500": {
+      "id": "page-00029500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00029500.json",
+      "sha256": "7ab92c405b0e956de4add093422295f993a3a796a612e100599029a1ba991ede",
+      "records": 500
+    },
+    "page-00030000": {
+      "id": "page-00030000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00030000.json",
+      "sha256": "0703e69dad911f22f4f9d0a88ee37ec5ad6b21d6af84d55eeb12369dd98f8f28",
+      "records": 500
+    },
+    "page-00030500": {
+      "id": "page-00030500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00030500.json",
+      "sha256": "8d2734a156add09669a678e0efb9610c026418f57a0725794112bd0af3341266",
+      "records": 500
+    },
+    "page-00031000": {
+      "id": "page-00031000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00031000.json",
+      "sha256": "d4de829ead514eee0601dd5d945a498e22e059c333d56809129f9f03aa17472f",
+      "records": 500
+    },
+    "page-00031500": {
+      "id": "page-00031500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00031500.json",
+      "sha256": "42798963e99ffa1df3eda10267a662d158accbddef428e90fefd0beec678ddb1",
+      "records": 500
+    },
+    "page-00032000": {
+      "id": "page-00032000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00032000.json",
+      "sha256": "503fdfbd050b01a1867e9824273aaadd9306c2d3a35469b1c026a866a7c0bc3d",
+      "records": 500
+    },
+    "page-00032500": {
+      "id": "page-00032500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00032500.json",
+      "sha256": "e71edb1577f7038648e9d69d8869aeaf257e0ef90257d7f7740f8eeafc01515e",
+      "records": 500
+    },
+    "page-00033000": {
+      "id": "page-00033000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00033000.json",
+      "sha256": "ec0e22f61f9e56d5a5bcd744c980122f6b8344e6f4365792ea1c6108ef41e1cf",
+      "records": 500
+    },
+    "page-00033500": {
+      "id": "page-00033500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00033500.json",
+      "sha256": "54155d1d8235cbdf2ef0d2025b76e005e956b02944be230ce11d8e592f2f216e",
+      "records": 500
+    },
+    "page-00034000": {
+      "id": "page-00034000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00034000.json",
+      "sha256": "5f642c9d7b9716590af4b28f3e901d9e932ed5e9c24857893d25874879868e2b",
+      "records": 500
+    },
+    "page-00034500": {
+      "id": "page-00034500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00034500.json",
+      "sha256": "248002502ba6feb63cbb2ec173ed848d2b336deccc62cdbd48883ab925720622",
+      "records": 500
+    },
+    "page-00035000": {
+      "id": "page-00035000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00035000.json",
+      "sha256": "cbf5eab56be456bfe5d20b9df8c741679ad73b8ec949ffc743f34f861c594c9b",
+      "records": 500
+    },
+    "page-00035500": {
+      "id": "page-00035500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00035500.json",
+      "sha256": "c48455a7a510353515296d51bed6441cc3fc9da1ebaaf3c00897fa4631732474",
+      "records": 500
+    },
+    "page-00036000": {
+      "id": "page-00036000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00036000.json",
+      "sha256": "54fffb9daa1c25954ef4d82bbadde4849e5324f0551d2da36d3a3430a765b7de",
+      "records": 500
+    },
+    "page-00036500": {
+      "id": "page-00036500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00036500.json",
+      "sha256": "3debceab06ed6726175cf92fd956b158d49b6b6610938bac466c300ad56dd75d",
+      "records": 500
+    },
+    "page-00037000": {
+      "id": "page-00037000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00037000.json",
+      "sha256": "051df27048d21b26b642b3f2348e2955a6cc2f756b09948f0abc9d5fd62e9a82",
+      "records": 500
+    },
+    "page-00037500": {
+      "id": "page-00037500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00037500.json",
+      "sha256": "7fe45b0c7c70d7666f421b27c1a20b53b05f86a101691058d620094c67a37ee9",
+      "records": 500
+    },
+    "page-00038000": {
+      "id": "page-00038000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00038000.json",
+      "sha256": "e0a43531d6d69124d31e754e6dca52244f2359dd21f6ba0a8974ee882dcb7c92",
+      "records": 500
+    },
+    "page-00038500": {
+      "id": "page-00038500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00038500.json",
+      "sha256": "7a431345f9aa6aeda0f267ba987facc504c5484f95042640be687ce48276b101",
+      "records": 500
+    },
+    "page-00039000": {
+      "id": "page-00039000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00039000.json",
+      "sha256": "01cb024103616ada0c774d875289f4369171b2f768c3a6c98044bbaafcf224e6",
+      "records": 500
+    },
+    "page-00039500": {
+      "id": "page-00039500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00039500.json",
+      "sha256": "5b41d652709df02ac1b8a87193d2c588849a68be7da2191f2553c0d7090cac8b",
+      "records": 500
+    },
+    "page-00040000": {
+      "id": "page-00040000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00040000.json",
+      "sha256": "bf8b672111ebbf40097149562c99009900ff0b625d1a294f81b90b4e01385ae1",
+      "records": 500
+    },
+    "page-00040500": {
+      "id": "page-00040500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00040500.json",
+      "sha256": "971d75d4f4682c2a4c4f145bf8888ee4baf0780e2b5f4ab6a6297590d4296d37",
+      "records": 500
+    },
+    "page-00041000": {
+      "id": "page-00041000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00041000.json",
+      "sha256": "c0221010bef31c03136aeaae88620f54f5410e4292f168c1195ea85a1b4ea36c",
+      "records": 500
+    },
+    "page-00041500": {
+      "id": "page-00041500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00041500.json",
+      "sha256": "430291e09fd6f4ba3524ebf5fe739b676fba2e6d8ca6513d2686f3369b545f2c",
+      "records": 500
+    },
+    "page-00042000": {
+      "id": "page-00042000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00042000.json",
+      "sha256": "11c8740eaa26fbf5fc1808de46b9a467749d60fe7bc8d523e3f57a7a4ecb19e5",
+      "records": 500
+    },
+    "page-00042500": {
+      "id": "page-00042500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00042500.json",
+      "sha256": "13dde01ed7fb5f26e75b39f460c70a6447663da5f13157738dccd470f93d7071",
+      "records": 500
+    },
+    "page-00043000": {
+      "id": "page-00043000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00043000.json",
+      "sha256": "3d22d0f36e5fc7fcc583396e18d6ca49f57901fa280d82617876317c5cb590da",
+      "records": 500
+    },
+    "page-00043500": {
+      "id": "page-00043500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00043500.json",
+      "sha256": "6d22b9df221bc36b3642654f64cbc3e82d59b6a7d2a48c1cca51feb9e06f85d3",
+      "records": 500
+    },
+    "page-00044000": {
+      "id": "page-00044000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00044000.json",
+      "sha256": "46b07aea47f0a1d38a143c31f1f71920e09b1783389cb1b0b04a7c28f90eb102",
+      "records": 500
+    },
+    "page-00044500": {
+      "id": "page-00044500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00044500.json",
+      "sha256": "a22b24a0a2366a7f0751d9d2088b0565c8ae272b0d7bd55f3b6a00c51b5f95f6",
+      "records": 500
+    },
+    "page-00045000": {
+      "id": "page-00045000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00045000.json",
+      "sha256": "5fdf1f1c222324426d6570520fd2f7ad8cae659013848000d25fbbe5f192b450",
+      "records": 500
+    },
+    "page-00045500": {
+      "id": "page-00045500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00045500.json",
+      "sha256": "3e38fd05edbcb54b624282da7f1cae04d738d06e17e1ca381b674f5dd032dbde",
+      "records": 500
+    },
+    "page-00046000": {
+      "id": "page-00046000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00046000.json",
+      "sha256": "87de60d725a0544943742cc956ec1b644190653837b04227a96a4fbf9001a873",
+      "records": 500
+    },
+    "page-00046500": {
+      "id": "page-00046500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00046500.json",
+      "sha256": "ae591c5cc725df3c62f6150772f0b629795dd5bc284b639a6dcab7cfd537f812",
+      "records": 500
+    },
+    "page-00047000": {
+      "id": "page-00047000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00047000.json",
+      "sha256": "b724492d0d1910e2bef2f252978cfafaa3d7dc81f2fdaf72a4455046a039ef92",
+      "records": 500
+    },
+    "page-00047500": {
+      "id": "page-00047500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00047500.json",
+      "sha256": "5317c17992bac43bb36e10a94c9833798352be67963851032d9c07b0f99bf729",
+      "records": 500
+    },
+    "page-00048000": {
+      "id": "page-00048000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00048000.json",
+      "sha256": "03c8a5dbab8192fd09c6120d453b814609020801e3b562f88f935e1c9bd583a9",
+      "records": 500
+    },
+    "page-00048500": {
+      "id": "page-00048500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00048500.json",
+      "sha256": "f9272120204acdd827c4bb7299329efff6be44052b1cc6f850d53005f994c1f5",
+      "records": 500
+    },
+    "page-00049000": {
+      "id": "page-00049000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00049000.json",
+      "sha256": "f60636724777eda94c7a32bbd111f26a2a81eb150d42c97606ce3c45553340e4",
+      "records": 500
+    },
+    "page-00049500": {
+      "id": "page-00049500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00049500.json",
+      "sha256": "a5dd41485c6f1bcf7460e236c889c1d580df17061a9ee9ba6617db40ec65f2ba",
+      "records": 500
+    },
+    "page-00050000": {
+      "id": "page-00050000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00050000.json",
+      "sha256": "b0b54564f0489ef7025d7be59ea8c88128c642e67223acde09d0f346369032b6",
+      "records": 500
+    },
+    "page-00050500": {
+      "id": "page-00050500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00050500.json",
+      "sha256": "71bbce615f293bcba80b69c9910889599ad660d048f0bac70a2c4de3551e93b9",
+      "records": 500
+    },
+    "page-00051000": {
+      "id": "page-00051000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00051000.json",
+      "sha256": "cc842e2a9bfa2e942d9d00063beb99d4d7bb9fa6cf72d57f1495eeeb34789b1b",
+      "records": 500
+    },
+    "page-00051500": {
+      "id": "page-00051500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00051500.json",
+      "sha256": "6fd999d7f93405a956b01518808ec25e8e48427a6e5d32e6542b5a865b06667a",
+      "records": 500
+    },
+    "page-00052000": {
+      "id": "page-00052000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00052000.json",
+      "sha256": "ad4b5877ac630f30672b1d0f35a6d34cff79f9a3f5cce7a1eb8d6143b5fcede3",
+      "records": 500
+    },
+    "page-00052500": {
+      "id": "page-00052500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00052500.json",
+      "sha256": "cdc791a5d7baa33899ce0b965fc5996dc1169eb1a1c272e79bdfab6d4b0a094e",
+      "records": 500
+    },
+    "page-00053000": {
+      "id": "page-00053000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00053000.json",
+      "sha256": "14a939d26d9da97a96e27edc993b04bea720c0ec2c360bc58c226ad7e639cf81",
+      "records": 500
+    },
+    "page-00053500": {
+      "id": "page-00053500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00053500.json",
+      "sha256": "0ffee88902de1857e2d16347985ff1b772156ec9db665568cc438d5a58d3d1af",
+      "records": 500
+    },
+    "page-00054000": {
+      "id": "page-00054000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00054000.json",
+      "sha256": "7e4c26b7817af42a7ed66a9bfaab08ac1a5047dc38ad8c38cc9873d784f56aca",
+      "records": 500
+    },
+    "page-00054500": {
+      "id": "page-00054500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00054500.json",
+      "sha256": "fa60f519b5504bee9010bb748d144283e9a98507ba09c3598dc15eb55ba8ebb0",
+      "records": 500
+    },
+    "page-00055000": {
+      "id": "page-00055000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00055000.json",
+      "sha256": "7cc9af92253ac7bb93de06abb46e0c914d4c4fcb5b8b5a1095d6d6353b3e39f2",
+      "records": 500
+    },
+    "page-00055500": {
+      "id": "page-00055500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00055500.json",
+      "sha256": "942c8d1b09cc346c03948b393163762263be4b9ad9b9bb91dd750218188efc0b",
+      "records": 500
+    },
+    "page-00056000": {
+      "id": "page-00056000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00056000.json",
+      "sha256": "0b5d629718b8996c5930cdce1063317e0ac52b91bd88829f4f7daed96727351d",
+      "records": 500
+    },
+    "page-00056500": {
+      "id": "page-00056500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00056500.json",
+      "sha256": "b182e9b01c9f143fcb320a1885dc8d29abf7cdad55a1b6f38a1f473f5d6f4c1c",
+      "records": 500
+    },
+    "page-00057000": {
+      "id": "page-00057000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00057000.json",
+      "sha256": "b6235663e0b54480d4730b417e3b8ba70da64e125aa3642ea7d029eb70c8c11e",
+      "records": 500
+    },
+    "page-00057500": {
+      "id": "page-00057500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00057500.json",
+      "sha256": "b8dcd39da2efadd18616975d1533c42b86ee41f687281a3215fa3753a4ace771",
+      "records": 500
+    },
+    "page-00058000": {
+      "id": "page-00058000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00058000.json",
+      "sha256": "158dddb24b8e067845d8ab1836158a71d361198aae444af22b55f3d49352b1a1",
+      "records": 500
+    },
+    "page-00058500": {
+      "id": "page-00058500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00058500.json",
+      "sha256": "c054a4311d68e16ccd37dc447c3be590534b6b09e3916e0e727d7c0208ea5d32",
+      "records": 500
+    },
+    "page-00059000": {
+      "id": "page-00059000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00059000.json",
+      "sha256": "cd70812eb9d56849b70a72070ab2e996c7ee359cdf757ad9a54691e761d87d2d",
+      "records": 500
+    },
+    "page-00059500": {
+      "id": "page-00059500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00059500.json",
+      "sha256": "f5f66eb5b50a85f9dbbce1968bc03d58963dca30b3f20c8ac6535556443f2cc3",
+      "records": 500
+    },
+    "page-00060000": {
+      "id": "page-00060000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00060000.json",
+      "sha256": "c89e6f56b7bedae593e380f0ce1b9e0bb98c1133d019cf93859068f46a4e2afc",
+      "records": 500
+    },
+    "page-00060500": {
+      "id": "page-00060500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00060500.json",
+      "sha256": "d7837bd1f784095fd1c75a6504967bcaa69af373fefa5687547db320d17e84ca",
+      "records": 500
+    },
+    "page-00061000": {
+      "id": "page-00061000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00061000.json",
+      "sha256": "5476791762814a87b16d4b75a74c72293cb90a9c9a164f0b590183b55ae83da7",
+      "records": 500
+    },
+    "page-00061500": {
+      "id": "page-00061500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00061500.json",
+      "sha256": "73b2c691dc97a4ddf44380d069aca9f2e2c6aef957d0c5a78d402e31b38fde51",
+      "records": 500
+    },
+    "page-00062000": {
+      "id": "page-00062000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00062000.json",
+      "sha256": "25c75b51b8c72c0c34ce67af93edb78464f763320d79fe5b0992e1543ce897c6",
+      "records": 500
+    },
+    "page-00062500": {
+      "id": "page-00062500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00062500.json",
+      "sha256": "8086322866965cb15afe201c451d935b4edbc74bc95faeec677b184cebaa22f8",
+      "records": 500
+    },
+    "page-00063000": {
+      "id": "page-00063000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00063000.json",
+      "sha256": "7a8ee8c4d5effc0008b1151466720d8ed6ced9e6e05846c240bb694482c35a76",
+      "records": 500
+    },
+    "page-00063500": {
+      "id": "page-00063500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00063500.json",
+      "sha256": "71141814973e35508f95eed40fae53a11cbe63d2d29a3c629f85ea62885206ae",
+      "records": 500
+    },
+    "page-00064000": {
+      "id": "page-00064000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00064000.json",
+      "sha256": "812eea0e21e8eb72922eac0445d5db14531bac4c0644ce6f10c7b992b058f5a1",
+      "records": 500
+    },
+    "page-00064500": {
+      "id": "page-00064500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00064500.json",
+      "sha256": "6e4d77930d5f6a913032461b59ebb18b887e4af44858533aff697919b792f58d",
+      "records": 500
+    },
+    "page-00065000": {
+      "id": "page-00065000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00065000.json",
+      "sha256": "5c06a4dbb40aa87951b8c94f33b2770d925b4ef9c6d0e61b16745c77fa3e7365",
+      "records": 500
+    },
+    "page-00065500": {
+      "id": "page-00065500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00065500.json",
+      "sha256": "81bee41d2464e2f35e5103eea3e3f7a71b6abff834cc7bdcfb83e27dd9997e0b",
+      "records": 500
+    },
+    "page-00066000": {
+      "id": "page-00066000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00066000.json",
+      "sha256": "8d80345f88bc7b395f37a087252ca8e3fe87a51a85e46f52b9e6e9aa1c401460",
+      "records": 500
+    },
+    "page-00066500": {
+      "id": "page-00066500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00066500.json",
+      "sha256": "b81180c3db1d69fe377a4de6d56cd557aa2c8e84df83a78e3fcf52315d474fba",
+      "records": 500
+    },
+    "page-00067000": {
+      "id": "page-00067000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00067000.json",
+      "sha256": "11dd03b57fe3519df1b34ebfa05fec780425f6767d1db180072e4917a7b5ba52",
+      "records": 500
+    },
+    "page-00067500": {
+      "id": "page-00067500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00067500.json",
+      "sha256": "b4b3364f151c6a68bb414336a0f9c2c22bad335514b58570bddd1b06706c5de2",
+      "records": 500
+    },
+    "page-00068000": {
+      "id": "page-00068000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00068000.json",
+      "sha256": "34e5410b95726b73b106c46af2141c43cd108ad49ece404a30bef8f953ec0dd2",
+      "records": 500
+    },
+    "page-00068500": {
+      "id": "page-00068500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00068500.json",
+      "sha256": "e5d11ce5fd23ec8886bdc9e7f75ad21ca06db42303e622918da3988e901f8aad",
+      "records": 500
+    },
+    "page-00069000": {
+      "id": "page-00069000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00069000.json",
+      "sha256": "e5646a5a902ac216f2a184bf083e8216ab8e65c66d1692bb4d8f577eaf24d12d",
+      "records": 500
+    },
+    "page-00069500": {
+      "id": "page-00069500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00069500.json",
+      "sha256": "4cd87b2b1269cc8859e6cf71effd9785ba454ec45448a9219c666c021ab500b7",
+      "records": 500
+    },
+    "page-00070000": {
+      "id": "page-00070000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00070000.json",
+      "sha256": "df8027ced774fdabb51d8e251c03cfd2e8e9f35a1b35fab9f07a771377234fdf",
+      "records": 500
+    },
+    "page-00070500": {
+      "id": "page-00070500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00070500.json",
+      "sha256": "60338025abb886a1337f190b07524238a22449919696d2bb1e23375a9f1d8100",
+      "records": 500
+    },
+    "page-00071000": {
+      "id": "page-00071000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00071000.json",
+      "sha256": "ba686bc388802f9cd21f289e27ee587902904ebecf0d7b4a88b83094d26eef79",
+      "records": 500
+    },
+    "page-00071500": {
+      "id": "page-00071500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00071500.json",
+      "sha256": "d681ea3ca37e6bb5ccd759c40995f459762fa52e3dc302570a27f2cad86bcf1a",
+      "records": 500
+    },
+    "page-00072000": {
+      "id": "page-00072000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00072000.json",
+      "sha256": "5af23a57469e47524f548fca1b427a473351b00b233dbb4efd68878a49722f60",
+      "records": 500
+    },
+    "page-00072500": {
+      "id": "page-00072500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00072500.json",
+      "sha256": "fed586191174562fc41d694d6d5906a95945d3381392e66a31292e2634e9ad39",
+      "records": 500
+    },
+    "page-00073000": {
+      "id": "page-00073000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00073000.json",
+      "sha256": "f4f51359ee9b3a5268a896b3b8201b1e4348f82854a0fbaf4bd28f5123f71b3a",
+      "records": 500
+    },
+    "page-00073500": {
+      "id": "page-00073500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00073500.json",
+      "sha256": "7941671670abedc98b6ecc007984a1d5b02a6362a1e0a7b92a1ccbe520191ac7",
+      "records": 500
+    },
+    "page-00074000": {
+      "id": "page-00074000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00074000.json",
+      "sha256": "a0d6aaf9ef9a22fdf5bc45dcd04cc55c5e8b3cb63c89e0a4cbe93b31ea1b37a3",
+      "records": 500
+    },
+    "page-00074500": {
+      "id": "page-00074500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00074500.json",
+      "sha256": "44ce8d1c0628bf004d5b483ab90cb81a0d68df97069038503c00f2c2e9ca6674",
+      "records": 500
+    },
+    "page-00075000": {
+      "id": "page-00075000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00075000.json",
+      "sha256": "d89f821f182d5cdebd36fe1fe1642188ef1d992e19e836f33cb6d1f1903676da",
+      "records": 500
+    },
+    "page-00075500": {
+      "id": "page-00075500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00075500.json",
+      "sha256": "e9720fc185615e25d9c1c907d30513e97a2c8a2d16f6944d5aea78bdc6cc1ce1",
+      "records": 500
+    },
+    "page-00076000": {
+      "id": "page-00076000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00076000.json",
+      "sha256": "20aa23d1b2543c76153c5494832dbc3e3c028e627b787138663a0e7d5119b8b7",
+      "records": 500
+    },
+    "page-00076500": {
+      "id": "page-00076500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00076500.json",
+      "sha256": "f4a3348c0b13068b8ade3ceb388c407e8afa78af66103daf443d2e20cda59016",
+      "records": 500
+    },
+    "page-00077000": {
+      "id": "page-00077000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00077000.json",
+      "sha256": "c4cab7b16995883bc892c09c76c50fb91a5448411c91707c0d3f170131160dd7",
+      "records": 500
+    },
+    "page-00077500": {
+      "id": "page-00077500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00077500.json",
+      "sha256": "545c6b6d0729fa290399c0b12239ab82217d367ff23a265ff4d77cd9c562dc22",
+      "records": 500
+    },
+    "page-00078000": {
+      "id": "page-00078000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00078000.json",
+      "sha256": "c171eb22d28b4fc0f2bda560bf99b5e9b4b58debbe2d6eeb2f7a26e30a4fd21d",
+      "records": 500
+    },
+    "page-00078500": {
+      "id": "page-00078500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00078500.json",
+      "sha256": "12ddb9a058e6b91c386f40c5d5df9401e023e38cb6393eb434be5161803331ac",
+      "records": 500
+    },
+    "page-00079000": {
+      "id": "page-00079000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00079000.json",
+      "sha256": "42cd8d6d4b097cc21364f389283d21cad082f0c7796228ef22f1c124f972e10e",
+      "records": 500
+    },
+    "page-00079500": {
+      "id": "page-00079500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00079500.json",
+      "sha256": "78d225e8c83a7ef7b5974b9261a4a63e0f97ef46a8454833b7571f0c9026af9c",
+      "records": 500
+    },
+    "page-00080000": {
+      "id": "page-00080000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00080000.json",
+      "sha256": "9c83d10a3680c8b6f5edddb7ca2d0201c457bfe8da2be3701941fa5c07786f8d",
+      "records": 500
+    },
+    "page-00080500": {
+      "id": "page-00080500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00080500.json",
+      "sha256": "986eb4ae06a44f376d23b6d3d6dbb2bcbfc42ddb3316842a8309839835f4e641",
+      "records": 500
+    },
+    "page-00081000": {
+      "id": "page-00081000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00081000.json",
+      "sha256": "4873b58c1cd45e1d2576c92bd5ced0535641eb2b1f1758a3caa958722d6b2c99",
+      "records": 500
+    },
+    "page-00081500": {
+      "id": "page-00081500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00081500.json",
+      "sha256": "bb0cdc5e05a5d2ba950c59e71467923b4532002322b66368586837380ee2547b",
+      "records": 500
+    },
+    "page-00082000": {
+      "id": "page-00082000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00082000.json",
+      "sha256": "c2dbf33840c93d384be8e7814768b13031c3bf0df30f3677c6b8fc51410151c8",
+      "records": 500
+    },
+    "page-00082500": {
+      "id": "page-00082500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00082500.json",
+      "sha256": "fbb307539026614cf9f486e0f69dbd6dced7274e4bbd5e650e7f7a9fbb666959",
+      "records": 500
+    },
+    "page-00083000": {
+      "id": "page-00083000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00083000.json",
+      "sha256": "9718e0ced2f5057afbd1d923a53cb48a5339b27338333e18ba19d4dd346d1531",
+      "records": 500
+    },
+    "page-00083500": {
+      "id": "page-00083500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00083500.json",
+      "sha256": "47a10a8fa9db0226a9d3ad13173e4e406f9408a44ba8e4cc64bb46399ae826b9",
+      "records": 500
+    },
+    "page-00084000": {
+      "id": "page-00084000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00084000.json",
+      "sha256": "774cbf00ff9055aa60e37d28df2bbff62807dc22cbd1e267e862ca73e0cbad52",
+      "records": 500
+    },
+    "page-00084500": {
+      "id": "page-00084500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00084500.json",
+      "sha256": "c87ad859ab6d55b1e34b0357689c960de9519c6e1e5cce095d22d206f86a9829",
+      "records": 500
+    },
+    "page-00085000": {
+      "id": "page-00085000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00085000.json",
+      "sha256": "b3ea8990fcbd87c024dd5f421a1d659dc1f8caed77826f9b0d6bc2937f6cef80",
+      "records": 500
+    },
+    "page-00085500": {
+      "id": "page-00085500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00085500.json",
+      "sha256": "c7e10db67fb337e5d1b2532986cc6bfe52edaa688f3f8fb470cb38f6225b7fc9",
+      "records": 500
+    },
+    "page-00086000": {
+      "id": "page-00086000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00086000.json",
+      "sha256": "14bfa1287f046d964509382bf4ae4c8ebba91e4e5aacfdc5eb1c869ab4d27c16",
+      "records": 500
+    },
+    "page-00086500": {
+      "id": "page-00086500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00086500.json",
+      "sha256": "238c64302aff18fbe37d0a013ec288f58c9caf9f6c3a0841328cbd572d9794af",
+      "records": 500
+    },
+    "page-00087000": {
+      "id": "page-00087000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00087000.json",
+      "sha256": "5324d872a50ba9f27afe84ae4a8b07568e22e4a9006c61e7425c86be7f8e24c8",
+      "records": 500
+    },
+    "page-00087500": {
+      "id": "page-00087500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00087500.json",
+      "sha256": "94dede9e8b7a87701bc66cc28e4f58107b11fe161cdfc79cd64f2df15b4ee3ec",
+      "records": 500
+    },
+    "page-00088000": {
+      "id": "page-00088000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00088000.json",
+      "sha256": "c0db099ad19f87f3789420ca323662661d2ca3ec0bde75f73f20d23d57c87fd2",
+      "records": 500
+    },
+    "page-00088500": {
+      "id": "page-00088500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00088500.json",
+      "sha256": "246876ed523169b309256e11c64d8c00f9b9cb88cd69e7085a56d51ba4ed50f9",
+      "records": 500
+    },
+    "page-00089000": {
+      "id": "page-00089000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00089000.json",
+      "sha256": "c9870aaaeb848cd7c27dbc94de48f6e7c3c28d78a721a5692cac47a02761cadb",
+      "records": 500
+    },
+    "page-00089500": {
+      "id": "page-00089500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00089500.json",
+      "sha256": "4babbcc741d0601d5c2594b7adbbb9c7bc5faeefb658231cc8c8495451ee31bb",
+      "records": 500
+    },
+    "page-00090000": {
+      "id": "page-00090000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00090000.json",
+      "sha256": "dec63ebc1182865168727c8c3f84de74004d17b3f22fc83b435d932626365f63",
+      "records": 500
+    },
+    "page-00090500": {
+      "id": "page-00090500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00090500.json",
+      "sha256": "c754545f5b5b5e98520dfa0779325534a56ceb29372b9b40f69512337b11b66c",
+      "records": 500
+    },
+    "page-00091000": {
+      "id": "page-00091000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00091000.json",
+      "sha256": "85e4227501df4da64306d6afac7dfdccbaa9536ca40ee76c88d7c3500219bbd5",
+      "records": 500
+    },
+    "page-00091500": {
+      "id": "page-00091500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00091500.json",
+      "sha256": "3948085c6367b783e7d6ff4c9ed0908823cbf18ecb893348c54d78f622e60605",
+      "records": 500
+    },
+    "page-00092000": {
+      "id": "page-00092000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00092000.json",
+      "sha256": "b4fc10265470c01161a83f7cd3af51e9b78d6399420d7c9305a5e6c3ea8114ae",
+      "records": 500
+    },
+    "page-00092500": {
+      "id": "page-00092500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00092500.json",
+      "sha256": "915d9b82f21b49cfd2b9726fa39dace4744ed701efc7df310d6a02676261b702",
+      "records": 500
+    },
+    "page-00093000": {
+      "id": "page-00093000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00093000.json",
+      "sha256": "0c4dc3d3f65af764996ec94fc20ea7e4838c94c38ad08e0920a14ebe5817c7bf",
+      "records": 500
+    },
+    "page-00093500": {
+      "id": "page-00093500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00093500.json",
+      "sha256": "a80bd370517d4b9126d2ee82dab46c67f91b092cc027558dc6d5c1a9e0ab6146",
+      "records": 500
+    },
+    "page-00094000": {
+      "id": "page-00094000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00094000.json",
+      "sha256": "ec67f2fba618899310b97e3e770c9bf25964693112c61bf098f98846fea1a855",
+      "records": 500
+    },
+    "page-00094500": {
+      "id": "page-00094500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00094500.json",
+      "sha256": "384f006cb9fb991f6ac8f3d575e29e7e27a04883abd299191fe11863b7d0a522",
+      "records": 500
+    },
+    "page-00095000": {
+      "id": "page-00095000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00095000.json",
+      "sha256": "ae5931ba8d26ee2fe3d29a77e8e9a19a61a0bb2250026319399c50469f8c723f",
+      "records": 500
+    },
+    "page-00095500": {
+      "id": "page-00095500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00095500.json",
+      "sha256": "832e35270bccd9c0e73d06b228c4530f699684ade6b7e7fe8378a1a3c5bbd203",
+      "records": 500
+    },
+    "page-00096000": {
+      "id": "page-00096000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00096000.json",
+      "sha256": "a109edff1aab156650acb720be2533bcce278fea2c8448c4542186dfdb9d15d8",
+      "records": 500
+    },
+    "page-00096500": {
+      "id": "page-00096500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00096500.json",
+      "sha256": "bc4360e1182eeaf4f8e43372104373cd2ffa1b3741d54dc0354bdbdafe41237c",
+      "records": 500
+    },
+    "page-00097000": {
+      "id": "page-00097000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00097000.json",
+      "sha256": "df8c0c52f0e5c7aa993ed6cdafc5339d4097b92c29048ffa99760cc623c2123d",
+      "records": 500
+    },
+    "page-00097500": {
+      "id": "page-00097500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00097500.json",
+      "sha256": "1aee507011d75742fb94750734966247922da25450525b19387ee317bcc9802e",
+      "records": 500
+    },
+    "page-00098000": {
+      "id": "page-00098000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00098000.json",
+      "sha256": "589a6965a8442deed10aeadd92224db164e2aaf05ea6a832fdcac5c31803eb4e",
+      "records": 500
+    },
+    "page-00098500": {
+      "id": "page-00098500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00098500.json",
+      "sha256": "015f34d86e69030f9160b842687d8820317af31fa6b0aea8fe99657f3cdb1ef7",
+      "records": 500
+    },
+    "page-00099000": {
+      "id": "page-00099000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00099000.json",
+      "sha256": "d064b65804f3226a7364fee00f848c3adb49df31082dbc7af995d335e8ffd136",
+      "records": 500
+    },
+    "page-00099500": {
+      "id": "page-00099500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00099500.json",
+      "sha256": "853a10102be05beea2f9335885d8939f1d4fedcde24883c2b916f5f9626c6b68",
+      "records": 500
+    },
+    "page-00100000": {
+      "id": "page-00100000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00100000.json",
+      "sha256": "aee68bbd16b2480417aa8a0ce6b44af4f56a8a2803b6e8bc3de430edf6b12af0",
+      "records": 500
+    },
+    "page-00100500": {
+      "id": "page-00100500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00100500.json",
+      "sha256": "91ccaa343422f45e7ca1339756f8ecb2dede57bfa8c43584ed8a32cbe27dcc72",
+      "records": 500
+    },
+    "page-00101000": {
+      "id": "page-00101000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00101000.json",
+      "sha256": "005478f58abc6b2f41b2611cf4c5cf86ee44411165be2cf90424d9102c9c501d",
+      "records": 500
+    },
+    "page-00101500": {
+      "id": "page-00101500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00101500.json",
+      "sha256": "cf08a8736575147001bac0d49fd7a53cd2aa866289605509c62fe6f3ad3ce814",
+      "records": 500
+    },
+    "page-00102000": {
+      "id": "page-00102000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00102000.json",
+      "sha256": "e503561bd9b7d7dcc6f07b970d848d317998694e83f6d4e63737e0a6e4f0dac9",
+      "records": 500
+    },
+    "page-00102500": {
+      "id": "page-00102500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00102500.json",
+      "sha256": "0caaef4cbc0a984579c8db47a1529db287ef8dd0d6e4646d5915290fcc898bd0",
+      "records": 500
+    },
+    "page-00103000": {
+      "id": "page-00103000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00103000.json",
+      "sha256": "b99876c5d34061975ae45880d1c76875f04e6957a6c7187a856da376af85d889",
+      "records": 500
+    },
+    "page-00103500": {
+      "id": "page-00103500",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00103500.json",
+      "sha256": "7a66641bae509ee7114d990777dbde32dfbbf2a46b80ca9704aae0dbd33fc4cd",
+      "records": 500
+    },
+    "page-00104000": {
+      "id": "page-00104000",
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00104000.json",
+      "sha256": "86f0b6c01214f73e821d901430fe2cc3e0de3dcea3a64b677bc8b7cd8146fa09",
+      "records": 268
+    }
+  },
+  "started_at": "2026-10-27T04:13:59.689234+00:00",
+  "signature": "cbf3dcaf7eb636b0a93231e6017e4e54eed402b35ba72b55276acfef8d42952f",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-city",
+  "count_expected": 104268,
+  "ids_sha256": "14a91a6bceebcfed2e28a9e3cafbc3ba9f1c1f7e35d34c444686b48a867bf84b",
+  "scope": {
+    "borough": "bronx",
+    "bbox_wgs84": null,
+    "where": "BASE_BBL LIKE '2%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:19:40.321326+00:00"
+}

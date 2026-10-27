@@ -1,0 +1,22 @@
+{
+  "interrupted_exit": 75,
+  "first_page_reused_unchanged": true,
+  "records": 812,
+  "unique_ids": 812,
+  "consistent": {
+    "start_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "end_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "id_set_equal": true,
+    "service_changed_during_window": false,
+    "atomic_snapshot": false,
+    "limitation": "Dynamic service; unchanged last-edit and ID set are checks, not a transactional snapshot. Re-fetch a new version if flagged."
+  }
+}

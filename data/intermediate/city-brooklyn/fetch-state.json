@@ -1,0 +1,3983 @@
+{
+  "completed": {
+    "page-00000000": {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00000000.json",
+      "sha256": "92d29d80437056e4d805fd4dc958ceaf706f8d7472ed4b3f2192a57f2acfcfa1",
+      "records": 500
+    },
+    "page-00000500": {
+      "id": "page-00000500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00000500.json",
+      "sha256": "b08a40e49b7d07125f9ec083342152ddca36ef058dce059f99a7c136b5b0af8c",
+      "records": 500
+    },
+    "page-00001000": {
+      "id": "page-00001000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00001000.json",
+      "sha256": "a56332bf836e911529fffe03ed8d145d47e2da43fe07603200e9e4ad5b9e64b2",
+      "records": 500
+    },
+    "page-00001500": {
+      "id": "page-00001500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00001500.json",
+      "sha256": "a3f3356648e87a2417156406be8fc6189b6ff4f321c003867ce19a4b254915b4",
+      "records": 500
+    },
+    "page-00002000": {
+      "id": "page-00002000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00002000.json",
+      "sha256": "918b985e17533efddb84a2f16345a212fc1e5c7c38d629868d91df5711c5acce",
+      "records": 500
+    },
+    "page-00002500": {
+      "id": "page-00002500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00002500.json",
+      "sha256": "35dcc7dd83482b105f4055db9ea6f4936eab660b9f00e994b67f100f6d9a2a37",
+      "records": 500
+    },
+    "page-00003000": {
+      "id": "page-00003000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00003000.json",
+      "sha256": "078fb764fe93cbe72642f2347bc8d9e1e1756bbad3c0247a7650d31cf7dd92c1",
+      "records": 500
+    },
+    "page-00003500": {
+      "id": "page-00003500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00003500.json",
+      "sha256": "d960479d6564cc7d99a617d235de22896603d7e26f77754cffa7af04ec2eb7d1",
+      "records": 500
+    },
+    "page-00004000": {
+      "id": "page-00004000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00004000.json",
+      "sha256": "05a5e82765edb69f89724bc5dd0e025a0663884b345386842136c00757064f3c",
+      "records": 500
+    },
+    "page-00004500": {
+      "id": "page-00004500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00004500.json",
+      "sha256": "90d3d573d1259f0b8f6b51001a6b1cc504ce82289a769dcbb22da0c2a2497d1e",
+      "records": 500
+    },
+    "page-00005000": {
+      "id": "page-00005000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00005000.json",
+      "sha256": "984e8c398622b743a7d0dc6db29063c0078d064241dd2b7c0a0238dd70301279",
+      "records": 500
+    },
+    "page-00005500": {
+      "id": "page-00005500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00005500.json",
+      "sha256": "463a266f7ee6c384f451c5df28609f6369d1a98e76f76d0e6a7e3571bb16a922",
+      "records": 500
+    },
+    "page-00006000": {
+      "id": "page-00006000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00006000.json",
+      "sha256": "8e12e07498e470a0b1ed179299d4ec4e061a4f97c5659244babcd50b024fe302",
+      "records": 500
+    },
+    "page-00006500": {
+      "id": "page-00006500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00006500.json",
+      "sha256": "ac4f16d10b6d4388097f19a418d65992edec517d3ecee2926d78a12ad9cc177f",
+      "records": 500
+    },
+    "page-00007000": {
+      "id": "page-00007000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00007000.json",
+      "sha256": "834019b0a8199f228f56aff1b089bacef05b9d6be0313f421b5b65050dd23eed",
+      "records": 500
+    },
+    "page-00007500": {
+      "id": "page-00007500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00007500.json",
+      "sha256": "cbd9b87ee193e5d538362953a9cc3e0153dbfe1f1245a86090c7068a42eb5b6a",
+      "records": 500
+    },
+    "page-00008000": {
+      "id": "page-00008000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00008000.json",
+      "sha256": "34396fb464b4b760f43808542fa92043f53dbf2d8b05e258297d0e7a1e343445",
+      "records": 500
+    },
+    "page-00008500": {
+      "id": "page-00008500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00008500.json",
+      "sha256": "b15ae917aa3a83c4a029cb04d50d3a5a25a9232276a518dd9e763073ae74890c",
+      "records": 500
+    },
+    "page-00009000": {
+      "id": "page-00009000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00009000.json",
+      "sha256": "496cbbe93736fffb233c4104af97f44579f3a2b833df603d05f9262a85af285e",
+      "records": 500
+    },
+    "page-00009500": {
+      "id": "page-00009500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00009500.json",
+      "sha256": "9f53cb8922eb20df748cb5565be17702839c2d67dfc21cc16bf1a5d427ef70af",
+      "records": 500
+    },
+    "page-00010000": {
+      "id": "page-00010000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00010000.json",
+      "sha256": "5fad71e8ed963e07145f3ad877c352784e47fd98f1ebe7bd065eaae4dcabe9da",
+      "records": 500
+    },
+    "page-00010500": {
+      "id": "page-00010500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00010500.json",
+      "sha256": "1c44018a1102a96c2b5734463212b60877353cb0b090ad6f86239f1d0fa5669e",
+      "records": 500
+    },
+    "page-00011000": {
+      "id": "page-00011000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00011000.json",
+      "sha256": "2f13d3d0372630b459badf9f685410d0b3e12330bfd1d8eb2773287adec2a735",
+      "records": 500
+    },
+    "page-00011500": {
+      "id": "page-00011500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00011500.json",
+      "sha256": "aff3798da9acb132b5eb86976ff99aac87ad7c21b100756be948d6bc87f9f883",
+      "records": 500
+    },
+    "page-00012000": {
+      "id": "page-00012000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00012000.json",
+      "sha256": "629f557db6d73d2eb02c701db7e7e0771b0d3d36326fe408db3f6e0a2f740192",
+      "records": 500
+    },
+    "page-00012500": {
+      "id": "page-00012500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00012500.json",
+      "sha256": "805e3cd0dd7fba9fc8503affc0d9217c4eedd5a164616dbee28cd3d7feca761f",
+      "records": 500
+    },
+    "page-00013000": {
+      "id": "page-00013000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00013000.json",
+      "sha256": "ae1a4a5dfa7036957fe616972ee707d0056dd5c288a36d7dac44b470e8c64675",
+      "records": 500
+    },
+    "page-00013500": {
+      "id": "page-00013500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00013500.json",
+      "sha256": "9f930007350243f4bbd841f494878f525e49f165d02faf60cb074813ecb2a31c",
+      "records": 500
+    },
+    "page-00014000": {
+      "id": "page-00014000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00014000.json",
+      "sha256": "1cf107918a5b0e4b191db2e6a753d0980b47da16d77e674c584d9bc10b66406c",
+      "records": 500
+    },
+    "page-00014500": {
+      "id": "page-00014500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00014500.json",
+      "sha256": "2a099a7767361ac2149ceddb4995242ceef9663530a4ac9d9e4859b9ac1b9ea0",
+      "records": 500
+    },
+    "page-00015000": {
+      "id": "page-00015000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00015000.json",
+      "sha256": "7a157c98f8fddc04841549a7153f308dd559daeb7326c6b87874d54ea8079238",
+      "records": 500
+    },
+    "page-00015500": {
+      "id": "page-00015500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00015500.json",
+      "sha256": "090db6bfb2490f5af2f276a7b37d7669fecc8d18e94c53b37455dc56156cfbe3",
+      "records": 500
+    },
+    "page-00016000": {
+      "id": "page-00016000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00016000.json",
+      "sha256": "799757f151e6e402e1d5036e2a7cb57f8f41bca1f65bcc0bae15ac07ad58a3fb",
+      "records": 500
+    },
+    "page-00016500": {
+      "id": "page-00016500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00016500.json",
+      "sha256": "0aa247f6adf9403132501242d9e2bc801a43a2e4dc5d2804397ce4bb769e22eb",
+      "records": 500
+    },
+    "page-00017000": {
+      "id": "page-00017000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00017000.json",
+      "sha256": "e51ef8e56683910324170880bc6d7f7f0748626901ca71b619a4bc299478de56",
+      "records": 500
+    },
+    "page-00017500": {
+      "id": "page-00017500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00017500.json",
+      "sha256": "758c02e582eb22457ee2488c515a6ae5e7d2668d6c6fad989e9a514eec63d7d3",
+      "records": 500
+    },
+    "page-00018000": {
+      "id": "page-00018000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "records": 500
+    },
+    "page-00018500": {
+      "id": "page-00018500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018500.json",
+      "sha256": "5877d87d201d927118b940bb5660ca32c78e021e979d2e0b665e0a2363ca4c2b",
+      "records": 500
+    },
+    "page-00019000": {
+      "id": "page-00019000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00019000.json",
+      "sha256": "670a755c6df280909ee2290d928c8c6dc13a376332b318cd79f17a9121ee6c88",
+      "records": 500
+    },
+    "page-00019500": {
+      "id": "page-00019500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00019500.json",
+      "sha256": "f6ca234904837face7a152dfc7176ac0a1f1bd18773caadbf9d067291952a8ee",
+      "records": 500
+    },
+    "page-00020000": {
+      "id": "page-00020000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00020000.json",
+      "sha256": "d4eb8211c2505de5e88c961a15daca1abf59494af823d6cb1458dce3c4440e00",
+      "records": 500
+    },
+    "page-00020500": {
+      "id": "page-00020500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00020500.json",
+      "sha256": "84c61cd8155ceb71b46271221449d7801957ca080a06ac4b9ce820f0a1f3f41c",
+      "records": 500
+    },
+    "page-00021000": {
+      "id": "page-00021000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00021000.json",
+      "sha256": "592348720c09ce7b21178be6cbcdea0bd31d84972e479273f5c28f8e948ea9a3",
+      "records": 500
+    },
+    "page-00021500": {
+      "id": "page-00021500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00021500.json",
+      "sha256": "38d4407df585122b39c66fcbdaa052c250282dd3bff8c6d8dba2daf6f434c9c1",
+      "records": 500
+    },
+    "page-00022000": {
+      "id": "page-00022000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00022000.json",
+      "sha256": "bc0a382017e88e33429542429409ed35c08255c6666cd5ec73af2065deb122e4",
+      "records": 500
+    },
+    "page-00022500": {
+      "id": "page-00022500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00022500.json",
+      "sha256": "5fe5fc9dda49ad4356f94e35dc0f0f66510c0fc4f8108f347ff318d7c5974735",
+      "records": 500
+    },
+    "page-00023000": {
+      "id": "page-00023000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00023000.json",
+      "sha256": "41ec3b0afe2fb0ac360c78e21d474857537eb0ad46da65489d655c8eb232bfde",
+      "records": 500
+    },
+    "page-00023500": {
+      "id": "page-00023500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00023500.json",
+      "sha256": "90bc38af9ba728e09ef4feef4ff44b9c6e1adb795310d1430b219536da25eeea",
+      "records": 500
+    },
+    "page-00024000": {
+      "id": "page-00024000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00024000.json",
+      "sha256": "25ad4ab7ed3ffd5def3ee2474df5b7cfc2ccaaac7398d1d8f9b72187f3bb80ae",
+      "records": 500
+    },
+    "page-00024500": {
+      "id": "page-00024500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00024500.json",
+      "sha256": "1799fa419d9c7659bc82ac6b76df8dc9ea6afd40b86f2f679e174d13894b0770",
+      "records": 500
+    },
+    "page-00025000": {
+      "id": "page-00025000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00025000.json",
+      "sha256": "88fa285973819c61d76ba255bd6b9a01574556e0412e4b60288f368e64e483e6",
+      "records": 500
+    },
+    "page-00025500": {
+      "id": "page-00025500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00025500.json",
+      "sha256": "3153fed717a5a749536422f34855ccf55392a10ad2e5c9faf6ab8fcce49129fa",
+      "records": 500
+    },
+    "page-00026000": {
+      "id": "page-00026000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00026000.json",
+      "sha256": "b02968745c5e223cd69ac5a1219413f8f5a5ab5aff089f9394671e79d43eb31f",
+      "records": 500
+    },
+    "page-00026500": {
+      "id": "page-00026500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00026500.json",
+      "sha256": "c40cd1661410103325051d81c36255b8d1431e7bdaa51030f0238635cd65b3af",
+      "records": 500
+    },
+    "page-00027000": {
+      "id": "page-00027000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00027000.json",
+      "sha256": "221f00354c2c98306c6fd0d4bb8582b28aeb49b0e24fd458be00bbab88f4d283",
+      "records": 500
+    },
+    "page-00027500": {
+      "id": "page-00027500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00027500.json",
+      "sha256": "aab40af5563fc74bb25b88d34db6e0ab1071c431b91e216f9a4e492694de0e36",
+      "records": 500
+    },
+    "page-00028000": {
+      "id": "page-00028000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00028000.json",
+      "sha256": "71fea8a670fb6ed3afb15d8e6711edf50f3a7d4ce08a7d0108c9f2cc1ef20a5a",
+      "records": 500
+    },
+    "page-00028500": {
+      "id": "page-00028500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00028500.json",
+      "sha256": "97c962474430ddb7f4358cc947a0c2b42283e5f6791def13742b8c6b9c4f2df0",
+      "records": 500
+    },
+    "page-00029000": {
+      "id": "page-00029000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00029000.json",
+      "sha256": "3eb658e7828e7c0a254365e6140afd7d393a32f688da6f1ecfea8dca223d4389",
+      "records": 500
+    },
+    "page-00029500": {
+      "id": "page-00029500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00029500.json",
+      "sha256": "cae5db402ffe1ab4201b2cf8140ca16004dafd1e3441b3f079d7f0084879c861",
+      "records": 500
+    },
+    "page-00030000": {
+      "id": "page-00030000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00030000.json",
+      "sha256": "457aa0cd405bafe2d0dd8d19f07b210a47b58c8482ad14083f799310ac425a0f",
+      "records": 500
+    },
+    "page-00030500": {
+      "id": "page-00030500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00030500.json",
+      "sha256": "7b614ce5a6cf28eb85448048286d7bcfcfb4e9cc5f4c890a201a14f9e5bc4099",
+      "records": 500
+    },
+    "page-00031000": {
+      "id": "page-00031000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00031000.json",
+      "sha256": "a3d87c1a75de39e58aa2d23bb91df324ddbed640da4952d30088ed5cd1b85538",
+      "records": 500
+    },
+    "page-00031500": {
+      "id": "page-00031500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00031500.json",
+      "sha256": "ed86b15868feabf678b29afa078ede37b1b9ddaf40a2e0f59a354deaeb9e1318",
+      "records": 500
+    },
+    "page-00032000": {
+      "id": "page-00032000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00032000.json",
+      "sha256": "78f40cfc38e134efb6669dceb9b210561d24272101f92075aa38ddd359b7a514",
+      "records": 500
+    },
+    "page-00032500": {
+      "id": "page-00032500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00032500.json",
+      "sha256": "1750be1d33c7ca2683589978b00e4dcf8bbf2e995e5c4abf7684aee25ffa05ff",
+      "records": 500
+    },
+    "page-00033000": {
+      "id": "page-00033000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00033000.json",
+      "sha256": "1f31494c32794d7c1b9b8e28053c8948a81b9a459640e995b48ce0c274d29eb6",
+      "records": 500
+    },
+    "page-00033500": {
+      "id": "page-00033500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00033500.json",
+      "sha256": "563a9b94b2b14d38cadcbd2e686011bbf995cdb58f15cb056fe76e445c169219",
+      "records": 500
+    },
+    "page-00034000": {
+      "id": "page-00034000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00034000.json",
+      "sha256": "c1a24813aa960ca7a6c9266ee43428404cbb863d5ad953b4a77e28e540f1ff3b",
+      "records": 500
+    },
+    "page-00034500": {
+      "id": "page-00034500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00034500.json",
+      "sha256": "8448f40df5fd0e9f53e622b9ea2bd122b6746260e1e5679f514b653756ec9482",
+      "records": 500
+    },
+    "page-00035000": {
+      "id": "page-00035000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00035000.json",
+      "sha256": "a4948992c8b4b97671edcfbf614c74ac91a072e31caef78c849197184f0d3112",
+      "records": 500
+    },
+    "page-00035500": {
+      "id": "page-00035500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00035500.json",
+      "sha256": "604003f27f7c629f602e5d600f059600ee14cd9b37ecb6d9b93b83b129f5eab4",
+      "records": 500
+    },
+    "page-00036000": {
+      "id": "page-00036000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00036000.json",
+      "sha256": "a168816b3655c1a6d986083cf941c78cae17bccc4fbc68196f554c487194f217",
+      "records": 500
+    },
+    "page-00036500": {
+      "id": "page-00036500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00036500.json",
+      "sha256": "84029dbb9152285daf075ee2a524ac8e6965cab244e8e1ab7bbe3f5a0da37f23",
+      "records": 500
+    },
+    "page-00037000": {
+      "id": "page-00037000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00037000.json",
+      "sha256": "cbb922c204b5443f58946024b602bf82756b41a6a574d5c84ed173c005f614db",
+      "records": 500
+    },
+    "page-00037500": {
+      "id": "page-00037500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00037500.json",
+      "sha256": "36d154d554da7d00a6e4fb8e47481a6c83ae72531d61b3df1592e6833aae0cff",
+      "records": 500
+    },
+    "page-00038000": {
+      "id": "page-00038000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00038000.json",
+      "sha256": "4ae9313b0f3daa94c674d867d26bc09a8e8f7583dd50cc96ce4924492e4cb07a",
+      "records": 500
+    },
+    "page-00038500": {
+      "id": "page-00038500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00038500.json",
+      "sha256": "484ef65812ec01508ebc5499ce37406e928f6f06f6690a08e05f59a1af804359",
+      "records": 500
+    },
+    "page-00039000": {
+      "id": "page-00039000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00039000.json",
+      "sha256": "b1be0a9cec83fc8de9a9dbe0e1ef9b1a0b7481d02ec4fd805dc3d906d11bbac9",
+      "records": 500
+    },
+    "page-00039500": {
+      "id": "page-00039500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00039500.json",
+      "sha256": "2c70cf9ba2e07a965bd39e4e98173b022d90b34e9f72724a9fdf7a3c53998eb0",
+      "records": 500
+    },
+    "page-00040000": {
+      "id": "page-00040000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00040000.json",
+      "sha256": "87b5910164399b6aca1e7b47b7cb54554e7586b36b09bba001ea7c707cd651d8",
+      "records": 500
+    },
+    "page-00040500": {
+      "id": "page-00040500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00040500.json",
+      "sha256": "2428c2eb7fe99464107409b4f517c750c91807d65b2d9b79328ee629dce2846b",
+      "records": 500
+    },
+    "page-00041000": {
+      "id": "page-00041000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00041000.json",
+      "sha256": "ef428446dcd940d6058c4f8620a59a9ab828572175cab441e0d060d7f9c9efca",
+      "records": 500
+    },
+    "page-00041500": {
+      "id": "page-00041500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00041500.json",
+      "sha256": "905facaf4de2dde504250dc524567b120eab020d330b1bdaa69c3fbd63a17ae4",
+      "records": 500
+    },
+    "page-00042000": {
+      "id": "page-00042000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00042000.json",
+      "sha256": "d8ebb495a89cdafdb7f79cbfa4797f72ab90a539f185c26ced72ef687bba40d0",
+      "records": 500
+    },
+    "page-00042500": {
+      "id": "page-00042500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00042500.json",
+      "sha256": "1b5de4ca8985624f464fcfa5e9666447b9a2a9ec657b906208cd0b33ac1b02e3",
+      "records": 500
+    },
+    "page-00043000": {
+      "id": "page-00043000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00043000.json",
+      "sha256": "570f40d27ab50c5bfc8deb2bb89b41331a1e7cc9cada121eadd395c4b36c3cca",
+      "records": 500
+    },
+    "page-00043500": {
+      "id": "page-00043500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00043500.json",
+      "sha256": "8e772f56c4e93e8fdc75ca27905453e0b3afe81e7d4bb834427d423b39dc9484",
+      "records": 500
+    },
+    "page-00044000": {
+      "id": "page-00044000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00044000.json",
+      "sha256": "78808876f2f3e87e6abbd8e6fe84e29634bc4bf8b4f6e6720d563b6b389b882d",
+      "records": 500
+    },
+    "page-00044500": {
+      "id": "page-00044500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00044500.json",
+      "sha256": "565dec65da6606470ae638ede0f6166979cecd84ec86ae4d185985c187544280",
+      "records": 500
+    },
+    "page-00045000": {
+      "id": "page-00045000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00045000.json",
+      "sha256": "6961d36883e8b5d8afefbf086112519d1fecc6d179c8e3dd9e7e6c7d6cf55e49",
+      "records": 500
+    },
+    "page-00045500": {
+      "id": "page-00045500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00045500.json",
+      "sha256": "3d5d1ddf74a607b4481c9390f6a068ec0791d03332170d461bb4a9a6b534decc",
+      "records": 500
+    },
+    "page-00046000": {
+      "id": "page-00046000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00046000.json",
+      "sha256": "2fcc583b7c394a48c0ae4f827188820e5e702f668b5c061abbdf976581ce7c6b",
+      "records": 500
+    },
+    "page-00046500": {
+      "id": "page-00046500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00046500.json",
+      "sha256": "c2d2118a2e27a31223e7d9bf9f50a963af5272649a6d273efaa82ecf7f6aba71",
+      "records": 500
+    },
+    "page-00047000": {
+      "id": "page-00047000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00047000.json",
+      "sha256": "22ce4066a9ef71542b00431e0e6cdcd72efff4bbb758bc3f9c72677568e86371",
+      "records": 500
+    },
+    "page-00047500": {
+      "id": "page-00047500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00047500.json",
+      "sha256": "cafeca5dbf0add9ba050e78ac08b7fb4fbd28e16d9de5b1e8b83305794cd2599",
+      "records": 500
+    },
+    "page-00048000": {
+      "id": "page-00048000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00048000.json",
+      "sha256": "2ab1972494434a2a3e4fb6096e5d2f145a8e6e895dc610b8420893767f20d66b",
+      "records": 500
+    },
+    "page-00048500": {
+      "id": "page-00048500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00048500.json",
+      "sha256": "f96e17706a8dbf30616fdf88b9e5551481b723d879146c53dac8ad497d8aa1f8",
+      "records": 500
+    },
+    "page-00049000": {
+      "id": "page-00049000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00049000.json",
+      "sha256": "e7c5759a2b95d91f5d58237067431ae41861ef14fd737f06013509e1d5da4aa5",
+      "records": 500
+    },
+    "page-00049500": {
+      "id": "page-00049500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00049500.json",
+      "sha256": "c096ccc51cb2f0f0d8737a1c86b3a88d78858ae91cfcfae8ccc8533a542cec7c",
+      "records": 500
+    },
+    "page-00050000": {
+      "id": "page-00050000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00050000.json",
+      "sha256": "1cdc0113ce838007bd935c1f5b749f7e78043de6af23c73bf5c25e9a2c65ea5c",
+      "records": 500
+    },
+    "page-00050500": {
+      "id": "page-00050500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00050500.json",
+      "sha256": "ea8d947aeaadd07e0e976aa01a5823da642d0d941a5e65dfcaa2a2a7748c0618",
+      "records": 500
+    },
+    "page-00051000": {
+      "id": "page-00051000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00051000.json",
+      "sha256": "50c12488411288fb225c1c60878dcde088b60cf2d13ebdfdf9db5292c1181073",
+      "records": 500
+    },
+    "page-00051500": {
+      "id": "page-00051500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00051500.json",
+      "sha256": "a32b9fbd4a97e0fe51816a986647791d2cac9eb7e296fcc83ab4366a976b008a",
+      "records": 500
+    },
+    "page-00052000": {
+      "id": "page-00052000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00052000.json",
+      "sha256": "ef44b0bfd9be6a5963d85cad2cb6c491989620237dd4dd20ef30a5f33027b32b",
+      "records": 500
+    },
+    "page-00052500": {
+      "id": "page-00052500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00052500.json",
+      "sha256": "7d99d7652d2578a336859926d51257e933877f76e7aa3eae1a79b20cef173206",
+      "records": 500
+    },
+    "page-00053000": {
+      "id": "page-00053000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00053000.json",
+      "sha256": "3d82a13071fd5f0984b23cd9b93006c2663d8ced9c4e39fb4e3680c1c7c500fc",
+      "records": 500
+    },
+    "page-00053500": {
+      "id": "page-00053500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00053500.json",
+      "sha256": "9d8da130bc435ae56417227ea0457defec9d37e0da4c12d999b196728e9932ca",
+      "records": 500
+    },
+    "page-00054000": {
+      "id": "page-00054000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00054000.json",
+      "sha256": "432f8ba1cffb43a02085dde1381b276f4faaee0c76e545ae2302dfd7d6a09aba",
+      "records": 500
+    },
+    "page-00054500": {
+      "id": "page-00054500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00054500.json",
+      "sha256": "b116d4b9c9dac55cb000ddd5f6d9fb1b35b1a020720993ad784258d08772059d",
+      "records": 500
+    },
+    "page-00055000": {
+      "id": "page-00055000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00055000.json",
+      "sha256": "4ebe72df7fc34ac536aa78c7f530504a83fd8775c939692f7b81044e9f093a24",
+      "records": 500
+    },
+    "page-00055500": {
+      "id": "page-00055500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00055500.json",
+      "sha256": "c38b57031201371c3538448f097e9eb799d9bbd9f8dd981d092ee75c95883b9a",
+      "records": 500
+    },
+    "page-00056000": {
+      "id": "page-00056000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00056000.json",
+      "sha256": "0001ac9b43f2cb7f8ae66a189a1d436cfc596709f6bb77eb1b3d98a0bc647e78",
+      "records": 500
+    },
+    "page-00056500": {
+      "id": "page-00056500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00056500.json",
+      "sha256": "fc8782b24ceaf96650e6285cb35665cf6d0cc0059550f5fa7539eaca6204e48b",
+      "records": 500
+    },
+    "page-00057000": {
+      "id": "page-00057000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00057000.json",
+      "sha256": "dd5223595a7b91b7c718492d9a42dcd199f2cd85f9d54deb0b5e45d780de7457",
+      "records": 500
+    },
+    "page-00057500": {
+      "id": "page-00057500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00057500.json",
+      "sha256": "2079432589685266a72aba72746b573f66d8d236b49e2bc48a10dd61673cade1",
+      "records": 500
+    },
+    "page-00058000": {
+      "id": "page-00058000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00058000.json",
+      "sha256": "c6ec796d6259f4bf232ec0e18ebb4470671ff86adcbaf9ea1c8ca7eb57edeeb1",
+      "records": 500
+    },
+    "page-00058500": {
+      "id": "page-00058500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00058500.json",
+      "sha256": "cb5543e13c966261e7b1136d7d3982040ae1cee60b7c9cfebcb7f3f542278347",
+      "records": 500
+    },
+    "page-00059000": {
+      "id": "page-00059000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00059000.json",
+      "sha256": "b55fbf94c53d05f74a02739a377e842c7fdc0a080a2c335ff207f948a4163ccd",
+      "records": 500
+    },
+    "page-00059500": {
+      "id": "page-00059500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00059500.json",
+      "sha256": "35f5cae83b64dcca9a684c772f100ef50901c0bd693f52aea2d3e62560142720",
+      "records": 500
+    },
+    "page-00060000": {
+      "id": "page-00060000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00060000.json",
+      "sha256": "800ccc9a37be9c411cc203ff6c64addee63e19d50aba6fbc3d624773d1e6060c",
+      "records": 500
+    },
+    "page-00060500": {
+      "id": "page-00060500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00060500.json",
+      "sha256": "1dffa835e2db7726a0de3c481c98199831aac07c27b6ec2bd400d93df4f7fb88",
+      "records": 500
+    },
+    "page-00061000": {
+      "id": "page-00061000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00061000.json",
+      "sha256": "2c9750611d33c91f5b723dcd0d43a492cefdb8d1d4f9676d67d95b291baf6bce",
+      "records": 500
+    },
+    "page-00061500": {
+      "id": "page-00061500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00061500.json",
+      "sha256": "4a70b68a7c0ec7fa12c7d517443d77f889f0a5d1cc04bd9addf293f30d7e4555",
+      "records": 500
+    },
+    "page-00062000": {
+      "id": "page-00062000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00062000.json",
+      "sha256": "2be98b91bb9a19c629481c523ebbfaad67dce89409f506da99cfe39cb64f8d0c",
+      "records": 500
+    },
+    "page-00062500": {
+      "id": "page-00062500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00062500.json",
+      "sha256": "4117af9867d9721422bcc02bedbd184111b61d0c27e86141a95d8512ee780e2b",
+      "records": 500
+    },
+    "page-00063000": {
+      "id": "page-00063000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00063000.json",
+      "sha256": "10886f5268d559c50b3f5ec6fd2cea3aa8c9309497ba0b15814c165ef9b8804d",
+      "records": 500
+    },
+    "page-00063500": {
+      "id": "page-00063500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00063500.json",
+      "sha256": "754fbc32bb4910af619b264b00a0b3295f3ce07ab9cebab978a9e6d71e08677a",
+      "records": 500
+    },
+    "page-00064000": {
+      "id": "page-00064000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00064000.json",
+      "sha256": "eefc332a7eea3e0b6aa7568d26f362f88277aa95d5752f0ad3093c8d50527f2a",
+      "records": 500
+    },
+    "page-00064500": {
+      "id": "page-00064500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00064500.json",
+      "sha256": "573e3ba478e3991bb8fd25cc9cfa1055b8ef2e773a80a6835ea9d774793c3281",
+      "records": 500
+    },
+    "page-00065000": {
+      "id": "page-00065000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00065000.json",
+      "sha256": "0cca62a36a437f71c745da82e6434413c99a2859ec18341a697d7c4a6635b0f2",
+      "records": 500
+    },
+    "page-00065500": {
+      "id": "page-00065500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00065500.json",
+      "sha256": "78c9f1e249f8315fa4124d5abb2937af9e4e68d447a89f6b24b3cd7dd1a51a2b",
+      "records": 500
+    },
+    "page-00066000": {
+      "id": "page-00066000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00066000.json",
+      "sha256": "a23ed318a0d4c93d2f4371186b7ccacce19bb95313e076cc1d0541c2e473092f",
+      "records": 500
+    },
+    "page-00066500": {
+      "id": "page-00066500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00066500.json",
+      "sha256": "bbb2bca38e7a401d82b3f7dafd7a4d554c2b148e41f0eadff1028e104afb9760",
+      "records": 500
+    },
+    "page-00067000": {
+      "id": "page-00067000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00067000.json",
+      "sha256": "83d17034e62af5785bb2946825fe37a5d86ab9699e590740766a173e5f57220e",
+      "records": 500
+    },
+    "page-00067500": {
+      "id": "page-00067500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00067500.json",
+      "sha256": "ec09b813a3be18e8fd7c64f74a54cde51757690f13883b6a28da77b95377080a",
+      "records": 500
+    },
+    "page-00068000": {
+      "id": "page-00068000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00068000.json",
+      "sha256": "856113d8e0eb6a235ed75da688d52f9a35c315881b11976dc3b2a62fa6d68c00",
+      "records": 500
+    },
+    "page-00068500": {
+      "id": "page-00068500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00068500.json",
+      "sha256": "da607a56e40857680626d9a2c2811fc30c69b9100dd94583074bf6317d456514",
+      "records": 500
+    },
+    "page-00069000": {
+      "id": "page-00069000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00069000.json",
+      "sha256": "39389dbf0b6cce0c0b91fa4ef05bf5647a1c277fe3237b655b51e09a8c542da7",
+      "records": 500
+    },
+    "page-00069500": {
+      "id": "page-00069500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00069500.json",
+      "sha256": "801f7ce4adf550c80925696b4cf5c41566bbe36cf07c7bce6b63f0a5fa0fcb9f",
+      "records": 500
+    },
+    "page-00070000": {
+      "id": "page-00070000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00070000.json",
+      "sha256": "24f8ae2c09e71526eff5856c6908b975eac2ac1e4fb056bd9c80b7068269d85d",
+      "records": 500
+    },
+    "page-00070500": {
+      "id": "page-00070500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00070500.json",
+      "sha256": "8744cacf2e3774602fffbb389bf7e36bd0a3034b8583196cf2659ecf4421f8f0",
+      "records": 500
+    },
+    "page-00071000": {
+      "id": "page-00071000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00071000.json",
+      "sha256": "7bfd8f6ae61f8059531130b65b05079b26e53e6c3b8e69375b7c9c6cc9febe28",
+      "records": 500
+    },
+    "page-00071500": {
+      "id": "page-00071500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00071500.json",
+      "sha256": "35bb225eda05677a276fbcc178fff6a4fa94cdb2589f915ffcd98868a7914361",
+      "records": 500
+    },
+    "page-00072000": {
+      "id": "page-00072000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00072000.json",
+      "sha256": "c0df0605665d92321e80a85abf67bc64b66baaa897e2383cf9bd1d6eb7414288",
+      "records": 500
+    },
+    "page-00072500": {
+      "id": "page-00072500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00072500.json",
+      "sha256": "41003c03099249f58a23a9dd72d4a1cad797373e71d933d6e68a0646a17a3f52",
+      "records": 500
+    },
+    "page-00073000": {
+      "id": "page-00073000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00073000.json",
+      "sha256": "6b03447ac1fc3f275bbaf319b2d4af96deccfbe408fa6eda660bb450043363f5",
+      "records": 500
+    },
+    "page-00073500": {
+      "id": "page-00073500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00073500.json",
+      "sha256": "f9cde759080dc6fd077ac12e910baa9a6bc81ae20d425dd041dcf3ed686b8b5e",
+      "records": 500
+    },
+    "page-00074000": {
+      "id": "page-00074000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00074000.json",
+      "sha256": "bdadf3a6d8e6f6b9b1c7a5bd41d50ce5bee60e938a446e54c03f92989689f902",
+      "records": 500
+    },
+    "page-00074500": {
+      "id": "page-00074500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00074500.json",
+      "sha256": "83c30b366e2439f73366161b6bb72599329e14e5fdf81441151252163f2ac7a3",
+      "records": 500
+    },
+    "page-00075000": {
+      "id": "page-00075000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00075000.json",
+      "sha256": "5f0c009a7b495483976b38017b314a99bd206c01bb67baad2dda8cea16a5b5e3",
+      "records": 500
+    },
+    "page-00075500": {
+      "id": "page-00075500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00075500.json",
+      "sha256": "7e59d1f3ef026de71c490032dde3f9fb8d47e645f746f0569e52970744450f58",
+      "records": 500
+    },
+    "page-00076000": {
+      "id": "page-00076000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00076000.json",
+      "sha256": "66cc49987b69a7c60c3814afd30f8d75089ee5f91f3ec754be3194917bc5f4ec",
+      "records": 500
+    },
+    "page-00076500": {
+      "id": "page-00076500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00076500.json",
+      "sha256": "f23422f5f87332671b7de04db081b2fccb7fde1e1fc2b8eef358972bb2d99d9c",
+      "records": 500
+    },
+    "page-00077000": {
+      "id": "page-00077000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00077000.json",
+      "sha256": "41d1a775902c7ea51a9f96136da78057b1c829fc984f8bf3dc41e4c2598227ba",
+      "records": 500
+    },
+    "page-00077500": {
+      "id": "page-00077500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00077500.json",
+      "sha256": "dcf45a4fcbb046f6ebf29f2a4b7ab1590ff99f1f51f1b742e591f35e594858ce",
+      "records": 500
+    },
+    "page-00078000": {
+      "id": "page-00078000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00078000.json",
+      "sha256": "bef0502d337fdb21630217c9db6b1685720418f14262dad0e87866f6f1cc520f",
+      "records": 500
+    },
+    "page-00078500": {
+      "id": "page-00078500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00078500.json",
+      "sha256": "673f0586cf77d17d2ea96c297da80ca10f739d3a0d7d5fb40fa3a137ac559247",
+      "records": 500
+    },
+    "page-00079000": {
+      "id": "page-00079000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00079000.json",
+      "sha256": "c6665bae1df9c1ab4a23f733ee39c46d9c4fdf3596377a6ba741bf393d0728bc",
+      "records": 500
+    },
+    "page-00079500": {
+      "id": "page-00079500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00079500.json",
+      "sha256": "1dcb881b62ad1e59688e0b28330f821ef946b5e1dcdcbb8e8f4b592889aef661",
+      "records": 500
+    },
+    "page-00080000": {
+      "id": "page-00080000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00080000.json",
+      "sha256": "1a2243386a9414e35c15560525e9bb9adc25a95881bc2e65a431357c0b4f776a",
+      "records": 500
+    },
+    "page-00080500": {
+      "id": "page-00080500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00080500.json",
+      "sha256": "3e3538a5b54fb87d3f2eaae06db2884f3b2475c40f401450e72ebef46bdab176",
+      "records": 500
+    },
+    "page-00081000": {
+      "id": "page-00081000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00081000.json",
+      "sha256": "e0af3553573959a28bad55d1ffa8e14549d2a4270dd694f0f7e9c2b310dcf278",
+      "records": 500
+    },
+    "page-00081500": {
+      "id": "page-00081500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00081500.json",
+      "sha256": "0fee9d5503728c0b47133754f18a1f5c04bf6a7111f245a94f7d99d2af72f7f0",
+      "records": 500
+    },
+    "page-00082000": {
+      "id": "page-00082000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00082000.json",
+      "sha256": "4793471502bfc94eebccd79fb46fd88f6ed32fc0f6279cdd821f5d3c4379718d",
+      "records": 500
+    },
+    "page-00082500": {
+      "id": "page-00082500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00082500.json",
+      "sha256": "afc7923cc3cbcfcc77838767a30a58205587674fd36ef988e824949865cceca3",
+      "records": 500
+    },
+    "page-00083000": {
+      "id": "page-00083000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00083000.json",
+      "sha256": "f3ee22b283d8bee54585232bcd890562b9a477bccc91149a1378f6e05aadc6a2",
+      "records": 500
+    },
+    "page-00083500": {
+      "id": "page-00083500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00083500.json",
+      "sha256": "63670176a7590d9a16d69d973960b7a8da90ec35dd1c38a1df7cc9898a1df832",
+      "records": 500
+    },
+    "page-00084000": {
+      "id": "page-00084000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00084000.json",
+      "sha256": "e6994d37a5240aea5a83cd40bfeb726dd406f417cd15ec4e740a7746248e7a5f",
+      "records": 500
+    },
+    "page-00084500": {
+      "id": "page-00084500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00084500.json",
+      "sha256": "7a5cbfa4a25bd7ca4711310b9fdf04d217a20c8f354c75e525fed7b290814fb0",
+      "records": 500
+    },
+    "page-00085000": {
+      "id": "page-00085000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00085000.json",
+      "sha256": "0638f13e5e0015d10449ce56e892e325f3e9404637541f938f232bf2dba633dd",
+      "records": 500
+    },
+    "page-00085500": {
+      "id": "page-00085500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00085500.json",
+      "sha256": "5fa252923796ba71a83920eeebecb2eac323d7cb0b14e9dcf4c15f78268ccd28",
+      "records": 500
+    },
+    "page-00086000": {
+      "id": "page-00086000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00086000.json",
+      "sha256": "de8f1b02c1c35819bcfa22c7d0fe2458d1a13fc9c1dd95b5ea29cff485898c4a",
+      "records": 500
+    },
+    "page-00086500": {
+      "id": "page-00086500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00086500.json",
+      "sha256": "c147e94ecf0d2a8f9340939dd320bf8bad26720c21a6146766a5a2dfffb66ea3",
+      "records": 500
+    },
+    "page-00087000": {
+      "id": "page-00087000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00087000.json",
+      "sha256": "23545566ad3bd851f9b577fd9e28b5a9b08ad407cddb38d8e1c026bfd9ac9382",
+      "records": 500
+    },
+    "page-00087500": {
+      "id": "page-00087500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00087500.json",
+      "sha256": "419cf1fd2a153932a60e8557966563d0ecb7f0cf31293c679096215ba97b5448",
+      "records": 500
+    },
+    "page-00088000": {
+      "id": "page-00088000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00088000.json",
+      "sha256": "67287c178df20a0ece658d37885107d57c71e370434e8ab2013ae064c0de0ef6",
+      "records": 500
+    },
+    "page-00088500": {
+      "id": "page-00088500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00088500.json",
+      "sha256": "4acd487be66c90a80a0827b0b6400cb00e4606798b09ebaa29960073004d2994",
+      "records": 500
+    },
+    "page-00089000": {
+      "id": "page-00089000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00089000.json",
+      "sha256": "264d732d4aedba59aa57880ae51ed8bda6bbe207b202421ff1dadcd55eb98010",
+      "records": 500
+    },
+    "page-00089500": {
+      "id": "page-00089500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00089500.json",
+      "sha256": "40acd3501ca6921396df5624f6b90cbc53b4f42dcd1f57753efb6ea1f3198f0a",
+      "records": 500
+    },
+    "page-00090000": {
+      "id": "page-00090000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00090000.json",
+      "sha256": "46247699bd32650da864f132954be33916ceab66f8eff795d64945e81c68b215",
+      "records": 500
+    },
+    "page-00090500": {
+      "id": "page-00090500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00090500.json",
+      "sha256": "68cdeffafb427707adb300200dbae64467ac77532f8880a6a09b8219a3c0b968",
+      "records": 500
+    },
+    "page-00091000": {
+      "id": "page-00091000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00091000.json",
+      "sha256": "c44bb4d4ed9f7e6889298dea6f35e1c60c98d43c66100031d78eba8e5664e8bf",
+      "records": 500
+    },
+    "page-00091500": {
+      "id": "page-00091500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00091500.json",
+      "sha256": "8df5552d67068a7e42a5046183b72f6166e6fc91cf7f4df503534899349d8e2a",
+      "records": 500
+    },
+    "page-00092000": {
+      "id": "page-00092000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00092000.json",
+      "sha256": "46ae00e2dbdac4ae2867665f1258897a3dd3090a449934795edf1932f6612a22",
+      "records": 500
+    },
+    "page-00092500": {
+      "id": "page-00092500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00092500.json",
+      "sha256": "150704082e653cc6c10d548b7f02893f9b3e2ddb3aa859aef74a4d56ff8c27e3",
+      "records": 500
+    },
+    "page-00093000": {
+      "id": "page-00093000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00093000.json",
+      "sha256": "3864f8186c4530a1de544b2dde0c1364e8c5509553e5b27370c372904bfd52ef",
+      "records": 500
+    },
+    "page-00093500": {
+      "id": "page-00093500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00093500.json",
+      "sha256": "7c63073a062544feaa3099e718e47f81811218143a348f4cc3e18420f5ff9bc3",
+      "records": 500
+    },
+    "page-00094000": {
+      "id": "page-00094000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00094000.json",
+      "sha256": "f3bb0a519c01d6bcbed3595ce6527655a73241826fb2a6bc554b9988d09c82a1",
+      "records": 500
+    },
+    "page-00094500": {
+      "id": "page-00094500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00094500.json",
+      "sha256": "b40e69adcac07ff21de331c2f5813f226a722d18823061537682ac09e9ee94a2",
+      "records": 500
+    },
+    "page-00095000": {
+      "id": "page-00095000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00095000.json",
+      "sha256": "47e9f5994d21dbdb5fed839faf74b9a6b7b29ff62312fad2f038749acc7ca2c9",
+      "records": 500
+    },
+    "page-00095500": {
+      "id": "page-00095500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00095500.json",
+      "sha256": "3a80d14d10770b38d79feb5ee6da698a8983192a84ec63c3aab854d7c48df96c",
+      "records": 500
+    },
+    "page-00096000": {
+      "id": "page-00096000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00096000.json",
+      "sha256": "acc844636ff5460e7b61e9a80939c5954a8b7f66c5b4fee3454c95b7c7be832f",
+      "records": 500
+    },
+    "page-00096500": {
+      "id": "page-00096500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00096500.json",
+      "sha256": "e77f9378442d0a91e23763da7702eef9d113b52230865c47ad6968f2967fadd4",
+      "records": 500
+    },
+    "page-00097000": {
+      "id": "page-00097000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00097000.json",
+      "sha256": "c94b76bb17ddef83856ca8dddd755cf219df83deb9f5b565488b592b9832c045",
+      "records": 500
+    },
+    "page-00097500": {
+      "id": "page-00097500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00097500.json",
+      "sha256": "ca0fea4872de80ac97f36a1d115c465a5f6b4baef8dfb489a92a7756dbefea28",
+      "records": 500
+    },
+    "page-00098000": {
+      "id": "page-00098000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00098000.json",
+      "sha256": "fde8d89bf806180b2e35c50b44063a5727c87c6c99a19cfad532fb4d8d725624",
+      "records": 500
+    },
+    "page-00098500": {
+      "id": "page-00098500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00098500.json",
+      "sha256": "b6a3b1744fbc1e9d4cc0a066ec88501961fe7ccc0105e8b49a4026d9a6e230d5",
+      "records": 500
+    },
+    "page-00099000": {
+      "id": "page-00099000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00099000.json",
+      "sha256": "ecd7b6820cb48887dd6e1486c93ccd3bf3c31fe1fa5c39cea93f88a1a0fea89b",
+      "records": 500
+    },
+    "page-00099500": {
+      "id": "page-00099500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00099500.json",
+      "sha256": "70d34ca5f05d60409fafa5e095fe1ca565033843cdd4f6be0db3f087aa11c3d0",
+      "records": 500
+    },
+    "page-00100000": {
+      "id": "page-00100000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00100000.json",
+      "sha256": "196c2e5ec07e8fe5129762c2feabc44db2bfd364e103f15255ccd8954da6d8c2",
+      "records": 500
+    },
+    "page-00100500": {
+      "id": "page-00100500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00100500.json",
+      "sha256": "6b2f409eb51b8761351102f380b9823e5b85e3b9dddcc1643fe0957ce6bb2a5c",
+      "records": 500
+    },
+    "page-00101000": {
+      "id": "page-00101000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00101000.json",
+      "sha256": "0ecc120906cf4c72370b7c8ce54160ac4a62baaca485240fbcfc1abb0271c295",
+      "records": 500
+    },
+    "page-00101500": {
+      "id": "page-00101500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00101500.json",
+      "sha256": "87440a1a4a12a6cec8153703d423c97a00b4d9d59e0e0d0ce41cabc227db15eb",
+      "records": 500
+    },
+    "page-00102000": {
+      "id": "page-00102000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00102000.json",
+      "sha256": "ee46c2044cedc32a3806725ec9262091307b300f553e12b62eaef199879d9103",
+      "records": 500
+    },
+    "page-00102500": {
+      "id": "page-00102500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00102500.json",
+      "sha256": "3639a7a0341552026cc313b6a000d53ab166dd406ba092651f9c3eedc578d0e7",
+      "records": 500
+    },
+    "page-00103000": {
+      "id": "page-00103000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00103000.json",
+      "sha256": "cc6ed3c0b2ab71cc790948f21f9064e6f7179c65008a5f52c835c76821354488",
+      "records": 500
+    },
+    "page-00103500": {
+      "id": "page-00103500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00103500.json",
+      "sha256": "57c5da3594bb40a2f17657280fefa4969a873501902546e8a49ec38fbedc071f",
+      "records": 500
+    },
+    "page-00104000": {
+      "id": "page-00104000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00104000.json",
+      "sha256": "b044b9c2f9f1b03e8cf697557e7f38c9a7d7846346d8929442d9bfca5afae236",
+      "records": 500
+    },
+    "page-00104500": {
+      "id": "page-00104500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00104500.json",
+      "sha256": "99607288ae6902bb892b72b74f608a34fbef1b10294fd6e7128598152c6875cf",
+      "records": 500
+    },
+    "page-00105000": {
+      "id": "page-00105000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00105000.json",
+      "sha256": "ac36c48d91e58a97a32af05d60371c73e7269c253eb966fc9315138054e4a005",
+      "records": 500
+    },
+    "page-00105500": {
+      "id": "page-00105500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00105500.json",
+      "sha256": "205e856709c2bc47c803c9ba40666ac436147d3af0d725c6eb114b9e8eaa770a",
+      "records": 500
+    },
+    "page-00106000": {
+      "id": "page-00106000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00106000.json",
+      "sha256": "fb17dca12c2f002cba9465cc1ca316821ff376a9dcb5e76d95a9d02dafbc7493",
+      "records": 500
+    },
+    "page-00106500": {
+      "id": "page-00106500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00106500.json",
+      "sha256": "8b8b2c23e163061a80efde5ed4e0dffef8ef943eac10f32d20f447aa9773b90e",
+      "records": 500
+    },
+    "page-00107000": {
+      "id": "page-00107000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00107000.json",
+      "sha256": "98ea5cde252276a2a0217524256850361c94866617168aabc8f69ee681b56629",
+      "records": 500
+    },
+    "page-00107500": {
+      "id": "page-00107500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00107500.json",
+      "sha256": "a754ef1f54d874431c67f4923acd9020943affea8cd1ac4a95ea62e41ed5b890",
+      "records": 500
+    },
+    "page-00108000": {
+      "id": "page-00108000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00108000.json",
+      "sha256": "5bdcfb1d22365d5693301d94b3d50192ba98d7f5545d0d26ba8dc03ea356b658",
+      "records": 500
+    },
+    "page-00108500": {
+      "id": "page-00108500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00108500.json",
+      "sha256": "6dc4a1dd17e10455251f2ce4b3e10677e6b2637de65ef1050be32bc17333168a",
+      "records": 500
+    },
+    "page-00109000": {
+      "id": "page-00109000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00109000.json",
+      "sha256": "563d85503f8a25fe1acd176c19f3f1c6eaf84483bf707c38621c37f6a49cbc6a",
+      "records": 500
+    },
+    "page-00109500": {
+      "id": "page-00109500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00109500.json",
+      "sha256": "f2df6d6bd36127275b19d778955985f1e27a34cb09753674113eff578b861629",
+      "records": 500
+    },
+    "page-00110000": {
+      "id": "page-00110000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00110000.json",
+      "sha256": "0373d8bcce504b38cdba89fe636d4133f6e6ee674dec8412dcc2e5eda990fe3c",
+      "records": 500
+    },
+    "page-00110500": {
+      "id": "page-00110500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00110500.json",
+      "sha256": "36b8fd2f1a1406b76b3d1bc7eb4c2a26d4d685dd2ac324cd51cb3d58a1911fda",
+      "records": 500
+    },
+    "page-00111000": {
+      "id": "page-00111000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00111000.json",
+      "sha256": "68615b5ca1fd37d1c70987139caaa9ee72b662c9203baca84dc31f7e2af3809a",
+      "records": 500
+    },
+    "page-00111500": {
+      "id": "page-00111500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00111500.json",
+      "sha256": "94af6b4076fde4296d17a3946a7528a8e9913a6224396068cb6e6e1f6b537f6c",
+      "records": 500
+    },
+    "page-00112000": {
+      "id": "page-00112000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00112000.json",
+      "sha256": "bc1d8751e589e5c102399e3b367b48cffb0ffd66316d86808c136ee583085e7c",
+      "records": 500
+    },
+    "page-00112500": {
+      "id": "page-00112500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00112500.json",
+      "sha256": "fc42ee1954f073460e74b79f9764fad37387c42f6823da8929d14f1372f3e80c",
+      "records": 500
+    },
+    "page-00113000": {
+      "id": "page-00113000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00113000.json",
+      "sha256": "93d35374b20f6c4d345bf85588567b0bf126bc68520e3438122bcdf75ce54444",
+      "records": 500
+    },
+    "page-00113500": {
+      "id": "page-00113500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00113500.json",
+      "sha256": "e5ae6bf97f5b35bb3fe0a157a6fcf0e1d3a3fd847848da373512a46914226d53",
+      "records": 500
+    },
+    "page-00114000": {
+      "id": "page-00114000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00114000.json",
+      "sha256": "44c20da9f740de9a6a6212cee0d965b40a0072abbc4467e4a91fe4592c6ac5df",
+      "records": 500
+    },
+    "page-00114500": {
+      "id": "page-00114500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00114500.json",
+      "sha256": "aa41881574d42d176db50553f64b77267077118a195af434547376ee4e828446",
+      "records": 500
+    },
+    "page-00115000": {
+      "id": "page-00115000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00115000.json",
+      "sha256": "2c0f530f15bfda383b2a08d654c5dc1d949c26a1a8764d298bcf4107daaf4380",
+      "records": 500
+    },
+    "page-00115500": {
+      "id": "page-00115500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00115500.json",
+      "sha256": "769a9df34417e6c082b0f044d29c593a74e37a6173266f1bf617da2453f50c3d",
+      "records": 500
+    },
+    "page-00116000": {
+      "id": "page-00116000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00116000.json",
+      "sha256": "f42361ad6e68b33d77b7c6a70a5cbd6eb9b308f42935eb4377b36f1c366ba194",
+      "records": 500
+    },
+    "page-00116500": {
+      "id": "page-00116500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00116500.json",
+      "sha256": "6d208dd88c88f7cb496e50767f37fa2f2ed454e827fc4286d97b2a0c831916c1",
+      "records": 500
+    },
+    "page-00117000": {
+      "id": "page-00117000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00117000.json",
+      "sha256": "2336e1d580f795a35b4d7e28236ab50531bc48ad754f51cbef4051500ed0a896",
+      "records": 500
+    },
+    "page-00117500": {
+      "id": "page-00117500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00117500.json",
+      "sha256": "220643324293bc5251b9938276d5ebcf17048ce499619079893edfd7f1b9e7ef",
+      "records": 500
+    },
+    "page-00118000": {
+      "id": "page-00118000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00118000.json",
+      "sha256": "dc4514117b88cc8442fe392e19ce313756bc95470eca8478182f6971a950ca10",
+      "records": 500
+    },
+    "page-00118500": {
+      "id": "page-00118500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00118500.json",
+      "sha256": "09c71553713b55e6b1fe7d300b39a14293af8f1bc710343adb12a36c1e15503a",
+      "records": 500
+    },
+    "page-00119000": {
+      "id": "page-00119000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00119000.json",
+      "sha256": "e5dacb70fe171f561a74bb206c903f718474c415b6a4f3bddbfe31c2689a0a9f",
+      "records": 500
+    },
+    "page-00119500": {
+      "id": "page-00119500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00119500.json",
+      "sha256": "191901af0a681559fed6d5271983a10577feda6fa57b0ee0ba6968aa41776464",
+      "records": 500
+    },
+    "page-00120000": {
+      "id": "page-00120000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00120000.json",
+      "sha256": "183e421c93252975a44ef8b6cbde38642410333f76aca3ff6bf5115b7d2d5cfe",
+      "records": 500
+    },
+    "page-00120500": {
+      "id": "page-00120500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00120500.json",
+      "sha256": "15ac6e6c3c43331033def6823866b7efe7589aa5e2d0b7cc061188c3e5503dcf",
+      "records": 500
+    },
+    "page-00121000": {
+      "id": "page-00121000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00121000.json",
+      "sha256": "770d10f19cec91676f196f266e8cf6530fcd17bd63ffad01eb8584160a7bfd17",
+      "records": 500
+    },
+    "page-00121500": {
+      "id": "page-00121500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00121500.json",
+      "sha256": "3a964057d3960eecc30b86684a741a87de9adbbbf1c789f90292b4f1cd0611ab",
+      "records": 500
+    },
+    "page-00122000": {
+      "id": "page-00122000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00122000.json",
+      "sha256": "be48fc90facde535f78a6f2cfdf549be67b211e41b928ccb857613b0aa9698a1",
+      "records": 500
+    },
+    "page-00122500": {
+      "id": "page-00122500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00122500.json",
+      "sha256": "b46485b868b8e7b0f45f0a95082320d99aa6dc100d29d940a0495a941eda5a13",
+      "records": 500
+    },
+    "page-00123000": {
+      "id": "page-00123000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00123000.json",
+      "sha256": "c759df9f9bac0184560377dbb694e96b8958cd7e3e9492f621f350478312cd86",
+      "records": 500
+    },
+    "page-00123500": {
+      "id": "page-00123500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00123500.json",
+      "sha256": "bf4de875b15be48932c5deb9b6d617b9b9c3312391ec1a80fc548e573a2a944c",
+      "records": 500
+    },
+    "page-00124000": {
+      "id": "page-00124000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00124000.json",
+      "sha256": "a21951ea6f440bd7bc145aab2b640ba352096448b83612adec973b470a77aab4",
+      "records": 500
+    },
+    "page-00124500": {
+      "id": "page-00124500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00124500.json",
+      "sha256": "2b1ab74ea375cf3870bbb82a773632cd73f62869b7e10c13af7e9c6e39569c58",
+      "records": 500
+    },
+    "page-00125000": {
+      "id": "page-00125000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00125000.json",
+      "sha256": "058c23af319f91883b4a76e495645a3936a4b399905f6ccf7c9e138ba655cd51",
+      "records": 500
+    },
+    "page-00125500": {
+      "id": "page-00125500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00125500.json",
+      "sha256": "44baf0e93915bbb3182dc518414ce2271f76b800856ec32ace60d4af00b4391c",
+      "records": 500
+    },
+    "page-00126000": {
+      "id": "page-00126000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00126000.json",
+      "sha256": "f511780ad39de49943837fbbbb63ecabfdd49eb9297f0e64ffbe725bc01c8cc1",
+      "records": 500
+    },
+    "page-00126500": {
+      "id": "page-00126500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00126500.json",
+      "sha256": "57db7c02379aede484720057362d2dd676c13d0a74c16daeac4a8fa8b0ec76c1",
+      "records": 500
+    },
+    "page-00127000": {
+      "id": "page-00127000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00127000.json",
+      "sha256": "e228fb10063846636688d4e8c39ba21f437bdb39103e2cf817007ee333d6736e",
+      "records": 500
+    },
+    "page-00127500": {
+      "id": "page-00127500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00127500.json",
+      "sha256": "948e5465134dedc52d2f4cba75596c0dab05677d08f52538a1b70ffd0b00d9d2",
+      "records": 500
+    },
+    "page-00128000": {
+      "id": "page-00128000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00128000.json",
+      "sha256": "a0dc971b890657220f7c964285e5e34a886435ea56cdfcc4f4d47d9657013da2",
+      "records": 500
+    },
+    "page-00128500": {
+      "id": "page-00128500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00128500.json",
+      "sha256": "8e78ef91986c313776c7a72bacb5c674f6389e34e4ea81c21c3510f56fbba710",
+      "records": 500
+    },
+    "page-00129000": {
+      "id": "page-00129000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00129000.json",
+      "sha256": "7ec6eb4670bbac96f57f29629ae4a596d01420c8cd4d7c8018d52c7c95b12b32",
+      "records": 500
+    },
+    "page-00129500": {
+      "id": "page-00129500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00129500.json",
+      "sha256": "e294f4bd85c722c5d50e5425d16e26de3659d81496a6ca7c4f998bfb5eccfd2f",
+      "records": 500
+    },
+    "page-00130000": {
+      "id": "page-00130000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00130000.json",
+      "sha256": "f870b80c7c54370ec8976cd4c28b037b6d982ddc3f0e33632a40ab372bcec34a",
+      "records": 500
+    },
+    "page-00130500": {
+      "id": "page-00130500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00130500.json",
+      "sha256": "3f414dadbdf062fdd052a1ee08a57f279171c8e46ff3205b1104bd5a1baba382",
+      "records": 500
+    },
+    "page-00131000": {
+      "id": "page-00131000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00131000.json",
+      "sha256": "fef5bfe296f13321d8a64e88a6ab75db3f56dbce1235efe7d8d938da9c5127ec",
+      "records": 500
+    },
+    "page-00131500": {
+      "id": "page-00131500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00131500.json",
+      "sha256": "07c8173eb973e08b1f89383d4bfb0ad8abfc1e6f5fec7694bad0dd4b15586e7e",
+      "records": 500
+    },
+    "page-00132000": {
+      "id": "page-00132000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00132000.json",
+      "sha256": "799d5f3992f0f073602bc9a22074ab496377b8d0d48f36c56932b9dbb515ff97",
+      "records": 500
+    },
+    "page-00132500": {
+      "id": "page-00132500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00132500.json",
+      "sha256": "0b97170b11728a43fd70ca88023ee988cff5ef12c6e417dcdec34881e8d7fc0d",
+      "records": 500
+    },
+    "page-00133000": {
+      "id": "page-00133000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00133000.json",
+      "sha256": "fb49d7443dc92fe7b15682f08473844c843e7367a080687dc00c3caeb0ca7893",
+      "records": 500
+    },
+    "page-00133500": {
+      "id": "page-00133500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00133500.json",
+      "sha256": "264f4efbfe23e7e23214d1441e583ba2d5a8bed76628ff72f2bc7d88a834148b",
+      "records": 500
+    },
+    "page-00134000": {
+      "id": "page-00134000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00134000.json",
+      "sha256": "d8a997d2bbf5fb453f4e05bb7c86e98e20b50c08f991dabb7deec1f766b7446c",
+      "records": 500
+    },
+    "page-00134500": {
+      "id": "page-00134500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00134500.json",
+      "sha256": "ae0d5cec8d93976921381dc44c9ebcbd4af14cd2dcdee9762520bd4da0035379",
+      "records": 500
+    },
+    "page-00135000": {
+      "id": "page-00135000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00135000.json",
+      "sha256": "1ba8905c3edaddcc595a5c0270415e8a84fc409cd83e3b14bce3a47d54feec2a",
+      "records": 500
+    },
+    "page-00135500": {
+      "id": "page-00135500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00135500.json",
+      "sha256": "56bd8d7be771128bc5ef724c9688a189a99263239c161ffe132ffd7dcaa443a5",
+      "records": 500
+    },
+    "page-00136000": {
+      "id": "page-00136000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00136000.json",
+      "sha256": "2c02ef13e9df3040672dcb84a3758ce21d031995002c8e2472b7a14849333913",
+      "records": 500
+    },
+    "page-00136500": {
+      "id": "page-00136500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00136500.json",
+      "sha256": "d4c4a3fdbdd936cd4ecd75a93c7dd2b4824aa7720a3438899c145fc0c8bcff6e",
+      "records": 500
+    },
+    "page-00137000": {
+      "id": "page-00137000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00137000.json",
+      "sha256": "e71baac2277629420272fc635d78231e3f3c5b2ed4a639ee796eebed699d21f1",
+      "records": 500
+    },
+    "page-00137500": {
+      "id": "page-00137500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00137500.json",
+      "sha256": "25f50f329f88f93ef70ee781ee6c07b72958806a2146ea01d19574bc9d863959",
+      "records": 500
+    },
+    "page-00138000": {
+      "id": "page-00138000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00138000.json",
+      "sha256": "0cff2e0689898fa48f2bf591954d38069e56c50726ae24f126e8054e9bd10c15",
+      "records": 500
+    },
+    "page-00138500": {
+      "id": "page-00138500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00138500.json",
+      "sha256": "551e17a10c82cb94593a7d09dc25c9e7cc3af8d768fec1844fd4e1e9115776e2",
+      "records": 500
+    },
+    "page-00139000": {
+      "id": "page-00139000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00139000.json",
+      "sha256": "e455fb642a267bd79f4da662cc5b553fd576655c69600950daec429d9e4f7705",
+      "records": 500
+    },
+    "page-00139500": {
+      "id": "page-00139500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00139500.json",
+      "sha256": "702d28728f35030abb726c35a9deff6bc4ba22b333caf121b20ae6aa6eaf4778",
+      "records": 500
+    },
+    "page-00140000": {
+      "id": "page-00140000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00140000.json",
+      "sha256": "5009e5aa44c9498b96a5d46329934ac54e5643afe1e7bfff4aff8ceade3239d9",
+      "records": 500
+    },
+    "page-00140500": {
+      "id": "page-00140500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00140500.json",
+      "sha256": "fedb10b9810d43f20715741d37d7d9086a6b15d505321abf7cc88a681dabbce8",
+      "records": 500
+    },
+    "page-00141000": {
+      "id": "page-00141000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00141000.json",
+      "sha256": "cf2224e36df452ea5aa193e64e3aaca7efbe9c5663f52f8dd5d66f89255ffcba",
+      "records": 500
+    },
+    "page-00141500": {
+      "id": "page-00141500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00141500.json",
+      "sha256": "10d4a6551e995b2de4225aec2cbc4708293fff169ec089c20e37414f57e40e81",
+      "records": 500
+    },
+    "page-00142000": {
+      "id": "page-00142000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00142000.json",
+      "sha256": "6cf6c6953cde1e1d2b10048726f5fcf012201692ac06f1e805f4fcfe234cc9b6",
+      "records": 500
+    },
+    "page-00142500": {
+      "id": "page-00142500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00142500.json",
+      "sha256": "118ee41a2e59dce74c4b8c4988ea4d122dce59ccbd8eb98017f6d0f59398bb4d",
+      "records": 500
+    },
+    "page-00143000": {
+      "id": "page-00143000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00143000.json",
+      "sha256": "7caba3bbe3153bd5be6218c86f3ec63fd42b4e33659aa8f8ce2188eed69f275b",
+      "records": 500
+    },
+    "page-00143500": {
+      "id": "page-00143500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00143500.json",
+      "sha256": "fbd99513b642ea3d6a535af2b562e7b589f38eef4d31e8163134f04a0ee80728",
+      "records": 500
+    },
+    "page-00144000": {
+      "id": "page-00144000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00144000.json",
+      "sha256": "31c0857c3909c36a6a110e605745cd242a5a7317be34e7d398ad2ca43a0750fd",
+      "records": 500
+    },
+    "page-00144500": {
+      "id": "page-00144500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00144500.json",
+      "sha256": "14bddfc09e124707f683404e4b8997e85b8dd25b0cf051b7494365b27e97b1a5",
+      "records": 500
+    },
+    "page-00145000": {
+      "id": "page-00145000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00145000.json",
+      "sha256": "d27a6c05bb0e9d8e050a4257e760781a56be12612d3b44fc4decdffda406d72e",
+      "records": 500
+    },
+    "page-00145500": {
+      "id": "page-00145500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00145500.json",
+      "sha256": "425ce83e92218db05b18c69a3d2cf6db2b810d624900d37bcb60ed346e75b1e8",
+      "records": 500
+    },
+    "page-00146000": {
+      "id": "page-00146000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00146000.json",
+      "sha256": "507c09c3ebb1423f1fa53cdea688c0879a1eb258b4805cedf0576fd2c452970d",
+      "records": 500
+    },
+    "page-00146500": {
+      "id": "page-00146500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00146500.json",
+      "sha256": "149f2721984a6c3bf3d3aa3bb6060619b9ecc3b1163d0140f62986823737e904",
+      "records": 500
+    },
+    "page-00147000": {
+      "id": "page-00147000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00147000.json",
+      "sha256": "0950be9e47e529b882d06aa755c0fd2ec16ea078d3f25cde85c9fa28e3533785",
+      "records": 500
+    },
+    "page-00147500": {
+      "id": "page-00147500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00147500.json",
+      "sha256": "69bc22efcd80bd88143aee206d8853bb2799f3925ab4465aa49d0f55e09b221d",
+      "records": 500
+    },
+    "page-00148000": {
+      "id": "page-00148000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00148000.json",
+      "sha256": "3664905ac3674559533cd5abfd28cea860395e38b95606b9ea79acdbd5ecf5e4",
+      "records": 500
+    },
+    "page-00148500": {
+      "id": "page-00148500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00148500.json",
+      "sha256": "4f69f0c56b216054aace56aa0b5704f0eb6809f9fbbe1ba9859ae06072aea6b4",
+      "records": 500
+    },
+    "page-00149000": {
+      "id": "page-00149000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00149000.json",
+      "sha256": "4c8f980059eae6c35675715d045b2936f2649f49566655eee0c78d66358f2692",
+      "records": 500
+    },
+    "page-00149500": {
+      "id": "page-00149500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00149500.json",
+      "sha256": "e26381af5e53ebe00e83b0e2fd9debc8f24bc493ade30f97b3495adf8df1b256",
+      "records": 500
+    },
+    "page-00150000": {
+      "id": "page-00150000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00150000.json",
+      "sha256": "e4328e25b5fd8355693bf6c30e132543809ae2eb1a20f4be3cbaa5b56749b3cf",
+      "records": 500
+    },
+    "page-00150500": {
+      "id": "page-00150500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00150500.json",
+      "sha256": "295c541fc95b64e908cd58483a9e0154652456040179eaaac6de854b94c2a2a4",
+      "records": 500
+    },
+    "page-00151000": {
+      "id": "page-00151000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00151000.json",
+      "sha256": "9b1f07a6c1acab834f62df5f19d041176f7718143752346c6d735e48bc6a675e",
+      "records": 500
+    },
+    "page-00151500": {
+      "id": "page-00151500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00151500.json",
+      "sha256": "27cef8d5596e735c0055f7a410b4b10821360d3976acf6e9b0d75782909ca6ac",
+      "records": 500
+    },
+    "page-00152000": {
+      "id": "page-00152000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00152000.json",
+      "sha256": "0e66e42bca24bba30b4792588d7ca61ee0144f08a7a5672a3d5b18c6118869a7",
+      "records": 500
+    },
+    "page-00152500": {
+      "id": "page-00152500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00152500.json",
+      "sha256": "9a23217dbb85382b72c2413e3090a3a211af11c26a2ced82b5ddb2995fee623b",
+      "records": 500
+    },
+    "page-00153000": {
+      "id": "page-00153000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00153000.json",
+      "sha256": "37e01eb6da61db267bccb4a16cc744733b3ef0bfc160738dc897ec11dbe3f767",
+      "records": 500
+    },
+    "page-00153500": {
+      "id": "page-00153500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00153500.json",
+      "sha256": "ddb09398100f2ba510d80e8bfd6785094b3304623f1c7d99b779b9792af64603",
+      "records": 500
+    },
+    "page-00154000": {
+      "id": "page-00154000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00154000.json",
+      "sha256": "69ae4d8f7ed7724b6a619b48aa94c0470635d36a2e63c4318b2c4ea98f830051",
+      "records": 500
+    },
+    "page-00154500": {
+      "id": "page-00154500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00154500.json",
+      "sha256": "bb8d9c1ddeecfb8f77fafa31df350c87bded207464b256f3e5ef3d9b79ec8168",
+      "records": 500
+    },
+    "page-00155000": {
+      "id": "page-00155000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00155000.json",
+      "sha256": "efaa2a4f1a96f8a27235efe3b985ed89fe7c05b732c93912a0ea05c57cafca5b",
+      "records": 500
+    },
+    "page-00155500": {
+      "id": "page-00155500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00155500.json",
+      "sha256": "9a218bc33f6f5ec2ce9ed4152b6b486059e9ef1228e94fe14a9e35e41e74aa99",
+      "records": 500
+    },
+    "page-00156000": {
+      "id": "page-00156000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00156000.json",
+      "sha256": "a8b1e3509c79656961ade2fb5eedf2bd86189c342165717cdad46954eabbdb32",
+      "records": 500
+    },
+    "page-00156500": {
+      "id": "page-00156500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00156500.json",
+      "sha256": "17ec392f7150229842c6d01ee59d2753892598747fd0fc1e8b6105d1f5630aea",
+      "records": 500
+    },
+    "page-00157000": {
+      "id": "page-00157000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00157000.json",
+      "sha256": "faf1998253922d29ca51e057f68c88e99e57c306c06eb539ba6d10b15f02aa64",
+      "records": 500
+    },
+    "page-00157500": {
+      "id": "page-00157500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00157500.json",
+      "sha256": "1218ab5086d5637b6ef056433e5b5021a1e1e6036ef4dfff5b3639c65e87c390",
+      "records": 500
+    },
+    "page-00158000": {
+      "id": "page-00158000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00158000.json",
+      "sha256": "9691db7e24f6b805d5a5280b63e9f17744465b811c3090ef07dcaed438fcf8e5",
+      "records": 500
+    },
+    "page-00158500": {
+      "id": "page-00158500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00158500.json",
+      "sha256": "0bc7d911f4769fb562954fed8dd9d8485394a2554589465668fad2c665af62b0",
+      "records": 500
+    },
+    "page-00159000": {
+      "id": "page-00159000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00159000.json",
+      "sha256": "1358333fd884b94052ab2375bc44ef7825848630060173f80525d2bb2e10d549",
+      "records": 500
+    },
+    "page-00159500": {
+      "id": "page-00159500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00159500.json",
+      "sha256": "99ef7a033efabe0dd8f1b1f3741985eacd023c3424b68ad4204288223b15636f",
+      "records": 500
+    },
+    "page-00160000": {
+      "id": "page-00160000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00160000.json",
+      "sha256": "0f24d075e5f58f9967306bf3e82ea74a1892f7e5a7825f2713a79bcab2c6c5d9",
+      "records": 500
+    },
+    "page-00160500": {
+      "id": "page-00160500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00160500.json",
+      "sha256": "8b238321656bdb2b878bb6025b315cf4ac2ab9180c7f9287ffb56214a85105b4",
+      "records": 500
+    },
+    "page-00161000": {
+      "id": "page-00161000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00161000.json",
+      "sha256": "ee2f17e1a93464d38e40f3a4eebea650005edf22b9d2cebe329394a505ebb9d9",
+      "records": 500
+    },
+    "page-00161500": {
+      "id": "page-00161500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00161500.json",
+      "sha256": "3e4c7616725d805f48f99e0b4bb0f27534c11270a04643fd7c287efd5b24f5ad",
+      "records": 500
+    },
+    "page-00162000": {
+      "id": "page-00162000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00162000.json",
+      "sha256": "7f44cde541cc3949c239828742b15ed1f21fd186f646694abe52b9c7e0454c65",
+      "records": 500
+    },
+    "page-00162500": {
+      "id": "page-00162500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00162500.json",
+      "sha256": "72c2ab5c3a6b4ac346ecd37a419d6730142de80d315bcb214c10f9330a663566",
+      "records": 500
+    },
+    "page-00163000": {
+      "id": "page-00163000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00163000.json",
+      "sha256": "b9757d4b2b65eb60a426cb339d4197c4420f4061f8978d1533abe3755850c49f",
+      "records": 500
+    },
+    "page-00163500": {
+      "id": "page-00163500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00163500.json",
+      "sha256": "92d4be535c1534770d9e440216d7557b778523e2ccc3e2628c70d1eb6b84d554",
+      "records": 500
+    },
+    "page-00164000": {
+      "id": "page-00164000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00164000.json",
+      "sha256": "15af3914d68876d126ce28689418560b6b2afe660bc7082e8c440e4bc5dfb86b",
+      "records": 500
+    },
+    "page-00164500": {
+      "id": "page-00164500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00164500.json",
+      "sha256": "10271773359fcce2876d0e3855328c99815bd59d206af901d1b374791eedac83",
+      "records": 500
+    },
+    "page-00165000": {
+      "id": "page-00165000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00165000.json",
+      "sha256": "a222dccc02c7e5ef622f798587232844fedc52ba567770ded98d0540b9e15174",
+      "records": 500
+    },
+    "page-00165500": {
+      "id": "page-00165500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00165500.json",
+      "sha256": "f90b78713c7ad44be023f2e352a62f2dfd7f65d38eeece4c8c9c0e07be3e2267",
+      "records": 500
+    },
+    "page-00166000": {
+      "id": "page-00166000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00166000.json",
+      "sha256": "73f1fe9d7acaef01ff8c1f06b05f9adb1cfffc80d0ab91cdd348f225202341b4",
+      "records": 500
+    },
+    "page-00166500": {
+      "id": "page-00166500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00166500.json",
+      "sha256": "01ca8238a13754ba54ae2185a6ab8c35c06a09b2da1f69b3a3cf7f6ec121bcff",
+      "records": 500
+    },
+    "page-00167000": {
+      "id": "page-00167000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00167000.json",
+      "sha256": "d028a30f3956eabae9d1f3fb46f764580f452fbafe9f6d0751e6067e59a5250d",
+      "records": 500
+    },
+    "page-00167500": {
+      "id": "page-00167500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00167500.json",
+      "sha256": "0ecdc7c8cca3951e21281d8967c7964616b6c70f9cee8b892aa5a0e4e297bb6d",
+      "records": 500
+    },
+    "page-00168000": {
+      "id": "page-00168000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00168000.json",
+      "sha256": "caf98697a6dcfdd3bdaa67d22e5ed4f41b00b567932de9eab2bc9dd586aed650",
+      "records": 500
+    },
+    "page-00168500": {
+      "id": "page-00168500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00168500.json",
+      "sha256": "5a1008e1f0026dc97d101f44e84d0676b4354be13ed9c6904209a33b9b4f8eba",
+      "records": 500
+    },
+    "page-00169000": {
+      "id": "page-00169000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00169000.json",
+      "sha256": "0f6303d77a769cec26e05c17ed89060334bab9fdc185881c7d333033256a760d",
+      "records": 500
+    },
+    "page-00169500": {
+      "id": "page-00169500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00169500.json",
+      "sha256": "ababfe688fd9038e308a85c4c1bbdfe15cc4a523267416fa9650e2a898a6d85b",
+      "records": 500
+    },
+    "page-00170000": {
+      "id": "page-00170000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00170000.json",
+      "sha256": "08d74d4bbd2d4f93d7645fd05c468de895bb3bc4bf4eb37c9f619e5bddaa4a3a",
+      "records": 500
+    },
+    "page-00170500": {
+      "id": "page-00170500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00170500.json",
+      "sha256": "dbbeafb68cb199086263e88c4079f59c0f513e7f41a4d61802b07888df3ea303",
+      "records": 500
+    },
+    "page-00171000": {
+      "id": "page-00171000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00171000.json",
+      "sha256": "7522ed57696d5e234718de2806da9b55bfd8287598b122ce4313eecc30177673",
+      "records": 500
+    },
+    "page-00171500": {
+      "id": "page-00171500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00171500.json",
+      "sha256": "5bc1616d2413c90aac0b23a751c7ffb0ddb6c18a713c28b44f411fa4e7b14bc7",
+      "records": 500
+    },
+    "page-00172000": {
+      "id": "page-00172000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00172000.json",
+      "sha256": "22c624153140da281aa6ca860d0b18d2cd50794da4730e318fb6384e2dc479b0",
+      "records": 500
+    },
+    "page-00172500": {
+      "id": "page-00172500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00172500.json",
+      "sha256": "79cf421f291ae883ca1688e1c2d6ee1992d9339abf352d57b30f5e9b5c46c1f9",
+      "records": 500
+    },
+    "page-00173000": {
+      "id": "page-00173000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00173000.json",
+      "sha256": "5aeca0f5e85f501399383a29c32fd0b915d3d9672d3a475853e5fcc3b8dc172f",
+      "records": 500
+    },
+    "page-00173500": {
+      "id": "page-00173500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00173500.json",
+      "sha256": "73c12806469cac7d734a2ca7693d8827bb63b8557164ac5c7d74c42a87942d75",
+      "records": 500
+    },
+    "page-00174000": {
+      "id": "page-00174000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00174000.json",
+      "sha256": "137e0807cf79727a3543e14c07fb3a91ff830442f23de2dfc7af321fe18670f4",
+      "records": 500
+    },
+    "page-00174500": {
+      "id": "page-00174500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00174500.json",
+      "sha256": "040c60e8a2b6e7f0157c15511ad240801e01e0627219612da952f45f32e6c564",
+      "records": 500
+    },
+    "page-00175000": {
+      "id": "page-00175000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00175000.json",
+      "sha256": "8694d7ce93b111670e15af3039dc1c18c5204cc1fc41eb9cffac7045707a8d22",
+      "records": 500
+    },
+    "page-00175500": {
+      "id": "page-00175500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00175500.json",
+      "sha256": "45cd6e0e401d1c5dcd3e0f6185eec715194d811f4c0e6e30ad2cfbb90b34c4a4",
+      "records": 500
+    },
+    "page-00176000": {
+      "id": "page-00176000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00176000.json",
+      "sha256": "15f24113956bee2ba8f455041ea8536b955dc72d69e8a33c9a50acd58ffa4a35",
+      "records": 500
+    },
+    "page-00176500": {
+      "id": "page-00176500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00176500.json",
+      "sha256": "2a8ca357e7a09a5bc5662f5fee04f8f6cc51b14fcf1fa4dfdff57e55ffae90de",
+      "records": 500
+    },
+    "page-00177000": {
+      "id": "page-00177000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00177000.json",
+      "sha256": "55ad5314df122ca00f51f584fcd03e0c13c407996e8e99ab18faa2354172ae9e",
+      "records": 500
+    },
+    "page-00177500": {
+      "id": "page-00177500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00177500.json",
+      "sha256": "7a9098dbfe0729a736e0630bcfbc51d35d0ef84eacb00b680db75da39c0a6781",
+      "records": 500
+    },
+    "page-00178000": {
+      "id": "page-00178000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00178000.json",
+      "sha256": "a9190073e9b425954360fd7bdb77321f14333239c800d23aba6cc540e13fa961",
+      "records": 500
+    },
+    "page-00178500": {
+      "id": "page-00178500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00178500.json",
+      "sha256": "6f4791e9ada9fa141b15f3117086519eeecfef157051f58cbea3b6462a64698d",
+      "records": 500
+    },
+    "page-00179000": {
+      "id": "page-00179000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00179000.json",
+      "sha256": "31c5f6a64d80d2fbe393ecfaf23ecc6d3229df11d5e43416f4204bd8ee348d09",
+      "records": 500
+    },
+    "page-00179500": {
+      "id": "page-00179500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00179500.json",
+      "sha256": "aabd5a347e8a6ab86d4182d4af3215e656ae718eab7755c1b0c359a8dee7a327",
+      "records": 500
+    },
+    "page-00180000": {
+      "id": "page-00180000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00180000.json",
+      "sha256": "a4fa4cd164e0003b8aa8408a612d99381ae5f0089e6cae761cf4f042814d4ec7",
+      "records": 500
+    },
+    "page-00180500": {
+      "id": "page-00180500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00180500.json",
+      "sha256": "e147fe49a636e6cca57a1ccd1399856bd744fc39d5da40b1ce2d67f5ee6377ca",
+      "records": 500
+    },
+    "page-00181000": {
+      "id": "page-00181000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00181000.json",
+      "sha256": "b71c49fee5d17daafc823fb5b689bb1d013055e748180d5992caf7f62499fbfd",
+      "records": 500
+    },
+    "page-00181500": {
+      "id": "page-00181500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00181500.json",
+      "sha256": "806417e475be7a54320d6cb7dbadbfb8c479c25b8bac5c9991551add5f8e4afb",
+      "records": 500
+    },
+    "page-00182000": {
+      "id": "page-00182000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00182000.json",
+      "sha256": "d51acd22de2a51acec8a87a57344e221db51e66de76b2f16fd3b986b1bf25ad3",
+      "records": 500
+    },
+    "page-00182500": {
+      "id": "page-00182500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00182500.json",
+      "sha256": "70076c931a1aeaf2d4a7db6e0d7fdb7c74df26ad9d0d33c8bde0aa017413866b",
+      "records": 500
+    },
+    "page-00183000": {
+      "id": "page-00183000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00183000.json",
+      "sha256": "c24c914d2d1989cf8f42d3a3dfe7284ec31dfb53203cbe8fe6dae13730e66a9b",
+      "records": 500
+    },
+    "page-00183500": {
+      "id": "page-00183500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00183500.json",
+      "sha256": "8fa6e89ba130c3869a74b6217726f85379a7cd856707e5d1510bcc69f4cc6460",
+      "records": 500
+    },
+    "page-00184000": {
+      "id": "page-00184000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00184000.json",
+      "sha256": "98b2324f607043a0a76bdc02cdbbd551b4ca409cf0cbfc4592bd565406ef9591",
+      "records": 500
+    },
+    "page-00184500": {
+      "id": "page-00184500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00184500.json",
+      "sha256": "e25876b4a1ec7b4e958557a81aec36cd0e5d2fad0f18e4e611396c1b1e0628c3",
+      "records": 500
+    },
+    "page-00185000": {
+      "id": "page-00185000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00185000.json",
+      "sha256": "410e1d80d703bbc9befa958a20d99f7a0ccd1144adbc22f2d26c50fed1852813",
+      "records": 500
+    },
+    "page-00185500": {
+      "id": "page-00185500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00185500.json",
+      "sha256": "7ef2d6f7a86f5f581d398546e05b9a61f58206bc1ecd67cc243ac8531a7541e6",
+      "records": 500
+    },
+    "page-00186000": {
+      "id": "page-00186000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00186000.json",
+      "sha256": "e4cbde14f57ddd5745dd8ac12b23cbfcdcf385812ee6087356eb4c6b6843f830",
+      "records": 500
+    },
+    "page-00186500": {
+      "id": "page-00186500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00186500.json",
+      "sha256": "4c6fe49148a3b30c6c9fd00954415c017ed649c6155e79fb76818c550614ee1c",
+      "records": 500
+    },
+    "page-00187000": {
+      "id": "page-00187000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00187000.json",
+      "sha256": "c16f7385d1784741c7904f592598da7a655f74add335251c8b667cb2f851ea1e",
+      "records": 500
+    },
+    "page-00187500": {
+      "id": "page-00187500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00187500.json",
+      "sha256": "c4267234dedff18746f78ed16621d5eb38a6601390ce50d3c2d8d1eab813faac",
+      "records": 500
+    },
+    "page-00188000": {
+      "id": "page-00188000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00188000.json",
+      "sha256": "1df85c3765c587fe71fd11a76a90e758b34d6c4bd31ebb4cb274d8e22a4c061b",
+      "records": 500
+    },
+    "page-00188500": {
+      "id": "page-00188500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00188500.json",
+      "sha256": "68551611027c44bc8a421b722f333cb4f20662452c259dbad34503419cb6ed40",
+      "records": 500
+    },
+    "page-00189000": {
+      "id": "page-00189000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00189000.json",
+      "sha256": "6b1ba2e0a73d0701f6aff730ce046b90a008f901abbfe5c8c157dedd24b0bc27",
+      "records": 500
+    },
+    "page-00189500": {
+      "id": "page-00189500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00189500.json",
+      "sha256": "20f28e1c3f200d193156234ea407978b381f3e006ade90a050c3faf378df3ba4",
+      "records": 500
+    },
+    "page-00190000": {
+      "id": "page-00190000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00190000.json",
+      "sha256": "a5720ed0cc2d9792ad17067fc42465d4e23c487b310df5947011befaf1960e73",
+      "records": 500
+    },
+    "page-00190500": {
+      "id": "page-00190500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00190500.json",
+      "sha256": "b11029e691062ad8494c75770f07bd287e51fcb9c62330f8cd2641fe8e1f4620",
+      "records": 500
+    },
+    "page-00191000": {
+      "id": "page-00191000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00191000.json",
+      "sha256": "b663120653fc7869b585e33ea35f5427408af1e94abf2831d2ee9937c7583c27",
+      "records": 500
+    },
+    "page-00191500": {
+      "id": "page-00191500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00191500.json",
+      "sha256": "b256466b0d4e19901490d752126e9c65ced976f43e4c7c5f704c938d4cb11f00",
+      "records": 500
+    },
+    "page-00192000": {
+      "id": "page-00192000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00192000.json",
+      "sha256": "99f149a1af1d6fd594cdf80169ec2ce333125137f8206fd7102a2b8d87a14e59",
+      "records": 500
+    },
+    "page-00192500": {
+      "id": "page-00192500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00192500.json",
+      "sha256": "6fe7102092de0f02127433d374771b8cbc0c3c08afe113e6837a7c40b9dcc50d",
+      "records": 500
+    },
+    "page-00193000": {
+      "id": "page-00193000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00193000.json",
+      "sha256": "e87906c006739b8a260bae00ac30a5494141478a7aafdb2b349baca4d508d252",
+      "records": 500
+    },
+    "page-00193500": {
+      "id": "page-00193500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00193500.json",
+      "sha256": "16f686dbaf81860603336dbb9220a734a453e61904f582b8b614097336662517",
+      "records": 500
+    },
+    "page-00194000": {
+      "id": "page-00194000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00194000.json",
+      "sha256": "cdd3f5f7ca98c3779b406cbbed50802d200188b2d87da1ed6e610b03a14beca9",
+      "records": 500
+    },
+    "page-00194500": {
+      "id": "page-00194500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00194500.json",
+      "sha256": "224124f50e1aacb7830ffd6241f123685442a2508294fd1fef8007635005ec52",
+      "records": 500
+    },
+    "page-00195000": {
+      "id": "page-00195000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00195000.json",
+      "sha256": "40a7bd0cdc135e906b84988f90069fab8d28a517a7f961ac7172e70d0ea7cc80",
+      "records": 500
+    },
+    "page-00195500": {
+      "id": "page-00195500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00195500.json",
+      "sha256": "9c396cb3cd70955f8d1583fd216fde22ac21605a06536269858661e4134fa2e0",
+      "records": 500
+    },
+    "page-00196000": {
+      "id": "page-00196000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00196000.json",
+      "sha256": "dff533b98491c3c634720fd5b14542334519e23f213a21a817fa6896fd3749bc",
+      "records": 500
+    },
+    "page-00196500": {
+      "id": "page-00196500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00196500.json",
+      "sha256": "b2420c1ecc49c083393e101a4af98265a6b43af4d9503a320a2b4ba3cf4f249b",
+      "records": 500
+    },
+    "page-00197000": {
+      "id": "page-00197000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00197000.json",
+      "sha256": "53f81ea461b970c856d63bfe92a6cb21d6239887dd38b0ec63c67684acb01532",
+      "records": 500
+    },
+    "page-00197500": {
+      "id": "page-00197500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00197500.json",
+      "sha256": "55d94fa2b8255c681b8c4142992e5d07098c5868d9505aeec059680f17d4bbf6",
+      "records": 500
+    },
+    "page-00198000": {
+      "id": "page-00198000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00198000.json",
+      "sha256": "0b700569a8d9aa75e7ed042cb674450ed340130acccaa1596e1090f1ebfa1d68",
+      "records": 500
+    },
+    "page-00198500": {
+      "id": "page-00198500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00198500.json",
+      "sha256": "adf6f8f9cbd498cca8464aaf7d64b43e57caa5ae3b3899fb1e90cefcbd189b9c",
+      "records": 500
+    },
+    "page-00199000": {
+      "id": "page-00199000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00199000.json",
+      "sha256": "1bc6373ace22c2846d3e8c6dad09a086b190388052c6fa2cde0bd1da51c365df",
+      "records": 500
+    },
+    "page-00199500": {
+      "id": "page-00199500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00199500.json",
+      "sha256": "42d0b7835d564e73fbf00ab7e76430442cc0848ed61fd4c41dc4d0bd6c925e6d",
+      "records": 500
+    },
+    "page-00200000": {
+      "id": "page-00200000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00200000.json",
+      "sha256": "1ab1457149b0aac693a6fbe627fc2d2de4952150bb89ca7185aaa250a7a95d5a",
+      "records": 500
+    },
+    "page-00200500": {
+      "id": "page-00200500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00200500.json",
+      "sha256": "8e3a4e6b61d8b9b52b1ee2b678fecd4f6387a7a8edc5f860468babdea0cdc033",
+      "records": 500
+    },
+    "page-00201000": {
+      "id": "page-00201000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00201000.json",
+      "sha256": "88ce7359b4d43efa11de496d5e1ef212d8d17a451e3b85553f9b18703a955c3e",
+      "records": 500
+    },
+    "page-00201500": {
+      "id": "page-00201500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00201500.json",
+      "sha256": "edb59e26b8cd66c0e501efb495bc09a597e7a431c5e39ab23b6ab4737d75de0c",
+      "records": 500
+    },
+    "page-00202000": {
+      "id": "page-00202000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00202000.json",
+      "sha256": "e7052d2d2eb7f4b09ecd0dd984b954212764336656229faa9f184ce4ec3c54c5",
+      "records": 500
+    },
+    "page-00202500": {
+      "id": "page-00202500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00202500.json",
+      "sha256": "0b05d3fbcee9ff9b7ff9ef4150f67ef7477f625873678280053b185249b44192",
+      "records": 500
+    },
+    "page-00203000": {
+      "id": "page-00203000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00203000.json",
+      "sha256": "31bd8d6d087e93646aad9f4eb79ad7cfbd5b929218b5e4b492a8b9d3ea14da38",
+      "records": 500
+    },
+    "page-00203500": {
+      "id": "page-00203500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00203500.json",
+      "sha256": "a1ccaee28a09de23db20582b2b753f78892158ea9952d6e0ae6f959f1dac0a1e",
+      "records": 500
+    },
+    "page-00204000": {
+      "id": "page-00204000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00204000.json",
+      "sha256": "f3a62d9d9b29cc31d3bef2a898b8cbbdd1dbf9927133160ef15c31e9b5f7cefb",
+      "records": 500
+    },
+    "page-00204500": {
+      "id": "page-00204500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00204500.json",
+      "sha256": "eb19575d6639e0dcbf0cb3c4eab1947e31b8efaf57b86e2baf88acc47aaf792c",
+      "records": 500
+    },
+    "page-00205000": {
+      "id": "page-00205000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00205000.json",
+      "sha256": "3772b75b8d0a112d1cea115ebc3b39d96ba4c52a6bbe701c06c316cb799b7c8b",
+      "records": 500
+    },
+    "page-00205500": {
+      "id": "page-00205500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00205500.json",
+      "sha256": "094d4a12498c290864eca209ef497f380f766c23b4faf7d0c721b0565ae3d5a8",
+      "records": 500
+    },
+    "page-00206000": {
+      "id": "page-00206000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00206000.json",
+      "sha256": "6143c1f298fba3a9b10edd04c5fffa171e69c37012b01ba61efb7aaf36cb912b",
+      "records": 500
+    },
+    "page-00206500": {
+      "id": "page-00206500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00206500.json",
+      "sha256": "5854747dcff1bf43ca37ffe9cd6fe885ebc8c7b071f2c512d4061e4df7f99bae",
+      "records": 500
+    },
+    "page-00207000": {
+      "id": "page-00207000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00207000.json",
+      "sha256": "0798b8767d62ec97019be5d795a72a7625a397488a6eed46b6e1fbd019da638a",
+      "records": 500
+    },
+    "page-00207500": {
+      "id": "page-00207500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00207500.json",
+      "sha256": "c7fb4499f7b710dcc6e731ee78b602388322741972eb8294edd73b755ff61d89",
+      "records": 500
+    },
+    "page-00208000": {
+      "id": "page-00208000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00208000.json",
+      "sha256": "4bb4bf3346a1388122fb08fd4dcf3059e3d618cf08fec40ccb9ec7610e930e3a",
+      "records": 500
+    },
+    "page-00208500": {
+      "id": "page-00208500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00208500.json",
+      "sha256": "72edc19ff330e5cfc0e026362dbff5de8f7ad5fe099a0edfd807092f6f54f5e7",
+      "records": 500
+    },
+    "page-00209000": {
+      "id": "page-00209000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00209000.json",
+      "sha256": "0a19f3ea4a63cd7013c84fcfac3bf68444c9d3f6835b31a78b9d9e8f90754f5e",
+      "records": 500
+    },
+    "page-00209500": {
+      "id": "page-00209500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00209500.json",
+      "sha256": "18f7a3adce2292a042b973a874649ef03b90a506cc91a0f9413d6ca3a72b201f",
+      "records": 500
+    },
+    "page-00210000": {
+      "id": "page-00210000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00210000.json",
+      "sha256": "07ed52064fc91b2c9349dab39d449dc8da21f9749f5e2e9375e0fb05847d53f9",
+      "records": 500
+    },
+    "page-00210500": {
+      "id": "page-00210500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00210500.json",
+      "sha256": "8a23de4c674df1cc54b0b0a5a38e602ba7aa410c55b351ce2f250008b55dd895",
+      "records": 500
+    },
+    "page-00211000": {
+      "id": "page-00211000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00211000.json",
+      "sha256": "fe582e0f830c90ab87ab8dfc1553442c634585feee91d49949fddc424cde5074",
+      "records": 500
+    },
+    "page-00211500": {
+      "id": "page-00211500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00211500.json",
+      "sha256": "848a5b203f7d245ee4af7e5f20198b1baf97cb522d45c6e5257ad23bbbec8185",
+      "records": 500
+    },
+    "page-00212000": {
+      "id": "page-00212000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00212000.json",
+      "sha256": "fad0ddde414ee98b8354fd2a2b3c0b60fcebf80a19e802a321831282d24539db",
+      "records": 500
+    },
+    "page-00212500": {
+      "id": "page-00212500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00212500.json",
+      "sha256": "a98a8453da64e65c822b7cb2139f7f6455aa00d3acff7e14cbbdf5d6db450bb6",
+      "records": 500
+    },
+    "page-00213000": {
+      "id": "page-00213000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00213000.json",
+      "sha256": "5acc5656a5eb8a414af05ee30d60dfac02f0dbfb400619dfb5f811a329ccc375",
+      "records": 500
+    },
+    "page-00213500": {
+      "id": "page-00213500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00213500.json",
+      "sha256": "8bf20735a1fe1bc68110a938a63b21e5f5612b9e6c9966fc1cb89656c4641569",
+      "records": 500
+    },
+    "page-00214000": {
+      "id": "page-00214000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00214000.json",
+      "sha256": "739cfd902137c1a54f2f2c18b136291bdfd7f95a8be9ee3fb5310d60eb921f21",
+      "records": 500
+    },
+    "page-00214500": {
+      "id": "page-00214500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00214500.json",
+      "sha256": "1381f4dad9de1853776d9ea635aae471e03fc14807a9c9b4cc68365ee6627ffd",
+      "records": 500
+    },
+    "page-00215000": {
+      "id": "page-00215000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00215000.json",
+      "sha256": "8911042aaabad63284fc24c6a44bcc1f695ec623a7fca5c9fbfc5cc30609a205",
+      "records": 500
+    },
+    "page-00215500": {
+      "id": "page-00215500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00215500.json",
+      "sha256": "a52772432aa334787c4fa9d68dca0e245bd6014a38a50b02257b9c261d20203a",
+      "records": 500
+    },
+    "page-00216000": {
+      "id": "page-00216000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00216000.json",
+      "sha256": "6a07f13a738bd705e2733822deeed0b5ea60e9f68188404c4c7cb57fb9e7b823",
+      "records": 500
+    },
+    "page-00216500": {
+      "id": "page-00216500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00216500.json",
+      "sha256": "d51030df5020e517020a6419e719dbe664f3573c129ed5dbacced038e8e8cb32",
+      "records": 500
+    },
+    "page-00217000": {
+      "id": "page-00217000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00217000.json",
+      "sha256": "c622c5bbcbda59803f1187df44bb5e1e9b9fcdff13dcc25b3f892ae22d80588f",
+      "records": 500
+    },
+    "page-00217500": {
+      "id": "page-00217500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00217500.json",
+      "sha256": "427b3cba9b32d827591b9494ac7de9dd73ee1de21be397f08af504ce20783891",
+      "records": 500
+    },
+    "page-00218000": {
+      "id": "page-00218000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00218000.json",
+      "sha256": "00938b404f1c3179cb97567ab2d32a8f6c62deb8363be010a50b83ec82141c5d",
+      "records": 500
+    },
+    "page-00218500": {
+      "id": "page-00218500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00218500.json",
+      "sha256": "361b863bdea87cce3b72cfd4e277bedfe6ff98ada3be9ab63a8c4097b80159a2",
+      "records": 500
+    },
+    "page-00219000": {
+      "id": "page-00219000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00219000.json",
+      "sha256": "23dd5a4ad2553ef8a6d517213f92ada46b6dbb5d5ba8e59dd2622f88548ea9a8",
+      "records": 500
+    },
+    "page-00219500": {
+      "id": "page-00219500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00219500.json",
+      "sha256": "6778740a6db8fe49dee5bb0d10d621e750bfee11f6dd911d50706d1e463afe3a",
+      "records": 500
+    },
+    "page-00220000": {
+      "id": "page-00220000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00220000.json",
+      "sha256": "08253f0226b7b904d6d233fa562ab0768325c09b20877bfab185e8ce32fd93df",
+      "records": 500
+    },
+    "page-00220500": {
+      "id": "page-00220500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00220500.json",
+      "sha256": "b52f7730a1225d3d15b6c3fafecafbd1a189a5953139938815f89929525ca443",
+      "records": 500
+    },
+    "page-00221000": {
+      "id": "page-00221000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00221000.json",
+      "sha256": "765a11b767baea77b8dee3a9913aab60fed3814e3884364b359a14737a190a3f",
+      "records": 500
+    },
+    "page-00221500": {
+      "id": "page-00221500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00221500.json",
+      "sha256": "aa31a49d2385febb60b0c859f93e3fe1a240efed56029e9e7b516bfbbf507466",
+      "records": 500
+    },
+    "page-00222000": {
+      "id": "page-00222000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00222000.json",
+      "sha256": "03d766d879d86c4fd8a6ffecde4ae3d574e999cfbbd3302482f7f9aae0904a24",
+      "records": 500
+    },
+    "page-00222500": {
+      "id": "page-00222500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00222500.json",
+      "sha256": "e5c5f141b6aa85a57f9238351c81e3b10b72742955f6b33f4bf9cd0e7410f6ae",
+      "records": 500
+    },
+    "page-00223000": {
+      "id": "page-00223000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00223000.json",
+      "sha256": "8b47d7749289619a4bc4d7629c19c19f294920ff90f4d974fbf2d9d4da498eb5",
+      "records": 500
+    },
+    "page-00223500": {
+      "id": "page-00223500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00223500.json",
+      "sha256": "e1cf1ab6984c49d141596b7bbb94078b7ade53ee24103a53a076a2be70c0fb80",
+      "records": 500
+    },
+    "page-00224000": {
+      "id": "page-00224000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00224000.json",
+      "sha256": "c4df21a0084cd9a26a8bebc0a24bbdb06ca0f7f7a26ad83d8dac5b09848d1f37",
+      "records": 500
+    },
+    "page-00224500": {
+      "id": "page-00224500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00224500.json",
+      "sha256": "a797a3cf64f7f3b5297e4d9aa4ca208295d2e0d5459296806e84cce30f2e5e1e",
+      "records": 500
+    },
+    "page-00225000": {
+      "id": "page-00225000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00225000.json",
+      "sha256": "61c5ea03b174708489e78a36465f548344a4077e3482b3c70b7baf4ae73fe14b",
+      "records": 500
+    },
+    "page-00225500": {
+      "id": "page-00225500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00225500.json",
+      "sha256": "65e18dc337ef13a29a02dc047b61563c37ad91b5f57ee6f9905408de0108db3b",
+      "records": 500
+    },
+    "page-00226000": {
+      "id": "page-00226000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00226000.json",
+      "sha256": "1a4e05422e6d5acb3dbe2c9a01ffb056859eb1478f706a170a30477f22f035e5",
+      "records": 500
+    },
+    "page-00226500": {
+      "id": "page-00226500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00226500.json",
+      "sha256": "3842a5ca8e64dfef29ab137c9601d89aa95c3dd88406fe1669d3fda4d73aeb13",
+      "records": 500
+    },
+    "page-00227000": {
+      "id": "page-00227000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00227000.json",
+      "sha256": "5fbce7fb5b6158409bf25df6614980c62ebdec5177f5038a675c28ea5cae4b61",
+      "records": 500
+    },
+    "page-00227500": {
+      "id": "page-00227500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00227500.json",
+      "sha256": "fc76322a08dbc9decbcb0a787322ae0c8c89733cd12b22fe08659e32eb10a72c",
+      "records": 500
+    },
+    "page-00228000": {
+      "id": "page-00228000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00228000.json",
+      "sha256": "f944f83301c1172b381d06cd053fca8048b230f33d5af32bc76d86ba7f0bab0c",
+      "records": 500
+    },
+    "page-00228500": {
+      "id": "page-00228500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00228500.json",
+      "sha256": "35d4f9435ced1104b3d84eaf941e87cea4272fd1e81b8cf65d1db8cde4896532",
+      "records": 500
+    },
+    "page-00229000": {
+      "id": "page-00229000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00229000.json",
+      "sha256": "616118f1730029e9207760ee653c4dffc05daa72d529f3b941e3deaa8a2520d1",
+      "records": 500
+    },
+    "page-00229500": {
+      "id": "page-00229500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00229500.json",
+      "sha256": "596d3bf8de1ee6cd81c506c1bbca14abfb13eb756b16bf7fbe0d64642f74d738",
+      "records": 500
+    },
+    "page-00230000": {
+      "id": "page-00230000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00230000.json",
+      "sha256": "8396eb3f70380cf75bb432d106b800e71225e6fe6671da4bfb01f478b4d99191",
+      "records": 500
+    },
+    "page-00230500": {
+      "id": "page-00230500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00230500.json",
+      "sha256": "42c51f406b5ece8dd572fa48834beb7ccd74de8277134305c96d8a5da28ba34f",
+      "records": 500
+    },
+    "page-00231000": {
+      "id": "page-00231000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00231000.json",
+      "sha256": "2cc7178407bb66e2f2d242fa4db10965b2ce488afb4786a32e252755063f837b",
+      "records": 500
+    },
+    "page-00231500": {
+      "id": "page-00231500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00231500.json",
+      "sha256": "3db57c2ceb1f00858e880a9f4cc532242c7b7607cef678b4be2cd128afa72caa",
+      "records": 500
+    },
+    "page-00232000": {
+      "id": "page-00232000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00232000.json",
+      "sha256": "070e93c7e8de2d3346feb86dfef7db2ee2b269e2c0fbac232e0b3756e172c626",
+      "records": 500
+    },
+    "page-00232500": {
+      "id": "page-00232500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00232500.json",
+      "sha256": "44afa79a3c16f327c70cd62904f3b4e876958115d5bdea23e95941387dc1c714",
+      "records": 500
+    },
+    "page-00233000": {
+      "id": "page-00233000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00233000.json",
+      "sha256": "e274f42e054e2e52fb2abbbc29c491c15dcc4d757c8e410b736d897f2bac4696",
+      "records": 500
+    },
+    "page-00233500": {
+      "id": "page-00233500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00233500.json",
+      "sha256": "48aa2aa0824b3993b1fcc0681b92875e52f0e95644492e476102e1fdeabba7b7",
+      "records": 500
+    },
+    "page-00234000": {
+      "id": "page-00234000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00234000.json",
+      "sha256": "44192d54fd5c899dda385529c7a35eeb9132442624512f110d707d98735dd202",
+      "records": 500
+    },
+    "page-00234500": {
+      "id": "page-00234500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00234500.json",
+      "sha256": "c2fbf242f4f811ebb3a9ddd0c5de46d51896f3fdd17c9eeb1264cb8ccf004529",
+      "records": 500
+    },
+    "page-00235000": {
+      "id": "page-00235000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00235000.json",
+      "sha256": "8622da0f8857a5c2f0ae561c7a96613a23217f8a89e53e17445efad943e1f60a",
+      "records": 500
+    },
+    "page-00235500": {
+      "id": "page-00235500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00235500.json",
+      "sha256": "9d182e74c8e4e236580dc0f9fd69b5db93b3ea4a96936bb3106704f59f7cae16",
+      "records": 500
+    },
+    "page-00236000": {
+      "id": "page-00236000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00236000.json",
+      "sha256": "ce9628e5befb72374e800c48adb85123a19c128a6257c7b6167adadfc18602bd",
+      "records": 500
+    },
+    "page-00236500": {
+      "id": "page-00236500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00236500.json",
+      "sha256": "020f0a59a6e0dc91701736075920bf071e87e8b18a9d5a71cfd76196395bf238",
+      "records": 500
+    },
+    "page-00237000": {
+      "id": "page-00237000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00237000.json",
+      "sha256": "4b2e5674c976eeff41835923593f51bae2a26b62f16aa767df96bece2be7f4a6",
+      "records": 500
+    },
+    "page-00237500": {
+      "id": "page-00237500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00237500.json",
+      "sha256": "a3a288adabac8d878685148cd60788c9f1dcb1055aa6ed3760a5db855e63b5cd",
+      "records": 500
+    },
+    "page-00238000": {
+      "id": "page-00238000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00238000.json",
+      "sha256": "946bbf551285b4526addd6fab1ed00065d66942528924e241c26f4748e64b989",
+      "records": 500
+    },
+    "page-00238500": {
+      "id": "page-00238500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00238500.json",
+      "sha256": "8bbfea8f52fc8bffea8d7137ec877bba64817dc722b34a2738520e34e37feda6",
+      "records": 500
+    },
+    "page-00239000": {
+      "id": "page-00239000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00239000.json",
+      "sha256": "ab42b13b7359c8c23f2acc96e32eeff71162c09883878f1ed15f184b253de682",
+      "records": 500
+    },
+    "page-00239500": {
+      "id": "page-00239500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00239500.json",
+      "sha256": "7052fc3f60f01f475d14804b7cd838bd8e1e654b0add4edcd3ea21515665d541",
+      "records": 500
+    },
+    "page-00240000": {
+      "id": "page-00240000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00240000.json",
+      "sha256": "e3c20a9f9ee22cdfdab9a52a65e28d2aec57d3e8a8ff40092e1a0d2d91834a12",
+      "records": 500
+    },
+    "page-00240500": {
+      "id": "page-00240500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00240500.json",
+      "sha256": "5fd279c4cb1133503b381ae1b6e62f5bccbdfc4705a37c629d620f4ebc25a135",
+      "records": 500
+    },
+    "page-00241000": {
+      "id": "page-00241000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00241000.json",
+      "sha256": "0118e876bd7a2b74add6ddc30d55200f3534cc3fde06e42eee12b0b7838b1377",
+      "records": 500
+    },
+    "page-00241500": {
+      "id": "page-00241500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00241500.json",
+      "sha256": "1e8985dbb5235522977371e7d3694001e212494d70ae5d735874eab259a64c55",
+      "records": 500
+    },
+    "page-00242000": {
+      "id": "page-00242000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00242000.json",
+      "sha256": "e42f078ea9bb6de80a9ed9bdf14ae0df9362f872b858529d2ea72e7d13cdb80b",
+      "records": 500
+    },
+    "page-00242500": {
+      "id": "page-00242500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00242500.json",
+      "sha256": "6b5c0d98e45afd26d7ee364b339308d71cbce4df812579505e3b417dea1cc55a",
+      "records": 500
+    },
+    "page-00243000": {
+      "id": "page-00243000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00243000.json",
+      "sha256": "9d8de1ae047a31da32d34e85051c42d5342c128ab465e7ddb9224bcd6c24497d",
+      "records": 500
+    },
+    "page-00243500": {
+      "id": "page-00243500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00243500.json",
+      "sha256": "6757de5d5c7da35ab48ddf2258cc4cf10550076aef46052ebd846c1c33b86a0e",
+      "records": 500
+    },
+    "page-00244000": {
+      "id": "page-00244000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00244000.json",
+      "sha256": "535a5b4fa85e9c3aa9a577013e5f15d65f6dfb51c5cc29ee539ce6c9f1eebcfd",
+      "records": 500
+    },
+    "page-00244500": {
+      "id": "page-00244500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00244500.json",
+      "sha256": "b6b0f59ae9500044d8f18deb05be4156d2dace2625ea165c93490c6fa7de72d2",
+      "records": 500
+    },
+    "page-00245000": {
+      "id": "page-00245000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00245000.json",
+      "sha256": "7b201d8b687eedeaeca33e5fe11d7a7db418342d4a4525143751324bf585b8db",
+      "records": 500
+    },
+    "page-00245500": {
+      "id": "page-00245500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00245500.json",
+      "sha256": "b9b456a7d3fa52b3d0acda139cc3a6c8b2ff05863720d9210bec3aecd66f6b76",
+      "records": 500
+    },
+    "page-00246000": {
+      "id": "page-00246000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00246000.json",
+      "sha256": "aadd86de74b7e23fc028f7e9e1f4b86e935726a2115624b50a6be0c2618ac108",
+      "records": 500
+    },
+    "page-00246500": {
+      "id": "page-00246500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00246500.json",
+      "sha256": "18acbe84b12f83903bf56dd30f352bda261d5920277bc47be1754b3c51b1ec40",
+      "records": 500
+    },
+    "page-00247000": {
+      "id": "page-00247000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00247000.json",
+      "sha256": "e28c5aab44fa8625e4ab2bb79021009202953098ffee112188985fb6c5943264",
+      "records": 500
+    },
+    "page-00247500": {
+      "id": "page-00247500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00247500.json",
+      "sha256": "9a5871b178df9bb367fab9fb4f7e6d63ccf11fb9cd178a226ebf5e211e348cfc",
+      "records": 500
+    },
+    "page-00248000": {
+      "id": "page-00248000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00248000.json",
+      "sha256": "a1f32b5113ec8989d8921ac929bbe463ecdf516a1cf6e70547941195f6f3d75d",
+      "records": 500
+    },
+    "page-00248500": {
+      "id": "page-00248500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00248500.json",
+      "sha256": "d5daa4db9c93bda907af104a87cba0a4fc8d1be2e9b0b939f6b7c7eed07afb99",
+      "records": 500
+    },
+    "page-00249000": {
+      "id": "page-00249000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00249000.json",
+      "sha256": "9e3359b2106ac99a57b8092a037a6a394869376b522dc69f1b3b23c2ca82dab7",
+      "records": 500
+    },
+    "page-00249500": {
+      "id": "page-00249500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00249500.json",
+      "sha256": "248f098c632b07ca7671cc6e4be527a04f53f1d0686423953364509c02c52bb7",
+      "records": 500
+    },
+    "page-00250000": {
+      "id": "page-00250000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00250000.json",
+      "sha256": "c02626c381572041061ed453e821ed7dc5ca30775dfa7691cdb91caad520ac1a",
+      "records": 500
+    },
+    "page-00250500": {
+      "id": "page-00250500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00250500.json",
+      "sha256": "dbee24d3bccda0f2398c13e195841f8c9c2f4ab6cb8d05b9819cbdbc19277a55",
+      "records": 500
+    },
+    "page-00251000": {
+      "id": "page-00251000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00251000.json",
+      "sha256": "f768f0e66f28d38db7fb395b54b49a0daf6868e17133594f5c3800bba9903d57",
+      "records": 500
+    },
+    "page-00251500": {
+      "id": "page-00251500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00251500.json",
+      "sha256": "586e65732368b9d920e12f757db3467c47c3d17af1d759bff2a135ad3528a0b3",
+      "records": 500
+    },
+    "page-00252000": {
+      "id": "page-00252000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00252000.json",
+      "sha256": "a31f13cd21db78b6cf541261e7773eb024e5a42ceada2615c933683488abe791",
+      "records": 500
+    },
+    "page-00252500": {
+      "id": "page-00252500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00252500.json",
+      "sha256": "7511a3a71d53bd7b734b49b863202947e51602c17e3f90c08311283f492edc65",
+      "records": 500
+    },
+    "page-00253000": {
+      "id": "page-00253000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00253000.json",
+      "sha256": "ba7cd158fb89c06144cd2b4f4080d3164b119f4fd71b9e36ae24296433801caa",
+      "records": 500
+    },
+    "page-00253500": {
+      "id": "page-00253500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00253500.json",
+      "sha256": "3ef6e6e70fc8d6a20dad432914f5c3e18dcdeeeb7eb7fd58a0262db427d86fec",
+      "records": 500
+    },
+    "page-00254000": {
+      "id": "page-00254000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00254000.json",
+      "sha256": "87255ee10d3dcad81bbdc42568968dc883c4cc353580e96b59e62c610f5bec36",
+      "records": 500
+    },
+    "page-00254500": {
+      "id": "page-00254500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00254500.json",
+      "sha256": "415723a6d0c85ece4f88f36b7d883a11bfbd53be942285c4177d095303a04a9f",
+      "records": 500
+    },
+    "page-00255000": {
+      "id": "page-00255000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00255000.json",
+      "sha256": "bd838f8045a1e634924913013d95f1822e850c483c33aedf33dbf9d4d4b7d38d",
+      "records": 500
+    },
+    "page-00255500": {
+      "id": "page-00255500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00255500.json",
+      "sha256": "e5ce714f132467591b7e5445235803f0b6b4da68348da4a5f234cae81b4c37e6",
+      "records": 500
+    },
+    "page-00256000": {
+      "id": "page-00256000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00256000.json",
+      "sha256": "c588f72c19aee67fe417dcbda33a8632ae655aadb27c6d97ff1e3ca461bcb155",
+      "records": 500
+    },
+    "page-00256500": {
+      "id": "page-00256500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00256500.json",
+      "sha256": "2372a028cd40cba91c9d8db2beea3ce61c3d966c2492a11dff7ae110276d1474",
+      "records": 500
+    },
+    "page-00257000": {
+      "id": "page-00257000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00257000.json",
+      "sha256": "91f1614e4a40db48e0a3552ed4568b5f9ebf55f6ce78fe948ae61a3504be93c2",
+      "records": 500
+    },
+    "page-00257500": {
+      "id": "page-00257500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00257500.json",
+      "sha256": "a8b85d8bdf76a4d9698cf4407d02461c58373ecda124ce36fc5a91b6fcd6c69d",
+      "records": 500
+    },
+    "page-00258000": {
+      "id": "page-00258000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00258000.json",
+      "sha256": "9d75b593cfb6ff3186748d8fff308082b8fc242d1a8d8c21a03b1f93d54cde59",
+      "records": 500
+    },
+    "page-00258500": {
+      "id": "page-00258500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00258500.json",
+      "sha256": "26761ca761292d2908cee3704bc7bf6afef07b4768a5de2b61840400f52c82aa",
+      "records": 500
+    },
+    "page-00259000": {
+      "id": "page-00259000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00259000.json",
+      "sha256": "bfd85a9827162b84ac44cca75cbe5b22e0409c3ec0e8c8fbfbc697535f6b817d",
+      "records": 500
+    },
+    "page-00259500": {
+      "id": "page-00259500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00259500.json",
+      "sha256": "10df02dd7bc9bec2d89064cb29859d61790781e5046adb75dcb6b804b14e4370",
+      "records": 500
+    },
+    "page-00260000": {
+      "id": "page-00260000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00260000.json",
+      "sha256": "d745cf19f870af2a25946e5d01d6d30211aec2d36537ed176e19de00da4f647a",
+      "records": 500
+    },
+    "page-00260500": {
+      "id": "page-00260500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00260500.json",
+      "sha256": "2f17951c314210f58db75834f50bc9ab0e2edff41775342bfbde6dd623164865",
+      "records": 500
+    },
+    "page-00261000": {
+      "id": "page-00261000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00261000.json",
+      "sha256": "162c82322f597a441598741256dfae28c5410810f0b6ee479177e53151f260e2",
+      "records": 500
+    },
+    "page-00261500": {
+      "id": "page-00261500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00261500.json",
+      "sha256": "9fd8ec28e4ea63fd1b314ecdee86310b924e74776d686415558e22536a567a37",
+      "records": 500
+    },
+    "page-00262000": {
+      "id": "page-00262000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00262000.json",
+      "sha256": "6751f9338bef97e775469dc98b1790770158ce9ff0233e4412cad1c0f6a9f308",
+      "records": 500
+    },
+    "page-00262500": {
+      "id": "page-00262500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00262500.json",
+      "sha256": "02c3855480f2124b2717f81bcb77f5d9b6b810cc7f1da5985ae84be1c0a16ca9",
+      "records": 500
+    },
+    "page-00263000": {
+      "id": "page-00263000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00263000.json",
+      "sha256": "377f268b92a3c90abbeb12f5181e049d2527fb79aedc26bdbeae86a1875e27be",
+      "records": 500
+    },
+    "page-00263500": {
+      "id": "page-00263500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00263500.json",
+      "sha256": "075421fa2ab968b6930bb33569bdd424d9af99a76c7e1a118d41dca550d745ce",
+      "records": 500
+    },
+    "page-00264000": {
+      "id": "page-00264000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00264000.json",
+      "sha256": "c47400e4bc31ecc1335c823a24c22ec61cf43b6b69139e5d97353e30eaa299a0",
+      "records": 500
+    },
+    "page-00264500": {
+      "id": "page-00264500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00264500.json",
+      "sha256": "18fa97b2e1dd4383758410d3e81bef09bcfeeda4cae665e9d8c810bb5c44acb7",
+      "records": 500
+    },
+    "page-00265000": {
+      "id": "page-00265000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00265000.json",
+      "sha256": "7821521bd982a2dadc272515003c09b83adbd1e5158b1b20adc85d5fbeb1253d",
+      "records": 500
+    },
+    "page-00265500": {
+      "id": "page-00265500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00265500.json",
+      "sha256": "f1401cde44684551524147652b31467906cbad961ce1eaf784fb1327f9cf3944",
+      "records": 500
+    },
+    "page-00266000": {
+      "id": "page-00266000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00266000.json",
+      "sha256": "1c4f2e3d9714cc90f1de47d70103ca91aa783e27ee439459a8bf39811f86f03d",
+      "records": 500
+    },
+    "page-00266500": {
+      "id": "page-00266500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00266500.json",
+      "sha256": "376a7f8bf07a62e0e8d2a348de8845aaa40c9d0fcbb44433eb1a9e0fc9c8571c",
+      "records": 500
+    },
+    "page-00267000": {
+      "id": "page-00267000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00267000.json",
+      "sha256": "66bfcd2f5d0711ed5b7e093674ac01eafcc9997f377a8686e0ff250c7f8ef02d",
+      "records": 500
+    },
+    "page-00267500": {
+      "id": "page-00267500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00267500.json",
+      "sha256": "64c72d25957a15545b730e148cda9244de746d49307a922335122f2633965f51",
+      "records": 500
+    },
+    "page-00268000": {
+      "id": "page-00268000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00268000.json",
+      "sha256": "b45bd02d522a2a408e4d7f921837412dbbaac0f73343e83fe9fc2fd47458f161",
+      "records": 500
+    },
+    "page-00268500": {
+      "id": "page-00268500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00268500.json",
+      "sha256": "4efe51056a404ba042a6b10a44a9b8f3e91aaa7104dfa53ac8062d08b5aa2b39",
+      "records": 500
+    },
+    "page-00269000": {
+      "id": "page-00269000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00269000.json",
+      "sha256": "35ea2185e3000f5cc25032b84f2f755ef2f5c71c918ab5d698f2f0f2895930e2",
+      "records": 500
+    },
+    "page-00269500": {
+      "id": "page-00269500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00269500.json",
+      "sha256": "b4e5d67bb88987fb1d88c6390f819a3b573c371d73048f1c3006f1e9cf69e85b",
+      "records": 500
+    },
+    "page-00270000": {
+      "id": "page-00270000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00270000.json",
+      "sha256": "1a9a9b4ea75c921b42129a729fca9d1c5b55f5be50c6b678091170190ad8b583",
+      "records": 500
+    },
+    "page-00270500": {
+      "id": "page-00270500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00270500.json",
+      "sha256": "ed9773f248ca0d84fe2ee6f03dfef763bb9c05da4df0db3322ef1ffe33bee750",
+      "records": 500
+    },
+    "page-00271000": {
+      "id": "page-00271000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00271000.json",
+      "sha256": "b2b2de5b32068710a9e7347c7871f48f8a382658970047b4465832016814a5e8",
+      "records": 500
+    },
+    "page-00271500": {
+      "id": "page-00271500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00271500.json",
+      "sha256": "308dc2b05d88045dd4cca862e59f68f2c11cce71214c156d80d3ecc079437c65",
+      "records": 500
+    },
+    "page-00272000": {
+      "id": "page-00272000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00272000.json",
+      "sha256": "7c24343295cf96ff59837750ccce7207d49cd23c6f07874a3594b3c293b31384",
+      "records": 500
+    },
+    "page-00272500": {
+      "id": "page-00272500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00272500.json",
+      "sha256": "a9cf7906d8362246c6561adb3aa81a0a0168462c320ab203ea25b9b66fe2c41c",
+      "records": 500
+    },
+    "page-00273000": {
+      "id": "page-00273000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00273000.json",
+      "sha256": "125ae1a84be46f4ed13706d7bfcc000f79a0bc05ac855ce59ad28eab879da900",
+      "records": 500
+    },
+    "page-00273500": {
+      "id": "page-00273500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00273500.json",
+      "sha256": "f085bbb5d8d1e1e6ab62ae88c6c7cd435c7d47cc0df7ec1d7babd8670840a63e",
+      "records": 500
+    },
+    "page-00274000": {
+      "id": "page-00274000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00274000.json",
+      "sha256": "ff5eb8ed5a76433b0bec21ffc80cee3410c817e1f19e76fd9328b5b5a69eda85",
+      "records": 500
+    },
+    "page-00274500": {
+      "id": "page-00274500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00274500.json",
+      "sha256": "c8c50a01af979445a501e271b4ef40ee7f135b6533235163be51a2b5835f017e",
+      "records": 500
+    },
+    "page-00275000": {
+      "id": "page-00275000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00275000.json",
+      "sha256": "457ac376382be2c64be85986ed7dcc68d6c6cf56117dd4a54d494a0fc3c0ba10",
+      "records": 500
+    },
+    "page-00275500": {
+      "id": "page-00275500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00275500.json",
+      "sha256": "73ae2d1fe91c73fcab21cf9b7da13ee2b49f164a975c86b49ecfb4047517ab4e",
+      "records": 500
+    },
+    "page-00276000": {
+      "id": "page-00276000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00276000.json",
+      "sha256": "1529910c721e46623ef1d6c3a538bc4779ca9586c0f5b8662d6e18879ff18a92",
+      "records": 500
+    },
+    "page-00276500": {
+      "id": "page-00276500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00276500.json",
+      "sha256": "12ece16bdf749ed9c6a6eb5f955d74c7bad10f05f24434208fbac640253fb664",
+      "records": 500
+    },
+    "page-00277000": {
+      "id": "page-00277000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00277000.json",
+      "sha256": "dfdcab927d05b211bc3dc47c9804bb3890a9be0b44e6d695fef64522003fe10e",
+      "records": 500
+    },
+    "page-00277500": {
+      "id": "page-00277500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00277500.json",
+      "sha256": "417d2eb9dd2693f4a7e840cbb26441c16d6aa894d86a4b1e81f14406937210c4",
+      "records": 500
+    },
+    "page-00278000": {
+      "id": "page-00278000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00278000.json",
+      "sha256": "f2825745a485b9d9ca7325d8eb07d3e0f7efbac9cc4f0a4c47d929c6726d2911",
+      "records": 500
+    },
+    "page-00278500": {
+      "id": "page-00278500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00278500.json",
+      "sha256": "b94770bf88cc482a02200ff410a256c6f81e011fb07e36ea26fbd8c661cfc83c",
+      "records": 500
+    },
+    "page-00279000": {
+      "id": "page-00279000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00279000.json",
+      "sha256": "3ccfc1255fd4189637ffa1c9c94238c67ee5a5486337895e1ea21e73d3166428",
+      "records": 500
+    },
+    "page-00279500": {
+      "id": "page-00279500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00279500.json",
+      "sha256": "324524559bf15c2dd52bfb4644a7787925658ab6126f0f579b967a69544588cf",
+      "records": 500
+    },
+    "page-00280000": {
+      "id": "page-00280000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00280000.json",
+      "sha256": "befde495d3d63ca933cf2db992cd3884fbc66b7545c8eb148d8b57b957f87d8e",
+      "records": 500
+    },
+    "page-00280500": {
+      "id": "page-00280500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00280500.json",
+      "sha256": "aaafbcddb121a45b9dee0c550648b655dbaebe2c75b714ec5cd3bcf3320f6b07",
+      "records": 500
+    },
+    "page-00281000": {
+      "id": "page-00281000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00281000.json",
+      "sha256": "88093367b50ae4f76653af978cd126d271fa84ceecefac67c01d0d9625383201",
+      "records": 500
+    },
+    "page-00281500": {
+      "id": "page-00281500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00281500.json",
+      "sha256": "1bbba0ae8c98533b20630fca47059f5ff1746384b01288a9b04ab6fdffe44ca8",
+      "records": 500
+    },
+    "page-00282000": {
+      "id": "page-00282000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00282000.json",
+      "sha256": "ab2e14119a4888429ee97b9fb6f8940680b12988a7c81a175f9d95b0638efafe",
+      "records": 500
+    },
+    "page-00282500": {
+      "id": "page-00282500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00282500.json",
+      "sha256": "cd685edc3a6934aab399016af97acd2f8b1c001bb1b28111ac9ad76b7f82aaa6",
+      "records": 500
+    },
+    "page-00283000": {
+      "id": "page-00283000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00283000.json",
+      "sha256": "c0ed6542309793c83d0c36d5a71de3a1f9e9458deb55f4eccfa223440facbc89",
+      "records": 500
+    },
+    "page-00283500": {
+      "id": "page-00283500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00283500.json",
+      "sha256": "4561ad1951c1b548bda3b6fd5cb895be92756aff7b3e6308dc777af007386cd1",
+      "records": 500
+    },
+    "page-00284000": {
+      "id": "page-00284000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00284000.json",
+      "sha256": "d72ff76a37a372ebb51e815e51b03d51d856dc312cb85c74f0289c6f535a22b0",
+      "records": 500
+    },
+    "page-00284500": {
+      "id": "page-00284500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00284500.json",
+      "sha256": "a421c51464f62a7bbb43cd29a4485baac90d20f010f6a878c138bb3b85b1395b",
+      "records": 500
+    },
+    "page-00285000": {
+      "id": "page-00285000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00285000.json",
+      "sha256": "0229d1fb6caff5c743d043535201fc3a143db90fad560492a801e9233cb3076f",
+      "records": 500
+    },
+    "page-00285500": {
+      "id": "page-00285500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00285500.json",
+      "sha256": "187e5b7feb336f4f4713c66e0a9f3516a5844e3e7e40cc38a9d6e6284d002cd2",
+      "records": 500
+    },
+    "page-00286000": {
+      "id": "page-00286000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00286000.json",
+      "sha256": "434136ae99c04a7b0eb52dd73a036797893f45f4386635593630bb9c0d14049a",
+      "records": 500
+    },
+    "page-00286500": {
+      "id": "page-00286500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00286500.json",
+      "sha256": "589eda25a90cea6e573a810a55f35992c3e199d0096aac90af736e7440c2f61c",
+      "records": 500
+    },
+    "page-00287000": {
+      "id": "page-00287000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00287000.json",
+      "sha256": "f51a73bfbe3a2fb97b0564ec13ad99c73831a7b3d7630d7fce8fdcefb9970d20",
+      "records": 500
+    },
+    "page-00287500": {
+      "id": "page-00287500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00287500.json",
+      "sha256": "cb6d51ef92d977547f72692e9fbdbf9eb38a2e89bd6624572e2b9453dd4e8ca4",
+      "records": 500
+    },
+    "page-00288000": {
+      "id": "page-00288000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00288000.json",
+      "sha256": "997294fa3e38bd3784a609bb8f617edcb8f879313121e8b4da6c663a58cfb96d",
+      "records": 500
+    },
+    "page-00288500": {
+      "id": "page-00288500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00288500.json",
+      "sha256": "7850e5766bb7981d285e22886d066fa18634e4c7833331231aa7d9e1f736f589",
+      "records": 500
+    },
+    "page-00289000": {
+      "id": "page-00289000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00289000.json",
+      "sha256": "b5d9d0014f8be4fc87a549eeee3628d898088ea06ff544a4266895b4ce4cfb5f",
+      "records": 500
+    },
+    "page-00289500": {
+      "id": "page-00289500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00289500.json",
+      "sha256": "830b0eb4d4cab2410a20c83f8cf6ff4534a9a8a65b3bf0905c3ee565151d6081",
+      "records": 500
+    },
+    "page-00290000": {
+      "id": "page-00290000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00290000.json",
+      "sha256": "7dfaad65bb8a38a57ebb1bf4d7ad74b53d4b367e76b6cf2c4355d50a6a687201",
+      "records": 500
+    },
+    "page-00290500": {
+      "id": "page-00290500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00290500.json",
+      "sha256": "c4a1397c2b32e83e5770bc770ba26eec915f51d0247d61cc0fdab0a3d673c9e1",
+      "records": 500
+    },
+    "page-00291000": {
+      "id": "page-00291000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00291000.json",
+      "sha256": "d15d87f6bf195a83189d08966f2e8ff28d466d3c44dfa1390dbc708576ff16d8",
+      "records": 500
+    },
+    "page-00291500": {
+      "id": "page-00291500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00291500.json",
+      "sha256": "4877dce8d8a4be6e65393c7b2220b2062520b118aa25dd54e5a0f3c76f9d1496",
+      "records": 500
+    },
+    "page-00292000": {
+      "id": "page-00292000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00292000.json",
+      "sha256": "cc656bc3054df9fc1e9fa5698a4bb8380fc5c4460387219da475c169db2ab845",
+      "records": 500
+    },
+    "page-00292500": {
+      "id": "page-00292500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00292500.json",
+      "sha256": "5895c5911d6dc548a4f774fb601b3093c6a0f10740e853bf445976afa88f9526",
+      "records": 500
+    },
+    "page-00293000": {
+      "id": "page-00293000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00293000.json",
+      "sha256": "6d65b7e63cbd534e76f34614714ac7fba07a2efa84dd0e026b79c4303f73f8e1",
+      "records": 500
+    },
+    "page-00293500": {
+      "id": "page-00293500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00293500.json",
+      "sha256": "b445a54a66f209991f763bc5d7b09965fe9dc9af74c2f03ba65d6c8da9af6ef9",
+      "records": 500
+    },
+    "page-00294000": {
+      "id": "page-00294000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00294000.json",
+      "sha256": "b803f65eb692e914d53e23c47650451a8c067c7763442ef135fbce41611efb93",
+      "records": 500
+    },
+    "page-00294500": {
+      "id": "page-00294500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00294500.json",
+      "sha256": "4c79f98cf970d6d444b1c4e1f776bf88117eee35fb02b6a5088bc18d413b1ba6",
+      "records": 500
+    },
+    "page-00295000": {
+      "id": "page-00295000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00295000.json",
+      "sha256": "0eabaacffa6e46218454308c4dc4e9e139c28597f5a729f2febfa85190f8f26e",
+      "records": 500
+    },
+    "page-00295500": {
+      "id": "page-00295500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00295500.json",
+      "sha256": "47204de66c83e0316cb56eee5ba2226e56b6859d85b13ad98dec8b3c0ccae596",
+      "records": 500
+    },
+    "page-00296000": {
+      "id": "page-00296000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00296000.json",
+      "sha256": "d833c86304b3df694eb0852753b16cab26d3ad7d42de1d69d94329734954f768",
+      "records": 500
+    },
+    "page-00296500": {
+      "id": "page-00296500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00296500.json",
+      "sha256": "8573bca3cb77a657d08fb430db7313883ebd49ab670e2c7cf5981411f3ffa025",
+      "records": 500
+    },
+    "page-00297000": {
+      "id": "page-00297000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00297000.json",
+      "sha256": "47879bc5811dd4e400d1ad8d7c34d2b2ee165394ab5fad03b83b985c8d78c8dc",
+      "records": 500
+    },
+    "page-00297500": {
+      "id": "page-00297500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00297500.json",
+      "sha256": "9481fb7265fdb2ca6feaf0551f4852da2cb0ed603665431150c3bf80b7ecf3ec",
+      "records": 500
+    },
+    "page-00298000": {
+      "id": "page-00298000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00298000.json",
+      "sha256": "63cbf4aab4cd913be9b7d1136c4be3ef497ccc5ed4b38933be1ce621824906c2",
+      "records": 500
+    },
+    "page-00298500": {
+      "id": "page-00298500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00298500.json",
+      "sha256": "38436a7a0b3f928cfe3c2f67df0e579ac3ff0829e9997ba94b707b52f088135e",
+      "records": 500
+    },
+    "page-00299000": {
+      "id": "page-00299000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00299000.json",
+      "sha256": "a6c5cac438a5785203f47671c5b92d6b5daa2f022003943e05adc876666410ab",
+      "records": 500
+    },
+    "page-00299500": {
+      "id": "page-00299500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00299500.json",
+      "sha256": "cf84732021ab5815b7ab148df08048773f541e68209be32444b42f44dc5a6020",
+      "records": 500
+    },
+    "page-00300000": {
+      "id": "page-00300000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00300000.json",
+      "sha256": "992cb6343a6e8a4ce34cd5a711d16a487f3466eee5e7130b08eff38c452f2c3c",
+      "records": 500
+    },
+    "page-00300500": {
+      "id": "page-00300500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00300500.json",
+      "sha256": "5fad3fd9660ea0d31bd981e1952ff4ab8ec0e7f6656e69d73bddee4dd1a3b7d6",
+      "records": 500
+    },
+    "page-00301000": {
+      "id": "page-00301000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00301000.json",
+      "sha256": "7617ab97ea10703576358fc94112fd1ae648b4c5f356b61001a354204106df71",
+      "records": 500
+    },
+    "page-00301500": {
+      "id": "page-00301500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00301500.json",
+      "sha256": "9618e29ed1d90dcea8fd971305f991fff0ad96eea97ddfeba4c118d3618632be",
+      "records": 500
+    },
+    "page-00302000": {
+      "id": "page-00302000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00302000.json",
+      "sha256": "3d01902de7738756e8ea1c37d55e221728c964aaeae5e81055a4d42fbfafc8b5",
+      "records": 500
+    },
+    "page-00302500": {
+      "id": "page-00302500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00302500.json",
+      "sha256": "c6e8cc5a1147e6e1482fb25b3d286697889000b2b12f8a2e97e84a6c3a0d1f10",
+      "records": 500
+    },
+    "page-00303000": {
+      "id": "page-00303000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00303000.json",
+      "sha256": "4e250d42c139127263d682f00709f77db0eb8de0116f4893cc8ae58a9969af84",
+      "records": 500
+    },
+    "page-00303500": {
+      "id": "page-00303500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00303500.json",
+      "sha256": "39660689b605c0a44a9e3fc16c722ba4a48d1f41661068c3ef0ce007f4141a1a",
+      "records": 500
+    },
+    "page-00304000": {
+      "id": "page-00304000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00304000.json",
+      "sha256": "67e5526ae632d9f7352f8e55def021e6f2885f685a651f8aa4db903720c38854",
+      "records": 500
+    },
+    "page-00304500": {
+      "id": "page-00304500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00304500.json",
+      "sha256": "eb159d3f43a1e45d644eb188db76db803939bb28784087bc466f71f468f0d75d",
+      "records": 500
+    },
+    "page-00305000": {
+      "id": "page-00305000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00305000.json",
+      "sha256": "b976dd48071bc572aad89b41ced438bacd15b140f988a7d837dbdfde3ca4decc",
+      "records": 500
+    },
+    "page-00305500": {
+      "id": "page-00305500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00305500.json",
+      "sha256": "f300f4381c1fefb545d86ae969b449df06be77e326f96e19dd001d38ec9add4b",
+      "records": 500
+    },
+    "page-00306000": {
+      "id": "page-00306000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00306000.json",
+      "sha256": "6868eec997e340d69607faac900150ce182fc68542199d37bc4321f1d551836b",
+      "records": 500
+    },
+    "page-00306500": {
+      "id": "page-00306500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00306500.json",
+      "sha256": "a362a54a0d5f1c0cf89157f4a412ab8f308a1625fd5a8e57ad5d1cff681db4e5",
+      "records": 500
+    },
+    "page-00307000": {
+      "id": "page-00307000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00307000.json",
+      "sha256": "ea6a2f1f8100cb8986cf29aeadca339591c8bd02efef615d3c6b80556945778a",
+      "records": 500
+    },
+    "page-00307500": {
+      "id": "page-00307500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00307500.json",
+      "sha256": "245490d3dfcaef54e9cc7706906e6d073d8d54c699ff87de2c4059cfd76ccd25",
+      "records": 500
+    },
+    "page-00308000": {
+      "id": "page-00308000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00308000.json",
+      "sha256": "f08195a68b98c00b53e7c78a5991514c440c1d10a523eff039d8e73610408aea",
+      "records": 500
+    },
+    "page-00308500": {
+      "id": "page-00308500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00308500.json",
+      "sha256": "30376074746361f2bc54dae7dc1f509bd3d49298f80dd515e6ed155f718943a7",
+      "records": 500
+    },
+    "page-00309000": {
+      "id": "page-00309000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00309000.json",
+      "sha256": "98a94a0b32aee918fd512993dcc78c91abe190dee06caee8dcda325faee4a68b",
+      "records": 500
+    },
+    "page-00309500": {
+      "id": "page-00309500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00309500.json",
+      "sha256": "c0943e9c80f33e6fbbba26676dc7eb32daa87b4d0cdb51480f84f92bd62877ab",
+      "records": 500
+    },
+    "page-00310000": {
+      "id": "page-00310000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00310000.json",
+      "sha256": "edf5b9ccf1bd76aaf71f319ff23e02cea7d2eaa31224d686a789ce9d6f04bf5d",
+      "records": 500
+    },
+    "page-00310500": {
+      "id": "page-00310500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00310500.json",
+      "sha256": "531a9bd749d37b991f9d05daee5dfddf626ff556e58df4d6113512af8e25c78c",
+      "records": 500
+    },
+    "page-00311000": {
+      "id": "page-00311000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00311000.json",
+      "sha256": "f8792bd0f3a732afd706a30fcbaac8972e8ac2a24779ff15af0c22f453b5994c",
+      "records": 500
+    },
+    "page-00311500": {
+      "id": "page-00311500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00311500.json",
+      "sha256": "28051e2ee3f459c8bb7a452d2cebe2b9f4c35c4a8d03ce91f54de859fe9004a7",
+      "records": 500
+    },
+    "page-00312000": {
+      "id": "page-00312000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00312000.json",
+      "sha256": "caac7ea642ecbf3acdb87122065189473fa5f7ee1eac6df794b3b2bf1cb18a3f",
+      "records": 500
+    },
+    "page-00312500": {
+      "id": "page-00312500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00312500.json",
+      "sha256": "f0ab0948e303f1c38aa9c07081e614af0785cd11aac6f2e53c9956a6b93e4cdd",
+      "records": 500
+    },
+    "page-00313000": {
+      "id": "page-00313000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00313000.json",
+      "sha256": "05f3e5a011fd8c5cc4590792b79d2dce7c14f9be9a692da4c230c9cf87cfb1d3",
+      "records": 500
+    },
+    "page-00313500": {
+      "id": "page-00313500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00313500.json",
+      "sha256": "e322e65c064eda613fdfcb51b5714ebc745439371cfb91611c5b75e81bdec290",
+      "records": 500
+    },
+    "page-00314000": {
+      "id": "page-00314000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00314000.json",
+      "sha256": "1643458dc0fe219cbc86b1e913207ce70be09572200536ccf0628d669452e6fe",
+      "records": 500
+    },
+    "page-00314500": {
+      "id": "page-00314500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00314500.json",
+      "sha256": "02e7ca1e48ee6c7bd6647eaaceb0dec09691fdeaf14a219289693db4788da6f4",
+      "records": 500
+    },
+    "page-00315000": {
+      "id": "page-00315000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00315000.json",
+      "sha256": "d0e17072c6f1d17e4a4587c9f874ec1c57a2e362fd2a6bc09dd0d4bac16c7039",
+      "records": 500
+    },
+    "page-00315500": {
+      "id": "page-00315500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00315500.json",
+      "sha256": "e85261b892ccfee0cd7187965880e5462119d66bfe7b17d4323acf1a640cc472",
+      "records": 500
+    },
+    "page-00316000": {
+      "id": "page-00316000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00316000.json",
+      "sha256": "b39bd7a7cbcbecbcdc215c4d92cc4a1d2df78a2280e2f052ca5d20229f41de97",
+      "records": 500
+    },
+    "page-00316500": {
+      "id": "page-00316500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00316500.json",
+      "sha256": "ca61cce859d53a5fc607b553655ef59ed90d2b85b83a1a0efb9a81b73f2bb338",
+      "records": 500
+    },
+    "page-00317000": {
+      "id": "page-00317000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00317000.json",
+      "sha256": "f0f9b35757415abf56500b8b88d615808c48f153506b54f3ba798a54453240b1",
+      "records": 500
+    },
+    "page-00317500": {
+      "id": "page-00317500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00317500.json",
+      "sha256": "02832a121bc0570d4fdeda0a14dee12fc7ba794a976a10722cbb5fd41555d1a3",
+      "records": 500
+    },
+    "page-00318000": {
+      "id": "page-00318000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00318000.json",
+      "sha256": "f390f2b5637f8baf2a1458988c4271f1ca61126a658d00ea272cb0f800b115a7",
+      "records": 500
+    },
+    "page-00318500": {
+      "id": "page-00318500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00318500.json",
+      "sha256": "51455c873ecd030ada44e6de32ce746b6b261bec5ee22aa7b8cc8cb6cdbe4d29",
+      "records": 500
+    },
+    "page-00319000": {
+      "id": "page-00319000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00319000.json",
+      "sha256": "e15b11caee94c5aaf817909838890ced50efe5947e0422f646f817a04121a3d9",
+      "records": 500
+    },
+    "page-00319500": {
+      "id": "page-00319500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00319500.json",
+      "sha256": "58788aa84a3a3487bf2829260a0c8b2c96f1bca99d17f30c0917b16f45b2a7ea",
+      "records": 500
+    },
+    "page-00320000": {
+      "id": "page-00320000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00320000.json",
+      "sha256": "0d7d614f4cb70bee252f2140c16d5d02cd0524ed6f060ffa942270b1e4d0994b",
+      "records": 500
+    },
+    "page-00320500": {
+      "id": "page-00320500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00320500.json",
+      "sha256": "f31025779cc0d1e0c02a4c3c97252508ba13bb7b0293c447b5e78bf883a1a0c9",
+      "records": 500
+    },
+    "page-00321000": {
+      "id": "page-00321000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00321000.json",
+      "sha256": "5845fc4dcfdca9bf88d071a1de0d08f1a0d5b6463b6da94eaaa3ead240acb96e",
+      "records": 500
+    },
+    "page-00321500": {
+      "id": "page-00321500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00321500.json",
+      "sha256": "511a1c5667b0d43ec01ab18a6497184b748ec8bdc7b8f08a824757b9bb6a359c",
+      "records": 500
+    },
+    "page-00322000": {
+      "id": "page-00322000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00322000.json",
+      "sha256": "8bbe41d97a94137f15d5930d362e8301f9e7d612dc3ee1fc056e3bf78c666143",
+      "records": 500
+    },
+    "page-00322500": {
+      "id": "page-00322500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00322500.json",
+      "sha256": "47f5ab9824dbb6b84e108ae0f47a6f3735f6e24f5ca03c5f39aa89d3eebf877e",
+      "records": 500
+    },
+    "page-00323000": {
+      "id": "page-00323000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00323000.json",
+      "sha256": "18ef003a61681bbd48b87294d888a175bc44769170521ea12ef51fd5c2e6b952",
+      "records": 500
+    },
+    "page-00323500": {
+      "id": "page-00323500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00323500.json",
+      "sha256": "d2360600f105c14a06c98f5f98fd4771ba1c1abef0ce5fdf24c87bc86480e42c",
+      "records": 500
+    },
+    "page-00324000": {
+      "id": "page-00324000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00324000.json",
+      "sha256": "ccde5b2362443c775fe537e81881fcb64caf5e4b78a6c931b821d06100d249c0",
+      "records": 500
+    },
+    "page-00324500": {
+      "id": "page-00324500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00324500.json",
+      "sha256": "bbcec6bbc028e72d8eb833c289e415fa1e9e679dd2945f7f11bbd92a90d24217",
+      "records": 500
+    },
+    "page-00325000": {
+      "id": "page-00325000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00325000.json",
+      "sha256": "77eacd6dbe9ce7b5b9131180d9f142bf5de5611241a267764e3845590a7b44da",
+      "records": 500
+    },
+    "page-00325500": {
+      "id": "page-00325500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00325500.json",
+      "sha256": "24c210b1602e4f27197aa46f18c43f2e3576aa6d7e76c6df2e081f1c9c28d846",
+      "records": 500
+    },
+    "page-00326000": {
+      "id": "page-00326000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00326000.json",
+      "sha256": "c05a959af8ac4ead11be88b6ea287b2e33257231a0d48bf3c8eb0948fd3ed951",
+      "records": 500
+    },
+    "page-00326500": {
+      "id": "page-00326500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00326500.json",
+      "sha256": "5c67ba354bcf7471e341bd09d3926fde330790f38ad871a2b81de00c47deac55",
+      "records": 500
+    },
+    "page-00327000": {
+      "id": "page-00327000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00327000.json",
+      "sha256": "b21286b07c6b48213799f2430742215f30eb586e5c33d8afa2a934d47806aed6",
+      "records": 500
+    },
+    "page-00327500": {
+      "id": "page-00327500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00327500.json",
+      "sha256": "2530b034372ae4cd3dc38c2bc5650e6b6a4b3f20dcf64161d2598bcde6663e92",
+      "records": 500
+    },
+    "page-00328000": {
+      "id": "page-00328000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00328000.json",
+      "sha256": "a7cc7906b805f85c1550999c65b6a9828db5ea2383247b951efade247adfc59f",
+      "records": 500
+    },
+    "page-00328500": {
+      "id": "page-00328500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00328500.json",
+      "sha256": "633d4e96a3d2a76b4203b2b5971810a3dbdce027ac3ff5217a24a4270611bdb1",
+      "records": 500
+    },
+    "page-00329000": {
+      "id": "page-00329000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00329000.json",
+      "sha256": "2e770e3261180be2e4596e10d7235d421022bbfb2e0add124f7db86e763e7019",
+      "records": 500
+    },
+    "page-00329500": {
+      "id": "page-00329500",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00329500.json",
+      "sha256": "cc373258f56db41780a9912931a7e7355abaef56b41203f64c5e2a97ba8111c6",
+      "records": 500
+    },
+    "page-00330000": {
+      "id": "page-00330000",
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00330000.json",
+      "sha256": "5ba58cadf209b79a51ef03b0e7f27ed5802297bb75d929068ecdca5b5765c74c",
+      "records": 113
+    }
+  },
+  "started_at": "2026-10-27T04:19:44.616454+00:00",
+  "signature": "6a9cd0fc3560978c45689107968619cbefc1939d6eb933edb14b90d3c06398d0",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-city",
+  "count_expected": 330113,
+  "ids_sha256": "d862096a1aa90db053d2d3997e0398b936f74b83148abd4f4d70b9a402fc9674",
+  "scope": {
+    "borough": "brooklyn",
+    "bbox_wgs84": null,
+    "where": "BASE_BBL LIKE '3%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:25:30.063902+00:00"
+}

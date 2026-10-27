@@ -1,0 +1,13 @@
+{
+  "url": "https://gisdata.ny.gov/elevation/LIDAR/NYC_TopoBathymetric2017/",
+  "destination": "/workspace/nyc-3d-html/data/raw/supporting/nys-nyc-lidar-directory.html",
+  "attempts": [
+    {
+      "at": "2026-10-27T04:21:12.785202+00:00",
+      "url": "https://gisdata.ny.gov/elevation/LIDAR/NYC_TopoBathymetric2017/",
+      "attempt": 1,
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "resolved": false
+}

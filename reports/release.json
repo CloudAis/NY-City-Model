@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-27T05:14:23.472432+00:00",
+  "archive": "reports/nyc-stage2-browser.zip",
+  "bytes": 8820351,
+  "sha256": "7ce0a51c217be3c5082474e262bd0a404a42409e59296d870ac266c10860d621",
+  "entries": 447,
+  "checksums_verified_by_readback": true,
+  "browser_js_matches_tested_requests": true,
+  "full_city_database_in_archive": false,
+  "large_inputs_manifest": "data/manifests/large-inputs.json"
+}

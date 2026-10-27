@@ -1,0 +1,14 @@
+{
+  "request_url": "https://pypi.org/pypi/laspy/json",
+  "final_url": "https://pypi.org/pypi/laspy/json",
+  "download_started_at": "2026-10-27T04:09:23.947141+00:00",
+  "download_completed_at": "2026-10-27T04:09:24.206780+00:00",
+  "http_status": 200,
+  "content_type": "application/json",
+  "etag": "\"YqyYSxggtuWs7AqOZ/j28g\"",
+  "last_modified_http": null,
+  "bytes": 74032,
+  "sha256": "fe91d549c5ebd714ce834094c19a3fbdf05b996a62e40b43218a306f4cde7949",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

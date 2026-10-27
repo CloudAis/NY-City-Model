@@ -1,0 +1,337 @@
+﻿<?xml-stylesheet type="text/xsl" href="fgdc_classic.xsl"?>
+<!DOCTYPE metadata SYSTEM "http://thor-f5.er.usgs.gov/ngtoc/metadata/fgdc-std-001-1998.dtd"[]>
+<?xml-stylesheet type="text/xsl" href="fgdc_classic.xsl"?>
+<metadata>
+  <idinfo>
+    <!-- Identification Information - basic information about the data set. Type: compound. -->
+    <citation>
+      <!-- Citation - information to be used to reference the data set. Type: compound. -->
+      <citeinfo>
+        <!-- Citation Information - the recommended reference to be used for the data set. -->
+        <origin>New York City Department of Information Technology and Telecommunications</origin>
+        <!-- Originator - the name of an organization or individual that developed the data set. Type: text. Domain: "Unknown" free text. -->
+        <pubdate>20181109</pubdate>
+        <!-- Publication Date - the date when the data set is published or otherwise made available for release. Type: date. Domain: "Unknown" "Unpublished material" free date-->
+        <title>New York City 2017 LiDAR; Classified Point Cloud</title>
+        <!-- Title - the name by which the data set is known. Type: text. Domain: free text. -->
+        <geoform>Lidar point cloud</geoform>
+        <!-- Geospatial Data Presentation Form. Type: text. Domain: "Lidar point cloud" free text. -->
+      </citeinfo>
+    </citation>
+    <descript>
+      <!-- Description - a characterization of the data set, including its intended use and limitations. Type: compound. -->
+      <abstract>Product: Calibrated LiDAR version 1.4 .las tiles, classified for subsequent derivatives.
+      	Geographic Extent: New York, Bronx, Kings, Queens, and Richmond Counties in New York plus an additional 100 m buffer. 
+      	Dataset Description: In May 2017, Quantum Spatial (QSI) was contracted by Applied Geographics (AppGeo) to collect topographic and topobathymetric Light Detection and Ranging (LiDAR) data for the City of New York (NYC). QSI collected and processed traditional (near infrared wavelength, Leica ALS80 sensor) LiDAR over the topographic AOI, and spliced together NIR and bathymetric LiDAR (green wavelength, Riegl VQ-880-G sensor) for the topobathymetric AOI. LiDAR point data are delivered in 2,500 X 2,500 ft tiles.
+		Ground Conditions: Topographic LiDAR was collected in May 2017 with approximately 50% leaf-off conditions. Bathymetric data was collected in July 2017 during low tide time windows. Ground control data were used to geospatially correct the LiDAR point cloud and used to perform quality assurance checks on the final products. In addition, Continuously Operating Reference Stations (CORS) from the New York State Spatial Reference Network (NYSNet) were used to geospatially correct the aircraft positional coordinate data and as base stations for GSP collection. All ground survey work to support the topobathymetric LiDAR acquisition was conducted during the NIR LiDAR collection window. Land cover class check points were also collected throughout the study area to evaluate vertical accuracy. </abstract>
+      <!-- Abstract - a brief narrative descriptive summary of the data set. Type: text. Domain: free text. -->
+      <purpose>Data were collected to help support the City’s many agencies in planning and analysis related to their key initiatives. LiDAR derived DEMs will be crucial for long-term land use planning and assessing the impacts of sea level rise. </purpose>
+      <!-- Purpose - a summary of the intentions with which the data set was developed. Type: text. Domain: free text. -->
+      <supplinf>As part of a federal Disaster Recovery Community Development Block Grant ("CDBG-DR"), the New York City (NYC) Mayor’s Office of Recovery and Resiliency (ORR), Department of Information Technology and Telecommunications (DoITT) and Department of Parks and Recreation (Parks) contracted with AppGeo for the acquisition of Light Detection and Ranging (LiDAR) data, developing LiDAR-derived products, and generating high-resolution land cover. Quantum Spatial Inc. was subcontracted for acquisition and processing of the LiDAR data. 
+       <!-- Supplemental Information - other descriptive information about the data set. Type: text. Domain: free text. --></supplinf>
+      <lidar>
+        <!-- For Classified Point Cloud and Swath metadata files -->
+        <ldrinfo>
+          <!-- Lidar Information - contains metadata about the sensor and collection conditions. -->
+          <ldrspec>USGS-NGP Base Lidar Specification v1.4</ldrspec>
+          <!-- Lidar Base Specification applicable to the point cloud. -->
+          <ldrsens>Leica ALS80 (Topographic)/Riegl VQ-880-G (Bathymetric)</ldrsens>
+          <!-- Lidar Sensor make and model. -->
+          <ldrmaxnr>unlimited</ldrmaxnr>
+          <!-- Lidar Maximum Number of Returns per pulse. -->
+          <ldrnps>0.313/0.256</ldrnps>
+          <!-- Lidar Nominal Pulse Spacing, in meters. -->
+          <ldrdens>10.24/15.24</ldrdens>
+          <!-- Lidar Nominal Pulse Density, in points per square meter. -->
+		  <ldranps>0.313/0.256</ldranps>
+          <!-- Lidar Aggregate Nominal Pulse Spacing, in meters. -->
+		  <ldradens>10.24/15.24</ldradens>
+          <!-- Lidar Aggregate Nominal Pulse Density, in points per square meter. -->
+          <ldrfltht>1800/450</ldrfltht>
+          <!-- Lidar Flight Height (MSL) for the collection, in meters. -->
+          <ldrfltsp>145/120</ldrfltsp>
+          <!-- Lidar Nominal Flight Speed for the collection, in knots. -->
+          <ldrscana>30/40</ldrscana>
+          <!-- Lidar Sensor Scan Angle, total, in degrees. -->
+          <ldrscanr>48/80</ldrscanr>
+          <!-- Lidar Scan Frequency of the scanner, in hertz. -->
+          <ldrpulsr>314.8/245</ldrpulsr>
+          <!-- Lidar Pulse Rate of the scanner, in kilohertz. -->
+          <ldrpulsd>2.5/1.5</ldrpulsd>
+          <!-- Lidar Pulse Duration of the scanner, in nanoseconds. -->
+          <ldrpulsw>.396/.45</ldrpulsw>
+          <!-- Lidar Pulse Width of the scanner, in meters. -->
+          <ldrwavel>1064/532</ldrwavel>
+          <!-- Lidar Central Wavelength of the sensor laser, in nanometers. -->
+          <ldrmpia>1/1</ldrmpia>
+          <!-- Lidar Multiple Pulses In Air, 0 = No; 1 = Yes -->
+          <ldrbmdiv>22/0.7</ldrbmdiv>
+          <!-- Lidar Beam Divergence, in Milliradians. -->
+          <ldrswatw>898/327.5</ldrswatw>
+          <!-- Lidar Swath Width on the ground, in meters. -->
+          <ldrswato>6060</ldrswato>
+          <!-- Lidar Nominal Swath Overlap, as a percentage. -->
+          <ldrcrs>NAD 1983 New York Long Island (ftUS)</ldrcrs>
+          <!-- Horizontal Coordinate Reference System for the data. -->
+          <ldrgeoid>National Geodetic Survey (NGS) Geoid12B</ldrgeoid>
+          <!-- Geoid used for vertical reference. -->
+        </ldrinfo>
+        <ldraccur>
+          <!-- Lidar Accuracy. Non-vegetated vertical accuracy values for the swath. ALL VALUES ARE REPORTED IN METERS. -->
+		  <ldrchacc>Not calculated. Inferred 13.1 cm RMSE</ldrchacc>
+          <!-- Lidar Calculated Horizontal Accuracy of the point cloud data. -->
+          <rawnva>0.007/0.010</rawnva>
+          <!-- Raw Nonvegetated Vertical Accuracy of the raw point cloud data. Reported as average.-->
+          <rawnvan>151/115</rawnvan>
+          <!-- Raw Nonvegetated Vertical Accuracy Number of checkpoints used to calculate the reported nonvegetated vertical accuracy of the raw point cloud data. -->
+        </ldraccur>
+        <lasinfo>
+          <!-- LAS Information. Type: compound. -->
+          <lasver>1.4</lasver>
+          <!-- LAS Version -->
+          <lasprf>6</lasprf>
+          <!-- LAS Point Record Format. -->
+          <laswheld>Withheld (ignore) points were identified in these files using the standard LAS Withheld bit.</laswheld>
+          <!-- Describe how withheld points are identified. -->
+          <lasolap>Swath "overage" points were identified in these files using the standard LAS overlap bit.</lasolap>
+          <!-- Describe how overage points are identified. -->
+          <lasintr>16</lasintr>
+          <!-- Specify the native radiometric resolution of intensity values, in Bits. -->
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>1</clascode>
+            <!-- Classification Code -->
+            <clasitem>Processed, but Unclassified</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>2</clascode>
+            <!-- Classification Code -->
+            <clasitem>Bare Earth Ground</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>7</clascode>
+            <!-- Classification Code -->
+            <clasitem>Low Noise</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>9</clascode>
+            <!-- Classification Code -->
+            <clasitem>Water</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>10</clascode>
+            <!-- Classification Code -->
+            <clasitem>Ignored Ground</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>17</clascode>
+            <!-- Classification Code -->
+            <clasitem>Bridge Decks</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>25</clascode>
+            <!-- Classification Code -->
+            <clasitem>Subway/Transit stairwells</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>40</clascode>
+            <!-- Classification Code -->
+            <clasitem>Bathymetric Bottom</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>41</clascode>
+            <!-- Classification Code -->
+            <clasitem>Green Near Water Surface</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+          <lasclass>
+            <!-- LAS Classification. Type: compound. -->
+            <clascode>45</clascode>
+            <!-- Classification Code -->
+            <clasitem>Water Column</clasitem>
+            <!-- Classification Item -->
+          </lasclass>
+        </lasinfo>
+      </lidar>
+    </descript>
+    <timeperd>
+      <!-- Time Period of Content. Type: compound. -->
+      <timeinfo>
+        <!-- Time Period Information - information about the date and time of an event. Type: compound. -->
+        <rngdates>
+          <!-- Range of Dates/Times. Type: compound. -->
+          <begdate>20170503</begdate>
+          <!-- Beginning Date - the first year (and optionally month, or month and day) of the collection. Type: date. Domain: "Unknown" free date. -->
+          <enddate>20170726</enddate>
+          <!-- Ending Date - the last year (and optionally month, or month and day) for the collection. Type: date. Domain: "Unknown" free date. -->
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+      <!-- Currentness Reference. Type: text. Domain: "ground condition" free text. -->
+    </timeperd>
+    <status>
+      <!-- Status - the state of the maintenance information for the data set. Type: compound. -->
+      <progress>Complete</progress>
+      <!-- Progress - the state of the data set. Type: text. Domain: "Complete" "In Work" "Planned" free text. -->
+      <update>As needed</update>
+      <!-- Maintenance and Update Frequency - the frequency with which changes and additions are made to the data set after the initial data set is completed. Type: text. Domain: "Unknown" "As needed" "None planned" free text-->
+    </status>
+    <spdom>
+      <!-- Spatial Domain - the geographic areal domain of the data set. Type: compound. -->
+      <bounding>
+        <!-- Bounding Coordinates - the limits of coverage of a data set expressed by latitude and longitude values in the order western-most, eastern-most, northern-most, and southern-most. Type: compound. -->
+        <westbc>-74.257499</westbc>
+        <!-- West Bounding Coordinate - western-most coordinate of the limit of coverage expressed in longitude. Type: real. Domain: -180.0 <= West Bounding Coordinate < 180.0 -->
+        <eastbc>-73.698030</eastbc>
+        <!-- East Bounding Coordinate - eastern-most coordinate of the limit of coverage expressed in longitude. Type: real. Domain: -180.0 <= East Bounding Coordinate <= 180.0 -->
+        <northbc>40.916459</northbc>
+        <!-- North Bounding Coordinate - northern-most coordinate of the limit of coverage expressed in latitude. Type: real. Domain: -90.0 <= North Bounding Coordinate <= 90.0 -->
+        <southbc>40.491252</southbc>
+        <!-- South Bounding Coordinate - southern-most coordinate of the limit of coverage expressed in latitude. Type: real. Domain: -90.0 <= South Bounding Coordinate <= 90.0-->
+      </bounding>
+    </spdom>
+    <keywords>
+      <!-- Keywords - words or phrases summarizing an aspect of the data set. Type: compound. -->
+      <theme>
+        <!-- Theme - subjects covered by the data set. Type: compound. -->
+        <themekt>None</themekt>
+        <!-- Theme Keyword Thesaurus. Type: text. Domain: "None" free text. -->
+        <themekey>LAS Point Cloud</themekey>
+        <themekey>Elevation Data</themekey>
+        <themekey>Lidar</themekey>
+        <!-- Theme Keyword - common-use word or phrase used to describe the subject of the data set. Type: text. Domain: free text. -->
+      </theme>
+      <place>
+        <!-- Place - geographic locations characterized by the data set. Type: compound. -->
+        <placekt>None</placekt>
+        <!-- Place Keyword Thesaurus. Type: text. Domain: "None" free text. -->
+        <placekey>New York City</placekey>
+        <placekey>New York County</placekey>
+        <placekey>Bronx County</placekey>
+        <placekey>Kings County</placekey>
+        <placekey>Queens County</placekey>
+        <placekey>Staten Island County</placekey>
+        <!-- Place Keyword - the geographic name of a location(s) covered by a data set. Type: text Domain: free text. -->
+      </place>
+    </keywords>
+    <accconst>No restrictions apply to these data.</accconst>
+    <!-- Access Constraints - restrictions and legal prerequisites for accessing the data set. Type: text. Domain: "None" free text. -->
+    <useconst>In some areas of heavy vegetation or forest cover, there may be relatively few points in the LiDAR data.</useconst>
+    <!-- Use Constraints - restrictions and legal prerequisites for using the data set after access is granted. Type: text. Domain: "None" free text. -->
+  </idinfo>
+  <dataqual>
+    <!-- Data Quality Information. Type: compound. -->
+    <logic>Data covers the entire area specified for this project.</logic>
+    <!-- Logical Consistency Report - an explanation of the fidelity of relationships in the data set and tests used. Type: text. Domain: free text. -->
+    <complete>The classified point cloud was inspected and passed accuracy specifications. </complete>
+    <!-- Completeness Report - information about omissions, selection criteria, generalization, definitions used, and other rules used to derive the data set. Type: text. Domain: free text-->
+    <lineage>
+      <!-- Lineage - information about the events, parameters, and source data which constructed the data set, and information about the responsible parties. Type: compound. -->
+      <procstep>
+        <!-- Process Step - information about a single processing step. Type: compound. -->
+        <procdesc>The following outlines the processing of the point cloud data: 
+		1. Flightlines and data were reviewed to ensure complete coverage of the study area and positional accuracy of the laser points.
+		2. Laser point return coordinates were computed using Waypoint Inertial Explorer and Leica Cloudpro software based on independent data from the LiDAR system, IMU, and aircraft.
+		3. The raw LiDAR file was assembled into flight lines per return with each point having an associated x, y, and z coordinate.
+		4. Visual inspection of swath to swath laser point consistencies within the study area were used to perform manual refinements of system alignment.
+		5. Custom algorithms were designed to evaluate points between adjacent flight lines. Automated system alignment was computed based upon randomly selected swath to swath accuracy measurements that consider elevation, slope, and intensities. Specifically, refinement in the combination of system pitch, roll, and yaw offset parameters optimize internal consistency.
+		6. Noise (e.g., pits and birds) was filtered using post-processing software, based on known elevation ranges and included the removal of any cycle slips.
+		7. Using TerraScan and Microstation, ground classifications utilized custom settings appropriate to the study area.
+		8. The corrected and filtered return points were compared to the ground survey points collected to verify the vertical accuracy.
+		</procdesc>
+        <!-- Process Description - an explanation of the processing step and parameters used. Include Flight, Imagery development, Analysis. Type: text. Domain: free text-->
+        <procdate>2018</procdate>
+        <!-- Process Date - the date when the processing step was completed. Type: text. Domain: "Unknown" "Not complete" free date. -->
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <!-- Spatial Data Organization Information. Type: compound. -->
+    <direct>Point</direct>
+    <!-- Direct Spatial Reference Method - the system of objects used to represent space in the data set. Type: text. Domain:  "Point" -->
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 StatePlane New York Long Island FIPS 3104 Feet</mapprojn>
+          <lambertc>
+            <stdparll>40.66666666666666</stdparll>
+            <stdparll>41.03333333333333</stdparll>
+            <longcm>-74.0</longcm>
+            <latprjo>40.16666666666666</latprjo>
+            <feast>984250.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.00000002687262634637478</absres>
+            <ordres>0.00000002687262634637478</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <!-- Metadata Reference Information - information on the currentness of the metadata information, and the responsible party. Type: compound. -->
+    <metd>20181121</metd>
+    <!-- Metadata Date - the date that the metadata were created or last updated. Type: date. Domain: free date. -->
+    <metc>
+      <!-- Metadata Contact - the party responsible for the metadata information. Type: compound. -->
+      <cntinfo>
+        <!-- Contact Information - Identity of, and means to communicate with, person(s) and organization(s) associated with the data set.Type: compound. -->
+        <cntorgp>
+          <!-- Contact Organization Primary - the organization, and the member of the organization, associated with the data set. Type: compound. -->
+          <cntorg>New York City Department of Information Technology and Telecommunications</cntorg>
+          <!-- Contact Organization - the name of the organization. Type: text. Domain: free text. -->
+        </cntorgp>
+        <cntaddr>
+          <!-- Contact Address - the address for the organization or individual. Type: compound. -->
+          <addrtype>mailing and physical</addrtype>
+          <!-- Address Type. Type: text. Domain: "mailing" "physical" "mailing and physical", free text. -->
+          <address>2 Metrotech</address>
+          <!-- Address - an address line for the address. Type: text. Domain: free text. -->
+          <city>Brooklyn</city>
+          <!-- City - the city of the address. Type: text. Domain: free text. -->
+          <state>NY</state>
+          <!-- State or Province - the state or province of the address. Type: text. Domain: free text. -->
+          <postal>11201</postal>
+          <!-- Postal Code - the ZIP or other postal code of the address. Type: text. Domain: free text. -->
+          <country>USA</country>
+          <!-- Country - the country of the address. Type: text. Domain: free text. -->
+        </cntaddr>
+        <cntvoice>(718)403-8214</cntvoice>
+        <!-- Contact Voice Telephone - the telephone number by which individuals can speak to the organization or individual. Type: text. Domain: free text. -->
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <!-- Metadata Standard Name - the name of the metadata standard used to document the data set. Type: text. Domain: "FGDC Content Standard for Digital Geospatial Metadata" free text -->
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <!-- Metadata Standard Version - identification of the version of the metadata standard used to document the data set. Type: text. Domain: free text. -->
+  </metainfo>
+</metadata>

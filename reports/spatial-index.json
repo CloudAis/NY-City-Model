@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-27T04:44:46.459105+00:00",
+  "indexed_records": 1082964,
+  "crs": "EPSG:32118",
+  "units": "metre",
+  "index_precision": "SQLite RTree outward-rounded float32 bounds, broad phase only",
+  "record_coordinate_precision": "float64 geometry unchanged; exact polygon intersection follows candidate retrieval"
+}

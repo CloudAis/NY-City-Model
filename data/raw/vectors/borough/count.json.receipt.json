@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/gthc-hcne.json?%24select=count%28%2A%29",
+  "final_url": "https://data.cityofnewyork.us/resource/gthc-hcne.json?%24select=count%28%2A%29",
+  "download_started_at": "2026-10-27T04:22:20.598925+00:00",
+  "download_completed_at": "2026-10-27T04:22:21.654851+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"aW5kaWEuMzY1ODJfMV8xNlpHRVNaUDFfbmRxQ1E5TEpZeDlKZ0M2RHg2RQ-B6woCHGSBIxSMEUEpO0mokJWAVY--gzip--gzip\"",
+  "last_modified_http": "Tue, 26 May 2026 19:35:49 GMT",
+  "bytes": 16,
+  "sha256": "c1a85673afac0150ed3d15d973caa7941fe454ad865ec762681f19c54b879f90",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,6 @@
+borough 5
+Traceback (most recent call last):
+  File "/workspace/nyc-3d-html/scripts/fetch_support_vectors.py", line 15, in <module>
+    if features!=count or len(set(ids))!=count:raise ValueError('count/unique stable source ID mismatch: '+name)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: count/unique stable source ID mismatch: roadbed

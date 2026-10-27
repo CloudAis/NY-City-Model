@@ -1,0 +1,593 @@
+{
+  "started_at": "2026-10-27T04:13:07.131280+00:00",
+  "signature": "5f53de432032ca20d4693f7deaad4abfd8ec62b3d2eeb2ba98c2b3482a540b88",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-city",
+  "count_expected": 45172,
+  "ids_sha256": "f81792f6ee2b8b53a6ae4ccc4cb4a099f0409f3a7144d6ac662ba54183378a70",
+  "scope": {
+    "borough": "manhattan",
+    "bbox_wgs84": null,
+    "where": "BASE_BBL LIKE '1%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:19:35.554548+00:00",
+  "finished_at": "2026-10-27T04:19:36.538574+00:00",
+  "pages": [
+    {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00000000.json",
+      "sha256": "d2a4f9ca48d6cdde705f44c6c694f93eb228ca8f7dabb7e6c202068d275a07f6",
+      "records": 500
+    },
+    {
+      "id": "page-00000500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00000500.json",
+      "sha256": "e4e2d3bf3ad9b2cf844e922b71d63507f86934829f65bde69ea5f52b3b45f33f",
+      "records": 500
+    },
+    {
+      "id": "page-00001000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00001000.json",
+      "sha256": "affe10bc7754900f4c6dc38a0dc5691fa5ffda14240618a56cae7163247a73aa",
+      "records": 500
+    },
+    {
+      "id": "page-00001500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00001500.json",
+      "sha256": "184a2128222d30189c6f144fc521c1c6d2dd3db3baa4126110db7f8e3fe26a44",
+      "records": 500
+    },
+    {
+      "id": "page-00002000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002000.json",
+      "sha256": "1999bb8b29e85a729364b9683bcdfb4c60a1d5465baa805d4c8daf3914696852",
+      "records": 500
+    },
+    {
+      "id": "page-00002500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002500.json",
+      "sha256": "18d2a85b8e4c31571b2a214c841f293435d539d17f66ec87f8d6e8594f2820a6",
+      "records": 500
+    },
+    {
+      "id": "page-00003000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+      "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+      "records": 500
+    },
+    {
+      "id": "page-00003500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003500.json",
+      "sha256": "9dbc63d028d9b85f8e45148022a4a5ba2dfad7e56beed20c3daca2d06d4bf8ac",
+      "records": 500
+    },
+    {
+      "id": "page-00004000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00004000.json",
+      "sha256": "858f605138d85eaff35b06da4cf0e5de025cf4a2559da88f4eb3c1179bfb7127",
+      "records": 500
+    },
+    {
+      "id": "page-00004500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00004500.json",
+      "sha256": "1e47740ec0029a0d364eed246a52079de75c5e205d399f8df4ba28dd2074d646",
+      "records": 500
+    },
+    {
+      "id": "page-00005000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00005000.json",
+      "sha256": "c653b698cee797cebd135f701445b7dd699a5733145391f5d0e86d64069ee5e9",
+      "records": 500
+    },
+    {
+      "id": "page-00005500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00005500.json",
+      "sha256": "f0acff08a3b81b5049c23b14cfa2361db688a5d018e30ce7ee84f65f77d2e1c9",
+      "records": 500
+    },
+    {
+      "id": "page-00006000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00006000.json",
+      "sha256": "f73efce674026eba3f818d0433e165b3361bf9d45571844ed4a87fb26033ac8d",
+      "records": 500
+    },
+    {
+      "id": "page-00006500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00006500.json",
+      "sha256": "e219e58c46a4046f38abb473def9ff3477d12b34f1b88d734390e3f6bc6cf82e",
+      "records": 500
+    },
+    {
+      "id": "page-00007000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00007000.json",
+      "sha256": "d1545370e5e15022f2cff616f06cdb525fb7c0e6e2009d7260dcffcfdca1c8b2",
+      "records": 500
+    },
+    {
+      "id": "page-00007500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00007500.json",
+      "sha256": "5a6bb0ed627be01eb89858dd46e4e67fee37ff598700f8dfc592938d10a2a00c",
+      "records": 500
+    },
+    {
+      "id": "page-00008000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00008000.json",
+      "sha256": "d0a9f7a01e528714e75739dbe0febd1ca75e4fcaa3f417ba00d79d97b8b86b1e",
+      "records": 500
+    },
+    {
+      "id": "page-00008500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00008500.json",
+      "sha256": "656086f2ef683be7ecf500959def32bda9470820d09961a20b49b7dd67582d65",
+      "records": 500
+    },
+    {
+      "id": "page-00009000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00009000.json",
+      "sha256": "d137e7df896c1ed92d5815e589f39dbf666515bbfe0ac5a573734e68d122944d",
+      "records": 500
+    },
+    {
+      "id": "page-00009500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00009500.json",
+      "sha256": "f930c38e0398833a1e324859697b6cccae7929493194ccf3babd88cfe2c6edeb",
+      "records": 500
+    },
+    {
+      "id": "page-00010000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00010000.json",
+      "sha256": "ce506d61044004c2e238bb4f855ed53e494f0c42443952bd38cd7c553570a7e2",
+      "records": 500
+    },
+    {
+      "id": "page-00010500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00010500.json",
+      "sha256": "28bad481d22b30288c2adc179fe22492feedc8013b209d1d6818d3ffcd4c19eb",
+      "records": 500
+    },
+    {
+      "id": "page-00011000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00011000.json",
+      "sha256": "bc90dbd0632965d53ae15a0c77fe8521c1b765b93d530f61ab9fdaa830207809",
+      "records": 500
+    },
+    {
+      "id": "page-00011500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00011500.json",
+      "sha256": "376be81309aab4572f1ef7d9a3979802634aea775f5d69c5ba92fb6bb49df0fa",
+      "records": 500
+    },
+    {
+      "id": "page-00012000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00012000.json",
+      "sha256": "489b96c48336e5ee799591933197a491bd95b0323f631f77d00ec5c219372169",
+      "records": 500
+    },
+    {
+      "id": "page-00012500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00012500.json",
+      "sha256": "a6400a47a91f2d376c8f8cc2d40cf37f680b4407650dd2f15d106cc5333e8d0c",
+      "records": 500
+    },
+    {
+      "id": "page-00013000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00013000.json",
+      "sha256": "66fd278ce5c43984c3dfa64e57a5b51b77c62066248b5e2eac5842cc2eb4bdfe",
+      "records": 500
+    },
+    {
+      "id": "page-00013500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00013500.json",
+      "sha256": "4894b9c1417bc00e5bf5056614cd7b49b27c59eef1d393a718988002af8696d9",
+      "records": 500
+    },
+    {
+      "id": "page-00014000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00014000.json",
+      "sha256": "a4ce814053167f2c9bff85d41520d09c3f901fdf3bb4e5410f8f85e4068690a7",
+      "records": 500
+    },
+    {
+      "id": "page-00014500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00014500.json",
+      "sha256": "f976f5c347efaa7e8823a698c8d96ac3e4687b6aee9af6222287a93a0235c204",
+      "records": 500
+    },
+    {
+      "id": "page-00015000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00015000.json",
+      "sha256": "9e9f02e5be3287052f3ed8e8fa238e871d042f7a7ff15ccba881b76271886694",
+      "records": 500
+    },
+    {
+      "id": "page-00015500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00015500.json",
+      "sha256": "5e37fed8d8d0a9c09acd2604aa7b845d7aeec4e4f942aaa743e870021e779bc3",
+      "records": 500
+    },
+    {
+      "id": "page-00016000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00016000.json",
+      "sha256": "3eab8c5a7698cee50d3286e618fe8b9cf60d85af8587d2088a95be07e29013b5",
+      "records": 500
+    },
+    {
+      "id": "page-00016500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00016500.json",
+      "sha256": "c7dd814df3960cad28d5552f5b5b65930eecdb1d5d43d17a2d573b615427b6c5",
+      "records": 500
+    },
+    {
+      "id": "page-00017000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00017000.json",
+      "sha256": "1f1d28bf088069dad357bd82c3a6e1fcaddae1a841ed550c93a7bbe6a3c58731",
+      "records": 500
+    },
+    {
+      "id": "page-00017500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00017500.json",
+      "sha256": "ab070a986eabbf96df69f92d4e090819f956e0152a633b533c9305db56504401",
+      "records": 500
+    },
+    {
+      "id": "page-00018000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00018000.json",
+      "sha256": "764b3da11a5b8e998671e714f3937161581f8d0d316553fb17a7c2deae28a118",
+      "records": 500
+    },
+    {
+      "id": "page-00018500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00018500.json",
+      "sha256": "9f6d6590311ab8a8638386f0b7f555741a3b1510bac7213182d117b6e37a927e",
+      "records": 500
+    },
+    {
+      "id": "page-00019000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00019000.json",
+      "sha256": "eac94179deabaf696f60a0d53bfd0217c0406ef4e77461879e3ed8f2ddec4970",
+      "records": 500
+    },
+    {
+      "id": "page-00019500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00019500.json",
+      "sha256": "007b74620912be3509c59a5f373680b3975e648f0fb9a0cf0163eab4442ec241",
+      "records": 500
+    },
+    {
+      "id": "page-00020000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00020000.json",
+      "sha256": "82ed748075d5ee9bbafe2219de248ade8ffa0504005cf44622f3ad5d6b95df10",
+      "records": 500
+    },
+    {
+      "id": "page-00020500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00020500.json",
+      "sha256": "4313afce17859780b879a583dc3bfae2995d87c3bc9815835a7165fe3fff1243",
+      "records": 500
+    },
+    {
+      "id": "page-00021000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00021000.json",
+      "sha256": "6928f5703189b5b481aedfeea4c84a63f417149e4490c80c13f323969c41b7ec",
+      "records": 500
+    },
+    {
+      "id": "page-00021500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00021500.json",
+      "sha256": "3fba30cff89c54b7b2739e0db9f2a457dc684abd7845584b56e76ef629efcc99",
+      "records": 500
+    },
+    {
+      "id": "page-00022000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00022000.json",
+      "sha256": "c6c0f06ede196246eeda2123d4b0f151a61b7481472b854985178bfcba9f27a3",
+      "records": 500
+    },
+    {
+      "id": "page-00022500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00022500.json",
+      "sha256": "02ab72fd325de182333da74da1ea467672e259332dfbbff3d4b2f1914b83e64d",
+      "records": 500
+    },
+    {
+      "id": "page-00023000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00023000.json",
+      "sha256": "d700891d4fa8742213a0aec280ada25184e5c3fb21a3b480599ed0248d568def",
+      "records": 500
+    },
+    {
+      "id": "page-00023500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00023500.json",
+      "sha256": "12c6860358106b8cb657754be671b8a841a90e44af869b19f3f98ea12cbc97cc",
+      "records": 500
+    },
+    {
+      "id": "page-00024000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00024000.json",
+      "sha256": "0bde5647ee6ae2d41339565e4bbb28022dbfba64184358f8e612a46fe1260975",
+      "records": 500
+    },
+    {
+      "id": "page-00024500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00024500.json",
+      "sha256": "ee3ee66c4349cc58e24cd1447352bee3c8a098c685af801d78d54abd274bc632",
+      "records": 500
+    },
+    {
+      "id": "page-00025000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00025000.json",
+      "sha256": "9b41649cdcc8cf8188310fd88d6fea9fb2659530435d95491327215ac17010c0",
+      "records": 500
+    },
+    {
+      "id": "page-00025500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00025500.json",
+      "sha256": "bc63b58b351734d77dd254631f0d26d73ef68b3a9db596a6ab83ae678c675383",
+      "records": 500
+    },
+    {
+      "id": "page-00026000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00026000.json",
+      "sha256": "10c53a15dbae746b2a08658a2481f1650ee18eb510f5fe50c45ce4fef073a27f",
+      "records": 500
+    },
+    {
+      "id": "page-00026500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00026500.json",
+      "sha256": "45e233bc08bd4185938181d28c1b145f9a2039436dcc4dec957137fd19ed4808",
+      "records": 500
+    },
+    {
+      "id": "page-00027000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00027000.json",
+      "sha256": "c8737eb442d484838b7f727b8d2d0138a4a18f052d8a4169b7d470a1e75ff6d9",
+      "records": 500
+    },
+    {
+      "id": "page-00027500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00027500.json",
+      "sha256": "b0aef75556b04cffff51deecf308e790807cd59819c1369599372bf795906ba9",
+      "records": 500
+    },
+    {
+      "id": "page-00028000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00028000.json",
+      "sha256": "29f303354478be52df4a4010ae930d23319bea178cd9756257f9aec70527a135",
+      "records": 500
+    },
+    {
+      "id": "page-00028500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00028500.json",
+      "sha256": "e50174eac410b9db9803b0270af1b3ad34f79d4e94d72914b62532ecf2f287f5",
+      "records": 500
+    },
+    {
+      "id": "page-00029000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00029000.json",
+      "sha256": "4d70f00d013c45b12d6c16accd6b3c3fc1deaa576cf16eb59470a764130d4f89",
+      "records": 500
+    },
+    {
+      "id": "page-00029500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00029500.json",
+      "sha256": "b9e852c7c16056bfac6e59170d8104f517878540f4f1d3e5797ac3c445bf6c8f",
+      "records": 500
+    },
+    {
+      "id": "page-00030000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00030000.json",
+      "sha256": "098222dd1d63d96f2712e3dc76afcc44e9fdb14e652a501feeb588c1ecb9f1b8",
+      "records": 500
+    },
+    {
+      "id": "page-00030500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00030500.json",
+      "sha256": "172f9a8ffec7acc7f983075cdbdd5026d672b1b69b40da0786eaddd7900011e3",
+      "records": 500
+    },
+    {
+      "id": "page-00031000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00031000.json",
+      "sha256": "9121a872258cceb578bd3bdb84ebd93fb5f7f7b46534271a7d89eb484170079f",
+      "records": 500
+    },
+    {
+      "id": "page-00031500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00031500.json",
+      "sha256": "dbb7ffa1fd40679b1d365d2ee00fd39cc6fbb7fa744e5ac117d06907656d589d",
+      "records": 500
+    },
+    {
+      "id": "page-00032000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00032000.json",
+      "sha256": "e191fab7e20aec6741f44080efcdaf2faf4f6b333df1098b8444be8ab64179b8",
+      "records": 500
+    },
+    {
+      "id": "page-00032500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00032500.json",
+      "sha256": "4fd4f9cfdcaa814b94d5a89e6c39e5941b8691a89c2563dbcc29881d14b73b9f",
+      "records": 500
+    },
+    {
+      "id": "page-00033000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00033000.json",
+      "sha256": "6bbfe7b0d04bebf6a80066b3b7d94dc5ba7eafad2bc92c66b745f749c5cb607b",
+      "records": 500
+    },
+    {
+      "id": "page-00033500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00033500.json",
+      "sha256": "382f861eea6195035d43b5c15f009da78d04ae2ea77a192dd1959d95b06a21af",
+      "records": 500
+    },
+    {
+      "id": "page-00034000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00034000.json",
+      "sha256": "ae7558b0bc071fb8f0fb5a6ef4ad5c9367705898f2879623597d6a6544cbb831",
+      "records": 500
+    },
+    {
+      "id": "page-00034500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00034500.json",
+      "sha256": "cd596b7bb94a01f3de61db475538500ed437bbab2f18429dcd685a800e4c426e",
+      "records": 500
+    },
+    {
+      "id": "page-00035000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00035000.json",
+      "sha256": "105ad561fb6107b4c459808316874fc70d5344f2b3126d7ff76eac50a651b9c9",
+      "records": 500
+    },
+    {
+      "id": "page-00035500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00035500.json",
+      "sha256": "b2a63bc68540dcdb1e7d1f09c3e5447d8bcb59fced5ae7844d9b4f045f3a79b9",
+      "records": 500
+    },
+    {
+      "id": "page-00036000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00036000.json",
+      "sha256": "7fab02d1a206aca95c75d9245d77f8e1283921770e2b4674ea15759040871120",
+      "records": 500
+    },
+    {
+      "id": "page-00036500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00036500.json",
+      "sha256": "19fa98769ce637cbc5656f32387bc4d9bbe83833b66c991b611afbd502e66781",
+      "records": 500
+    },
+    {
+      "id": "page-00037000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037000.json",
+      "sha256": "51bf8cd8a96bfd7a84ce942952d442b654f41574149baa08ca76526368afeb24",
+      "records": 500
+    },
+    {
+      "id": "page-00037500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037500.json",
+      "sha256": "e96aef2908384ad1bee11855b6ee52ea9eab560cdb63f4c3b87fc202ded14a29",
+      "records": 500
+    },
+    {
+      "id": "page-00038000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00038000.json",
+      "sha256": "3d18bb325a3dae189579152241879dc582210db9fd0a695d80df84fcb0f8cf05",
+      "records": 500
+    },
+    {
+      "id": "page-00038500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00038500.json",
+      "sha256": "b21275bc90f42a3eebf8e7fad19bbbea983f6e44290c1560ce9746fd95a77c17",
+      "records": 500
+    },
+    {
+      "id": "page-00039000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00039000.json",
+      "sha256": "e654d40b24ec09d042517256b3d2ebb76d351efaf55bc232193240e646e9462e",
+      "records": 500
+    },
+    {
+      "id": "page-00039500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00039500.json",
+      "sha256": "42e2afc2cde34e79d1f7b4f0977cd87fb031d156673e770c14e347114b423669",
+      "records": 500
+    },
+    {
+      "id": "page-00040000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00040000.json",
+      "sha256": "3059ae0000fa63993c8a075a8c949354564ee6e89feb809226ccb24bf9e7cf67",
+      "records": 500
+    },
+    {
+      "id": "page-00040500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00040500.json",
+      "sha256": "14c838292d96e6673be7420152c97993a90425ca5705e600cba06c37256baf14",
+      "records": 500
+    },
+    {
+      "id": "page-00041000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00041000.json",
+      "sha256": "5a2c111f4bcafa034d949aeba3f3985a6ad2362fbdb23a506ec80def5e711713",
+      "records": 500
+    },
+    {
+      "id": "page-00041500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00041500.json",
+      "sha256": "ee674a27594eafb9ef7b13e056c1124d6eebb6a9af55e4ee34cc0f3b432ccff2",
+      "records": 500
+    },
+    {
+      "id": "page-00042000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042000.json",
+      "sha256": "48f9c655de60e9f0aee9b35be3794626932336b07d31fae748d30e0b9f74a6aa",
+      "records": 500
+    },
+    {
+      "id": "page-00042500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "records": 500
+    },
+    {
+      "id": "page-00043000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00043000.json",
+      "sha256": "7194d3e9062ec1bf8422b11a12e4b56b2a5df6bd3469adb96d31fb04765eed90",
+      "records": 500
+    },
+    {
+      "id": "page-00043500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00043500.json",
+      "sha256": "c04fe24a6b5f1a1fc1445a481350f94ce31f1d737bd89f3f7e57119f65b6089b",
+      "records": 500
+    },
+    {
+      "id": "page-00044000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00044000.json",
+      "sha256": "5cf99ad2546902c7857fe5ff9336ee00dab65102d53adef3cac7a37bba339088",
+      "records": 500
+    },
+    {
+      "id": "page-00044500",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00044500.json",
+      "sha256": "0ee6044f939a3209b98890a963caa77a6785b93a3fa01d444db3a8da7d406c5f",
+      "records": 500
+    },
+    {
+      "id": "page-00045000",
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00045000.json",
+      "sha256": "bb4f25b4d7a9d653f956098e29cdf1a566ef3844cac0c06067f382a8ab4e3a98",
+      "records": 172
+    }
+  ],
+  "records_downloaded": 45172,
+  "unique_object_ids": 45172,
+  "consistency": {
+    "start_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "end_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "id_set_equal": true,
+    "service_changed_during_window": false,
+    "atomic_snapshot": false,
+    "limitation": "Dynamic service; unchanged last-edit and ID set are checks, not a transactional snapshot. Re-fetch a new version if flagged."
+  },
+  "raw_spatial_reference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "height_units": "feet; relative roof height, not elevation",
+  "vertical_datum": "Ground often NAVD88 per metadata; per-feature datum not guaranteed",
+  "downloaded_at": "2026-10-27T04:19:36.545111+00:00",
+  "observation_date": null,
+  "source_metadata_date": "2025-10-09",
+  "license": "NYC Open Data Terms; see captured terms; not blanket CC0",
+  "license_class": "local-processing-and-distribution-subject-to-NYC-terms"
+}

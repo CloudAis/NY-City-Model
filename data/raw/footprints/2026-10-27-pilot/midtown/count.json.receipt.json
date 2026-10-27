@@ -1,0 +1,14 @@
+{
+  "request_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&where=BASE_BBL+LIKE+%271%25%27&geometry=-73.989%2C40.748%2C-73.977%2C40.7565&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnCountOnly=true",
+  "final_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&where=BASE_BBL+LIKE+%271%25%27&geometry=-73.989%2C40.748%2C-73.977%2C40.7565&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&returnCountOnly=true",
+  "download_started_at": "2026-10-27T04:08:33.614861+00:00",
+  "download_completed_at": "2026-10-27T04:08:34.134728+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "sd544_-202799427",
+  "last_modified_http": "Sun, 25 Oct 2026 02:16:29 GMT",
+  "bytes": 13,
+  "sha256": "98daeb33be0ab0dd744fe639347d39d1da40bad5c36bd8869ce3e78199330bc4",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://gisdata.ny.gov/elevation/LIDAR/NYC_TopoBathymetric2017/NewYorkCity_2017_Topobathymetric_LiDAR.XML",
+  "final_url": "https://gisdata.ny.gov/elevation/LIDAR/NYC_TopoBathymetric2017/NewYorkCity_2017_Topobathymetric_LiDAR.XML",
+  "download_started_at": "2026-10-27T04:21:11.710452+00:00",
+  "download_completed_at": "2026-10-27T04:21:12.465073+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/xml",
+  "etag": "\"56a4-5f5c25f3f5580\"",
+  "last_modified_http": "Tue, 28 Feb 2023 13:14:14 GMT",
+  "bytes": 22180,
+  "sha256": "82eeef4638db0b8707ad59e7aac41f5e5a011c8275956e2e956b6f3c05542228",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

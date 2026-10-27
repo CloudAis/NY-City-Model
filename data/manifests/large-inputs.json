@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-27T05:14:21.989907+00:00",
+  "files": [
+    {
+      "path": "data/processed/city/buildings.sqlite",
+      "bytes": 4943364096,
+      "sha256": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37",
+      "bundled_in_browser_zip": false
+    },
+    {
+      "path": "data/processed/context/context.gpkg",
+      "bytes": 322449408,
+      "sha256": "644f1d0af6f96f7493d3881e026985ef819c436152c5c4f9d5d5854d60d13292",
+      "bundled_in_browser_zip": false
+    },
+    {
+      "path": "data/raw/supporting/nyc_pluto_26v2_csv.zip",
+      "bytes": 71787243,
+      "sha256": "1df5753188a4a2e1c9a04bfe5ce98930c11a4a0b78d0445abcbcbbfea4d32919",
+      "bundled_in_browser_zip": false
+    },
+    {
+      "path": "data/raw/supporting/nyc_3dmodel_mn01.zip",
+      "bytes": 57578833,
+      "sha256": "820fcc1a65ce892e10e82139e87cf6e528ca8590b0dc8bcc62f49d8677020b8a",
+      "bundled_in_browser_zip": false
+    }
+  ],
+  "note": "Retained locally, ignored by source Git; raw source receipts and capture manifests identify provenance."
+}

@@ -1,0 +1,14 @@
+{
+  "request_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&objectIds=1089883%2C1089885%2C1091252%2C1091315%2C1091955%2C1092234&outFields=%2A&returnGeometry=true&orderByFields=OBJECTID+ASC&returnZ=false",
+  "final_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&objectIds=1089883%2C1089885%2C1091252%2C1091315%2C1091955%2C1092234&outFields=%2A&returnGeometry=true&orderByFields=OBJECTID+ASC&returnZ=false",
+  "download_started_at": "2026-10-27T04:10:28.283277+00:00",
+  "download_completed_at": "2026-10-27T04:10:28.510402+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "sd544_-202799427",
+  "last_modified_http": "Sun, 25 Oct 2026 02:16:29 GMT",
+  "bytes": 6138,
+  "sha256": "46db9b6a34ca9a3eadebbad70b49afec2711b61a5b149dc45753de25ee1e39b0",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

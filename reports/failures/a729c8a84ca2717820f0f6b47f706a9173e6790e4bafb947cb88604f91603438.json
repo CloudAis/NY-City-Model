@@ -1,0 +1,31 @@
+{
+  "url": "https://data.cityofnewyork.us/api/views/7sc8-jtbz/files/dfe8b336-0307-4235-b00e-2742d8ac552a?download=true&filename=TopoBathymetric_Classified_LAZ.zip",
+  "destination": "/workspace/nyc-3d-html/data/raw/supporting/TopoBathymetric_Classified_LAZ-index.zip",
+  "attempts": [
+    {
+      "at": "2026-10-27T04:33:12.553469+00:00",
+      "url": "https://data.cityofnewyork.us/api/views/7sc8-jtbz/files/dfe8b336-0307-4235-b00e-2742d8ac552a?download=true&filename=TopoBathymetric_Classified_LAZ.zip",
+      "attempt": 1,
+      "error": "download exceeds per-file budget"
+    },
+    {
+      "at": "2026-10-27T04:33:14.526579+00:00",
+      "url": "https://data.cityofnewyork.us/api/views/7sc8-jtbz/files/dfe8b336-0307-4235-b00e-2742d8ac552a?download=true&filename=TopoBathymetric_Classified_LAZ.zip",
+      "attempt": 2,
+      "error": "download exceeds per-file budget"
+    },
+    {
+      "at": "2026-10-27T04:33:19.313155+00:00",
+      "url": "https://data.cityofnewyork.us/api/views/7sc8-jtbz/files/dfe8b336-0307-4235-b00e-2742d8ac552a?download=true&filename=TopoBathymetric_Classified_LAZ.zip",
+      "attempt": 3,
+      "error": "download exceeds per-file budget"
+    },
+    {
+      "at": "2026-10-27T04:33:24.750212+00:00",
+      "url": "https://data.cityofnewyork.us/api/views/7sc8-jtbz/files/dfe8b336-0307-4235-b00e-2742d8ac552a?download=true&filename=TopoBathymetric_Classified_LAZ.zip",
+      "attempt": 4,
+      "error": "download exceeds per-file budget"
+    }
+  ],
+  "resolved": false
+}

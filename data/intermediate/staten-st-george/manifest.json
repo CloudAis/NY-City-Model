@@ -1,0 +1,100 @@
+{
+  "started_at": "2026-10-27T04:10:36.021074+00:00",
+  "signature": "2e95e027e9b87b32170951a9d33ff73a968c134ab54e9ebb58e02018ed1d22ed",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-pilot",
+  "count_expected": 780,
+  "ids_sha256": "e4c055fc0b17b46f9d2f2714c15276dbca641e623884fbe8cf6f9a869e455653",
+  "scope": {
+    "borough": "staten-island",
+    "bbox_wgs84": [
+      -74.084,
+      40.639,
+      -74.073,
+      40.648
+    ],
+    "where": "BASE_BBL LIKE '5%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:10:39.300775+00:00",
+  "finished_at": "2026-10-27T04:10:40.053505+00:00",
+  "pages": [
+    {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000000.json",
+      "sha256": "722e85f03b2b4663e5857afa0f4b55ecd5397eafb4591d8dd2f90d3fe96404ad",
+      "records": 100
+    },
+    {
+      "id": "page-00000100",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000100.json",
+      "sha256": "95fc857bdf1c9382b3cc3fda6cdb908778b4d90ae96351ef7cc82f12e80b176e",
+      "records": 100
+    },
+    {
+      "id": "page-00000200",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000200.json",
+      "sha256": "0a283c658539b04a00a308a50a64fd7de2215bc87ada3d07acd6b5a00dcdcf1e",
+      "records": 100
+    },
+    {
+      "id": "page-00000300",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000300.json",
+      "sha256": "a43e47631e5f3ef545953ad872f2d0eedbe4193d6e9a99b4fb450490399215fa",
+      "records": 100
+    },
+    {
+      "id": "page-00000400",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000400.json",
+      "sha256": "97a55a44f2b3dd3a4d8aa6b0be8119e19e22b5f880cbd7f46a7f74cbef46824c",
+      "records": 100
+    },
+    {
+      "id": "page-00000500",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000500.json",
+      "sha256": "001f3dd81a633cb3788522617e929a58b2c7516691ba2f8b682bd442549d47ac",
+      "records": 100
+    },
+    {
+      "id": "page-00000600",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000600.json",
+      "sha256": "d3c0b14bf8f4f82ccafda13dc65aa5df897f5a3fac7e5b7494efe1d8d5ab7bf9",
+      "records": 100
+    },
+    {
+      "id": "page-00000700",
+      "path": "data/raw/footprints/2026-10-27-pilot/staten-st-george/page-00000700.json",
+      "sha256": "fc2758fbc6072a3c005924d7db68fe63924c6e9cef6e7acb981f1c2fca03a24f",
+      "records": 80
+    }
+  ],
+  "records_downloaded": 780,
+  "unique_object_ids": 780,
+  "consistency": {
+    "start_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "end_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "id_set_equal": true,
+    "service_changed_during_window": false,
+    "atomic_snapshot": false,
+    "limitation": "Dynamic service; unchanged last-edit and ID set are checks, not a transactional snapshot. Re-fetch a new version if flagged."
+  },
+  "raw_spatial_reference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "height_units": "feet; relative roof height, not elevation",
+  "vertical_datum": "Ground often NAVD88 per metadata; per-feature datum not guaranteed",
+  "downloaded_at": "2026-10-27T04:10:40.053902+00:00",
+  "observation_date": null,
+  "source_metadata_date": "2025-10-09",
+  "license": "NYC Open Data Terms; see captured terms; not blanket CC0",
+  "license_class": "local-processing-and-distribution-subject-to-NYC-terms"
+}

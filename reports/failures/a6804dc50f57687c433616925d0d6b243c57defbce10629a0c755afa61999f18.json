@@ -1,0 +1,31 @@
+{
+  "url": "https://www.arcgis.com/sharing/rest/content/items/ac021388db8f4cb2bd4ce12b223cbd74/data?f=json",
+  "destination": "/workspace/nyc-3d-html/data/raw/supporting/nyc-lidar-webapp-data.json",
+  "attempts": [
+    {
+      "at": "2026-10-27T04:28:58.147202+00:00",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/ac021388db8f4cb2bd4ce12b223cbd74/data?f=json",
+      "attempt": 1,
+      "error": "upstream API error: {'code': 403, 'messageCode': 'GWM_0003', 'message': 'You do not have permissions to access this resource or perform this operation.', 'details': []}"
+    },
+    {
+      "at": "2026-10-27T04:28:59.464547+00:00",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/ac021388db8f4cb2bd4ce12b223cbd74/data?f=json",
+      "attempt": 2,
+      "error": "upstream API error: {'code': 403, 'messageCode': 'GWM_0003', 'message': 'You do not have permissions to access this resource or perform this operation.', 'details': []}"
+    },
+    {
+      "at": "2026-10-27T04:29:01.757264+00:00",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/ac021388db8f4cb2bd4ce12b223cbd74/data?f=json",
+      "attempt": 3,
+      "error": "upstream API error: {'code': 403, 'messageCode': 'GWM_0003', 'message': 'You do not have permissions to access this resource or perform this operation.', 'details': []}"
+    },
+    {
+      "at": "2026-10-27T04:29:07.418997+00:00",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/ac021388db8f4cb2bd4ce12b223cbd74/data?f=json",
+      "attempt": 4,
+      "error": "upstream API error: {'code': 403, 'messageCode': 'GWM_0003', 'message': 'You do not have permissions to access this resource or perform this operation.', 'details': []}"
+    }
+  ],
+  "resolved": false
+}

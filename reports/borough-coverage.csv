@@ -1,0 +1,6 @@
+borough,raw_records,source_defined_entities,geometry_parts,valid_source_height_records,unknown_height_records,placeholders,geometry_repairs,failed_geometries,matched_legacy_models,acquired_legacy_model_archives
+manhattan,45172,45172,45172,45097,75,5,4,0,0,1
+bronx,104268,104268,104268,104082,186,4,0,0,0,0
+brooklyn,330113,330113,330113,329899,214,4,0,0,0,0
+queens,460950,460950,460950,460793,157,14,1,0,0,0
+staten-island,142461,142461,142461,142372,89,7,1,0,0,0

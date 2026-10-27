@@ -1,5 +1,5 @@
 """Official ArcGIS extraction using frozen object-ID sets, never offset-only first-page fetches."""
-import argparse,json,sys,hashlib,datetime
+import argparse,json,sys,hashlib,datetime,urllib.parse,shutil
 from pathlib import Path
 from nyc.download import Downloader,ROOT,query_url,atomic_json,now,sha
 SERVICE='https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer'
@@ -20,6 +20,7 @@ def fetch(args):
  count=json.loads(d.get(query_url(SERVICE+'/0/query',{**common,'returnCountOnly':'true'}),raw/'count.json').read_text())['count']
  ids=sorted(json.loads(d.get(query_url(SERVICE+'/0/query',{**common,'returnIdsOnly':'true'}),raw/'ids.json').read_text())['objectIds']or[])
  if len(ids)!=count or len(ids)!=len(set(ids)):raise ValueError('count/unique-ID snapshot mismatch; use a fresh version')
+ if count*8192>shutil.disk_usage(out).free*.5:raise ValueError('insufficient free disk for conservative source/derived budget')
  if args.max_features and len(ids)>args.max_features:raise ValueError(f'{len(ids)} records exceed budget {args.max_features}; narrow bbox or explicitly raise limit')
  state_path=out/'fetch-state.json';state=json.loads(state_path.read_text())if state_path.exists()else{'completed':{},'started_at':now()}
  signature=hashlib.sha256(json.dumps([version,args.name,ids,common,batch],sort_keys=True).encode()).hexdigest()
@@ -30,7 +31,10 @@ def fetch(args):
   key=f'page-{i:08d}';dest=raw/(key+'.json');refresh=args.refetch_page==key
   if args.refetch_page and not any(key==args.refetch_page for key,_ in [(f'page-{x:08d}',g)for x,g in work]):raise ValueError('requested page does not exist')
   url=query_url(SERVICE+'/0/query',{'f':'json','objectIds':','.join(map(str,group)),'outFields':'*','returnGeometry':'true','orderByFields':oid+' ASC','returnZ':'false'})
-  p=d.get(url,dest,refresh=refresh);page=json.loads(p.read_text());got=[f['attributes'][oid]for f in page.get('features',[])]
+  body=None
+  if len(url)>1500:
+   url,encoded=url.split('?',1);body=encoded.encode()
+  p=d.get(url,dest,refresh=refresh,data=body);page=json.loads(p.read_text());got=[f['attributes'][oid]for f in page.get('features',[])]
   if page.get('exceededTransferLimit')or set(got)!=set(group)or len(got)!=len(group):raise ValueError('page incomplete, deleted/changed IDs or transfer limit: '+key)
   seen.extend(got);pages.append({'id':key,'path':str(p.relative_to(ROOT)),'sha256':sha(p),'records':len(got)})
   was=key in state['completed'];state['completed'][key]=pages[-1];state['last_success_at']=now();atomic_json(state_path,state)

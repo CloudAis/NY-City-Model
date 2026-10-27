@@ -1,0 +1,17 @@
+Collecting rhino3dm==8.35.0
+  Downloading rhino3dm-8.35.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (2.1 kB)
+Collecting laspy==2.7.0
+  Downloading laspy-2.7.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting lazrs==0.8.2
+  Downloading lazrs-0.8.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (99 bytes)
+Requirement already satisfied: numpy in ./.venv/lib/python3.12/site-packages (from laspy==2.7.0) (2.5.4)
+Downloading rhino3dm-8.35.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 28.9 MB/s eta 0:00:00
+Downloading laspy-2.7.0-py3-none-any.whl (86 kB)
+Downloading lazrs-0.8.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (626 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 626.9/626.9 kB 22.6 MB/s eta 0:00:00
+Installing collected packages: lazrs, rhino3dm, laspy
+Successfully installed laspy-2.7.0 lazrs-0.8.2 rhino3dm-8.35.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.2
+[notice] To update, run: python3 -m pip install --upgrade pip

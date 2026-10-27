@@ -1,0 +1,266 @@
+[
+  {
+    "path": "data/raw/catalog/Metadata_3DBuildingModel.md",
+    "source_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_3DBuildingModel.md",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/Metadata_AerialImagery.md",
+    "source_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_AerialImagery.md",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/Metadata_StreetCenterline.md",
+    "source_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_StreetCenterline.md",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/Metadata_TidalShoreline.md",
+    "source_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_TidalShoreline.md",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/Metadata_TopobathymetricClassifiedPointCloud.md",
+    "source_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_TopobathymetricClassifiedPointCloud.md",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/content-loader.response",
+    "source_url": "https://www.nyc.gov/assets/home/js/content-api/content-loader.js",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/gltf-extensions-list.response",
+    "source_url": "https://api.github.com/repos/KhronosGroup/glTF/contents/extensions/2.0/Vendor",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/laspy-package.json",
+    "source_url": "https://pypi.org/pypi/laspy/json",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/lazrs-package.json",
+    "source_url": "https://pypi.org/pypi/lazrs/json",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/metadata-directory.response",
+    "source_url": "https://api.github.com/repos/CityOfNewYork/nyc-geo-metadata/contents/Metadata",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/model3d.response",
+    "source_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/nyc-3d-model",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/nyc-open-terms.response",
+    "source_url": "https://opendata.cityofnewyork.us/overview/#termsofuse",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/planimetrics-index.response",
+    "source_url": "https://api.github.com/repos/CityOfNewYork/nyc-planimetrics/contents",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/planimetrics-readme.response",
+    "source_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-planimetrics/main/README.md",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/planning-config.response",
+    "source_url": "https://www.nyc.gov/assets/planning/js/content-api/content-config.js",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/pluto.response",
+    "source_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/rhino3dm-package.json",
+    "source_url": "https://pypi.org/pypi/rhino3dm/json",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/catalog/tiles-spec-list.response",
+    "source_url": "https://api.github.com/repos/CesiumGS/3d-tiles/contents/specification",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/discovery/3d-model.response",
+    "source_url": null,
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/discovery/cesium-quickstart.response",
+    "source_url": null,
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/discovery/cesium-vite.response",
+    "source_url": null,
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/discovery/pluto.response",
+    "source_url": null,
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/discovery/pyproj-version.response",
+    "source_url": null,
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/discovery/shapely-version.response",
+    "source_url": null,
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/local/e7b17c7a12f5e41bf92984f664ca7500b47eb3a180e44ebf3542ae048adb896f.geojson",
+    "source_url": null,
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/arcgis-planimetrics-search.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/search?q=owner%3ANYC_GIS+Planimetric&f=json&num=100",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/catalog-borough.json",
+    "source_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Borough+Boundaries&limit=8",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/catalog-roadbed.json",
+    "source_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Roadbed&limit=8",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/catalog-water.json",
+    "source_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Hydrography&limit=8",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-4469a5bba7fb42458f4b9c8064062965.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/4469a5bba7fb42458f4b9c8064062965?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-4a5eb2107c7c479f83ba56e427b75781.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/4a5eb2107c7c479f83ba56e427b75781?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-4de7fd9b3a1d47179407350de8265279.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/4de7fd9b3a1d47179407350de8265279?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-75b225ab7c8c402f85de74f7883d62a0.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/75b225ab7c8c402f85de74f7883d62a0?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-922db9c671974e7986c5338e0bd6ba4c.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/922db9c671974e7986c5338e0bd6ba4c?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-a6d81617ea674d0fa29510faae2252ad.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/a6d81617ea674d0fa29510faae2252ad?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-afbb5db6b3fd494384357923e6c72622.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/afbb5db6b3fd494384357923e6c72622?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-b79e60a9686042debae52e069764a286.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/b79e60a9686042debae52e069764a286?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-bb9a39d9d9be4b30ac66d283246f1daf.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/bb9a39d9d9be4b30ac66d283246f1daf?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-bca6c3f866f844b490925cc9c26d2e40.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/bca6c3f866f844b490925cc9c26d2e40?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-bf7f000f52ad405bb49a55b578d7a2ee.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/bf7f000f52ad405bb49a55b578d7a2ee?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-cb5571a887b945aa873cb3b1ef489d57.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/cb5571a887b945aa873cb3b1ef489d57?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-cec6905f03b947f8824be81e45d1992b.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/cec6905f03b947f8824be81e45d1992b?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/imagery-item-e901064d06b747838ee082520dcae2ff.json",
+    "source_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/e901064d06b747838ee082520dcae2ff?f=pjson",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  },
+  {
+    "path": "data/raw/supporting/socrata-tnru-abg2.json",
+    "source_url": "https://data.cityofnewyork.us/api/views/tnru-abg2.json",
+    "role": "unclassified catalogue/technical metadata or local validation input; not authorized building evidence",
+    "reason": "not mapped to a geographical source collection; do not publish as NYC geometry"
+  }
+]

@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27T05:12:19.698170+00:00",
+  "scope": "2026-10-27-city capture; boroughs partitioned by source BASE_BBL, not independently spatially assigned",
+  "counting_rules": {
+    "raw_records": "All source service records, including placeholder geometries",
+    "source_defined_entities": "Distinct official DOITT_ID, not independently resolved physical buildings",
+    "geometry_parts": "Polygon components after repair; never equals proven building count by assumption",
+    "valid_height": "Finite, plausible source relative height >0; converted feet to metres, not independently verified",
+    "model_count": "Archives/3dm geometry objects listed separately; 0 current building crosswalk matches",
+    "unknown_heights": "Null, source zero and anomalous values remain null; no default height",
+    "failures": "Geometry quarantine distinct from HTTP acquisition failures"
+  },
+  "city_source_count": 1082964,
+  "downloaded_raw_records": 1082964,
+  "normalized_records": 1082964,
+  "unassigned_source_bbl_records": 0,
+  "boroughs": [
+    {
+      "borough": "manhattan",
+      "source_manifest": "data/intermediate/city-manhattan/manifest.json",
+      "capture": "2026-10-27-city:manhattan",
+      "raw_records": 45172,
+      "normalized_records": 45172,
+      "source_defined_entities": 45172,
+      "geometry_parts": 45172,
+      "valid_source_height_records": 45097,
+      "independently_verified_heights": 0,
+      "negative_ground_records_preserved": 11,
+      "failed_geometries": 0,
+      "unknown_roof_geometry_records": 45172,
+      "unknown_facade_records": 45172,
+      "matched_legacy_models": 0,
+      "acquired_legacy_model_archives": 1,
+      "complete_for_source_bbl_partition": true,
+      "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation",
+      "unknown_heights": 75,
+      "placeholders": 5,
+      "geometry_repairs": 4,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 45172,
+      "bounds_32118_index": [
+        296002.8125,
+        57479.3125,
+        307869.71875,
+        79072.375
+      ],
+      "nonplaceholder_source_records": 45167,
+      "unknown_height_records": 75
+    },
+    {
+      "borough": "bronx",
+      "source_manifest": "data/intermediate/city-bronx/manifest.json",
+      "capture": "2026-10-27-city:bronx",
+      "raw_records": 104268,
+      "normalized_records": 104268,
+      "source_defined_entities": 104268,
+      "geometry_parts": 104268,
+      "valid_source_height_records": 104082,
+      "independently_verified_heights": 0,
+      "negative_ground_records_preserved": 0,
+      "failed_geometries": 0,
+      "unknown_roof_geometry_records": 104268,
+      "unknown_facade_records": 104268,
+      "matched_legacy_models": 0,
+      "acquired_legacy_model_archives": 0,
+      "complete_for_source_bbl_partition": true,
+      "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation",
+      "unknown_heights": 186,
+      "placeholders": 4,
+      "geometry_repairs": 0,
+      "anomalous_height_values": 1,
+      "unique_bin_values": 104268,
+      "bounds_32118_index": [
+        305610.53125,
+        68860.3515625,
+        319489.9375,
+        83110.6328125
+      ],
+      "nonplaceholder_source_records": 104264,
+      "unknown_height_records": 186
+    },
+    {
+      "borough": "brooklyn",
+      "source_manifest": "data/intermediate/city-brooklyn/manifest.json",
+      "capture": "2026-10-27-city:brooklyn",
+      "raw_records": 330113,
+      "normalized_records": 330113,
+      "source_defined_entities": 330113,
+      "geometry_parts": 330113,
+      "valid_source_height_records": 329899,
+      "independently_verified_heights": 0,
+      "negative_ground_records_preserved": 7,
+      "failed_geometries": 0,
+      "unknown_roof_geometry_records": 330113,
+      "unknown_facade_records": 330113,
+      "matched_legacy_models": 0,
+      "acquired_legacy_model_archives": 0,
+      "complete_for_source_bbl_partition": true,
+      "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation",
+      "unknown_heights": 214,
+      "placeholders": 4,
+      "geometry_repairs": 0,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 330112,
+      "bounds_32118_index": [
+        296555.8125,
+        44964.51171875,
+        312187.0,
+        63560.76953125
+      ],
+      "nonplaceholder_source_records": 330109,
+      "unknown_height_records": 214
+    },
+    {
+      "borough": "queens",
+      "source_manifest": "data/intermediate/city-queens/manifest.json",
+      "capture": "2026-10-27-city:queens",
+      "raw_records": 460950,
+      "normalized_records": 460950,
+      "source_defined_entities": 460950,
+      "geometry_parts": 460950,
+      "valid_source_height_records": 460793,
+      "independently_verified_heights": 0,
+      "negative_ground_records_preserved": 14,
+      "failed_geometries": 0,
+      "unknown_roof_geometry_records": 460950,
+      "unknown_facade_records": 460950,
+      "matched_legacy_models": 0,
+      "acquired_legacy_model_archives": 0,
+      "complete_for_source_bbl_partition": true,
+      "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation",
+      "unknown_heights": 157,
+      "placeholders": 14,
+      "geometry_repairs": 1,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 460945,
+      "bounds_32118_index": [
+        303237.5,
+        42612.3984375,
+        325334.0625,
+        70405.0
+      ],
+      "nonplaceholder_source_records": 460936,
+      "unknown_height_records": 157
+    },
+    {
+      "borough": "staten-island",
+      "source_manifest": "data/intermediate/city-staten-island/manifest.json",
+      "capture": "2026-10-27-city:staten-island",
+      "raw_records": 142461,
+      "normalized_records": 142461,
+      "source_defined_entities": 142461,
+      "geometry_parts": 142461,
+      "valid_source_height_records": 142372,
+      "independently_verified_heights": 0,
+      "negative_ground_records_preserved": 0,
+      "failed_geometries": 0,
+      "unknown_roof_geometry_records": 142461,
+      "unknown_facade_records": 142461,
+      "matched_legacy_models": 0,
+      "acquired_legacy_model_archives": 0,
+      "complete_for_source_bbl_partition": true,
+      "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation",
+      "unknown_heights": 89,
+      "placeholders": 7,
+      "geometry_repairs": 1,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 142459,
+      "bounds_32118_index": [
+        278344.28125,
+        36869.66796875,
+        295452.3125,
+        53474.66015625
+      ],
+      "nonplaceholder_source_records": 142454,
+      "unknown_height_records": 89
+    }
+  ],
+  "totals": {
+    "valid_source_height_records": 1082243,
+    "unknown_heights": 721,
+    "anomalous_heights": 1,
+    "placeholder_records": 34,
+    "negative_ground_values_preserved": 32,
+    "geometry_repairs": 6,
+    "failed_geometries": 0,
+    "independently_verified_positions": 0,
+    "independently_verified_heights": 0,
+    "matched_current_3d_models": 0,
+    "unknown_roof_records": 1082964,
+    "unknown_facade_records": 1082964
+  },
+  "pilots": {
+    "records": 3027,
+    "datasets": [
+      {
+        "path": "data/intermediate/lower-manhattan",
+        "records": 299,
+        "valid_source_heights": 297,
+        "failures": 0
+      },
+      {
+        "path": "data/intermediate/midtown",
+        "records": 812,
+        "valid_source_heights": 807,
+        "failures": 0
+      },
+      {
+        "path": "data/intermediate/brooklyn-dumbo",
+        "records": 211,
+        "valid_source_heights": 211,
+        "failures": 0
+      },
+      {
+        "path": "data/intermediate/queens-lic",
+        "records": 406,
+        "valid_source_heights": 403,
+        "failures": 0
+      },
+      {
+        "path": "data/intermediate/bronx-mott-haven",
+        "records": 519,
+        "valid_source_heights": 516,
+        "failures": 0
+      },
+      {
+        "path": "data/intermediate/staten-st-george",
+        "records": 780,
+        "valid_source_heights": 780,
+        "failures": 0
+      }
+    ],
+    "representation": "GLB linework on declared reference ellipsoid; heights not extruded",
+    "source_records": 3027,
+    "placeholder_records": 1,
+    "published_real_outlines": 3026
+  },
+  "context": {
+    "at": "2026-10-27T04:46:04.116716+00:00",
+    "path": "data/processed/context/context.gpkg",
+    "layers": [
+      {
+        "layer": "borough",
+        "records": 5,
+        "source_manifest": "data/raw/vectors/borough/manifest.json",
+        "crs": "EPSG:32118",
+        "units": "metre",
+        "vertical_datum": null,
+        "independently_verified": false
+      },
+      {
+        "layer": "roadbed",
+        "records": 104961,
+        "source_manifest": "data/raw/vectors/roadbed-rowid/manifest.json",
+        "crs": "EPSG:32118",
+        "units": "metre",
+        "vertical_datum": null,
+        "independently_verified": false
+      },
+      {
+        "layer": "water",
+        "records": 2206,
+        "source_manifest": "data/raw/vectors/water-rowid/manifest.json",
+        "crs": "EPSG:32118",
+        "units": "metre",
+        "vertical_datum": null,
+        "independently_verified": false
+      }
+    ],
+    "sha256": "644f1d0af6f96f7493d3881e026985ef819c436152c5c4f9d5d5854d60d13292",
+    "processor": "system ogr2ogr; version in reports/environment.json"
+  },
+  "pluto": {
+    "source_version": "26v2",
+    "data_date": "2026-08",
+    "rows": 858284,
+    "borough_rows": {
+      "QN": 324483,
+      "SI": 125829,
+      "BK": 276106,
+      "MN": 42504,
+      "BX": 89362
+    },
+    "pilot_lot_matches": 2651,
+    "building_values_overwritten": 0
+  },
+  "model": {
+    "acquired_archives": 1,
+    "parsed_3dm_files": 1,
+    "geometry_objects": 132223,
+    "acquisition_year": 2014,
+    "matched_current_buildings": 0,
+    "unit_reconciliation": "Rhino Feet vs metadata US survey foot unresolved; no model transformation published"
+  },
+  "field_scope_issues": 265,
+  "imagery": {
+    "acquired_tiles": 1,
+    "reference_only": true,
+    "single_tile_refetch_actually_executed": true
+  },
+  "not_acquired": [
+    "LiDAR point-cloud tiles",
+    "MapPLUTO parcel geometries",
+    "Other official 3D community district/park packages",
+    "NYS orthophoto raster tiles",
+    "current roof/facade per-building evidence",
+    "geoid grid/validated terrain"
+  ],
+  "consistency_limit": "Dynamic API: end counts, stable ID sets/unique row IDs and timestamps checked; not an atomic historical snapshot. Source age and independent accuracy remain unknown per record.",
+  "city_semantic_sha256": "25f05f7759345fd0f06e0c39366347169909dc11b82369fe301c3491724bd226",
+  "processor_sha256": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+  "field_scope_issue_types": {
+    "parcel-cannot-fill-unknown-building-year": 44,
+    "noncomparable-parcel-vs-building-year": 221
+  }
+}

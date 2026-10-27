@@ -1,0 +1,14 @@
+{
+  "request_url": "https://maps.nyc.gov/lidar/2017/",
+  "final_url": "https://maps.nyc.gov/lidar/2017/",
+  "download_started_at": "2026-10-27T04:09:22.105306+00:00",
+  "download_completed_at": "2026-10-27T04:09:22.772525+00:00",
+  "http_status": 200,
+  "content_type": "text/html",
+  "etag": "W/\"2423-1757084790000\"",
+  "last_modified_http": "Fri, 05 Sep 2025 15:06:30 GMT",
+  "bytes": 2423,
+  "sha256": "1ab4a5166a77113c0c9f0fcef1eaeba3a1c6f24e1691eb1d35c64a1ff7efcbfc",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

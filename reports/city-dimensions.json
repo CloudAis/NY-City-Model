@@ -1,0 +1,83 @@
+{
+  "at": "2026-10-27T05:04:15.578853+00:00",
+  "version": "2026-10-27-city",
+  "boroughs": [
+    {
+      "borough": "bronx",
+      "raw_records": 104268,
+      "unknown_heights": 186,
+      "placeholders": 4,
+      "geometry_repairs": 0,
+      "anomalous_height_values": 1,
+      "unique_bin_values": 104268,
+      "bounds_32118_index": [
+        305610.53125,
+        68860.3515625,
+        319489.9375,
+        83110.6328125
+      ]
+    },
+    {
+      "borough": "brooklyn",
+      "raw_records": 330113,
+      "unknown_heights": 214,
+      "placeholders": 4,
+      "geometry_repairs": 0,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 330112,
+      "bounds_32118_index": [
+        296555.8125,
+        44964.51171875,
+        312187.0,
+        63560.76953125
+      ]
+    },
+    {
+      "borough": "manhattan",
+      "raw_records": 45172,
+      "unknown_heights": 75,
+      "placeholders": 5,
+      "geometry_repairs": 4,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 45172,
+      "bounds_32118_index": [
+        296002.8125,
+        57479.3125,
+        307869.71875,
+        79072.375
+      ]
+    },
+    {
+      "borough": "queens",
+      "raw_records": 460950,
+      "unknown_heights": 157,
+      "placeholders": 14,
+      "geometry_repairs": 1,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 460945,
+      "bounds_32118_index": [
+        303237.5,
+        42612.3984375,
+        325334.0625,
+        70405.0
+      ]
+    },
+    {
+      "borough": "staten-island",
+      "raw_records": 142461,
+      "unknown_heights": 89,
+      "placeholders": 7,
+      "geometry_repairs": 1,
+      "anomalous_height_values": 0,
+      "unique_bin_values": 142459,
+      "bounds_32118_index": [
+        278344.28125,
+        36869.66796875,
+        295452.3125,
+        53474.66015625
+      ]
+    }
+  ],
+  "bounds_basis": "SQLite outward-rounded float32 metric RTree envelopes; exact float64 geometry in payload",
+  "bin_count_note": "Includes placeholders; BIN is not assumed unique or one-to-one"
+}

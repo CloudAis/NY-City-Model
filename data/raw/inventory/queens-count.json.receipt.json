@@ -1,0 +1,17 @@
+{
+  "request_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&where=BASE_BBL+LIKE+%274%25%27&returnCountOnly=true",
+  "final_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0/query?f=json&where=BASE_BBL+LIKE+%274%25%27&returnCountOnly=true",
+  "download_started_at": "2026-10-27T04:35:24.359276+00:00",
+  "download_completed_at": "2026-10-27T04:35:24.566833+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "sd544_-202799427",
+  "last_modified_http": "Sun, 25 Oct 2026 02:16:29 GMT",
+  "bytes": 16,
+  "sha256": "69c8ca8ab38be1781073e6e6105247d34c55801ca4f2fa15bc55b5dfa82fc781",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

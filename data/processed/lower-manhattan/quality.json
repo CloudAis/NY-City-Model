@@ -1,5 +1,6 @@
 {
   "pipeline_version": "0.1.0-stage2",
+  "processor_sha256": "38ff71852c5fd5e06f052ea38a818cee9130f6862d11c59229bf17679d639d00",
   "scope": {
     "borough": "manhattan",
     "bbox_wgs84": [

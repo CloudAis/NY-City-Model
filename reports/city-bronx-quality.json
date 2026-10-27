@@ -1,0 +1,19 @@
+{
+  "borough": "bronx",
+  "source_manifest": "data/intermediate/city-bronx/manifest.json",
+  "capture": "2026-10-27-city:bronx",
+  "raw_records": 104268,
+  "normalized_records": 104268,
+  "source_defined_entities": 104268,
+  "geometry_parts": 104268,
+  "valid_source_height_records": 104082,
+  "independently_verified_heights": 0,
+  "negative_ground_records_preserved": 0,
+  "failed_geometries": 0,
+  "unknown_roof_geometry_records": 104268,
+  "unknown_facade_records": 104268,
+  "matched_legacy_models": 0,
+  "acquired_legacy_model_archives": 0,
+  "complete_for_source_bbl_partition": true,
+  "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation"
+}

@@ -12,3 +12,15 @@ data/raw/**/*.tif
 data/raw/**/*.tiff
 data/intermediate/extracted/
 data/intermediate/download-cache/
+# Full-city volumes are retained locally with checksummed fetch manifests, not put into source Git.
+data/raw/footprints/2026-10-27-city/
+data/processed/city/
+data/raw/vectors/roadbed/
+data/raw/vectors/water/
+data/raw/imagery/
+data/processed/models/
+data/raw/vectors/roadbed-rowid/
+data/raw/vectors/water-rowid/
+data/intermediate/context-cache/
+data/intermediate/city-normalize-work/
+data/processed/context/

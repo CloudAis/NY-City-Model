@@ -1,0 +1,551 @@
+{
+  "id" : "pjs3-c3z5",
+  "name" : "NYC Planimetric Database: Hydrography",
+  "assetType" : "dataset",
+  "attribution" : "Office of Technology and Innovation (OTI)",
+  "averageRating" : 0,
+  "category" : "Environment",
+  "createdAt" : 1403721103,
+  "description" : "Planimetric basemap layer containing hydrography. \r\n\r\nPlease see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+  "diciBackend" : false,
+  "displayType" : "table",
+  "downloadCount" : 2515,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1536599087,
+  "locked" : false,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 18874239,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1457991762,
+  "publicationGroup" : 6270467,
+  "publicationStage" : "published",
+  "rowClass" : "",
+  "rowsUpdatedAt" : 1713989305,
+  "tableId" : 8967781,
+  "totalTimesRated" : 0,
+  "viewCount" : 3161,
+  "viewLastModified" : 1765382460,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1457991763,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 6128577,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1457991763,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ {
+    "id" : 246831247,
+    "name" : "the_geom",
+    "dataTypeName" : "multipolygon",
+    "description" : "Geometry field used for mapping. Geometry Type: Polygon",
+    "fieldName" : "the_geom",
+    "position" : 1,
+    "renderTypeName" : "multipolygon",
+    "tableColumnId" : 35009849,
+    "format" : { }
+  }, {
+    "id" : 246831248,
+    "name" : "NAME",
+    "dataTypeName" : "text",
+    "description" : "Name of Waterbody or Watercourse.",
+    "fieldName" : "name",
+    "position" : 2,
+    "renderTypeName" : "text",
+    "tableColumnId" : 35009850,
+    "cachedContents" : {
+      "largest" : "WOODLAWN LAKE",
+      "non_null" : "1844",
+      "null" : "362",
+      "top" : [ {
+        "item" : "unset",
+        "count" : "1279"
+      }, {
+        "item" : "MARSH",
+        "count" : "348"
+      }, {
+        "item" : "NO NAME",
+        "count" : "62"
+      }, {
+        "item" : "OLD PLACE CREEK",
+        "count" : "10"
+      }, {
+        "item" : "ANNADALE BEACH",
+        "count" : "6"
+      }, {
+        "item" : "NECK CREEK",
+        "count" : "4"
+      }, {
+        "item" : "TOTTENVILLE BEACH",
+        "count" : "4"
+      }, {
+        "item" : "BROAD CHANNEL",
+        "count" : "3"
+      }, {
+        "item" : "EAST RIVER",
+        "count" : "3"
+      }, {
+        "item" : "CANARSIE BEACH",
+        "count" : "2"
+      }, {
+        "item" : "FLUSHING CREEK",
+        "count" : "2"
+      }, {
+        "item" : "POND",
+        "count" : "2"
+      }, {
+        "item" : "PRALL'S RIVER",
+        "count" : "2"
+      }, {
+        "item" : "VAN CORTLANDT LAKE",
+        "count" : "2"
+      }, {
+        "item" : "MILL BASIN",
+        "count" : "2"
+      }, {
+        "item" : "LEMON CREEK",
+        "count" : "2"
+      }, {
+        "item" : "EAST ROCKAWAY INLET",
+        "count" : "2"
+      }, {
+        "item" : "JEROME PARK RESERVOIR",
+        "count" : "2"
+      }, {
+        "item" : "HUDSON RIVER",
+        "count" : "2"
+      }, {
+        "item" : "NEWTOWN CREEK",
+        "count" : "2"
+      } ],
+      "smallest" : "4 ST. BASIN",
+      "count" : "2206",
+      "cardinality" : "121"
+    },
+    "format" : { }
+  }, {
+    "id" : 246831249,
+    "name" : "SOURCE_ID",
+    "dataTypeName" : "number",
+    "description" : "Unique feature Identification Number.",
+    "fieldName" : "source_id",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 35009851,
+    "cachedContents" : {
+      "largest" : "21263000008.0",
+      "non_null" : "2206",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0.0",
+        "count" : "369"
+      }, {
+        "item" : "2264000230.0",
+        "count" : "8"
+      }, {
+        "item" : "16263000262.0",
+        "count" : "7"
+      }, {
+        "item" : "1264000111.0",
+        "count" : "7"
+      }, {
+        "item" : "16264000447.0",
+        "count" : "6"
+      }, {
+        "item" : "16261000283.0",
+        "count" : "4"
+      }, {
+        "item" : "16264000068.0",
+        "count" : "4"
+      }, {
+        "item" : "2264000134.0",
+        "count" : "3"
+      }, {
+        "item" : "17262000503.0",
+        "count" : "3"
+      }, {
+        "item" : "17264000744.0",
+        "count" : "3"
+      }, {
+        "item" : "2264000220.0",
+        "count" : "3"
+      }, {
+        "item" : "17264000109.0",
+        "count" : "3"
+      }, {
+        "item" : "17264000027.0",
+        "count" : "3"
+      }, {
+        "item" : "16263000458.0",
+        "count" : "3"
+      }, {
+        "item" : "3264000016.0",
+        "count" : "3"
+      }, {
+        "item" : "15264000147.0",
+        "count" : "3"
+      }, {
+        "item" : "3264000164.0",
+        "count" : "3"
+      }, {
+        "item" : "16260000473.0",
+        "count" : "2"
+      }, {
+        "item" : "2264000217.0",
+        "count" : "2"
+      }, {
+        "item" : "17264000249.0",
+        "count" : "2"
+      } ],
+      "smallest" : "0.0",
+      "count" : "2206",
+      "cardinality" : "1745"
+    },
+    "format" : { }
+  }, {
+    "id" : 246831250,
+    "name" : "FEAT_CODE",
+    "dataTypeName" : "number",
+    "description" : "Feature Code Indicates the type of feature.",
+    "fieldName" : "feat_code",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 35009852,
+    "cachedContents" : {
+      "largest" : "2660",
+      "non_null" : "2206",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2610",
+        "count" : "984"
+      }, {
+        "item" : "2640",
+        "count" : "744"
+      }, {
+        "item" : "2630",
+        "count" : "229"
+      }, {
+        "item" : "2650",
+        "count" : "99"
+      }, {
+        "item" : "2600",
+        "count" : "64"
+      }, {
+        "item" : "2660",
+        "count" : "51"
+      }, {
+        "item" : "2620",
+        "count" : "35"
+      } ],
+      "smallest" : "2600",
+      "count" : "2206",
+      "cardinality" : "7"
+    },
+    "format" : { }
+  }, {
+    "id" : 246831251,
+    "name" : "SUB_CODE",
+    "dataTypeName" : "number",
+    "description" : "Sub Feature Code (where applicable) indicates a subset of features within a given “Feature_Code” set.",
+    "fieldName" : "sub_code",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 35009853,
+    "cachedContents" : {
+      "largest" : "266000",
+      "non_null" : "2206",
+      "null" : "0",
+      "top" : [ {
+        "item" : "261000",
+        "count" : "984"
+      }, {
+        "item" : "264000",
+        "count" : "744"
+      }, {
+        "item" : "263000",
+        "count" : "229"
+      }, {
+        "item" : "265000",
+        "count" : "99"
+      }, {
+        "item" : "260000",
+        "count" : "64"
+      }, {
+        "item" : "266000",
+        "count" : "51"
+      }, {
+        "item" : "262000",
+        "count" : "35"
+      } ],
+      "smallest" : "260000",
+      "count" : "2206",
+      "cardinality" : "7"
+    },
+    "format" : { }
+  }, {
+    "id" : 246831252,
+    "name" : "STATUS",
+    "dataTypeName" : "text",
+    "description" : "Field indicating the feature status as it fits into one of the following categories:    a)     b) Feature has changed in 2022 collection - feature existed previously but has been updated during the 2022 planimetrics update project.    c) No change in 2022 collection - feature is unchanged from the source planimetrics database.",
+    "fieldName" : "status",
+    "position" : 6,
+    "renderTypeName" : "text",
+    "tableColumnId" : 35009854,
+    "cachedContents" : {
+      "largest" : "Updated",
+      "non_null" : "2206",
+      "null" : "0",
+      "top" : [ {
+        "item" : "Unchanged",
+        "count" : "979"
+      }, {
+        "item" : "Updated",
+        "count" : "858"
+      }, {
+        "item" : "New",
+        "count" : "369"
+      } ],
+      "smallest" : "New",
+      "count" : "2206",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 246831253,
+    "name" : "SHAPE_Leng",
+    "dataTypeName" : "number",
+    "description" : "The shape length values for polyline feature classes.",
+    "fieldName" : "shape_leng",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 35009855,
+    "cachedContents" : {
+      "largest" : "232965.585033",
+      "non_null" : "2206",
+      "null" : "0",
+      "top" : [ {
+        "item" : "297.125877882",
+        "count" : "1"
+      }, {
+        "item" : "1177.2272445",
+        "count" : "1"
+      }, {
+        "item" : "338.951137783",
+        "count" : "1"
+      }, {
+        "item" : "163.049427895",
+        "count" : "1"
+      }, {
+        "item" : "739.241042082",
+        "count" : "1"
+      }, {
+        "item" : "378.726796719",
+        "count" : "1"
+      }, {
+        "item" : "1280.21281001",
+        "count" : "1"
+      }, {
+        "item" : "181.163530363",
+        "count" : "1"
+      }, {
+        "item" : "1800.62257242",
+        "count" : "1"
+      }, {
+        "item" : "649.478910572",
+        "count" : "1"
+      }, {
+        "item" : "152.533915468",
+        "count" : "1"
+      }, {
+        "item" : "205.509271586",
+        "count" : "1"
+      }, {
+        "item" : "175.49662442",
+        "count" : "1"
+      }, {
+        "item" : "1447.71349875",
+        "count" : "1"
+      }, {
+        "item" : "1872.23303195",
+        "count" : "1"
+      }, {
+        "item" : "53509.6043454",
+        "count" : "1"
+      }, {
+        "item" : "115.962855006",
+        "count" : "1"
+      }, {
+        "item" : "635.287243826",
+        "count" : "1"
+      }, {
+        "item" : "187.088977054",
+        "count" : "1"
+      }, {
+        "item" : "117.242502849",
+        "count" : "1"
+      } ],
+      "smallest" : "32.3783461585",
+      "count" : "2206",
+      "cardinality" : "2206"
+    },
+    "format" : { }
+  }, {
+    "id" : 246831254,
+    "name" : "SHAPE_Area",
+    "dataTypeName" : "number",
+    "description" : "The shape length and area values for polygon feature classes.",
+    "fieldName" : "shape_area",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 35009856,
+    "cachedContents" : {
+      "largest" : "259417812.759",
+      "non_null" : "2206",
+      "null" : "0",
+      "top" : [ {
+        "item" : "41436.0678869",
+        "count" : "1"
+      }, {
+        "item" : "21077.0097269",
+        "count" : "1"
+      }, {
+        "item" : "51847.1419594",
+        "count" : "1"
+      }, {
+        "item" : "4449.70067834",
+        "count" : "1"
+      }, {
+        "item" : "76026.2070268",
+        "count" : "1"
+      }, {
+        "item" : "6714.97199496",
+        "count" : "1"
+      }, {
+        "item" : "976.483036176",
+        "count" : "1"
+      }, {
+        "item" : "7927.05601539",
+        "count" : "1"
+      }, {
+        "item" : "13510.3385971",
+        "count" : "1"
+      }, {
+        "item" : "2008.56972854",
+        "count" : "1"
+      }, {
+        "item" : "490495.989057",
+        "count" : "1"
+      }, {
+        "item" : "5293.04214324",
+        "count" : "1"
+      }, {
+        "item" : "1013959.55386",
+        "count" : "1"
+      }, {
+        "item" : "7930.61206515",
+        "count" : "1"
+      }, {
+        "item" : "5083919.29089",
+        "count" : "1"
+      }, {
+        "item" : "21312.4742643",
+        "count" : "1"
+      }, {
+        "item" : "9728.42305102",
+        "count" : "1"
+      }, {
+        "item" : "14694.8414477",
+        "count" : "1"
+      }, {
+        "item" : "443.760332086",
+        "count" : "1"
+      }, {
+        "item" : "2163.81673318",
+        "count" : "1"
+      } ],
+      "smallest" : "24.5533563063",
+      "count" : "2206",
+      "cardinality" : "2206"
+    },
+    "format" : { }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "rdfSubject" : "0",
+    "rdfClass" : "",
+    "attachments" : [ {
+      "filename" : "Hydrography_Data Dictionary.xlsx",
+      "assetId" : "2089b93a-1559-466d-8234-b2dbf136c07a",
+      "name" : "Hydrography_Data Dictionary.xlsx"
+    }, {
+      "filename" : "NYC_Planimetrics_2022.gdb.zip",
+      "assetId" : "29a69fca-2d25-4e28-a5da-ed5e9ff71044",
+      "name" : "NYC_Planimetrics_2022.gdb.zip"
+    }, {
+      "filename" : "NYC_Planimetrics_Historical_Data 2000-2016.zip",
+      "assetId" : "50da6467-7c73-403c-969c-2cd7aabc0776",
+      "name" : "NYC_Planimetrics_Historical_Data 2000-2016.zip"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "6/25/2014",
+        "Update Frequency" : "As needed"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Technology and Innovation (OTI)"
+      }
+    },
+    "rowLabel" : "Location of the hydrography feature",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "hydrography", "planimetrics" ],
+  "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+}

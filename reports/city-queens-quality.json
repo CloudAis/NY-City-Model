@@ -1,0 +1,19 @@
+{
+  "borough": "queens",
+  "source_manifest": "data/intermediate/city-queens/manifest.json",
+  "capture": "2026-10-27-city:queens",
+  "raw_records": 460950,
+  "normalized_records": 460950,
+  "source_defined_entities": 460950,
+  "geometry_parts": 460950,
+  "valid_source_height_records": 460793,
+  "independently_verified_heights": 0,
+  "negative_ground_records_preserved": 14,
+  "failed_geometries": 0,
+  "unknown_roof_geometry_records": 460950,
+  "unknown_facade_records": 460950,
+  "matched_legacy_models": 0,
+  "acquired_legacy_model_archives": 0,
+  "complete_for_source_bbl_partition": true,
+  "partition_basis": "source BASE_BBL first digit, not independent spatial borough validation"
+}

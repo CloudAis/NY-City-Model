@@ -9,3 +9,10 @@
   ➜  Network: http://172.26.91.249:5180/  eth0
   ➜  Network: http://172.31.9.30:5180/    eth1
 4:06:14 AM [vite] (client) [optimizer] bundling dependencies...
+4:09:22 AM [vite] (client) page reload data/raw/supporting/nyc-lidar-viewer.html
+4:09:23 AM [vite] (client) page reload data/raw/supporting/nys-lidar-details.html
+4:33:25 AM [vite] (client) page reload data/raw/supporting/osm-copyright.html
+4:56:58 AM [vite] (client) page reload reports/nyc-real-sample-preview.html
+4:58:44 AM [vite] (client) page reload src/main.ts
+5:03:53 AM [vite] vite.config.ts changed, restarting server...
+5:03:53 AM [vite] server restarted.

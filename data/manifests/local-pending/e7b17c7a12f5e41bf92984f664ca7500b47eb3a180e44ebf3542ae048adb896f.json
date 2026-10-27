@@ -1,0 +1,16 @@
+{
+  "source_id": "local-user-data",
+  "source_url": null,
+  "original_path": "/workspace/nyc-3d-html/reports/real-local-import.geojson",
+  "raw_path": "data/raw/local/e7b17c7a12f5e41bf92984f664ca7500b47eb3a180e44ebf3542ae048adb896f.geojson",
+  "sha256": "e7b17c7a12f5e41bf92984f664ca7500b47eb3a180e44ebf3542ae048adb896f",
+  "downloaded_at": null,
+  "local_imported_at": "2026-10-27T04:30:21.200396+00:00",
+  "source_version": "local-test",
+  "observation_date": null,
+  "license": "unknown unless separately documented",
+  "crs": "EPSG:4326",
+  "units": "source CRS units",
+  "vertical_datum": null,
+  "provenance_status": "unknown_pending_verification"
+}

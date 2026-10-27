@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/nyc-3d-html/scripts/process_supporting.py", line 65, in <module>
+    if which in ['model','all']:model()
+                                ^^^^^^^
+  File "/workspace/nyc-3d-html/scripts/process_supporting.py", line 37, in model
+    geom=obj.Geometry;name=type(geom).__name__;types[name]+=1;counts[obj.Attributes.LayerIndex]+=1;box=geom.GetBoundingBox();lo=[box.Min.X,box.Min.Y,box.Min.Z];hi=[box.Max.X,box.Max.Y,box.Max.Z]
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^
+TypeError: GetBoundingBox(): incompatible function arguments. The following argument types are supported:
+    1. (self: rhino3dm._rhino3dm.AnnotationBase, parentDimStyle: rhino3dm._rhino3dm.DimensionStyle) -> rhino3dm._rhino3dm.BoundingBox
+
+Invoked with: <rhino3dm._rhino3dm.Text object at 0x7f395a647830>

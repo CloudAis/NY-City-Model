@@ -1,0 +1,14 @@
+{
+  "request_url": "https://pypi.org/pypi/lazrs/json",
+  "final_url": "https://pypi.org/pypi/lazrs/json",
+  "download_started_at": "2026-10-27T04:09:24.297223+00:00",
+  "download_completed_at": "2026-10-27T04:09:24.654168+00:00",
+  "http_status": 200,
+  "content_type": "application/json",
+  "etag": "\"Dj1kdvuV3gkefAJmFDHu2w\"",
+  "last_modified_http": null,
+  "bytes": 548820,
+  "sha256": "5082c59e783918b9a1e4516773f37aeac6a5d81446396b8a30abecacc637edb1",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

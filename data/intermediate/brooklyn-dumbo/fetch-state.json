@@ -1,0 +1,40 @@
+{
+  "completed": {
+    "page-00000000": {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-pilot/brooklyn-dumbo/page-00000000.json",
+      "sha256": "55d1fb115d47f8c32f4126ead6ae8ae4265d1f303804016ba3be6477022d1faa",
+      "records": 100
+    },
+    "page-00000100": {
+      "id": "page-00000100",
+      "path": "data/raw/footprints/2026-10-27-pilot/brooklyn-dumbo/page-00000100.json",
+      "sha256": "2caa9350467b54e511fc5626d123d752b6fa5b94537cfe91f939ff21f96d3b88",
+      "records": 100
+    },
+    "page-00000200": {
+      "id": "page-00000200",
+      "path": "data/raw/footprints/2026-10-27-pilot/brooklyn-dumbo/page-00000200.json",
+      "sha256": "64359771a1cc2c5f6f169b2b73ad01c0557c9a20cba716396694396fc68b52d3",
+      "records": 11
+    }
+  },
+  "started_at": "2026-10-27T04:10:20.965631+00:00",
+  "signature": "8bc6941ce3649408133e21b2c4928d16873e1ad9eb4ab8c301e23f9d8248a086",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-pilot",
+  "count_expected": 211,
+  "ids_sha256": "920cee33403077c87b52787d0f43d6bbe53236a5440fb04e6341d9c8222774a5",
+  "scope": {
+    "borough": "brooklyn",
+    "bbox_wgs84": [
+      -73.993,
+      40.698,
+      -73.985,
+      40.705
+    ],
+    "where": "BASE_BBL LIKE '3%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T04:10:23.291376+00:00"
+}

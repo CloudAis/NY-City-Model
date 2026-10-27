@@ -1,0 +1,101 @@
+city-manhattan page-00000000 500 cached
+city-manhattan page-00000500 500 cached
+city-manhattan page-00001000 500 cached
+city-manhattan page-00001500 500 cached
+city-manhattan page-00002000 500 cached
+city-manhattan page-00002500 500 cached
+city-manhattan page-00003000 500 cached
+city-manhattan page-00003500 500 cached
+city-manhattan page-00004000 500 cached
+city-manhattan page-00004500 500 cached
+city-manhattan page-00005000 500 cached
+city-manhattan page-00005500 500 cached
+city-manhattan page-00006000 500 cached
+city-manhattan page-00006500 500 cached
+city-manhattan page-00007000 500 cached
+city-manhattan page-00007500 500 cached
+city-manhattan page-00008000 500 cached
+city-manhattan page-00008500 500 cached
+city-manhattan page-00009000 500 cached
+city-manhattan page-00009500 500 cached
+city-manhattan page-00010000 500 cached
+city-manhattan page-00010500 500 cached
+city-manhattan page-00011000 500 cached
+city-manhattan page-00011500 500 cached
+city-manhattan page-00012000 500 cached
+city-manhattan page-00012500 500 cached
+city-manhattan page-00013000 500 cached
+city-manhattan page-00013500 500 cached
+city-manhattan page-00014000 500 cached
+city-manhattan page-00014500 500 cached
+city-manhattan page-00015000 500 cached
+city-manhattan page-00015500 500 cached
+city-manhattan page-00016000 500 cached
+city-manhattan page-00016500 500 cached
+city-manhattan page-00017000 500 cached
+city-manhattan page-00017500 500 cached
+city-manhattan page-00018000 500 cached
+city-manhattan page-00018500 500 cached
+city-manhattan page-00019000 500 cached
+city-manhattan page-00019500 500 cached
+city-manhattan page-00020000 500 cached
+city-manhattan page-00020500 500 cached
+city-manhattan page-00021000 500 cached
+city-manhattan page-00021500 500 cached
+city-manhattan page-00022000 500 cached
+city-manhattan page-00022500 500 cached
+city-manhattan page-00023000 500 cached
+city-manhattan page-00023500 500 cached
+city-manhattan page-00024000 500 cached
+city-manhattan page-00024500 500 cached
+city-manhattan page-00025000 500 cached
+city-manhattan page-00025500 500 cached
+city-manhattan page-00026000 500 cached
+city-manhattan page-00026500 500 cached
+city-manhattan page-00027000 500 cached
+city-manhattan page-00027500 500 cached
+city-manhattan page-00028000 500 cached
+city-manhattan page-00028500 500 cached
+city-manhattan page-00029000 500 cached
+city-manhattan page-00029500 500 cached
+city-manhattan page-00030000 500 cached
+city-manhattan page-00030500 500 cached
+city-manhattan page-00031000 500 cached
+city-manhattan page-00031500 500 cached
+city-manhattan page-00032000 500 cached
+city-manhattan page-00032500 500 cached
+city-manhattan page-00033000 500 cached
+city-manhattan page-00033500 500 cached
+city-manhattan page-00034000 500 cached
+city-manhattan page-00034500 500 cached
+city-manhattan page-00035000 500 cached
+city-manhattan page-00035500 500 cached
+city-manhattan page-00036000 500 cached
+city-manhattan page-00036500 500 cached
+city-manhattan page-00037000 500 cached
+city-manhattan page-00037500 500 cached
+city-manhattan page-00038000 500 cached
+city-manhattan page-00038500 500 cached
+city-manhattan page-00039000 500 cached
+city-manhattan page-00039500 500 cached
+city-manhattan page-00040000 500 cached
+city-manhattan page-00040500 500 cached
+city-manhattan page-00041000 500 cached
+city-manhattan page-00041500 500 cached
+city-manhattan page-00042000 500 cached
+city-manhattan page-00042500 500 cached
+city-manhattan page-00043000 500 cached
+city-manhattan page-00043500 500 cached
+city-manhattan page-00044000 500 cached
+city-manhattan page-00044500 500 cached
+Traceback (most recent call last):
+  File "/workspace/nyc-3d-html/scripts/fetch_footprints.py", line 54, in <module>
+    sys.exit(fetch(a))
+             ^^^^^^^^
+  File "/workspace/nyc-3d-html/scripts/fetch_footprints.py", line 37, in fetch
+    p=d.get(url,dest,refresh=refresh,data=body);page=json.loads(p.read_text());got=[f['attributes'][oid]for f in page.get('features',[])]
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/nyc-3d-html/scripts/nyc/download.py", line 35, in get
+    if meta['sha256']!=sha(dest)or (meta['request_url']!=url or meta.get('request_body_sha256')!=(hashlib.sha256(data).hexdigest()if data else None)):raise ValueError('raw cache checksum/URL mismatch')
+                                                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: raw cache checksum/URL mismatch
