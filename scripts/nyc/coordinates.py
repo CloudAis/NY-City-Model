@@ -69,3 +69,18 @@ def gltf_to_enu(x,y,z):return(x,-z,y)
 def projected_crs_audit(crs_input):
  c=CRS.from_user_input(crs_input)
  return {'identifier':c.to_string(),'wkt':c.to_wkt(),'datum':c.datum.name if c.datum else None,'axes':[{'name':a.name,'abbreviation':a.abbrev,'direction':a.direction,'unit':a.unit_name,'unit_to_si':a.unit_conversion_factor}for a in c.axis_info],'always_xy_in_pipeline':True,'native_axis_order_must_not_be_confused_with_payload_order':True}
+
+def projected_vertices_to_local(xy,ellipsoid_height_m,local_frame):
+ """Batched version of the same formal transformations; never orthometric input.
+
+ Height is an explicitly declared display ellipsoid height, or an independently
+ approved WGS84 ellipsoid height. This function does not resolve source datums.
+ """
+ import numpy as np
+ points=np.asarray(xy,dtype=np.float64)
+ if points.ndim!=2 or points.shape[1]!=2 or not np.isfinite(points).all():raise ValueError('finite projected metre XY pairs required')
+ h=np.broadcast_to(np.asarray(ellipsoid_height_m,dtype=np.float64),(len(points),))
+ if not np.isfinite(h).all():raise ValueError('explicit finite ellipsoid heights required')
+ lon,lat=_TO_GEO.transform(points[:,0],points[:,1],errcheck=True)
+ xyz=np.array(_TO_ECEF.transform(lon,lat,h,errcheck=True)).T
+ return (xyz-np.asarray(local_frame.origin_ecef_m))@np.asarray(local_frame.basis_enu).T

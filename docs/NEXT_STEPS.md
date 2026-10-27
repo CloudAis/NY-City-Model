@@ -1,3 +1,23 @@
+# 阶段4接续（不自动启动下一阶段）
+
+固定/workspace/nyc-3d-html，先读AGENTS和全套docs、reports/BUILDING_QUALITY.md、GEOGRAPHIC_REGISTRATION.md。检查点基于7464214，当前五区来源轮廓发布完成，可信建筑主体因证据缺口仍未完成。
+
+直接输入：
+
+1. scripts/nyc/coordinates.py（含正式GIS批量顶点转换）和src/geo/coordinates.ts：米/ECEF/分瓦片ENU、显式椭球高。不可用未知正高直接落位。
+2. data/processed/building-stage4/city/associations.sqlite：1,082,964来源实体、raw引用、部件ID、500m完整对象owner、证据/排除原因、原几何。只读消费，不修改第二阶段库。
+3. assets/buildings-city/manifest.json及五区strict/hypothesis.json、GLB、瓦片关联JSON：1,082,930非占位轮廓；默认严格，hypothesis只是明示单位/基底假设且无封盖，不是可信主体。
+4. 两个同管线真实样区assets/buildings-pilot-lower、buildings-pilot-midtown，可直接用作快速验证。buildings.html为同工程检视页，index/terrain原入口保留。
+5. data/manifests/stage4的来源/表示政策/生成文件SHA，reports/stage4的219对象审计、height-gaps、overlaps、重建与浏览器证据。
+
+优先补足：HEIGHT_ROOF的foot种类；俯视轮廓与墙基线/悬挑关系；单楼基底及垂直基准；原DEM generic NAD83与NAD83(2011)冲突；按年代核对的旧模型GUID↔当前实体关系；真正取得并过滤的屋顶点云与部件高度。未有证据不生成默认高度、统一平屋顶或虚构细节。PLUTO工业地块/最高楼层不传播给每栋楼。未知区域不随机补齐。
+
+抽查有真实内洞与高低源数值，复杂屋顶可靠证据0、真实工业用途独立确认0、现实实测控制0。纯计算误差不能替代现实准确度。所有当前可信主体/屋顶/立面比例0的缺口继续保留。
+
+重建与验收命令见README。大库/全市瓦片/ZIP本地保留，Git只跟踪源码、样本和清单；克隆不等于已取得所有大文件。当前不自动进入下一阶段。
+
+## 历史：阶段3接续
+
 # 下一阶段接续入口（阶段3结束，阶段4未自动启动）
 
 继续固定工程/workspace/nyc-3d-html。首先读取AGENTS、PROJECT_BRIEF、ARCHITECTURE、COORDINATES、DATA_DICTIONARY、ACCURACY、PROGRESS、KNOWN_GAPS和reports/GEOGRAPHIC_REGISTRATION.md；不要重建无关联演示。

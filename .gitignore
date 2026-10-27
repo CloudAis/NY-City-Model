@@ -39,3 +39,14 @@ data/processed/foundation/staten-st-george.json
 # Small actual TIFF crops are useful reproducible inputs; the large geoid stays local with receipt/SHA.
 !data/raw/stage3/dem/*.tif
 !data/raw/stage3/catalog/nyc-dem-index.zip
+# Stage4 full-city generated resources and derived association DB are delivered
+# locally/checksummed, not committed as multi-GiB Git blobs. Pilots stay tracked.
+data/processed/building-stage4/city/
+data/processed/building-stage4/lower-manhattan/
+data/processed/building-stage4/midtown/
+assets/buildings-city/
+reports/nyc-stage4-buildings.zip
+data/intermediate/stage4-single-rebuild/
+data/intermediate/stage4-single-work/
+
+reports/nyc-stage4-buildings.zip.tmp

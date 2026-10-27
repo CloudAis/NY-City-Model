@@ -23,3 +23,13 @@ Tinnis既有相机/DOM/拾取逻辑属于虚构微缩游戏，与Cesium坐标及
 真实裸地处理使用实际GDAL地理参考与官方Esri LERC有效性掩膜。NYS TIFF导出会把NoData露成0，已发现并以同范围LERC修复；不能只按像元有限或为0判定地面。每源网格分四个独立局部原点块，边界共享真实采样；遇缺失不造三角形/裙边。水面按原水系多边形及内洞三角化，水底DEM与展示水位分开；无桥面资料不生成贴地桥。
 
 两个入口共用工程/资源：`index.html`为ECEF地理参考与检查层，`terrain.html`为局部EPSG:32118+NAVD88正高检视。当前源服务generic NAD83与索引NAD83(2011)冲突，地形全球叠加保持阻塞，正高检视不冒称ECEF配准。它使用小型WebGL2渲染器和共享矩阵库，没有新建无关联项目或依赖云服务。GPU缓冲每次换样区释放，静止不持续重绘。
+
+## 阶段4建筑表示
+
+同一工程新增buildings.html，不重建演示。Python的nyc/buildings.py管理证据门控、完整多边形、部件和中性GLB；build_buildings.py管理只读源库→可恢复派生SQLite→双表示瓦片→原子清单。source/processor SHA变化时拒绝旧work复用。原始数据只读。
+
+严格模式只有来源俯视轮廓。显式hypothesis是原HEIGHT_ROOF与未确认international-foot假设的开口垂直包络，canonical高度仍null；不封顶，不作为墙基线或真实主体。停车/棚/罐/占位/悬挑/连廊/施工记录有专门原因，后几类不盲目拉到地面。可靠屋顶、立面、当前旧模型关联和LiDAR提取仍缺证据。
+
+完整对象以来源包围框中心归属唯一500m格；保留原几何跨格，不裁断、不按BIN/共墙合并。每块最多200来源对象，UINT32索引/feature ID和结构化元数据保持可拾取。每块独立ENU和外部ECEF矩阵，根/叶几何误差和实际包围体齐全。语义证据与渲染LOD独立。
+
+全市完整细节采用近区viewerRequestVolume与显式7000m俯视暂停；没有未披露的盒楼LOD。运行时仅本地GLB/JSON。构建同卷普通硬链接大资源、跨卷回退复制，ZIP独立读回SHA/CRC；工作库/原始大数据不依赖Git传输。

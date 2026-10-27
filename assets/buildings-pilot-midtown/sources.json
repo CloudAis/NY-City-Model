@@ -1,0 +1,458 @@
+{
+  "schema_version": 4,
+  "at": "2026-10-27T11:35:38.508911+00:00",
+  "capture_version": "2026-10-27-city",
+  "input": "second-stage retained real five-borough footprint SQLite; read-only",
+  "new_network_downloads_this_stage": 0,
+  "source_registry": {
+    "schema_version": 1,
+    "generated_at": "2026-10-27T05:12:15.591331+00:00",
+    "sources": [
+      {
+        "id": "nyc-building-footprints",
+        "publisher": "NYC OTI / NYC GIS",
+        "entry_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
+        "resource_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0",
+        "source_metadata_date": "2025-10-09",
+        "web_page_modified_date": null,
+        "data_publication_date": null,
+        "observation_date": null,
+        "service_data_last_edit": "2026-10-25T02:16:29.896000+00:00",
+        "downloaded_at": "2026-10-27T04:36:37.187758+00:00",
+        "license": "NYC Open Data Terms of Use; see captured terms",
+        "reuse_class": "local-distribution-subject-to-terms",
+        "coverage": "NYC five boroughs, complete source-BASE_BBL partitions captured; physical entities not independently resolved",
+        "source_measurement_crs": "EPSG:2263",
+        "response_crs": "EPSG:3857",
+        "normalized_crs": "EPSG:32118",
+        "horizontal_units": "metre after normalization",
+        "height_units": "source feet; relative roof height",
+        "vertical_datum": "not specified per record; modern ground measurements generally NAVD88",
+        "source_metadata_path": "data/raw/catalog/footprints-metadata.response",
+        "layer_metadata_path": "data/raw/catalog/footprints-layer.json",
+        "sha256": "452337c2f185cd7cf8dced41da7d63a848a86ddea75d43e02506917e71f88061",
+        "pipeline_version": "0.1.0-stage2",
+        "processing_script": "scripts/nyc/normalize.py",
+        "state": "complete source footprint capture; independent accuracy unverified",
+        "source_version_kind": "user capture label + service lastEditDate, not a formal publisher release",
+        "data_manifest": "reports/city-quality.json",
+        "acquired_state": "complete raw footprint capture and normalized SQLite; 0 independently verified heights/roofs/facades",
+        "capture_manifests": [
+          "data/intermediate/city-manhattan/manifest.json",
+          "data/intermediate/city-bronx/manifest.json",
+          "data/intermediate/city-brooklyn/manifest.json",
+          "data/intermediate/city-queens/manifest.json",
+          "data/intermediate/city-staten-island/manifest.json"
+        ],
+        "checksum_note": "Top-level SHA identifies source metadata; each actual raw response SHA is in files.jsonl and capture manifests.",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "version": "dynamic; capture 2026-10-27-city",
+        "capture_window": {
+          "start": "2026-10-27T04:13:07.131280+00:00",
+          "end": "2026-10-27T04:36:37.187758+00:00",
+          "atomic_snapshot": false
+        }
+      },
+      {
+        "web_page_modified_date": null,
+        "data_publication_date": "2018-10-19",
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T04:03:59.742963+00:00",
+        "vertical_datum": "not independently established from 3dm",
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "nyc-3d-model-2014",
+        "publisher": "NYC OTI / DCP",
+        "entry_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/nyc-3d-model",
+        "resource_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn01.zip",
+        "data_date": "2018-08",
+        "observation_period": {
+          "year": 2014,
+          "exact_date": null
+        },
+        "license": "NYC DCP BYTES terms/disclaimer; retained on official content page",
+        "reuse_class": "local-distribution-subject-to-NYC-terms",
+        "coverage": "MN Community District 01 acquired; other 58 CDs/parks not acquired",
+        "crs": "metadata EPSG:2263",
+        "units": "document UnitSystem.Feet; metadata US survey foot discrepancy unresolved",
+        "raw_path": "data/raw/supporting/nyc_3dmodel_mn01.zip",
+        "audit": "reports/official-model-audit.json",
+        "acquired_state": "1 archive/1 parsed 3dm; 132223 geometry objects, NOT 132223 buildings; 0 matched current buildings",
+        "version": "2014 survey / DCP 2018 package",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "sha256": "820fcc1a65ce892e10e82139e87cf6e528ca8590b0dc8bcc62f49d8677020b8a"
+      },
+      {
+        "web_page_modified_date": null,
+        "data_publication_date": null,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T04:04:02.470603+00:00",
+        "vertical_datum": null,
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "pluto-parcel",
+        "publisher": "NYC DCP",
+        "entry_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change",
+        "resource_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/pluto/nyc_pluto_26v2_csv.zip",
+        "version": "26v2",
+        "data_date": "2026-08",
+        "license": "NYC DCP BYTES terms/disclaimer",
+        "reuse_class": "local-distribution-subject-to-NYC-terms",
+        "coverage": "citywide 858284 tax-lot records",
+        "crs": "CSV mixed attributes; coordinate fields must be interpreted by dictionary",
+        "units": "field-specific, not a building height source",
+        "raw_path": "data/raw/supporting/nyc_pluto_26v2_csv.zip",
+        "audit": "reports/pluto-audit.json",
+        "acquired_state": "complete CSV parsed; parcel links separate; 0 building field overrides",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "sha256": "1df5753188a4a2e1c9a04bfe5ce98930c11a4a0b78d0445abcbcbbfea4d32919"
+      },
+      {
+        "web_page_modified_date": null,
+        "data_publication_date": null,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T04:04:06.222501+00:00",
+        "vertical_datum": null,
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "mappluto-geometry",
+        "publisher": "NYC DCP",
+        "entry_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change",
+        "resource_url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/MAPPLUTO/FeatureServer/0",
+        "license": "NYC DCP BYTES terms/disclaimer",
+        "reuse_class": "metadata-only; no parcel geometries published",
+        "coverage": "service metadata discovered from official content link; geometries not acquired",
+        "crs": "see retained layer metadata, not yet standardized",
+        "units": "not yet standardized",
+        "raw_path": "data/raw/supporting/mappluto-layer.json",
+        "acquired_state": "metadata only; PLUTO CSV acquisition does not imply MapPLUTO geometry acquisition",
+        "version": "not established; see source metadata",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "sha256": "eec4c216a9b69e26e89b0c723d0fd703e79ab5da011b36677479939f15967f0e"
+      },
+      {
+        "web_page_modified_date": "2026-05-26T19:35:48+00:00",
+        "data_publication_date": null,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T04:56:15.027143+00:00",
+        "vertical_datum": null,
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "borough",
+        "publisher": "Department of City Planning (DCP)",
+        "entry_url": "https://data.cityofnewyork.us/d/gthc-hcne",
+        "version": "dynamic Socrata dataset; row IDs version-scoped",
+        "data_last_updated": "2026-05-26T19:35:50+00:00",
+        "observation_period": null,
+        "license": "NYC Open Data Terms",
+        "reuse_class": "local-distribution-subject-to-NYC-terms",
+        "coverage": "citywide source: 5 records",
+        "crs": "EPSG:4326 raw / EPSG:32118 standardized",
+        "units": "raw degrees / standardized metres",
+        "raw_manifest": "data/raw/vectors/borough/manifest.json",
+        "acquired_state": "complete source count and unique publication key checked",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "raw_manifest_sha256": "77ad2198c23c77856584cffbc810fdff2f9ab6961b218c902670dff09cfe64a1"
+      },
+      {
+        "web_page_modified_date": "2025-12-10T16:04:06+00:00",
+        "data_publication_date": null,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T04:56:58.379441+00:00",
+        "vertical_datum": null,
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "roadbed",
+        "publisher": "Office of Technology and Innovation (OTI)",
+        "entry_url": "https://data.cityofnewyork.us/d/i36f-5ih7",
+        "version": "dynamic Socrata dataset; row IDs version-scoped",
+        "data_last_updated": "2024-04-24T20:25:27+00:00",
+        "observation_period": {
+          "year": 2022,
+          "basis": "official NYC planimetrics README; not a per-feature capture day"
+        },
+        "license": "NYC Open Data Terms",
+        "reuse_class": "local-distribution-subject-to-NYC-terms",
+        "coverage": "citywide source: 104961 records",
+        "crs": "EPSG:4326 raw / EPSG:32118 standardized",
+        "units": "raw degrees / standardized metres",
+        "raw_manifest": "data/raw/vectors/roadbed-rowid/manifest.json",
+        "acquired_state": "complete source count and unique publication key checked",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "raw_manifest_sha256": "6860161efeddd577d228d3faeb6faf090d1279cd3c20458bf0982f7a4ddc4554"
+      },
+      {
+        "web_page_modified_date": "2025-12-10T16:01:00+00:00",
+        "data_publication_date": null,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T04:57:02.729992+00:00",
+        "vertical_datum": null,
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "water",
+        "publisher": "Office of Technology and Innovation (OTI)",
+        "entry_url": "https://data.cityofnewyork.us/d/pjs3-c3z5",
+        "version": "dynamic Socrata dataset; row IDs version-scoped",
+        "data_last_updated": "2024-04-24T20:08:25+00:00",
+        "observation_period": {
+          "year": 2022,
+          "basis": "official NYC planimetrics README; not a per-feature capture day"
+        },
+        "license": "NYC Open Data Terms",
+        "reuse_class": "local-distribution-subject-to-NYC-terms",
+        "coverage": "citywide source: 2206 records",
+        "crs": "EPSG:4326 raw / EPSG:32118 standardized",
+        "units": "raw degrees / standardized metres",
+        "raw_manifest": "data/raw/vectors/water-rowid/manifest.json",
+        "acquired_state": "complete source count and unique publication key checked",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "raw_manifest_sha256": "b090787665764e9746f23e5e4c593fe32cb7ad091dd13e65e15921adba43f2a8"
+      },
+      {
+        "web_page_modified_date": null,
+        "data_publication_date": null,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T04:12:03.495553+00:00",
+        "vertical_datum": null,
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "nyc-ortho-2024",
+        "publisher": "NYC OTI",
+        "entry_url": "https://nyc.maps.arcgis.com/home/item.html?id=423f15185bd04f8dad8d99fba736772f",
+        "observation_period": {
+          "year": 2024,
+          "exact_date": null
+        },
+        "license": "official item: NYC.gov Terms; metadata also cites CC BY 4.0; reconcile before bundling",
+        "reuse_class": "reference-only",
+        "coverage": "one real 256x256 service tile in lower Manhattan; NOT citywide downloaded",
+        "crs": "EPSG:3857",
+        "units": "map metres; map resolution is not ground resolution",
+        "raw_manifest": "reports/real-tile-refetch.json",
+        "acquired_state": "one tile actually downloaded twice; not bundled into application",
+        "version": "2024 service",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        },
+        "raw_manifest_sha256": "4bbcbf597e6a1cb3125fff331da5f444031a9c79620a37335bedb07cb2ceb6ae"
+      },
+      {
+        "web_page_modified_date": null,
+        "data_publication_date": "2018-11-09",
+        "observation_date": null,
+        "downloaded_at": null,
+        "vertical_datum": "not verified against an actual LAS VLR",
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "nyc-nys-lidar-2017",
+        "publisher": "NYC OTI / NYS GPO",
+        "entry_url": "https://gis.ny.gov/lidar",
+        "resource_url": "https://gisdata.ny.gov/elevation/LIDAR/NYC_TopoBathymetric2017/NewYorkCity_2017_Topobathymetric_LiDAR.XML",
+        "observation_period": {
+          "start": "2017-05-03",
+          "end": "2017-07-26",
+          "basis": "NYS captured FGDC XML"
+        },
+        "license": "point-cloud package license/datum still require dataset-specific review",
+        "reuse_class": "metadata/reference-only until actual tile acquisition",
+        "coverage": "NYC 2017 catalogue/metadata retained; no LAS/LAZ tile acquired",
+        "crs": "NAD83 per XML; realization/unit must be confirmed against actual LAS VLR",
+        "units": "not confirmed from a point-cloud file",
+        "acquired_state": "BLOCKED: official map app 403, NYS directory 403, bulk ZIP exceeds 64MiB probe budget and HEAD timed out; no bypass attempted",
+        "version": "2017 survey metadata",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        }
+      },
+      {
+        "web_page_modified_date": null,
+        "data_publication_date": null,
+        "observation_date": null,
+        "downloaded_at": null,
+        "vertical_datum": null,
+        "independently_verified": false,
+        "processor_version": "0.1.0-stage2",
+        "id": "osm",
+        "publisher": "OpenStreetMap contributors",
+        "entry_url": "https://www.openstreetmap.org/copyright",
+        "license": "ODbL; attribution and derivative database obligations apply",
+        "reuse_class": "reference-only-not-required",
+        "coverage": "no OSM geometry acquired; official building/road/water sources used",
+        "crs": "not acquired",
+        "units": "not acquired",
+        "acquired_state": "licence page retained, no commercial map/street-view tiles copied",
+        "version": "not established; see source metadata",
+        "processing_script_sha256": {
+          "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+          "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+          "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+        }
+      }
+    ]
+  },
+  "sources_directly_consumed": [
+    {
+      "id": "nyc-building-footprints",
+      "publisher": "NYC OTI / NYC GIS",
+      "entry_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
+      "resource_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0",
+      "source_metadata_date": "2025-10-09",
+      "web_page_modified_date": null,
+      "data_publication_date": null,
+      "observation_date": null,
+      "service_data_last_edit": "2026-10-25T02:16:29.896000+00:00",
+      "downloaded_at": "2026-10-27T04:36:37.187758+00:00",
+      "license": "NYC Open Data Terms of Use; see captured terms",
+      "reuse_class": "local-distribution-subject-to-terms",
+      "coverage": "NYC five boroughs, complete source-BASE_BBL partitions captured; physical entities not independently resolved",
+      "source_measurement_crs": "EPSG:2263",
+      "response_crs": "EPSG:3857",
+      "normalized_crs": "EPSG:32118",
+      "horizontal_units": "metre after normalization",
+      "height_units": "source feet; relative roof height",
+      "vertical_datum": "not specified per record; modern ground measurements generally NAVD88",
+      "source_metadata_path": "data/raw/catalog/footprints-metadata.response",
+      "layer_metadata_path": "data/raw/catalog/footprints-layer.json",
+      "sha256": "452337c2f185cd7cf8dced41da7d63a848a86ddea75d43e02506917e71f88061",
+      "pipeline_version": "0.1.0-stage2",
+      "processing_script": "scripts/nyc/normalize.py",
+      "state": "complete source footprint capture; independent accuracy unverified",
+      "source_version_kind": "user capture label + service lastEditDate, not a formal publisher release",
+      "data_manifest": "reports/city-quality.json",
+      "acquired_state": "complete raw footprint capture and normalized SQLite; 0 independently verified heights/roofs/facades",
+      "capture_manifests": [
+        "data/intermediate/city-manhattan/manifest.json",
+        "data/intermediate/city-bronx/manifest.json",
+        "data/intermediate/city-brooklyn/manifest.json",
+        "data/intermediate/city-queens/manifest.json",
+        "data/intermediate/city-staten-island/manifest.json"
+      ],
+      "checksum_note": "Top-level SHA identifies source metadata; each actual raw response SHA is in files.jsonl and capture manifests.",
+      "processing_script_sha256": {
+        "scripts/nyc/download.py": "810c3bec0098560e008939d0f1322f5829daea0802e49e2aa4b60c176d740803",
+        "scripts/nyc/normalize.py": "fe3973e3e8788bee069fa69ca45d72c309e1a12a84eb0ac2509226aadf823064",
+        "scripts/process_supporting.py": "358d6aa87dc83949bbdb70c8616ae3bc74e5c328b39d983eb21341918ac0b759"
+      },
+      "version": "dynamic; capture 2026-10-27-city",
+      "capture_window": {
+        "start": "2026-10-27T04:13:07.131280+00:00",
+        "end": "2026-10-27T04:36:37.187758+00:00",
+        "atomic_snapshot": false
+      }
+    }
+  ],
+  "coordinate_contract": "scripts/nyc/coordinates.py + docs/COORDINATES.md",
+  "representation_policy": {
+    "id": "stage4-strict-building-evidence-v1",
+    "semantic_levels": [
+      "outline_only",
+      "outline_plus_resolved_relative_height",
+      "reliable_roof_volume",
+      "verified_facade_model"
+    ],
+    "render_lod_is_independent": true,
+    "current_semantic_level": "outline_only",
+    "source_outline_kind": "Building Footprints metadata description: full perimeter viewed directly from above; ground wall line not guaranteed",
+    "canonical_height_policy": "raw source HEIGHT_ROOF retained; foot subtype unresolved => canonical metre value null",
+    "unknown_height": "no default height, no parcel floors * assumed storey height",
+    "strict_mode": "only source outlines; placeholder1003 excluded",
+    "hypothesis_mode": {
+      "default": false,
+      "label": "explicit source-height hypothesis, not verified building",
+      "factor": 0.3048,
+      "unit_assumption": "international foot, NOT a source fact",
+      "comparison_factor": 0.3048006096012192,
+      "base": "WGS84 ellipsoid display reference +0.25m, NOT ground",
+      "roof": "open, no cap",
+      "components": "source polygon parts only, no invented towers/podia/setbacks/skybridges/plant rooms",
+      "excluded_body_codes": {
+        "1000": "parking",
+        "1001": "canopy",
+        "1002": "tank",
+        "1003": "placeholder",
+        "1006": "cantilever unknown base",
+        "2110": "skybridge unknown deck",
+        "5100": "construction, incomplete shape"
+      }
+    },
+    "roof_derivation": "no LAS/LAZ acquired; no density/residual/boundary metrics can honestly be reported; do not generate procedural roof detail",
+    "legacy_model": "2014 source, Feet/US survey foot and per-object identity/date matching unresolved; zero current matches",
+    "pluto": "parcel-scoped candidates only; no per-building height, floor, date or use assignment",
+    "world_vertical": "unresolved NAD83 realization and building ground datum; no canonical ECEF body placement",
+    "field_evidence": {
+      "position": {
+        "source": "nyc-building-footprints:SHAPE",
+        "status": "source_explicit",
+        "independently_verified": false
+      },
+      "footprint": {
+        "source": "nyc-building-footprints:SHAPE",
+        "status": "source_explicit_or_repair_derived",
+        "independently_verified": false
+      },
+      "height": {
+        "source": "nyc-building-footprints:HEIGHT_ROOF",
+        "status": "source_explicit_value_but_unit_unresolved",
+        "canonical_metres": null
+      },
+      "roof": {
+        "source": null,
+        "status": "unknown"
+      },
+      "facade": {
+        "source": null,
+        "status": "unknown"
+      },
+      "age": {
+        "source": "CONSTRUCTION_YEAR and LAST_EDITED_DATE are not observation date",
+        "status": "mixed_record_fields; observation unknown"
+      }
+    }
+  },
+  "input_sha256": {
+    "data/processed/city/buildings.sqlite": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37",
+    "data/raw/catalog/footprints-metadata.response": "f1f7934c8c19a69af41d7ee4dbaee69b190e005c7adba0adbed4c3b55d22baae",
+    "data/intermediate/extracted/nyc_pluto_26v2_csv/pluto_26v2.csv": "c65fac81cdc119ac4528fc78d11474419cd50d0fde1a1b06be42ba8961d24cf9"
+  },
+  "processor_sha256": {
+    "scripts/build_buildings.py": "2e8391254bc641e43c1da8ec28ab3397a3fa7b3e985f44991e39341eb13f3140",
+    "scripts/nyc/buildings.py": "12847858e4da8e5f2f407b061d7a1c7458129531cbbcc0f00e19bfa7aa5e4952",
+    "scripts/nyc/coordinates.py": "c036a64e336c77e3c87d88480f50232dbcf0144884fdeb75478ee77dd0aad17d",
+    "scripts/audit_buildings.py": "46c1a5a6ce08d3f0351320ba8add93641c14df28f42834187b8b4397058b8e8a",
+    "scripts/select_building_review.py": "d08e9b3b2c37830643d9115109395ab11359efd160f5a701e0675b84826ab060"
+  },
+  "license": "NYC Open Data Terms of Use; not a public-domain inference; source notices retained",
+  "downloads_dates": "original download receipts retained; processing timestamp above is NOT new observation/download date"
+}

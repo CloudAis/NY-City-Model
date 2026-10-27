@@ -1,0 +1,32 @@
+
+> nyc-real-scale-3d@0.1.0 build
+> npm run check && vite build
+
+
+> nyc-real-scale-3d@0.1.0 check
+> tsc --noEmit
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 1630 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/terrain.html                       0.51 kB │ gzip:     0.36 kB
+dist/buildings.html                     0.61 kB │ gzip:     0.37 kB
+dist/index.html                         0.63 kB │ gzip:     0.37 kB
+dist/assets/buildings-CFUJpzUp.css      3.33 kB │ gzip:     1.26 kB
+dist/assets/terrain-MqDaHXnX.css        3.42 kB │ gzip:     1.24 kB
+dist/assets/main-Byp8XRnP.css           8.07 kB │ gzip:     2.54 kB
+dist/assets/widgets-B9DDZdqH.css       24.01 kB │ gzip:     5.37 kB
+dist/assets/buildings-uYqLdgR9.js       9.40 kB │ gzip:     4.94 kB
+dist/assets/terrain-ChMTIPbf.js        15.02 kB │ gzip:     6.97 kB
+dist/assets/main-0slYHvHq.js           19.16 kB │ gzip:     8.64 kB
+dist/assets/Matrix4-C-Gm_KdH.js        59.12 kB │ gzip:    14.81 kB
+dist/assets/widgets-NtgZx9Th.js     4,110.22 kB │ gzip: 1,110.66 kB
+
+✓ built in 1.99s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

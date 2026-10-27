@@ -1,0 +1,15 @@
+{
+  "prior_raw_checked": 2775,
+  "missing": [],
+  "changed": [],
+  "large_inputs": [
+    {
+      "path": "data/raw/supporting/nyc_3dmodel_mn01.zip",
+      "sha256_unchanged": true
+    },
+    {
+      "path": "data/raw/supporting/nyc_pluto_26v2_csv.zip",
+      "sha256_unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-27T11:28:11.545012+00:00",
+  "pilot_repeat_equal_hashes_and_mtimes": true,
+  "single_tile_repair_byte_identical": true,
+  "unrelated_tiles_unchanged": true,
+  "regenerated_files": [
+    "manhattan/597_119_000.receipt.json",
+    "manhattan/597_119_000-strict.glb",
+    "manhattan/597_119_000-hypothesis.glb",
+    "manhattan/597_119_000.json"
+  ],
+  "object_rebuilt": "nyc:footprints:doitt:105139",
+  "object_source_records": 1,
+  "command": [
+    "/workspace/nyc-3d-html/.venv/bin/python",
+    "scripts/build_buildings.py",
+    "--aoi",
+    "lower-manhattan",
+    "--work",
+    "data/processed/building-stage4/lower-manhattan",
+    "--output",
+    "assets/buildings-pilot-lower"
+  ],
+  "source_raw_modified": false
+}

@@ -1,0 +1,18 @@
+{
+  "source_records": 812,
+  "geometry_parts": 812,
+  "interior_rings": 5,
+  "source_height_numeric_valid": 807,
+  "hypothesis_eligible": 806,
+  "reason:foot_subtype_unresolved": 811,
+  "reason:base_elevation_datum_unresolved": 811,
+  "reason:overhead_outline_not_verified_wall_line": 811,
+  "reason:roof_components_unknown": 811,
+  "reason:observation_date_unknown": 811,
+  "published_outline_entities": 811,
+  "published_outline_parts": 811,
+  "reason:under_construction": 2,
+  "reason:missing_height": 5,
+  "reason:official_placeholder_triangle": 1,
+  "excluded_placeholders": 1
+}

@@ -40,3 +40,13 @@ DEM样本采用metre/NAVD88，2017采集；`masked_raster`为真实LERC，`lerc_
 检查点role固定source-correspondence，现实测量误差为null；geographic字段显式longitude/latitude degrees，source_xy有实际原始CRS。方向箭头的diagnostic_only=true且默认关闭，不计入建筑/地标数量。
 
 新发布GLB属性不再用无标识的height_m暴露旧暂算值，改为relative_height_raw_ft与legacy_stage2_height_m；canonical高度来自严格注册表。GLB和瓦片索引同时保存实际局部原点及完整ENU→ECEF矩阵，外部矩阵只由tileset施加一次，不再作为glTF节点矩阵重复应用。
+
+## 阶段4建筑关联
+
+派生associations.sqlite：objects.id为来源实体唯一键，source_rowid为只读第二阶段库行引用，borough为来源BASE_BBL分区；gx/gy为500m完整对象owner。metadata含source_id/OBJECTID/BIN/BBL/raw路径SHA、原部件ID、版本/日期、state/reasons、geometry_sha256、轮廓面积/范围、内洞/顶点数。geometry是原规范化多边形，不是包围盒。部分来源实体可能不是独立物理建筑。
+
+canonical_height_m和ground_ellipsoid_m保持null。relative_height_raw_ft是来源数值；height_evidence_status区分有效数值但单位未知与缺失/异常。height_hypothesis_m及interval只为明确的international/US-survey-foot比较假设；不提升证据等级，不落到真实地面。semantic_level为outline_only；render_lod明确full_source_outline_no_simplification，两者独立。roof_status/facade_status、observation_date未知继续保留。
+
+state=source_outline_only或excluded_placeholder；reasons包含单位、地面基准、墙线、屋顶部件、观测日、缺失/异常楼高及非普通主体类型原因。历史/拆除状态不能仅由旧模型或编辑日判断；本阶段未确认。GLB严格/假设有相同源ID与parts表，模型表现不是新建筑实体。
+
+工业抽查的parcel_context保留PLUTO LandUse06、主建筑分类和numbldgs；它不等于被抽查单栋的用途。complex_outline标签不等于复杂屋顶证据。原始来源、管线数值误差与现实实测误差分开记录。

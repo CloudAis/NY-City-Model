@@ -1,0 +1,78 @@
+{
+  "schema_version": 4,
+  "pipeline_version": "0.4.0-evidence-gated",
+  "source": {
+    "version": "2026-10-27-city",
+    "borough": null,
+    "aoi": null,
+    "id": "nyc:footprints:doitt:105139",
+    "tile": null,
+    "bbox": null,
+    "source_database": "/workspace/nyc-3d-html/data/processed/city/buildings.sqlite",
+    "source_sha256": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37",
+    "processor_sha256": "b8e0a2a6819bdac795bb7f90ead1c9f442a2b448a2b30b616a291f07ff0001e2",
+    "pipeline_version": "0.4.0-evidence-gated"
+  },
+  "mode_default": "strict",
+  "strict_meaning": "source overhead outlines only; canonical height/base/roof unresolved",
+  "hypothesis_meaning": "explicit opt-in source height * assumed international foot; open vertical envelope on ellipsoid reference, not actual wall/roof/base",
+  "hypothesis_initially_visible": false,
+  "world_registered_buildings": false,
+  "canonical_building_solids": 0,
+  "reliable_roofs": 0,
+  "verified_facades": 0,
+  "semantic_lod_independent": true,
+  "owner_rule": "whole source entity belongs to one 500m owner cell by bbox centre; no clipping or cross-tile duplicate",
+  "load_policy": "source polygons unchanged; leaf request region extends 5km horizontally and ellipsoid height -100..7500m; overview explicitly hides these full-detail tiles",
+  "boroughs": [
+    {
+      "id": "manhattan",
+      "records": 1,
+      "outlines": 1,
+      "tiles": 1,
+      "bounds_wgs84": [
+        -74.0134910047979,
+        40.70651455091832,
+        -74.0128387928281,
+        40.706838299032555
+      ],
+      "strict": "manhattan/strict.json",
+      "hypothesis": "manhattan/hypothesis.json",
+      "index": "manhattan/tiles.json",
+      "quality": "manhattan/quality.json"
+    }
+  ],
+  "counts": {
+    "source_records": 1,
+    "geometry_parts": 1,
+    "interior_rings": 0,
+    "source_height_numeric_valid": 1,
+    "hypothesis_eligible": 1,
+    "reason:foot_subtype_unresolved": 1,
+    "reason:base_elevation_datum_unresolved": 1,
+    "reason:overhead_outline_not_verified_wall_line": 1,
+    "reason:roof_components_unknown": 1,
+    "reason:observation_date_unknown": 1,
+    "published_outline_entities": 1,
+    "published_outline_parts": 1
+  },
+  "borough_counts": [
+    {
+      "borough": "manhattan",
+      "source_records": 1,
+      "geometry_parts": 1,
+      "interior_rings": 0,
+      "source_height_numeric_valid": 1,
+      "hypothesis_eligible": 1,
+      "reason:foot_subtype_unresolved": 1,
+      "reason:base_elevation_datum_unresolved": 1,
+      "reason:overhead_outline_not_verified_wall_line": 1,
+      "reason:roof_components_unknown": 1,
+      "reason:observation_date_unknown": 1,
+      "published_outline_entities": 1,
+      "published_outline_parts": 1
+    }
+  ],
+  "source_terms": "NYC Open Data Terms; attribution retained",
+  "sources_manifest": "sources.json"
+}

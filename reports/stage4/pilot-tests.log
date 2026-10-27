@@ -1,0 +1,10 @@
+test_batched_coordinates_match_shared_scalar_contract (test_buildings.BuildingTests.test_batched_coordinates_match_shared_scalar_contract) ... ok
+test_complex_concavity_hole_and_shell_winding (test_buildings.BuildingTests.test_complex_concavity_hole_and_shell_winding) ... ok
+test_real_glb_index_normals_features_bounds_and_no_fake_roof (test_buildings.BuildingTests.test_real_glb_index_normals_features_bounds_and_no_fake_roof) ... ok
+test_real_sample_footprints_triangulation_not_bounding_boxes (test_buildings.BuildingTests.test_real_sample_footprints_triangulation_not_bounding_boxes) ... ok
+test_strict_height_and_overhead_boundary_gate (test_buildings.BuildingTests.test_strict_height_and_overhead_boundary_gate) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.332s
+
+OK

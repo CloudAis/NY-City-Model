@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-27T11:42:49.567953+00:00",
+  "port": 5180,
+  "checks": [
+    {
+      "route": "buildings.html",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "route": "terrain.html",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "route": "datasets/buildings-city/manifest.json",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "route": "datasets/buildings-city/quality-report.json",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "route": "datasets/buildings-city/sources.json",
+      "status": 200,
+      "content_type": "application/json"
+    }
+  ]
+}

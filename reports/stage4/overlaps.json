@@ -1,0 +1,522 @@
+[
+  {
+    "id": "nyc:footprints:doitt:1119374",
+    "other_id": "nyc:footprints:doitt:257517",
+    "overlap_area_m2": 0.043853540983283895,
+    "bounds_metric_m": [
+      302341.1220597827,
+      66011.13357671001,
+      302424.6541769297,
+      66101.45329354807
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1284821",
+    "other_id": "nyc:footprints:doitt:1263535",
+    "overlap_area_m2": 23.488159161147905,
+    "bounds_metric_m": [
+      299837.0674916519,
+      65070.97651839144,
+      300012.921823945,
+      65262.33925588667
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:996565",
+    "other_id": "nyc:footprints:doitt:1298569",
+    "overlap_area_m2": 36.87187314205861,
+    "bounds_metric_m": [
+      302044.3496383475,
+      68113.29368829296,
+      302310.3109891274,
+      68305.34062706561
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283180",
+    "overlap_area_m2": 4195.09787746115,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283170",
+    "overlap_area_m2": 1057.8384338087378,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283168",
+    "overlap_area_m2": 2701.8723904390563,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283176",
+    "overlap_area_m2": 1631.16244771049,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283173",
+    "overlap_area_m2": 1880.441363478044,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283178",
+    "overlap_area_m2": 1070.9162713580106,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283177",
+    "overlap_area_m2": 516.4959601419573,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283179",
+    "overlap_area_m2": 2357.461051720147,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283171",
+    "overlap_area_m2": 756.5930080277502,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283172",
+    "overlap_area_m2": 190.091947378531,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:308707",
+    "other_id": "nyc:footprints:doitt:1283174",
+    "overlap_area_m2": 73.70076540395922,
+    "bounds_metric_m": [
+      303415.1598653618,
+      72878.76191189738,
+      303903.1672480749,
+      73433.60862423886
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:749711",
+    "other_id": "nyc:footprints:doitt:1294638",
+    "overlap_area_m2": 200.03141455506847,
+    "bounds_metric_m": [
+      299618.2996403285,
+      65466.711040202346,
+      299949.06740031624,
+      65811.1371065978
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:749711",
+    "other_id": "nyc:footprints:doitt:91384",
+    "overlap_area_m2": 20.070209053633796,
+    "bounds_metric_m": [
+      299618.2996403285,
+      65466.711040202346,
+      299949.06740031624,
+      65811.1371065978
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:471867",
+    "other_id": "nyc:footprints:doitt:1283687",
+    "overlap_area_m2": 0.2698005920135035,
+    "bounds_metric_m": [
+      299454.9076086172,
+      62176.947482366195,
+      299473.84691149433,
+      62209.03978835201
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:451686",
+    "other_id": "nyc:footprints:doitt:1292820",
+    "overlap_area_m2": 1.3477556038194463,
+    "bounds_metric_m": [
+      309606.7214438168,
+      70759.13467496993,
+      309709.46626498393,
+      70842.79529330858
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1290617",
+    "other_id": "nyc:footprints:doitt:1190590",
+    "overlap_area_m2": 230.3998166989413,
+    "bounds_metric_m": [
+      305855.30744075886,
+      73304.24252512131,
+      306109.56788891455,
+      73552.00717640408
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1290617",
+    "other_id": "nyc:footprints:doitt:1198672",
+    "overlap_area_m2": 449.5494358267119,
+    "bounds_metric_m": [
+      305855.30744075886,
+      73304.24252512131,
+      306109.56788891455,
+      73552.00717640408
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1290617",
+    "other_id": "nyc:footprints:doitt:1192445",
+    "overlap_area_m2": 58.013280322525446,
+    "bounds_metric_m": [
+      305855.30744075886,
+      73304.24252512131,
+      306109.56788891455,
+      73552.00717640408
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1278111",
+    "other_id": "nyc:footprints:doitt:1272537",
+    "overlap_area_m2": 0.043187546153058864,
+    "bounds_metric_m": [
+      301413.5872080038,
+      58295.948476752106,
+      301471.5057194277,
+      58330.43888191862
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1305408",
+    "other_id": "nyc:footprints:doitt:583529",
+    "overlap_area_m2": 1.177307081428123,
+    "bounds_metric_m": [
+      301772.2002782684,
+      58017.59187200603,
+      301807.45798655134,
+      58085.81428536581
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1305408",
+    "other_id": "nyc:footprints:doitt:472881",
+    "overlap_area_m2": 0.06790193968637714,
+    "bounds_metric_m": [
+      301772.2002782684,
+      58017.59187200603,
+      301807.45798655134,
+      58085.81428536581
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1278837",
+    "other_id": "nyc:footprints:doitt:1109803",
+    "overlap_area_m2": 0.15330088851708723,
+    "bounds_metric_m": [
+      301250.78277680767,
+      58269.967965992015,
+      301314.27678726276,
+      58343.15817960988
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1293260",
+    "other_id": "nyc:footprints:doitt:1288263",
+    "overlap_area_m2": 0.7064822490475581,
+    "bounds_metric_m": [
+      301090.7822111835,
+      45242.029914250736,
+      301134.3554212292,
+      45308.390928214154
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:54983",
+    "other_id": "nyc:footprints:doitt:506531",
+    "overlap_area_m2": 0.3736419556332393,
+    "bounds_metric_m": [
+      297758.05654909875,
+      52850.121995606845,
+      298019.0759951775,
+      53144.947057047946
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1291650",
+    "other_id": "nyc:footprints:doitt:1109597",
+    "overlap_area_m2": 0.2904701652554789,
+    "bounds_metric_m": [
+      304655.61416129593,
+      64517.308646965605,
+      304727.36617420625,
+      64590.11006018511
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1295639",
+    "other_id": "nyc:footprints:doitt:1296326",
+    "overlap_area_m2": 0.022970694593644647,
+    "bounds_metric_m": [
+      305356.8023921073,
+      64786.03782017797,
+      305417.2308037766,
+      64832.25192822485
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1282412",
+    "other_id": "nyc:footprints:doitt:1260517",
+    "overlap_area_m2": 0.3524696344060061,
+    "bounds_metric_m": [
+      305057.57863437635,
+      64703.56549516016,
+      305121.7674475554,
+      64764.261206232644
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1282412",
+    "other_id": "nyc:footprints:doitt:1282413",
+    "overlap_area_m2": 1.2654027938503607,
+    "bounds_metric_m": [
+      305057.57863437635,
+      64703.56549516016,
+      305121.7674475554,
+      64764.261206232644
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:929257",
+    "other_id": "nyc:footprints:doitt:1305818",
+    "overlap_area_m2": 4.058253588406866,
+    "bounds_metric_m": [
+      318690.48914905655,
+      53093.93927043735,
+      319298.6950732511,
+      53478.815839921306
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1305818",
+    "other_id": "nyc:footprints:doitt:929257",
+    "overlap_area_m2": 4.058253588406866,
+    "bounds_metric_m": [
+      318452.9977109209,
+      53328.77873016554,
+      318751.2112682833,
+      53617.60998335415
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1305299",
+    "other_id": "nyc:footprints:doitt:488590",
+    "overlap_area_m2": 0.7629020262887511,
+    "bounds_metric_m": [
+      303930.87911948824,
+      64465.87111581746,
+      303998.39253242075,
+      64511.56342338434
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:1305299",
+    "other_id": "nyc:footprints:doitt:255728",
+    "overlap_area_m2": 0.21379988806307898,
+    "bounds_metric_m": [
+      303930.87911948824,
+      64465.87111581746,
+      303998.39253242075,
+      64511.56342338434
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:788157",
+    "other_id": "nyc:footprints:doitt:160828",
+    "overlap_area_m2": 0.11326580468230142,
+    "bounds_metric_m": [
+      285957.7735251874,
+      46254.4345488216,
+      286057.3460415279,
+      46398.19047680408
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:531380",
+    "other_id": "nyc:footprints:doitt:678229",
+    "overlap_area_m2": 0.19127635589169256,
+    "bounds_metric_m": [
+      292999.5761819832,
+      53093.29314301825,
+      293119.7819074566,
+      53258.10007474938
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:160828",
+    "other_id": "nyc:footprints:doitt:139010",
+    "overlap_area_m2": 1.1784074366174,
+    "bounds_metric_m": [
+      285808.4224604559,
+      45964.614825071134,
+      286046.10450636764,
+      46275.89938655085
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:160828",
+    "other_id": "nyc:footprints:doitt:788157",
+    "overlap_area_m2": 0.11326580468243361,
+    "bounds_metric_m": [
+      285808.4224604559,
+      45964.614825071134,
+      286046.10450636764,
+      46275.89938655085
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  },
+  {
+    "id": "nyc:footprints:doitt:502459",
+    "other_id": "nyc:footprints:doitt:1285208",
+    "overlap_area_m2": 2.0218047450700993,
+    "bounds_metric_m": [
+      302102.57593642327,
+      68622.28973093869,
+      302150.8437458339,
+      68665.6978387866
+    ],
+    "source_version": "2026-10-27-city",
+    "action": "review source footprints/temporal parts; do not merge or invent setbacks"
+  }
+]

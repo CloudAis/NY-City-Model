@@ -1,0 +1,111 @@
+{
+  "identity_sha256": "aeb785da00154100c9a2fd81e5bac0d9600d65f750f4ddbf4caee872ce8e10ab",
+  "processor_sha256": "b8e0a2a6819bdac795bb7f90ead1c9f442a2b448a2b30b616a291f07ff0001e2",
+  "files": {
+    "597_119_000-strict.glb": "1cb6baf4d2a96ab52bf5b3470144fbc1d04b4c394e983df56ab29c1d91c06931",
+    "597_119_000-hypothesis.glb": "654d410d0458064dd5fcf60c596a347dfbf626b21c5fa97ca176ec4607db099b",
+    "597_119_000.json": "8e50acfe2a7f5c3163815addb81ac5deeaf2dcaecf45d868a4567a8b420d21b9"
+  },
+  "tile": {
+    "id": "597_119_000",
+    "entities": 30,
+    "parts": 30,
+    "feature_ids": [
+      "nyc:footprints:doitt:105139",
+      "nyc:footprints:doitt:119253",
+      "nyc:footprints:doitt:12190",
+      "nyc:footprints:doitt:122830",
+      "nyc:footprints:doitt:174297",
+      "nyc:footprints:doitt:190678",
+      "nyc:footprints:doitt:203431",
+      "nyc:footprints:doitt:203993",
+      "nyc:footprints:doitt:225229",
+      "nyc:footprints:doitt:275485",
+      "nyc:footprints:doitt:295448",
+      "nyc:footprints:doitt:339135",
+      "nyc:footprints:doitt:363122",
+      "nyc:footprints:doitt:410507",
+      "nyc:footprints:doitt:43141",
+      "nyc:footprints:doitt:436086",
+      "nyc:footprints:doitt:452034",
+      "nyc:footprints:doitt:497248",
+      "nyc:footprints:doitt:50468",
+      "nyc:footprints:doitt:527010",
+      "nyc:footprints:doitt:61264",
+      "nyc:footprints:doitt:65190",
+      "nyc:footprints:doitt:689362",
+      "nyc:footprints:doitt:721649",
+      "nyc:footprints:doitt:756969",
+      "nyc:footprints:doitt:763502",
+      "nyc:footprints:doitt:775767",
+      "nyc:footprints:doitt:777663",
+      "nyc:footprints:doitt:815255",
+      "nyc:footprints:doitt:99901"
+    ],
+    "bounds_wgs84": [
+      -74.01633006966846,
+      40.70410959921053,
+      -74.01154587176366,
+      40.70708214855873
+    ],
+    "enu_to_ecef_column_major": [
+      0.9613328213948586,
+      0.27538919098069337,
+      0.0,
+      0.0,
+      -0.17959809532719723,
+      0.6269437921045401,
+      0.7580804744197164,
+      0.0,
+      0.20876716854870592,
+      -0.7287676413182589,
+      0.6521610186936795,
+      0.0,
+      1333445.2569141244,
+      -4654811.20170296,
+      4137621.109632572,
+      1.0
+    ],
+    "box_local_enu_m": {
+      "strict": [
+        72.11592102050781,
+        95.92142486572266,
+        0.24614091217517853,
+        202.12013244628906,
+        0,
+        0,
+        0,
+        165.00948333740234,
+        0,
+        0,
+        0,
+        0.01
+      ],
+      "hypothesis": [
+        72.1162338256836,
+        95.92336654663086,
+        81.32201915979385,
+        202.12317657470703,
+        0,
+        0,
+        0,
+        165.01282119750977,
+        0,
+        0,
+        0,
+        81.07971423864365
+      ]
+    },
+    "viewer_request_region": [
+      -1.2928603727091097,
+      0.7096344731730253,
+      -1.2907119460986547,
+      0.711258292377587,
+      -100,
+      7500
+    ],
+    "strict_glb": "597_119_000-strict.glb",
+    "hypothesis_glb": "597_119_000-hypothesis.glb",
+    "metadata": "597_119_000.json"
+  }
+}

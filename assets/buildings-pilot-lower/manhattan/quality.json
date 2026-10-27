@@ -1,0 +1,18 @@
+{
+  "source_records": 299,
+  "geometry_parts": 299,
+  "interior_rings": 0,
+  "source_height_numeric_valid": 297,
+  "hypothesis_eligible": 291,
+  "reason:foot_subtype_unresolved": 299,
+  "reason:base_elevation_datum_unresolved": 299,
+  "reason:overhead_outline_not_verified_wall_line": 299,
+  "reason:roof_components_unknown": 299,
+  "reason:observation_date_unknown": 299,
+  "published_outline_entities": 299,
+  "published_outline_parts": 299,
+  "reason:skybridge_deck_unknown": 3,
+  "reason:missing_height": 2,
+  "reason:cantilever_base_unknown": 3,
+  "reason:under_construction": 1
+}

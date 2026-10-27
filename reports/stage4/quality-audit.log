@@ -1,0 +1,13 @@
+RESOURCE_AUDIT manhattan 45167
+RESOURCE_AUDIT bronx 104264
+RESOURCE_AUDIT brooklyn 330109
+RESOURCE_AUDIT queens 460936
+RESOURCE_AUDIT staten-island 142454
+/workspace/nyc-3d-html/scripts/audit_buildings.py:66: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  _,raw_fixed,_=esri_polygon(actual['geometry']['rings']);raw_metric=transform(Transformer.from_crs(wkid,32118,always_xy=True).transform,raw_fixed)
+OBJECT_REVIEW 40
+OBJECT_REVIEW 80
+OBJECT_REVIEW 120
+OBJECT_REVIEW 160
+OBJECT_REVIEW 200
+QUALITY_AUDIT_COMPLETE 219 22149

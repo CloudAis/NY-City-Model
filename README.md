@@ -1,5 +1,15 @@
 # 纽约真实尺度 3D HTML
 
+当前阶段4已发布五区 **1,082,930 条非占位来源轮廓**（输入1,082,964条，排除34占位）。新增 `buildings.html`，复用已验证坐标模块和同一套样区/全市管线，输出 GLB、3D Tiles、部件关联与处理原因。
+
+**可信建筑主体、可靠屋顶、精细立面目前均为0。** 官方轮廓为俯视外边界，HEIGHT_ROOF 的英尺种类、墙基线、地面基准及屋顶部件尚未解决。默认严格模式只显示真实轮廓；可选的来源高度假设包络明确标记、默认关闭、不封未知屋顶，不计入可信主体。详见 [建筑质量报告](reports/BUILDING_QUALITY.md)。
+
+启动：`npm run dev` → **http://localhost:5180/buildings.html**。选择下城/中城或五区，再选择行政区。现有 `index.html` 测绘档案和 `terrain.html` 正高检视保留。全城俯视主动暂停完整细节瓦片，放大或点击定位后加载；没有用低细节方盒代替真实建筑。
+
+完整本地离线交付为 `reports/nyc-stage4-buildings.zip`，包含运行资源、模块源码、关联SQLite和质量/来源记录；解压后运行 `python3 -m http.server 8000 --bind 127.0.0.1 --directory app`，打开 `/buildings.html`。此包不含全部原始GIS大文件，完整raw审计/重建仍需工作区原资料。大库/全市派生资源与ZIP不进Git，清单和两个真实样区随源码保存。
+
+以下为阶段3已交付基础的历史说明，当前建筑状态以上述阶段4及质量报告为准。
+
 当前交付至**阶段3：坐标、高程与真实地形基础**。沿用第二阶段全市数据；新增六样区2017 DEM、24个局部地形块、真实水系展示与可关闭的检查层。30个来源对应检查点不等于实测控制点（后者0个）。全球垂直配准仍受NAD83实现冲突阻塞，地形目前在独立NAVD88正高检视中使用，不给全城加固定偏移。
 
 启动后，主页面进入ECEF参考视图；点击“打开真实DEM”或访问`http://localhost:5180/terrain.html`查看真实地形。正式入口和数据缺口详见[地理配准报告](reports/GEOGRAPHIC_REGISTRATION.md)、[坐标模块](scripts/nyc/coordinates.py)、[检查点CSV](data/processed/foundation/checkpoints.csv)、[阶段3来源](data/manifests/stage3/sources.json)。
@@ -118,3 +128,51 @@ node tests/single-preview.mjs
 NYS TIFF导出缺少有效性掩膜，部分NoData露成0；本管线强制同范围LERC掩膜，不能跳过decode步骤。`/usr/bin/python3`实际可用GDAL绑定，项目venv使用pyproj/Shapely；Esri LERC解码器已由Cesium依赖锁固定，无新增在线运行前提。原始TIFF/LERC/格网与下载receipt分开保留，数据/网页/采集/下载日期不混用。
 
 输出：`assets/foundation`为离线场景；`data/processed/foundation`保存canonical高度注册表、检查点和水系内洞证据；`data/manifests/stage3/file-coordinate-audit.jsonl`按实际内容记录CRS/轴/单位/基准及未知。`reports/stage3`保存实际规则/浏览器、NoData与接缝结果。新单文件仍只是下城/中城轮廓预览，不含全城地形。
+
+## 阶段4：建筑生成与可重复重建
+
+所有命令在工程根目录执行，原始库只读。source version 为保存的抓取标签。output 和 work 是派生目录；不同输入/代码指纹应选新目录，脚本拒绝混用旧缓存。
+
+```bash
+# 两个真实样区（已执行）
+.venv/bin/python scripts/build_buildings.py --aoi lower-manhattan --work data/processed/building-stage4/lower-manhattan --output assets/buildings-pilot-lower
+.venv/bin/python scripts/build_buildings.py --aoi midtown --work data/processed/building-stage4/midtown --output assets/buildings-pilot-midtown
+
+# 五区使用同一管线（已执行）
+.venv/bin/python scripts/build_buildings.py --version 2026-10-27-city --work data/processed/building-stage4/city --output assets/buildings-city
+
+# 整个行政区单独重建；支持其他四区名称
+.venv/bin/python scripts/build_buildings.py --borough manhattan --work data/processed/building-stage4/rebuild-manhattan --output assets/rebuild-manhattan
+
+# 单一对象（已在隔离输出实际检查），不会覆盖全市发布
+.venv/bin/python scripts/build_buildings.py --id nyc:footprints:doitt:105139 --work data/intermediate/stage4-single-work --output data/intermediate/stage4-single-rebuild
+
+# 仅强制重建一个500m owner格，其余文件校验复用
+.venv/bin/python scripts/build_buildings.py --work data/processed/building-stage4/city --output assets/buildings-city --force-tile 597 119
+# --tile 597 119 可选择这个格输出到新的work/output；--bbox支持经纬度范围。
+
+# 实际审计与检查；完整规则测试含本机HTTP服务，需要环境允许监听本地端口
+.venv/bin/python scripts/select_building_review.py
+.venv/bin/python scripts/check_missing_heights.py
+.venv/bin/python scripts/audit_buildings.py
+.venv/bin/python scripts/check_building_rebuild.py
+npm test
+npm run build
+node tests/buildings-browser.mjs
+NYC_REPORT_DIR=reports/stage4/foundation node tests/foundation-browser.mjs
+```
+
+全市关联表：`data/processed/building-stage4/city/associations.sqlite`。源记录及部件、owner、排除/未知原因在metadata列，原始多边形在geometry列，ID与source_rowid唯一。可见对象与原始记录关联见各瓦片JSON、GLB feature ID；全部生成资源SHA见 `data/manifests/stage4/generated-files.jsonl`。抽查CSV、重叠与缺失高度清单在 `reports/stage4`。
+
+示例只读查询：
+
+```bash
+.venv/bin/python - <<'PY'
+import sqlite3,json
+c=sqlite3.connect('file:data/processed/building-stage4/city/associations.sqlite?mode=ro',uri=True)
+row=c.execute('select metadata from objects where id=?',('nyc:footprints:doitt:105139',)).fetchone()
+print(json.dumps(json.loads(row[0]),ensure_ascii=False,indent=2))
+PY
+```
+
+阶段4构建在同一文件系统上对大资源建立普通硬链接以节约第二份磁盘，不支持时复制；ZIP保存独立字节。发布资源原子替换，最终测试后再打包。没有云资源或收费接口启动前提。当前主体验证缺口不因打包或浏览器成功而消失。

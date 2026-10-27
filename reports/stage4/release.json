@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-27T11:43:05.453242+00:00",
+  "archive": "reports/nyc-stage4-buildings.zip",
+  "bytes": 1968490216,
+  "sha256": "3ef4134c36541b6842f5e5698c6a21607202def7a05a830354c05e3941b5b045",
+  "entries": 22826,
+  "uncompressed_file_bytes": 10219386318,
+  "all_entry_crc_and_sha_readback_passed": true,
+  "actual_browser_js_matches_current_build": true,
+  "full_city_source_outline_resources_included": true,
+  "optional_hypothesis_resources_included": true,
+  "association_sqlite_included": true,
+  "original_bulk_gis_inputs_included": false,
+  "verified_building_solids": 0,
+  "reliable_roofs": 0,
+  "verified_facades": 0
+}

@@ -1,0 +1,703 @@
+{
+  "error": "AssertionError [ERR_ASSERTION]: Expected \"actual\" to be strictly unequal to:\n\n846.3606694785489",
+  "errors": [],
+  "checks": [
+    "real lower Manhattan strict outlines load with canonical heights still unknown",
+    "merged GLB exact feature id resolves its source metadata after an actual click",
+    "explicit neutral open envelopes load only after opt-in, preserving source counts",
+    "midtown uses the same pipeline and placeholder remains excluded"
+  ],
+  "observations": [
+    {
+      "picked": "nyc:footprints:doitt:108179",
+      "detail": "1001109\nnyc:footprints:doitt:108179\n语义证据等级\noutline_only\n来源高度\n387.57 ft · 种类未核\n可信米制高度\n未知\n部件 / 内洞\n1 / 0\n屋顶 / 立面\n未知 / 未取得\n\n当前仅为来源轮廓。没有自动生成退台、附楼、机房、屋顶或室内。\n\n处理原因与原始记录"
+    }
+  ],
+  "snapshot": {
+    "generation": 4,
+    "collection": "pilot-midtown",
+    "borough": "manhattan",
+    "mode": "strict",
+    "canonicalSolids": 0,
+    "records": 812,
+    "outlines": 811,
+    "loadedContent": 10,
+    "pending": 0,
+    "errors": [],
+    "show": true,
+    "primitives": 1,
+    "cameraHeight": 846.3606694785489,
+    "pickPoints": [
+      {
+        "id": "nyc:footprints:doitt:1010565",
+        "x": 0,
+        "y": 618.5632375722955
+      },
+      {
+        "id": "nyc:footprints:doitt:1010565",
+        "x": 0,
+        "y": 631.8888273320599
+      },
+      {
+        "id": "nyc:footprints:doitt:1010565",
+        "x": 0,
+        "y": 643.4607155895726
+      },
+      {
+        "id": "nyc:footprints:doitt:1010565",
+        "x": 0,
+        "y": 639.576035513754
+      },
+      {
+        "id": "nyc:footprints:doitt:1010565",
+        "x": 0,
+        "y": 627.7902050485936
+      },
+      {
+        "id": "nyc:footprints:doitt:1010565",
+        "x": 0,
+        "y": 617.6800064514836
+      },
+      {
+        "id": "nyc:footprints:doitt:102705",
+        "x": 0,
+        "y": 572.6294321163541
+      },
+      {
+        "id": "nyc:footprints:doitt:102705",
+        "x": 0,
+        "y": 574.092975519734
+      },
+      {
+        "id": "nyc:footprints:doitt:102705",
+        "x": 0,
+        "y": 575.051098928649
+      },
+      {
+        "id": "nyc:footprints:doitt:102705",
+        "x": 0,
+        "y": 583.4893499446898
+      },
+      {
+        "id": "nyc:footprints:doitt:102705",
+        "x": 0,
+        "y": 590.7268871627052
+      },
+      {
+        "id": "nyc:footprints:doitt:102705",
+        "x": 0,
+        "y": 589.1040675430968
+      },
+      {
+        "id": "nyc:footprints:doitt:103403",
+        "x": 0,
+        "y": 426.1331872520019
+      },
+      {
+        "id": "nyc:footprints:doitt:103403",
+        "x": 0,
+        "y": 431.9938472355838
+      },
+      {
+        "id": "nyc:footprints:doitt:103403",
+        "x": 0,
+        "y": 430.70990275507774
+      },
+      {
+        "id": "nyc:footprints:doitt:103403",
+        "x": 0,
+        "y": 431.2547746438906
+      },
+      {
+        "id": "nyc:footprints:doitt:103403",
+        "x": 0,
+        "y": 430.90722237978355
+      },
+      {
+        "id": "nyc:footprints:doitt:103403",
+        "x": 0,
+        "y": 428.03569559795716
+      },
+      {
+        "id": "nyc:footprints:doitt:1054992",
+        "x": 0,
+        "y": 660.9581351972446
+      },
+      {
+        "id": "nyc:footprints:doitt:1054992",
+        "x": 0,
+        "y": 671.0927246606545
+      },
+      {
+        "id": "nyc:footprints:doitt:1054992",
+        "x": 0,
+        "y": 658.9541223941643
+      },
+      {
+        "id": "nyc:footprints:doitt:1054992",
+        "x": 0,
+        "y": 649.046466537552
+      },
+      {
+        "id": "nyc:footprints:doitt:1104690",
+        "x": 0,
+        "y": 609.8980365332408
+      },
+      {
+        "id": "nyc:footprints:doitt:1104690",
+        "x": 0,
+        "y": 619.8881121630004
+      },
+      {
+        "id": "nyc:footprints:doitt:1104690",
+        "x": 0,
+        "y": 617.5313190152401
+      },
+      {
+        "id": "nyc:footprints:doitt:1104690",
+        "x": 0,
+        "y": 603.7892692742381
+      },
+      {
+        "id": "nyc:footprints:doitt:1104690",
+        "x": 0,
+        "y": 597.8348949983105
+      },
+      {
+        "id": "nyc:footprints:doitt:1108007",
+        "x": 0,
+        "y": 420.2144099738956
+      },
+      {
+        "id": "nyc:footprints:doitt:1108007",
+        "x": 0,
+        "y": 418.2812390159778
+      },
+      {
+        "id": "nyc:footprints:doitt:1108007",
+        "x": 0,
+        "y": 421.2225979421446
+      },
+      {
+        "id": "nyc:footprints:doitt:1108007",
+        "x": 0,
+        "y": 422.35049685313373
+      },
+      {
+        "id": "nyc:footprints:doitt:1108007",
+        "x": 0,
+        "y": 424.5150819240245
+      },
+      {
+        "id": "nyc:footprints:doitt:1108007",
+        "x": 0,
+        "y": 425.33857192991775
+      },
+      {
+        "id": "nyc:footprints:doitt:1108305",
+        "x": 0,
+        "y": 597.8348949983105
+      },
+      {
+        "id": "nyc:footprints:doitt:1108305",
+        "x": 0,
+        "y": 584.6769933746275
+      },
+      {
+        "id": "nyc:footprints:doitt:1108305",
+        "x": 0,
+        "y": 579.0072107404372
+      },
+      {
+        "id": "nyc:footprints:doitt:1108305",
+        "x": 0,
+        "y": 584.4693714079476
+      },
+      {
+        "id": "nyc:footprints:doitt:1108305",
+        "x": 0,
+        "y": 590.1947913873479
+      },
+      {
+        "id": "nyc:footprints:doitt:1108305",
+        "x": 0,
+        "y": 597.2899899918983
+      },
+      {
+        "id": "nyc:footprints:doitt:1110059",
+        "x": 0,
+        "y": 538.3619222154123
+      },
+      {
+        "id": "nyc:footprints:doitt:1110059",
+        "x": 0,
+        "y": 545.3503379917977
+      },
+      {
+        "id": "nyc:footprints:doitt:1110059",
+        "x": 0,
+        "y": 542.6713497999568
+      },
+      {
+        "id": "nyc:footprints:doitt:1110059",
+        "x": 0,
+        "y": 536.3526530339518
+      },
+      {
+        "id": "nyc:footprints:doitt:1110059",
+        "x": 0,
+        "y": 529.5857753209559
+      },
+      {
+        "id": "nyc:footprints:doitt:1110059",
+        "x": 0,
+        "y": 527.399270348269
+      },
+      {
+        "id": "nyc:footprints:doitt:1110098",
+        "x": 0,
+        "y": 538.3619222154123
+      },
+      {
+        "id": "nyc:footprints:doitt:1110098",
+        "x": 0,
+        "y": 531.46486881894
+      },
+      {
+        "id": "nyc:footprints:doitt:1110098",
+        "x": 0,
+        "y": 534.7971558173786
+      },
+      {
+        "id": "nyc:footprints:doitt:1110098",
+        "x": 0,
+        "y": 537.4551734889988
+      },
+      {
+        "id": "nyc:footprints:doitt:1110098",
+        "x": 0,
+        "y": 539.1758137363048
+      },
+      {
+        "id": "nyc:footprints:doitt:1110098",
+        "x": 0,
+        "y": 545.9422924455434
+      },
+      {
+        "id": "nyc:footprints:doitt:1110247",
+        "x": 0,
+        "y": 430.72057268584564
+      },
+      {
+        "id": "nyc:footprints:doitt:1110247",
+        "x": 0,
+        "y": 424.5130745506779
+      },
+      {
+        "id": "nyc:footprints:doitt:1110247",
+        "x": 0,
+        "y": 420.0369551843122
+      },
+      {
+        "id": "nyc:footprints:doitt:1110247",
+        "x": 0,
+        "y": 426.17713312528065
+      },
+      {
+        "id": "nyc:footprints:doitt:1111936",
+        "x": 0,
+        "y": 471.0283906033751
+      },
+      {
+        "id": "nyc:footprints:doitt:1111936",
+        "x": 0,
+        "y": 481.24421099685503
+      },
+      {
+        "id": "nyc:footprints:doitt:1111936",
+        "x": 0,
+        "y": 490.2207209359559
+      },
+      {
+        "id": "nyc:footprints:doitt:1111936",
+        "x": 0,
+        "y": 490.7237637868555
+      },
+      {
+        "id": "nyc:footprints:doitt:1111936",
+        "x": 0,
+        "y": 491.1827722136639
+      },
+      {
+        "id": "nyc:footprints:doitt:1111936",
+        "x": 0,
+        "y": 491.46228225186593
+      },
+      {
+        "id": "nyc:footprints:doitt:1158175",
+        "x": 0,
+        "y": 482.43842650704494
+      },
+      {
+        "id": "nyc:footprints:doitt:1158175",
+        "x": 0,
+        "y": 476.8589153499396
+      },
+      {
+        "id": "nyc:footprints:doitt:1158175",
+        "x": 0,
+        "y": 476.9834079663391
+      },
+      {
+        "id": "nyc:footprints:doitt:1158175",
+        "x": 0,
+        "y": 483.9707242590728
+      },
+      {
+        "id": "nyc:footprints:doitt:1158175",
+        "x": 0,
+        "y": 488.21694308395615
+      },
+      {
+        "id": "nyc:footprints:doitt:1224744",
+        "x": 0,
+        "y": 476.8589153499396
+      },
+      {
+        "id": "nyc:footprints:doitt:1224744",
+        "x": 0,
+        "y": 482.43842650704494
+      },
+      {
+        "id": "nyc:footprints:doitt:1224744",
+        "x": 0,
+        "y": 484.8852413193975
+      },
+      {
+        "id": "nyc:footprints:doitt:1224744",
+        "x": 0,
+        "y": 480.780538742142
+      },
+      {
+        "id": "nyc:footprints:doitt:1224744",
+        "x": 0,
+        "y": 475.052962939121
+      },
+      {
+        "id": "nyc:footprints:doitt:1224744",
+        "x": 0,
+        "y": 473.56679347555814
+      },
+      {
+        "id": "nyc:footprints:doitt:124887",
+        "x": 0,
+        "y": 419.32872451819486
+      },
+      {
+        "id": "nyc:footprints:doitt:124887",
+        "x": 0,
+        "y": 424.89170720463846
+      },
+      {
+        "id": "nyc:footprints:doitt:124887",
+        "x": 0,
+        "y": 424.2505126767339
+      },
+      {
+        "id": "nyc:footprints:doitt:124887",
+        "x": 0,
+        "y": 423.4940634777624
+      },
+      {
+        "id": "nyc:footprints:doitt:124887",
+        "x": 0,
+        "y": 417.5725190420661
+      },
+      {
+        "id": "nyc:footprints:doitt:124887",
+        "x": 0,
+        "y": 412.0665888042318
+      },
+      {
+        "id": "nyc:footprints:doitt:1255844",
+        "x": 0,
+        "y": 480.8859505084291
+      },
+      {
+        "id": "nyc:footprints:doitt:1255844",
+        "x": 0,
+        "y": 485.6080954494225
+      },
+      {
+        "id": "nyc:footprints:doitt:1255844",
+        "x": 0,
+        "y": 484.23651847754934
+      },
+      {
+        "id": "nyc:footprints:doitt:1255844",
+        "x": 0,
+        "y": 477.7574332873296
+      },
+      {
+        "id": "nyc:footprints:doitt:1255844",
+        "x": 0,
+        "y": 472.7284200654513
+      },
+      {
+        "id": "nyc:footprints:doitt:1255844",
+        "x": 0,
+        "y": 473.68504610081476
+      },
+      {
+        "id": "nyc:footprints:doitt:1255848",
+        "x": 0,
+        "y": 420.5433271986953
+      },
+      {
+        "id": "nyc:footprints:doitt:1255848",
+        "x": 0,
+        "y": 422.16029529581743
+      },
+      {
+        "id": "nyc:footprints:doitt:1255848",
+        "x": 0,
+        "y": 423.9205673442442
+      },
+      {
+        "id": "nyc:footprints:doitt:1255848",
+        "x": 0,
+        "y": 425.6885045922654
+      },
+      {
+        "id": "nyc:footprints:doitt:1255848",
+        "x": 0,
+        "y": 427.8197620710734
+      },
+      {
+        "id": "nyc:footprints:doitt:1255848",
+        "x": 0,
+        "y": 428.31417414236756
+      },
+      {
+        "id": "nyc:footprints:doitt:1257113",
+        "x": 0,
+        "y": 471.9640105398679
+      },
+      {
+        "id": "nyc:footprints:doitt:1257113",
+        "x": 0,
+        "y": 467.36062343094085
+      },
+      {
+        "id": "nyc:footprints:doitt:1257113",
+        "x": 0,
+        "y": 472.7943263060289
+      },
+      {
+        "id": "nyc:footprints:doitt:1257113",
+        "x": 0,
+        "y": 477.6791311704057
+      },
+      {
+        "id": "nyc:footprints:doitt:1257113",
+        "x": 0,
+        "y": 478.5072510804592
+      },
+      {
+        "id": "nyc:footprints:doitt:1257113",
+        "x": 0,
+        "y": 479.35935907218663
+      },
+      {
+        "id": "nyc:footprints:doitt:1257114",
+        "x": 0,
+        "y": 478.95712457242576
+      },
+      {
+        "id": "nyc:footprints:doitt:1257114",
+        "x": 0,
+        "y": 483.16802273869683
+      },
+      {
+        "id": "nyc:footprints:doitt:1257114",
+        "x": 0,
+        "y": 481.45712721650904
+      },
+      {
+        "id": "nyc:footprints:doitt:1257114",
+        "x": 0,
+        "y": 475.5844736100134
+      },
+      {
+        "id": "nyc:footprints:doitt:1257114",
+        "x": 0,
+        "y": 471.4302251805386
+      },
+      {
+        "id": "nyc:footprints:doitt:1257115",
+        "x": 0,
+        "y": 478.95712457242576
+      },
+      {
+        "id": "nyc:footprints:doitt:1257115",
+        "x": 0,
+        "y": 473.91949611054844
+      },
+      {
+        "id": "nyc:footprints:doitt:1257115",
+        "x": 0,
+        "y": 480.6237812563434
+      },
+      {
+        "id": "nyc:footprints:doitt:1257115",
+        "x": 0,
+        "y": 486.507496465732
+      },
+      {
+        "id": "nyc:footprints:doitt:1257115",
+        "x": 0,
+        "y": 486.342986082073
+      },
+      {
+        "id": "nyc:footprints:doitt:1257115",
+        "x": 0,
+        "y": 485.81280150891246
+      },
+      {
+        "id": "nyc:footprints:doitt:1261468",
+        "x": 0,
+        "y": 488.41816960258177
+      },
+      {
+        "id": "nyc:footprints:doitt:1261468",
+        "x": 0,
+        "y": 488.9867792046807
+      },
+      {
+        "id": "nyc:footprints:doitt:1261468",
+        "x": 0,
+        "y": 488.69391360528624
+      },
+      {
+        "id": "nyc:footprints:doitt:1261468",
+        "x": 0,
+        "y": 488.10385560150735
+      },
+      {
+        "id": "nyc:footprints:doitt:1261468",
+        "x": 0,
+        "y": 487.277502114616
+      },
+      {
+        "id": "nyc:footprints:doitt:1261468",
+        "x": 0,
+        "y": 486.9544621913734
+      },
+      {
+        "id": "nyc:footprints:doitt:126848",
+        "x": 0,
+        "y": 455.994702180346
+      },
+      {
+        "id": "nyc:footprints:doitt:126848",
+        "x": 0,
+        "y": 456.1930154456848
+      },
+      {
+        "id": "nyc:footprints:doitt:126848",
+        "x": 0,
+        "y": 454.13258958798474
+      },
+      {
+        "id": "nyc:footprints:doitt:126848",
+        "x": 0,
+        "y": 452.75849287866896
+      },
+      {
+        "id": "nyc:footprints:doitt:126848",
+        "x": 0,
+        "y": 451.3665351008597
+      },
+      {
+        "id": "nyc:footprints:doitt:126848",
+        "x": 0,
+        "y": 452.53943461234957
+      },
+      {
+        "id": "nyc:footprints:doitt:127085",
+        "x": 0,
+        "y": 520.5339201783869
+      },
+      {
+        "id": "nyc:footprints:doitt:127085",
+        "x": 0,
+        "y": 528.1213047942431
+      },
+      {
+        "id": "nyc:footprints:doitt:127085",
+        "x": 0,
+        "y": 530.3669962538168
+      },
+      {
+        "id": "nyc:footprints:doitt:127085",
+        "x": 0,
+        "y": 521.4959189609017
+      },
+      {
+        "id": "nyc:footprints:doitt:127085",
+        "x": 0,
+        "y": 515.2428356114262
+      },
+      {
+        "id": "nyc:footprints:doitt:1284",
+        "x": 0,
+        "y": 417.5725190420661
+      },
+      {
+        "id": "nyc:footprints:doitt:1284",
+        "x": 0,
+        "y": 421.95933993135566
+      },
+      {
+        "id": "nyc:footprints:doitt:1284",
+        "x": 0,
+        "y": 415.1722545776694
+      },
+      {
+        "id": "nyc:footprints:doitt:1284",
+        "x": 0,
+        "y": 410.8572353221665
+      },
+      {
+        "id": "nyc:footprints:doitt:1284670",
+        "x": 0,
+        "y": 436.9070735950704
+      },
+      {
+        "id": "nyc:footprints:doitt:1284670",
+        "x": 0,
+        "y": 435.66326624611577
+      },
+      {
+        "id": "nyc:footprints:doitt:1284670",
+        "x": 0,
+        "y": 428.0334543394062
+      },
+      {
+        "id": "nyc:footprints:doitt:1284670",
+        "x": 0,
+        "y": 422.06985897196347
+      },
+      {
+        "id": "nyc:footprints:doitt:1284670",
+        "x": 0,
+        "y": 424.1404911171306
+      },
+      {
+        "id": "nyc:footprints:doitt:1284670",
+        "x": 0,
+        "y": 426.3878178470653
+      }
+    ]
+  }
+}
