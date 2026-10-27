@@ -1,0 +1,14 @@
+{
+  "request_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/nyc-3d-model",
+  "final_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/nyc-3d-model",
+  "download_started_at": "2026-10-27T03:47:06.427214+00:00",
+  "download_completed_at": "2026-10-27T03:47:06.757322+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": "\"6a4546e4-3069:dtagent10347260902154543i7mS\"",
+  "last_modified_http": "Wed, 01 Jul 2026 16:57:07 GMT",
+  "bytes": 15860,
+  "sha256": "46d17abfeec11383e2466f6bd7f30a96500db5d6d78175c1811c36dbf5dc6d63",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

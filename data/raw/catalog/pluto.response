@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+      <!-- LOCAL ASSETS -->
+      <link rel="stylesheet" type="text/css" href="/assets/planning/css/sitewide.css" />
+      <link rel="stylesheet" type="text/css" href="/assets/planning/css/views.css" />
+      <link rel="stylesheet" type="text/css" href="/assets/planning/css/components.css" />
+
+      <meta name="google-site-verification" content="H5ySxLK4Vrus0wLYZ6C7j4A6ciQhd3NR1kQhKdN_yDU" />
+   <script type="text/javascript" src="/ruxitagentjs_ICA7NVfqrux_10345260810170330.js" data-dtconfig="rid=RID_-277191627|rpid=-976379113|domain=nyc.gov|reportUrl=/rb_bf46289yka|app=f936b00c6760395e|cuc=x8kxxto7|owasp=1|mel=100000|expw=1|featureHash=ICA7NVfqrux|dpvc=1|lastModification=1789588314996|tp=500,50,0|rdnt=1|uxrgce=1|srbbv=2|agentUri=/ruxitagentjs_ICA7NVfqrux_10345260810170330.js"></script>
+                                <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="QMXLB-WG9C2-LTK58-FW2PB-6ST8X",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"QMXLB-WG9C2-LTK58-FW2PB-6ST8X",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="ljqlbpaccojra2xad25q-f-02848f9a4-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"41","ak.cp":"1071053","ak.ai":parseInt("181928",10),"ak.ol":"0","ak.cr":14,"ak.ipv":4,"ak.proto":"h2","ak.rid":"50113fde","ak.r":48990,"ak.a2":e,"ak.m":"dscb","ak.n":"essl","ak.cport":64525,"ak.gh":"23.62.109.144","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1793072827","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==MRL5cb2KTEjnlDoopJR1k2ppjIlxON9z7OU2J2aYvdDJSrJbRIFT/YZJaaL2czN67evcVoDYhXdRNkDL0rliPUAdQhY1IRjKITcfW/iZzwOPTZJtUqMKAtT2K+GCbIRKMsDImEQpFT1mnHl30VlnKcO1mzBSuVEBJYsnQ8WPq7QSkIASDZ7xF6FsnpHoqDGftp4RBmR/B/ioFW+Hd5+S0k27zoXihfcd/Q/Dkmv5jKwDPdI3PVqb0ZmjxRPCsMhsLysvUVhnHRrPe7LF/Tq5yXtLCVzGTUeDsdVDDrgT/6CQOwN+I+rfDbEJDEv4HlDD7CLb+AY+Ub0KezQAfP4K0gT6pdXEzjrFyYZ7ugWyRrWZQ7Z/TpDlslveQZqoPfmTj02ImcvhUoSU2uP4JEn1ZJ2CvxHBMWsfbIeO1F9JbZQ=","ak.pv":"122","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+   <body>
+      <div class ="cont">
+        <header class="dark">
+           <div class="global-gov-head">
+              <div class="global-left">
+                 <a class="nyc-home-link" href="https://www.nyc.gov/">
+                    <img src="/assets/planning/images/logos/nyc_logo.svg" alt="Visit NYC.gov" />
+                 </a>
+                 <a class="dcp-link" href="home">Department of City Planning</a>
+              </div>
+              <div class="global-right">
+                 <a class="nyc-info-link" href="https://portal.311.nyc.gov/">311</a>
+                 <a class="nyc-search-link" href="https://www.nyc.gov/home/search/index.page">Search all NYC.gov websites</a>
+              </div>
+           </div>
+           <div id="bypass-link"><a href="#main" class="element-invisible element-focusable">Skip to main content</a></div>
+           <div class="nav-background"></div>
+           <div class="nav-head">
+              <a href="home" class="header-logo">
+                 <img src="/assets/planning/images/logos/dcp_logo.svg" alt="NYC Planning Home" />
+              </a>
+              <nav id="nav-primary" aria-label="Primary Navigation">
+                 <a class="nav-link sm" href=""> About Us </a>
+                 <a class="nav-link sm" href=""> Planning </a>
+                 <a class="nav-link sm" href=""> Zoning </a>
+                 <a class="nav-link sm" href=""> Our Work </a>
+                 <a class="nav-link sm" href=""> Planning Commission </a>
+                 <a class="nav-link sm" href=""> Resources </a>
+                 <a class="nav-link sm" href=""> Land Use Applications </a>
+                 <a class="nav-link sm" href=""> Get Involved </a>
+              </nav>
+              <div class="head-search">
+                 <button class="head-search-btn" id="head-search-btn" aria-expanded="false" aria-controls="hidden-search-container">
+                    <img src="/assets/planning/images/iconography/search_icon.svg" alt="Toggle Site Search" />
+                 </button>
+              </div>
+              <div class="head-translate">
+                 <div id="google_translate_element"></div>
+              </div>
+              <button
+                 id="open-nav-btn"
+                 class="mobile-nav-btn"
+                 aria-label="Toggle Nav Button"
+                 aria-expanded="false"
+                 aria-controls="nav-mobile-container"
+              >
+                 <img src="/assets/planning/images/iconography/burger_icon.svg" />
+              </button>
+              <div class="nav-mobile" id="nav-mobile-container" role="alert" hidden>
+                 <button id="close-nav-btn" aria-label="Close Nav Button">
+                    <img src="/assets/planning/images/iconography/close_icon.svg" />
+                 </button>
+                 <a href="home" class="header-logo">
+                    <img src="/assets/planning/images/logos/dcp_logo.svg" alt="Department of City Planning Logo" />
+                 </a>
+                 <div id="search-container">
+                    <div class="gcse-search"></div>
+                 </div>
+                 <nav id="mobile-nav-primary" aria-label="Mobile Primary Navigation">
+                    <a class="nav-link sm" href=""> About Us </a>
+                    <a class="nav-link sm" href=""> Planning </a>
+                    <a class="nav-link sm" href=""> Zoning </a>
+                    <a class="nav-link sm" href=""> Our Work </a>
+                    <a class="nav-link sm" href=""> Planning Commission </a>
+                    <a class="nav-link sm" href=""> Resources </a>
+                    <a class="nav-link sm" href=""> Land Use Applications </a>
+                    <a class="nav-link sm" href=""> Get Involved </a>
+                 </nav>
+                 <div class="head-translate">
+                    <div id="google_translate_element"></div>
+                 </div>
+              </div>
+           </div>
+           <div class="hidden-search-container" id="hidden-search-container" role="alert" hidden>
+              <script src="https://cse.google.com/cse.js?cx=20c2be062310247a8"></script>
+              <div class="gcse-search"></div>
+           </div>
+           <div id="internal-head" class="internal-header">
+              <div class="column">
+                 <div id="breadcrumb"><a class="crumb em--md" href="https://www.nyc.gov/content/planning/pages/">Home</a></div>
+                 <div class="section-head"></div>
+                 <div class="copy--md p"></div>
+              </div>
+              <div class="column"></div>
+           </div>
+        </header>
+        <main role="main" id="main"></main>
+
+        <footer>
+           <div class="local-site-footer">
+              <nav id="nav-footer" aria-label="Footer Primary Navigation">
+                 <a class="nav-link sm" href=""> About Us </a>
+                 <a class="nav-link sm" href=""> Planning </a>
+                 <a class="nav-link sm" href=""> Zoning </a>
+                 <a class="nav-link sm" href=""> Our Work </a>
+                 <a class="nav-link sm" href=""> Planning Commission </a>
+                 <a class="nav-link sm" href=""> Resources </a>
+                 <a class="nav-link sm" href=""> Land Use Applications </a>
+                 <a class="nav-link sm" href=""> Calendar </a>
+              </nav>
+              <div class="site-info-container" aria-label="Footer Secondary Navigation">
+                 <a class="em--sm" href="about-us/contact-us">Contact Us</a>
+                 <a class="em--sm" href="about-us/careers">Careers</a>
+                 <a class="em--sm" href="sitemap">Sitemap</a>
+                 <a class="em--sm" href="about-us/policies-notices">Policies</a>
+              </div>
+              <div class="socials-container" aria-label="Social Media Links">
+                 <a href="https://www.instagram.com/nycplanning"><img src="/assets/planning/images/iconography/socials/instagram_icon.svg" /></a>
+                 <a href="https://x.com/NYCPlanning"><img src="/assets/planning/images/iconography/socials/twitter_icon.svg" /></a>
+                 <a href="https://www.youtube.com/channel/UCu0amGxQJBNtd1YlTFETTqQ"
+                    ><img src="/assets/planning/images/iconography/socials/youtube_icon.svg"
+                 /></a>
+                 <a href="https://www.threads.net/@nycplanning"><img src="/assets/planning/images/iconography/socials/threads_icon.svg" /></a>
+              </div>
+           </div>
+           <div class="global-nyc-footer">
+              <div class="global-link-container">
+                 <div class="col-container">
+                    <a href="http://www1.nyc.gov/nyc-resources/agencies.page"> City Agencies </a>
+                    <a href="https://a858-nycnotify.nyc.gov/notifynyc/"> Notify NYC </a>
+                    <a href="http://www1.nyc.gov/connect/mobile-applications.page"> NYC Mobile Apps </a>
+                 </div>
+                 <div class="col-container">
+                    <a href="http://www1.nyc.gov/home/contact-us.page"> Contact NYC Government </a>
+                    <a href="https://a856-citystore.nyc.gov/"> CityStore </a>
+                    <a href="http://maps.nyc.gov/doitt/nycitymap/"> Maps </a>
+                 </div>
+                 <div class="col-container">
+                    <a href="https://a127-ess.nyc.gov/psp/prdess/?cmd=login&languageCd=ENG&"> City Employees </a>
+                    <a href="http://www1.nyc.gov/connect/social-media.page"> Stay Connected </a>
+                    <a href="http://www1.nyc.gov/nyc-resources/resident-toolkit.page"> Resident Toolkit </a>
+                 </div>
+              </div>
+              <div class="secondary-container">
+                 <a href="https://www1.nyc.gov" title="Go to nyc.gov" target="_blank">
+                    <img src="/assets/planning/images/logos/nyc_logo.svg" width="90" alt="NYC Logo" />
+                 </a>
+                 <div>City of New York - 2026 All Rights Reserved. NYC is a trademark and service mark of the City of New York.</div>
+                 <div class="col-container">
+                    <a href="http://www1.nyc.gov/home/privacy-policy.page">Privacy Policy</a>
+                    <a href="http://www1.nyc.gov/home/terms-of-use.page">Terms of Use</a>
+                    <a href="http://www1.nyc.gov/site/mopd/index.page" title="Mayor's Office for People with Disabilities">
+                       <span class="sr-only">Mayor's Office for People with Disabilities</span>
+                       <img src="/assets/planning/images/iconography/accessibility_icon.svg" alt="Accessibility icon" />
+                    </a>
+                 </div>
+              </div>
+           </div>
+
+           <!-- GLOBAL ASSETS -->
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+           <script>
+              (function () {
+                 var cx = '20c2be062310247a8';
+                 var gcse = document.createElement('script');
+                 gcse.type = 'text/javascript';
+                 gcse.async = true;
+                 gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                 var s = document.getElementsByTagName('script')[0];
+                 s.parentNode.insertBefore(gcse, s);
+              })();
+              //window.onload = function () {
+              //   document.getElementById('gsc-i-id1').placeholder = 'Search Department of City Planning';
+              //};
+           </script>
+
+           <!-- LOCAL ASSETS -->
+           <script type="text/javascript" src="/assets/planning/js/components/dynamic-navigation.js"></script>
+           <script type="text/javascript" src="/assets/planning/js/components/components.js"></script>
+           <script src="/assets/planning/js/content-api/content-config.js" type="text/javascript"></script>
+           <script src="/assets/planning/js/content-api/nav-template.js" type="text/javascript"></script>
+           <script src="/assets/home/js/content-api/content-loader.js" type="text/javascript"></script>
+
+           <!-- GOOGLE TRANSLATION INIT -->
+           <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+           <!-- Matomo Tag Manager -->
+           <script>
+              var _mtm = (window._mtm = window._mtm || []);
+              _mtm.push({ 'mtm.startTime': new Date().getTime(), event: 'mtm.Start' });
+              (function () {
+                 var d = document,
+                    g = d.createElement('script'),
+                    s = d.getElementsByTagName('script')[0];
+                 g.async = true;
+                 g.src = 'https://cdn.matomo.cloud/nycplanning.matomo.cloud/container_mSBprcFI.js';
+                 s.parentNode.insertBefore(g, s);
+              })();
+           </script>
+           <!-- End Matomo Tag Manager -->
+
+           <!-- Google tag (gtag.js) -->
+           <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTXXDWQQS0"></script>
+           <script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag() {
+                 dataLayer.push(arguments);
+              }
+              gtag('js', new Date());
+              gtag('config', 'G-RTXXDWQQS0');
+           </script>
+
+           <!-- OTI GA TAGS -->
+           <script>
+              var GA4_ID = 'G-W77SGPGVEF';
+           </script>
+           <script type="text/javascript" src="/assets/home/js/webtrends/webtrends_v10.js"></script>
+        </footer>
+	</div>
+   </body>
+</html>

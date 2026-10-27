@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-27T04:06:12.901Z",
+  "file": "reports/nyc-real-sample-preview.html",
+  "offline": true,
+  "fileNavigationBlocked": true,
+  "executionMode": "offline-setContent",
+  "snapshot": {
+    "areas": 1,
+    "features": 299,
+    "height_applied": false,
+    "selected": -1,
+    "error": "",
+    "local_units": "metre",
+    "camera": {
+      "yaw": 0.64,
+      "pitch": 1.2200000000000002,
+      "scale": 738.172,
+      "pan": [
+        0,
+        0
+      ]
+    },
+    "source": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md"
+  },
+  "errors": [],
+  "requests": []
+}

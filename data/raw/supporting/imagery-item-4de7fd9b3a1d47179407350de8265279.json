@@ -1,0 +1,72 @@
+{
+  "id": "4de7fd9b3a1d47179407350de8265279",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1671644467000,
+  "modified": 1757014516000,
+  "guid": null,
+  "name": "NYC_Ortho_2004",
+  "title": "NYC Orthos 2004",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Hosted Service"
+  ],
+  "description": "<p>Selective true orthoimagery. Manhattan full true\northoimagery; Bronx, Brooklyn, Queens, Staten Island true orthos for buildings\ngreater than six stories.<\/p><p>Resolution: 6&quot;<\/p><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>Dates of capture:<\/span><br />April 19-20: Staten Island<br />April 29: Manhattan (2/3)<span style='color:rgb(76, 76, 76);'> <\/span><br />April 30: Manhattan (1/3)<br />April 24: Bronx, Brooklyn, Queens (2/3)<br />April 25: Bronx, Brooklyn, Queens (2/3)<br />May 4: Bronx, Brooklyn, Queens \u2013 re-flight of rejected flight strips",
+  "tags": [
+    "2004 Ortho",
+    "NYC",
+    "New York City (NYC)",
+    "DoITT",
+    "OTI"
+  ],
+  "snippet": "Citywide orthoimagery collected in 2004",
+  "thumbnail": "thumbnail/thumbnail1671649247767.png",
+  "documentation": null,
+  "extent": [
+    [
+      -74.26723734914651,
+      40.4888826685153
+    ],
+    [
+      -73.69938469948252,
+      40.92147851916531
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "NYC OTI (DoITT)",
+  "classification": null,
+  "licenseInfo": null,
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Ortho_2004/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 22363959516,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 163599,
+  "scoreCompleteness": 73,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

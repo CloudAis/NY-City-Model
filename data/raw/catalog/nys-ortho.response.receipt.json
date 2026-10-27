@@ -1,0 +1,14 @@
+{
+  "request_url": "https://gis.ny.gov/orthoimagery",
+  "final_url": "https://gis.ny.gov/orthoimagery",
+  "download_started_at": "2026-10-27T03:47:08.221619+00:00",
+  "download_completed_at": "2026-10-27T03:47:08.800646+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": "Mon, 26 Oct 2026 16:32:30 GMT",
+  "bytes": 46283,
+  "sha256": "a3f3df2624f504c0f1d057c796355de40fc5599da15892099ef34e0a0377a672",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

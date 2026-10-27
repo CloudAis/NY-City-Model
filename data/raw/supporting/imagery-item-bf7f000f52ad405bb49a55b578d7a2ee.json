@@ -1,0 +1,71 @@
+{
+  "id": "bf7f000f52ad405bb49a55b578d7a2ee",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1668788890000,
+  "modified": 1772825174000,
+  "guid": null,
+  "name": "Ortho_1996_Mosaic",
+  "title": "NYC Orthos 1996",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Metadata",
+    "Hosted Service"
+  ],
+  "description": "<div>Resolution: 1'. <\/div><div><br /><\/div><div>Dates of capture: <\/div><div>April: 1&quot; = 800', entire city<\/div><div>June: 1&quot;=1000', Manhattan<\/div>",
+  "tags": [
+    "1996",
+    "imagery",
+    "orthophotography"
+  ],
+  "snippet": "NYC Ortho 1996 (Larger tiles)",
+  "thumbnail": "thumbnail/thumbnail.JPEG",
+  "documentation": null,
+  "extent": [
+    [
+      -74.26704523592588,
+      40.495744050507405
+    ],
+    [
+      -73.69947891207413,
+      40.92147370575616
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "NYC",
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/Ortho_1996_Mosaic/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 16307998772,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 170359,
+  "scoreCompleteness": 83,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

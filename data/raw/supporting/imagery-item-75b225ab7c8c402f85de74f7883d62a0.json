@@ -1,0 +1,71 @@
+{
+  "id": "75b225ab7c8c402f85de74f7883d62a0",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1671467976000,
+  "modified": 1772825162000,
+  "guid": null,
+  "name": "NYC_Orthos_2022",
+  "title": "NYC Orthos - 2022",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Metadata",
+    "Hosted Service"
+  ],
+  "description": "<p>Orthoimagery for all of NYC. This is the final Orthos for all of NYC.<\/p><p><\/p><ul><li>Projected Coordinated System: WGS 1984 Web Mercator (auxiliary sphere)<\/li><li>Scale Range: 1:592M to 1:564<\/li><\/ul>",
+  "tags": [
+    "imagery",
+    "2022",
+    "orthophotography"
+  ],
+  "snippet": "2022 Orthoimagery for NYC.",
+  "thumbnail": "thumbnail/thumbnail.JPEG",
+  "documentation": null,
+  "extent": [
+    [
+      -74.27615049733834,
+      40.48890268508695
+    ],
+    [
+      -73.69048479469771,
+      40.92834411043513
+    ]
+  ],
+  "categories": ["/Categories/Basemaps"],
+  "spatialReference": "4326",
+  "accessInformation": "NYC OTI",
+  "classification": null,
+  "licenseInfo": "<a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2022/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 18812690636,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 1,
+  "avgRating": 3.75,
+  "numViews": 672361,
+  "scoreCompleteness": 85,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793070000000
+}

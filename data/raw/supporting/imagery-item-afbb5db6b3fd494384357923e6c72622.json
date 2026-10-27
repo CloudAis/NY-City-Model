@@ -1,0 +1,72 @@
+{
+  "id": "afbb5db6b3fd494384357923e6c72622",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1666709972000,
+  "modified": 1772825164000,
+  "guid": null,
+  "name": "Ortho_1924_Mosaic",
+  "title": "NYC Orthos 1924",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Metadata",
+    "Hosted Service"
+  ],
+  "description": "Manually georeferenced using visible locations between the 1951 images and current orthophotography.<div><br /><div>Acquired from the Department of City Planning. <br /><\/div><\/div>",
+  "tags": [
+    "1924",
+    "historical",
+    "imagery",
+    "orthophotography"
+  ],
+  "snippet": "Citywide orthoimagery collected in 1924",
+  "thumbnail": "thumbnail/thumbnail.JPEG",
+  "documentation": null,
+  "extent": [
+    [
+      -74.25972448169809,
+      40.49297306474867
+    ],
+    [
+      -73.6885608126443,
+      40.91770685228748
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "NYC OTI",
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/Ortho_1924_Mosaic/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 8292169634,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 173297,
+  "scoreCompleteness": 85,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

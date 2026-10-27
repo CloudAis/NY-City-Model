@@ -1,0 +1,308 @@
+var popped=false;
+var navData=new Array();
+var urlList=new Array();
+var theError="<h1>404 Error</h1><p>That page was not found.</p>";
+var theAnchor="";
+
+var emergencyBanner='banner.txt';
+
+var navEndpoint="https://apps.nyc.gov/content-api/v2/nav/";
+var contentEndpoint="https://apps.nyc.gov/content-api/v1/content/";
+
+
+if(document.location.hostname.indexOf("-csg")>-1){
+	navEndpoint="https://apps-csg.csc.nycnet/content-api/v2/nav/";
+	contentEndpoint="https://apps-csg.csc.nycnet/content-api/v1/content/";
+}
+
+var base=window.location.href;
+if(base.indexOf("/content/")>-1){
+	base=base.substring(0,base.indexOf("/content/"));
+}else{
+	base=base.substring(0,base.indexOf("/assets/"));
+}
+base=base+sitePath;
+console.log(base);
+
+;(function ($) {
+
+$(document).ready(function(){
+	$('<base>', { href: base }).prependTo('head');
+	contentURL=getContentURL();
+	//loadEmergency();
+	loadNav();
+});
+function loadContent(){
+console.log(contentEndpoint+contentName+"/");
+console.log(contentURL);
+  
+	if($.colorbox){
+		$.colorbox.close();
+	}
+	if(contentURL.startsWith("?")||contentURL.startsWith("&")){
+		contentURL=contentHome;
+	}
+	if(contentURL.length==0||contentURL=="index.html"){
+		contentURL=contentHome;
+	}
+	$.ajax({
+		dataType:"json",
+		url:contentEndpoint+contentName+"/"+contentURL,
+	}).done(function(results,theStatus,jqxhr){
+		writeNav();
+		if(!popped){
+			if(contentURL!=contentHome){
+				history.pushState(null, null, sitePath + contentURL);
+			}else{
+				history.pushState(null, null, sitePath);
+			}
+		}
+		popped=false;
+		if(contentURL==contentHome){
+			$("body").addClass("index");
+			pageTitle=defaultTitle;
+		}else{
+			$("body").removeClass("index");
+			pageTitle=results.name+" - "+defaultTitle;
+		}
+		if(theAnchor.length>0){
+			document.location.hash=theAnchor;
+		}
+		document.title=pageTitle;
+		$("#main").html(results.description);
+		window.scrollTo(0, 0);
+		var hash=window.location.hash.substring(1,window.location.hash.length);
+		hash=hash.replace(/[^\w\s-]/gi, '');
+		if(hash.length>0){
+			var theTop=0;
+			if(typeof $("a[name='"+hash+"']").offset() !== 'undefined'){
+				theTop=$("a[name='"+hash+"']").offset().top;
+			}else if(typeof $("#"+hash).offset() !== 'undefined'){
+				theTop=$("#"+hash).offset().top;
+			}
+			setTimeout(function(){
+				$("HTML, BODY").animate({scrollTop: theTop }, 500); 
+			},100);
+		}
+		if($("#pageLoad").length>0){
+			$("#pageLoad").html(pageTitle).focus();
+		}
+		if(typeof dcsMultiTrack=="function"){
+			dcsMultiTrack('DCS.dcsuri',sitePath+contentURL,'WT.ti',pageTitle);
+		}
+		if(typeof callbackFunction=="function"){
+			callbackFunction();
+		}
+		if(typeof initListener=="function"){
+			initListener();
+		}
+		checkLinks();
+		retranslate();
+		closeMenu();
+		addAccordionScroll();
+	}).fail(function(jqXHR, textStatus){
+console.log(jqXHR);
+console.log(textStatus);
+		contentURL=contentHome;
+		writeNav();
+		setNavLinks();
+		document.title=defaultTitle;
+		if(errorPage.length>0){
+			$.ajax({
+				dataType:"json",
+				url:contentEndpoint+errorPage,
+			}).done(function(errorResults,errorStatus,errorJqxhr){
+				error=errorResults.description;
+			}).fail(function(jqXHRNav, textStatusNav){
+				if(error&&error.length>0){
+					theError=error;
+				}
+				console.log(textStatusNav);
+				console.log(jqXHRNav);
+			}).always(function(){
+				$("#main").html(theError);
+			});
+		}else if(error&&error.length>0){
+			theError=error;
+			$("#main").html(theError);
+		}
+	});
+}
+function closeMenu(){
+	$("#nav-primary").removeClass("show");
+	$('[data-target="#nav-primary"]').attr("aria-expanded",false);
+}
+function loadNav(){
+	$.ajax({
+		dataType:"json",
+		url:navEndpoint+contentName,
+	}).done(function(NavResults,NavStatus,NavJqxhr){
+		loadContent();
+		if(NavResults.results){
+			navData=NavResults.results;
+		}else{
+			navData=NavResults;
+		}
+		writeNav();
+	}).fail(function(jqXHRNav, textStatusNav){
+		navData=new Array();
+		console.log(textStatusNav);
+		console.log(jqXHRNav);
+	});
+}
+function setNavLinks(){
+	$("#nav-primary").find('a').each(function(){
+		if($(this).prop("href").indexOf(sitePath)>-1&&$(this).prop("href").indexOf("#")==-1){
+			$(this).off().on("click",function(event){
+				event.preventDefault();
+				reloadPage($(this).attr("href"));
+			});
+		}
+	});
+}
+function loadEmergency(){
+	if(emergencyBanner.length>0){
+		$.ajax({
+			url:"/assets/home/content-api-banners/"+emergencyBanner
+		}).done(function(bannerResults,bannerStatus,bannerJqxhr){
+			$('body').prepend(bannerResults);
+		}).fail(function(jqXHR, textStatus){
+			navData=new Array();
+			console.log(textStatus);
+			console.log(jqXHR);
+		});
+	}
+}
+
+function reloadPage(theHref){
+	theAnchor='';
+	contentURL=theHref;
+	loadContent();
+}
+
+function getContentURL(){
+	var theUrl=window.location.href;
+	var endpoint=theUrl.indexOf("#");
+	if(endpoint<0){
+		endpoint=theUrl.length;
+		theAnchor="";
+	}else{
+		theAnchor=theUrl.substring(endpoint,theUrl.length);
+	}
+	theUrl=theUrl.substring(theUrl.indexOf(sitePath)+sitePath.length,endpoint);
+	return(theUrl);
+}
+var is_hashed = false;
+
+$(window).on('hashchange', function() {
+	is_hashed = true;
+});
+window.addEventListener('popstate', function(e) {
+	if (is_hashed) {
+		e.preventDefault();
+		// reset
+		is_hashed = false;
+		return false;
+	}
+	if ( sitePath + contentURL != window.location.pathname ){
+		popped=true;
+		contentURL=getContentURL();
+		theAnchor='';
+		loadContent();
+	}
+});
+function checkLinks(){
+console.log("Check exit");
+	var hasExit=false;
+	var compareURL=getContentURL();
+console.log(compareURL);
+	$('a').each(function(){
+		var theHref=$(this).prop("href");
+		if($(this).hasClass("sharelink")||$(this).prop("role")=="tab"){
+			//do nothing
+		}else if(theHref.indexOf(sitePath)>-1&&theHref.indexOf(compareURL+"#")==-1&&theHref.indexOf("pages/#")==-1&&theHref.indexOf("content/#")==-1){
+			$(this).off().on("click",function(event){
+				event.preventDefault();
+				reloadPage($(this).attr("href"));
+			});
+		}else if(theHref.indexOf(compareURL+"#")>-1||theHref.indexOf("pages/#")>-1){
+			$(this).off().on("click",function(event){
+				var theHash=theHref.substring(theHref.indexOf("#")+1);
+				window.location.hash=theHash;
+				event.preventDefault();
+				var theTop=0;
+				if(typeof $("a[name='"+theHash+"']").offset() !== 'undefined'){
+					theTop=$("a[name='"+theHash+"']").offset().top;
+				}else if(typeof $("#"+theHash).offset() !== 'undefined'){
+					theTop=$("#"+theHash).offset().top;
+				}
+				$("HTML, BODY").animate({scrollTop: theTop }, 500);
+			});
+		}
+	});
+}
+
+function retranslate(){
+	var theSelect=$('.goog-te-combo');
+	if(theSelect[0]===undefined){
+		//do nothing
+	}else{
+		if(theSelect[0].selectedIndex>0){
+			var db=theSelect.get(0);
+			fireEvent(db,'change');
+		}
+	}
+}
+
+function setLanguage(theLang){
+	var theSelect=$('.goog-te-combo');
+	var db=theSelect.get(0);
+	theSelect.val(theLang);
+	fireEvent(db,'change');
+}
+
+
+function fireEvent(element,event){
+	if (document.createEventObject){
+		var evt = document.createEventObject();
+		return element.fireEvent('on'+event,evt)
+	}else{
+		var evt = document.createEvent("HTMLEvents");
+		evt.initEvent(event, false, true ); // event type,bubbling,cancelable
+		return !element.dispatchEvent(evt);
+	}
+}
+if (!String.prototype.startsWith) {
+	Object.defineProperty(String.prototype, 'startsWith', {
+		value: function(search, rawPos) {
+			var pos = rawPos > 0 ? rawPos|0 : 0;
+			return this.substring(pos, pos + search.length) === search;
+		}
+	});
+}
+
+function scrollToElement(theId){
+	$('html, body').animate({
+		scrollTop: $("#"+theId).offset().top
+	}, 500);
+}
+
+function addAccordionScroll(){
+	$('.collapse').on('shown.bs.collapse', function (e) {
+		var $card = $(this).closest('.card');
+		if(typeof $card.offset() !== "undefined"){
+			$('html,body').animate({
+				scrollTop: $card.offset().top
+			}, 500); 
+		}
+	});
+}
+
+window.scrollToElement = scrollToElement;
+window.fireEvent = fireEvent;
+window.setLanguage = setLanguage;
+window.loadEmergency = loadEmergency;
+window.reloadPage = reloadPage;
+window.retranslate = retranslate;
+window.checkLinks = checkLinks;
+}(jQuery));

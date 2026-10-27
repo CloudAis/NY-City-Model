@@ -1,0 +1,146 @@
+{
+  "at": "2026-10-27T04:03:07.253Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    "real official sample and local 3D Tiles load with no cloud/ion requests",
+    "actual GLB feature picking preserves a stable source ID and shows separate evidence",
+    "camera, search, area selection and archive collapse stay interactive",
+    "touch-size layout keeps real-data controls readable without horizontal overflow"
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4180/?diagnostics=1",
+    "http://127.0.0.1:4180/assets/index-DtLTXwOG.js",
+    "http://127.0.0.1:4180/assets/index-C0Tiu7Ha.css",
+    "http://127.0.0.1:4180/datasets/catalog.json",
+    "http://127.0.0.1:4180/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/buildings.json",
+    "http://127.0.0.1:4180/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4180/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4180/cesium/Workers/createVerticesFromHeightmap.js",
+    "http://127.0.0.1:4180/cesium/Workers/transferTypedArrayTest.js",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/tileset.json",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-MXXXHGW3.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/597_120.glb",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/598_120.glb",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/597_119.glb",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/598_119.glb",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/598_121.glb",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/597_121.glb",
+    "http://127.0.0.1:4180/cesium/Workers/incrementallyBuildTerrainPicker.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-GWE2HRAQ.js"
+  ],
+  "snapshot": {
+    "loaded": 1,
+    "catalog": {
+      "schema_version": 1,
+      "pipeline_version": "0.1.0-stage2",
+      "representation": "real official footprint linework; no building solids",
+      "datasets": [
+        {
+          "id": "lower-manhattan",
+          "title": "Lower Manhattan",
+          "records": 299,
+          "published_real_outlines": 299,
+          "tiles": 6,
+          "bounds_wgs84": [
+            -74.0178581642635,
+            40.70388476015906,
+            -74.0061903407694,
+            40.71292794167325
+          ],
+          "tileset": "lower-manhattan/tileset.json",
+          "buildings": "lower-manhattan/buildings.json",
+          "quality": "lower-manhattan/quality.json"
+        }
+      ],
+      "source_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
+      "height_note": "HEIGHT_ROOF is feet above ground; null and zero are unknown; not rendered as walls",
+      "ground_note": "Ellipsoid reference only; no terrain. Lines lifted 0.25 m solely to avoid depth fighting."
+    },
+    "recordCount": 299,
+    "active": "lower-manhattan",
+    "selected": null,
+    "pickPoints": [
+      {
+        "id": "nyc:footprints:doitt:1000469",
+        "x": 238.81733986840072,
+        "y": 272.5534562768135
+      },
+      {
+        "id": "nyc:footprints:doitt:100556",
+        "x": 135.43891592457078,
+        "y": 370.7061781014071
+      },
+      {
+        "id": "nyc:footprints:doitt:105139",
+        "x": 179.220068897808,
+        "y": 441.573337048943
+      },
+      {
+        "id": "nyc:footprints:doitt:108179",
+        "x": 304.48527662793634,
+        "y": 330.221661108914
+      },
+      {
+        "id": "nyc:footprints:doitt:1105834",
+        "x": 264.52670778952313,
+        "y": 486.7371574799633
+      },
+      {
+        "id": "nyc:footprints:doitt:1106418",
+        "x": 147.07249280789677,
+        "y": 344.45136100872367
+      },
+      {
+        "id": "nyc:footprints:doitt:1107962",
+        "x": 362.6833040316254,
+        "y": 394.1716432769536
+      },
+      {
+        "id": "nyc:footprints:doitt:1107967",
+        "x": 277.3029966440342,
+        "y": 333.7662718957027
+      },
+      {
+        "id": "nyc:footprints:doitt:1107968",
+        "x": 277.8646367918092,
+        "y": 330.6768970265217
+      },
+      {
+        "id": "nyc:footprints:doitt:1115090",
+        "x": 105.19016516477132,
+        "y": 431.261758243111
+      },
+      {
+        "id": "nyc:footprints:doitt:1117717",
+        "x": 46.00544391485815,
+        "y": 310.27635420014593
+      },
+      {
+        "id": "nyc:footprints:doitt:114988",
+        "x": 357.428705945557,
+        "y": 398.5339881105018
+      }
+    ],
+    "failures": [],
+    "tiles": [
+      {
+        "id": "lower-manhattan",
+        "show": true,
+        "tilesLoaded": true
+      }
+    ],
+    "camera": {
+      "position": [
+        1333929.8501537992,
+        -4656117.500444786,
+        4138239.512978368
+      ],
+      "height": 1456.4698667624089
+    }
+  }
+}

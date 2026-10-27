@@ -1,0 +1,71 @@
+{
+  "id": "922db9c671974e7986c5338e0bd6ba4c",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1653709984000,
+  "modified": 1772825187000,
+  "guid": null,
+  "name": "NYC_Orthos_2014",
+  "title": "NYC Orthos 2014",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Metadata",
+    "Hosted Service"
+  ],
+  "description": "<div>Full true orthoimagery<\/div><div><br /><\/div><div>Resolution 6&quot;<\/div><div><br /><\/div><div>Dates of capture: <\/div><div>April 1 - April 3: Bronx, Brooklyn, Queens, Staten Island<\/div><div>April 25: Water<\/div><div>June 1: Manhattan<\/div>",
+  "tags": [
+    "imagery",
+    "2014",
+    "orthophotography"
+  ],
+  "snippet": "Citywide orthoimagery collected in 2014",
+  "thumbnail": "thumbnail/thumbnail.JPEG",
+  "documentation": null,
+  "extent": [
+    [
+      -74.70054620371309,
+      40.3105926140362
+    ],
+    [
+      -72.97843927064622,
+      41.173134014566465
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "SOURCE: New York State Orthoimagery Program - 2014",
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2014/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 17496568737,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 166338,
+  "scoreCompleteness": 85,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

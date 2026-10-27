@@ -1,0 +1,70 @@
+{
+  "started_at": "2026-10-27T03:49:22.791166+00:00",
+  "signature": "5ad76fe18b48317d6b886463ffedecd98eddf5a8fe16c760bd10bfb583f49425",
+  "source": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer",
+  "version": "2026-10-27-pilot",
+  "count_expected": 299,
+  "ids_sha256": "1f293c9ea48541dd1a802e7bf5d85690df41d265ef94ee719d40164a5ebed092",
+  "scope": {
+    "borough": "manhattan",
+    "bbox_wgs84": [
+      -74.0165,
+      40.7045,
+      -74.007,
+      40.7115
+    ],
+    "where": "BASE_BBL LIKE '1%'"
+  },
+  "pipeline_version": "0.1.0-stage2",
+  "last_success_at": "2026-10-27T03:49:24.712450+00:00",
+  "finished_at": "2026-10-27T03:49:25.329491+00:00",
+  "pages": [
+    {
+      "id": "page-00000000",
+      "path": "data/raw/footprints/2026-10-27-pilot/lower-manhattan/page-00000000.json",
+      "sha256": "8b6d768f37db412cf31709b527038e845610d087a0cbbc42d8691e4bcaf25013",
+      "records": 100
+    },
+    {
+      "id": "page-00000100",
+      "path": "data/raw/footprints/2026-10-27-pilot/lower-manhattan/page-00000100.json",
+      "sha256": "c594c5c0e1387ca7a8ea59d4681ab6bfe181f4a9d20053253e3a87024b23826a",
+      "records": 100
+    },
+    {
+      "id": "page-00000200",
+      "path": "data/raw/footprints/2026-10-27-pilot/lower-manhattan/page-00000200.json",
+      "sha256": "dc0eaf6ad8e454bdc5ddb26234d3088d6fec5d41dfccd1328f050a8f74e85100",
+      "records": 99
+    }
+  ],
+  "records_downloaded": 299,
+  "unique_object_ids": 299,
+  "consistency": {
+    "start_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "end_edit": {
+      "lastEditDate": 1792894589896,
+      "schemaLastEditDate": 1760112642732,
+      "dataLastEditDate": 1792894589896
+    },
+    "id_set_equal": true,
+    "service_changed_during_window": false,
+    "atomic_snapshot": false,
+    "limitation": "Dynamic service; unchanged last-edit and ID set are checks, not a transactional snapshot. Re-fetch a new version if flagged."
+  },
+  "raw_spatial_reference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "height_units": "feet; relative roof height, not elevation",
+  "vertical_datum": "Ground often NAVD88 per metadata; per-feature datum not guaranteed",
+  "downloaded_at": "2026-10-27T03:49:25.329532+00:00",
+  "observation_date": null,
+  "source_metadata_date": "2025-10-09",
+  "license": "NYC Open Data Terms; see captured terms; not blanket CC0",
+  "license_class": "local-processing-and-distribution-subject-to-NYC-terms"
+}

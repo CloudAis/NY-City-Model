@@ -1,0 +1,14 @@
+{
+  "request_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_datadictionary.pdf",
+  "final_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_datadictionary.pdf",
+  "download_started_at": "2026-10-27T04:04:02.593613+00:00",
+  "download_completed_at": "2026-10-27T04:04:04.068474+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "etag": "\"05f649267d547ac51ec89c600e34b396:1787149008.537224\"",
+  "last_modified_http": "Wed, 19 Aug 2026 13:21:45 GMT",
+  "bytes": 603555,
+  "sha256": "d587cbe90bafad128c88f7dfab0ec6741d2735b20695e99b931fa0607aeaf3fe",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

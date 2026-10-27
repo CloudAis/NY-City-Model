@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.npm-cache/
+dist/
+reports/browser-profile/
+data/raw/**/*.zip
+data/raw/**/*.laz
+data/raw/**/*.las
+data/raw/**/*.tif
+data/raw/**/*.tiff
+data/intermediate/extracted/
+data/intermediate/download-cache/

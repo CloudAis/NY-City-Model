@@ -1,0 +1,14 @@
+{
+  "request_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_LiDAR_Summary.md",
+  "final_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_LiDAR_Summary.md",
+  "download_started_at": "2026-10-27T03:48:03.703874+00:00",
+  "download_completed_at": "2026-10-27T03:48:04.021617+00:00",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"2fbeb898f4d2cb745a42ef1ca3fa3a73b7b4ad48be8415caa5ccdb082e5944e7\"",
+  "last_modified_http": null,
+  "bytes": 2880,
+  "sha256": "25ec8ee8dc7acfa954bd6eccb8317901479fc1dfbc5a0075149af64757dbdf6d",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

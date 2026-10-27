@@ -1,0 +1,738 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Topobathymetric LiDAR Data (2017)",
+            "id" : "7sc8-jtbz",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "<b>Note: The files can be downloaded from the Attachments section below. Please note that the total size is 180GB, so the download may take some time depending on your system’s capabilities and configuration. You can also visit https://finder.nyc.gov/orthoimagery to download raw LiDAR data for specific tiles.</b>\n\nTopographic and bathymetric LiDAR data was collected for New York City in 2017.  Topographic data was collected for the entire city, plus an additional 100 meter buffer, using a Leica ALS80 sensor equipped to capture at least 8 pulse/m<sup>2</sup>. Dates of capture for topographic data were between 05/03/2017 and 05/17/2017 during 50% leaf-off conditions. Bathymetric data was collected in select areas of the city (where bathymetric data capture was expected) using a Riegl VQ-880-G sensor equipped to capture approximately 15 pulses/m<sup>2</sup> (1.5 Secchi depths). Dates of capture for bathymetric were between 07/04/2017 - 07/26/2017. LiDAR data was tidally-coordinated and captured between mean lower low water (+30% of mean tide) ranges.\n\nThe horizontal datum for all datasets is NAD83, the vertical datum is NAVD88, Geoid 12B, and the data is projected in New York State Plane - Long Island. Units are in US Survey Feet. To learn more about these datasets, visit the interactive “Understanding the 2017 New York City LiDAR Capture” Story Map -- https://maps.nyc.gov/lidar/2017/\nPlease see the following link for additional documentation on this dataset -- https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_LiDAR_Summary.md",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "href",
+            "updatedAt" : "2025-09-11T14:11:49.000Z",
+            "createdAt" : "2018-12-12T18:21:36.000Z",
+            "metadata_updated_at" : "2025-09-11T14:11:49.000Z",
+            "data_updated_at" : "2018-12-12T18:21:36.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 170,
+                "page_views_last_month" : 745,
+                "page_views_total" : 20511,
+                "page_views_last_week_log" : 7.417852514885899,
+                "page_views_last_month_log" : 9.543031820255237,
+                "page_views_total_log" : 14.32418054661874
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "href",
+            "locked" : false,
+            "backend" : "not_a_dataset",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2018-12-12T18:21:36.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" :
+              [
+                "point cloud",
+                "digital surface model",
+                "digital elevation model",
+                "classified",
+                "hydroflattened",
+                "hydroenforcement",
+                "lidar",
+                "topobathymetric"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "N/A" },
+                { "key" : "Update_Date-Made-Public", "value" : "3/11/2019" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "data.cityofnewyork.us",
+            "additional_access_points" :
+              [
+                {
+                  "urls" : { "WEbsite" : "https://maps.nyc.gov/lidar/2017/" },
+                  "description" : "Topographic and bathymetric LiDAR data was collected for New York City in 2017. ",
+                  "title" : "Understanding the 2017 New York City LiDAR Capture"
+                }
+              ],
+            "access_points" : {
+                                "WEbsite" : "https://maps.nyc.gov/lidar/2017/"
+                              }
+          },
+        "permalink" : "https://data.cityofnewyork.us/d/7sc8-jtbz",
+        "link" : "https://data.cityofnewyork.us/City-Government/Topobathymetric-LiDAR-Data-2017-/7sc8-jtbz",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "1 foot Digital Elevation Model (DEM)",
+            "id" : "dpc8-z3jc",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "NYC 1foot Digital Elevation Model:\r\nA bare-earth, hydro-flattened, digital-elevation surface model derived from 2010 Light Detection and Ranging (LiDAR) data. Surface models are raster representations derived by interpolating the LiDAR point data to produce a seamless gridded elevation data set. A Digital Elevation Model (DEM) is a surface model generated from the LiDAR returns that correspond to the ground with all buildings, trees and other above ground features removed. The cell values represent the elevation of the ground relative to sea level. The DEM was generated by interpolating the LiDAR ground points to create a 1 foot resolution seamless surface. Cell values correspond to the ground elevation value (feet) above sea level. A proprietary approach to surface model generation was developed that reduced spurious elevation values in areas where there were no LiDAR returns, primarily beneath buildings and over water. This was combined with a detailed manual QA/QC process, with emphasis on accurate representation of docks and bare-earth within 2000ft of the water bodies surrounding each of the five boroughs.\r\n\r\nPlease see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_DigitalElevationModel.md",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "href",
+            "updatedAt" : "2024-10-30T14:28:24.000Z",
+            "createdAt" : "2013-08-09T23:09:58.000Z",
+            "metadata_updated_at" : "2024-10-30T14:28:24.000Z",
+            "data_updated_at" : "2013-08-09T23:09:58.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 300,
+                "page_views_last_month" : 1125,
+                "page_views_total" : 58030,
+                "page_views_last_week_log" : 8.233619676759702,
+                "page_views_last_month_log" : 10.13699111208023,
+                "page_views_total_log" : 15.8245361694197
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 6524,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "href",
+            "locked" : false,
+            "backend" : "not_a_dataset",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2013-08-23T17:40:18.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "1ft", "dem", "dep" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "N/A" },
+                { "key" : "Update_Date-Made-Public", "value" : "8/23/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                },
+                {
+                  "key" : "Legislative-Compliance_Geo-coding-Attached?",
+                  "value" : ""
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "data.cityofnewyork.us",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "zip" : "https://sa-static-customer-assets-us-east-1-fedramp-prod.s3.amazonaws.com/data.cityofnewyork.us/NYC_DEM_1ft_Float_2.zip"
+                    },
+                  "described_by" : "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_DigitalElevationModel.md"
+                }
+              ],
+            "access_points" :
+              {
+                "zip" : "https://sa-static-customer-assets-us-east-1-fedramp-prod.s3.amazonaws.com/data.cityofnewyork.us/NYC_DEM_1ft_Float_2.zip"
+              }
+          },
+        "permalink" : "https://data.cityofnewyork.us/d/dpc8-z3jc",
+        "link" : "https://data.cityofnewyork.us/City-Government/1-foot-Digital-Elevation-Model-DEM-/dpc8-z3jc",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Land Cover Raster Data (2017) – 6in Resolution",
+            "id" : "he6d-2qns",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A 6-in resolution 8-class land cover dataset derived from the 2017 Light Detection and Ranging (LiDAR) data capture. This dataset was developed as part of an updated urban tree canopy assessment and therefore represents a ''top-down\" mapping perspective in which tree canopy overhanging features is assigned to the tree canopy class. The eight land cover classes mapped were: (1) Tree Canopy, (2) Grass\\Shrubs, (3) Bare Soil, (4) Water, (5) Buildings, (6) Roads, (7) Other Impervious, and (8) Railroads. The primary sources used to derive this land cover layer were 2017 LiDAR (1-ft post spacing) and 2016 4-band orthoimagery (0.5-ft resolution). Object based image analysis was used to automate land-cover features using LiDAR point clouds and derivatives, orthoimagery, and vector GIS datasets -- \n City Boundary (2017, NYC DoITT)\n Buildings (2017, NYC DoITT)\n Hydrography (2014, NYC DoITT)\n LiDAR Hydro Breaklines (2017, NYC DoITT)\n Transportation Structures (2014, NYC DoITT)\n Roadbed (2014, NYC DoITT)\n Road Centerlines (2014, NYC DoITT)\n Railroads (2014, NYC DoITT)\n Green Roofs (date unknown, NYC Parks)\n Parking Lots (2014, NYC DoITT)\n Parks (2016, NYC Parks)\n Sidewalks (2014, NYC DoITT)\n Synthetic Turf (2018, NYC Parks)\n Wetlands (2014, NYC Parks)\n Shoreline (2014, NYC DoITT)\n Plazas (2014, NYC DoITT)\n Utility Poles (2014, ConEdison via NYCEM)\n Athletic Facilities (2017, NYC Parks)\n\nFor the purposes of classification, only vegetation > 8 ft were classed as Tree Canopy. Vegetation below 8 ft was classed as Grass/Shrub.\n\nTo learn more about this dataset, visit the interactive \"Understanding the 2017 New York City LiDAR Capture\" Story Map -- https://maps.nyc.gov/lidar/2017/\nPlease see the following link for additional documentation on this dataset -- https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_LandCover.md",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "file",
+            "updatedAt" : "2022-09-23T19:23:03.000Z",
+            "createdAt" : "2018-12-07T18:45:20.000Z",
+            "metadata_updated_at" : "2022-09-23T19:23:03.000Z",
+            "data_updated_at" : "2018-12-07T18:45:20.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 150,
+                "page_views_last_month" : 680,
+                "page_views_total" : 22983,
+                "page_views_last_week_log" : 7.238404739325079,
+                "page_views_last_month_log" : 9.41151098801207,
+                "page_views_total_log" : 14.488342277532524
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 7699,
+            "provenance" : "official",
+            "lens_view_type" : "blobby",
+            "lens_display_type" : "blob",
+            "locked" : false,
+            "backend" : "not_a_dataset",
+            "blob_mime_type" : "application/zip; charset=binary",
+            "hide_from_data_json" : false,
+            "publication_date" : "2018-12-07T19:00:13.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Environment",
+            "domain_tags" :
+              [
+                "shrub",
+                "land cover",
+                "water",
+                "grass",
+                "tree canopy",
+                "buildings",
+                "roads",
+                "railroad",
+                "new york city",
+                "impervious",
+                "bare soil",
+                "lidar"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "12/12/2018" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/he6d-2qns",
+        "link" : "https://data.cityofnewyork.us/Environment/Land-Cover-Raster-Data-2017-6in-Resolution/he6d-2qns",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "1 foot Digital Elevation Model (DEM) Integer Raster",
+            "id" : "7kuu-zah7",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A bare-earth, hydro-flattened, digital-elevation surface model derived from 2010 Light Detection and Ranging (LiDAR) data. Surface models are raster representations derived by interpolating the LiDAR point data to produce a seamless gridded elevation data set. A Digital Elevation Model (DEM) is a surface model generated from the LiDAR returns that correspond to the ground with all buildings, trees and other above ground features removed. The cell values represent the elevation of the ground relative to sea level. The DEM was generated by interpolating the LiDAR ground points to create a 1 foot resolution seamless surface. Cell values correspond to the ground elevation value (feet) above sea level. A proprietary approach to surface model generation was developed that reduced spurious elevation values in areas where there were no LiDAR returns, primarily beneath buildings and over water. This was combined with a detailed manual QA/QC process, with emphasis on accurate representation of docks and bare-earth within 2000ft of the water bodies surrounding each of the five boroughs.",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "href",
+            "updatedAt" : "2024-10-30T14:28:00.000Z",
+            "createdAt" : "2017-11-13T18:44:33.000Z",
+            "metadata_updated_at" : "2024-10-30T14:28:00.000Z",
+            "data_updated_at" : "2017-11-13T18:44:33.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 127,
+                "page_views_last_month" : 464,
+                "page_views_total" : 20337,
+                "page_views_last_week_log" : 7.0,
+                "page_views_last_month_log" : 8.861086905995393,
+                "page_views_total_log" : 14.311890193850616
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 0,
+            "provenance" : "official",
+            "lens_view_type" : "href",
+            "lens_display_type" : "href",
+            "locked" : false,
+            "backend" : "not_a_dataset",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2017-11-13T18:44:57.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "dem", "dep", "1ft" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "N/A" },
+                { "key" : "Update_Date-Made-Public", "value" : "11/13/2017" },
+                { "key" : "Update_Update-Frequency", "value" : "Annually" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" :
+          {
+            "domain" : "data.cityofnewyork.us",
+            "additional_access_points" :
+              [
+                {
+                  "urls" :
+                    {
+                      "zip" : "https://sa-static-customer-assets-us-east-1-fedramp-prod.s3.amazonaws.com/data.cityofnewyork.us/NYC_DEM_1ft_Int.zip"
+                    },
+                  "description" : "Integer Raster is 3.3GB zipped, 3.5GB unzipped.\r\nFloating Point Raster is 26GB zipped, 121GB unzipped.\r\n",
+                  "described_by" : "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_DigitalElevationModel.md"
+                }
+              ],
+            "access_points" :
+              {
+                "zip" : "https://sa-static-customer-assets-us-east-1-fedramp-prod.s3.amazonaws.com/data.cityofnewyork.us/NYC_DEM_1ft_Int.zip"
+              }
+          },
+        "permalink" : "https://data.cityofnewyork.us/d/7kuu-zah7",
+        "link" : "https://data.cityofnewyork.us/City-Government/1-foot-Digital-Elevation-Model-DEM-Integer-Raster/7kuu-zah7",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Tidally Coordinated Shoreline",
+            "id" : "pawq-tjb4",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A dataset representing the shorelines of tidally influenced areas of New York City. This dataset is derived from the 2017 Light Detection and Ranging (LiDAR) data capture. In most areas, LiDAR was captured during low tide (defined here as a range between Mean Lower Low Water (MLLW) and MLLW + 30% of the mean tide range). All bathymetric LiDAR and most near-infrared (NIR) LiDAR was captured during low tide. Flights flown over NIR LiDAR shoreline areas that are largely made up of sea walls and riprap were not flown during low tide. Tidal gauges used to determine low tide: Kings Point, Bergen West, Sandy Hook, and The Battery. See dataset attributes for which areas are tidally-coordinated. \n\nTo learn more about this dataset, visit the interactive \"Understanding the 2017 New York City LiDAR Capture\" Story Map -- https://maps.nyc.gov/lidar/2017/\nPlease see the following link for additional documentation on this dataset -- https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_TidalShoreline.md",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "file",
+            "updatedAt" : "2022-09-23T19:23:03.000Z",
+            "createdAt" : "2018-11-21T21:14:01.000Z",
+            "metadata_updated_at" : "2022-09-23T19:23:03.000Z",
+            "data_updated_at" : "2018-11-21T21:14:01.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 19,
+                "page_views_last_month" : 109,
+                "page_views_total" : 2491,
+                "page_views_last_week_log" : 4.321928094887363,
+                "page_views_last_month_log" : 6.78135971352466,
+                "page_views_total_log" : 11.283088353024002
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 1011,
+            "provenance" : "official",
+            "lens_view_type" : "blobby",
+            "lens_display_type" : "blob",
+            "locked" : false,
+            "backend" : "not_a_dataset",
+            "blob_mime_type" : "application/zip; charset=binary",
+            "hide_from_data_json" : false,
+            "publication_date" : "2018-11-21T21:14:01.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Environment",
+            "domain_tags" :
+              [ "tidal coordination", "water's edge", "shoreline" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "12/12/2018" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/pawq-tjb4",
+        "link" : "https://data.cityofnewyork.us/Environment/Tidally-Coordinated-Shoreline/pawq-tjb4",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Tree Canopy Change (2010 - 2017)",
+            "id" : "by9k-vhck",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A 6-in resolution tree canopy change (2010 - 2017) dataset derived from the 2017 Light Detection and Ranging (LiDAR) data capture. This dataset represents a \"top-down\" mapping perspective and all tree polygons are classed as: (1) No Change, (2) Gain, (3) Loss. No change indicates that this portion of the canopy has undergone no modifications during the time period. Gain indicates that new tree canopy has appeared during the time period. Loss indicates that this portion of the tree canopy was removed during the time period.\n\nTo learn more about this dataset, visit the interactive \"Understanding the 2017 New York City LiDAR Capture\" Story Map -- https://maps.nyc.gov/lidar/2017/\nPlease see the following link for additional documentation on this dataset -- https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_TreeCanopyChange.md",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "file",
+            "updatedAt" : "2022-09-23T19:23:09.000Z",
+            "createdAt" : "2018-12-07T19:12:16.000Z",
+            "metadata_updated_at" : "2022-09-23T19:23:09.000Z",
+            "data_updated_at" : "2018-12-07T19:12:16.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 79,
+                "page_views_last_month" : 337,
+                "page_views_total" : 10785,
+                "page_views_last_week_log" : 6.321928094887362,
+                "page_views_last_month_log" : 8.400879436282185,
+                "page_views_total_log" : 13.39687231851056
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 2952,
+            "provenance" : "official",
+            "lens_view_type" : "blobby",
+            "lens_display_type" : "blob",
+            "locked" : false,
+            "backend" : "not_a_dataset",
+            "blob_mime_type" : "application/zip; charset=binary",
+            "hide_from_data_json" : false,
+            "publication_date" : "2018-12-07T19:19:27.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Environment",
+            "domain_tags" :
+              [ "tree canopy", "land cover", "tree canopy change" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "12/12/2018" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/by9k-vhck",
+        "link" : "https://data.cityofnewyork.us/Environment/Tree-Canopy-Change-2010-2017-/by9k-vhck",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Heat Vulnerability Index Rankings",
+            "id" : "4mhf-duep",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "The Heat Vulnerability Index (HVI) shows neighborhoods whose residents are more at risk for dying during and immediately following extreme heat. It uses a statistical model to summarize the most important social and environmental factors that contribute to neighborhood heat risk. The factors included in the HVI are surface temperature, green space, access to home air conditioning, and the percentage of residents who are low-income or non-Latinx Black. Differences in these risk factors across neighborhoods are rooted in past and present racism.  Neighborhoods are scored from 1 (lowest risk) to 5 (highest risk) by summing the following factors and assigning them into 5 groups (quintiles):                                                                                                                                                                     \n<br>Median Household Income (American Community Survey 5 year estimate, 2016-2020)\nPercent vegetative cover (trees, shrubs or grass) (2017 LiDAR, NYC DOITT)\nPercent of population reported as Non-Hispanic Black on Census 2020\nAverage surface temperature Fahrenheit from ECOSSTRESS thermal imaging, August 27,2020\nPercent of households reporting Air Conditioning access, Housing ad Vacancy Survey, 2017",
+            "attribution" : "Department of Health and Mental Hygiene (DOHMH)",
+            "attribution_link" : "https://a816-dohbesp.nyc.gov/IndicatorPublic/data-explorer/climate/?id=2411#display=summary",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-04-21T13:20:49.000Z",
+            "createdAt" : "2024-06-17T16:19:07.000Z",
+            "metadata_updated_at" : "2026-04-21T13:20:49.000Z",
+            "data_updated_at" : "2024-09-19T14:16:07.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 245,
+                "page_views_last_month" : 990,
+                "page_views_total" : 15611,
+                "page_views_last_week_log" : 7.94251450533924,
+                "page_views_last_month_log" : 9.95274124718649,
+                "page_views_total_log" : 13.930367747438952
+              },
+            "columns_name" :
+              [
+                "Heat Vulnerability Index (HVI)",
+                "ZIP Code Tabulation Area (ZCTA) 2020"
+              ],
+            "columns_field_name" : [ "hvi", "zcta20" ],
+            "columns_datatype" : [ "Number", "Text" ],
+            "columns_description" :
+              [
+                "Quintiles of heat vulnerability index, a measure of neighborhood risk of dying on extreme heat days.  ",
+                "ZCTAs are a geographic product of the U.S. Census Bureau created to allow mapping, display, and geographic analyses of the United States Postal Service (USPS) ZIP Codes."
+              ],
+            "columns_format" :
+              [
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                },
+                {
+                  "decimalSeparator" : ".",
+                  "groupSeparator" : ",",
+                  "align" : "center"
+                }
+              ],
+            "download_count" : 6958,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-06-17T19:08:12.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Health",
+            "domain_tags" :
+              [
+                "air conditioning",
+                "climate change",
+                "heat",
+                "land cover",
+                "mortality",
+                "poverty",
+                "temperature",
+                "urban heat island",
+                "climate"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                {
+                  "key" : "Update_Data-Change-Frequency",
+                  "value" : "As Needed"
+                },
+                {
+                  "key" : "Update_Update-Frequency-Details",
+                  "value" : "3 - 5 years depending on frequency of update of component datasets"
+                },
+                { "key" : "Update_Date-Made-Public", "value" : "9/19/2024" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Health and Mental Hygiene (DOHMH)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/4mhf-duep",
+        "link" : "https://data.cityofnewyork.us/Health/Heat-Vulnerability-Index-Rankings/4mhf-duep",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "NYC Climate Budgeting Report: Resiliency Exposure Forecast - Outdoor Heat - Tree Canopy",
+            "id" : "mzcd-fznk",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "The Resiliency Exposure Forecast for Tree Canopy projects canopy coverage in acres across NYC neighborhoods at decadal intervals (2021, 2030, 2040, 2050, 2055). Projections are based on expected tree canopy growth maintained across jurisdictions - requiring efforts by private and public landowners - and expanded through the NYC Parks Department's Neighborhood Tree Planting Program. Coverage estimates are derived from Land Cover raster data from the city's Light Detection and Ranging (LiDAR) assessments. The 2021 value serves as the baseline year, corresponding to the most recent LiDAR survey update. For more information on methods and modeling, see OMB's Technical Appendix for the FY 2027 Climate Budgeting Publication: https://www.nyc.gov/assets/omb/downloads/pdf/exec26/exec26-nyccbta.pdf",
+            "attribution" : null,
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-29T18:11:42.000Z",
+            "createdAt" : "2026-07-09T15:31:34.000Z",
+            "metadata_updated_at" : "2026-09-29T18:11:41.000Z",
+            "data_updated_at" : "2026-09-29T18:11:42.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 39,
+                "page_views_last_month" : 244,
+                "page_views_total" : 258,
+                "page_views_last_week_log" : 5.321928094887363,
+                "page_views_last_month_log" : 7.936637939002572,
+                "page_views_total_log" : 8.016808287686553
+              },
+            "columns_name" :
+              [
+                "NTAName",
+                "Canopy Coverage (Acres)",
+                "NTAAbbrev",
+                "Year",
+                "PUBLICATION_DATE"
+              ],
+            "columns_field_name" :
+              [
+                "ntaname",
+                "canopy_coverage_acres",
+                "ntaabbrev",
+                "year",
+                "publication_date"
+              ],
+            "columns_datatype" :
+              [ "Text", "Number", "Text", "Number", "Number" ],
+            "columns_description" :
+              [
+                "Full NTA name based on the NYC Department of City Planning's (DCP) 2020 statistical geometries.",
+                "Projected tree canopy coverage, in acres, for each NTA in the given projection year.",
+                "Abbreviated NTA name based on the NYC Department of City Planning's (DCP) 2020 statistical geometries.",
+                "The projection year for the canopy coverage estimate.",
+                "Date data released"
+              ],
+            "columns_format" :
+              [
+                {},
+                { "decimalSeparator" : ".", "groupSeparator" : "," },
+                {},
+                { "decimalSeparator" : ".", "noCommas" : "true" },
+                { "decimalSeparator" : ".", "noCommas" : "true" }
+              ],
+            "download_count" : 54,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2026-07-09T15:34:28.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "09/29/2026" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Mayor's Office of Management & Budget (OMB)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/mzcd-fznk",
+        "link" : "https://data.cityofnewyork.us/dataset/NYC-Climate-Budgeting-Report-Resiliency-Exposure-F/mzcd-fznk",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      }
+    ],
+  "resultSetSize" : 12,
+  "timings" : { "serviceMillis" : 29, "searchMillis" : [ 17, 6 ] },
+  "warnings" : []
+}

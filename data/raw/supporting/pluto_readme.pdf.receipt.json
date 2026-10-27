@@ -1,0 +1,14 @@
+{
+  "request_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_readme.pdf",
+  "final_url": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_readme.pdf",
+  "download_started_at": "2026-10-27T04:04:04.070370+00:00",
+  "download_completed_at": "2026-10-27T04:04:05.957453+00:00",
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "etag": "\"765b30285a59be698fdfe65f402cb113:1787149008.958398\"",
+  "last_modified_http": "Wed, 19 Aug 2026 13:22:29 GMT",
+  "bytes": 346013,
+  "sha256": "e001433cea041e10d60e786346201bbfb195603aa0c14feb11f016c89fd88dc8",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

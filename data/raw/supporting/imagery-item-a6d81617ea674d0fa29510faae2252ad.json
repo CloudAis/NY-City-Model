@@ -1,0 +1,71 @@
+{
+  "id": "a6d81617ea674d0fa29510faae2252ad",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1653416342000,
+  "modified": 1772825192000,
+  "guid": null,
+  "name": "NYC_Orthos_2016",
+  "title": "NYC Orthos 2016",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Metadata",
+    "Hosted Service"
+  ],
+  "description": "Full true orthoimagery<div><br /><\/div><div>Resolution 6&quot;<\/div><div><br /><\/div><div>Dates of capture: <\/div><div>March 26 - April 5<\/div>",
+  "tags": [
+    "imagery",
+    "2016",
+    "orthophotography"
+  ],
+  "snippet": "Citywide orthoimagery collected in 2016",
+  "thumbnail": "thumbnail/thumbnail.JPEG",
+  "documentation": null,
+  "extent": [
+    [
+      -74.27614999442413,
+      40.488902940075086
+    ],
+    [
+      -73.69048496233574,
+      40.928344363746135
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "SOURCE: New York State Orthoimagery Program - 2016",
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2016/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 21223492871,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 162250,
+  "scoreCompleteness": 83,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793070000000
+}

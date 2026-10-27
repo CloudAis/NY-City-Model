@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "nyc-building-footprints",
+      "publisher": "NYC OTI / NYC GIS",
+      "entry_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
+      "resource_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer/0",
+      "source_metadata_date": "2025-10-09",
+      "web_page_modified_date": null,
+      "data_publication_date": null,
+      "observation_date": null,
+      "service_data_last_edit": "2026-10-25T02:16:29.896000+00:00",
+      "downloaded_at": "2026-10-27T03:48:02.970106+00:00",
+      "license": "NYC Open Data Terms of Use; see captured terms",
+      "reuse_class": "local-distribution-subject-to-terms",
+      "coverage": "NYC five boroughs in source; this stage only lower Manhattan downloaded",
+      "source_measurement_crs": "EPSG:2263",
+      "response_crs": "EPSG:3857",
+      "normalized_crs": "EPSG:32118",
+      "horizontal_units": "metre after normalization",
+      "height_units": "source feet; relative roof height",
+      "vertical_datum": "not specified per record; modern ground measurements generally NAVD88",
+      "source_metadata_path": "data/raw/catalog/footprints-metadata.response",
+      "layer_metadata_path": "data/raw/catalog/footprints-layer.json",
+      "sha256": "452337c2f185cd7cf8dced41da7d63a848a86ddea75d43e02506917e71f88061",
+      "pipeline_version": "0.1.0-stage2",
+      "processing_script": "scripts/nyc/normalize.py",
+      "state": "downloaded sample; independent accuracy unverified"
+    }
+  ]
+}

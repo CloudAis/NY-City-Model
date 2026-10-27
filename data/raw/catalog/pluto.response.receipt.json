@@ -1,0 +1,14 @@
+{
+  "request_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change",
+  "final_url": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change",
+  "download_started_at": "2026-10-27T03:47:06.777342+00:00",
+  "download_completed_at": "2026-10-27T03:47:07.078920+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": "\"6a4546e4-3069:dtagent10345260810170330iVRF\"",
+  "last_modified_http": "Wed, 01 Jul 2026 16:57:07 GMT",
+  "bytes": 15852,
+  "sha256": "ed674e2f30bbdedd9a924c7f216dbbf540a846941753ce7a8368f9d37f248fa7",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

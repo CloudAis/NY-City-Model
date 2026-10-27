@@ -1,0 +1,1443 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "Borough Boundaries",
+            "id" : "gthc-hcne",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Boundaries of boroughs (water areas excluded).\n\nAll previously released versions of this data are available on the <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries\">DCP Website: BYTES of the BIG APPLE</a>. Current version: 26b",
+            "attribution" : "Department of City Planning (DCP)",
+            "attribution_link" : "https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-05-26T19:35:50.000Z",
+            "createdAt" : "2024-06-17T03:00:29.000Z",
+            "metadata_updated_at" : "2026-05-26T19:35:48.000Z",
+            "data_updated_at" : "2026-05-26T19:35:50.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 565,
+                "page_views_last_month" : 1611,
+                "page_views_total" : 23591,
+                "page_views_last_week_log" : 9.144658242831882,
+                "page_views_last_month_log" : 10.654636028527968,
+                "page_views_total_log" : 14.526010107061737
+              },
+            "columns_name" :
+              [
+                "the_geom",
+                "Shape_Length",
+                "BoroCode",
+                "Shape_Area",
+                "BoroName"
+              ],
+            "columns_field_name" :
+              [
+                "the_geom",
+                "shape_leng",
+                "borocode",
+                "shape_area",
+                "boroname"
+              ],
+            "columns_datatype" :
+              [ "MultiPolygon", "Number", "Number", "Number", "Text" ],
+            "columns_description" :
+              [
+                "",
+                "Length of feature in internal units.",
+                "Borough code.",
+                "Area of feature in internal units squared.",
+                "Name of borough."
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {} ],
+            "download_count" : 7535,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-06-17T03:32:01.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" :
+              [ "borough boundaries", "dcp", "water areas", "data" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "1/31/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Update_Data-Change-Frequency",
+                  "value" : "Quarterly"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of City Planning (DCP)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/gthc-hcne",
+        "link" : "https://data.cityofnewyork.us/City-Government/Borough-Boundaries/gthc-hcne",
+        "owner" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          },
+        "creator" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Borough Boundaries",
+            "id" : "yqww-f9f3",
+            "resource_name" : null,
+            "parent_fxf" : [ "gthc-hcne" ],
+            "description" : "Boundaries of boroughs (water areas excluded).\n\nAll previously released versions of this data are available at <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries</a>.",
+            "attribution" : "Department of City Planning (DCP)",
+            "attribution_link" : "https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-05-26T19:35:50.000Z",
+            "createdAt" : "2025-02-03T16:45:38.000Z",
+            "metadata_updated_at" : "2025-12-15T16:17:52.000Z",
+            "data_updated_at" : "2026-05-26T19:35:50.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 233,
+                "page_views_last_month" : 891,
+                "page_views_total" : 4035,
+                "page_views_last_week_log" : 7.870364719583405,
+                "page_views_last_month_log" : 9.800899899920305,
+                "page_views_total_log" : 11.978710459106358
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 67,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-12-15T16:17:52.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of City Planning (DCP)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/yqww-f9f3",
+        "link" : "https://data.cityofnewyork.us/City-Government/Borough-Boundaries/yqww-f9f3",
+        "owner" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          },
+        "creator" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Borough Boundaries (water areas included)",
+            "id" : "wh2p-dxnf",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Boundaries of boroughs (water areas included).\n\nAll previously released versions of this data are available on the <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries\">DCP Website: BYTES of the BIG APPLE</a>. Current version: 26b",
+            "attribution" : "Department of City Planning (DCP)",
+            "attribution_link" : "https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-05-26T19:35:22.000Z",
+            "createdAt" : "2024-06-17T02:59:03.000Z",
+            "metadata_updated_at" : "2026-05-26T19:35:22.000Z",
+            "data_updated_at" : "2026-05-26T19:35:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 66,
+                "page_views_last_month" : 242,
+                "page_views_total" : 1851,
+                "page_views_last_week_log" : 6.066089190457772,
+                "page_views_last_month_log" : 7.924812503605781,
+                "page_views_total_log" : 10.854868383260238
+              },
+            "columns_name" :
+              [
+                "Shape_Area",
+                "the_geom",
+                "Shape_Length",
+                "BoroCode",
+                "BoroName"
+              ],
+            "columns_field_name" :
+              [
+                "shape_area",
+                "the_geom",
+                "shape_leng",
+                "borocode",
+                "boroname"
+              ],
+            "columns_datatype" :
+              [ "Number", "MultiPolygon", "Number", "Number", "Text" ],
+            "columns_description" :
+              [
+                "Area of feature in internal units squared.",
+                "",
+                "Length of feature in internal units.",
+                "Borough code.",
+                "Name of borough."
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {} ],
+            "download_count" : 1135,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-06-17T03:15:04.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" :
+              [ "borough boundaries", "dcp", "data", "water areas" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "1/31/2013" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Update_Data-Change-Frequency",
+                  "value" : "Quarterly"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of City Planning (DCP)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/wh2p-dxnf",
+        "link" : "https://data.cityofnewyork.us/City-Government/Borough-Boundaries-water-areas-included-/wh2p-dxnf",
+        "owner" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          },
+        "creator" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Borough Boundaries (water areas included)",
+            "id" : "53n2-m85m",
+            "resource_name" : null,
+            "parent_fxf" : [ "wh2p-dxnf" ],
+            "description" : "Boundaries of boroughs (water areas included).\n\nAll previously released versions of this data are available at <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries</a>.",
+            "attribution" : "Department of City Planning (DCP)",
+            "attribution_link" : "https://www.nyc.gov/content/planning/pages/resources/datasets/borough-boundaries",
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-05-26T19:35:22.000Z",
+            "createdAt" : "2025-02-03T16:44:16.000Z",
+            "metadata_updated_at" : "2026-03-11T01:51:24.000Z",
+            "data_updated_at" : "2026-05-26T19:35:22.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 23,
+                "page_views_last_month" : 89,
+                "page_views_total" : 632,
+                "page_views_last_week_log" : 4.584962500721157,
+                "page_views_last_month_log" : 6.491853096329675,
+                "page_views_total_log" : 9.306061689428342
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 25,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2026-03-11T01:51:24.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of City Planning (DCP)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/53n2-m85m",
+        "link" : "https://data.cityofnewyork.us/City-Government/Borough-Boundaries-water-areas-included-/53n2-m85m",
+        "owner" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          },
+        "creator" :
+          {
+            "id" : "iqqb-gm94",
+            "user_type" : "interactive",
+            "display_name" : "DCP Open Data"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "311 Service Requests from 2020 to Present",
+            "id" : "erm2-nwe9",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "<b>NOTE:</b> Learn more about the latest changes to this dataset: https://opendata.cityofnewyork.us/311-service-requests-from-2010-to-present-updates/\n\n311 responds to thousands of inquiries, comments and requests from customers every single day. This dataset represents only service requests that can be directed to specific agencies.\n\nThis dataset is updated daily and expected values for many fields will change over time. The lists of expected values associated with each column are not exhaustive.\n\nEach row of data contains information about the service request, including complaint type, responding agency, and geographic location. However the data does not reveal any personally identifying information about the customer who made the request.\n\nFor data from 2010-2019 see: https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-2019/76ig-c548/about_data",
+            "attribution" : "311",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-10-27T01:39:17.000Z",
+            "createdAt" : "2011-10-10T05:52:17.000Z",
+            "metadata_updated_at" : "2025-12-29T15:25:00.000Z",
+            "data_updated_at" : "2026-10-27T01:39:17.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 7121,
+                "page_views_last_month" : 28244,
+                "page_views_total" : 1339040,
+                "page_views_last_week_log" : 12.798066720363064,
+                "page_views_last_month_log" : 14.785707880222747,
+                "page_views_total_log" : 20.352768704438308
+              },
+            "columns_name" :
+              [
+                "Intersection Street 2",
+                "City",
+                "Borough Boundaries",
+                "Police Precincts",
+                "Incident Zip",
+                "Community Districts",
+                "Address Type",
+                "Unique Key",
+                "Additional Details",
+                "City Council Districts",
+                "Cross Street 1",
+                "Intersection Street 1",
+                "Problem (formerly Complaint Type)",
+                "BBL",
+                "Location Type",
+                "Street Name",
+                "Longitude",
+                "Resolution Action Updated Date",
+                "Park Borough",
+                "Park Facility Name",
+                "Location",
+                "Created Date",
+                "Council District",
+                "Taxi Pick Up Location",
+                "X Coordinate (State Plane)",
+                "Taxi Company Borough",
+                "Incident Address",
+                "Bridge Highway Segment",
+                "Agency Name",
+                "Y Coordinate (State Plane)",
+                "Road Ramp",
+                "Agency",
+                "Borough",
+                "Open Data Channel Type",
+                "Bridge Highway Direction",
+                "Closed Date",
+                "Bridge Highway Name",
+                "Police Precinct",
+                "Community Board",
+                "Resolution Description",
+                "Due Date",
+                "Status",
+                "Facility Type",
+                "Landmark",
+                "Cross Street 2",
+                "Problem Detail (formerly Descriptor)",
+                "Vehicle Type",
+                "Latitude"
+              ],
+            "columns_field_name" :
+              [
+                "intersection_street_2",
+                "city",
+                ":@computed_region_yeji_bk3q",
+                ":@computed_region_sbqj_enih",
+                "incident_zip",
+                ":@computed_region_f5dn_yrer",
+                "address_type",
+                "unique_key",
+                "descriptor_2",
+                ":@computed_region_92fq_4b7q",
+                "cross_street_1",
+                "intersection_street_1",
+                "complaint_type",
+                "bbl",
+                "location_type",
+                "street_name",
+                "longitude",
+                "resolution_action_updated_date",
+                "park_borough",
+                "park_facility_name",
+                "location",
+                "created_date",
+                "council_district",
+                "taxi_pick_up_location",
+                "x_coordinate_state_plane",
+                "taxi_company_borough",
+                "incident_address",
+                "bridge_highway_segment",
+                "agency_name",
+                "y_coordinate_state_plane",
+                "road_ramp",
+                "agency",
+                "borough",
+                "open_data_channel_type",
+                "bridge_highway_direction",
+                "closed_date",
+                "bridge_highway_name",
+                "police_precinct",
+                "community_board",
+                "resolution_description",
+                "due_date",
+                "status",
+                "facility_type",
+                "landmark",
+                "cross_street_2",
+                "descriptor",
+                "vehicle_type",
+                "latitude"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Point",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "Second intersecting street based on geo validated incident location\n",
+                "City of the incident location provided by geovalidation.\n",
+                "This column was automatically created in order to record in what polygon from the dataset 'Borough Boundaries' (yeji-bk3q) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "This column was automatically created in order to record in what polygon from the dataset 'Police Precincts' (sbqj-enih) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "Incident location zip code, provided by geo validation.\n",
+                "This column was automatically created in order to record in what polygon from the dataset 'Community Districts' (f5dn-yrer) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "Type of incident location information available.\n",
+                "Unique identifier of a Service Request (SR) in the open data set\n",
+                "A third level of detail about the Problem (formerly Complaint Type) beyond the Problem Detail (formerly Descriptor). This is not used by every category of issue.",
+                "This column was automatically created in order to record in what polygon from the dataset 'City Council Districts' (92fq-4b7q) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "First Cross street based on the geo validated incident location\n",
+                "First intersecting street based on geo validated incident location\n",
+                "This is the first level of a hierarchy identifying the topic of the incident or condition.  Problem (formerly Complaint Type) broadly describes the topic of the incident or condition and are defined by the responding agencies. New Problems may be added in response to changes in customer demand.",
+                "Borough Block and Lot, provided by geovalidation. Parcel number to identify the location of location of buildings and properties in NYC.",
+                "Describes the type of location used in the address information \n",
+                "Street name of incident address provided by the submitter\n",
+                "Geo based Long of the incident location\n",
+                "Date when responding agency last updated the SR.\n",
+                "The borough of incident if it is a Parks Dept facility\n",
+                "If the incident location is a Parks Dept facility, the Name of the facility will appear here\n",
+                "Combination of the geo based lat & long of the incident location\n",
+                "Date SR  was created\n",
+                "The City Council district where the service request is located.",
+                "If the incident is identified as a taxi, this field displays the taxi pick up location\n",
+                "Geo validated, X coordinate of the incident location. \n",
+                "If the incident is identified as a taxi, this field will display the borough of the taxi company. \n",
+                "House number of incident address provided by submitter.\n",
+                "Additional information on the section of the Bridge/Highway were the incident took place.\n",
+                "Full Agency name of responding City Government Agency",
+                "Geo validated,  Y coordinate of the incident location. \n",
+                "If the incident location was Bridge/Highway this column differentiates if the issue was on the Road or the Ramp.\n",
+                "Acronym of responding City Government Agency\n",
+                "Provided by the submitter and confirmed by geovalidation.\n",
+                "Indicates how the SR was submitted to 311.  i.e. By Phone, Online, Mobile, Other or Unknown.",
+                "If the incident is identified as a Bridge/Highway, the direction where the issue took place would be displayed here.\n",
+                "Date SR was closed by responding agency\n",
+                "If the incident is identified as a Bridge/Highway, the name will be displayed here.\n",
+                "The NYPD precinct where the service request is located.",
+                "Provided by geovalidation.\n",
+                "Describes the last action taken on the SR by the responding agency.  May describe next or future steps. \n",
+                "Date when responding agency is expected to update the SR.  This is based on the Complaint Type and internal Service Level Agreements (SLAs).\n",
+                "Status of SR submitted \n",
+                "If available, this field describes the type of city facility associated to the SR\n",
+                "If the incident location is identified as a Landmark the name of the landmark will display here\n",
+                "Second Cross Street based on the geo validated incident location\n",
+                "This is associated to the Problem (formerly Complaint Type), and provides further detail on the incident or condition. Problem Detail (formerly Descriptor) values are dependent on the Problem, and are not always required in the service request.",
+                "If the incident is a taxi, this field describes the type of TLC vehicle. \n",
+                "Geo based Lat of the incident location\n"
+              ],
+            "columns_format" :
+              [
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "view" : "date_time", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "view" : "coords", "align" : "left" },
+                { "view" : "date_time", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "view" : "date_time", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                { "view" : "date_time", "align" : "left" },
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                { "displayStyle" : "plain", "align" : "left" },
+                {},
+                {},
+                { "displayStyle" : "plain", "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "false",
+                  "align" : "right"
+                }
+              ],
+            "download_count" : 611566,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-12-23T23:01:17.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Social Services",
+            "domain_tags" :
+              [
+                "complaints",
+                "socialservices",
+                "service request status",
+                "rodent",
+                "rat",
+                "pothole",
+                "all service requests",
+                "311",
+                "city government",
+                "311 service requests",
+                "bike"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "10/18/2011" },
+                { "key" : "Update_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/erm2-nwe9",
+        "link" : "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "NYPD Arrest Data (Year to Date)",
+            "id" : "uip8-fykc",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "This is a breakdown of every arrest effected in NYC by the NYPD during the current year.\n This data is manually extracted every quarter and reviewed by the Office of Management Analysis and Planning. \n Each record represents an arrest effected in NYC by the NYPD and includes information about the type of crime, the location and time of enforcement. \nIn addition, information related to suspect demographics is also included. \nThis data can be used by the public to explore the nature of police enforcement activity. \nPlease refer to the attached data footnotes for additional information about this dataset.",
+            "attribution" : "Police Department (NYPD)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-07-27T15:25:36.000Z",
+            "createdAt" : "2018-06-05T20:51:00.000Z",
+            "metadata_updated_at" : "2026-07-27T15:25:20.000Z",
+            "data_updated_at" : "2026-07-27T15:25:36.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 508,
+                "page_views_last_month" : 2624,
+                "page_views_total" : 269280,
+                "page_views_last_week_log" : 8.991521846075695,
+                "page_views_last_month_log" : 11.358101707440847,
+                "page_views_total_log" : 18.03875291380927
+              },
+            "columns_name" :
+              [
+                "KY_CD",
+                "ARREST_PRECINCT",
+                "ARREST_DATE",
+                "Location",
+                "ARREST_BORO",
+                "Police Precincts",
+                "Borough Boundaries",
+                "City Council Districts",
+                "Community Districts",
+                "JURISDICTION_CODE",
+                "Zip Codes",
+                "Longitude",
+                "ARREST_KEY",
+                "PERP_SEX",
+                "X_COORD_CD",
+                "LAW_CAT_CD",
+                "OFNS_DESC",
+                "Latitude",
+                "PD_DESC",
+                "AGE_GROUP",
+                "PERP_RACE",
+                "Y_COORD_CD",
+                "PD_CD",
+                "LAW_CODE"
+              ],
+            "columns_field_name" :
+              [
+                "ky_cd",
+                "arrest_precinct",
+                "arrest_date",
+                "geocoded_column",
+                "arrest_boro",
+                ":@computed_region_sbqj_enih",
+                ":@computed_region_yeji_bk3q",
+                ":@computed_region_92fq_4b7q",
+                ":@computed_region_f5dn_yrer",
+                "jurisdiction_code",
+                ":@computed_region_efsh_h5xi",
+                "longitude",
+                "arrest_key",
+                "perp_sex",
+                "x_coord_cd",
+                "law_cat_cd",
+                "ofns_desc",
+                "latitude",
+                "pd_desc",
+                "age_group",
+                "perp_race",
+                "y_coord_cd",
+                "pd_cd",
+                "law_code"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Number",
+                "Calendar date",
+                "Point",
+                "Text",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Three digit internal classification code (more general category than PD code)",
+                "Precinct where the arrest occurred",
+                "Exact date of arrest for the reported event",
+                "",
+                "Borough of arrest. B(Bronx), S(Staten Island), K(Brooklyn), M(Manhattan), Q(Queens)",
+                "",
+                "",
+                "",
+                "",
+                "Jurisdiction responsible for arrest. Jurisdiction codes 0(Patrol), 1(Transit) and 2(Housing) represent NYPD whilst codes 3 and more represent non NYPD jurisdictions",
+                "",
+                "Longitude coordinate for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326)",
+                "Randomly generated persistent ID for each arrest ",
+                "Perpetrator’s sex description",
+                "Midblock X-coordinate for New York State Plane Coordinate System, Long Island Zone, NAD 83, units feet (FIPS 3104)",
+                "Level of offense: felony, misdemeanor, violation ",
+                "Description of internal classification corresponding with KY code (more general category than PD description)",
+                "Latitude coordinate for Global Coordinate System, WGS 1984, decimal degrees (EPSG 4326) ",
+                "Description of internal classification corresponding with PD code (more granular than Offense Description)",
+                "Perpetrator’s age within a category",
+                "Perpetrator’s race description",
+                "Midblock Y-coordinate for New York State Plane Coordinate System, Long Island Zone, NAD 83, units feet (FIPS 3104)",
+                "Three digit internal classification code (more granular than Key Code)",
+                "Law code charges corresponding to the NYS Penal Law, VTL and other various local laws"
+              ],
+            "columns_format" :
+              [
+                { "precisionStyle" : "standard", "align" : "left" },
+                { "precisionStyle" : "standard", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                {},
+                { "align" : "left" },
+                {},
+                {},
+                {},
+                {},
+                { "precisionStyle" : "standard", "align" : "left" },
+                {},
+                { "precisionStyle" : "standard", "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "precisionStyle" : "standard", "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "precisionStyle" : "standard", "align" : "left" },
+                { "align" : "left" }
+              ],
+            "download_count" : 56088,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2020-10-28T17:47:23.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Public Safety",
+            "domain_tags" :
+              [
+                "crime",
+                "public safety",
+                "arrest",
+                "nypd",
+                "law enforcement"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "11/1/2018" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Police Department (NYPD)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/uip8-fykc",
+        "link" : "https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "DOHMH New York City Restaurant Inspection Results",
+            "id" : "43nn-pn8j",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "The dataset contains every sustained or not yet adjudicated violation citation from every full or special program inspection conducted up to three years prior to the most recent inspection for restaurants and college cafeterias in an active status on the RECORD DATE (date of the data pull). When an inspection results in more than one violation, values for associated fields are repeated for each additional violation record.  Establishments are uniquely identified by their CAMIS (record ID) number. Keep in mind that thousands of restaurants start business and go out of business every year; only restaurants in an active status are included in the dataset. \r\nRecords are also included for each restaurant that has applied for a permit but has not yet been inspected and for inspections resulting in no violations. Establishments with inspection date of 1/1/1900 are new establishments that have not yet received an inspection. Restaurants that received no violations are represented by a single row and coded as having no violations using the ACTION field. \r\nBecause this dataset is compiled from several large administrative data systems, it contains some illogical values that could be a result of data entry or transfer errors. Data may also be missing. \r\nThis dataset and the information on the Health Department’s Restaurant Grading website come from the same data source.  The Health Department’s Restaurant Grading website is here: \r\nhttp://www1.nyc.gov/site/doh/services/restaurant-grades.page\r\nSee the data dictionary file in the Attachments section of the OpenData website for a summary of data fields and allowable values.",
+            "attribution" : "Department of Health and Mental Hygiene (DOHMH)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-10-26T22:10:01.000Z",
+            "createdAt" : "2014-08-01T19:10:59.000Z",
+            "metadata_updated_at" : "2026-10-26T22:00:10.000Z",
+            "data_updated_at" : "2026-10-26T22:10:01.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 3951,
+                "page_views_last_month" : 15947,
+                "page_views_total" : 454214,
+                "page_views_last_week_log" : 11.948367231584678,
+                "page_views_last_month_log" : 13.961087889997332,
+                "page_views_total_log" : 18.793015824841547
+              },
+            "columns_name" :
+              [
+                "Community Districts",
+                "INSPECTION TYPE",
+                "City Council Districts",
+                "Latitude",
+                "VIOLATION CODE",
+                "Council District",
+                "Borough Boundaries",
+                "GRADE",
+                "Location",
+                "RECORD DATE",
+                "BIN",
+                "BBL",
+                "Longitude",
+                "BORO",
+                "Community Board",
+                "Police Precincts",
+                "INSPECTION DATE",
+                "GRADE DATE",
+                "STREET",
+                "ZIPCODE",
+                "ACTION",
+                "Census Tract",
+                "NTA",
+                "VIOLATION DESCRIPTION",
+                "SCORE",
+                "PHONE",
+                "BUILDING",
+                "DBA",
+                "CRITICAL FLAG",
+                "CAMIS",
+                "CUISINE DESCRIPTION"
+              ],
+            "columns_field_name" :
+              [
+                ":@computed_region_f5dn_yrer",
+                "inspection_type",
+                ":@computed_region_92fq_4b7q",
+                "latitude",
+                "violation_code",
+                "council_district",
+                ":@computed_region_yeji_bk3q",
+                "grade",
+                "location",
+                "record_date",
+                "bin",
+                "bbl",
+                "longitude",
+                "boro",
+                "community_board",
+                ":@computed_region_sbqj_enih",
+                "inspection_date",
+                "grade_date",
+                "street",
+                "zipcode",
+                "action",
+                "census_tract",
+                "nta",
+                "violation_description",
+                "score",
+                "phone",
+                "building",
+                "dba",
+                "critical_flag",
+                "camis",
+                "cuisine_description"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Text",
+                "Number",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Point",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Number",
+                "Calendar date",
+                "Calendar date",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "This column was automatically created in order to record in what polygon from the dataset 'Community Districts' (f5dn-yrer) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "A combination of the inspection program and the type of inspection performed; See Data Dictionary for full list of expected values",
+                "This column was automatically created in order to record in what polygon from the dataset 'City Council Districts' (92fq-4b7q) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "",
+                "Violation code associated with an establishment (restaurant) inspection",
+                "",
+                "This column was automatically created in order to record in what polygon from the dataset 'Borough Boundaries' (yeji-bk3q) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "Grade associated with the inspection; • N = Not Yet Graded• A = Grade A• B = Grade B• C = Grade C• Z = Grade Pending• P= Grade Pending issued on re-opening following an initial inspection that resulted in a closure",
+                "",
+                "The date when the extract was run to produce this data set",
+                "",
+                "",
+                "",
+                "Borough in which the entity (restaurant) is located.;• 1 = MANHATTAN • 2 = BRONX • 3 = BROOKLYN • 4 = QUEENS • 5 = STATEN ISLAND • Missing; NOTE: There may be discrepancies between zip code and listed boro due to differences in an establishment's mailing address and physical location",
+                "",
+                "This column was automatically created in order to record in what polygon from the dataset 'Police Precincts' (sbqj-enih) the point in column 'location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+                "This field represents the date of inspection; NOTE: Inspection dates of 1/1/1900 mean an establishment has not yet had an inspection",
+                "The date when the current grade was issued to the entity (restaurant)",
+                "Street name for establishment (restaurant) location",
+                "Zip code of establishment (restaurant) location",
+                "This field represents the actions that is associated with each restaurant inspection. ; • Violations were cited in the following area(s). • No violations were recorded at the time of this inspection. • Establishment re-opened by DOHMH • Establishment re-closed by DOHMH • Establishment Closed by DOHMH.  Violations were cited in the following area(s) and those requiring immediate action were addressed. • \"Missing\" = not yet inspected;",
+                "",
+                "",
+                "Violation description associated with an establishment  (restaurant) inspection",
+                "Total score for a particular inspection; Scores are updated based on adjudication results",
+                "Phone Number; Phone number provided by restaurant owner/manager",
+                "Building number for establishment (restaurant) location",
+                "This field represents the name (doing business as) of the entity (restaurant); Public business name, may change at discretion of restaurant owner",
+                "Indicator of critical violation;  \"• Critical • Not Critical • Not Applicable\"; Critical violations are those most likely to contribute to food-borne illness",
+                "This is an unique identifier for the entity (restaurant); 10-digit integer, static per restaurant permit",
+                "This field describes the entity (restaurant) cuisine. ; Optional field provided by provided by restaurant owner/manager"
+              ],
+            "columns_format" :
+              [
+                {},
+                { "align" : "left" },
+                {},
+                {},
+                { "align" : "left" },
+                {},
+                {},
+                { "align" : "left" },
+                {},
+                { "view" : "date", "align" : "left" },
+                {},
+                {},
+                {},
+                { "align" : "left" },
+                {},
+                {},
+                { "view" : "date", "align" : "left" },
+                { "view" : "date", "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                {},
+                {},
+                { "align" : "left" },
+                {
+                  "precisionStyle" : "standard",
+                  "noCommas" : "true",
+                  "align" : "left"
+                },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" },
+                { "align" : "left" }
+              ],
+            "download_count" : 195787,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2025-10-17T15:43:41.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Health",
+            "domain_tags" :
+              [
+                "violation",
+                "grade",
+                "2018od4a-video",
+                "adjudication",
+                "fines",
+                "inspection",
+                "food",
+                "food safety",
+                "2018od4a-report",
+                "restaurant"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "7/10/2015" },
+                { "key" : "Update_Update-Frequency", "value" : "Daily" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Health and Mental Hygiene (DOHMH)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/43nn-pn8j",
+        "link" : "https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "2018 Central Park Squirrel Census - Squirrel Data",
+            "id" : "vfnx-vebw",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "The Squirrel Census (https://www.thesquirrelcensus.com/) is a multimedia science, design, and storytelling project focusing on the Eastern gray (Sciurus carolinensis). They count squirrels and present their findings to the public. This table contains squirrel data for each of the 3,023 sightings, including location coordinates, age, primary and secondary fur color, elevation, activities, communications, and interactions between squirrels and with humans.",
+            "attribution" : "The Squirrel Census",
+            "attribution_link" : "https://www.thesquirrelcensus.com/",
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2023-04-18T19:29:57.000Z",
+            "createdAt" : "2019-10-13T21:31:44.000Z",
+            "metadata_updated_at" : "2023-04-18T19:29:57.000Z",
+            "data_updated_at" : "2019-10-18T17:54:51.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 567,
+                "page_views_last_month" : 3068,
+                "page_views_total" : 311892,
+                "page_views_last_week_log" : 9.149747119504683,
+                "page_views_last_month_log" : 11.583552930466485,
+                "page_views_total_log" : 18.25069164824983
+              },
+            "columns_name" :
+              [
+                "Highlight Fur Color",
+                "Eating",
+                "Other Activities",
+                "Borough Boundaries",
+                "Tail flags",
+                "Approaches",
+                "Age",
+                "Tail twitches",
+                "Moans",
+                "Kuks",
+                "Specific Location",
+                "City Council Districts",
+                "Running",
+                "Foraging",
+                "Quaas",
+                "Community Districts",
+                "Zip Codes",
+                "Runs from",
+                "Shift",
+                "Police Precincts",
+                "Climbing",
+                "Other Interactions",
+                "Lat/Long",
+                "Y",
+                "Hectare Squirrel Number",
+                "Primary Fur Color",
+                "Chasing",
+                "Combination of Primary and Highlight Color",
+                "Above Ground Sighter Measurement",
+                "Location",
+                "X",
+                "Color notes",
+                "Indifferent",
+                "Hectare",
+                "Date",
+                "Unique Squirrel ID"
+              ],
+            "columns_field_name" :
+              [
+                "highlight_fur_color",
+                "eating",
+                "other_activities",
+                ":@computed_region_yeji_bk3q",
+                "tail_flags",
+                "approaches",
+                "age",
+                "tail_twitches",
+                "moans",
+                "kuks",
+                "specific_location",
+                ":@computed_region_92fq_4b7q",
+                "running",
+                "foraging",
+                "quaas",
+                ":@computed_region_f5dn_yrer",
+                ":@computed_region_efsh_h5xi",
+                "runs_from",
+                "shift",
+                ":@computed_region_sbqj_enih",
+                "climbing",
+                "other_interactions",
+                "geocoded_column",
+                "y",
+                "hectare_squirrel_number",
+                "primary_fur_color",
+                "chasing",
+                "combination_of_primary_and",
+                "above_ground_sighter",
+                "location",
+                "x",
+                "color_notes",
+                "indifferent",
+                "hectare",
+                "date",
+                "unique_squirrel_id"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Checkbox",
+                "Text",
+                "Number",
+                "Checkbox",
+                "Checkbox",
+                "Text",
+                "Checkbox",
+                "Checkbox",
+                "Checkbox",
+                "Text",
+                "Number",
+                "Checkbox",
+                "Checkbox",
+                "Checkbox",
+                "Number",
+                "Number",
+                "Checkbox",
+                "Text",
+                "Number",
+                "Checkbox",
+                "Text",
+                "Point",
+                "Number",
+                "Number",
+                "Text",
+                "Checkbox",
+                "Text",
+                "Text",
+                "Text",
+                "Number",
+                "Text",
+                "Checkbox",
+                "Text",
+                "Text",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "Discrete value or string values comprised of \"Gray,\" \"Cinnamon\" or \"Black.\"",
+                "Squirrel was seen eating.",
+                "",
+                "",
+                "Squirrel was seen flagging its tail. Flagging is a whipping motion used to exaggerate squirrel's size and confuse rivals or predators. Looks as if the squirrel is scribbling with tail into the air.",
+                "Squirrel was seen approaching human, seeking food.",
+                "Value is either \"Adult\" or \"Juvenile.\"",
+                "Squirrel was seen twitching its tail. Looks like a wave running through the tail, like a breakdancer doing the arm wave. Often used to communicate interest, curiosity.",
+                "Squirrel was heard moaning, a high-pitched vocal communication which can indicate the presence of an air predator such as a hawk.",
+                "Squirrel was heard kukking, a chirpy vocal communication used for a variety of reasons.",
+                "Sighters occasionally added commentary on the squirrel location. These notes are provided here.",
+                "",
+                "Squirrel was seen running.",
+                "Squirrel was seen foraging for food.",
+                "Squirrel was heard quaaing, an elongated vocal communication which can indicate the presence of a ground predator such as a dog.",
+                "",
+                "",
+                "Squirrel was seen running from humans, seeing them as a threat.",
+                "Value is either \"AM\" or \"PM,\" to communicate whether or not the sighting session occurred in the morning or late afternoon. ",
+                "",
+                "Squirrel was seen climbing a tree or other environmental landmark.",
+                "Sighter notes on other types of interactions between squirrels and humans.",
+                "Latitude and longitude",
+                "Latitude coordinate for squirrel sighting point",
+                "Number within the chronological sequence of squirrel sightings for a discrete sighting session. ",
+                "Value is either \"Gray,\" \"Cinnamon\" or \"Black.\"",
+                "Squirrel was seen chasing another squirrel.",
+                "A combination of the previous two columns; this column gives the total permutations of primary and highlight colors observed.",
+                "For squirrel sightings on the ground plane, fields were populated with a value of “FALSE.”",
+                "Value is either \"Ground Plane\" or \"Above Ground.\" Sighters were instructed to indicate the location of where the squirrel was when first sighted.",
+                "Longitude coordinate for squirrel sighting point",
+                "Sighters occasionally added commentary on the squirrel fur conditions. These notes are provided here.",
+                "Squirrel was indifferent to human presence.",
+                "ID tag, which is derived from the hectare grid used to divide and count the park area. One axis that runs predominantly north-to-south is numerical (1-42), and the axis that runs predominantly east-to-west is roman characters (A-I). ",
+                "Concatenation of the sighting session day and month.",
+                "Identification tag for each squirrel sightings. The tag is comprised of \"Hectare ID\" + \"Shift\" + \"Date\" + \"Hectare Squirrel Number.\""
+              ],
+            "columns_format" :
+              [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ],
+            "download_count" : 128063,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2019-10-13T21:47:29.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Environment",
+            "domain_tags" : [ "squirrel census" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "10/15/2019" },
+                {
+                  "key" : "Update_Update-Frequency",
+                  "value" : "Historical data"
+                },
+                {
+                  "key" : "Data-Collection_Data-Collection",
+                  "value" : "2018 Central Park Squirrel Census"
+                },
+                { "key" : "Dataset-Information_Agency", "value" : "Other" }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/vfnx-vebw",
+        "link" : "https://data.cityofnewyork.us/Environment/2018-Central-Park-Squirrel-Census-Squirrel-Data/vfnx-vebw",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      }
+    ],
+  "resultSetSize" : 245,
+  "timings" : { "serviceMillis" : 31, "searchMillis" : [ 16, 7 ] },
+  "warnings" : []
+}

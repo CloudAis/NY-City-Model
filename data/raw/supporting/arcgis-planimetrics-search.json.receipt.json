@@ -1,0 +1,14 @@
+{
+  "request_url": "https://nyc.maps.arcgis.com/sharing/rest/search?q=owner%3ANYC_GIS+Planimetric&f=json&num=100",
+  "final_url": "https://nyc.maps.arcgis.com/sharing/rest/search?q=owner%3ANYC_GIS+Planimetric&f=json&num=100",
+  "download_started_at": "2026-10-27T04:04:11.149888+00:00",
+  "download_completed_at": "2026-10-27T04:04:11.612432+00:00",
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 59,
+  "sha256": "3c184fc00570de7e47ad41a95a13f74e042b3c9991168d4bc76770988b155f67",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

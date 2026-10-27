@@ -1,0 +1,71 @@
+{
+  "id": "bca6c3f866f844b490925cc9c26d2e40",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1663649821000,
+  "modified": 1772825169000,
+  "guid": null,
+  "name": "NYC_Orthos_1951",
+  "title": "NYC Orthos 1951",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Metadata",
+    "Hosted Service"
+  ],
+  "description": "Manually georeferenced using visible locations between the 1951 images and current orthophotography.<div><br /><\/div><div>Acquired from the Department of Records Municipal Archives. <br /><\/div>",
+  "tags": [
+    "imagery",
+    "1951",
+    "orthophotography"
+  ],
+  "snippet": "Citywide orthoimagery collected in 1951",
+  "thumbnail": "thumbnail/thumbnail.JPEG",
+  "documentation": null,
+  "extent": [
+    [
+      -74.51136581099898,
+      40.30034672576339
+    ],
+    [
+      -73.34791372997267,
+      41.07591053391283
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "NYS DOS",
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_1951/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 61766952138,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 168510,
+  "scoreCompleteness": 85,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

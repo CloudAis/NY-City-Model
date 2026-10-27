@@ -1,0 +1,70 @@
+{
+  "id": "bb9a39d9d9be4b30ac66d283246f1daf",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1654102023000,
+  "modified": 1746466307000,
+  "guid": null,
+  "name": "NYC_Orthos_2012",
+  "title": "NYC Orthos 2012",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Hosted Service"
+  ],
+  "description": "<div>Selective true orthoimagery. Manhattan full true orthoimagery; Bronx, Brooklyn, Queens, Staten Island true orthos for buildings greater than six stories. <\/div><div><br /><\/div><div>Resolution: 6&quot;<\/div><div><br /><\/div><div>Dates of capture: <\/div><div>March 30 - April 6: Bronx, Brooklyn, Queens, Staten Island<\/div><div>June 15 -16 &amp; June 20: Manhattan<\/div>",
+  "tags": [
+    "imagery",
+    "2012",
+    "orthophotography"
+  ],
+  "snippet": "Citywide orthoimagery collected in 2012",
+  "thumbnail": "thumbnail/NYC_Orthos_-_2012tl.png",
+  "documentation": null,
+  "extent": [
+    [
+      -75.26981640084101,
+      40.06632862416786
+    ],
+    [
+      -72.69681838828083,
+      41.345500738038226
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "SOURCE: New York State Orthoimagery Program - 2012",
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2012/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 21851443596,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 162053,
+  "scoreCompleteness": 88,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

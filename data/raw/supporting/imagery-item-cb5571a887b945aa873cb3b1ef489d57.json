@@ -1,0 +1,71 @@
+{
+  "id": "cb5571a887b945aa873cb3b1ef489d57",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1646071781000,
+  "modified": 1772825200000,
+  "guid": null,
+  "name": "NYC_Orthos_2020",
+  "title": "NYC Orthos 2020",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Metadata",
+    "Hosted Service"
+  ],
+  "description": "NY State Orthoimagery Program - 2020",
+  "tags": [
+    "imagery",
+    "2020",
+    "orthophotography"
+  ],
+  "snippet": "Citywide orthoimagery collected in 2020",
+  "thumbnail": "thumbnail/thumbnail.JPEG",
+  "documentation": null,
+  "extent": [
+    [
+      -74.26285797225447,
+      40.49440280881487
+    ],
+    [
+      -73.71216827540836,
+      40.88177396409298
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": null,
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_-_2020/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 18939177623,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 1639385,
+  "scoreCompleteness": 80,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

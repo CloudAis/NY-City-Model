@@ -1,0 +1,71 @@
+{
+  "id": "e901064d06b747838ee082520dcae2ff",
+  "owner": "maps.nyc.data",
+  "ownerId": "86daa84e79964dea852630300e0af824",
+  "orgId": "yG5s3afENB5iO9fj",
+  "created": 1662518264000,
+  "modified": 1746466281000,
+  "guid": null,
+  "name": "NYC_Orthos_2001_2",
+  "title": "NYC Orthos 2001-2002",
+  "type": "Map Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Map Service",
+    "Service",
+    "WMTS",
+    "Hosted Service"
+  ],
+  "description": "<div>2001: Resolution: 6&quot;<\/div><div><br /><\/div><div>2001 Dates of capture: <\/div><div>April: 1&quot; = 800', entire city<\/div><div>June: 1&quot;=1000', Manhattan<\/div><div>April 14: 1\u201d=800\u2019 \u2013 used for plan/topo update in Manhattan and Staten Island<\/div><div>July 3, &amp; July 21: 1\u201d=1000'\u2013 used for Manhattan orthos<\/div><div><br /><\/div><div>2002: Resolution: 6&quot;<br /><\/div><div><br /><\/div><div>2002 Dates of capture: <\/div><div>April 4: 1&quot;=800' \u2013 used for plan/topo update for Bronx/Brooklyn/Queens<br /><\/div>",
+  "tags": [
+    "imagery",
+    "2001",
+    "2002",
+    "orthophotography"
+  ],
+  "snippet": "Citywide orthoimagery collected in 2001 and 2002",
+  "thumbnail": "thumbnail/thumbnail1662765196545.png",
+  "documentation": null,
+  "extent": [
+    [
+      -74.3307691576822,
+      40.47439956058875
+    ],
+    [
+      -73.62675668198979,
+      40.942675778656266
+    ]
+  ],
+  "categories": [],
+  "spatialReference": "4326",
+  "accessInformation": "NYP DOS",
+  "classification": null,
+  "licenseInfo": "<p><a href='https://www.nyc.gov/home/terms-of-use.page' target='_blank' rel='nofollow ugc noopener noreferrer'>NYC.gov Terms of Use<\/a><\/p>",
+  "culture": "",
+  "properties": null,
+  "advancedSettings": null,
+  "url": "https://tiles.arcgis.com/tiles/yG5s3afENB5iO9fj/arcgis/rest/services/NYC_Orthos_2001_2/MapServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 87597296323,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 173623,
+  "scoreCompleteness": 91,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "contentOrigin": "self",
+  "lastViewed": 1793073600000
+}

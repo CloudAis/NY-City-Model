@@ -1,0 +1,14 @@
+{
+  "request_url": "https://www.nyc.gov/assets/home/js/content-api/content-loader.js",
+  "final_url": "https://www.nyc.gov/assets/home/js/content-api/content-loader.js",
+  "download_started_at": "2026-10-27T03:48:05.454488+00:00",
+  "download_completed_at": "2026-10-27T03:48:05.567799+00:00",
+  "http_status": 200,
+  "content_type": "application/javascript; charset=utf-8",
+  "etag": "\"6a467845-1f28\"",
+  "last_modified_http": "Thu, 02 Jul 2026 14:40:05 GMT",
+  "bytes": 7976,
+  "sha256": "2c49ea6e029c08d216700deb524717db5e3551b33772767516e13280bf651817",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

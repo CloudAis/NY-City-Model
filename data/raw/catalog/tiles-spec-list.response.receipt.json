@@ -1,0 +1,14 @@
+{
+  "request_url": "https://api.github.com/repos/CesiumGS/3d-tiles/contents/specification",
+  "final_url": "https://api.github.com/repos/CesiumGS/3d-tiles/contents/specification",
+  "download_started_at": "2026-10-27T03:53:24.998262+00:00",
+  "download_completed_at": "2026-10-27T03:53:25.537001+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "\"0f106c19cf432e0ace824db3fe0ccc557ad08b20\"",
+  "last_modified_http": "Mon, 26 Oct 2026 11:02:58 GMT",
+  "bytes": 15847,
+  "sha256": "93e49f283d5aabdb1a7d6695da5515219bef8303c438c033c01b6f41c0716ddf",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

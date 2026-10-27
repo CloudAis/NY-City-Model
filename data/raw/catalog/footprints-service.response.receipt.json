@@ -1,0 +1,14 @@
+{
+  "request_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer?f=pjson",
+  "final_url": "https://services6.arcgis.com/yG5s3afENB5iO9fj/arcgis/rest/services/BUILDING_view/FeatureServer?f=pjson",
+  "download_started_at": "2026-10-27T03:47:06.023613+00:00",
+  "download_completed_at": "2026-10-27T03:47:06.426088+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "sds_-202799427",
+  "last_modified_http": "Sun, 25 Oct 2026 02:16:29 GMT",
+  "bytes": 4075,
+  "sha256": "4c6d580e92535b37f63bab8e69d3c9fee59fc4d231b3e20ccb5828515f1912bc",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

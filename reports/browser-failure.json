@@ -1,0 +1,132 @@
+{
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4180/?diagnostics=1",
+    "http://127.0.0.1:4180/assets/index-DtLTXwOG.js",
+    "http://127.0.0.1:4180/assets/index-C0Tiu7Ha.css",
+    "http://127.0.0.1:4180/datasets/catalog.json",
+    "http://127.0.0.1:4180/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/buildings.json",
+    "http://127.0.0.1:4180/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4180/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4180/cesium/Workers/createVerticesFromHeightmap.js",
+    "http://127.0.0.1:4180/cesium/Workers/transferTypedArrayTest.js",
+    "http://127.0.0.1:4180/datasets/lower-manhattan/tileset.json",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-MXXXHGW3.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4180/cesium/Workers/incrementallyBuildTerrainPicker.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4180/cesium/Workers/chunk-GWE2HRAQ.js"
+  ],
+  "snapshot": {
+    "loaded": 1,
+    "catalog": {
+      "schema_version": 1,
+      "pipeline_version": "0.1.0-stage2",
+      "representation": "real official footprint linework; no building solids",
+      "datasets": [
+        {
+          "id": "lower-manhattan",
+          "title": "Lower Manhattan",
+          "records": 299,
+          "published_real_outlines": 299,
+          "tiles": 6,
+          "bounds_wgs84": [
+            -74.0178581642635,
+            40.70388476015906,
+            -74.0061903407694,
+            40.71292794167325
+          ],
+          "tileset": "lower-manhattan/tileset.json",
+          "buildings": "lower-manhattan/buildings.json",
+          "quality": "lower-manhattan/quality.json"
+        }
+      ],
+      "source_url": "https://github.com/CityOfNewYork/nyc-geo-metadata/blob/main/Metadata/Metadata_BuildingFootprints.md",
+      "height_note": "HEIGHT_ROOF is feet above ground; null and zero are unknown; not rendered as walls",
+      "ground_note": "Ellipsoid reference only; no terrain. Lines lifted 0.25 m solely to avoid depth fighting."
+    },
+    "recordCount": 299,
+    "active": "lower-manhattan",
+    "selected": null,
+    "pickPoints": [
+      {
+        "id": "nyc:footprints:doitt:1000469",
+        "x": 615.6886866851332,
+        "y": 297.37820795732307
+      },
+      {
+        "id": "nyc:footprints:doitt:100556",
+        "x": 460.70910734854056,
+        "y": 444.55738265965044
+      },
+      {
+        "id": "nyc:footprints:doitt:105139",
+        "x": 526.3435445144611,
+        "y": 550.8220870255776
+      },
+      {
+        "id": "nyc:footprints:doitt:108179",
+        "x": 714.1346566141953,
+        "y": 383.85119246529274
+      },
+      {
+        "id": "nyc:footprints:doitt:1105834",
+        "x": 654.2308396162571,
+        "y": 618.5448530769661
+      },
+      {
+        "id": "nyc:footprints:doitt:1106418",
+        "x": 478.14956332346446,
+        "y": 405.1885068930736
+      },
+      {
+        "id": "nyc:footprints:doitt:1107962",
+        "x": 801.3821252942953,
+        "y": 479.74364886137977
+      },
+      {
+        "id": "nyc:footprints:doitt:1107967",
+        "x": 673.3843901988268,
+        "y": 389.166306305669
+      },
+      {
+        "id": "nyc:footprints:doitt:1107968",
+        "x": 674.2263720216336,
+        "y": 384.5338148663836
+      },
+      {
+        "id": "nyc:footprints:doitt:1115090",
+        "x": 415.36174675462223,
+        "y": 535.3599619788697
+      },
+      {
+        "id": "nyc:footprints:doitt:1117717",
+        "x": 326.63507776000927,
+        "y": 353.94337375739156
+      },
+      {
+        "id": "nyc:footprints:doitt:114988",
+        "x": 793.5047039724848,
+        "y": 486.2849479759474
+      }
+    ],
+    "failures": [],
+    "tiles": [
+      {
+        "id": "lower-manhattan",
+        "show": true,
+        "tilesLoaded": true
+      }
+    ],
+    "camera": {
+      "position": [
+        1333929.8501537992,
+        -4656117.500444786,
+        4138239.512978368
+      ],
+      "height": 1456.4698667624089
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "request_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_TopobathymetricClassifiedPointCloud.md",
+  "final_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_TopobathymetricClassifiedPointCloud.md",
+  "download_started_at": "2026-10-27T03:48:04.754242+00:00",
+  "download_completed_at": "2026-10-27T03:48:05.070591+00:00",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"31b1f19b542aec54b55fc736af20c2846b79a3f5b187fd9f2be07a47f37f71c6\"",
+  "last_modified_http": null,
+  "bytes": 4191,
+  "sha256": "8b7f9ac93f99958318642569cc97f7fee65d8645f337cc0eb483ffdcf5a60fdd",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

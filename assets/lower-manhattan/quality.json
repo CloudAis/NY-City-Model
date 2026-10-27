@@ -1,0 +1,37 @@
+{
+  "pipeline_version": "0.1.0-stage2",
+  "scope": {
+    "borough": "manhattan",
+    "bbox_wgs84": [
+      -74.0165,
+      40.7045,
+      -74.007,
+      40.7115
+    ],
+    "where": "BASE_BBL LIKE '1%'"
+  },
+  "source_manifest": "data/intermediate/lower-manhattan/manifest.json",
+  "raw_records": 299,
+  "normalized_records": 299,
+  "source_defined_entities": 299,
+  "physical_building_count": "not independently resolved; DOITT entities are not guaranteed physical one-to-one",
+  "polygon_parts": 299,
+  "valid_height_records": 297,
+  "placeholder_records": 0,
+  "independently_verified_heights": 0,
+  "downloaded_3d_building_models": 0,
+  "unknown_roof_form": 299,
+  "unknown_facade": 299,
+  "failed": 0,
+  "repairs": 0,
+  "unique_bin_count": 299,
+  "output_sha256": "698d3ce8814475c37fa88254a6902ca74a7f9dcaa777b3816fdc75b2d4879d46",
+  "projection": {
+    "source_crs": "3857",
+    "standard_crs": "EPSG:32118",
+    "to_wgs84_operation": "Inverse of SPCS83 New York Long Island zone (meter) + NAD83 to WGS 84 (1) (with axis order normalized for visualization)",
+    "nominal_transform_accuracy_m": 4.0
+  },
+  "geometry_fully_downloaded": true,
+  "citywide_complete": false
+}

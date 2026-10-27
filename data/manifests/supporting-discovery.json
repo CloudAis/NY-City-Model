@@ -1,0 +1,356 @@
+{
+  "at": "2026-10-27T04:04:16.838117+00:00",
+  "items": [
+    {
+      "id": "model3d-resources",
+      "entry": "https://www.nyc.gov/content/planning/pages/resources/datasets/nyc-3d-model",
+      "content_api_source": "/workspace/nyc-3d-html/data/raw/catalog/model3d-content.response",
+      "links": [
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk01.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk02.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk03.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk04.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk05.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk06.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk07.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk08.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk09.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk10.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk11.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk12.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk13.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk14.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk15.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk16.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk17.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk18.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bk_parks.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx01.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx02.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx03.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx04.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx05.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx06.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx07.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx08.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx09.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx10.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx11.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx12.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_bx_parks.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn01.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn02.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn03.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn04.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn05.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn06.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn07.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn08.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn09.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn10.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn11.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn12.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn_central_park.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn01.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn02.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn03.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn04.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn05.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn06.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn07.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn08.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn09.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn10.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn11.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn12.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn13.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn14.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_qn_parks_lga_jfk.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_si01.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_si02.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_si03.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_si_parks.zip",
+        "https://www.nyc.gov#bronx",
+        "https://www.nyc.gov#brooklyn",
+        "https://www.nyc.gov#manhattan",
+        "https://www.nyc.gov#overview",
+        "https://www.nyc.gov#queens",
+        "https://www.nyc.gov#recent-release",
+        "https://www.nyc.gov#staten_island",
+        "https://www.nyc.gov#use-info",
+        "https://www.nyc.gov/index_v2.html"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "nyc_3dmodel_mn01.zip",
+      "url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/nyc-3d-model/nyc_3dmodel_mn01.zip",
+      "path": "data/raw/supporting/nyc_3dmodel_mn01.zip",
+      "sha256": "820fcc1a65ce892e10e82139e87cf6e528ca8590b0dc8bcc62f49d8677020b8a",
+      "bytes": 57578833,
+      "status": "downloaded",
+      "archive_entries": [
+        {
+          "path": "NYC_3DModel_MN01.3dm",
+          "compressed_bytes": 57578659,
+          "bytes": 374030466
+        }
+      ],
+      "uncompressed_bytes": 374030466
+    },
+    {
+      "id": "pluto-resources",
+      "entry": "https://www.nyc.gov/content/planning/pages/resources/datasets/mappluto-pluto-change",
+      "content_api_source": "/workspace/nyc-3d-html/data/raw/catalog/pluto-content.response",
+      "links": [
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/meta_mappluto.pdf",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/meta_mappluto_unclipped.pdf",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_datadictionary.pdf",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_readme.pdf",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/plutochangefile_readme.pdf",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/mappluto/nyc_mappluto_26v2_fgdb.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/mappluto/nyc_mappluto_26v2_shp.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/mappluto/nyc_mappluto_26v2_unclipped_fgdb.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/mappluto/nyc_mappluto_26v2_unclipped_shp.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/pluto-change-file/PLUTOChangeFile26v2.zip",
+        "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/pluto/nyc_pluto_26v2_csv.zip",
+        "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/MAPPLUTO/FeatureServer/0",
+        "https://www.nyc.gov#archive",
+        "https://www.nyc.gov#change",
+        "https://www.nyc.gov#mappluto",
+        "https://www.nyc.gov#overview",
+        "https://www.nyc.gov#pluto",
+        "https://www.nyc.gov#recent-release",
+        "https://www.nyc.gov#use-info",
+        "https://www.nyc.gov/index_v2.html"
+      ],
+      "status": "catalogued"
+    },
+    {
+      "id": "nyc_pluto_26v2_csv.zip",
+      "url": "https://s-media.nyc.gov/agencies/dcp/assets/files/zip/data-tools/bytes/pluto/nyc_pluto_26v2_csv.zip",
+      "path": "data/raw/supporting/nyc_pluto_26v2_csv.zip",
+      "sha256": "1df5753188a4a2e1c9a04bfe5ce98930c11a4a0b78d0445abcbcbbfea4d32919",
+      "bytes": 71787243,
+      "status": "downloaded",
+      "archive_entries": [
+        {
+          "path": "pluto_26v2.csv",
+          "compressed_bytes": 70893184,
+          "bytes": 435417675
+        },
+        {
+          "path": "pluto_datadictionary.pdf",
+          "compressed_bytes": 565711,
+          "bytes": 598803
+        },
+        {
+          "path": "pluto_readme.pdf",
+          "compressed_bytes": 327990,
+          "bytes": 342781
+        }
+      ],
+      "uncompressed_bytes": 436359259
+    },
+    {
+      "id": "pluto_datadictionary.pdf",
+      "url": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_datadictionary.pdf",
+      "path": "data/raw/supporting/pluto_datadictionary.pdf",
+      "sha256": "d587cbe90bafad128c88f7dfab0ec6741d2735b20695e99b931fa0607aeaf3fe",
+      "bytes": 603555,
+      "status": "downloaded"
+    },
+    {
+      "id": "pluto_readme.pdf",
+      "url": "https://s-media.nyc.gov/agencies/dcp/assets/files/pdf/data-tools/bytes/pluto_readme.pdf",
+      "path": "data/raw/supporting/pluto_readme.pdf",
+      "sha256": "e001433cea041e10d60e786346201bbfb195603aa0c14feb11f016c89fd88dc8",
+      "bytes": 346013,
+      "status": "downloaded"
+    },
+    {
+      "id": "mappluto-layer.json",
+      "url": "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/MAPPLUTO/FeatureServer/0?f=pjson",
+      "path": "data/raw/supporting/mappluto-layer.json",
+      "sha256": "eec4c216a9b69e26e89b0c723d0fd703e79ab5da011b36677479939f15967f0e",
+      "bytes": 42426,
+      "status": "downloaded"
+    },
+    {
+      "id": "catalog-borough.json",
+      "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Borough+Boundaries&limit=8",
+      "path": "data/raw/supporting/catalog-borough.json",
+      "sha256": "4c3f1c400d699cc1ca31c8d49cc6838fa84cb848727059f7d69b89318d8a65b5",
+      "bytes": 63734,
+      "status": "downloaded"
+    },
+    {
+      "id": "catalog-roadbed.json",
+      "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Roadbed&limit=8",
+      "path": "data/raw/supporting/catalog-roadbed.json",
+      "sha256": "c0898e7468dbd0484b8bd8e24a01468d3d62685e39a299a347933e2a0dfa9e1d",
+      "bytes": 30201,
+      "status": "downloaded"
+    },
+    {
+      "id": "catalog-water.json",
+      "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Hydrography&limit=8",
+      "path": "data/raw/supporting/catalog-water.json",
+      "sha256": "9b299482c8e944b40037f4f04b724c5f91c7439ebfc910c86a2fe142fc829a6e",
+      "bytes": 29277,
+      "status": "downloaded"
+    },
+    {
+      "id": "catalog-lidar.json",
+      "url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=LiDAR&limit=8",
+      "path": "data/raw/supporting/catalog-lidar.json",
+      "sha256": "b72207a01ce9c7269b1979e5af6a8d3f150e3b7a026cdd624cf319274ace4e62",
+      "bytes": 38292,
+      "status": "downloaded"
+    },
+    {
+      "id": "socrata-7sc8-jtbz.json",
+      "url": "https://data.cityofnewyork.us/api/views/7sc8-jtbz.json",
+      "path": "data/raw/supporting/socrata-7sc8-jtbz.json",
+      "sha256": "2629f6072ea6a9ec4e2baba533510cff78248b67411de408b6c36731a35fb3bb",
+      "bytes": 6265,
+      "status": "downloaded"
+    },
+    {
+      "id": "socrata-tnru-abg2.json",
+      "url": "https://data.cityofnewyork.us/api/views/tnru-abg2.json",
+      "path": "data/raw/supporting/socrata-tnru-abg2.json",
+      "sha256": "400309f3035344352412aa55c82753d0c6cba389d8a91f3bfa84b7c2cd3e96d9",
+      "bytes": 4114,
+      "status": "downloaded"
+    },
+    {
+      "id": "arcgis-planimetrics-search.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/search?q=owner%3ANYC_GIS+Planimetric&f=json&num=100",
+      "path": "data/raw/supporting/arcgis-planimetrics-search.json",
+      "sha256": "3c184fc00570de7e47ad41a95a13f74e042b3c9991168d4bc76770988b155f67",
+      "bytes": 59,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-423f15185bd04f8dad8d99fba736772f.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/423f15185bd04f8dad8d99fba736772f?f=pjson",
+      "path": "data/raw/supporting/imagery-item-423f15185bd04f8dad8d99fba736772f.json",
+      "sha256": "aca3e234850fbc6c7ffa64c474b8f1efe72da83805577ee81852a13d5b117277",
+      "bytes": 2034,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-4469a5bba7fb42458f4b9c8064062965.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/4469a5bba7fb42458f4b9c8064062965?f=pjson",
+      "path": "data/raw/supporting/imagery-item-4469a5bba7fb42458f4b9c8064062965.json",
+      "sha256": "5f3e04a81d6ae321026a8f92d60d5d08656f167fd05c65f9cf66b1288d8dd432",
+      "bytes": 2168,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-4a5eb2107c7c479f83ba56e427b75781.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/4a5eb2107c7c479f83ba56e427b75781?f=pjson",
+      "path": "data/raw/supporting/imagery-item-4a5eb2107c7c479f83ba56e427b75781.json",
+      "sha256": "b514e58b3a511d70dda437f612293c71a694581ef30d07f2fda4a252f6112500",
+      "bytes": 2171,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-4de7fd9b3a1d47179407350de8265279.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/4de7fd9b3a1d47179407350de8265279?f=pjson",
+      "path": "data/raw/supporting/imagery-item-4de7fd9b3a1d47179407350de8265279.json",
+      "sha256": "0bfaeb3c4e8a38e0c81ace7f6b11964f0a4a69a5249a9991817a45278b19a2b1",
+      "bytes": 2359,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-75b225ab7c8c402f85de74f7883d62a0.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/75b225ab7c8c402f85de74f7883d62a0?f=pjson",
+      "path": "data/raw/supporting/imagery-item-75b225ab7c8c402f85de74f7883d62a0.json",
+      "sha256": "a774d076d252c6433e8ceba8eb38e49e68e6a502498331ab137a90e20156d9c7",
+      "bytes": 1989,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-922db9c671974e7986c5338e0bd6ba4c.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/922db9c671974e7986c5338e0bd6ba4c?f=pjson",
+      "path": "data/raw/supporting/imagery-item-922db9c671974e7986c5338e0bd6ba4c.json",
+      "sha256": "09646304ce068f553824442b7b6a456fc58affdfaa489dbe72678b0ade7a24db",
+      "bytes": 2069,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-a6d81617ea674d0fa29510faae2252ad.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/a6d81617ea674d0fa29510faae2252ad?f=pjson",
+      "path": "data/raw/supporting/imagery-item-a6d81617ea674d0fa29510faae2252ad.json",
+      "sha256": "ddef47a26d8b1b530cc7a6db4c9041279bb3715f04852840391821400fd64f76",
+      "bytes": 1964,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-afbb5db6b3fd494384357923e6c72622.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/afbb5db6b3fd494384357923e6c72622?f=pjson",
+      "path": "data/raw/supporting/imagery-item-afbb5db6b3fd494384357923e6c72622.json",
+      "sha256": "2d69e3cf7493001fce9b7447ff10dd87dcabc95548f1bdeee3915598fdbc0a32",
+      "bytes": 1974,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-b79e60a9686042debae52e069764a286.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/b79e60a9686042debae52e069764a286?f=pjson",
+      "path": "data/raw/supporting/imagery-item-b79e60a9686042debae52e069764a286.json",
+      "sha256": "e2fba32130dd06f7e2eed5da5d173819e65c212476edabca093845cf5951e4ee",
+      "bytes": 1960,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-bb9a39d9d9be4b30ac66d283246f1daf.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/bb9a39d9d9be4b30ac66d283246f1daf?f=pjson",
+      "path": "data/raw/supporting/imagery-item-bb9a39d9d9be4b30ac66d283246f1daf.json",
+      "sha256": "48ede5e232164ad266cad8ce67b92e8abb9bed1197031cdb8f3fa9dffab06dd2",
+      "bytes": 2190,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-bca6c3f866f844b490925cc9c26d2e40.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/bca6c3f866f844b490925cc9c26d2e40?f=pjson",
+      "path": "data/raw/supporting/imagery-item-bca6c3f866f844b490925cc9c26d2e40.json",
+      "sha256": "fda156ee9f662c95ac6310603f3edfb8dcefa804d8444464d007a92958e33ff2",
+      "bytes": 1967,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-bf7f000f52ad405bb49a55b578d7a2ee.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/bf7f000f52ad405bb49a55b578d7a2ee?f=pjson",
+      "path": "data/raw/supporting/imagery-item-bf7f000f52ad405bb49a55b578d7a2ee.json",
+      "sha256": "315eaf31945f4cef1aaf863af12648bb2962733ebbc0290d21455b458f6b54f6",
+      "bytes": 1927,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-cb5571a887b945aa873cb3b1ef489d57.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/cb5571a887b945aa873cb3b1ef489d57?f=pjson",
+      "path": "data/raw/supporting/imagery-item-cb5571a887b945aa873cb3b1ef489d57.json",
+      "sha256": "323b32bc6c68618f0c54a5b2ed5d005bc6b38f948d2fe37e829070d487f591a4",
+      "bytes": 1804,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-cec6905f03b947f8824be81e45d1992b.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/cec6905f03b947f8824be81e45d1992b?f=pjson",
+      "path": "data/raw/supporting/imagery-item-cec6905f03b947f8824be81e45d1992b.json",
+      "sha256": "52075ec1b0b91ec6b4a55c67422c116a97b941de509cc41c21af22c6e8cc70d2",
+      "bytes": 2176,
+      "status": "downloaded"
+    },
+    {
+      "id": "imagery-item-e901064d06b747838ee082520dcae2ff.json",
+      "url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/e901064d06b747838ee082520dcae2ff?f=pjson",
+      "path": "data/raw/supporting/imagery-item-e901064d06b747838ee082520dcae2ff.json",
+      "sha256": "6b02658d202fe74508dbcbeb3a6702dc56122b1a822d57aa2329a961ba65d7b8",
+      "bytes": 2371,
+      "status": "downloaded"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+
+> nyc-real-scale-3d@0.1.0 check
+> tsc --noEmit
+
+src/main.ts(5,16): error TS2339: Property 'setBaseUrl' does not exist on type '(relativeUrl: string) => string'.
+src/main.ts(30,581): error TS18048: 'viewer.scene.sun' is possibly 'undefined'.
+src/main.ts(30,609): error TS18048: 'viewer.scene.moon' is possibly 'undefined'.
+src/main.ts(35,156): error TS2739: Type '{ x: number; y: number; }' is missing the following properties from type 'Cartesian2': clone, equals, equalsEpsilon
+src/main.ts(39,341): error TS2339: Property 'toArray' does not exist on type 'Cartesian3'.

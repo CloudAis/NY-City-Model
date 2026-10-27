@@ -1,0 +1,14 @@
+{
+  "request_url": "https://gis.ny.gov/elevation",
+  "final_url": "https://gis.ny.gov/elevation",
+  "download_started_at": "2026-10-27T03:47:07.670734+00:00",
+  "download_completed_at": "2026-10-27T03:47:08.218596+00:00",
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": "Mon, 26 Oct 2026 18:36:00 GMT",
+  "bytes": 33761,
+  "sha256": "0f61e7e0b335117186496ebbe85b5d109bfae364a538d8891e30f36c9eb85800",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,21 @@
+
+> nyc-real-scale-3d@0.1.0 test
+> .venv/bin/python -m unittest discover -s tests -v
+
+test_glb_local_precision_axis_and_real_identity (test_pipeline.PipelineTests.test_glb_local_precision_axis_and_real_identity) ... ok
+test_height_semantics_and_negative_ground (test_pipeline.PipelineTests.test_height_semantics_and_negative_ground) ... ok
+test_holes_and_multipart_and_invalid (test_pipeline.PipelineTests.test_holes_and_multipart_and_invalid) ... ok
+test_real_normalization_is_repeatable (test_pipeline.PipelineTests.test_real_normalization_is_repeatable) ... /workspace/nyc-3d-html/scripts/nyc/normalize.py:58: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  before,after,removed=esri_polygon(f['geometry']['rings']);bm=transform(tm.transform,before);gm=transform(tm.transform,after);gm=polygonal(make_valid(gm))
+/workspace/nyc-3d-html/scripts/nyc/normalize.py:68: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  hm=h*FT if h is not None else None;groundm=ground*FT if ground is not None else None;lonlat=transform(tw.transform,gm)
+ok
+test_real_source_counts_and_geography (test_pipeline.PipelineTests.test_real_source_counts_and_geography) ... /workspace/nyc-3d-html/tests/test_pipeline.py:16: ResourceWarning: unclosed file <_io.TextIOWrapper name='/workspace/nyc-3d-html/data/intermediate/lower-manhattan/manifest.json' mode='r' encoding='UTF-8'>
+  mf=json.load(open(ROOT/'data/intermediate/lower-manhattan/manifest.json'));rows=[json.loads(x)for x in(ROOT/'data/processed/lower-manhattan/buildings.jsonl').read_text().splitlines()];self.assertEqual(len(rows),mf['records_downloaded']);self.assertEqual(len(set(r['id']for r in rows)),len(rows));self.assertTrue(all(not r['evidence']['height']['independently_verified']for r in rows));self.assertTrue(any(r['height_m']is None for r in rows));self.assertTrue(all(r['evidence']['roof']['status']=='unknown'for r in rows))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.432s
+
+OK

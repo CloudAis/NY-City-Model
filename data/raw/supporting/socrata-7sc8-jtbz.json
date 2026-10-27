@@ -1,0 +1,140 @@
+{
+  "id" : "7sc8-jtbz",
+  "name" : "Topobathymetric LiDAR Data (2017)",
+  "assetType" : "href",
+  "attribution" : "Office of Technology and Innovation (OTI)",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1544638896,
+  "description" : "<b>Note: The files can be downloaded from the Attachments section below. Please note that the total size is 180GB, so the download may take some time depending on your system’s capabilities and configuration. You can also visit https://finder.nyc.gov/orthoimagery to download raw LiDAR data for specific tiles.</b>\n\nTopographic and bathymetric LiDAR data was collected for New York City in 2017.  Topographic data was collected for the entire city, plus an additional 100 meter buffer, using a Leica ALS80 sensor equipped to capture at least 8 pulse/m<sup>2</sup>. Dates of capture for topographic data were between 05/03/2017 and 05/17/2017 during 50% leaf-off conditions. Bathymetric data was collected in select areas of the city (where bathymetric data capture was expected) using a Riegl VQ-880-G sensor equipped to capture approximately 15 pulses/m<sup>2</sup> (1.5 Secchi depths). Dates of capture for bathymetric were between 07/04/2017 - 07/26/2017. LiDAR data was tidally-coordinated and captured between mean lower low water (+30% of mean tide) ranges.\n\nThe horizontal datum for all datasets is NAD83, the vertical datum is NAVD88, Geoid 12B, and the data is projected in New York State Plane - Long Island. Units are in US Survey Feet. To learn more about these datasets, visit the interactive “Understanding the 2017 New York City LiDAR Capture” Story Map -- https://maps.nyc.gov/lidar/2017/\nPlease see the following link for additional documentation on this dataset -- https://github.com/CityOfNewYork/nyc-geo-metadata/blob/master/Metadata/Metadata_LiDAR_Summary.md",
+  "diciBackend" : false,
+  "displayType" : "href",
+  "downloadCount" : 0,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1552312730,
+  "locked" : false,
+  "newBackend" : false,
+  "numberOfComments" : 0,
+  "oid" : 30348171,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1544638896,
+  "publicationGroup" : 15763227,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1544638896,
+  "tableId" : 15763227,
+  "totalTimesRated" : 0,
+  "viewCount" : 20511,
+  "viewLastModified" : 1757599909,
+  "viewType" : "href",
+  "approvals" : [ {
+    "reviewedAt" : 1552312649,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1078026,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1552312649,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "attachments" : [ {
+      "filename" : "Topobathymetric LiDAR Data Data Dictionaries.zip",
+      "assetId" : "ab0bdbb4-7acc-4182-8ad7-507b3ddd303b",
+      "name" : "Topobathymetric LiDAR Data Data Dictionaries.zip"
+    }, {
+      "filename" : "Bare_Earth_Hydroenforced_Filled.zip",
+      "assetId" : "f939faab-009d-4555-8a0d-8a93f1886218",
+      "name" : "Bare_Earth_Hydroenforced_Filled.zip"
+    }, {
+      "filename" : "Bare_Earth_Hydroenforced_Unfilled.zip",
+      "assetId" : "ac46748e-d352-46cf-88e2-fde8734f04b4",
+      "name" : "Bare_Earth_Hydroenforced_Unfilled.zip"
+    }, {
+      "filename" : "Bare_Earth_Topographic_Hydroflattened.zip",
+      "assetId" : "a43310be-e215-4f65-8fec-707be53bfc1c",
+      "name" : "Bare_Earth_Topographic_Hydroflattened.zip"
+    }, {
+      "filename" : "Highest_Hit.zip",
+      "assetId" : "70ab3695-bf4e-4150-b8b5-c3590042ba57",
+      "name" : "Highest_Hit.zip"
+    }, {
+      "filename" : "TopoBathymetric_Classified_LAZ.zip",
+      "assetId" : "dfe8b336-0307-4235-b00e-2742d8ac552a",
+      "name" : "TopoBathymetric_Classified_LAZ.zip"
+    } ],
+    "additionalAccessPoints" : [ {
+      "urls" : {
+        "WEbsite" : "https://maps.nyc.gov/lidar/2017/"
+      },
+      "description" : "Topographic and bathymetric LiDAR data was collected for New York City in 2017. ",
+      "title" : "Understanding the 2017 New York City LiDAR Capture"
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "N/A",
+        "Date Made Public" : "3/11/2019",
+        "Update Frequency" : "As needed"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Technology and Innovation (OTI)"
+      }
+    },
+    "accessPoints" : {
+      "WEbsite" : "https://maps.nyc.gov/lidar/2017/"
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "href" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "point cloud", "classified", "lidar", "topobathymetric", "hydroenforcement", "hydroflattened", "digital elevation model", "digital surface model" ],
+  "flags" : [ "default", "ownerMayBeContacted" ]
+}

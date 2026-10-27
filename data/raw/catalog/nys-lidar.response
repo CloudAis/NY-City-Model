@@ -1,0 +1,510 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta name="description" content="Providing access to publicly available, high resolution elevation data for anywhere in New York." />
+<link rel="icon" href="/profiles/custom/webny/themes/custom/webny_theme/favicon.ico" />
+<link rel="icon" sizes="16x16" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-16x16.png" />
+<link rel="icon" sizes="32x32" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-32x32.png" />
+<link rel="icon" sizes="96x96" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-96x96.png" />
+<link rel="icon" sizes="192x192" href="/profiles/custom/webny/themes/custom/webny_theme/icons/icon-192x192.png" />
+<link rel="apple-touch-icon" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-180x180.png" />
+<link rel="apple-touch-icon-precomposed" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-76x76-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-120x120-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-144x144-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-152x152-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="180x180" href="/profiles/custom/webny/themes/custom/webny_theme/icons/apple-touch/apple-touch-icon-180x180-precomposed.png" />
+<meta property="og:site_name" content="gis" />
+<meta property="og:title" content="Elevation" />
+<meta property="og:image" content="https://gis.ny.gov/sites/g/files/oee1256/files/media/2022/08/dem_globalmapper.jpg" />
+<meta property="og:image:url" content="https://gis.ny.gov/profiles/custom/webny/themes/custom/webny_theme/images/nys-default.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Providing access to publicly available, high resolution elevation data for anywhere in New York." />
+<meta name="twitter:image" content="https://gis.ny.gov/sites/g/files/oee1256/files/media/2022/08/dem_globalmapper.jpg" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="canonical" href="https://gis.ny.gov/elevation" />
+<link rel="shortlink" href="https://gis.ny.gov/node/671" />
+
+    <title>Elevation | gis</title>
+    <link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/core/components/progress.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/core/components/ajax-progress.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/align.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/fieldgroup.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/container-inline.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/clearfix.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/details.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/hidden.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/item-list.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/js.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/nowrap.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/position-container.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/reset-appearance.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/resize.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/system-status-counter.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/system-status-report-counters.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/system-status-report-general-info.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/system/components/tablesort.module.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/blazy.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/modules/contrib/blazy/css/components/blazy.loading.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/contrib/stable/css/filter/filter.caption.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/modules/contrib/entity_embed/css/entity_embed.filter.caption.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_accordion/css/accordion.frontend.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/modules/contrib/ckeditor_indentblock/css/plugins/indentblock/ckeditor.indentblock.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/modules/contrib/paragraphs/css/paragraphs.unpublished.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/modules/custom/webny_secondary_nav/css/webny_secondary_nav.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/custom/webny_theme/fonts/fontawesome6/css/all.min.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/custom/webny_theme/css/administration.css?tn7c5q" />
+<link rel="stylesheet" media="print" href="/profiles/custom/webny/themes/custom/webny_theme/css/print.css?tn7c5q" />
+<link rel="stylesheet" media="all" href="/profiles/custom/webny/themes/custom/webny_theme/../../../libraries/video.js/dist/video-js.min.css?tn7c5q" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/671","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJxtkd1y4yAMhV_IDnc7fRtGgOIowYgFYZc-_Sqpm5Zsb5ij8_FzJFyEj27cfZ0eq_ERao1U5agjQzhk5tjPFONXWXilikdV4HyoHV2e_A0DCRcL3nMJxMk81elcOAmm8L2LUsAkLrK_mR96UkHSLa4Og_GQRY9PC_MS0QosZtHltT7BFd6nDAWWAvlSTSgtQzx9O6eWcnPa5AXDVHsVXI0DbUWjp26XyA6iTbCZTzmrPFhFzylA6Q_8rH7skAuuqNf5m7BwHlwPMVpIwRasmdPzxU-Km7Y7BxCcM-loykB18oLFeihh9HWWsGPlFf8M4MhepUdKy4AuWHgwND4toD8xuJlzi1C06bKRxzrCQpr2fvsL-Ns0vD55G-0qIDOlMz_-gPwABVwchyE7W9dEONmA1RfKr-k2Csjztc6-1t8B4dv_QP2NVuRfSecmzY1J9l5p718DbPd_f8j5Lv8Bq0lHKg","theme":"webny_theme","theme_token":null},"ajaxTrustedUrl":[],"gtag":{"tagId":"G-F14HJB55LQ","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":true,"force_html5_validation":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"ckeditorAccordion":{"accordionStyle":{"collapseAll":1,"keepRowsOpen":1,"animateAccordionOpenAndClose":0,"openTabsWithHash":0,"allowHtmlInTitles":0}},"blazy":{"loadInvisible":false,"offset":100,"saveViewportOffsetDelay":50,"loader":true,"unblazy":false,"visibleClass":false},"blazyIo":{"disconnect":false,"rootMargin":"0px","threshold":[0,0.25,0.5,0.75,1]},"user":{"uid":0,"permissionsHash":"5648ba5aca6060a7d04b6e85ce9185f42a1cf4c76583b828d6173a55b2dac90f"}}</script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.6.19"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/../../../libraries/videojs7-vimeo/dist/videojs-vimeo.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/../../../libraries/video.js/dist/video.min.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/../../../libraries/videojs-youtube/dist/Youtube.min.js?tn7c5q"></script>
+
+  </head>
+  <body class="body-sidebars-none">
+        <div class="nygov-logo">
+      <img src="/profiles/custom/webny/themes/custom/webny_theme/images/nygov-logo.png" alt="nygov-logo" />
+    </div>
+    <a href="#main-content" class="visually-hidden focusable skip-to-main">
+      Skip to main content
+    </a>
+    
+
+    
+    
+    
+    
+<div id="nygov-universal-navigation" class="nygov-universal-container" data-iframe="true" data-updated="2024-03-29 06:26" data-stripwww="1">
+    <script type="text/javascript">
+        var _NY = {
+            HOST: "static-assets.ny.gov",
+            BASE_HOST: "www.ny.gov",
+            hideSettings: false,
+            hideSearch: false,
+            showLanguageHeader: false,
+			showLanguageFooter: false,
+        };
+    </script>
+</div>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="layout-container">
+
+  <header role="banner">
+                        <nav id="webny-global-header" class="webny-global-header horizontal unstacked" aria-label="primary-site" >
+            <div class="nav-toggle">
+            <button id="webny-menu-control">Navigation Menu Toggle</button>
+        </div>
+            <h1><a href="/">
+                            NYS GIS Clearinghouse<br />
+                    </a></h1>
+        <ul class="gnav-ul"><li class="gnav-mitems gnav-topli solotop" aria-expanded="false"><a href="https://data.gis.ny.gov/">GIS Data</a></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><span>Coordination</span><ul class="gnav-items-ul" aria-hidden="true"><li><a href="/coordination-program">Overview</a></li><li><a href="/geospatial-advisory-council">Geospatial Advisory Council</a></li><li><a href="/state-agency-advisory-group">State Agency Advisory Group</a></li><li><a href="/data-sharing-cooperative">Data  Sharing Cooperative</a></li><li><a href="/gis-organizations">GIS Organizations</a></li><li><a href="https://whoswho.gis.ny.gov/whoswho/">GIS Who's Who</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><span>Data Programs</span><ul class="gnav-items-ul" aria-hidden="true"><li><a href="/migration-web-services">Migration of Web Services</a></li><li><a href="/parcels">Parcels</a></li><li><a href="/streets-addresses">Streets &amp; Addresses</a></li><li><a href="/orthoimagery">Orthoimagery</a></li><li><a href="/elevation-0">Elevation</a></li><li><a href="/civil-boundaries">Civil Boundaries</a></li><li><a href="/hydrography">Hydrography</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><span>Enterprise GIS</span><ul class="gnav-items-ul" aria-hidden="true"><li><a href="/sharegis">ShareGIS</a></li></ul></li><li class="gnav-mitems gnav-topli" aria-expanded="false"><span>Agency GIS</span><ul class="gnav-items-ul" aria-hidden="true"><li><a href="https://sac-sharegisny.hub.arcgis.com/" title="Information for NYS Agency GIS admins and users.">GIS Resources for NYS Agencies</a></li><li><a href="/gis-nys-agencies">GIS at NYS Agencies</a></li></ul></li><li class="gnav-mitems gnav-topli solotop" aria-expanded="false"><a href="/frequently-asked-questions">FAQs</a></li><li class="gnav-mitems gnav-topli solotop" aria-expanded="false"><a href="/about-us">About Us</a></li></ul>
+    </nav>
+
+    
+
+
+
+  </header>
+
+  
+
+  
+
+  
+
+  
+
+  <main role="main" id="main-content">
+
+    <div class="layout-content">
+        <div>
+    <div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+
+<div class="webny-generic-content-page webny-toc-page">
+
+    <article  data-history-node-id="671" about="/elevation" class="hero-layout">
+
+                
+
+        
+                            <div class="hero-header hero-has-image hero-generic">
+                <div class="hero-image" data-img="https://gis.ny.gov/sites/g/files/oee1256/files/styles/wide_lead/public/media/2022/08/dem_globalmapper.jpg?h=f869b915&amp;itok=Z7ry9JYf"></div>
+                <div class="hero-inner hero-generic-inner">
+                    <div class="hero-generic-wrapper">
+                        <div class="hero-generic-description-wrapper checklist-cta-absent">
+                        
+                                                
+                        
+                                                <h1><span>Elevation</span>
+</h1>
+
+                                                
+                        
+                                                                            <div class="hero-generic-summary checklist-cta-absent">
+                                
+            <div>  Information about Elevation Datasets including LIDAR Point Cloud, Bare Earth Digital Elevation Models, and Contours
+
+</div>
+      
+                            </div>
+                                                                    </div>
+
+                                        </div><!--end hero-generic-wrapper-->
+
+                </div>
+            </div>
+        
+                        
+    </article>
+        
+    <div class="page-paragraphs gp-paragraphs with-nav-sidebar">
+      <aside id="toc-sidebar-mobile" aria-labelledby="sticky-menu-title-span">
+        <nav id="toc-mobile-nav" aria-controls="toc-mobile-heading">
+          <header>
+            <h2 id="toc-mobile-heading">On this page</h2>
+          </header>
+          <ul></ul>
+        </nav>
+        <span class="arrow"></span>
+      </aside>
+      <aside id="toc-sidebar-desktop" aria-labelledby="toc-desktop-heading">
+        <div class="toc-sidebar-desktop-wrapper">
+          <nav>
+            <header>
+              <h2 id="toc-desktop-heading">On this page</h2>
+            </header>
+            <ul></ul>
+          </nav>
+        </div>
+      </aside>
+      <button class="sticky-menu" aria-expanded="false" aria-labelledby="sticky-menu-title-span toc-mobile-heading">
+        <span id="sticky-menu-title-span" class="sticky-menu-title"><span>Elevation</span>
+</span>
+        <span class="sticky-menu-icon">
+          <span class="fa-solid fa-square-plus"></span>
+        </span>
+      </button>
+      <div class="article-content">
+        <div class="toc-chapters">
+          
+
+    
+        
+
+
+    <div class="next-section">
+        <div class="next-section-divider">
+            <hr />
+        </div>
+    </div>
+    <section id="toc_751" rel="enabled" class="toc-para webny_wysiwyg_pgtype gp_enabled" >
+        <h2>
+            <span class="toc-mobile-spacer"></span>
+
+                            NYS LIDAR
+            
+            
+        </h2>
+        <div >
+        
+            <div class="wysiwyg--field-webny-wysiwyg-body"><figure data-embed-button="media" data-entity-embed-display="view_mode:media.wysiwyg" data-entity-embed-display-settings="[]" data-entity-type="media" data-entity-uuid="8336c0b5-d314-4abc-8a46-09657efdf8f6" class="align-left embedded-entity" data-langcode="en"><article>
+  
+      
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--wysiwyg" data-blazy>    <div data-b-token="b-b48890bc52f" class="media media--blazy media--image media--responsive is-b-loading">  <img decoding="async" class="media__element b-lazy b-responsive" loading="lazy" data-src="/sites/g/files/oee1256/files/styles/wysiwyg/public/media/2022/10/lidarpointcloud3d_4_0.jpeg?itok=TO2Hk3_K" srcset width="500" height="344" data-srcset="/sites/g/files/oee1256/files/styles/wysiwyg/public/media/2022/10/lidarpointcloud3d_4_0.jpeg?itok=TO2Hk3_K 1x" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201%201'%2F%3E" alt="LIDAR Point Cloud" title="LIDAR Point Cloud" typeof="foaf:Image">
+
+        </div>
+  </div>
+      
+  </article>
+</figure>
+
+
+<p><span><span><span>New York State Elevation Program works closely with other state and federal agencies to plan, collect, and distribute LIDAR Data. Each year we plan our collections closely with other stakeholders to avoid duplication of effort and to ensure the highest priority areas are collected. We have been producing data since 2008 and have also focused our time collecting and distributing other datasets within New York State that date back to 2002.&nbsp; </span></span></span></p>
+
+<p class="text-align-center"><a href="/lidar"><span class="button">NYS LIDAR Collections, Downloads, and Metadata</span></a></p>
+</div>
+      
+        </div>
+    </section>
+
+    
+        
+
+
+    <div class="next-section">
+        <div class="next-section-divider">
+            <hr />
+        </div>
+    </div>
+    <section id="toc_756" rel="enabled" class="toc-para webny_wysiwyg_pgtype gp_enabled" >
+        <h2>
+            <span class="toc-mobile-spacer"></span>
+
+                            NYS Digital Elevation Models - DEM
+            
+            
+        </h2>
+        <div >
+        
+            <div class="wysiwyg--field-webny-wysiwyg-body"><figure data-entity-type="media" data-entity-uuid="b378ab99-77bb-4bec-8817-2f9a3385c1a1" data-embed-button="media" data-entity-embed-display="view_mode:media.wysiwyg" data-entity-embed-display-settings="[]" class="align-left embedded-entity" data-langcode="en"><article>
+  
+      
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--wysiwyg" data-blazy>    <div data-b-token="b-e35b54d26b3" class="media media--blazy media--image media--responsive is-b-loading">  <img decoding="async" class="media__element b-lazy b-responsive" loading="lazy" data-src="/sites/g/files/oee1256/files/styles/wysiwyg/public/media/2022/10/dem-3d.jpeg?itok=oooBkmAM" srcset width="500" height="342" data-srcset="/sites/g/files/oee1256/files/styles/wysiwyg/public/media/2022/10/dem-3d.jpeg?itok=oooBkmAM 1x" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201%201'%2F%3E" alt="DEM 3D" title="DEM 3D" typeof="foaf:Image">
+
+        </div>
+  </div>
+      
+  </article>
+</figure>
+<p><span>The New York State Elevation Program has 1 meter DEM available statewide. DEM’s are one of the many derived datasets from the LIDAR point cloud.&nbsp; The DEM’s represent the bare earth topographic surface and do not include any vegetation, buildings, or other above ground features. DEM’s serve many purposes including land-use planning, contour generation and hydrology.&nbsp;</span></p><p class="text-align-center"><a href="/nys-dem"><span class="button">NYS DEM Collections, Downloads, and Metadata</span></a></p></div>
+      
+        </div>
+    </section>
+
+    
+        
+
+
+    <div class="next-section">
+        <div class="next-section-divider">
+            <hr />
+        </div>
+    </div>
+    <section id="toc_761" rel="enabled" class="toc-para webny_wysiwyg_pgtype gp_enabled" >
+        <h2>
+            <span class="toc-mobile-spacer"></span>
+
+                            NYS Contours
+            
+            
+        </h2>
+        <div >
+        
+            <div class="wysiwyg--field-webny-wysiwyg-body"><figure data-embed-button="media" data-entity-embed-display="view_mode:media.wysiwyg" data-entity-embed-display-settings="[]" data-entity-type="media" data-entity-uuid="29c7ea4e-5adc-43b4-969d-0975de6389ce" class="align-left embedded-entity" data-langcode="en"><article>
+  
+      
+            <div class="blazy blazy--field blazy--field-media-image blazy--field-media-image--wysiwyg" data-blazy>    <div data-b-token="b-4684f0051d7" class="media media--blazy media--image media--responsive is-b-loading">  <img decoding="async" class="media__element b-lazy b-responsive" loading="lazy" data-src="/sites/g/files/oee1256/files/styles/wysiwyg/public/media/2022/10/contourhillshade2_0.jpeg?itok=283aiFjo" srcset width="500" height="290" data-srcset="/sites/g/files/oee1256/files/styles/wysiwyg/public/media/2022/10/contourhillshade2_0.jpeg?itok=283aiFjo 1x" src="data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%201%201'%2F%3E" alt="High Resolution Contours" title="High Resolution Contours" typeof="foaf:Image">
+
+        </div>
+  </div>
+      
+  </article>
+</figure>
+
+
+<p><span><span><span><span><span><span><span>The New York State Elevation Program is in the process of having high resolution contours of 2 feet or better intervals available statewide. Contours are generated from the high resolution DEM’s that we have available. Contours are a representation of the bare earth surface that indicate the ground elevation and help visualize the characteristics of the earth's&nbsp;surface.</span></span></span></span></span></span></span></p>
+
+<p class="text-align-center"><span class="button"><a href="/nys-contours">NYS Contour DOWNLOADS, AND METADATA</a></span></p>
+</div>
+      
+        </div>
+    </section>
+
+    
+        
+
+
+
+    <div class="next-section">
+        <div class="next-section-divider">
+            <hr />
+        </div>
+    </div>
+    <section id="toc_816" rel="enabled" class="toc-para webny_whats_related_pgtype gp_enabled" >
+    <div class="webny_whats_related_pgtype">
+      <span class="toc-mobile-spacer"></span>
+        <h3 class="webny-whats-related-title">Additional Elevation Data Resources</h3>
+
+                                     <a href="/us-interagency-elevation-inventory" title="" aria-label="" rel="bookmark">U.S. Interagency Elevation Inventory</a>
+                                                             <a href="/3d-us-elevation-program" title="" aria-label="" rel="bookmark">3D U.S Elevation Program</a>
+                                                             <a href="/noaa-coastal-service-center-digital-coast" title="" aria-label="" rel="bookmark">NOAA Coastal Service Center - Digital Coast</a>
+                                                             <a href="/cugir-elevation-data" title="" aria-label="" rel="bookmark">CUGIR Elevation Data</a>
+                                                             <a href="/nys-dec-lake-contours-map" title="" aria-label="" rel="bookmark">NYS DEC Lake Contours Map</a>
+                                                                                                                                    
+    </div>
+    </section>
+
+    
+        
+
+
+    <div class="next-section">
+        <div class="next-section-divider">
+            <hr />
+        </div>
+    </div>
+    <section id="toc_3506" rel="enabled" class="toc-para webny_wysiwyg_pgtype gp_enabled" >
+        <h2>
+            <span class="toc-mobile-spacer"></span>
+
+                            Frequently Asked Questions
+            
+            
+        </h2>
+        <div >
+        
+            <div class="wysiwyg--field-webny-wysiwyg-body"><p><a href="/elevation-faqs">Elevation FAQs</a></p></div>
+      
+        </div>
+    </section>
+
+
+        </div>
+      </div>
+  </div>
+
+
+</div>
+  </div>
+
+    </div>
+    
+    
+  </main>
+
+  
+</div>
+  </div>
+
+    <div class="webny-back-to-top-wrapper">
+      <a href="#main-content" class="webny-back-to-top webny-back-to-top-hidden" title="Back to Top" aria-label="Back to Top">
+        <span class="fa fa-chevron-up" aria-hidden="true"></span>
+        <span class="sr-only">Scroll back to the top of the page</span>
+      </a>
+    </div>
+     
+
+<div class="webny-global-footer">
+
+    <div id="block-sitebranding">
+        <div class="agency-name">
+            <a href="/" title="Home" rel="home">
+                                    NYS GIS Clearinghouse<br />
+                            </a>
+        </div>
+    </div>
+    <nav id="block-global-footer-menu"  class="footer-menu footer-horizontal">
+            
+        <ul class="global-footer-top-links">
+                        <li>
+                <a href="/about-us" data-drupal-link-system-path="node/566">About </a>
+                            </li>
+                    <li>
+                <a href="/accessibility" data-drupal-link-system-path="node/581">Accessibility</a>
+                            </li>
+                    <li>
+                <a href="/about-us#contact-us" data-drupal-link-system-path="node/566">Contact Us</a>
+                            </li>
+                    <li>
+                <a href="/disclaimer" data-drupal-link-system-path="node/571">Disclaimer</a>
+                            </li>
+                    <li>
+                <a href="https://its.ny.gov/foil">Freedom of Information Law (FOIL)</a>
+                            </li>
+                    <li>
+                <a href="https://its.ny.gov/language-access">Language Access</a>
+                            </li>
+                    <li>
+                <a href="/privacy-policy" data-drupal-link-system-path="node/576">Privacy Policy</a>
+                            </li>
+                    <li>
+                <a href="https://www.ny.gov/services/register-vote">Register to Vote</a>
+                            </li>
+                    <li>
+                <a href="https://whoswho.gis.ny.gov/whoswho/">GIS Who&#039;s Who</a>
+                            </li>
+                    <li>
+                <a href="/sitemap" data-drupal-link-system-path="sitemap">Site Map</a>
+                            </li>
+            </ul>
+        
+
+
+    </nav>
+
+    
+</div>
+<div id="nygov-universal-footer"></div>
+
+    <script src="/modules/contrib/blazy/js/polyfill/blazy.polyfill.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.classlist.min.js?tn7c5q"></script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.1"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.promise.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.raf.min.js?tn7c5q"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupal.js?v=10.6.19"></script>
+<script src="/core/misc/drupal.init.js?v=10.6.19"></script>
+<script src="/core/misc/debounce.js?v=10.6.19"></script>
+<script src="/modules/contrib/blazy/js/dblazy.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.once.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.sanitizer.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dom.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.base.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.dataset.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.viewport.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.xlazy.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.observer.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/plugin/blazy.loading.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/polyfill/blazy.webp.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.media.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/base/blazy.drupal.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/blazy.load.min.js?tn7c5q"></script>
+<script src="/modules/contrib/blazy/js/blazy.compat.min.js?tn7c5q"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.3.0"></script>
+<script src="/core/misc/progress.js?v=10.6.19"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.3.0"></script>
+<script src="/core/misc/announce.js?v=10.6.19"></script>
+<script src="/core/misc/message.js?v=10.6.19"></script>
+<script src="/core/misc/ajax.js?v=10.6.19"></script>
+<script src="/profiles/custom/webny/themes/contrib/stable/js/ajax.js?v=10.6.19"></script>
+<script src="/modules/contrib/blazy/js/base/io/bio.ajax.min.js?tn7c5q"></script>
+<script src="/modules/contrib/ckeditor_accordion/js/accordion.frontend.min.js?tn7c5q"></script>
+<script src="/modules/contrib/google_tag/js/gtag.ajax.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/modules/custom/webny_global_nav/js/webny-global-nav-header.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/modules/custom/webny_secondary_nav/js/webny_secondary_nav.js?v=1"></script>
+<script src="/profiles/custom/webny/modules/custom/webny_secondary_nav/js/webny_secondary_nav_backend.js?v=1"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/backtotop.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/call_and_response.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/date_picker.js?v=1"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/filter_card.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/hero.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/../../../libraries/waypoints/lib/jquery.waypoints.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/navigator.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/popular_services.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/quicklinks.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/stat_infographic.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/../../../libraries/datatables/media/js/jquery.dataTables.min.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/table.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/two_button_descriptor.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/themes/custom/webny_theme/js/wysiwyg.js?tn7c5q"></script>
+<script src="//static-assets.ny.gov/sites/all/widgets/universal-navigation/js/dist/global-nav-bundle.js" aync></script>
+<script src="/profiles/custom/webny/modules/custom/webny_unav/js/webny_unav_backend.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/modules/custom/webny_unav/js/webny_unav_smartling.js?tn7c5q"></script>
+<script src="/profiles/custom/webny/modules/custom/webny_unav/js/webny_unav_frontend.js?tn7c5q"></script>
+
+  </body>
+</html>

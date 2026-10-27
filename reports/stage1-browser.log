@@ -1,0 +1,9 @@
+
+> nyc-real-scale-3d@0.1.0 test:browser
+> node tests/browser.mjs
+
+PASS real official sample and local 3D Tiles load with no cloud/ion requests
+PASS actual GLB feature picking preserves a stable source ID and shows separate evidence
+PASS camera, search, area selection and archive collapse stay interactive
+PASS touch-size layout keeps real-data controls readable without horizontal overflow
+{"checks":4,"errors":[]}

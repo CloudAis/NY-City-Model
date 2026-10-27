@@ -1,0 +1,14 @@
+{
+  "request_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/75b225ab7c8c402f85de74f7883d62a0?f=pjson",
+  "final_url": "https://nyc.maps.arcgis.com/sharing/rest/content/items/75b225ab7c8c402f85de74f7883d62a0?f=pjson",
+  "download_started_at": "2026-10-27T04:04:13.326925+00:00",
+  "download_completed_at": "2026-10-27T04:04:13.764568+00:00",
+  "http_status": 200,
+  "content_type": "text/plain;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 1989,
+  "sha256": "a774d076d252c6433e8ceba8eb38e49e68e6a502498331ab137a90e20156d9c7",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,725 @@
+{
+  "results" :
+    [
+      {
+        "resource" :
+          {
+            "name" : "NYC Planimetric Database: Roadbed",
+            "id" : "xgwd-7vhd",
+            "resource_name" : null,
+            "parent_fxf" : [ "i36f-5ih7" ],
+            "description" : "Planimetric basemap layer containing Roadbed. Roadbed is the foundation structure on which railroad tracks are laid.\t\t\t\r\nPlease see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2024-04-30T18:48:25.000Z",
+            "createdAt" : "2014-06-25T18:43:35.000Z",
+            "metadata_updated_at" : "2024-04-30T18:48:25.000Z",
+            "data_updated_at" : "2024-04-24T20:25:27.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 74,
+                "page_views_last_month" : 308,
+                "page_views_total" : 10397,
+                "page_views_last_week_log" : 6.22881869049588,
+                "page_views_last_month_log" : 8.271463027904375,
+                "page_views_total_log" : 13.344018439881326
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 3252,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-04-24T20:27:49.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" : [ "roadbed", "planimetrics" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "6/25/2014" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Data-Collection_Data-Collection",
+                  "value" : "NYC Planimetric Database"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/xgwd-7vhd",
+        "link" : "https://data.cityofnewyork.us/Transportation/NYC-Planimetric-Database-Roadbed/xgwd-7vhd",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "NYC Planimetric Database: Roadbed",
+            "id" : "i36f-5ih7",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Planimetric basemap layer containing Roadbed. Roadbed is the foundation structure on which railroad tracks are laid.\t\t\t\r\n\r\nPlease see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2025-12-10T16:04:06.000Z",
+            "createdAt" : "2014-06-25T18:53:15.000Z",
+            "metadata_updated_at" : "2025-12-10T16:04:06.000Z",
+            "data_updated_at" : "2024-04-24T20:25:27.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 57,
+                "page_views_last_month" : 195,
+                "page_views_total" : 1852,
+                "page_views_last_week_log" : 5.857980995127572,
+                "page_views_last_month_log" : 7.6147098441152075,
+                "page_views_total_log" : 10.855647166027266
+              },
+            "columns_name" :
+              [
+                "SHAPE_Area",
+                "SHAPE_Leng",
+                "SOURCE_ID",
+                "FEAT_CODE",
+                "STATUS",
+                "the_geom",
+                "SUB_CODE"
+              ],
+            "columns_field_name" :
+              [
+                "shape_area",
+                "shape_leng",
+                "source_id",
+                "feat_code",
+                "status",
+                "the_geom",
+                "sub_code"
+              ],
+            "columns_datatype" :
+              [
+                "Number",
+                "Number",
+                "Number",
+                "Number",
+                "Text",
+                "MultiPolygon",
+                "Number"
+              ],
+            "columns_description" :
+              [
+                "The shape length and area values for polygon feature classes.",
+                "The shape length values for polyline feature classes.",
+                "Unique feature Identification Number.",
+                "Feature Code Indicates the type of feature.",
+                "Field indicating the feature status as it fits into one of the following categories:    a)     b) Feature has changed in 2022 collection - feature existed previously but has been updated during the 2022 planimetrics update project.    c) No change in 2022 collection - feature is unchanged from the source planimetrics database.",
+                "Geometry field used for mapping. Geometry Type: Polygon",
+                "Sub Feature Code (where applicable) indicates a subset of features within a given “Feature_Code” set."
+              ],
+            "columns_format" : [ {}, {}, {}, {}, {}, {}, {} ],
+            "download_count" : 2090,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2016-03-15T15:20:02.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" : [ "planimetrics", "roadbed" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "6/25/2014" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Update_Data-Change-Frequency",
+                  "value" : "As Needed"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/i36f-5ih7",
+        "link" : "https://data.cityofnewyork.us/Transportation/NYC-Planimetric-Database-Roadbed/i36f-5ih7",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Roadbed Pointer List (RPL)",
+            "id" : "qs4p-vs2w",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "A text file representing the relationships between generic and roadbed segments (or roadbed terminators segments that represent the merging of divided roadbeds back into each other as a single roadbed or undivided street) by segment ID.\n\nAll previously released versions of this data are available on the <a href=\"https://www.nyc.gov/content/planning/pages/resources/datasets/road-pointer-list\">DCP Website: BYTES of the BIG APPLE</a>. Current version: 26b",
+            "attribution" : "Department of City Planning (DCP)",
+            "attribution_link" : "https://www.nyc.gov/site/planning/data-maps/open-data.page#lion",
+            "contact_email" : null,
+            "type" : "file",
+            "updatedAt" : "2026-05-26T19:46:20.000Z",
+            "createdAt" : "2015-07-14T17:26:48.000Z",
+            "metadata_updated_at" : "2026-05-26T19:46:20.000Z",
+            "data_updated_at" : "2015-07-14T17:26:48.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 8,
+                "page_views_last_month" : 33,
+                "page_views_total" : 1059,
+                "page_views_last_week_log" : 3.1699250014423126,
+                "page_views_last_month_log" : 5.08746284125034,
+                "page_views_total_log" : 10.049848549450562
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 750,
+            "provenance" : "official",
+            "lens_view_type" : "blobby",
+            "lens_display_type" : "blob",
+            "locked" : false,
+            "backend" : "not_a_dataset",
+            "blob_mime_type" : "application/zip",
+            "hide_from_data_json" : false,
+            "publication_date" : "2015-07-14T17:26:48.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "Yes" },
+                { "key" : "Update_Date-Made-Public", "value" : "9/13/2021" },
+                { "key" : "Update_Update-Frequency", "value" : "Quarterly" },
+                {
+                  "key" : "Update_Data-Change-Frequency",
+                  "value" : "Quarterly"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of City Planning (DCP)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/qs4p-vs2w",
+        "link" : "https://data.cityofnewyork.us/City-Government/Roadbed-Pointer-List-RPL-/qs4p-vs2w",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "NYC Planimetric Database: Curbs",
+            "id" : "ikvd-dex8",
+            "resource_name" : null,
+            "parent_fxf" : [ "5xvt-8cbk" ],
+            "description" : "All curbs between roadbed pavement and other surfaces (i.e., within the street right-of-way) were captured. \r\nPlease see the following link for additional documentation- https://github.com/CityOfNewYork/nyc-planimetrics/blob/master/Capture_Rules.md.",
+            "attribution" : "Office of Technology and Innovation (OTI)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2024-04-25T19:42:38.000Z",
+            "createdAt" : "2016-03-14T21:14:52.000Z",
+            "metadata_updated_at" : "2024-04-25T19:42:38.000Z",
+            "data_updated_at" : "2024-04-24T20:45:48.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 49,
+                "page_views_last_month" : 207,
+                "page_views_total" : 9249,
+                "page_views_last_week_log" : 5.643856189774724,
+                "page_views_last_month_log" : 7.700439718141093,
+                "page_views_total_log" : 13.175237650291038
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 1723,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-04-25T19:42:38.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" : [ "planimetrics", "curbs" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "3/15/2016" },
+                { "key" : "Update_Update-Frequency", "value" : "As needed" },
+                {
+                  "key" : "Data-Collection_Data-Collection",
+                  "value" : "NYC Planimetric Database"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Office of Technology and Innovation (OTI)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/ikvd-dex8",
+        "link" : "https://data.cityofnewyork.us/City-Government/NYC-Planimetric-Database-Curbs/ikvd-dex8",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Pedestrian Space Added",
+            "id" : "uebm-cmjr",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "Pedestrian space are added between roadways and at sidewalk curbs to increase pedestrian safety as well as traffic calming. The added pedestrian spaces allows accessibility and mobility for pedestrians at high traffic volume locations.",
+            "attribution" : "Department of Transportation (DOT)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-04T18:03:13.000Z",
+            "createdAt" : "2021-01-08T04:24:17.000Z",
+            "metadata_updated_at" : "2026-09-04T18:03:13.000Z",
+            "data_updated_at" : "2026-09-04T18:03:00.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 9,
+                "page_views_last_month" : 95,
+                "page_views_total" : 1706,
+                "page_views_last_week_log" : 3.3219280948873626,
+                "page_views_last_month_log" : 6.584962500721156,
+                "page_views_total_log" : 10.73724734302774
+              },
+            "columns_name" :
+              [ "Project Title", "City FY", "Total Former Roadbed Space" ],
+            "columns_field_name" :
+              [ "project_title", "city_fy", "total_former_roadbed_space" ],
+            "columns_datatype" : [ "Text", "Number", "Number" ],
+            "columns_description" :
+              [
+                "The name of the pedestrian space project. ",
+                "The fiscal year of the project.",
+                "The total square footage of the roadbed that was converted to pedestrian space."
+              ],
+            "columns_format" : [ {}, { "noCommas" : "true" }, {} ],
+            "download_count" : 1579,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2026-09-04T18:03:13.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "City Government",
+            "domain_tags" :
+              [ "pedestrian", "walk", "plaza", "space", "medians" ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "2/22/2021" },
+                { "key" : "Update_Update-Frequency", "value" : "Annually" },
+                {
+                  "key" : "Update_Data-Change-Frequency",
+                  "value" : "As Needed"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Transportation (DOT)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/uebm-cmjr",
+        "link" : "https://data.cityofnewyork.us/City-Government/Pedestrian-Space-Added/uebm-cmjr",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Street and Highway Capital Reconstruction Projects - Intersection (Map)",
+            "id" : "3zy2-a8eg",
+            "resource_name" : null,
+            "parent_fxf" : [ "97nd-ff3i" ],
+            "description" : "This data is a spatial representation of street construction projects. Street and Highway capital projects are major street reconstruction projects, ranging from general street resurfacing projects to full reconstruction of the roadbed, sidewalks, sewer and water pipes and other utilities. Capital projects are essential to keep the City's infrastructure in a state of good repair.",
+            "attribution" : "Department of Transportation (DOT)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-10-01T12:55:16.000Z",
+            "createdAt" : "2021-10-19T13:22:09.000Z",
+            "metadata_updated_at" : "2022-05-11T17:44:05.000Z",
+            "data_updated_at" : "2026-10-01T12:55:16.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 17,
+                "page_views_last_month" : 55,
+                "page_views_total" : 1475,
+                "page_views_last_week_log" : 4.169925001442312,
+                "page_views_last_month_log" : 5.807354922057605,
+                "page_views_total_log" : 10.527477006060396
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 37,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-05-11T17:44:05.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "highway",
+                "street",
+                "sidewalk",
+                "roadbed",
+                "construction",
+                "capital projects"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "5/10/2021" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Transportation (DOT)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/3zy2-a8eg",
+        "link" : "https://data.cityofnewyork.us/Transportation/Street-and-Highway-Capital-Reconstruction-Projects/3zy2-a8eg",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Street and Highway Capital Reconstruction Projects - Block (Map)",
+            "id" : "si9g-fztb",
+            "resource_name" : null,
+            "parent_fxf" : [ "jvk9-k4re" ],
+            "description" : "This data is a spatial representation of street construction projects. Street and Highway capital projects are major street reconstruction projects, ranging from general street resurfacing projects to full reconstruction of the roadbed, sidewalks, sewer and water pipes and other utilities. Capital projects are essential to keep the City's infrastructure in a state of good repair.",
+            "attribution" : "Department of Transportation (DOT)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "map",
+            "updatedAt" : "2026-10-01T10:01:07.000Z",
+            "createdAt" : "2021-10-19T13:19:58.000Z",
+            "metadata_updated_at" : "2022-05-11T17:41:22.000Z",
+            "data_updated_at" : "2026-10-01T10:01:07.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 11,
+                "page_views_last_month" : 60,
+                "page_views_total" : 1790,
+                "page_views_last_week_log" : 3.5849625007211565,
+                "page_views_last_month_log" : 5.930737337562887,
+                "page_views_total_log" : 10.806549621985962
+              },
+            "columns_name" : [],
+            "columns_field_name" : [],
+            "columns_datatype" : [],
+            "columns_description" : [],
+            "columns_format" : [],
+            "download_count" : 17,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "visualization_canvas_map",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2022-05-11T17:41:22.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "highway",
+                "street",
+                "sidewalk",
+                "roadbed",
+                "capital projects",
+                "construction"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "5/10/2021" },
+                { "key" : "Update_Update-Frequency", "value" : "Monthly" },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Transportation (DOT)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/si9g-fztb",
+        "link" : "https://data.cityofnewyork.us/Transportation/Street-and-Highway-Capital-Reconstruction-Projects/si9g-fztb",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      },
+      {
+        "resource" :
+          {
+            "name" : "Shared E-Scooter Parking Corrals",
+            "id" : "hjz2-y62k",
+            "resource_name" : null,
+            "parent_fxf" : [],
+            "description" : "This dataset contains all designated parking corral locations for shared electric scooters (e-scooters) in the East Bronx and Eastern Queens service areas. \nE-Scooter parking corrals are marked on the roadbed or sidewalk where shared e-scooters operated by Lime, Veo, and Bird can be parked.",
+            "attribution" : "Department of Transportation (DOT)",
+            "attribution_link" : null,
+            "contact_email" : null,
+            "type" : "dataset",
+            "updatedAt" : "2026-09-01T16:35:31.000Z",
+            "createdAt" : "2024-08-14T16:42:04.000Z",
+            "metadata_updated_at" : "2026-09-01T16:35:29.000Z",
+            "data_updated_at" : "2026-09-01T16:35:31.000Z",
+            "page_views" :
+              {
+                "page_views_last_week" : 25,
+                "page_views_last_month" : 119,
+                "page_views_total" : 2883,
+                "page_views_last_week_log" : 4.700439718141093,
+                "page_views_last_month_log" : 6.906890595608519,
+                "page_views_total_log" : 11.493855449240824
+              },
+            "columns_name" :
+              [
+                "Borough",
+                "Shape_Area",
+                "Install_Date",
+                "the_geom",
+                "Parking Location",
+                "Shape_Leng",
+                "Type"
+              ],
+            "columns_field_name" :
+              [
+                "borough",
+                "shape_area",
+                "install_da",
+                "the_geom",
+                "parking_location",
+                "shape_leng",
+                "type"
+              ],
+            "columns_datatype" :
+              [
+                "Text",
+                "Number",
+                "Calendar date",
+                "MultiPolygon",
+                "Text",
+                "Number",
+                "Text"
+              ],
+            "columns_description" :
+              [
+                "The borough where the e-scooter corral is located in.",
+                "The area of the E-Scooter Parking Corral in square feet.",
+                "The month and year the corral was placed.",
+                "Geometry column used for mapping. Multipolygon",
+                "Crossing streets/addresses indicating location of E-Scooter Parking Corrals",
+                "The perimeter of the e-scooter parking corral in feet. ",
+                "Indicates if the e-scooter parking corral is located on the sidewalk or the curbside parking lane in the roadbed."
+              ],
+            "columns_format" :
+              [ {}, {}, { "view" : "date_monthy" }, {}, {}, {}, {} ],
+            "download_count" : 1607,
+            "provenance" : "official",
+            "lens_view_type" : "tabular",
+            "lens_display_type" : "table",
+            "locked" : false,
+            "backend" : "nbe",
+            "blob_mime_type" : null,
+            "hide_from_data_json" : false,
+            "publication_date" : "2024-10-01T18:30:26.000Z"
+          },
+        "classification" :
+          {
+            "categories" : [],
+            "tags" : [],
+            "domain_category" : "Transportation",
+            "domain_tags" :
+              [
+                "escooter",
+                "electric",
+                "corral",
+                "parking",
+                "bronx",
+                "scooter",
+                "e-scooter"
+              ],
+            "domain_metadata" :
+              [
+                { "key" : "Update_Automation", "value" : "No" },
+                { "key" : "Update_Date-Made-Public", "value" : "10/1/2024" },
+                {
+                  "key" : "Update_Update-Frequency",
+                  "value" : "Every 6 months"
+                },
+                {
+                  "key" : "Update_Data-Change-Frequency",
+                  "value" : "Every 6 months"
+                },
+                {
+                  "key" : "Dataset-Information_Agency",
+                  "value" : "Department of Transportation (DOT)"
+                }
+              ]
+          },
+        "metadata" : { "domain" : "data.cityofnewyork.us" },
+        "permalink" : "https://data.cityofnewyork.us/d/hjz2-y62k",
+        "link" : "https://data.cityofnewyork.us/Transportation/Shared-E-Scooter-Parking-Corrals/hjz2-y62k",
+        "owner" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          },
+        "creator" :
+          {
+            "id" : "5fuc-pqz2",
+            "user_type" : "interactive",
+            "display_name" : "NYC OpenData"
+          }
+      }
+    ],
+  "resultSetSize" : 18,
+  "timings" : { "serviceMillis" : 30, "searchMillis" : [ 17, 5 ] },
+  "warnings" : []
+}

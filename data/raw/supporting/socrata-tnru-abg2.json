@@ -1,0 +1,118 @@
+{
+  "id" : "tnru-abg2",
+  "name" : "3-D Building Model",
+  "assetType" : "href",
+  "attribution" : "Office of Technology and Innovation (OTI)",
+  "averageRating" : 0,
+  "category" : "City Government",
+  "createdAt" : 1460989196,
+  "description" : "This three-dimensional (3-D) building massing model of New York City is one of the many digital tools provided by the Office of Technology and Innovation.  There are three file formats available to download via the buttons below. <br> <br> For more information on all the tools available, view the <a href=\"https://www.nyc.gov/content/oti/pages/tools\">OTI's Digital Tools</a> web page.",
+  "diciBackend" : false,
+  "displayType" : "href",
+  "downloadCount" : 2,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1536767559,
+  "locked" : false,
+  "newBackend" : false,
+  "numberOfComments" : 0,
+  "oid" : 20115462,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1460996458,
+  "publicationGroup" : 10051400,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1460989196,
+  "tableId" : 10051400,
+  "totalTimesRated" : 0,
+  "viewCount" : 24746,
+  "viewLastModified" : 1677774897,
+  "viewType" : "href",
+  "approvals" : [ {
+    "reviewedAt" : 1460999292,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1066356,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1460999292,
+    "targetAudience" : "public",
+    "workflowId" : 2285,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "5fuc-pqz2",
+      "displayName" : "NYC OpenData"
+    }
+  } ],
+  "clientContext" : {
+    "clientContextVariables" : [ ],
+    "inheritedVariables" : { }
+  },
+  "columns" : [ ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "additionalAccessPoints" : [ {
+      "urls" : {
+        "CityGML" : "https://s-media.nyc.gov/agencies/oti/DA_WISE_GML.zip",
+        "Multipatch (ESRI)" : "https://s-media.nyc.gov/agencies/oti/DA_WISE_Multipatch.zip",
+        "DGN (Microstation)" : "https://s-media.nyc.gov/agencies/oti/DA_Wise_DGN.zip"
+      }
+    } ],
+    "custom_fields" : {
+      "Update" : {
+        "Automation" : "No",
+        "Date Made Public" : "4/18/2016",
+        "Update Frequency" : "Historical data"
+      },
+      "Dataset Information" : {
+        "Agency" : "Office of Technology and Innovation (OTI)"
+      }
+    },
+    "accessPoints" : {
+      "CityGML" : "https://s-media.nyc.gov/agencies/oti/DA_WISE_GML.zip",
+      "Multipatch (ESRI)" : "https://s-media.nyc.gov/agencies/oti/DA_WISE_Multipatch.zip",
+      "DGN (Microstation)" : "https://s-media.nyc.gov/agencies/oti/DA_Wise_DGN.zip"
+    },
+    "rowLabel" : "Row",
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+    "renderTypeConfig" : {
+      "visible" : {
+        "href" : true
+      }
+    }
+  },
+  "owner" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "5fuc-pqz2",
+    "displayName" : "NYC OpenData",
+    "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+    "screenName" : "NYC OpenData",
+    "type" : "interactive",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "doitt", "gis", "doitt gis", "3d", "buildings", "model" ],
+  "flags" : [ "default", "ownerMayBeContacted" ]
+}

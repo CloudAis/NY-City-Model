@@ -1,0 +1,14 @@
+{
+  "request_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_TidalShoreline.md",
+  "final_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-geo-metadata/main/Metadata/Metadata_TidalShoreline.md",
+  "download_started_at": "2026-10-27T03:48:04.404271+00:00",
+  "download_completed_at": "2026-10-27T03:48:04.627043+00:00",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"b453b9c78258ad6bb4b2a57f08296d9e059f147e79364326a8d7fdbefab22d95\"",
+  "last_modified_http": null,
+  "bytes": 4316,
+  "sha256": "f45b35c77d17876755f07b13c23a8bdadf25e6887d555c04c707f1376c6f39b5",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,199 @@
+var sitePath = '/content/planning/pages/';
+//var sitePath = '/assets/planning/html';
+
+var contentName = 'planning';
+var isAbsolute = false;
+var imagePath = '/assets/planning/images/content/';
+var contentHome = 'home';
+var contentURL = 'home';
+var defaultTitle = 'Department of City Planning - DCP';
+var pageTitle = defaultTitle;
+var errorPage = '';
+var error =
+   "<script> $('header').addClass('dark'); </script> <article class=\"content-container\"> <div class=\"main-section\"> <h1>Sorry, we couldn't find that page.</h1><p>It may have been removed or the link might be broken. Go back to the <a href='home'>homepage</a> or use the search bar to find what you need.</p> </div> </article>";
+var curFolder = '';
+var theFader;
+var imageName = '';
+var bread = {
+   ignoreList: ['zoning-districts-guide'],
+   tabList: {
+      plans: '#plans',
+      reports: '#reports',
+      'data-explorers': '#data-explorers',
+      datasets: '#datasets',
+      downloadablemaps: '#downloadable-maps',
+      geocoding: '#geocoding',
+   },
+  
+};
+boroughsList = ['brooklyn', 'bronx', 'citywide', 'manhattan', 'staten-island', 'queens'];
+
+function scrollToElement(theId) {
+   $('html, body').animate(
+      {
+         scrollTop: $('#' + theId).offset().top,
+      },
+      500
+   );
+}
+
+function callbackFunction() {
+   var theTitle = pageTitle + ' -';
+   var contentArr = contentURL.split('/');
+   var breadcrumbs = '<a class="crumb em--md" href="home">Home</a>';
+   var navSearch = '<div class="hidden-search-container" id="search-container" hidden><div class="gcse-search"></div></div>';
+
+   theTitle = theTitle.substring(0, theTitle.indexOf(' -'));
+   $('#pageTitle').html(theTitle);
+   theTitle = pageTitle.replace(' ', '%20');
+
+   $('#search-container').attr('aria-current', 'false');
+
+   if (getParent(contentURL) != 'home' && $('.hidden-search-container').length < 1) {
+      document.getElementsByTagName('header')[0].insertAdjacentHTML('beforeend', navSearch);
+      $('.gssb_c').remove();
+   } else if (getParent(contentURL) == 'home') {
+      $('.hidden-search-container').remove();
+      $('.gssb_c').remove();
+   }
+
+   createOptionElement();
+
+   if (contentURL == 'tools') {
+      $('body').addClass('index');
+   }
+   //if ($('#internal-head')) $('#internal-head').detach().appendTo('header');
+   if (getParent(contentURL) == 'home') $('#internal-head').remove();
+
+   if ($('.internal-header')[1]) {
+      $('#internal-head')[0].remove();
+      $('#internal-head').detach().appendTo('header');
+   } else {
+      $('#internal-head').detach().appendTo('header');
+   }
+
+   if ($('.internal-header')[0]) {
+      select = {
+         e: $('#internal-head').find('select')[0],
+         children: $('#internal-head').find('select').children(),
+      };
+      if (select.e) {
+         select.e.addEventListener('change', (e) => {
+            if (e.target.selectedIndex == 0) return;
+            window.location = select.children[e.target.selectedIndex].dataset.href;
+         });
+      }
+   }
+
+   for (let i = 0; i < contentArr.length - 1; i++) {
+      if (contentArr[i] in bread.tabList) continue;
+      console.log(contentArr[i])
+      if (bread.ignoreList.includes(contentArr[i])) continue;
+      if (contentArr[i + 1].replace('-', '') in bread.tabList) {
+         breadcrumbs += `<a class="crumb em--md" href="${contentArr.slice(0, i + 1).join('/') + bread.tabList[contentArr[i + 1]]}">${allFirstToUpper(
+            contentArr[i]
+         )}</a>`;
+      } else if (boroughsList.includes(contentArr[i])) {
+         breadcrumbs += `<a class="crumb em--md" href="${contentArr.slice(0, i - 1).join('/')}?active=${
+            contentArr[i] + bread.tabList[contentArr[i - 1]]
+         }">${allFirstToUpper(contentArr[i])}</a>`;
+      } else {
+         breadcrumbs += `<a class="crumb em--md" href="${contentArr.slice(0, i + 1).join('/')}">${allFirstToUpper(contentArr[i])}</a>`;
+      }
+      console.log("CONTENT ITEM - " + contentArr[i])
+      console.log(breadcrumbs)
+   }
+
+   if ($('#breadcrumb')[0]) {
+      $('#breadcrumb')[0].ariaLabel = "Breadcrumb Navigation"
+      $('#breadcrumb')[0].innerHTML = breadcrumbs;
+      //$('#breadcrumb')[0].replaceWith(`<nav id=\"breadcrumb\" aria-label=\"Breadcrumb Navigation\">${breadcrumbs}</nav>`)
+   }
+
+   (function () {
+      var cx = '20c2be062310247a8';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      $('#gsc-i-id1').placeholder = 'Search Department of City Planning';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+   })();
+
+   initComponents();
+   googleTranslateElementInit();
+
+   // awaitElm('input.gsc-input').then((elm) => {
+   //    elm.placeholder = 'Search Department of City Planning';
+   //    console.log("Init Placeholder");
+   // });
+
+   awaitElm('input#gsc-i-id1').then((elm) => {
+      elm.placeholder = 'Search Department of City Planning';
+   });
+
+   awaitElm('input#gsc-i-id2').then((elm) => {
+      elm.placeholder = 'Search Department of City Planning';
+   });
+}
+
+function searchLoad() {
+   var cx = '20c2be062310247a8';
+   var gcse = document.createElement('script');
+   gcse.type = 'text/javascript';
+   gcse.async = true;
+   gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+   var s = document.getElementsByTagName('script')[0];
+   s.parentNode.insertBefore(gcse, s);
+}
+
+function awaitElm(selector) {
+   return new Promise((resolve) => {
+      if (document.querySelector(selector)) {
+         return resolve(document.querySelector(selector));
+      }
+
+      const observer = new MutationObserver((mutations) => {
+         if (document.querySelector(selector)) {
+            observer.disconnect();
+            resolve(document.querySelector(selector));
+         }
+      });
+
+      // If you get "parameter 1 is not of type 'Node'" error, see https://stackoverflow.com/a/77855838/492336
+      observer.observe(document.body, {
+         childList: true,
+         subtree: true,
+      });
+   });
+}
+
+function googleTranslateElementInit() {
+   new google.translate.TranslateElement(
+      { pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false },
+      'google_translate_element'
+   );
+}
+
+const createOptionElement = () => {
+   if (!$('.content-container')) return;
+   $('.content-container').find('aside').append('<a class="arrow-link" href="#top">Top of Page</a>');
+
+   links = $('.content-container').find('aside').children().toArray();
+
+   htmlString = '<div class="aside-select-container"><select class="aside-select" id="section-pages"><option>Select Section</option>';
+
+   links.forEach((link) => {
+      htmlString += `<option data-href="${'#' + link.href.split('#')[1]}">${link.innerHTML}</option>`;
+   });
+
+   htmlString += '</select></div>';
+   $('.content-container').prepend(htmlString);
+
+   if ($('.aside-select')[0]) {
+      $('.aside-select')[0].addEventListener('change', (e) => {
+         $(e.target.options[e.target.options.selectedIndex].dataset.href)[0].scrollIntoView({ behavior: 'smooth' });
+      });
+   }
+};

@@ -1,0 +1,2998 @@
+{
+  "at": "2026-10-27T03:42:09.586031+00:00",
+  "search_roots": [
+    "/workspace/Tinnis",
+    "/workspace/library-files",
+    "/workspace/shared",
+    "/workspace/scratch"
+  ],
+  "excluded": [
+    ".agents",
+    ".aws",
+    ".codex",
+    ".git",
+    ".npm-cache",
+    ".venv",
+    "__pycache__",
+    "node_modules"
+  ],
+  "old_manhattan_found": false,
+  "items": [
+    {
+      "path": "/workspace/Tinnis/index.html",
+      "format": ".html",
+      "bytes": 570,
+      "sha256": "74ccc0c601940f8f0287e8d495fef65643360717c9b21991bb72c97eb4002983",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/offline-worker.js",
+      "format": ".js",
+      "bytes": 813,
+      "sha256": "231376544ff8aeb2001be26a3b89f9f8584818ae0a6f85552f841044f87a330c",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/package-lock.json",
+      "format": ".json",
+      "bytes": 55954,
+      "sha256": "fca7881fdcce996258e998d6c7662bd45f28c52303100f595a1609b227ac2468",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/package.json",
+      "format": ".json",
+      "bytes": 1565,
+      "sha256": "15707ca378475f16de6e6fb357889e2018ac3b40dc2b0c72597f117b41b78d66",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tsconfig.json",
+      "format": ".json",
+      "bytes": 300,
+      "sha256": "34a14b5f50323eced39cebf43c62e4f42e4ffbd08fa61d5f58cce23f8811cc0b",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/vite.config.ts",
+      "format": ".ts",
+      "bytes": 861,
+      "sha256": "f0dbcdb17ffe1642d910c1300d6c44f13de823f7b4b8e034ac881a1949782579",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/balance-report.json",
+      "format": ".json",
+      "bytes": 1765,
+      "sha256": "ff4ec3ff30e4c40d29f3c26d15c014d73a04382f9e7515ba97d3daa6a1022263",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/browser-report.json",
+      "format": ".json",
+      "bytes": 2701,
+      "sha256": "88ab98967291184b78542fa846321aa28544b9abd07eaae1ff53ce21928c9fc6",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/business-report.json",
+      "format": ".json",
+      "bytes": 36567,
+      "sha256": "19b81e36ea24ab373580923cf6732deff8d6d0727ae8f65fb9c000b2717e9655",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/construction-report.json",
+      "format": ".json",
+      "bytes": 12188,
+      "sha256": "3a82dd748af4b7306bd6ca0dd0f4912c9ec14e398268caaa8aa57a4974ae93a7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/default-config.json",
+      "format": ".json",
+      "bytes": 2581,
+      "sha256": "2ce3f0c822678b0e58308e951a14ed834f3bb2b6bfebe1c01432ec3afbfeef42",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/dispatch-report.json",
+      "format": ".json",
+      "bytes": 67299,
+      "sha256": "431a633cb2c37dba274e9cc6724f1294aea83a122eb3b8754fa9d77089dcd7e2",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/exported-save.json",
+      "format": ".json",
+      "bytes": 3538,
+      "sha256": "01896c692551da161b31c5e500d936f4a368820e01ba2f7df9c9c2180b67b4a9",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/first-look.png",
+      "format": ".png",
+      "bytes": 271630,
+      "sha256": "b3de70654b88a085c6a5e7701e4b88e4d19768ff244bc9df9ebbd2db626068b4",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/growth-report.json",
+      "format": ".json",
+      "bytes": 501501,
+      "sha256": "de9b13114e2cbd2e6caef056944676abeb820a1b3485fd3f19fcf9ae0fdfca94",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/packaged-report.json",
+      "format": ".json",
+      "bytes": 6990,
+      "sha256": "64c2d47dbb14d7a9237a3edc77bc54e8a60f2ccda4d6adbf302cb1bf7d4fc7bc",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/passenger-report.json",
+      "format": ".json",
+      "bytes": 37718,
+      "sha256": "cdb433f133e1ade65f42d6db3861345e3c086fc859d8f8d9724d6315c61afa7d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/preview-detail.png",
+      "format": ".png",
+      "bytes": 41836,
+      "sha256": "338cf7d63d068ae78be371cebcefafe11947a8b0b1968b1727f09e05c5a222ac",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/recovery-report.json",
+      "format": ".json",
+      "bytes": 27030,
+      "sha256": "bd08ff3c44c026f0f990d9b46e54449175d85acd6b851388490b9fd537bdacd3",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/regression-desktop.png",
+      "format": ".png",
+      "bytes": 362296,
+      "sha256": "cdc3d17d958a64b573bdefa2e40b04dc4f09d2f01f54835b7b4e509091061591",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/regression-mobile.png",
+      "format": ".png",
+      "bytes": 68453,
+      "sha256": "d4455e9bbcbbf64ec28286cd3751bc9de602b8df6f626cc0001ee06d801c42d1",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/regression-report.json",
+      "format": ".json",
+      "bytes": 6512,
+      "sha256": "d3df50d3842087809648e15253136c803cbe2524f51304a88b2e1c33b217c505",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-browser-report.json",
+      "format": ".json",
+      "bytes": 26236,
+      "sha256": "ca059dafba5e78585f11d0cc3458edb784bc3eacabc8d37d97eadf10b45417d6",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-large.json",
+      "format": ".json",
+      "bytes": 7244,
+      "sha256": "09bfa962d259fbb4920f427d32874c79108ed979b9fd16965f4abe3edcc1a704",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-light.json",
+      "format": ".json",
+      "bytes": 7241,
+      "sha256": "b9aa4adea7f90e6b177ab2cd5da2d4a8bf3eafcd01da03b15335395b6c66b8c9",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-manifest.json",
+      "format": ".json",
+      "bytes": 460,
+      "sha256": "429b1fe7163f0a2a6929d547f8a4b64dd95558773cdc0036d2241bde5a54859d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-10min.png",
+      "format": ".png",
+      "bytes": 470280,
+      "sha256": "3e82b3818e72ff3bb612d28f405129c9ea77b5a508a360801a469bd23bab7dad",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-15min.png",
+      "format": ".png",
+      "bytes": 327457,
+      "sha256": "7208d775ad1fc46d0e8c345d7c0abc04fc82539cd8f7a31f8db018ccaa7e4501",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-20min.png",
+      "format": ".png",
+      "bytes": 317889,
+      "sha256": "09638da9c25342023c9e908987d03d8766b1a2c649bdd7e7e3f22b2b2a529266",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-25min.png",
+      "format": ".png",
+      "bytes": 484263,
+      "sha256": "785da25a2421c830e8b25203fc45cba632e2c8c2a21c7d6421eb9cf5d68b8764",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-5min.png",
+      "format": ".png",
+      "bytes": 299888,
+      "sha256": "fcd3411742e34b31b1d55025bb908df3804e7a5a66cf4cbd5c22ba2538e1307f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-final-save.json",
+      "format": ".json",
+      "bytes": 552964,
+      "sha256": "8259f07bbf3bb4f849b819d52c91fac28a5d0a29f6d50ced87319f06a3a0a816",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-progress.json",
+      "format": ".json",
+      "bytes": 3095,
+      "sha256": "52fc02a75203334f49ef75a3c653b810f3888c0fa8eabab21045cb8c858a4e58",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/soak-report.json",
+      "format": ".json",
+      "bytes": 1120750,
+      "sha256": "f4f4e91ce14b752c7af23fc55b9ec662e3c4aa426328b2f1cfccba400cd17a42",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-1-desktop.png",
+      "format": ".png",
+      "bytes": 360057,
+      "sha256": "dccfcf34c01becb4edf8ad4ce9ea13bc00163ae59969f4559d1fd37e7b7df41a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-1-mobile.png",
+      "format": ".png",
+      "bytes": 99984,
+      "sha256": "fc60c2505869b074f42782e51c1ea55140e921da707f8ded234495c7a546d70d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-10-baseline.png",
+      "format": ".png",
+      "bytes": 358253,
+      "sha256": "c7a90c92375603e3c0a1084de8f622a5d112a36d0acc007c4865db742838904c",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-10-large-restore.png",
+      "format": ".png",
+      "bytes": 364490,
+      "sha256": "e3f8ccdbf7f567054ee0b850256b76982da2fba872609a478bd33e08f49f1d57",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-10-packaged-offline.png",
+      "format": ".png",
+      "bytes": 362568,
+      "sha256": "c3d63d9a122f9ee52513339a5620ef61ac8d59dd0ef6ae3e5e6d08dfa057cf3b",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-10-soak-final.png",
+      "format": ".png",
+      "bytes": 269529,
+      "sha256": "0dae4f9e42af673d2b9e62294264eb25bbcb662313936d5d0b96514f5c38cad0",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-2-berths.png",
+      "format": ".png",
+      "bytes": 490863,
+      "sha256": "a80ab57d186e70595b74c3f9ca7abfa69d450e425b7727a7210712fe4bb783ae",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-2-built.png",
+      "format": ".png",
+      "bytes": 364233,
+      "sha256": "692e71bad27918a2c4593b7704353eeeb765ec9032337008a6ad2c3d378d23c7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-2-disconnected.png",
+      "format": ".png",
+      "bytes": 364972,
+      "sha256": "95d62a969edc20187ad5ee8b9910def1e854f8242304e9989e33d7be47bd0d6b",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-2-mobile.png",
+      "format": ".png",
+      "bytes": 104102,
+      "sha256": "f6ae31b534951c1f7b944ba437f960445f6b1297af07ae75c6d8ff7ca85f6e05",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-2-preview.png",
+      "format": ".png",
+      "bytes": 361381,
+      "sha256": "f64a6b5ad79484aa0c5df53ed471f721576a66aa13edcc4f0e5ce25f58c69b68",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-2-save.json",
+      "format": ".json",
+      "bytes": 8099,
+      "sha256": "14baebecd12dcd3ed7f90d5a7fd36ed39c052dfb2220c8091aed60987623bc5f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-3-braking.png",
+      "format": ".png",
+      "bytes": 449105,
+      "sha256": "74ec9b82a9af34c0c209f7f6b027ae29bfd058d3ebadb66f8a2c9cef536cec77",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-3-cruise.png",
+      "format": ".png",
+      "bytes": 439840,
+      "sha256": "0c090e85e37eb1e0dce174f1db0dc77a56ddaec842ceebab18fb4e3f07bf948c",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-3-dwelling.png",
+      "format": ".png",
+      "bytes": 445508,
+      "sha256": "d25e44e735731fcd4740c44c2d2508af561b1bf6dfc3a0122a0f8766a0b9bb00",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-3-follow.png",
+      "format": ".png",
+      "bytes": 372225,
+      "sha256": "3c11d16ad7242751508f4e2218bbd9c80bfea7008bd1a1b2bb7dff116224bcd8",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-3-running.png",
+      "format": ".png",
+      "bytes": 348281,
+      "sha256": "345e0360786169707e27940b15c20185933a85ae036d7d4264f794b4772e3252",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-3-train-report.json",
+      "format": ".json",
+      "bytes": 9683,
+      "sha256": "51080e178e444f726d0c1f47b00f262404a050fda19114b8d90889393dcb2171",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-arrival.png",
+      "format": ".png",
+      "bytes": 449308,
+      "sha256": "4e8ecc2312d250989950ec1c9248b2641d6676b6b3b346625f21a48dcf981b8f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-boarding.png",
+      "format": ".png",
+      "bytes": 351201,
+      "sha256": "0b1026bd08ecd2a2e84dc1c9e8d0f71b10b3b67afceda8d331bfe82670667be5",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-demand.png",
+      "format": ".png",
+      "bytes": 378973,
+      "sha256": "ccfe5c963c16191cd23b8b6f99d8b6b87d6d12a8db911a41e2256d5a02fc5ceb",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-mobile.png",
+      "format": ".png",
+      "bytes": 61219,
+      "sha256": "392af6047f4262ea47206147ae85976be4a0d5f2208070716a904cf8cd213389",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-train-braking.png",
+      "format": ".png",
+      "bytes": 451567,
+      "sha256": "1c48e754c6e5b3fd9c547bd225ed04a665ba28f4709e90e6a1158282610749da",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-train-cruise.png",
+      "format": ".png",
+      "bytes": 444781,
+      "sha256": "0b65e1b5234a2d679974e2acdfcbf360e095a74dfe9b65ce56610b5989dc4a59",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-train-dwelling.png",
+      "format": ".png",
+      "bytes": 450081,
+      "sha256": "db2d06d316e2e132740e4cee5328eb9fb36573ec6ba423518dbb0e7a8cb8380e",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-train-follow.png",
+      "format": ".png",
+      "bytes": 377143,
+      "sha256": "24049cc89df6f9960b6c1e524a180aeb8a26e1e1fb6426abf83dc4c6b2f4026f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-4-train-running.png",
+      "format": ".png",
+      "bytes": 352387,
+      "sha256": "4af2190745cd18a7a01d8886b25757d63a3e909878a2949e4131ed90b75821be",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-5-business.png",
+      "format": ".png",
+      "bytes": 362459,
+      "sha256": "58601b61289edb21ad0b0599c9b95b632da61b698733309f14e6a52a916f2e50",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-5-mobile.png",
+      "format": ".png",
+      "bytes": 117573,
+      "sha256": "e1335307022b7d5e314964a06ee76f1818bd0ec885a9d3c4f6a1d134df61532d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-6-mobile.png",
+      "format": ".png",
+      "bytes": 75089,
+      "sha256": "a6252824bb386d2f51c952495e3a6cb5c80db00360472bf5db391fba376fa4f2",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-6-save.json",
+      "format": ".json",
+      "bytes": 33730,
+      "sha256": "acb0fd5ac61253b0eaf8b16ec21da5faec5c038a2379ad6ea982cb259e46afeb",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-6-signals.png",
+      "format": ".png",
+      "bytes": 357669,
+      "sha256": "eef8e642b91d6fcdcb9d3c246554e64a7e622a5dfe89c00aed64f2b481a52f17",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-6-two-trains.png",
+      "format": ".png",
+      "bytes": 369370,
+      "sha256": "9c1349cd3459eff67717c6799de6c20ebbbea38c9a5e59df3e5ff8b2261f93a0",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-branch.png",
+      "format": ".png",
+      "bytes": 486841,
+      "sha256": "97ba46a172dababa85acad764f6bde2431cc71fbf2b50d2d8357c33eeb98f4d7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-browser-save.json",
+      "format": ".json",
+      "bytes": 260583,
+      "sha256": "c2d733ba02d730adc39ce3325b5373d026ca541529839434d97e629ea8492b78",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-clearance.png",
+      "format": ".png",
+      "bytes": 537433,
+      "sha256": "e715516d3c25c00a8f2dd7a34f28627227f55c5d12b71c06ccfa073b3afa220d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-development.png",
+      "format": ".png",
+      "bytes": 330428,
+      "sha256": "7ebd33c2993fb80218f2a9d7fa859a06e447ab2b03ccf65620e0896daf92f588",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-final-review.json",
+      "format": ".json",
+      "bytes": 499856,
+      "sha256": "678b5cad8652d0b09a08350e0a2b7320a74e18050ef0f208d66e02defdcbcf54",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-mobile.png",
+      "format": ".png",
+      "bytes": 146367,
+      "sha256": "cad7cdd58eff6be737dd6cc74872fde266a0e2dc694e9ef7d64afa563ef4a527",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-overview.png",
+      "format": ".png",
+      "bytes": 370898,
+      "sha256": "79e737fdba15d6031be68e7bf844e7a3f6c8236371f9c3a6493cd058064a91e7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-pax-arrival.png",
+      "format": ".png",
+      "bytes": 448185,
+      "sha256": "0348e7685e760c4d391b4fb34054dbb449d167b81f2c8f37c642eb86d56dda5c",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-pax-boarding.png",
+      "format": ".png",
+      "bytes": 356609,
+      "sha256": "2775c01c85dd7833a727e73ccf710f329b219c1c99336655f58861c03a249746",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-pax-demand.png",
+      "format": ".png",
+      "bytes": 386134,
+      "sha256": "1cba7d4f201810b3c5306201ed7ee3ec051b61346fe5241c053970480c1bf4b0",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-pax-mobile.png",
+      "format": ".png",
+      "bytes": 60120,
+      "sha256": "0bd28e6f1501e50b8571eb80a0216101a681e68bfbb07fe98cccd174582b6f70",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-tourism.png",
+      "format": ".png",
+      "bytes": 460622,
+      "sha256": "d82517a00ed15d9ddb8855e300b7ef47d5b5562f80d3fda85a794773b3dcf7cc",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-train-braking.png",
+      "format": ".png",
+      "bytes": 446365,
+      "sha256": "80b19dd26937313a05e121a47948db96c0d82da69b4c8c563872a98ee8f2a88f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-train-cruise.png",
+      "format": ".png",
+      "bytes": 443574,
+      "sha256": "52f39365d6aeb3a6dbd13f5df18a40a0f9f981facd235fb8fa2770548d49f744",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-train-dwelling.png",
+      "format": ".png",
+      "bytes": 443211,
+      "sha256": "03434ef7c1e07af6d0e1d5e0ee9f2618691a96d27f28d3f02773e305e89a2525",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-train-follow.png",
+      "format": ".png",
+      "bytes": 377885,
+      "sha256": "f9957e2be98f9ff8d7a46f781a8804f334beba54a95c7afd4d1c4bd5b274a9a8",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-train-running.png",
+      "format": ".png",
+      "bytes": 352617,
+      "sha256": "ebfe8e2f61844c2588c13f55126b73b961bfc472c5acd74112bda15d2d31f06d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-upgrades.png",
+      "format": ".png",
+      "bytes": 341823,
+      "sha256": "1bf80ed74b5acd6ef03de5f543a2eea9c047a3fd1043a6c6e63e5fbf8e9b28c2",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-7-visual-review.json",
+      "format": ".json",
+      "bytes": 999218,
+      "sha256": "a88a387109fa623243885680643234bfeb5e5c6ef53a5c2cd03cab318957055d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-follow.png",
+      "format": ".png",
+      "bytes": 424392,
+      "sha256": "e914b8f901aed610f52a2625865c95aac61fda4f05ed7d459194f37693ea2eb4",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-landscape.png",
+      "format": ".png",
+      "bytes": 113193,
+      "sha256": "1bc3edb6f49111e69c4bd512f0ac707078be83d51d6999b38e394e6ea41e4255",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-night-rain.png",
+      "format": ".png",
+      "bytes": 407229,
+      "sha256": "580ce2dbe6f7a1a8bb603b25ccc53bf08595f89dab18f2aa424b335132128965",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-passenger-day.png",
+      "format": ".png",
+      "bytes": 402573,
+      "sha256": "82e5ab2540744284926d3f1697bb4063b9e91728cbc7ffd1d5d839703cfbc5da",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-passenger-moving.png",
+      "format": ".png",
+      "bytes": 276548,
+      "sha256": "e66a3b977880fcfab2dc2a0384416a360a0933d47982304c9c71d283eab98c28",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-passenger-review.png",
+      "format": ".png",
+      "bytes": 471199,
+      "sha256": "20c7fca7e832ea674133c4134895c71e3ec63dc8982a47943a7044b5c9d2eb68",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-pax-arrival.png",
+      "format": ".png",
+      "bytes": 476404,
+      "sha256": "1f91492d5332b783afde0c27809f8b0b1eb899e6463e9b228fec11443aacf39a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-pax-boarding.png",
+      "format": ".png",
+      "bytes": 358739,
+      "sha256": "310efac42da9546287f3030000d5c29c188dbbdc98bba95016176d6ca84b6526",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-pax-demand.png",
+      "format": ".png",
+      "bytes": 421638,
+      "sha256": "7ebf9f89545297ccd6a6a51cb4085026f028cfb52a0cfefd99194b910edc6351",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-pax-mobile.png",
+      "format": ".png",
+      "bytes": 60631,
+      "sha256": "7666756c8cf5847a23c75ab0c4f3335dd3867d10408d0127e2c9aa14a29a1e22",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-portrait.png",
+      "format": ".png",
+      "bytes": 143925,
+      "sha256": "4b5cb893e487f79ecf35429703fcee056b624cf834cc5672129eab14a82c099a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-train-braking.png",
+      "format": ".png",
+      "bytes": 461306,
+      "sha256": "2f1866a1a8057ad1121f014b6a90b6efc78a22850acbc11149bb3d724a9f7b12",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-train-cruise.png",
+      "format": ".png",
+      "bytes": 444994,
+      "sha256": "8a62090760163c3f44c3cb95950ed01ed1ed181f7e39efe61d5e4fe3c24bbee7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-train-dwelling.png",
+      "format": ".png",
+      "bytes": 458047,
+      "sha256": "338bb218ef46065b087973ba5fa58aa1965fdbce8911e4d8f5fd1de47ba734aa",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-train-follow.png",
+      "format": ".png",
+      "bytes": 380014,
+      "sha256": "2685b9163baaeb8336c9b5022a0803f65566af24fe7f04630ff3928c0331d895",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-8-train-running.png",
+      "format": ".png",
+      "bytes": 354784,
+      "sha256": "a1d21c0a3ba577769ff4a698d46411c8109999155bf0eea3cf2fe3d66e0d78e6",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-bankrupt.json",
+      "format": ".json",
+      "bytes": 14097,
+      "sha256": "16c7eec3e4f28b12e2e64c871e1dccab563ab4fe816f5a96c8fd25876484dcad",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-export.json",
+      "format": ".json",
+      "bytes": 22010,
+      "sha256": "9bd52863adccdadab480baccdf3bba7b0755d189c8aec9b0c6e602ac8b031a05",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-first-trip.png",
+      "format": ".png",
+      "bytes": 363017,
+      "sha256": "e42596db08b1b49341f9afedabcd25259715b1be67e25b6e22d24b1874876d18",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-guide.png",
+      "format": ".png",
+      "bytes": 355994,
+      "sha256": "90982c34648055279532d557c4f1282de35873f0a46aa324441c3fa0a506ee41",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-pax-arrival.png",
+      "format": ".png",
+      "bytes": 459826,
+      "sha256": "8ab8d9a175efc2c9e81e72b6027f46659eebbb44222e1e924e785d61d79c1c83",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-pax-boarding.png",
+      "format": ".png",
+      "bytes": 357099,
+      "sha256": "4c7b02c527b5953c3bceb836a3e9a13402160f7aea56c305892d16eb31bb8310",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-pax-demand.png",
+      "format": ".png",
+      "bytes": 418265,
+      "sha256": "3578613019e5a714ad8fad7e6acd6370e32e47a6a561f4e0169cf77eb5e1ca3f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-pax-mobile.png",
+      "format": ".png",
+      "bytes": 75706,
+      "sha256": "feb920698152fc9053bcf65fd95772e74c8f07ce3173c279eb7c58965fc133a3",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-touch.png",
+      "format": ".png",
+      "bytes": 92674,
+      "sha256": "ac6f1f9301ebc001109aacaa9ade2ffc2a898dd80a6cde5eeba1d4e0f31201ac",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-train-braking.png",
+      "format": ".png",
+      "bytes": 459886,
+      "sha256": "ddb96dc9759338b8e23bc50f92ab77677b9b5f2ebf6aa6ca3975b3cdd9f2233b",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-train-cruise.png",
+      "format": ".png",
+      "bytes": 440755,
+      "sha256": "c8652e76c5ac0f5fb2371a0b3b3cc908fe44a556eeb1061e0c4fcf242821d3d0",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-train-dwelling.png",
+      "format": ".png",
+      "bytes": 457229,
+      "sha256": "3259f22cb6c1e30cd65dae118bd503d638e5a2f1d8dc5400ed8f27d6c307df7c",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-train-follow.png",
+      "format": ".png",
+      "bytes": 380904,
+      "sha256": "5b40048e2793b7d902589bdf08da938286c776a0c19e906ea4dcc51b4ce3d6b9",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/stage-9-train-running.png",
+      "format": ".png",
+      "bytes": 355154,
+      "sha256": "1898bc15da5af752ec66bfbefa6191680dc3049a4a84247c0f0ec1fe2bd9f434",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/train-regression-report.json",
+      "format": ".json",
+      "bytes": 125716,
+      "sha256": "88946e9256d151460bd5506adc55d6c3f3e653c0d2d25d2744ac0148d30513b1",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/train-report.json",
+      "format": ".json",
+      "bytes": 9683,
+      "sha256": "51080e178e444f726d0c1f47b00f262404a050fda19114b8d90889393dcb2171",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/travel-report.json",
+      "format": ".json",
+      "bytes": 389753,
+      "sha256": "705feb9248271c7e9d884f837db530d9e9d7e285b152ea87b7c575a1fb4aa50a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/沿线小镇-stage7.zip",
+      "format": ".zip",
+      "bytes": 193013,
+      "sha256": "6433f134fedb632bc4a26a32b1f0f61aff877c3b1e3d3e6ff1194d92a82a0b6d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence",
+      "archive_entries": [
+        {
+          "path": "沿线小镇/assets/index-CsUkNKTz.css",
+          "bytes": 30272
+        },
+        {
+          "path": "沿线小镇/assets/index-bOGYNuha.js",
+          "bytes": 152432
+        },
+        {
+          "path": "沿线小镇/assets/three-TdRi9CRM.js",
+          "bytes": 517929
+        },
+        {
+          "path": "沿线小镇/favicon.svg",
+          "bytes": 375
+        },
+        {
+          "path": "沿线小镇/index.html",
+          "bytes": 753
+        },
+        {
+          "path": "沿线小镇/sw.js",
+          "bytes": 923
+        },
+        {
+          "path": "启动说明.txt",
+          "bytes": 181
+        }
+      ]
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/沿线小镇-stage8.zip",
+      "format": ".zip",
+      "bytes": 201244,
+      "sha256": "2036ae7e0fbe517f004a400dc447400ee39ea403c900c634ee11d36963c1770e",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence",
+      "archive_entries": [
+        {
+          "path": "沿线小镇/assets/index-BZrSmeG4.js",
+          "bytes": 171270
+        },
+        {
+          "path": "沿线小镇/assets/index-DWZixz61.css",
+          "bytes": 34808
+        },
+        {
+          "path": "沿线小镇/assets/three-D9QqeBGj.js",
+          "bytes": 520585
+        },
+        {
+          "path": "沿线小镇/favicon.svg",
+          "bytes": 375
+        },
+        {
+          "path": "沿线小镇/index.html",
+          "bytes": 753
+        },
+        {
+          "path": "沿线小镇/sw.js",
+          "bytes": 923
+        },
+        {
+          "path": "启动说明.txt",
+          "bytes": 209
+        }
+      ]
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/沿线小镇-v0.1.0-源码.zip",
+      "format": ".zip",
+      "bytes": 262339,
+      "sha256": "c4d4a703390f718d2367c69085859ebb55f7058687c1947271ec144e013e3fd5",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence",
+      "archive_entries": [
+        {
+          "path": "沿线小镇源码/.gitignore",
+          "bytes": 76
+        },
+        {
+          "path": "沿线小镇源码/.npmrc",
+          "bytes": 28
+        },
+        {
+          "path": "沿线小镇源码/.nvmrc",
+          "bytes": 8
+        },
+        {
+          "path": "沿线小镇源码/AGENTS.md",
+          "bytes": 2135
+        },
+        {
+          "path": "沿线小镇源码/KNOWN_ISSUES.md",
+          "bytes": 1926
+        },
+        {
+          "path": "沿线小镇源码/PLAN.md",
+          "bytes": 23433
+        },
+        {
+          "path": "沿线小镇源码/PROGRESS.md",
+          "bytes": 51774
+        },
+        {
+          "path": "沿线小镇源码/README.md",
+          "bytes": 10267
+        },
+        {
+          "path": "沿线小镇源码/THIRD_PARTY_NOTICES.md",
+          "bytes": 1191
+        },
+        {
+          "path": "沿线小镇源码/VALIDATION.md",
+          "bytes": 5528
+        },
+        {
+          "path": "沿线小镇源码/index.html",
+          "bytes": 570
+        },
+        {
+          "path": "沿线小镇源码/offline-worker.js",
+          "bytes": 813
+        },
+        {
+          "path": "沿线小镇源码/package-lock.json",
+          "bytes": 55954
+        },
+        {
+          "path": "沿线小镇源码/package.json",
+          "bytes": 1565
+        },
+        {
+          "path": "沿线小镇源码/public/favicon.svg",
+          "bytes": 375
+        },
+        {
+          "path": "沿线小镇源码/scripts/export-config.ts",
+          "bytes": 211
+        },
+        {
+          "path": "沿线小镇源码/scripts/package-release.py",
+          "bytes": 3079
+        },
+        {
+          "path": "沿线小镇源码/src/audio/soundscape.ts",
+          "bytes": 4816
+        },
+        {
+          "path": "沿线小镇源码/src/config.ts",
+          "bytes": 1683
+        },
+        {
+          "path": "沿线小镇源码/src/main.ts",
+          "bytes": 12261
+        },
+        {
+          "path": "沿线小镇源码/src/render/atmosphere.ts",
+          "bytes": 2886
+        },
+        {
+          "path": "沿线小镇源码/src/render/development.ts",
+          "bytes": 1642
+        },
+        {
+          "path": "沿线小镇源码/src/render/landscape.ts",
+          "bytes": 7622
+        },
+        {
+          "path": "沿线小镇源码/src/render/models.ts",
+          "bytes": 5074
+        },
+        {
+          "path": "沿线小镇源码/src/render/passengers.ts",
+          "bytes": 2008
+        },
+        {
+          "path": "沿线小镇源码/src/render/railway.ts",
+          "bytes": 3030
+        },
+        {
+          "path": "沿线小镇源码/src/render/station-details.ts",
+          "bytes": 3881
+        },
+        {
+          "path": "沿线小镇源码/src/render/style.ts",
+          "bytes": 609
+        },
+        {
+          "path": "沿线小镇源码/src/render/train.ts",
+          "bytes": 2307
+        },
+        {
+          "path": "沿线小镇源码/src/render/travel-camera.ts",
+          "bytes": 5108
+        },
+        {
+          "path": "沿线小镇源码/src/render/view.ts",
+          "bytes": 18417
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/clock.ts",
+          "bytes": 2609
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/construction.ts",
+          "bytes": 7709
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/development.ts",
+          "bytes": 5865
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/dispatch.ts",
+          "bytes": 2142
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/economy.ts",
+          "bytes": 1692
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/finance.ts",
+          "bytes": 8554
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/passengers.ts",
+          "bytes": 4839
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/route-distance.ts",
+          "bytes": 2386
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/route.ts",
+          "bytes": 1664
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/train.ts",
+          "bytes": 11822
+        },
+        {
+          "path": "沿线小镇源码/src/storage/development.ts",
+          "bytes": 4843
+        },
+        {
+          "path": "沿线小镇源码/src/storage/finance.ts",
+          "bytes": 3666
+        },
+        {
+          "path": "沿线小镇源码/src/storage/fleet.ts",
+          "bytes": 6686
+        },
+        {
+          "path": "沿线小镇源码/src/storage/passengers.ts",
+          "bytes": 5056
+        },
+        {
+          "path": "沿线小镇源码/src/storage/railway.ts",
+          "bytes": 4141
+        },
+        {
+          "path": "沿线小镇源码/src/storage/save.ts",
+          "bytes": 9445
+        },
+        {
+          "path": "沿线小镇源码/src/ui/app.ts",
+          "bytes": 14858
+        },
+        {
+          "path": "沿线小镇源码/src/ui/business.ts",
+          "bytes": 3605
+        },
+        {
+          "path": "沿线小镇源码/src/ui/construction.ts",
+          "bytes": 12567
+        },
+        {
+          "path": "沿线小镇源码/src/ui/growth.ts",
+          "bytes": 4363
+        },
+        {
+          "path": "沿线小镇源码/src/ui/journey.ts",
+          "bytes": 2564
+        },
+        {
+          "path": "沿线小镇源码/src/ui/passengers.ts",
+          "bytes": 4772
+        },
+        {
+          "path": "沿线小镇源码/src/ui/style.css",
+          "bytes": 521154
+        },
+        {
+          "path": "沿线小镇源码/src/ui/train.ts",
+          "bytes": 6595
+        },
+        {
+          "path": "沿线小镇源码/src/ui/travel.ts",
+          "bytes": 4130
+        },
+        {
+          "path": "沿线小镇源码/src/world/development.ts",
+          "bytes": 1685
+        },
+        {
+          "path": "沿线小镇源码/src/world/finance.ts",
+          "bytes": 1131
+        },
+        {
+          "path": "沿线小镇源码/src/world/fleet.ts",
+          "bytes": 2007
+        },
+        {
+          "path": "沿线小镇源码/src/world/journey.ts",
+          "bytes": 3760
+        },
+        {
+          "path": "沿线小镇源码/src/world/map.ts",
+          "bytes": 2424
+        },
+        {
+          "path": "沿线小镇源码/src/world/passengers.ts",
+          "bytes": 2219
+        },
+        {
+          "path": "沿线小镇源码/src/world/presentation.ts",
+          "bytes": 1851
+        },
+        {
+          "path": "沿线小镇源码/src/world/railway.ts",
+          "bytes": 5960
+        },
+        {
+          "path": "沿线小镇源码/src/world/state.ts",
+          "bytes": 2262
+        },
+        {
+          "path": "沿线小镇源码/tests/balance.ts",
+          "bytes": 2302
+        },
+        {
+          "path": "沿线小镇源码/tests/browser-version.mjs",
+          "bytes": 79
+        },
+        {
+          "path": "沿线小镇源码/tests/browser.mjs",
+          "bytes": 11224
+        },
+        {
+          "path": "沿线小镇源码/tests/business-browser.mjs",
+          "bytes": 5524
+        },
+        {
+          "path": "沿线小镇源码/tests/construction-browser.mjs",
+          "bytes": 16671
+        },
+        {
+          "path": "沿线小镇源码/tests/construction.test.ts",
+          "bytes": 6348
+        },
+        {
+          "path": "沿线小镇源码/tests/core.test.ts",
+          "bytes": 3399
+        },
+        {
+          "path": "沿线小镇源码/tests/development.test.ts",
+          "bytes": 10890
+        },
+        {
+          "path": "沿线小镇源码/tests/dispatch-browser.mjs",
+          "bytes": 4741
+        },
+        {
+          "path": "沿线小镇源码/tests/dispatch.test.ts",
+          "bytes": 5696
+        },
+        {
+          "path": "沿线小镇源码/tests/finance.test.ts",
+          "bytes": 6458
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage1-v1.json",
+          "bytes": 498
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage2-v2.json",
+          "bytes": 2995
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage3-v3.json",
+          "bytes": 4258
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage4-v4.json",
+          "bytes": 20963
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage6-v6.json",
+          "bytes": 32419
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage7-earned.json",
+          "bytes": 352492
+        },
+        {
+          "path": "沿线小镇源码/tests/growth-browser.mjs",
+          "bytes": 6662
+        },
+        {
+          "path": "沿线小镇源码/tests/journey-storage.test.ts",
+          "bytes": 5140
+        },
+        {
+          "path": "沿线小镇源码/tests/make-recovery-fixture.ts",
+          "bytes": 737
+        },
+        {
+          "path": "沿线小镇源码/tests/make-release-fixtures.ts",
+          "bytes": 422
+        },
+        {
+          "path": "沿线小镇源码/tests/packaged-browser.mjs",
+          "bytes": 2994
+        },
+        {
+          "path": "沿线小镇源码/tests/passenger-browser.mjs",
+          "bytes": 9737
+        },
+        {
+          "path": "沿线小镇源码/tests/passengers.test.ts",
+          "bytes": 8333
+        },
+        {
+          "path": "沿线小镇源码/tests/presentation.test.ts",
+          "bytes": 2900
+        },
+        {
+          "path": "沿线小镇源码/tests/recovery-browser.mjs",
+          "bytes": 10165
+        },
+        {
+          "path": "沿线小镇源码/tests/release-browser.mjs",
+          "bytes": 5050
+        },
+        {
+          "path": "沿线小镇源码/tests/render-batching.test.ts",
+          "bytes": 2043
+        },
+        {
+          "path": "沿线小镇源码/tests/soak-browser.mjs",
+          "bytes": 10049
+        },
+        {
+          "path": "沿线小镇源码/tests/support/geometry.ts",
+          "bytes": 572
+        },
+        {
+          "path": "沿线小镇源码/tests/support/world.ts",
+          "bytes": 959
+        },
+        {
+          "path": "沿线小镇源码/tests/train-browser.mjs",
+          "bytes": 6953
+        },
+        {
+          "path": "沿线小镇源码/tests/train.test.ts",
+          "bytes": 5650
+        },
+        {
+          "path": "沿线小镇源码/tests/travel-browser.mjs",
+          "bytes": 9261
+        },
+        {
+          "path": "沿线小镇源码/tsconfig.json",
+          "bytes": 300
+        },
+        {
+          "path": "沿线小镇源码/vite.config.ts",
+          "bytes": 861
+        }
+      ]
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/沿线小镇-v0.1.0.zip",
+      "format": ".zip",
+      "bytes": 265964,
+      "sha256": "34c2596da6763c27847608dbd0c1ecdc6390e45959ffbc320646b1e076a8abed",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence",
+      "archive_entries": [
+        {
+          "path": "沿线小镇/assets/index-BK6N3kEz.css",
+          "bytes": 36138
+        },
+        {
+          "path": "沿线小镇/assets/index-Cye_P2SH.js",
+          "bytes": 179588
+        },
+        {
+          "path": "沿线小镇/assets/three-D9QqeBGj.js",
+          "bytes": 520585
+        },
+        {
+          "path": "沿线小镇/favicon.svg",
+          "bytes": 375
+        },
+        {
+          "path": "沿线小镇/index.html",
+          "bytes": 753
+        },
+        {
+          "path": "沿线小镇/sw.js",
+          "bytes": 923
+        },
+        {
+          "path": "README.md",
+          "bytes": 10267
+        },
+        {
+          "path": "VALIDATION.md",
+          "bytes": 5528
+        },
+        {
+          "path": "KNOWN_ISSUES.md",
+          "bytes": 1926
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "bytes": 1191
+        },
+        {
+          "path": "默认配置参考.json",
+          "bytes": 2581
+        },
+        {
+          "path": "验证记录/soak-report.json",
+          "bytes": 1120750
+        },
+        {
+          "path": "验证记录/balance-report.json",
+          "bytes": 1765
+        },
+        {
+          "path": "验证记录/release-browser-report.json",
+          "bytes": 26236
+        },
+        {
+          "path": "启动说明.txt",
+          "bytes": 465
+        }
+      ]
+    },
+    {
+      "path": "/workspace/Tinnis/dist/index.html",
+      "format": ".html",
+      "bytes": 753,
+      "sha256": "c1266102c1a08c20c44c80b492ec1db28d9087644a4b6ab51285c35bf7246fd7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/dist/sw.js",
+      "format": ".js",
+      "bytes": 923,
+      "sha256": "fb45ceadce30bed9caf51021bf673e21127465262cb1a8b62fdf665ecf8ef7c8",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/scripts/export-config.ts",
+      "format": ".ts",
+      "bytes": 211,
+      "sha256": "c9b6e42fa00bb0ba20fa688f03ff711f4faaae338edb04f9f9634a668932057a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/config.ts",
+      "format": ".ts",
+      "bytes": 1683,
+      "sha256": "28b1083b73e58301e677de4d553adb78f37cc02cf5741665d08c9426897d1878",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/main.ts",
+      "format": ".ts",
+      "bytes": 12261,
+      "sha256": "45a488ace86afc61ecfa77746742b7c5815b0ebfe800fffe5697b05e2a4686a3",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/balance.ts",
+      "format": ".ts",
+      "bytes": 2302,
+      "sha256": "d72475dc944aa4580ca86fa924e272c0368fee85c9beff7d204cdfee898c70a2",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/browser-version.mjs",
+      "format": ".mjs",
+      "bytes": 79,
+      "sha256": "10e6a1d7e29800bce52c58e13eb0c1ac1bac4cdb65e783a3d55204e92322eae0",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/browser.mjs",
+      "format": ".mjs",
+      "bytes": 11224,
+      "sha256": "1effc70d5fa618b19b78272fb8ffeaf7b482f617ce91e6e337fc7bd72da5c3a6",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/business-browser.mjs",
+      "format": ".mjs",
+      "bytes": 5524,
+      "sha256": "67e090e9948cc75b1fffb6ccc96a37ee628f61894d090ccccd28c2ca392f20f9",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/construction-browser.mjs",
+      "format": ".mjs",
+      "bytes": 16671,
+      "sha256": "b5078335f7d61469346c3f2cec48317dafe76ece37b817514e2e0a469d8f499b",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/construction.test.ts",
+      "format": ".ts",
+      "bytes": 6348,
+      "sha256": "78cb0ae872aabfa93717c29c73a37d9e405f76f13973707e50a1a52ac1184deb",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/core.test.ts",
+      "format": ".ts",
+      "bytes": 3399,
+      "sha256": "c9f60880f61740ab42c7f994e1ec571f6db92027b48119b6c3091c5fa1fcfad9",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/development.test.ts",
+      "format": ".ts",
+      "bytes": 10890,
+      "sha256": "35561b7ffc78064afe3027a9c66410d4ac73ac7de5be9c7b953e5b5cccfef592",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/dispatch-browser.mjs",
+      "format": ".mjs",
+      "bytes": 4741,
+      "sha256": "6b5124e23db9b987e22180de85ac85dd3ae247eab26ac2b39c853f72fa515589",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/dispatch.test.ts",
+      "format": ".ts",
+      "bytes": 5696,
+      "sha256": "2c99c4bed32b640efdd1c5ea7eb2379094bdb6cb775028b3314359180f19fedf",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/finance.test.ts",
+      "format": ".ts",
+      "bytes": 6458,
+      "sha256": "e33264378a7338866841976576d7ec28e0bb2c6b540265b540b38b3bcfaa1d67",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/growth-browser.mjs",
+      "format": ".mjs",
+      "bytes": 6662,
+      "sha256": "0cdec777b60b265e57df0c5e0faf0b02c65420e7a45dbc2bf1ad9fad4f89abe4",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/journey-storage.test.ts",
+      "format": ".ts",
+      "bytes": 5140,
+      "sha256": "3935640d3e46b762e55831eab7b24f88a42ed3b430477708125a0ece1f8c25a1",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/make-recovery-fixture.ts",
+      "format": ".ts",
+      "bytes": 737,
+      "sha256": "71f516342c68e1b616de16656b70e07b74f7d4b246a5bf923e6711a21eddea2b",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/make-release-fixtures.ts",
+      "format": ".ts",
+      "bytes": 422,
+      "sha256": "b772e20a84dfa8e93b7f53efe6abc14f6d71817ef2bdd12a4fc71bde36881e0a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/packaged-browser.mjs",
+      "format": ".mjs",
+      "bytes": 2994,
+      "sha256": "57e94a2b2f26973ff9da1302b0744a785f853aa09f9525725ec4394b3dbf8314",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/passenger-browser.mjs",
+      "format": ".mjs",
+      "bytes": 9737,
+      "sha256": "02f53c4fe93a974933f8c30ac8fd60c3efcc23ede62610d621380ce03603dc95",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/passengers.test.ts",
+      "format": ".ts",
+      "bytes": 8333,
+      "sha256": "697c5361c789e4453980ef0eeb73542ebe7c6fa24ec90a6b103bb536bb592bd9",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/presentation.test.ts",
+      "format": ".ts",
+      "bytes": 2900,
+      "sha256": "d431d7368d53f5c2b28e2423d1041dcd5b961c8343451910182398539a8cc9fe",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/recovery-browser.mjs",
+      "format": ".mjs",
+      "bytes": 10165,
+      "sha256": "fe86ee07914c795878d0b19bdd5c24c04ea6c7cbdc89d9f6b7d7b1b84d67428c",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/release-browser.mjs",
+      "format": ".mjs",
+      "bytes": 5050,
+      "sha256": "a7162a3b36d4df2dfdf0a185ac7c472bfb7b39f2185b00a8579955e9713a48de",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/render-batching.test.ts",
+      "format": ".ts",
+      "bytes": 2043,
+      "sha256": "88b836aac16859d47a2760a337b297f501eb3772e7e2bb7689da27a02d9f3f91",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/soak-browser.mjs",
+      "format": ".mjs",
+      "bytes": 10049,
+      "sha256": "53c531640cdcd52b13aaf7e1192897a321f993312ab234eec7b83efca8bfa471",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/train-browser.mjs",
+      "format": ".mjs",
+      "bytes": 6953,
+      "sha256": "fcc81a1af3f9d57634ac740ac85b4cc893c58109f1c3f4781c1af0a476278468",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/train.test.ts",
+      "format": ".ts",
+      "bytes": 5650,
+      "sha256": "a91087e4477d00c95c9b6a77fef8195f3368e6161b6b7763380aab3e573b64cf",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/travel-browser.mjs",
+      "format": ".mjs",
+      "bytes": 9261,
+      "sha256": "c9e7a21d87df7ae3431e6d7a94d64ae7dd924cd2fdf63759d0e92534f9bb6f4e",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/默认配置参考.json",
+      "format": ".json",
+      "bytes": 2581,
+      "sha256": "2ce3f0c822678b0e58308e951a14ed834f3bb2b6bfebe1c01432ec3afbfeef42",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/沿线小镇/index.html",
+      "format": ".html",
+      "bytes": 753,
+      "sha256": "c1266102c1a08c20c44c80b492ec1db28d9087644a4b6ab51285c35bf7246fd7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/沿线小镇/sw.js",
+      "format": ".js",
+      "bytes": 923,
+      "sha256": "fb45ceadce30bed9caf51021bf673e21127465262cb1a8b62fdf665ecf8ef7c8",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/验证记录/balance-report.json",
+      "format": ".json",
+      "bytes": 1765,
+      "sha256": "ff4ec3ff30e4c40d29f3c26d15c014d73a04382f9e7515ba97d3daa6a1022263",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/验证记录/release-browser-report.json",
+      "format": ".json",
+      "bytes": 26236,
+      "sha256": "ca059dafba5e78585f11d0cc3458edb784bc3eacabc8d37d97eadf10b45417d6",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/验证记录/soak-report.json",
+      "format": ".json",
+      "bytes": 1120750,
+      "sha256": "f4f4e91ce14b752c7af23fc55b9ec662e3c4aa426328b2f1cfccba400cd17a42",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/沿线小镇/assets/index-Cye_P2SH.js",
+      "format": ".js",
+      "bytes": 179588,
+      "sha256": "25095ca92f514dc4d1a402eeb0c2b2522c8b8fc99e8440d052f8a79964186832",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/artifacts/release-unpacked/沿线小镇/assets/three-D9QqeBGj.js",
+      "format": ".js",
+      "bytes": 520585,
+      "sha256": "ebb7378d644658fdcaae0885348b2917679695aab61989d9fe23ebd07a54ce60",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/dist/assets/index-Cye_P2SH.js",
+      "format": ".js",
+      "bytes": 179588,
+      "sha256": "25095ca92f514dc4d1a402eeb0c2b2522c8b8fc99e8440d052f8a79964186832",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/dist/assets/three-D9QqeBGj.js",
+      "format": ".js",
+      "bytes": 520585,
+      "sha256": "ebb7378d644658fdcaae0885348b2917679695aab61989d9fe23ebd07a54ce60",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/audio/soundscape.ts",
+      "format": ".ts",
+      "bytes": 4816,
+      "sha256": "f4480039d31090060932efb242bfe47d4a47925b09d8dc3657da2ec5a7035722",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/atmosphere.ts",
+      "format": ".ts",
+      "bytes": 2886,
+      "sha256": "f8c146bf23ab5ca51d9dfa651ac6d96e89e658a8290166be70702d7d854f15a9",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/development.ts",
+      "format": ".ts",
+      "bytes": 1642,
+      "sha256": "ace6925c7e590d49ff6189d4d5188eb0d63af40084114bf9fe3576a029a8ff27",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/landscape.ts",
+      "format": ".ts",
+      "bytes": 7622,
+      "sha256": "706f84192f43d20da18fb8f02560c9976306fe77bc05e5c5be1c73f64689fbd3",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/models.ts",
+      "format": ".ts",
+      "bytes": 5074,
+      "sha256": "5d606cb3bf8e8ac7df010482e3ce11e40af2b9c60857be07b3ea9aef0c313fbc",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/passengers.ts",
+      "format": ".ts",
+      "bytes": 2008,
+      "sha256": "eb686a0444d65fae067e6d40ea995fae69008fc235cae6c820c89e57c2818cd8",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/railway.ts",
+      "format": ".ts",
+      "bytes": 3030,
+      "sha256": "90f768d0dc29d736cf4181016bb737999269fb83cfc1ab1467442141be984ff7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/station-details.ts",
+      "format": ".ts",
+      "bytes": 3881,
+      "sha256": "5c94c0b364fb2cfafc1351e1273f936803182fc1a91d21c041c8ea69c5044267",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/style.ts",
+      "format": ".ts",
+      "bytes": 609,
+      "sha256": "d4c19d784221f9e1947410afc7d79bcb0fb03b3bb6f7fad43b817e488d0ec588",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/train.ts",
+      "format": ".ts",
+      "bytes": 2307,
+      "sha256": "cea7d5969b65293ebaacb6d8b161dc412a6c1738e773b54e808117cd97dfc0a8",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/travel-camera.ts",
+      "format": ".ts",
+      "bytes": 5108,
+      "sha256": "3c41bae5099e8f7efd86b5468d270b3cdcc06185b607862cbd304e45aeac8e3d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/render/view.ts",
+      "format": ".ts",
+      "bytes": 18417,
+      "sha256": "a538fde010ca773952da9821f92f5aec871e8e7f1168476ba264ff3c38490bac",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/clock.ts",
+      "format": ".ts",
+      "bytes": 2609,
+      "sha256": "7935127c079d94aa6b2b56adf09d2012fa81e6f94bc21a8eaeb609e4f8086ccb",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/construction.ts",
+      "format": ".ts",
+      "bytes": 7709,
+      "sha256": "24f2f47a60bd73cc570f3b60a15753b6568c23d06f72829fee23dc44863d5971",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/development.ts",
+      "format": ".ts",
+      "bytes": 5865,
+      "sha256": "c80867b360bf527d3bb65e2eb63e09b3a0193d6b24c2bf8005e99fae34a67582",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/dispatch.ts",
+      "format": ".ts",
+      "bytes": 2142,
+      "sha256": "0e9bf3452cecb1f6e70b78db095bcdc38434166a16b6c43d2e762cf8591d769a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/economy.ts",
+      "format": ".ts",
+      "bytes": 1692,
+      "sha256": "6c8c30ce3e190e6196f00e4d707efe716166410a5cf8d95382d4d09138bbd2e4",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/finance.ts",
+      "format": ".ts",
+      "bytes": 8554,
+      "sha256": "7d944030bbe1ba018f668e2224f9ed4e4925bc283f503801f6f5dea306c4dcca",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/passengers.ts",
+      "format": ".ts",
+      "bytes": 4839,
+      "sha256": "8ced12642cb0a3a5b32f7035ba9fc318e99dae6dbbd042d79afbe7561d912af7",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/route-distance.ts",
+      "format": ".ts",
+      "bytes": 2386,
+      "sha256": "c3eeef024cc2e1c0216683d0cf7cf3415ddad41691dde3ac929f16bfd03d401e",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/route.ts",
+      "format": ".ts",
+      "bytes": 1664,
+      "sha256": "0dc42c74bff3c4305b1c36949e6da6e8daa1599946e7a8fa8ceef811e91bc279",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/simulation/train.ts",
+      "format": ".ts",
+      "bytes": 11822,
+      "sha256": "b822e863d70b0aea6825e3c2e89715642337e56d06fbd595b4bee8f6ef4393ce",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/storage/development.ts",
+      "format": ".ts",
+      "bytes": 4843,
+      "sha256": "2894ffb452b1c9b34fc13edebfc976cce936170cb705504473a459121bdeda6f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/storage/finance.ts",
+      "format": ".ts",
+      "bytes": 3666,
+      "sha256": "73697006d3a687966e714c3d83a37875008fed38c38de9abbb107106809b63cd",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/storage/fleet.ts",
+      "format": ".ts",
+      "bytes": 6686,
+      "sha256": "09c0a91ec8592bace68714cace9ae64d1316c1e1f67ffbaa6388e6703b8c10bc",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/storage/passengers.ts",
+      "format": ".ts",
+      "bytes": 5056,
+      "sha256": "e875d72f3cc047e2e95bedcd88fbaf6fd16de2c86307a64c1066b1795c12d95c",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/storage/railway.ts",
+      "format": ".ts",
+      "bytes": 4141,
+      "sha256": "bc4464236a86e35a4c47714bf5544c0b1aa91ddbb463899d60bb5d78b12cc673",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/storage/save.ts",
+      "format": ".ts",
+      "bytes": 9445,
+      "sha256": "ca911c01d88bf8e0c4969e4f63b3a2b25acbe3ee187be402738368cdb8fc20b6",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/app.ts",
+      "format": ".ts",
+      "bytes": 14858,
+      "sha256": "816f337d8f1d1eeb77899ebbcc9f381a830acda2e9f31d02e96acbabd5bbf9f6",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/business.ts",
+      "format": ".ts",
+      "bytes": 3605,
+      "sha256": "7d3c2f87bb2a36b6d4660103d68e6ce4743e83b73df60d28c4cd603bd566177e",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/construction.ts",
+      "format": ".ts",
+      "bytes": 12567,
+      "sha256": "d503eb27e8acc5dcae6a791fd74e096db33b3a00876e83795cdfe3ae773af04f",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/growth.ts",
+      "format": ".ts",
+      "bytes": 4363,
+      "sha256": "06ec8303f62ffae3cb4ffb338bbee613ecd99d80e00a8c0d2e25ff500e9eab94",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/journey.ts",
+      "format": ".ts",
+      "bytes": 2564,
+      "sha256": "27cadddaa0f60f350760c3d602f3fa99075fbb22e7a081de2104b8bd6b937b2a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/passengers.ts",
+      "format": ".ts",
+      "bytes": 4772,
+      "sha256": "00960ad48689af86964248529d2543283f038bd8f4e49b33c070dbe88f8c0d13",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/train.ts",
+      "format": ".ts",
+      "bytes": 6595,
+      "sha256": "d5da2ce96ad91b8adeb5bcb00a523e44d43136e319cf3bfb9bb7f1c46eaa102d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/ui/travel.ts",
+      "format": ".ts",
+      "bytes": 4130,
+      "sha256": "b2c3ee7c4504169a34e9c695e30f671fe06722be9c863963b68538ba55747490",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/development.ts",
+      "format": ".ts",
+      "bytes": 1685,
+      "sha256": "6bdd65a6b506c51f5f818c277502ece10ebc4ca67621ee0c367d6d44e0252f72",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/finance.ts",
+      "format": ".ts",
+      "bytes": 1131,
+      "sha256": "1df96b8003a5757d3f884e314e78877f84ef2b53865d2afa977917e91023bc13",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/fleet.ts",
+      "format": ".ts",
+      "bytes": 2007,
+      "sha256": "cbd769452e21f531a3c4ac7809d28d07471cdf64204c3e4a06c565665f2e7549",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/journey.ts",
+      "format": ".ts",
+      "bytes": 3760,
+      "sha256": "7fcefdf312cd82e2dd006c43924743a6f0bfa8a2e8b6c566a1bfe081c1aa31f1",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/map.ts",
+      "format": ".ts",
+      "bytes": 2424,
+      "sha256": "33c3c0b629286cd46dce1d13f0a044ce124386b75cf7fc088aae53e35e5b35ad",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/passengers.ts",
+      "format": ".ts",
+      "bytes": 2219,
+      "sha256": "35fd0cfee36abdfd66d6c3a87191ec986abe4cef95c21aca31bc8078a1afac4a",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/presentation.ts",
+      "format": ".ts",
+      "bytes": 1851,
+      "sha256": "5d652c9ed77f4629e812649c75b3475eac8239f6d207d52918e5f5bb6aff06cd",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/railway.ts",
+      "format": ".ts",
+      "bytes": 5960,
+      "sha256": "ea84291bff71fd533bccd29fe7fa6e33d593a6aa70409116f13b73fafec67dfa",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/src/world/state.ts",
+      "format": ".ts",
+      "bytes": 2262,
+      "sha256": "b3f3e392d69ac15ebe7b088f4b9a5d1622f9e1f176e0ad5c55bf0edcc1b10f46",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/fixtures/stage1-v1.json",
+      "format": ".json",
+      "bytes": 498,
+      "sha256": "22cf8b4f737a16969da8f0f607aaee8c2c8615f9fa8cf0f2296812de9bb6fa10",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/fixtures/stage2-v2.json",
+      "format": ".json",
+      "bytes": 2995,
+      "sha256": "08a1ad079ffc3aa81f08e73f5f2a5ce992bfaf14f0bdc4de79a6fe9b2060a1b3",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/fixtures/stage3-v3.json",
+      "format": ".json",
+      "bytes": 4258,
+      "sha256": "007f36686f8bc6554fe59678cbe1ded675f67e9fec6d92a818bf5e864189d11d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/fixtures/stage4-v4.json",
+      "format": ".json",
+      "bytes": 20963,
+      "sha256": "676df60ea566eb6630df56729cb835b8cc2a2eba717b49d2e5684912ae117ec1",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/fixtures/stage6-v6.json",
+      "format": ".json",
+      "bytes": 32419,
+      "sha256": "48c0fce5592679e9c51dbe8c9e8d70836cab9442257782cd40104dfcebd442ac",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/fixtures/stage7-earned.json",
+      "format": ".json",
+      "bytes": 352492,
+      "sha256": "8e6a1d3c4bf38f13972bbd7d5002705c40529d78668cbcc5afbe6ff1f5817cea",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/support/geometry.ts",
+      "format": ".ts",
+      "bytes": 572,
+      "sha256": "695d565ddfdcb816fc74c723cc013bdabaa46fdd8b732bd1abb3151099e14f4b",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/tests/support/world.ts",
+      "format": ".ts",
+      "bytes": 959,
+      "sha256": "7d95ef6aeedb442c307ad4f7ba5a2894433f35252f86324b4a709ba787b86324",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/releases/v0.1.0/沿线小镇-v0.1.0-源码.zip",
+      "format": ".zip",
+      "bytes": 262339,
+      "sha256": "c4d4a703390f718d2367c69085859ebb55f7058687c1947271ec144e013e3fd5",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence",
+      "archive_entries": [
+        {
+          "path": "沿线小镇源码/.gitignore",
+          "bytes": 76
+        },
+        {
+          "path": "沿线小镇源码/.npmrc",
+          "bytes": 28
+        },
+        {
+          "path": "沿线小镇源码/.nvmrc",
+          "bytes": 8
+        },
+        {
+          "path": "沿线小镇源码/AGENTS.md",
+          "bytes": 2135
+        },
+        {
+          "path": "沿线小镇源码/KNOWN_ISSUES.md",
+          "bytes": 1926
+        },
+        {
+          "path": "沿线小镇源码/PLAN.md",
+          "bytes": 23433
+        },
+        {
+          "path": "沿线小镇源码/PROGRESS.md",
+          "bytes": 51774
+        },
+        {
+          "path": "沿线小镇源码/README.md",
+          "bytes": 10267
+        },
+        {
+          "path": "沿线小镇源码/THIRD_PARTY_NOTICES.md",
+          "bytes": 1191
+        },
+        {
+          "path": "沿线小镇源码/VALIDATION.md",
+          "bytes": 5528
+        },
+        {
+          "path": "沿线小镇源码/index.html",
+          "bytes": 570
+        },
+        {
+          "path": "沿线小镇源码/offline-worker.js",
+          "bytes": 813
+        },
+        {
+          "path": "沿线小镇源码/package-lock.json",
+          "bytes": 55954
+        },
+        {
+          "path": "沿线小镇源码/package.json",
+          "bytes": 1565
+        },
+        {
+          "path": "沿线小镇源码/public/favicon.svg",
+          "bytes": 375
+        },
+        {
+          "path": "沿线小镇源码/scripts/export-config.ts",
+          "bytes": 211
+        },
+        {
+          "path": "沿线小镇源码/scripts/package-release.py",
+          "bytes": 3079
+        },
+        {
+          "path": "沿线小镇源码/src/audio/soundscape.ts",
+          "bytes": 4816
+        },
+        {
+          "path": "沿线小镇源码/src/config.ts",
+          "bytes": 1683
+        },
+        {
+          "path": "沿线小镇源码/src/main.ts",
+          "bytes": 12261
+        },
+        {
+          "path": "沿线小镇源码/src/render/atmosphere.ts",
+          "bytes": 2886
+        },
+        {
+          "path": "沿线小镇源码/src/render/development.ts",
+          "bytes": 1642
+        },
+        {
+          "path": "沿线小镇源码/src/render/landscape.ts",
+          "bytes": 7622
+        },
+        {
+          "path": "沿线小镇源码/src/render/models.ts",
+          "bytes": 5074
+        },
+        {
+          "path": "沿线小镇源码/src/render/passengers.ts",
+          "bytes": 2008
+        },
+        {
+          "path": "沿线小镇源码/src/render/railway.ts",
+          "bytes": 3030
+        },
+        {
+          "path": "沿线小镇源码/src/render/station-details.ts",
+          "bytes": 3881
+        },
+        {
+          "path": "沿线小镇源码/src/render/style.ts",
+          "bytes": 609
+        },
+        {
+          "path": "沿线小镇源码/src/render/train.ts",
+          "bytes": 2307
+        },
+        {
+          "path": "沿线小镇源码/src/render/travel-camera.ts",
+          "bytes": 5108
+        },
+        {
+          "path": "沿线小镇源码/src/render/view.ts",
+          "bytes": 18417
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/clock.ts",
+          "bytes": 2609
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/construction.ts",
+          "bytes": 7709
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/development.ts",
+          "bytes": 5865
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/dispatch.ts",
+          "bytes": 2142
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/economy.ts",
+          "bytes": 1692
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/finance.ts",
+          "bytes": 8554
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/passengers.ts",
+          "bytes": 4839
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/route-distance.ts",
+          "bytes": 2386
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/route.ts",
+          "bytes": 1664
+        },
+        {
+          "path": "沿线小镇源码/src/simulation/train.ts",
+          "bytes": 11822
+        },
+        {
+          "path": "沿线小镇源码/src/storage/development.ts",
+          "bytes": 4843
+        },
+        {
+          "path": "沿线小镇源码/src/storage/finance.ts",
+          "bytes": 3666
+        },
+        {
+          "path": "沿线小镇源码/src/storage/fleet.ts",
+          "bytes": 6686
+        },
+        {
+          "path": "沿线小镇源码/src/storage/passengers.ts",
+          "bytes": 5056
+        },
+        {
+          "path": "沿线小镇源码/src/storage/railway.ts",
+          "bytes": 4141
+        },
+        {
+          "path": "沿线小镇源码/src/storage/save.ts",
+          "bytes": 9445
+        },
+        {
+          "path": "沿线小镇源码/src/ui/app.ts",
+          "bytes": 14858
+        },
+        {
+          "path": "沿线小镇源码/src/ui/business.ts",
+          "bytes": 3605
+        },
+        {
+          "path": "沿线小镇源码/src/ui/construction.ts",
+          "bytes": 12567
+        },
+        {
+          "path": "沿线小镇源码/src/ui/growth.ts",
+          "bytes": 4363
+        },
+        {
+          "path": "沿线小镇源码/src/ui/journey.ts",
+          "bytes": 2564
+        },
+        {
+          "path": "沿线小镇源码/src/ui/passengers.ts",
+          "bytes": 4772
+        },
+        {
+          "path": "沿线小镇源码/src/ui/style.css",
+          "bytes": 521154
+        },
+        {
+          "path": "沿线小镇源码/src/ui/train.ts",
+          "bytes": 6595
+        },
+        {
+          "path": "沿线小镇源码/src/ui/travel.ts",
+          "bytes": 4130
+        },
+        {
+          "path": "沿线小镇源码/src/world/development.ts",
+          "bytes": 1685
+        },
+        {
+          "path": "沿线小镇源码/src/world/finance.ts",
+          "bytes": 1131
+        },
+        {
+          "path": "沿线小镇源码/src/world/fleet.ts",
+          "bytes": 2007
+        },
+        {
+          "path": "沿线小镇源码/src/world/journey.ts",
+          "bytes": 3760
+        },
+        {
+          "path": "沿线小镇源码/src/world/map.ts",
+          "bytes": 2424
+        },
+        {
+          "path": "沿线小镇源码/src/world/passengers.ts",
+          "bytes": 2219
+        },
+        {
+          "path": "沿线小镇源码/src/world/presentation.ts",
+          "bytes": 1851
+        },
+        {
+          "path": "沿线小镇源码/src/world/railway.ts",
+          "bytes": 5960
+        },
+        {
+          "path": "沿线小镇源码/src/world/state.ts",
+          "bytes": 2262
+        },
+        {
+          "path": "沿线小镇源码/tests/balance.ts",
+          "bytes": 2302
+        },
+        {
+          "path": "沿线小镇源码/tests/browser-version.mjs",
+          "bytes": 79
+        },
+        {
+          "path": "沿线小镇源码/tests/browser.mjs",
+          "bytes": 11224
+        },
+        {
+          "path": "沿线小镇源码/tests/business-browser.mjs",
+          "bytes": 5524
+        },
+        {
+          "path": "沿线小镇源码/tests/construction-browser.mjs",
+          "bytes": 16671
+        },
+        {
+          "path": "沿线小镇源码/tests/construction.test.ts",
+          "bytes": 6348
+        },
+        {
+          "path": "沿线小镇源码/tests/core.test.ts",
+          "bytes": 3399
+        },
+        {
+          "path": "沿线小镇源码/tests/development.test.ts",
+          "bytes": 10890
+        },
+        {
+          "path": "沿线小镇源码/tests/dispatch-browser.mjs",
+          "bytes": 4741
+        },
+        {
+          "path": "沿线小镇源码/tests/dispatch.test.ts",
+          "bytes": 5696
+        },
+        {
+          "path": "沿线小镇源码/tests/finance.test.ts",
+          "bytes": 6458
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage1-v1.json",
+          "bytes": 498
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage2-v2.json",
+          "bytes": 2995
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage3-v3.json",
+          "bytes": 4258
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage4-v4.json",
+          "bytes": 20963
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage6-v6.json",
+          "bytes": 32419
+        },
+        {
+          "path": "沿线小镇源码/tests/fixtures/stage7-earned.json",
+          "bytes": 352492
+        },
+        {
+          "path": "沿线小镇源码/tests/growth-browser.mjs",
+          "bytes": 6662
+        },
+        {
+          "path": "沿线小镇源码/tests/journey-storage.test.ts",
+          "bytes": 5140
+        },
+        {
+          "path": "沿线小镇源码/tests/make-recovery-fixture.ts",
+          "bytes": 737
+        },
+        {
+          "path": "沿线小镇源码/tests/make-release-fixtures.ts",
+          "bytes": 422
+        },
+        {
+          "path": "沿线小镇源码/tests/packaged-browser.mjs",
+          "bytes": 2994
+        },
+        {
+          "path": "沿线小镇源码/tests/passenger-browser.mjs",
+          "bytes": 9737
+        },
+        {
+          "path": "沿线小镇源码/tests/passengers.test.ts",
+          "bytes": 8333
+        },
+        {
+          "path": "沿线小镇源码/tests/presentation.test.ts",
+          "bytes": 2900
+        },
+        {
+          "path": "沿线小镇源码/tests/recovery-browser.mjs",
+          "bytes": 10165
+        },
+        {
+          "path": "沿线小镇源码/tests/release-browser.mjs",
+          "bytes": 5050
+        },
+        {
+          "path": "沿线小镇源码/tests/render-batching.test.ts",
+          "bytes": 2043
+        },
+        {
+          "path": "沿线小镇源码/tests/soak-browser.mjs",
+          "bytes": 10049
+        },
+        {
+          "path": "沿线小镇源码/tests/support/geometry.ts",
+          "bytes": 572
+        },
+        {
+          "path": "沿线小镇源码/tests/support/world.ts",
+          "bytes": 959
+        },
+        {
+          "path": "沿线小镇源码/tests/train-browser.mjs",
+          "bytes": 6953
+        },
+        {
+          "path": "沿线小镇源码/tests/train.test.ts",
+          "bytes": 5650
+        },
+        {
+          "path": "沿线小镇源码/tests/travel-browser.mjs",
+          "bytes": 9261
+        },
+        {
+          "path": "沿线小镇源码/tsconfig.json",
+          "bytes": 300
+        },
+        {
+          "path": "沿线小镇源码/vite.config.ts",
+          "bytes": 861
+        }
+      ]
+    },
+    {
+      "path": "/workspace/Tinnis/releases/v0.1.0/release-manifest.json",
+      "format": ".json",
+      "bytes": 460,
+      "sha256": "429b1fe7163f0a2a6929d547f8a4b64dd95558773cdc0036d2241bde5a54859d",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence"
+    },
+    {
+      "path": "/workspace/Tinnis/releases/v0.1.0/沿线小镇-v0.1.0.zip",
+      "format": ".zip",
+      "bytes": 265964,
+      "sha256": "34c2596da6763c27847608dbd0c1ecdc6390e45959ffbc320646b1e076a8abed",
+      "source": "existing Tinnis fictional railway project",
+      "coverage": "fictional coastal-valley; not New York",
+      "reusable": "UI/loading/picking concepts only, not geographic/model evidence",
+      "archive_entries": [
+        {
+          "path": "沿线小镇/assets/index-BK6N3kEz.css",
+          "bytes": 36138
+        },
+        {
+          "path": "沿线小镇/assets/index-Cye_P2SH.js",
+          "bytes": 179588
+        },
+        {
+          "path": "沿线小镇/assets/three-D9QqeBGj.js",
+          "bytes": 520585
+        },
+        {
+          "path": "沿线小镇/favicon.svg",
+          "bytes": 375
+        },
+        {
+          "path": "沿线小镇/index.html",
+          "bytes": 753
+        },
+        {
+          "path": "沿线小镇/sw.js",
+          "bytes": 923
+        },
+        {
+          "path": "README.md",
+          "bytes": 10267
+        },
+        {
+          "path": "VALIDATION.md",
+          "bytes": 5528
+        },
+        {
+          "path": "KNOWN_ISSUES.md",
+          "bytes": 1926
+        },
+        {
+          "path": "THIRD_PARTY_NOTICES.md",
+          "bytes": 1191
+        },
+        {
+          "path": "默认配置参考.json",
+          "bytes": 2581
+        },
+        {
+          "path": "验证记录/soak-report.json",
+          "bytes": 1120750
+        },
+        {
+          "path": "验证记录/balance-report.json",
+          "bytes": 1765
+        },
+        {
+          "path": "验证记录/release-browser-report.json",
+          "bytes": 26236
+        },
+        {
+          "path": "启动说明.txt",
+          "bytes": 465
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "request_url": "https://api.github.com/repos/KhronosGroup/glTF/contents/extensions/2.0/Vendor",
+  "final_url": "https://api.github.com/repos/KhronosGroup/glTF/contents/extensions/2.0/Vendor",
+  "download_started_at": "2026-10-27T03:53:24.474295+00:00",
+  "download_completed_at": "2026-10-27T03:53:24.997392+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "\"0bfee458c0db54e10e45ee26c08775c0c317deda\"",
+  "last_modified_http": "Mon, 26 Oct 2026 17:24:47 GMT",
+  "bytes": 27870,
+  "sha256": "6842affebb7073c9fa97f1c6f9fc7d71f8be0419990980150515733aeedd71b2",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

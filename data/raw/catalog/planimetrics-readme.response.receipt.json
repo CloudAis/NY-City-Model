@@ -1,0 +1,14 @@
+{
+  "request_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-planimetrics/main/README.md",
+  "final_url": "https://raw.githubusercontent.com/CityOfNewYork/nyc-planimetrics/main/README.md",
+  "download_started_at": "2026-10-27T03:53:24.124326+00:00",
+  "download_completed_at": "2026-10-27T03:53:24.418117+00:00",
+  "http_status": 200,
+  "content_type": "text/plain; charset=utf-8",
+  "etag": "\"c91c395e69a28139c7295928f1553a06939503f54c910f1030fd966eac678d59\"",
+  "last_modified_http": null,
+  "bytes": 1165,
+  "sha256": "4559230bd101b4542c89125a4042ed04e714ac526541122827c93a8a466b70a0",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

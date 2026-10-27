@@ -1,0 +1,14 @@
+{
+  "request_url": "https://api.github.com/repos/CityOfNewYork/nyc-planimetrics/contents",
+  "final_url": "https://api.github.com/repos/CityOfNewYork/nyc-planimetrics/contents",
+  "download_started_at": "2026-10-27T03:48:05.804873+00:00",
+  "download_completed_at": "2026-10-27T03:48:06.320073+00:00",
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": "\"7e4f2e2cc2316af9824c9be4d797bebe30d1d9ec\"",
+  "last_modified_http": "Tue, 20 Oct 2026 14:48:10 GMT",
+  "bytes": 3366,
+  "sha256": "786141b0c8a5814158a00b6674a23d6c2850105b02a33ce723b4750a52407f15",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}
