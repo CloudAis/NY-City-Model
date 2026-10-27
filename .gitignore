@@ -50,3 +50,9 @@ data/intermediate/stage4-single-rebuild/
 data/intermediate/stage4-single-work/
 
 reports/nyc-stage4-buildings.zip.tmp
+# Research originals stay immutable locally; provenance receipts can be tracked.
+data/raw/stage5/research/*
+!data/raw/stage5/research/*.receipt.json
+data/intermediate/stage5/
+reports/nyc-stage5-landmark-studies.zip
+reports/nyc-stage5-landmark-studies.zip.tmp

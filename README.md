@@ -1,5 +1,32 @@
 # 纽约真实尺度 3D HTML
 
+当前阶段5检查点新增 [地标检视入口](landmarks.html)：29栋独立档案、4栋部分研究、2个部分表示（One WTC主体与432 Park结构网格片段），**完整精细地标完成数0**。不是29栋精细模型交付；当前阶段仍有未完成项，详见 [地标研究与验证报告](reports/LANDMARK_REVIEW.md)、[接续](docs/NEXT_STEPS.md)。
+
+启动 `npm run dev` → **http://localhost:5180/landmarks.html**。固定中性光，支持四向/高处/街道视角、组件拾取、文献和逐参数证据入口。只作局部零高参考检视，全球地面基准未解决。One WTC可精确隐藏/恢复对应来源轮廓，19个邻楼保留；432因来源包括裙房且塔楼位置未确认而禁用替换。
+
+小型离线包 `reports/nyc-stage5-landmark-studies.zip` 包含两个部分表示、一个来源邻域、源码和研究/验证记录；解压后 `python3 -m http.server 8000 --bind 127.0.0.1 --directory app`，打开 `http://localhost:8000/landmarks.html`。它不含全市数据或原始研究照片/PDF，不是全纽约完成版。包校验与实际运行结果见 `reports/stage5/release.json`、`standalone-browser.json`；源码重建需要下列本地研究与GIS输入。
+
+阶段5命令（顺序有依赖；只下载已发现并记录的真实URL）：
+
+```bash
+.venv/bin/python scripts/init_landmark_dossiers.py  # 只补缺失档案
+.venv/bin/python scripts/acquire_landmark_sources.py  # 原始缓存校验；--refresh另存变化版本
+.venv/bin/python scripts/curate_landmarks.py
+.venv/bin/python scripts/build_landmarks.py
+npm test
+npm run build
+node tests/landmarks-browser.mjs
+NYC_REPORT_DIR=reports/stage5/foundation node tests/foundation-browser.mjs
+.venv/bin/python scripts/report_landmarks.py  # 读取真实通过记录，更新部分验证状态
+npm run build
+.venv/bin/python scripts/package_landmarks.py
+node tests/landmarks-standalone.mjs
+```
+
+`landmarks/`保存29栋研究队列；`data/manifests/stage5/`保存实际资源SHA、模型与替换映射。私有/许可未知的原HTML、PDF、照片只留本地 `data/raw/stage5/research/`，Git跟踪receipt和事实参数。未取得的四向资料、机械层标高、真实基底等留空，研究目录数不作为完成数。
+
+以下为阶段4及更早记录；其全市来源覆盖和地面基准缺口仍保留。
+
 当前阶段4已发布五区 **1,082,930 条非占位来源轮廓**（输入1,082,964条，排除34占位）。新增 `buildings.html`，复用已验证坐标模块和同一套样区/全市管线，输出 GLB、3D Tiles、部件关联与处理原因。
 
 **可信建筑主体、可靠屋顶、精细立面目前均为0。** 官方轮廓为俯视外边界，HEIGHT_ROOF 的英尺种类、墙基线、地面基准及屋顶部件尚未解决。默认严格模式只显示真实轮廓；可选的来源高度假设包络明确标记、默认关闭、不封未知屋顶，不计入可信主体。详见 [建筑质量报告](reports/BUILDING_QUALITY.md)。

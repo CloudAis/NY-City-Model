@@ -1,0 +1,156 @@
+{
+  "parameters": [
+    {
+      "id": "width_m",
+      "value_m": 28.498800000000003,
+      "quantity": "length",
+      "source_value": 93.5,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "park-engineer",
+        "path": "data/raw/stage5/research/432-structure-engineers.html",
+        "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+        "url": "https://www.structuremag.org/article/432-park/",
+        "quote": "width and length of 93.5 feet",
+        "status": "source_explicit",
+        "note": "",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.15,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "grid_pitch_m",
+      "value_m": 4.7244,
+      "quantity": "length",
+      "source_value": 15.5,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "park-engineer",
+        "path": "data/raw/stage5/research/432-structure-engineers.html",
+        "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+        "url": "https://www.structuremag.org/article/432-park/",
+        "quote": "15.5-foot by 15.5-foot grid",
+        "status": "source_explicit",
+        "note": "",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.05,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "roof_height_m",
+      "value_m": 425.5008,
+      "quantity": "height_above_ground",
+      "source_value": 1396,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "park-engineer",
+        "path": "data/raw/stage5/research/432-structure-engineers.html",
+        "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+        "url": "https://www.structuremag.org/article/432-park/",
+        "quote": "1,396 feet high",
+        "status": "source_explicit",
+        "note": "",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.1,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "window_edge_m",
+      "value_m": 3.048,
+      "quantity": "length",
+      "source_value": 10,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "park-owner",
+        "path": "data/raw/stage5/research/432-home.html",
+        "sha256": "75cf77e98cc5a9c92a5eb712f87cad94c6bf0fdb8d14a6cf3460f8b4edfb568c",
+        "url": "https://www.432parkavenue.com/",
+        "quote": "10'x10' insulated glass windows",
+        "status": "source_explicit",
+        "note": "NOT emitted: engineer mechanical-floor elevations unknown; architect approximate10m² differs from owner100ft².",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:04:30.002577+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.15,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    }
+  ],
+  "unit_evidence": {
+    "source": "nist-unit",
+    "path": "data/raw/stage5/research/nist-foot.html",
+    "sha256": "c37a245180bcf76c0e30c032704a21153597862425d02b464dc8bcf5cb992fab",
+    "url": "https://www.nist.gov/pml/us-surveyfoot",
+    "quote": "exclusively for geodetic surveying",
+    "status": "source_explicit",
+    "note": "1959 international foot is legally binding for industry; this does not resolve unspecified legacy GIS height fields",
+    "independently_verified": false,
+    "observation_date": null,
+    "downloaded_at": "2026-10-27T16:20:12.371365+00:00",
+    "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+  },
+  "open_mechanical_bands": {
+    "count": 5,
+    "stories_each": 2,
+    "evidence": {
+      "source": "park-engineer",
+      "path": "data/raw/stage5/research/432-structure-engineers.html",
+      "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+      "url": "https://www.structuremag.org/article/432-park/",
+      "quote": "five two-story open floors",
+      "status": "source_explicit",
+      "note": "",
+      "independently_verified": false,
+      "observation_date": null,
+      "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+      "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+    },
+    "absolute_elevations_m": null
+  },
+  "spire_height": null,
+  "antenna_height": null,
+  "grid_phase": "local zero for pitch study only, not verified floor elevation",
+  "conflicts": [
+    {
+      "field": "architect_map",
+      "raw_longitude_latitude": [
+        -73.40133438300779,
+        40.65330897450164
+      ],
+      "action": "reject as NYC tower location; retained original page"
+    },
+    {
+      "field": "window_area",
+      "architect_approx_m2": 10,
+      "owner_10ft_square_m2": 9.290304,
+      "action": "record disagreement; do not claim facade geometry complete"
+    },
+    {
+      "field": "residence_counts",
+      "architect_intro": 104,
+      "architect_body": 106,
+      "action": "not used for geometry"
+    }
+  ]
+}

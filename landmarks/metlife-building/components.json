@@ -1,0 +1,14 @@
+{
+  "components": [],
+  "missing": [
+    "base",
+    "podium",
+    "setbacks",
+    "tower",
+    "crown",
+    "spire_or_antenna",
+    "entrance",
+    "facade_grid"
+  ],
+  "no_generic_silhouette": true
+}

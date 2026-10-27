@@ -1,0 +1,17 @@
+{
+  "request_url": "https://vinoly.com/works/",
+  "final_url": "https://vinoly.com/works/",
+  "download_started_at": "2026-10-27T16:06:50.177546+00:00",
+  "download_completed_at": "2026-10-27T16:06:51.687041+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 239470,
+  "sha256": "92731767eec34569c64f4d63bf4e83568d4a81bcd3fc30ce02adfb0ca7ae3839",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

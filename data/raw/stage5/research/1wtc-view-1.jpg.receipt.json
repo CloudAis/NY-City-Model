@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.som.com/wp-content/uploads/fly-images/33884/205221_000_N267_large-scaled-1366x910-c.jpg",
+  "final_url": "https://www.som.com/wp-content/uploads/fly-images/33884/205221_000_N267_large-scaled-1366x910-c.jpg",
+  "download_started_at": "2026-10-27T16:40:32.880863+00:00",
+  "download_completed_at": "2026-10-27T16:40:33.377475+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "image/jpeg",
+  "etag": "\"615839ef-2c14f\"",
+  "last_modified_http": "Sat, 02 Oct 2021 10:52:31 GMT",
+  "bytes": 159605,
+  "sha256": "5aa4db2bf3ca50fc8fe7a888e86e805e162837c951cec24e2c6aeb14f4c40af1",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

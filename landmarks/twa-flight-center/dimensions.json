@@ -1,0 +1,4 @@
+{
+  "parameters": [],
+  "rule": "Each value needs source, unit, status, observation date and uncertainty; height/body/roof/spire/antenna kept separate."
+}

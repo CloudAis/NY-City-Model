@@ -1,0 +1,43 @@
+{
+  "components": [
+    {
+      "id": "podium",
+      "evidence_parameters": [
+        "base_width_m",
+        "podium_top_m"
+      ]
+    },
+    {
+      "id": "eight-triangular-facets",
+      "evidence_parameters": [
+        "base_width_m",
+        "podium_top_m",
+        "roof_width_m",
+        "roof_height_m"
+      ]
+    },
+    {
+      "id": "roof-plane-45-degree-square",
+      "evidence_parameters": [
+        "roof_width_m",
+        "roof_height_m"
+      ]
+    },
+    {
+      "id": "spire-axis-only-diameter-unknown",
+      "evidence_parameters": [
+        "roof_height_m",
+        "total_height_m"
+      ]
+    }
+  ],
+  "missing": [
+    "entrance widths/canopies",
+    "glass fin spacing",
+    "curtain-wall counts/layout",
+    "communications ring diameters/heights",
+    "spire diameter/cables/beacon",
+    "ground datum"
+  ],
+  "geometry_sources_not_one_era": "2012 design baseline + completed architect description + 2026 owner qualitative diagram; all conflicts explicit"
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://vinoly.com/wp-content/uploads/2016/04/2016_11_04_RafPar02_retouched-MORE-SKY.jpg",
+  "final_url": "https://vinoly.com/wp-content/uploads/2016/04/2016_11_04_RafPar02_retouched-MORE-SKY.jpg",
+  "download_started_at": "2026-10-27T16:12:40.105212+00:00",
+  "download_completed_at": "2026-10-27T16:12:40.555534+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "image/jpeg",
+  "etag": "\"5df151a5-82df7\"",
+  "last_modified_http": "Wed, 11 Dec 2019 20:29:25 GMT",
+  "bytes": 536055,
+  "sha256": "b1de8bd8e153d91f9e868b69f63c93b369e5170098730fbda3439a0d3d64c838",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,150 @@
+{
+  "sources": [
+    {
+      "id": "wtc-engineer",
+      "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+      "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+      "url": "https://www.structuremag.org/article/one-world-trade-center/",
+      "downloaded_at": "2026-10-27T16:18:37.847800+00:00",
+      "observation_date": null,
+      "publication_date": "2014-04",
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "wtc-engineer-2012",
+      "path": "data/raw/stage5/research/1wtc-2012-engineering.pdf",
+      "sha256": "c316be9f05ad43fbdc25c288b5ab3fdc2fb0ebacec3ae763d1f25f5fdbdcd6c2",
+      "url": "https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf",
+      "downloaded_at": "2026-10-27T16:24:12.512174+00:00",
+      "observation_date": null,
+      "publication_date": "2012-11",
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "wtc-architect",
+      "path": "data/raw/stage5/research/1wtc-som.html",
+      "sha256": "df35df6eaad3eb418fef557cdbf00843ef411986a2af5960cda6ce8af563598c",
+      "url": "https://www.som.com/projects/one-world-trade-center/",
+      "downloaded_at": "2026-10-27T16:09:08.112246+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "wtc-architect-zh",
+      "path": "data/raw/stage5/research/1wtc-som-zh.html",
+      "sha256": "3a78c093550a2cfa2cb41e252246479c4d04b36f2070eaa15920a5a81753974a",
+      "url": "https://www.somchina.cn/projects/%e4%b8%96%e7%95%8c%e8%b4%b8%e6%98%93%e4%b8%ad%e5%bf%83%e4%b8%80%e5%8f%b7%e5%a4%a7%e5%8e%a6/",
+      "downloaded_at": "2026-10-27T16:16:44.811913+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "wtc-owner",
+      "path": "data/raw/stage5/research/1wtc-wtc.html",
+      "sha256": "28a482a6641e97374a34190e2208c138d12cc639ca6bd9c335417cce31db5514",
+      "url": "https://wtc.com/work-place/1wtc/",
+      "downloaded_at": "2026-10-27T16:13:08.830053+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "wtc-owner-2026-plan",
+      "path": "data/raw/stage5/research/OneWTC_StackingPlan_2026-09-16.pdf",
+      "sha256": "0204b3d4375f3a11fe85ab35372fce5efb79359f13cce78c3fe818a0161ce809",
+      "url": "https://dashboard.durst.org/onewtc/wp-content/uploads/sites/10/2026/09/OneWTC_StackingPlan_2026-09-16.pdf",
+      "downloaded_at": "2026-10-27T16:14:02.030169+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true,
+      "source_version_label": "2026-09-16 filename",
+      "date_basis": "filename is not actual publication or observation date"
+    },
+    {
+      "id": "nist-unit",
+      "path": "data/raw/stage5/research/nist-foot.html",
+      "sha256": "c37a245180bcf76c0e30c032704a21153597862425d02b464dc8bcf5cb992fab",
+      "url": "https://www.nist.gov/pml/us-surveyfoot",
+      "downloaded_at": "2026-10-27T16:20:12.371365+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    }
+  ],
+  "views": {
+    "north": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "east": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "south": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "west": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "high": {
+      "reference": "data/raw/stage5/research/1wtc-view-2.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "acquired oblique roof photograph; camera/date unknown, qualitative only"
+    },
+    "street": {
+      "reference": "data/raw/stage5/research/1wtc-view-3.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "acquired podium/street photograph; camera/date unknown, qualitative only"
+    }
+  },
+  "unoriented_reference_images": [
+    {
+      "path": "data/raw/stage5/research/1wtc-view-1.jpg",
+      "url": "https://www.som.com/wp-content/uploads/fly-images/33884/205221_000_N267_large-scaled-1366x910-c.jpg",
+      "sha256": "5aa4db2bf3ca50fc8fe7a888e86e805e162837c951cec24e2c6aeb14f4c40af1",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    },
+    {
+      "path": "data/raw/stage5/research/1wtc-view-2.jpg",
+      "url": "https://www.som.com/wp-content/uploads/fly-images/33854/205221_000_N210_large-scaled-1366x910-c.jpg",
+      "sha256": "5b461a73a8ee3e0387df146c7a2c1882fbf5f262542bba89c21cecf27feeb5b1",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    },
+    {
+      "path": "data/raw/stage5/research/1wtc-view-3.jpg",
+      "url": "https://www.som.com/wp-content/uploads/fly-images/33868/205221_000_N259_large-scaled-1366x910-c.jpg",
+      "sha256": "108e762824307292bb797b2244a10d1376925f20a6db5fcffc7d4dbf21c53709",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    }
+  ]
+}

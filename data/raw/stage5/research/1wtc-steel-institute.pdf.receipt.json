@@ -1,0 +1,17 @@
+{
+  "request_url": "https://siny.org/wp-content/uploads/2016/02/MetalsInConstruction_One_World_Trade_Center.pdf",
+  "final_url": "https://siny.org/wp-content/uploads/2016/02/MetalsInConstruction_One_World_Trade_Center.pdf",
+  "download_started_at": "2026-10-27T16:18:37.851607+00:00",
+  "download_completed_at": "2026-10-27T16:18:38.988582+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "etag": null,
+  "last_modified_http": "Mon, 06 Jun 2016 00:35:30 GMT",
+  "bytes": 847264,
+  "sha256": "b2755d02d488d9acb03fde05bd8311dd0b95195411ae280fdcea59da86b51d5b",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

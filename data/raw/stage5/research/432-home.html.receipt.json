@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.432parkavenue.com/",
+  "final_url": "https://www.432parkavenue.com/",
+  "download_started_at": "2026-10-27T16:04:28.907171+00:00",
+  "download_completed_at": "2026-10-27T16:04:30.002577+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html",
+  "etag": "\"ea480e0be263c911c163509140948361\"",
+  "last_modified_http": "Fri, 05 Feb 2021 14:45:54 GMT",
+  "bytes": 233185,
+  "sha256": "75cf77e98cc5a9c92a5eb712f87cad94c6bf0fdb8d14a6cf3460f8b4edfb568c",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

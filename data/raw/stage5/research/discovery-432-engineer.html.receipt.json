@@ -1,0 +1,17 @@
+{
+  "request_url": "https://html.duckduckgo.com/html/?q=432+Park+Avenue+structuremag+WSP+structural+engineering",
+  "final_url": "https://html.duckduckgo.com/html/?q=432+Park+Avenue+structuremag+WSP+structural+engineering",
+  "download_started_at": "2026-10-27T16:18:51.475104+00:00",
+  "download_completed_at": "2026-10-27T16:18:52.370074+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 35262,
+  "sha256": "679294cb9bd2437a695ae8d9d61732db9822df2544dedb18ce2400c862ec4fb3",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

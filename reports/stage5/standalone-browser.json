@@ -1,0 +1,37 @@
+{
+  "at_utc": "2026-10-27T17:33:51.979Z",
+  "browser": "154.0.8037.57",
+  "archive": "reports/nyc-stage5-landmark-studies.zip",
+  "archive_sha256": "a719a1ad2d231774e09dd193baec25f07877dc709784f9e4100acbbb6bd3d60f",
+  "checks": [
+    "extracted archive index renders the actual partial One WTC GLB with honest scope",
+    "archive contains the exact original neighbourhood and safely restores only the target",
+    "archive renders432 grid fragment and refuses unsafe whole-project suppression"
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4186/index.html?diagnostics=1",
+    "http://127.0.0.1:4186/assets/landmarks-Cm7X1Ip4.js",
+    "http://127.0.0.1:4186/assets/Matrix4-C-Gm_KdH.js",
+    "http://127.0.0.1:4186/assets/widgets-DFb_0C97.js",
+    "http://127.0.0.1:4186/assets/widgets-B9DDZdqH.css",
+    "http://127.0.0.1:4186/assets/landmarks-RvMjey1S.css",
+    "http://127.0.0.1:4186/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4186/datasets/landmarks/manifest.json",
+    "http://127.0.0.1:4186/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4186/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4186/datasets/landmarks/research-queue.json",
+    "http://127.0.0.1:4186/datasets/landmarks/one-world-trade-center/dossier.json",
+    "http://127.0.0.1:4186/datasets/landmarks/one-world-trade-center/dimensions.json",
+    "http://127.0.0.1:4186/datasets/landmarks/one-world-trade-center/tileset.json",
+    "http://127.0.0.1:4186/datasets/landmarks/one-world-trade-center/model.glb",
+    "http://127.0.0.1:4186/datasets/landmarks/one-world-trade-center/context.json",
+    "http://127.0.0.1:4186/datasets/buildings-city/manhattan/597_121_000-strict.glb",
+    "http://127.0.0.1:4186/datasets/landmarks/432-park-avenue/dossier.json",
+    "http://127.0.0.1:4186/datasets/landmarks/432-park-avenue/dimensions.json",
+    "http://127.0.0.1:4186/datasets/landmarks/432-park-avenue/tileset.json",
+    "http://127.0.0.1:4186/datasets/landmarks/432-park-avenue/model.glb"
+  ],
+  "external_requests": 0,
+  "scope": "extracted small package over local HTTP; file:// and full-city runtime not tested here"
+}

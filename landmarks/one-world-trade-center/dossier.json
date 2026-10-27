@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "slug": "one-world-trade-center",
+  "name": "One World Trade Center",
+  "borough": "manhattan",
+  "address": "285 Fulton St, New York, NY, 10007",
+  "stable_building_id": "nyc:footprints:doitt:1114961",
+  "bin": "1088469",
+  "longitude_latitude_degrees": [
+    -74.01317364925673,
+    40.71300901432499
+  ],
+  "target_date": "2026-10-28",
+  "target_date_basis": "requested current stage reference; NOT a claim that all observations are current",
+  "source_observation_date": null,
+  "statuses": {
+    "research": "partial_conflicts_and_missing_views",
+    "massing": "partial_evidence_bound_main_volume",
+    "facade": "not_completed",
+    "validation": "source_geometry_runtime_checked_reality_open"
+  },
+  "model": "models/model.glb",
+  "coordinate_contract": "../../docs/COORDINATES.md; model local metre axes E,Up,-N",
+  "world_base_datum_status": "unresolved; no orthometric/ellipsoid substitution",
+  "address_source": "wtc-owner",
+  "identity_evidence": {
+    "source_name": "Tower 1 World Trade Ctr",
+    "raw_record": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00044000.json",
+      "sha256": "5cf99ad2546902c7857fe5ff9336ee00dab65102d53adef3cac7a37bba339088",
+      "object_id": 1078710
+    },
+    "method": "unique named source entity + owner address and Lower Manhattan location; no nearest-neighbour replacement of other WTC buildings"
+  },
+  "heading_radians_enu": 2.629860040972907,
+  "frame": {
+    "world_crs": "EPSG:4978",
+    "geographic_crs": "EPSG:4979",
+    "origin_longitude_latitude_degrees": [
+      -74.01317364925673,
+      40.71300901432499
+    ],
+    "origin_ellipsoid_height_m": 0,
+    "origin_ecef_m": [
+      1333411.571901024,
+      -4654197.273831104,
+      4138317.832113439
+    ],
+    "enu_to_ecef_column_major": [
+      0.961325046049761,
+      0.2754163318276983,
+      0.0,
+      0.0,
+      -0.17964595439690711,
+      0.6270439891389619,
+      0.7579862576284095,
+      0.0,
+      0.20876179465182126,
+      -0.7286711740197168,
+      0.6522705215219206,
+      0.0,
+      1333411.571901024,
+      -4654197.273831104,
+      4138317.832113439,
+      1.0
+    ],
+    "gltf_coordinates": "East,Up,-North",
+    "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+    "units": "metre",
+    "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+  },
+  "model_kind": "eight-facet main volume + roof + spire axis; not complete detailed landmark",
+  "ground_placement": "local zero reference only; physical world ground unresolved",
+  "replacement_eligible_in_reference_inspector": true,
+  "model_sha256": "71467a3c6d9a7042f9ca83f279e22da1d0e6b8cff2279d8ecf9b4046a07ca6ba",
+  "model_stats": {
+    "vertices": 56,
+    "components": 4,
+    "triangles": 18,
+    "lines": 1
+  }
+}

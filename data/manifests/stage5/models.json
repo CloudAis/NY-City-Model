@@ -1,0 +1,284 @@
+{
+  "schema_version": 5,
+  "created_at": "2026-10-27T17:18:59.744913+00:00",
+  "requested_dossiers": 29,
+  "published_representations": 2,
+  "fully_detailed_landmarks_completed": 0,
+  "research_completed": 0,
+  "massing_completed": 0,
+  "facades_completed": 0,
+  "validation_completed": 0,
+  "model_kind_counts": {
+    "partial_faceted_massing": 1,
+    "structural_grid_fragment": 1
+  },
+  "no_generic_named_boxes": true,
+  "physical_world_base_registered": false,
+  "neutral_fixed_light": true,
+  "references_not_distributed": "Original photos/PDF retained only under local raw; public links/checksums and small factual quotes in dossiers.",
+  "landmarks": [
+    {
+      "slug": "one-world-trade-center",
+      "name": "One World Trade Center",
+      "building_id": "nyc:footprints:doitt:1114961",
+      "tileset": "one-world-trade-center/tileset.json",
+      "dossier": "one-world-trade-center/dossier.json",
+      "dimensions": "one-world-trade-center/dimensions.json",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -74.01317364925673,
+          40.71300901432499
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1333411.571901024,
+          -4654197.273831104,
+          4138317.832113439
+        ],
+        "enu_to_ecef_column_major": [
+          0.961325046049761,
+          0.2754163318276983,
+          0.0,
+          0.0,
+          -0.17964595439690711,
+          0.6270439891389619,
+          0.7579862576284095,
+          0.0,
+          0.20876179465182126,
+          -0.7286711740197168,
+          0.6522705215219206,
+          0.0,
+          1333411.571901024,
+          -4654197.273831104,
+          4138317.832113439,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      },
+      "height_m": 541.3248,
+      "roof_height_m": 416.9664,
+      "representation": "eight-facet main volume + roof + spire axis; not complete detailed landmark",
+      "replacement": {
+        "landmark": "one-world-trade-center",
+        "building_id": "nyc:footprints:doitt:1114961",
+        "source_part_ids": [
+          "nyc:footprints:doitt:1114961:part:000"
+        ],
+        "generated_components": [
+          "podium",
+          "eight-triangular-facets",
+          "roof-plane-45-degree-square",
+          "spire-axis-only-diameter-unknown"
+        ],
+        "eligible": true,
+        "hide_source_building_ids": [
+          "nyc:footprints:doitt:1114961"
+        ],
+        "physical_world_replacement_allowed": false,
+        "scope": "explicit local reference inspector only; global datum not resolved",
+        "reason": "One source part/one named entity only; never suppress adjacent WTC buildings",
+        "context_source": {
+          "content": "buildings-city/manhattan/597_121_000-strict.glb",
+          "metadata": "buildings-city/manhattan/597_121_000.json",
+          "expected_feature_ids": [
+            "nyc:footprints:doitt:1106472",
+            "nyc:footprints:doitt:1106473",
+            "nyc:footprints:doitt:1107624",
+            "nyc:footprints:doitt:1113716",
+            "nyc:footprints:doitt:1114961",
+            "nyc:footprints:doitt:1255514",
+            "nyc:footprints:doitt:1284886",
+            "nyc:footprints:doitt:1288191",
+            "nyc:footprints:doitt:1294690",
+            "nyc:footprints:doitt:1304649",
+            "nyc:footprints:doitt:192536",
+            "nyc:footprints:doitt:366248",
+            "nyc:footprints:doitt:392003",
+            "nyc:footprints:doitt:489344",
+            "nyc:footprints:doitt:550831",
+            "nyc:footprints:doitt:614728",
+            "nyc:footprints:doitt:662920",
+            "nyc:footprints:doitt:688830",
+            "nyc:footprints:doitt:713857",
+            "nyc:footprints:doitt:996239"
+          ],
+          "source_sha256": "63e3f2cf6731fdc4ef9aa52023a59fb8fd5b4ff9f88be7c54074c683ddfc8ab8"
+        }
+      },
+      "stats": {
+        "vertices": 56,
+        "components": 4,
+        "triangles": 18,
+        "lines": 1
+      },
+      "sha256": "71467a3c6d9a7042f9ca83f279e22da1d0e6b8cff2279d8ecf9b4046a07ca6ba",
+      "pick_points_local_enu_m": [
+        [
+          6.2189132645639305,
+          32.33943533532753,
+          19.304000000000002
+        ],
+        [
+          24.378791812847663,
+          22.140200309523667,
+          38.608000000000004
+        ],
+        [
+          -32.33943533532753,
+          6.2189132645639305,
+          19.304000000000002
+        ],
+        [
+          -22.140200309523667,
+          24.378791812847663,
+          38.608000000000004
+        ],
+        [
+          -6.2189132645639305,
+          -32.33943533532753,
+          19.304000000000002
+        ],
+        [
+          -24.378791812847663,
+          -22.140200309523667,
+          38.608000000000004
+        ],
+        [
+          32.33943533532753,
+          -6.2189132645639305,
+          19.304000000000002
+        ],
+        [
+          22.140200309523667,
+          -24.378791812847663,
+          38.608000000000004
+        ],
+        [
+          15.476270330434055,
+          27.55571264609998,
+          177.59680000000003
+        ],
+        [
+          -8.099120554425994,
+          28.852426189490245,
+          297.2816
+        ],
+        [
+          -27.55571264609998,
+          15.476270330434055,
+          177.59680000000003
+        ],
+        [
+          -28.852426189490245,
+          -8.099120554425994,
+          297.2816
+        ],
+        [
+          -15.476270330434055,
+          -27.55571264609998,
+          177.59680000000003
+        ],
+        [
+          8.099120554425994,
+          -28.852426189490245,
+          297.2816
+        ],
+        [
+          27.55571264609998,
+          -15.476270330434055,
+          177.59680000000003
+        ],
+        [
+          28.852426189490245,
+          8.099120554425994,
+          297.2816
+        ],
+        [
+          -9.39583409781625,
+          5.277035304630192,
+          416.9664
+        ],
+        [
+          9.39583409781625,
+          -5.277035304630192,
+          416.9664
+        ]
+      ]
+    },
+    {
+      "slug": "432-park-avenue",
+      "name": "432 Park Avenue",
+      "building_id": "nyc:footprints:doitt:1119374",
+      "tileset": "432-park-avenue/tileset.json",
+      "dossier": "432-park-avenue/dossier.json",
+      "dimensions": "432-park-avenue/dimensions.json",
+      "frame": {
+        "world_crs": "EPSG:4978",
+        "geographic_crs": "EPSG:4979",
+        "origin_longitude_latitude_degrees": [
+          -73.9718024728976,
+          40.76151117064058
+        ],
+        "origin_ellipsoid_height_m": 0,
+        "origin_ecef_m": [
+          1335801.3409012556,
+          -4649854.9657032965,
+          4142398.9403536287
+        ],
+        "enu_to_ecef_column_major": [
+          0.9611259274517683,
+          0.27611039744996596,
+          0.0,
+          0.0,
+          -0.18027577525975236,
+          0.627530593899543,
+          0.7574338245514138,
+          0.0,
+          0.20913535433893865,
+          -0.7279892871053175,
+          0.6529119400236283,
+          0.0,
+          1335801.3409012556,
+          -4649854.9657032965,
+          4142398.9403536287,
+          1.0
+        ],
+        "gltf_coordinates": "East,Up,-North",
+        "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+        "units": "metre",
+        "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+      },
+      "height_m": 425.5008,
+      "roof_height_m": 425.5008,
+      "representation": "line-only structural grid study, no concrete member volumes or glazing",
+      "replacement": {
+        "landmark": "432-park-avenue",
+        "building_id": "nyc:footprints:doitt:1119374",
+        "source_part_ids": [
+          "nyc:footprints:doitt:1119374:part:000"
+        ],
+        "generated_components": [
+          "exposed-concrete-grid-centrelines-only"
+        ],
+        "eligible": false,
+        "hide_source_building_ids": [],
+        "physical_world_replacement_allowed": false,
+        "scope": "explicit local reference inspector only; global datum not resolved",
+        "reason": "source polygon includes tower + podium; frame fragment must not erase them or adjoining BIN1035787"
+      },
+      "stats": {
+        "vertices": 792,
+        "components": 1,
+        "triangles": 0,
+        "lines": 396
+      },
+      "sha256": "764a5bdedb37f277063c39d9538eb06555e086c5d9f117dba3c496c39b44ca6f",
+      "pick_points_local_enu_m": []
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.wtc.com/",
+  "final_url": "https://wtc.com/",
+  "download_started_at": "2026-10-27T16:10:53.870637+00:00",
+  "download_completed_at": "2026-10-27T16:10:55.604907+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 70346,
+  "sha256": "3c23dc526c7fe9cc71920c49433d966daf06eadea69be91cbe56b51c0501e92f",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

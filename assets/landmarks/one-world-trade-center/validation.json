@@ -1,0 +1,131 @@
+{
+  "research_complete": false,
+  "massing_complete": false,
+  "facade_complete": false,
+  "validation_complete": false,
+  "runtime_geometry_checks_passed": true,
+  "generated_views": [
+    {
+      "slug": "one-world-trade-center",
+      "view": "north",
+      "cameraLocalEnu": [
+        -1.1641532182693481e-09,
+        974.3846400012262,
+        297.7286400012672
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "east",
+      "cameraLocalEnu": [
+        974.3846399988979,
+        0,
+        297.7286400012672
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "south",
+      "cameraLocalEnu": [
+        -1.1641532182693481e-09,
+        -974.3846400016919,
+        297.7286400003359
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "west",
+      "cameraLocalEnu": [
+        -974.3846400012262,
+        -4.656612873077393e-10,
+        297.7286400003359
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "high",
+      "cameraLocalEnu": [
+        -9.313225746154785e-10,
+        8.000000001396984,
+        701.324800000526
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "street",
+      "cameraLocalEnu": [
+        -1.1641532182693481e-09,
+        -676.6560000008903,
+        1.7000000001862645
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    }
+  ],
+  "calibrated_reference_images": 0,
+  "source_reference_coverage": {
+    "north": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "east": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "south": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "west": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "high": {
+      "reference": "data/raw/stage5/research/1wtc-view-2.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "acquired oblique roof photograph; camera/date unknown, qualitative only"
+    },
+    "street": {
+      "reference": "data/raw/stage5/research/1wtc-view-3.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "acquired podium/street photograph; camera/date unknown, qualitative only"
+    }
+  },
+  "key_dimensions": {
+    "model_top_m": 541.3248291015625,
+    "selected_source_top_m": 541.3248,
+    "gpu_numeric_height_error_m": 2.9101562518007995e-05,
+    "independent_reality_error_m": null
+  },
+  "checks": [
+    "36 actual Python checks",
+    "six actual rendered directions",
+    "stable source ID retained",
+    "true north/ECEF/ENU frame kept",
+    "neutral fixed light, no fog/bloom",
+    "explicit source conflicts and missing components preserved"
+  ],
+  "pixel_error_is_dimension_error": false,
+  "original_ground_datum_resolved": false,
+  "uncompleted": "source conflicts, actual wall/ground contact, full facade/crown and all dated direction evidence",
+  "source_overhead_outline_comparison": {
+    "model_base_area_m2": 3904.23256714565,
+    "source_overhead_area_m2": 3858.1347338090245,
+    "hausdorff_deviation_m": 0.4967262887088904,
+    "meaning": "source overhead outline vs evidence-selected square base, NOT a real wall-line survey; competing205/200ft source widths remain explicit"
+  }
+}

@@ -1,4 +1,25 @@
-# 阶段4接续（不自动启动下一阶段）
+# 当前阶段5接续（仍未完成精细地标目标）
+
+固定/workspace/nyc-3d-html；先读AGENTS、全部docs、reports/LANDMARK_REVIEW.md和reports/stage5/quality.json。当前基于68adbd4继续；Tinnis独立且未改动。云环境可访问，不需重启。
+
+直接输入：
+
+1. landmarks/queue.json及29栋档案。4栋部分研究，2个部分表示；完整研究/体量/立面/精细验证均0，不从目录数量推断模型完成数。
+2. assets/landmarks/manifest.json、逐栋GLB/tileset、data/manifests/stage5/models.json和replacement-map.json。One WTC仅局部主体，432仅结构网格线段，physical_world_replacement_allowed=false。
+3. scripts/curate_landmarks.py逐参数来源，nyc/landmark_mesh.py组件/法线/feature ID，build_landmarks.py发布，共享coordinates模块不改。来源不确定度未知，project_review_tolerance_m不是现实精度。
+4. data/raw/stage5/research/45份实际原文/照片/PDF本地保留、receipt与sources清单有SHA。原件许可未知者不进Git/运行包；有需要用acquire_landmark_sources.py按已记录真实URL恢复，变化另存版本。
+5. reports/stage5的36规则、6新浏览器组、8基础回归、12生成视角、定性资料覆盖及质量报告。截图不是已校准真实照片；校准图和独立实测均0。
+
+优先继续：
+
+- One WTC：解决基座205/200ft、屋顶150/145ft冲突；分清SOM441ft与屋顶以上408ft语义。取得实际基座切角、冠部设备、尖顶直径/环/缆索、入口及可定年四向资料。不能用工程预算阈值冒充来源精度。
+- 432 Park：取得机械层准确标高、梁柱截面、塔楼中心/方向独立证据及裙房边界。当前来源实体包括裙房，旁边BIN1035787不是可删除替身；拒绝官网错误地图点。
+- ESB已有业主原文，先分清1250ft最高使用层/屋顶语义与1454ft天线最高点；111W57已有SHoP原文但无分段尺寸。随后逐栋推进其余队列，不生成通用楼体贴名称。
+- 当前全球地面/垂直参考问题继续独立追踪。局部零高检视不是接地验收，原source-building.json含旧legacy高度不能拿来落位。
+
+重建/验证/打包见README阶段5命令。report_landmarks在真实检查通过后更新验证状态；再次curate/build会回到待检查状态，应重新运行相关验证。小包只含两个部分表示与一个来源邻域，不替代阶段4全市包。继续当前阶段，不自动进入下一阶段。
+
+## 历史：阶段4接续
 
 固定/workspace/nyc-3d-html，先读AGENTS和全套docs、reports/BUILDING_QUALITY.md、GEOGRAPHIC_REGISTRATION.md。检查点基于7464214，当前五区来源轮廓发布完成，可信建筑主体因证据缺口仍未完成。
 

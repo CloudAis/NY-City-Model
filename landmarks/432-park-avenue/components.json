@@ -1,0 +1,22 @@
+{
+  "components": [
+    {
+      "id": "exposed-concrete-grid-centrelines-only",
+      "evidence_parameters": [
+        "width_m",
+        "grid_pitch_m",
+        "roof_height_m"
+      ],
+      "representation": "LINES, no member thickness inferred"
+    }
+  ],
+  "missing": [
+    "retail podiums",
+    "tower exact site position",
+    "five open-floor absolute levels",
+    "concrete section dimensions",
+    "window/door distribution",
+    "entrance and crown details"
+  ],
+  "no_filled_unknown_mechanical_bands": true
+}

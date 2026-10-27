@@ -1,0 +1,178 @@
+{
+  "id": "nyc:footprints:doitt:1114961",
+  "source_id": "1114961",
+  "source_object_id": 1078710,
+  "identity_stability": "source_DOITT_ID",
+  "bin": "1088469",
+  "bin_status": "valid_format",
+  "base_bbl": "1000580001",
+  "mappluto_bbl": "1000580001",
+  "name": "Tower 1 World Trade Ctr",
+  "address": null,
+  "borough": "manhattan",
+  "height_m": 429.27358422480006,
+  "height_raw_ft": 1408.377901,
+  "height_status": "valid",
+  "ground_elevation_m": 1.524,
+  "ground_status": "valid",
+  "ground_vertical_datum": "per-feature unknown; modern sources generally NAVD88",
+  "floors": null,
+  "construction_year": 2009,
+  "feature_code": 2100,
+  "placeholder": false,
+  "geometry_source": "Photogrammetric",
+  "last_edited_at": "2021-06-15T18:55:40+00:00",
+  "observation_date": null,
+  "source_version": "2026-10-27-city",
+  "raw_record": {
+    "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00044000.json",
+    "sha256": "5cf99ad2546902c7857fe5ff9336ee00dab65102d53adef3cac7a37bba339088",
+    "object_id": 1078710
+  },
+  "geometry_crs": "EPSG:32118",
+  "geometry_units": "metre",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          298898.96024539886,
+          60626.71736002602
+        ],
+        [
+          298844.5035338066,
+          60657.31296444624
+        ],
+        [
+          298875.2096382346,
+          60711.47997602576
+        ],
+        [
+          298928.8856496644,
+          60681.0521716176
+        ],
+        [
+          298898.96024539886,
+          60626.71736002602
+        ]
+      ]
+    ]
+  },
+  "geometry_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.01303015539983,
+          40.71262741779565
+        ],
+        [
+          -74.0136746749419,
+          40.71290285970018
+        ],
+        [
+          -74.01331138224273,
+          40.71339068193706
+        ],
+        [
+          -74.01267609896523,
+          40.71311674805615
+        ],
+        [
+          -74.01303015539983,
+          40.71262741779565
+        ]
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "part_id": "nyc:footprints:doitt:1114961:part:000",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              298898.96024539886,
+              60626.71736002602
+            ],
+            [
+              298844.5035338066,
+              60657.31296444624
+            ],
+            [
+              298875.2096382346,
+              60711.47997602576
+            ],
+            [
+              298928.8856496644,
+              60681.0521716176
+            ],
+            [
+              298898.96024539886,
+              60626.71736002602
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "area_m2": 3858.1347338090245,
+  "repair": null,
+  "evidence": {
+    "position": {
+      "source": "nyc-building-footprints",
+      "field": "SHAPE",
+      "value": "official footprint coordinates",
+      "status": "source_explicit",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "NAD83/WGS84 transformation is not independent ground control"
+    },
+    "footprint": {
+      "source": "nyc-building-footprints",
+      "field": "SHAPE",
+      "value": "official outline",
+      "status": "source_explicit",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "no repair required"
+    },
+    "height": {
+      "source": "nyc-building-footprints",
+      "field": "HEIGHT_ROOF",
+      "value": 429.27358422480006,
+      "status": "derived",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "Source relative roof height in feet; converted using 0.3048; not independently verified; no extrusion in stage1/2"
+    },
+    "roof": {
+      "source": "nyc-building-footprints",
+      "field": null,
+      "value": null,
+      "status": "unknown",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "roof form not contained in footprint height"
+    },
+    "facade": {
+      "source": "nyc-building-footprints",
+      "field": null,
+      "value": null,
+      "status": "unknown",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "no facade or interior evidence"
+    },
+    "age": {
+      "source": "nyc-building-footprints",
+      "field": "CONSTRUCTION_YEAR",
+      "value": 2009,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "construction year is not survey date"
+    }
+  }
+}

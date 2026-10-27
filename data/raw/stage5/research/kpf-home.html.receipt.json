@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.kpf.com/",
+  "final_url": "https://www.kpf.com/",
+  "download_started_at": "2026-10-27T16:04:30.730136+00:00",
+  "download_completed_at": "2026-10-27T16:04:31.453060+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 178795,
+  "sha256": "53f994787f2603e7d37f80e4375dbd99edf46145755d1e9edc9b3fe32ff5525f",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

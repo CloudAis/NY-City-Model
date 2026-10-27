@@ -1,0 +1,41 @@
+{
+  "sources": [],
+  "views": {
+    "north": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "east": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "south": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "west": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "high": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "street": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    }
+  }
+}

@@ -1,5 +1,7 @@
 # 坐标与单位
 
+阶段5新增建筑/结构一手文献的foot由NIST1959国际英尺定义（建筑工业用途，测地例外另列）按0.3048换算；这不追溯解决旧GIS属性或3dm Feet冲突。几何仍使用共享ENU/ECEF与glTF(E,Up,-N)，所有外部变换只施加一次。地标局部z=0只是研究参考，origin_ellipsoid_height_m=0不冒称真实地面。One WTC来源轮廓推导平面朝向未独立实测；432只用项目原点研究，准确塔楼中心未知。全市垂直基准门控不变。
+
 官方轮廓服务实际发布SR为EPSG:3857（原始测绘来源EPSG:2263 / NAD83纽约长岛US survey foot）；以每个响应spatialReference为准，不能按源测绘CRS误读服务坐标。raw原字节保持；规范平面为EPSG:32118（NAD83纽约长岛米），不可用Web Mercator面积或长度当真实米制面积/长度。
 
 US survey foot=1200/3937m，用于2263水平坐标。HEIGHT_ROOF元数据仅称feet，垂直换算采用0.3048m/ft并标记该惯例与US survey foot未明确差异；不伪称毫米准确。HEIGHT_ROOF是相对屋顶高度，不减GROUND_ELEVATION。后者为最低地面高程，可能合法为负；现代来源通常NAVD88，但单记录缺少明确垂直基准时保留未知限定。

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.shoparc.com/",
+  "final_url": "https://www.shoparc.com/",
+  "download_started_at": "2026-10-27T16:04:31.453901+00:00",
+  "download_completed_at": "2026-10-27T16:04:31.955245+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 28773,
+  "sha256": "b245eb9753df7dd1b3b3f72351c7bc35a9e36b130d1ba2e99c72ff9cbfec0a17",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

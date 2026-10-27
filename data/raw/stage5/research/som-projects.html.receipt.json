@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.som.com/projects/",
+  "final_url": "https://www.som.com/projects/",
+  "download_started_at": "2026-10-27T16:06:49.642526+00:00",
+  "download_completed_at": "2026-10-27T16:06:50.176965+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": "Tue, 27 Oct 2026 16:06:50 GMT",
+  "bytes": 238772,
+  "sha256": "a3fdc79ff284c087e02ab036fc67d03d9af3eb10d06cd944b2bcc2a5e174c7df",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

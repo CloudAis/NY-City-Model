@@ -1,0 +1,17 @@
+{
+  "request_url": "https://dashboard.durst.org/onewtc/wp-content/uploads/sites/10/2026/09/OneWTC_StackingPlan_2026-09-16.pdf",
+  "final_url": "https://dashboard.durst.org/onewtc/wp-content/uploads/sites/10/2026/09/OneWTC_StackingPlan_2026-09-16.pdf",
+  "download_started_at": "2026-10-27T16:14:00.626016+00:00",
+  "download_completed_at": "2026-10-27T16:14:02.030169+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "etag": "\"4b4ab-65bb40bf8ca39\"",
+  "last_modified_http": "Thu, 17 Sep 2026 20:58:33 GMT",
+  "bytes": 308395,
+  "sha256": "0204b3d4375f3a11fe85ab35372fce5efb79359f13cce78c3fe818a0161ce809",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

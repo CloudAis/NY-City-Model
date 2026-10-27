@@ -1,0 +1,17 @@
+{
+  "request_url": "https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf",
+  "final_url": "https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf",
+  "download_started_at": "2026-10-27T16:24:10.204247+00:00",
+  "download_completed_at": "2026-10-27T16:24:12.512174+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/pdf",
+  "etag": "\"3afc2-639a645765040\"",
+  "last_modified_http": "Fri, 11 Jul 2025 12:15:53 GMT",
+  "bytes": 241602,
+  "sha256": "c316be9f05ad43fbdc25c288b5ab3fdc2fb0ebacec3ae763d1f25f5fdbdcd6c2",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

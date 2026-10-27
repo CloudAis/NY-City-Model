@@ -1,0 +1,36 @@
+{
+  "id": "nyc:footprints:doitt:1114961",
+  "geometry_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.01303015539983,
+          40.71262741779565
+        ],
+        [
+          -74.0136746749419,
+          40.71290285970018
+        ],
+        [
+          -74.01331138224273,
+          40.71339068193706
+        ],
+        [
+          -74.01267609896523,
+          40.71311674805615
+        ],
+        [
+          -74.01303015539983,
+          40.71262741779565
+        ]
+      ]
+    ]
+  },
+  "raw_record": {
+    "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00044000.json",
+    "sha256": "5cf99ad2546902c7857fe5ff9336ee00dab65102d53adef3cac7a37bba339088",
+    "object_id": 1078710
+  },
+  "not_ground_wall_line": true
+}

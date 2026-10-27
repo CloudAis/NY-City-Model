@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "slug": "111-west-57th-street",
+  "name": "111 West 57th Street",
+  "borough": "manhattan",
+  "address": null,
+  "stable_building_id": null,
+  "bin": null,
+  "longitude_latitude_degrees": null,
+  "target_date": "2026-10-28",
+  "target_date_basis": "requested current stage reference; NOT a claim that all observations are current",
+  "source_observation_date": null,
+  "statuses": {
+    "research": "partial_architect_source_acquired",
+    "massing": "not_started",
+    "facade": "not_started",
+    "validation": "not_started"
+  },
+  "model": null,
+  "coordinate_contract": "../../docs/COORDINATES.md; model local metre axes E,Up,-N",
+  "world_base_datum_status": "unresolved; no orthometric/ellipsoid substitution",
+  "known_height_caution": "architect1428ft total is not an entire uniform tower extrusion; terra-cotta finials/setbacks need dimensions"
+}

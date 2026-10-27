@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "slug": "432-park-avenue",
+  "name": "432 Park Avenue",
+  "borough": "manhattan",
+  "address": "432 Park Avenue, New York, NY10022",
+  "stable_building_id": "nyc:footprints:doitt:1119374",
+  "bin": "1088817",
+  "longitude_latitude_degrees": null,
+  "target_date": "2026-10-28",
+  "target_date_basis": "requested current stage reference; NOT a claim that all observations are current",
+  "source_observation_date": null,
+  "statuses": {
+    "research": "partial_missing_mechanical_elevations",
+    "massing": "structural_grid_fragment_only",
+    "facade": "not_completed",
+    "validation": "source_geometry_runtime_checked_reality_open"
+  },
+  "model": "models/model.glb",
+  "coordinate_contract": "../../docs/COORDINATES.md; model local metre axes E,Up,-N",
+  "world_base_datum_status": "unresolved; no orthometric/ellipsoid substitution",
+  "address_source": "park-owner",
+  "project_entity_reference_longitude_latitude_degrees": [
+    -73.9718024728976,
+    40.76151117064058
+  ],
+  "heading_radians_enu": 2.64027946622011,
+  "frame": {
+    "world_crs": "EPSG:4978",
+    "geographic_crs": "EPSG:4979",
+    "origin_longitude_latitude_degrees": [
+      -73.9718024728976,
+      40.76151117064058
+    ],
+    "origin_ellipsoid_height_m": 0,
+    "origin_ecef_m": [
+      1335801.3409012556,
+      -4649854.9657032965,
+      4142398.9403536287
+    ],
+    "enu_to_ecef_column_major": [
+      0.9611259274517683,
+      0.27611039744996596,
+      0.0,
+      0.0,
+      -0.18027577525975236,
+      0.627530593899543,
+      0.7574338245514138,
+      0.0,
+      0.20913535433893865,
+      -0.7279892871053175,
+      0.6529119400236283,
+      0.0,
+      1335801.3409012556,
+      -4649854.9657032965,
+      4142398.9403536287,
+      1.0
+    ],
+    "gltf_coordinates": "East,Up,-North",
+    "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+    "units": "metre",
+    "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+  },
+  "identity_evidence": {
+    "raw_record": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037500.json",
+      "sha256": "e96aef2908384ad1bee11855b6ee52ea9eab560cdb63f4c3b87fc202ded14a29",
+      "object_id": 1039677
+    },
+    "scope": "source project entity includes larger podium; exact tower centre is NOT established"
+  },
+  "model_kind": "line-only structural grid study, no concrete member volumes or glazing",
+  "replacement_eligible_in_reference_inspector": false,
+  "replacement_block": "source polygon includes tower + podium; frame fragment must not erase them or adjoining BIN1035787",
+  "ground_placement": "local inspection only; no tower position assertion",
+  "model_sha256": "764a5bdedb37f277063c39d9538eb06555e086c5d9f117dba3c496c39b44ca6f",
+  "model_stats": {
+    "vertices": 792,
+    "components": 1,
+    "triangles": 0,
+    "lines": 396
+  }
+}

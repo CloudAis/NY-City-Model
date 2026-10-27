@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.som.com/?s=One+World+Trade+Center",
+  "final_url": "https://www.som.com/search/One+World+Trade+Center",
+  "download_started_at": "2026-10-27T16:07:54.259435+00:00",
+  "download_completed_at": "2026-10-27T16:08:04.157392+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": "Tue, 27 Oct 2026 16:08:04 GMT",
+  "bytes": 214311,
+  "sha256": "60c919c847b70a118af32e8d08bb101c68688785ced5c20c0cd77d7b0ecf025e",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

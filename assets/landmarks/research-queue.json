@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "requested_landmarks": 29,
+  "research_list_is_not_model_count": true,
+  "landmarks": [
+    {
+      "slug": "one-world-trade-center",
+      "name": "One World Trade Center",
+      "borough": "manhattan",
+      "dossier": "one-world-trade-center/dossier.json",
+      "statuses": {
+        "research": "partial_conflicts_and_missing_views",
+        "massing": "partial_evidence_bound_main_volume",
+        "facade": "not_completed",
+        "validation": "geometry_built_browser_pending"
+      }
+    },
+    {
+      "slug": "empire-state-building",
+      "name": "Empire State Building",
+      "borough": "manhattan",
+      "dossier": "empire-state-building/dossier.json",
+      "statuses": {
+        "research": "partial_owner_sources_acquired",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "chrysler-building",
+      "name": "Chrysler Building",
+      "borough": "manhattan",
+      "dossier": "chrysler-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "flatiron-building",
+      "name": "Flatiron Building",
+      "borough": "manhattan",
+      "dossier": "flatiron-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "woolworth-building",
+      "name": "Woolworth Building",
+      "borough": "manhattan",
+      "dossier": "woolworth-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "30-rockefeller-plaza",
+      "name": "30 Rockefeller Plaza",
+      "borough": "manhattan",
+      "dossier": "30-rockefeller-plaza/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "metlife-building",
+      "name": "MetLife Building",
+      "borough": "manhattan",
+      "dossier": "metlife-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "432-park-avenue",
+      "name": "432 Park Avenue",
+      "borough": "manhattan",
+      "dossier": "432-park-avenue/dossier.json",
+      "statuses": {
+        "research": "partial_missing_mechanical_elevations",
+        "massing": "structural_grid_fragment_only",
+        "facade": "not_completed",
+        "validation": "geometry_built_browser_pending"
+      }
+    },
+    {
+      "slug": "111-west-57th-street",
+      "name": "111 West 57th Street",
+      "borough": "manhattan",
+      "dossier": "111-west-57th-street/dossier.json",
+      "statuses": {
+        "research": "partial_architect_source_acquired",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "central-park-tower",
+      "name": "Central Park Tower",
+      "borough": "manhattan",
+      "dossier": "central-park-tower/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "one-vanderbilt",
+      "name": "One Vanderbilt",
+      "borough": "manhattan",
+      "dossier": "one-vanderbilt/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "30-hudson-yards",
+      "name": "30 Hudson Yards",
+      "borough": "manhattan",
+      "dossier": "30-hudson-yards/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "10-hudson-yards",
+      "name": "10 Hudson Yards",
+      "borough": "manhattan",
+      "dossier": "10-hudson-yards/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "56-leonard-street",
+      "name": "56 Leonard Street",
+      "borough": "manhattan",
+      "dossier": "56-leonard-street/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "un-secretariat",
+      "name": "United Nations Secretariat Building",
+      "borough": "manhattan",
+      "dossier": "un-secretariat/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "grand-central-terminal",
+      "name": "Grand Central Terminal",
+      "borough": "manhattan",
+      "dossier": "grand-central-terminal/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "nypl-schwarzman",
+      "name": "Stephen A. Schwarzman Building",
+      "borough": "manhattan",
+      "dossier": "nypl-schwarzman/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "st-patricks-cathedral",
+      "name": "St. Patrick’s Cathedral",
+      "borough": "manhattan",
+      "dossier": "st-patricks-cathedral/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "guggenheim-museum",
+      "name": "Solomon R. Guggenheim Museum",
+      "borough": "manhattan",
+      "dossier": "guggenheim-museum/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "metropolitan-museum",
+      "name": "Metropolitan Museum of Art",
+      "borough": "manhattan",
+      "dossier": "metropolitan-museum/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "brooklyn-tower",
+      "name": "Brooklyn Tower",
+      "borough": "brooklyn",
+      "dossier": "brooklyn-tower/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "1-hanson-place",
+      "name": "1 Hanson Place",
+      "borough": "brooklyn",
+      "dossier": "1-hanson-place/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "brooklyn-museum",
+      "name": "Brooklyn Museum",
+      "borough": "brooklyn",
+      "dossier": "brooklyn-museum/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "twa-flight-center",
+      "name": "TWA Flight Center",
+      "borough": "queens",
+      "dossier": "twa-flight-center/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "citi-field",
+      "name": "Citi Field",
+      "borough": "queens",
+      "dossier": "citi-field/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "yankee-stadium",
+      "name": "Yankee Stadium",
+      "borough": "bronx",
+      "dossier": "yankee-stadium/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "bronx-county-courthouse",
+      "name": "Bronx County Courthouse",
+      "borough": "bronx",
+      "dossier": "bronx-county-courthouse/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "staten-island-borough-hall",
+      "name": "Staten Island Borough Hall",
+      "borough": "staten-island",
+      "dossier": "staten-island-borough-hall/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    },
+    {
+      "slug": "st-george-theatre",
+      "name": "St. George Theatre",
+      "borough": "staten-island",
+      "dossier": "st-george-theatre/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      }
+    }
+  ]
+}

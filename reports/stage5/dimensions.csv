@@ -1,0 +1,11 @@
+landmark,parameter,selected_m,source_value,source_unit,source,uncertainty_m,independent_reality_verified
+one-world-trade-center,base_width_m,62.484,205,international_foot,https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf,,False
+one-world-trade-center,podium_top_m,57.912000000000006,190,international_foot,https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf,,False
+one-world-trade-center,roof_width_m,45.72,150,international_foot,https://www.som.com/projects/one-world-trade-center/,,False
+one-world-trade-center,roof_height_m,416.9664,1368,international_foot,https://www.structuremag.org/article/one-world-trade-center/,,False
+one-world-trade-center,spire_above_roof_m,124.3584,408,international_foot,https://www.structuremag.org/article/one-world-trade-center/,,False
+one-world-trade-center,total_height_m,541.3248,1776,international_foot,https://www.structuremag.org/article/one-world-trade-center/,,False
+432-park-avenue,width_m,28.498800000000003,93.5,international_foot,https://www.structuremag.org/article/432-park/,,False
+432-park-avenue,grid_pitch_m,4.7244,15.5,international_foot,https://www.structuremag.org/article/432-park/,,False
+432-park-avenue,roof_height_m,425.5008,1396,international_foot,https://www.structuremag.org/article/432-park/,,False
+432-park-avenue,window_edge_m,3.048,10,international_foot,https://www.432parkavenue.com/,,False

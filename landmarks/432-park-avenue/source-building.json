@@ -1,0 +1,238 @@
+{
+  "id": "nyc:footprints:doitt:1119374",
+  "source_id": "1119374",
+  "source_object_id": 1039677,
+  "identity_stability": "source_DOITT_ID",
+  "bin": "1088817",
+  "bin_status": "valid_format",
+  "base_bbl": "1012920033",
+  "mappluto_bbl": "1012927502",
+  "name": null,
+  "address": null,
+  "borough": "manhattan",
+  "height_m": 425.5008,
+  "height_raw_ft": 1396,
+  "height_status": "valid",
+  "ground_elevation_m": 14.9352,
+  "ground_status": "valid",
+  "ground_vertical_datum": "per-feature unknown; modern sources generally NAVD88",
+  "floors": null,
+  "construction_year": 2016,
+  "feature_code": 2100,
+  "placeholder": false,
+  "geometry_source": null,
+  "last_edited_at": "2026-08-20T15:02:38+00:00",
+  "observation_date": null,
+  "source_version": "2026-10-27-city",
+  "raw_record": {
+    "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037500.json",
+    "sha256": "e96aef2908384ad1bee11855b6ee52ea9eab560cdb63f4c3b87fc202ded14a29",
+    "object_id": 1039677
+  },
+  "geometry_crs": "EPSG:32118",
+  "geometry_units": "metre",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          302402.48267085734,
+          66087.53689152759
+        ],
+        [
+          302382.69256800786,
+          66050.75748366209
+        ],
+        [
+          302397.1824710918,
+          66043.42938262613
+        ],
+        [
+          302424.6541769297,
+          66029.29708061776
+        ],
+        [
+          302414.15787537885,
+          66011.13357671001
+        ],
+        [
+          302341.1220597827,
+          66051.12728253141
+        ],
+        [
+          302355.730761889,
+          66078.07698830204
+        ],
+        [
+          302362.06726324314,
+          66074.56238778144
+        ],
+        [
+          302377.00176541664,
+          66101.45329354807
+        ],
+        [
+          302402.48267085734,
+          66087.53689152759
+        ]
+      ]
+    ]
+  },
+  "geometry_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.97154704549739,
+          40.76179973484375
+        ],
+        [
+          -73.97178156288895,
+          40.76146859230526
+        ],
+        [
+          -73.97160998583506,
+          40.76140256027005
+        ],
+        [
+          -73.9712846912241,
+          40.76127521762766
+        ],
+        [
+          -73.97140906968488,
+          40.7611116853831
+        ],
+        [
+          -73.97227388464536,
+          40.76147204189916
+        ],
+        [
+          -73.97210077085438,
+          40.76171468341835
+        ],
+        [
+          -73.97202574013345,
+          40.76168301608845
+        ],
+        [
+          -73.97184876660896,
+          40.76192512678783
+        ],
+        [
+          -73.97154704549739,
+          40.76179973484375
+        ]
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "part_id": "nyc:footprints:doitt:1119374:part:000",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              302402.48267085734,
+              66087.53689152759
+            ],
+            [
+              302382.69256800786,
+              66050.75748366209
+            ],
+            [
+              302397.1824710918,
+              66043.42938262613
+            ],
+            [
+              302424.6541769297,
+              66029.29708061776
+            ],
+            [
+              302414.15787537885,
+              66011.13357671001
+            ],
+            [
+              302341.1220597827,
+              66051.12728253141
+            ],
+            [
+              302355.730761889,
+              66078.07698830204
+            ],
+            [
+              302362.06726324314,
+              66074.56238778144
+            ],
+            [
+              302377.00176541664,
+              66101.45329354807
+            ],
+            [
+              302402.48267085734,
+              66087.53689152759
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "area_m2": 2976.6137911319834,
+  "repair": null,
+  "evidence": {
+    "position": {
+      "source": "nyc-building-footprints",
+      "field": "SHAPE",
+      "value": "official footprint coordinates",
+      "status": "source_explicit",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "NAD83/WGS84 transformation is not independent ground control"
+    },
+    "footprint": {
+      "source": "nyc-building-footprints",
+      "field": "SHAPE",
+      "value": "official outline",
+      "status": "source_explicit",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "no repair required"
+    },
+    "height": {
+      "source": "nyc-building-footprints",
+      "field": "HEIGHT_ROOF",
+      "value": 425.5008,
+      "status": "derived",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "Source relative roof height in feet; converted using 0.3048; not independently verified; no extrusion in stage1/2"
+    },
+    "roof": {
+      "source": "nyc-building-footprints",
+      "field": null,
+      "value": null,
+      "status": "unknown",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "roof form not contained in footprint height"
+    },
+    "facade": {
+      "source": "nyc-building-footprints",
+      "field": null,
+      "value": null,
+      "status": "unknown",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "no facade or interior evidence"
+    },
+    "age": {
+      "source": "nyc-building-footprints",
+      "field": "CONSTRUCTION_YEAR",
+      "value": 2016,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "observation_date": null,
+      "note": "construction year is not survey date"
+    }
+  }
+}

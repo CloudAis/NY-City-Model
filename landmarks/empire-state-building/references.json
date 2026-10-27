@@ -1,0 +1,93 @@
+{
+  "sources": [
+    {
+      "id": "esb-design",
+      "path": "data/raw/stage5/research/esb-design.html",
+      "url": "https://www.esbnyc.com/about/architecture-design",
+      "sha256": "df6bf4d7aa49f1a812ca1f2940ce54e384d2a805cb0e2cde993c4d3418f37ec8",
+      "bytes": 424739,
+      "downloaded_at": "2026-10-27T16:10:58.669746+00:00",
+      "publication_date": null,
+      "observation_date": null,
+      "source_version_label": null,
+      "role": "primary/engineering reference; per-parameter attribution in dossier",
+      "license": "reference-only; original private photos/PDF/HTML are not redistributed in runtime/source package",
+      "runtime_texture": false,
+      "horizontal_units": "source-specific; no CRS inferred from extension",
+      "model_units": "metre, shared module",
+      "vertical_reference": "local building reference, NOT approved world ground"
+    },
+    {
+      "id": "esb-facts",
+      "path": "data/raw/stage5/research/esb-facts.html",
+      "url": "https://www.esbnyc.com/about/facts-figures",
+      "sha256": "711590b630d2fcd4de141d06a38110300947208f5082b331dc7002887b5069d2",
+      "bytes": 440685,
+      "downloaded_at": "2026-10-27T16:10:58.148346+00:00",
+      "publication_date": null,
+      "observation_date": null,
+      "source_version_label": null,
+      "role": "primary/engineering reference; per-parameter attribution in dossier",
+      "license": "reference-only; original private photos/PDF/HTML are not redistributed in runtime/source package",
+      "runtime_texture": false,
+      "horizontal_units": "source-specific; no CRS inferred from extension",
+      "model_units": "metre, shared module",
+      "vertical_reference": "local building reference, NOT approved world ground"
+    },
+    {
+      "id": "esb-history",
+      "path": "data/raw/stage5/research/esb-history.html",
+      "url": "https://www.esbnyc.com/about/history",
+      "sha256": "177037a07dc3ffcc9ce686804019dc7f46686ee96bcc6af9b5b3f79ae1056360",
+      "bytes": 454079,
+      "downloaded_at": "2026-10-27T16:08:06.155969+00:00",
+      "publication_date": null,
+      "observation_date": null,
+      "source_version_label": null,
+      "role": "primary/engineering reference; per-parameter attribution in dossier",
+      "license": "reference-only; original private photos/PDF/HTML are not redistributed in runtime/source package",
+      "runtime_texture": false,
+      "horizontal_units": "source-specific; no CRS inferred from extension",
+      "model_units": "metre, shared module",
+      "vertical_reference": "local building reference, NOT approved world ground"
+    }
+  ],
+  "views": {
+    "north": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "east": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "south": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "west": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "high": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "street": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    }
+  }
+}

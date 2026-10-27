@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "slug": "staten-island-borough-hall",
+  "name": "Staten Island Borough Hall",
+  "borough": "staten-island",
+  "address": null,
+  "stable_building_id": null,
+  "bin": null,
+  "longitude_latitude_degrees": null,
+  "target_date": "2026-10-28",
+  "target_date_basis": "requested current stage reference; NOT a claim that all observations are current",
+  "source_observation_date": null,
+  "statuses": {
+    "research": "queued",
+    "massing": "not_started",
+    "facade": "not_started",
+    "validation": "not_started"
+  },
+  "model": null,
+  "coordinate_contract": "../../docs/COORDINATES.md; model local metre axes E,Up,-N",
+  "world_base_datum_status": "unresolved; no orthometric/ellipsoid substitution"
+}

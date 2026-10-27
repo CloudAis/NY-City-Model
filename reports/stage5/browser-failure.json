@@ -1,0 +1,109 @@
+{
+  "error": "AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:\n\n  assert.ok(Math.abs(p[2]-1.7)<.01)\n",
+  "errors": [],
+  "checks": [
+    "research, representations and completed fine models remain separate with fixed neutral lighting"
+  ],
+  "snapshot": {
+    "active": "one-world-trade-center",
+    "buildingId": "nyc:footprints:doitt:1114961",
+    "modelLoads": 1,
+    "contextLoads": 0,
+    "view": "street",
+    "selected": null,
+    "errors": [],
+    "primitives": 1,
+    "contextStats": {
+      "features": 0,
+      "targetVisible": 0,
+      "targetHidden": 0,
+      "neighboursVisible": 0,
+      "neighboursHidden": 0
+    },
+    "modelVisible": true,
+    "globeVisible": false,
+    "bloom": false,
+    "neutralLight": true,
+    "completeCount": 0,
+    "worldBaseRegistered": false,
+    "cameraLocalEnu": [
+      -1.1641532182693481e-9,
+      -216.52992000058293,
+      1.700000001117587
+    ],
+    "pickPoints": [
+      {
+        "x": 576.126659184929,
+        "y": 1094.9696180556798
+      },
+      {
+        "x": 657.5864208381244,
+        "y": 985.7022899551179
+      },
+      {
+        "x": 382.20841628573044,
+        "y": 1083.558544186989
+      },
+      {
+        "x": 448.35078237190356,
+        "y": 987.4646048787959
+      },
+      {
+        "x": 509.5285228272983,
+        "y": 1061.2151103351348
+      },
+      {
+        "x": 415.6152948625399,
+        "y": 943.5913717661416
+      },
+      {
+        "x": 721.9590892921128,
+        "y": 1077.1906745198305
+      },
+      {
+        "x": 668.4854579143632,
+        "y": 941.0151213181895
+      },
+      {
+        "x": 596.3308642891359,
+        "y": 490.1817356868114
+      },
+      {
+        "x": 527.067098295036,
+        "y": 246.81781009023575
+      },
+      {
+        "x": 457.7277620726219,
+        "y": 467.1449351716492
+      },
+      {
+        "x": 468.632102290822,
+        "y": 167.37054426783334
+      },
+      {
+        "x": 490.4722087289326,
+        "y": 371.30229306974
+      },
+      {
+        "x": 570.7281024725968,
+        "y": 116.64609918300471
+      },
+      {
+        "x": 645.4354565628815,
+        "y": 400.65256992665775
+      },
+      {
+        "x": 623.5832539517727,
+        "y": 203.77283806156868
+      },
+      {
+        "x": 526.8614890571886,
+        "y": 34.42345702326065
+      },
+      {
+        "x": 568.5417281472675,
+        "y": 11.683234788644995
+      }
+    ]
+  }
+}

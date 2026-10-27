@@ -1,0 +1,41 @@
+{
+  "at_utc": "2026-10-27T17:30:14.911594+00:00",
+  "prior_raw_checked": 2775,
+  "prior_raw_sha_match": true,
+  "files": [
+    {
+      "path": "data/processed/city/buildings.sqlite",
+      "bytes": 4943364096,
+      "sha256": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37",
+      "unchanged": true
+    },
+    {
+      "path": "data/intermediate/extracted/nyc_3dmodel_mn01/NYC_3DModel_MN01.3dm",
+      "bytes": 374030466,
+      "sha256": "58f874e508a2e0501f0b803ad69c0ea4ef3e2262a86feec7a743b16600732c7c",
+      "unchanged": true
+    },
+    {
+      "path": "reports/nyc-stage4-buildings.zip",
+      "bytes": 1968490216,
+      "sha256": "3ef4134c36541b6842f5e5698c6a21607202def7a05a830354c05e3941b5b045",
+      "unchanged": true
+    },
+    {
+      "path": "assets/buildings-city/manhattan/597_121_000-strict.glb",
+      "bytes": 29388,
+      "sha256": "63e3f2cf6731fdc4ef9aa52023a59fb8fd5b4ff9f88be7c54074c683ddfc8ab8",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/building-stage4/city/associations.sqlite",
+      "bytes": 4569452544,
+      "sha256": "bba320648dfdba61a757341ccaadd146fae1f2a94ed58de4199e56f4875dc74e",
+      "unchanged": true,
+      "baseline": "prior stage4 ZIP CHECKSUMS"
+    }
+  ],
+  "tinnis_status_short": "",
+  "tinnis_untouched": true,
+  "scope": "full original raw registry plus source DB, native 3dm, prior release and selected context tile"
+}

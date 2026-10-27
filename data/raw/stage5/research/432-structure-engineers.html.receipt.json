@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.structuremag.org/article/432-park/",
+  "final_url": "https://www.structuremag.org/article/432-park/",
+  "download_started_at": "2026-10-27T16:19:20.859383+00:00",
+  "download_completed_at": "2026-10-27T16:19:21.985496+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 128205,
+  "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

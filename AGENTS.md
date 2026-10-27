@@ -1,6 +1,6 @@
 # 纽约真实尺度 3D · 持续执行约定
 - 此项目固定在 /workspace/nyc-3d-html；Tinnis为独立既有项目，不覆盖或当作纽约数据。
-- 每阶段先读docs/PROJECT_BRIEF.md、ARCHITECTURE.md、PROGRESS.md、DATA_DICTIONARY.md、NEXT_STEPS.md。当前用户已授权阶段4：五区建筑表示、证据分级、资源生成与质量验证；不自动展开阶段5。
+- 每阶段先读docs/PROJECT_BRIEF.md、ARCHITECTURE.md、PROGRESS.md、DATA_DICTIONARY.md、NEXT_STEPS.md。当前用户已授权阶段5：地标逐栋研究、证据参数模型、替换与多视角验证；不自动进入下一阶段。
 - 不生成虚构纽约建筑/街道/高度/室内。来源明确与独立核验分别记录。位置、轮廓、高度、屋顶、立面、年代独立评价。
 - raw只追加：已有原始文件必须校验，不同响应另建版本，派生文件不能覆盖原始资料。下载、解压、解析、标准化、发布分层缓存。
 - 标准坐标米；源高精度保留。ECEF地理定位、瓦片ENU局部GPU坐标；未知垂直基准不伪装成椭球高。缺失高度保留null。

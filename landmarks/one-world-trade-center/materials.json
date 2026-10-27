@@ -1,0 +1,15 @@
+{
+  "materials": [
+    {
+      "material": "glass",
+      "source": "wtc-architect",
+      "status": "source_explicit material class, display color/roughness estimated, not measured albedo"
+    },
+    {
+      "material": "metal",
+      "source": "wtc-architect",
+      "status": "source_explicit material class, display color/roughness estimated, not measured albedo"
+    }
+  ],
+  "runtime": "neutral opaque glass/metal for WTC; structural line colour for432; no copied photos or fictitious interiors"
+}

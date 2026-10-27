@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.esbnyc.com/about/facts-figures",
+  "final_url": "https://www.esbnyc.com/about/facts-figures",
+  "download_started_at": "2026-10-27T16:10:55.606585+00:00",
+  "download_completed_at": "2026-10-27T16:10:58.148346+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 440685,
+  "sha256": "711590b630d2fcd4de141d06a38110300947208f5082b331dc7002887b5069d2",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

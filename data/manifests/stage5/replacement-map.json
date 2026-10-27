@@ -1,0 +1,64 @@
+[
+  {
+    "landmark": "one-world-trade-center",
+    "building_id": "nyc:footprints:doitt:1114961",
+    "source_part_ids": [
+      "nyc:footprints:doitt:1114961:part:000"
+    ],
+    "generated_components": [
+      "podium",
+      "eight-triangular-facets",
+      "roof-plane-45-degree-square",
+      "spire-axis-only-diameter-unknown"
+    ],
+    "eligible": true,
+    "hide_source_building_ids": [
+      "nyc:footprints:doitt:1114961"
+    ],
+    "physical_world_replacement_allowed": false,
+    "scope": "explicit local reference inspector only; global datum not resolved",
+    "reason": "One source part/one named entity only; never suppress adjacent WTC buildings",
+    "context_source": {
+      "content": "buildings-city/manhattan/597_121_000-strict.glb",
+      "metadata": "buildings-city/manhattan/597_121_000.json",
+      "expected_feature_ids": [
+        "nyc:footprints:doitt:1106472",
+        "nyc:footprints:doitt:1106473",
+        "nyc:footprints:doitt:1107624",
+        "nyc:footprints:doitt:1113716",
+        "nyc:footprints:doitt:1114961",
+        "nyc:footprints:doitt:1255514",
+        "nyc:footprints:doitt:1284886",
+        "nyc:footprints:doitt:1288191",
+        "nyc:footprints:doitt:1294690",
+        "nyc:footprints:doitt:1304649",
+        "nyc:footprints:doitt:192536",
+        "nyc:footprints:doitt:366248",
+        "nyc:footprints:doitt:392003",
+        "nyc:footprints:doitt:489344",
+        "nyc:footprints:doitt:550831",
+        "nyc:footprints:doitt:614728",
+        "nyc:footprints:doitt:662920",
+        "nyc:footprints:doitt:688830",
+        "nyc:footprints:doitt:713857",
+        "nyc:footprints:doitt:996239"
+      ],
+      "source_sha256": "63e3f2cf6731fdc4ef9aa52023a59fb8fd5b4ff9f88be7c54074c683ddfc8ab8"
+    }
+  },
+  {
+    "landmark": "432-park-avenue",
+    "building_id": "nyc:footprints:doitt:1119374",
+    "source_part_ids": [
+      "nyc:footprints:doitt:1119374:part:000"
+    ],
+    "generated_components": [
+      "exposed-concrete-grid-centrelines-only"
+    ],
+    "eligible": false,
+    "hide_source_building_ids": [],
+    "physical_world_replacement_allowed": false,
+    "scope": "explicit local reference inspector only; global datum not resolved",
+    "reason": "source polygon includes tower + podium; frame fragment must not erase them or adjoining BIN1035787"
+  }
+]

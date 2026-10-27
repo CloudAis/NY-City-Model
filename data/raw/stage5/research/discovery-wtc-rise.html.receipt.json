@@ -1,0 +1,17 @@
+{
+  "request_url": "https://html.duckduckgo.com/html/?q=The+Rise+of+One+World+Trade+Center+Structure+November+2012",
+  "final_url": "https://html.duckduckgo.com/html/?q=The+Rise+of+One+World+Trade+Center+Structure+November+2012",
+  "download_started_at": "2026-10-27T16:21:40.482387+00:00",
+  "download_completed_at": "2026-10-27T16:21:41.660141+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 34513,
+  "sha256": "bd944d241ffd62f4e5a3ca726923b09305dfaaabc5a1543d9ccce5df2e34588e",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

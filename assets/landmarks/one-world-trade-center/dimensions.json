@@ -1,0 +1,207 @@
+{
+  "parameters": [
+    {
+      "id": "base_width_m",
+      "value_m": 62.484,
+      "quantity": "length",
+      "source_value": 205,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "wtc-engineer-2012",
+        "path": "data/raw/stage5/research/1wtc-2012-engineering.pdf",
+        "sha256": "c316be9f05ad43fbdc25c288b5ab3fdc2fb0ebacec3ae763d1f25f5fdbdcd6c2",
+        "url": "https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf",
+        "quote": "205-foot (62.5-meter) square plan",
+        "status": "source_explicit",
+        "note": "2012 construction-design source; current source footprint ~62m supports this better than 2014 prose 200ft. Conflict retained, NOT resolved by choosing newer page.",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:24:12.512174+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.7,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "podium_top_m",
+      "value_m": 57.912000000000006,
+      "quantity": "length",
+      "source_value": 190,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "wtc-engineer-2012",
+        "path": "data/raw/stage5/research/1wtc-2012-engineering.pdf",
+        "sha256": "c316be9f05ad43fbdc25c288b5ab3fdc2fb0ebacec3ae763d1f25f5fdbdcd6c2",
+        "url": "https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf",
+        "quote": "office levels start 190 feet (58meters)",
+        "status": "source_explicit",
+        "note": "",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:24:12.512174+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.5,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "roof_width_m",
+      "value_m": 45.72,
+      "quantity": "length",
+      "source_value": 150,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "wtc-architect",
+        "path": "data/raw/stage5/research/1wtc-som.html",
+        "sha256": "df35df6eaad3eb418fef557cdbf00843ef411986a2af5960cda6ce8af563598c",
+        "url": "https://www.som.com/projects/one-world-trade-center/",
+        "quote": "150-foot-by-150-foot square",
+        "status": "source_explicit",
+        "note": "Current architect page selected; 2012 engineer gives145ft. Roof dimension conflict remains unresolved; model is evidence-bound partial massing.",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:09:08.112246+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 1.524,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "roof_height_m",
+      "value_m": 416.9664,
+      "quantity": "height_above_ground",
+      "source_value": 1368,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "wtc-engineer",
+        "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+        "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+        "url": "https://www.structuremag.org/article/one-world-trade-center/",
+        "quote": "main roof at 1368 feet (417m)",
+        "status": "source_explicit",
+        "note": "",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:18:37.847800+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.5,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "spire_above_roof_m",
+      "value_m": 124.3584,
+      "quantity": "spire_extent_above_roof",
+      "source_value": 408,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "wtc-engineer",
+        "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+        "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+        "url": "https://www.structuremag.org/article/one-world-trade-center/",
+        "quote": "408 feet (124m) tall spire",
+        "status": "source_explicit",
+        "note": "Axis only; diameter, ring radii, beacon and cable attachments unknown. SOM441ft includes a different described extent; do not subtract it from total to get roof.",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:18:37.847800+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.5,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    },
+    {
+      "id": "total_height_m",
+      "value_m": 541.3248,
+      "quantity": "architectural_top_above_ground",
+      "source_value": 1776,
+      "source_unit": "international_foot",
+      "evidence": {
+        "source": "wtc-engineer",
+        "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+        "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+        "url": "https://www.structuremag.org/article/one-world-trade-center/",
+        "quote": "1,776 feet (541 m)",
+        "status": "source_explicit",
+        "note": "",
+        "independently_verified": false,
+        "observation_date": null,
+        "downloaded_at": "2026-10-27T16:18:37.847800+00:00",
+        "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+      },
+      "uncertainty_m": null,
+      "project_review_tolerance_m": 0.5,
+      "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+      "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+    }
+  ],
+  "unit_evidence": {
+    "source": "nist-unit",
+    "path": "data/raw/stage5/research/nist-foot.html",
+    "sha256": "c37a245180bcf76c0e30c032704a21153597862425d02b464dc8bcf5cb992fab",
+    "url": "https://www.nist.gov/pml/us-surveyfoot",
+    "quote": "exclusively for geodetic surveying",
+    "status": "source_explicit",
+    "note": "1959 international foot is legally binding for industry; this does not resolve unspecified legacy GIS height fields",
+    "independently_verified": false,
+    "observation_date": null,
+    "downloaded_at": "2026-10-27T16:20:12.371365+00:00",
+    "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+  },
+  "antenna_tip_height": null,
+  "roof_not_total_height": true,
+  "conflicts": [
+    {
+      "parameter": "base_width",
+      "candidates": [
+        {
+          "source": "wtc-engineer-2012",
+          "feet": 205
+        },
+        {
+          "source": "wtc-engineer",
+          "feet": 200
+        }
+      ],
+      "selection": "2012 engineering geometry, supported by current saved source outline; independent wall-line survey missing"
+    },
+    {
+      "parameter": "roof_width",
+      "candidates": [
+        {
+          "source": "wtc-engineer-2012",
+          "feet": 145
+        },
+        {
+          "source": "wtc-architect",
+          "feet": 150
+        }
+      ],
+      "selection": "architect webpage describes completed building; no independent roof survey, 5ft uncertainty retained"
+    },
+    {
+      "parameter": "spire_extent",
+      "candidates": [
+        {
+          "source": "wtc-engineer",
+          "above_roof_feet": 408
+        },
+        {
+          "source": "wtc-architect",
+          "extent_feet": 441
+        }
+      ],
+      "selection": "408 explicitly above main roof;441 description includes communication assembly in steel paper; not silently treated as same base"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "at_utc": "2026-10-27T17:21:23.570354+00:00",
+  "port": 5180,
+  "checks": [
+    {
+      "route": "landmarks.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "route": "datasets/landmarks/manifest.json",
+      "status": 200,
+      "type": "application/json"
+    },
+    {
+      "route": "datasets/landmarks/one-world-trade-center/tileset.json",
+      "status": 200,
+      "type": "application/json"
+    },
+    {
+      "route": "datasets/landmarks/432-park-avenue/model.glb",
+      "status": 200,
+      "type": "model/gltf-binary"
+    }
+  ],
+  "restart_required": false,
+  "disk_free_bytes": 10071216128
+}

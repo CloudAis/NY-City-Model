@@ -1,0 +1,59 @@
+{
+  "sources": [
+    {
+      "id": "111-shop",
+      "path": "data/raw/stage5/research/111-shop.html",
+      "url": "https://www.shoparc.com/projects/111-west-57-street-2/",
+      "sha256": "fab47ac9b04a7ab1c3dfbd97f5daf6b80f16cd5e8ce1c50dde9a017f252b9217",
+      "bytes": 40263,
+      "downloaded_at": "2026-10-27T16:06:52.235868+00:00",
+      "publication_date": null,
+      "observation_date": null,
+      "source_version_label": null,
+      "role": "primary/engineering reference; per-parameter attribution in dossier",
+      "license": "reference-only; original private photos/PDF/HTML are not redistributed in runtime/source package",
+      "runtime_texture": false,
+      "horizontal_units": "source-specific; no CRS inferred from extension",
+      "model_units": "metre, shared module",
+      "vertical_reference": "local building reference, NOT approved world ground"
+    }
+  ],
+  "views": {
+    "north": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "east": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "south": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "west": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "high": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    },
+    "street": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "not_acquired"
+    }
+  }
+}

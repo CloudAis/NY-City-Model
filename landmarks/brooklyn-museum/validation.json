@@ -1,0 +1,10 @@
+{
+  "research_complete": false,
+  "massing_complete": false,
+  "facade_complete": false,
+  "validation_complete": false,
+  "checks": [],
+  "dimensions_errors": [],
+  "camera_calibration": null,
+  "pixel_error_is_dimension_error": false
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.esbnyc.com/",
+  "final_url": "https://www.esbnyc.com/",
+  "download_started_at": "2026-10-27T16:06:52.237004+00:00",
+  "download_completed_at": "2026-10-27T16:06:52.865272+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 398978,
+  "sha256": "c479639b97876307637ad14bb5a4c18378314e3fe6b919aceca8f44576dca33f",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

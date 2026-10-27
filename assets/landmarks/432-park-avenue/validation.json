@@ -1,0 +1,125 @@
+{
+  "research_complete": false,
+  "massing_complete": false,
+  "facade_complete": false,
+  "validation_complete": false,
+  "runtime_geometry_checks_passed": true,
+  "generated_views": [
+    {
+      "slug": "432-park-avenue",
+      "view": "north",
+      "cameraLocalEnu": [
+        1.1641532182693481e-09,
+        765.9014399987645,
+        234.02543999999762
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "east",
+      "cameraLocalEnu": [
+        765.9014400017913,
+        0,
+        234.02543999813497
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "south",
+      "cameraLocalEnu": [
+        1.1641532182693481e-09,
+        -765.9014399996959,
+        234.02543999999762
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "west",
+      "cameraLocalEnu": [
+        -765.901439999463,
+        9.313225746154785e-10,
+        234.02543999813497
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "high",
+      "cameraLocalEnu": [
+        9.313225746154785e-10,
+        8.000000000465661,
+        585.5008000005037
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "street",
+      "cameraLocalEnu": [
+        1.1641532182693481e-09,
+        -531.8760000010952,
+        1.699999999254942
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    }
+  ],
+  "calibrated_reference_images": 0,
+  "source_reference_coverage": {
+    "north": {
+      "reference": "data/raw/stage5/research/432-full-tower.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "north/northwest sector inferred from Central Park foreground; exact azimuth/date unverified; retouched-sky filename; qualitative only"
+    },
+    "east": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "south": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "west": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "high": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "street": {
+      "reference": "data/raw/stage5/research/432-exterior.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "retail-cube/site reference, NOT tower facade; camera/date unknown"
+    }
+  },
+  "key_dimensions": {
+    "model_top_m": 425.50079345703125,
+    "selected_source_top_m": 425.5008,
+    "gpu_numeric_height_error_m": 6.542968776557245e-06,
+    "independent_reality_error_m": null
+  },
+  "checks": [
+    "36 actual Python checks",
+    "six actual rendered directions",
+    "stable source ID retained",
+    "true north/ECEF/ENU frame kept",
+    "neutral fixed light, no fog/bloom",
+    "explicit source conflicts and missing components preserved"
+  ],
+  "pixel_error_is_dimension_error": false,
+  "original_ground_datum_resolved": false,
+  "uncompleted": "source conflicts, actual wall/ground contact, full facade/crown and all dated direction evidence"
+}

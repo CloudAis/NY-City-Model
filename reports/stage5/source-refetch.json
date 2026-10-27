@@ -1,0 +1,200 @@
+{
+  "at_utc": "2026-10-27T16:56:43.971105+00:00",
+  "events": [
+    {
+      "source": "111-shop",
+      "path": "data/raw/stage5/research/111-shop.html",
+      "matches_original_sha": true,
+      "sha256": "fab47ac9b04a7ab1c3dfbd97f5daf6b80f16cd5e8ce1c50dde9a017f252b9217",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-2012-engineering",
+      "path": "data/raw/stage5/research/1wtc-2012-engineering.pdf",
+      "matches_original_sha": true,
+      "sha256": "c316be9f05ad43fbdc25c288b5ab3fdc2fb0ebacec3ae763d1f25f5fdbdcd6c2",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-downloads",
+      "path": "data/raw/stage5/research/1wtc-downloads.html",
+      "matches_original_sha": true,
+      "sha256": "a06b31b7130cf0865673a5c0787e44ecea5a08387cf5511c5a0b225448436593",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-som-zh",
+      "path": "data/raw/stage5/research/1wtc-som-zh.html",
+      "matches_original_sha": true,
+      "sha256": "3a78c093550a2cfa2cb41e252246479c4d04b36f2070eaa15920a5a81753974a",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-som",
+      "path": "data/raw/stage5/research/1wtc-som.html",
+      "matches_original_sha": true,
+      "sha256": "df35df6eaad3eb418fef557cdbf00843ef411986a2af5960cda6ce8af563598c",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-steel-institute",
+      "path": "data/raw/stage5/research/1wtc-steel-institute.pdf",
+      "matches_original_sha": true,
+      "sha256": "b2755d02d488d9acb03fde05bd8311dd0b95195411ae280fdcea59da86b51d5b",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-structure-engineers",
+      "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+      "matches_original_sha": true,
+      "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-view-1",
+      "path": "data/raw/stage5/research/1wtc-view-1.jpg",
+      "matches_original_sha": true,
+      "sha256": "5aa4db2bf3ca50fc8fe7a888e86e805e162837c951cec24e2c6aeb14f4c40af1",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-view-2",
+      "path": "data/raw/stage5/research/1wtc-view-2.jpg",
+      "matches_original_sha": true,
+      "sha256": "5b461a73a8ee3e0387df146c7a2c1882fbf5f262542bba89c21cecf27feeb5b1",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-view-3",
+      "path": "data/raw/stage5/research/1wtc-view-3.jpg",
+      "matches_original_sha": true,
+      "sha256": "108e762824307292bb797b2244a10d1376925f20a6db5fcffc7d4dbf21c53709",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "1wtc-wtc",
+      "path": "data/raw/stage5/research/1wtc-wtc.html",
+      "matches_original_sha": true,
+      "sha256": "28a482a6641e97374a34190e2208c138d12cc639ca6bd9c335417cce31db5514",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-exterior",
+      "path": "data/raw/stage5/research/432-exterior.jpg",
+      "matches_original_sha": true,
+      "sha256": "503e6f1c5fc232304e84c6f2ff27e6872e72fee84aa64d1fa492702d9cf08cbf",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-full-tower",
+      "path": "data/raw/stage5/research/432-full-tower.jpg",
+      "matches_original_sha": true,
+      "sha256": "b1de8bd8e153d91f9e868b69f63c93b369e5170098730fbda3439a0d3d64c838",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-home",
+      "path": "data/raw/stage5/research/432-home.html",
+      "matches_original_sha": true,
+      "sha256": "75cf77e98cc5a9c92a5eb712f87cad94c6bf0fdb8d14a6cf3460f8b4edfb568c",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-model",
+      "path": "data/raw/stage5/research/432-model.jpg",
+      "matches_original_sha": true,
+      "sha256": "08709d2dc5a9e336fa328647b0fa870e32504150d53981edf4d17ef1e035ee9c",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-sketch1",
+      "path": "data/raw/stage5/research/432-sketch1.jpg",
+      "matches_original_sha": true,
+      "sha256": "7944879454ef24f8583dc37bd648136b770640098507be9c37002c56d8997a7f",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-sketch2",
+      "path": "data/raw/stage5/research/432-sketch2.jpg",
+      "matches_original_sha": true,
+      "sha256": "f899fa586a28aa2cd1e47e022044284fdbaa0f04d9a862684c7b840a23128053",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-structure-engineers",
+      "path": "data/raw/stage5/research/432-structure-engineers.html",
+      "matches_original_sha": true,
+      "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-vinoly-brochure",
+      "path": "data/raw/stage5/research/432-vinoly-brochure.pdf",
+      "matches_original_sha": true,
+      "sha256": "e40c3b832714aa3d73cc78ca0f96537072170d7088042f26e32b9360ea69e727",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "432-vinoly",
+      "path": "data/raw/stage5/research/432-vinoly.html",
+      "matches_original_sha": true,
+      "sha256": "740a47263de8e43516e5c89136edcb1b7338082138f8baeaf4753b686caca6f9",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "OneWTC_Glossy_2026-09-16",
+      "path": "data/raw/stage5/research/OneWTC_Glossy_2026-09-16.pdf",
+      "matches_original_sha": true,
+      "sha256": "283597b0ebca5a80510bb35e853c83d7eb1e288f43fd5f26d504c03df0f4cd8e",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "OneWTC_PrebuiltBrochure_2026-09-16",
+      "path": "data/raw/stage5/research/OneWTC_PrebuiltBrochure_2026-09-16.pdf",
+      "matches_original_sha": true,
+      "sha256": "ef1b553085e0a91312378a417060c72a38d20279c1008afe8c5910aff24e75f8",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "OneWTC_StackingPlan_2026-09-16",
+      "path": "data/raw/stage5/research/OneWTC_StackingPlan_2026-09-16.pdf",
+      "matches_original_sha": true,
+      "sha256": "0204b3d4375f3a11fe85ab35372fce5efb79359f13cce78c3fe818a0161ce809",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "esb-design",
+      "path": "data/raw/stage5/research/esb-design.html",
+      "matches_original_sha": true,
+      "sha256": "df6bf4d7aa49f1a812ca1f2940ce54e384d2a805cb0e2cde993c4d3418f37ec8",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "esb-facts",
+      "path": "data/raw/stage5/research/esb-facts.html",
+      "matches_original_sha": true,
+      "sha256": "711590b630d2fcd4de141d06a38110300947208f5082b331dc7002887b5069d2",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "esb-history",
+      "path": "data/raw/stage5/research/esb-history.html",
+      "matches_original_sha": true,
+      "sha256": "177037a07dc3ffcc9ce686804019dc7f46686ee96bcc6af9b5b3f79ae1056360",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "nist-foot",
+      "path": "data/raw/stage5/research/nist-foot.html",
+      "matches_original_sha": true,
+      "sha256": "c37a245180bcf76c0e30c032704a21153597862425d02b464dc8bcf5cb992fab",
+      "original_source_overwritten": false
+    },
+    {
+      "source": "som-search-1wtc",
+      "error": "raw cache checksum/URL mismatch"
+    }
+  ],
+  "refresh": false,
+  "new_versions_never_silently_replace_model_evidence": true
+}

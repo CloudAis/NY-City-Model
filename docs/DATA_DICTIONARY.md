@@ -1,5 +1,7 @@
 # 字段字典
 
+阶段5landmarks/<slug>：dossier保存稳定原ID/BIN、身份范围、坐标或null、目标日期和四项statuses；dimensions.parameters保存source_value/unit、value_m、原文证据URL/路径/SHA/quote、换算/推导、uncertainty_m（未知null）和project_review_tolerance_m（项目阈值，非来源精度）。conflicts保留竞争数值/年代/选择依据。components区分已输出与缺失；materials类别证据与检查色度/粗糙度分开；references.views明确拍摄日/方位/校准状态；validation保存实际生成相机和数值残差、现实误差null。source-building.json为阶段2完整payload审计快照，其中height_m/ground_elevation_m只是legacy，不是阶段5canonical参数。manifest中的published_representations不等于fine_model_complete。
+
 原始字段和domains以保存的footprints-layer.json为准。
 
 |规范字段|官方字段/口径|处理|

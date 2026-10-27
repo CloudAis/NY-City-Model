@@ -1,0 +1,24 @@
+{
+  "at_utc": "2026-10-27T17:33:45.274712+00:00",
+  "path": "reports/nyc-stage5-landmark-studies.zip",
+  "bytes": 9168146,
+  "sha256": "a719a1ad2d231774e09dd193baec25f07877dc709784f9e4100acbbb6bd3d60f",
+  "checked_payload_files": 838,
+  "zip_crc_and_every_payload_sha_checked": true,
+  "runtime_entry_assets_match_actual_browser": [
+    "assets/Matrix4-C-Gm_KdH.js",
+    "assets/landmarks-Cm7X1Ip4.js",
+    "assets/landmarks-RvMjey1S.css",
+    "assets/widgets-B9DDZdqH.css",
+    "assets/widgets-DFb_0C97.js"
+  ],
+  "actual_browser_at": "2026-10-27T17:21:44.976Z",
+  "foundation_browser_at": "2026-10-27T16:56:17.885Z",
+  "requested_dossiers": 29,
+  "published_partial_representations": 2,
+  "fine_models_complete": 0,
+  "world_ground_registered": false,
+  "research_originals_distributed": false,
+  "standalone_browser_result": "reports/stage5/standalone-browser.json (separate actual execution)",
+  "scope": "two local-reference studies and one exact-ID source neighbourhood; not full city"
+}

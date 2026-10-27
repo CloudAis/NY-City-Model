@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "slug": "empire-state-building",
+  "name": "Empire State Building",
+  "borough": "manhattan",
+  "address": null,
+  "stable_building_id": "nyc:footprints:doitt:778052",
+  "bin": null,
+  "longitude_latitude_degrees": null,
+  "target_date": "2026-10-28",
+  "target_date_basis": "requested current stage reference; NOT a claim that all observations are current",
+  "source_observation_date": null,
+  "statuses": {
+    "research": "partial_owner_sources_acquired",
+    "massing": "not_started",
+    "facade": "not_started",
+    "validation": "not_started"
+  },
+  "model": null,
+  "coordinate_contract": "../../docs/COORDINATES.md; model local metre axes E,Up,-N",
+  "world_base_datum_status": "unresolved; no orthometric/ellipsoid substitution",
+  "known_height_caution": "owner1,250ft highest occupied/380m and1,454ft antenna/443m; main-body/setback/roof split still unverified; no model generated"
+}

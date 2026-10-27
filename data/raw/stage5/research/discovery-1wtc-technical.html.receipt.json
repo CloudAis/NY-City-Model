@@ -1,0 +1,17 @@
+{
+  "request_url": "https://html.duckduckgo.com/html/?q=One+World+Trade+Center+%22417%22+%22base%22+structural+pdf+SOM",
+  "final_url": "https://html.duckduckgo.com/html/?q=One+World+Trade+Center+%22417%22+%22base%22+structural+pdf+SOM",
+  "download_started_at": "2026-10-27T16:16:44.822098+00:00",
+  "download_completed_at": "2026-10-27T16:16:45.533356+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 9449,
+  "sha256": "df057620ad680d404b9d2b58fb1a4cee743fc17f1163307e9929cf0fd6706d24",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

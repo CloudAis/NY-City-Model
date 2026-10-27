@@ -1,0 +1,130 @@
+{
+  "at_utc": "2026-10-27T17:26:19.366549+00:00",
+  "requested_dossiers": 29,
+  "partially_researched": 4,
+  "research_complete": 0,
+  "published_partial_representations": 2,
+  "main_body_volume_representations": 1,
+  "structural_grid_fragments": 1,
+  "massing_complete": 0,
+  "facade_complete": 0,
+  "fine_model_complete": 0,
+  "complete_validation": 0,
+  "actual_rendered_views": 12,
+  "calibrated_reference_images": 0,
+  "gpu_numeric_max_height_error_m": 2.9101562518007995e-05,
+  "independent_reality_error_m": null,
+  "world_ground_registered": false,
+  "replacement_actual_test": "one target hidden,19 neighbours retained, restored when model off;432 fragment replacement refused",
+  "source_records": 45,
+  "records": [
+    {
+      "slug": "one-world-trade-center",
+      "building_id": "nyc:footprints:doitt:1114961",
+      "representation": "eight-facet main volume + roof + spire axis; not complete detailed landmark",
+      "model_sha256": "71467a3c6d9a7042f9ca83f279e22da1d0e6b8cff2279d8ecf9b4046a07ca6ba",
+      "height_numeric_error_m": 2.9101562518007995e-05,
+      "generated_view_count": 6,
+      "fine_model_complete": false,
+      "conflicts": [
+        {
+          "parameter": "base_width",
+          "candidates": [
+            {
+              "source": "wtc-engineer-2012",
+              "feet": 205
+            },
+            {
+              "source": "wtc-engineer",
+              "feet": 200
+            }
+          ],
+          "selection": "2012 engineering geometry, supported by current saved source outline; independent wall-line survey missing"
+        },
+        {
+          "parameter": "roof_width",
+          "candidates": [
+            {
+              "source": "wtc-engineer-2012",
+              "feet": 145
+            },
+            {
+              "source": "wtc-architect",
+              "feet": 150
+            }
+          ],
+          "selection": "architect webpage describes completed building; no independent roof survey, 5ft uncertainty retained"
+        },
+        {
+          "parameter": "spire_extent",
+          "candidates": [
+            {
+              "source": "wtc-engineer",
+              "above_roof_feet": 408
+            },
+            {
+              "source": "wtc-architect",
+              "extent_feet": 441
+            }
+          ],
+          "selection": "408 explicitly above main roof;441 description includes communication assembly in steel paper; not silently treated as same base"
+        }
+      ],
+      "missing": [
+        "entrance widths/canopies",
+        "glass fin spacing",
+        "curtain-wall counts/layout",
+        "communications ring diameters/heights",
+        "spire diameter/cables/beacon",
+        "ground datum"
+      ]
+    },
+    {
+      "slug": "432-park-avenue",
+      "building_id": "nyc:footprints:doitt:1119374",
+      "representation": "line-only structural grid study, no concrete member volumes or glazing",
+      "model_sha256": "764a5bdedb37f277063c39d9538eb06555e086c5d9f117dba3c496c39b44ca6f",
+      "height_numeric_error_m": 6.542968776557245e-06,
+      "generated_view_count": 6,
+      "fine_model_complete": false,
+      "conflicts": [
+        {
+          "field": "architect_map",
+          "raw_longitude_latitude": [
+            -73.40133438300779,
+            40.65330897450164
+          ],
+          "action": "reject as NYC tower location; retained original page"
+        },
+        {
+          "field": "window_area",
+          "architect_approx_m2": 10,
+          "owner_10ft_square_m2": 9.290304,
+          "action": "record disagreement; do not claim facade geometry complete"
+        },
+        {
+          "field": "residence_counts",
+          "architect_intro": 104,
+          "architect_body": 106,
+          "action": "not used for geometry"
+        }
+      ],
+      "missing": [
+        "retail podiums",
+        "tower exact site position",
+        "five open-floor absolute levels",
+        "concrete section dimensions",
+        "window/door distribution",
+        "entrance and crown details"
+      ]
+    }
+  ],
+  "legacy_model_candidates": 1288,
+  "legacy_reused_models": 0,
+  "legacy_reason": "2014 geometry candidates include duplicate representations; unit/datum/current identity/ground not reconciled; bbox count is NOT building count",
+  "checks": {
+    "python": 36,
+    "browser_groups": 6,
+    "local_requests_only": true
+  }
+}

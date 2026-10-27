@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.onewtc.com/downloads/",
+  "final_url": "https://www.onewtc.com/downloads/",
+  "download_started_at": "2026-10-27T16:13:08.836013+00:00",
+  "download_completed_at": "2026-10-27T16:13:09.464768+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html",
+  "etag": "\"569fafdb9e06b1e62e7b9832d7bf5ab8\"",
+  "last_modified_http": "Tue, 27 Oct 2026 15:30:35 GMT",
+  "bytes": 163440,
+  "sha256": "a06b31b7130cf0865673a5c0787e44ecea5a08387cf5511c5a0b225448436593",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,144 @@
+{
+  "sources": [
+    {
+      "id": "park-engineer",
+      "path": "data/raw/stage5/research/432-structure-engineers.html",
+      "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+      "url": "https://www.structuremag.org/article/432-park/",
+      "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "park-architect",
+      "path": "data/raw/stage5/research/432-vinoly.html",
+      "sha256": "740a47263de8e43516e5c89136edcb1b7338082138f8baeaf4753b686caca6f9",
+      "url": "https://vinoly.com/works/432-park-avenue/",
+      "downloaded_at": "2026-10-27T16:07:54.254297+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "park-owner",
+      "path": "data/raw/stage5/research/432-home.html",
+      "sha256": "75cf77e98cc5a9c92a5eb712f87cad94c6bf0fdb8d14a6cf3460f8b4edfb568c",
+      "url": "https://www.432parkavenue.com/",
+      "downloaded_at": "2026-10-27T16:04:30.002577+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "park-architect-pdf",
+      "path": "data/raw/stage5/research/432-vinoly-brochure.pdf",
+      "sha256": "e40c3b832714aa3d73cc78ca0f96537072170d7088042f26e32b9360ea69e727",
+      "url": "https://vinoly.com/wp-content/uploads/2016/04/2016_0601_RVA_432_FINAL_UPDATED.pdf",
+      "downloaded_at": "2026-10-27T16:09:09.052901+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    },
+    {
+      "id": "nist-unit",
+      "path": "data/raw/stage5/research/nist-foot.html",
+      "sha256": "c37a245180bcf76c0e30c032704a21153597862425d02b464dc8bcf5cb992fab",
+      "url": "https://www.nist.gov/pml/us-surveyfoot",
+      "downloaded_at": "2026-10-27T16:20:12.371365+00:00",
+      "observation_date": null,
+      "publication_date": null,
+      "license": "reference-only; redistribution permission not established",
+      "primary": true
+    }
+  ],
+  "views": {
+    "north": {
+      "reference": "data/raw/stage5/research/432-full-tower.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "north/northwest sector inferred from Central Park foreground; exact azimuth/date unverified; retouched-sky filename; qualitative only"
+    },
+    "east": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "south": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "west": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "high": {
+      "reference": null,
+      "capture_date": null,
+      "calibrated": false,
+      "status": "No dated/calibrated direction-specific reference; available photos separately inventoried for qualitative review."
+    },
+    "street": {
+      "reference": "data/raw/stage5/research/432-exterior.jpg",
+      "capture_date": null,
+      "calibrated": false,
+      "status": "retail-cube/site reference, NOT tower facade; camera/date unknown"
+    }
+  },
+  "unoriented_reference_images": [
+    {
+      "path": "data/raw/stage5/research/432-exterior.jpg",
+      "url": "https://vinoly.com/wp-content/uploads/2016/04/432Park_Ext07-714x1000.jpg",
+      "sha256": "503e6f1c5fc232304e84c6f2ff27e6872e72fee84aa64d1fa492702d9cf08cbf",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    },
+    {
+      "path": "data/raw/stage5/research/432-full-tower.jpg",
+      "url": "https://vinoly.com/wp-content/uploads/2016/04/2016_11_04_RafPar02_retouched-MORE-SKY.jpg",
+      "sha256": "b1de8bd8e153d91f9e868b69f63c93b369e5170098730fbda3439a0d3d64c838",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    },
+    {
+      "path": "data/raw/stage5/research/432-model.jpg",
+      "url": "https://vinoly.com/wp-content/uploads/2016/04/432Park_m_05.jpg",
+      "sha256": "08709d2dc5a9e336fa328647b0fa870e32504150d53981edf4d17ef1e035ee9c",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    },
+    {
+      "path": "data/raw/stage5/research/432-sketch1.jpg",
+      "url": "https://vinoly.com/wp-content/uploads/2016/04/432_Sketch1-714x1000.jpg",
+      "sha256": "7944879454ef24f8583dc37bd648136b770640098507be9c37002c56d8997a7f",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    },
+    {
+      "path": "data/raw/stage5/research/432-sketch2.jpg",
+      "url": "https://vinoly.com/wp-content/uploads/2016/04/432_Sketch2-714x1000.jpg",
+      "sha256": "f899fa586a28aa2cd1e47e022044284fdbaa0f04d9a862684c7b840a23128053",
+      "observation_date": null,
+      "camera_calibrated": false,
+      "azimuth": null,
+      "use": "qualitative only; sketches and retouched images not metric survey"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # 架构
 
+阶段5沿用同一工程，新增landmarks.html与src/landmarks。独立档案→逐参数引用校验→局部组件GLB→3D Tiles→来源/模型/替换清单→实际浏览器证据→质量报告。研究/体量/立面/完整验证独立状态。One WTC部分主体与432线网格不计为完整精细模型。精确原ID筛选仅在参考检视器隐藏One WTC单对象；432项目含裙房故拒绝替换。全局替换权限保持false。照片/PDF原件不分发。
+
 TypeScript + Vite + CesiumJS；Python/pyproj/Shapely处理GIS；GLB/glTF 2.0 + 3D Tiles 1.1，CPU双精度定位，GPU瓦片ENU局部米坐标。固定版本在package-lock.json及requirements-lock.txt。
 
 raw(只追加原始响应+receipt) → intermediate(下载分片/恢复点) → processed(规范化记录) → assets(发布瓦片/清单)。download、解压、解析、规范化、发布各自缓存与结果，不让失败重跑破坏原始资料。
