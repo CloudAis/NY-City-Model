@@ -1,0 +1,17 @@
+{
+  "request_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ny/ny0300/ny0381/sheet/00005a.tif",
+  "final_url": "https://tile.loc.gov/storage-services/master/pnp/habshaer/ny/ny0300/ny0381/sheet/00005a.tif",
+  "download_started_at": "2026-10-28T03:21:07.042055+00:00",
+  "download_completed_at": "2026-10-28T03:21:07.310973+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "image/tiff",
+  "etag": null,
+  "last_modified_http": "Tue, 12 Sep 2000 12:27:35 GMT",
+  "bytes": 469606,
+  "sha256": "cfca54134e148fe71d63bcd2fff71d289aa3f24c1c209ba5c5159cbb6294a4e4",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

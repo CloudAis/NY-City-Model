@@ -1,0 +1,19 @@
+{
+  "version": "2026-10-28-stage6",
+  "selection": "Explicit research windows, not official neighbourhood boundaries or verified building-use labels.",
+  "source_capture": "2026-10-27-city",
+  "areas": [
+    {"id":"manhattan-grove","name":"Grove Street · 4–10号及邻域","borough":"manhattan","category":"联排住宅","bbox":[-74.00618,40.73216,-74.00572,40.73237],"priority_street":true},
+    {"id":"manhattan-soho","name":"SoHo · Greene / Broome","borough":"manhattan","category":"SoHo街墙","bbox":[-74.0012,40.7224,-73.9992,40.7240]},
+    {"id":"manhattan-financial","name":"金融区 · Broad / Wall","borough":"manhattan","category":"商务高层候选","bbox":[-74.0115,40.7057,-74.0091,40.7077]},
+    {"id":"brooklyn-park-slope","name":"Park Slope · 3rd Street","borough":"brooklyn","category":"联排住宅候选","bbox":[-73.9806,40.6701,-73.9784,40.6718]},
+    {"id":"brooklyn-dumbo","name":"DUMBO · Water / Washington","borough":"brooklyn","category":"工业及改造建筑候选","bbox":[-73.9905,40.7027,-73.9880,40.7043]},
+    {"id":"brooklyn-flatbush","name":"Flatbush · Ocean / Church","borough":"brooklyn","category":"公寓候选","bbox":[-73.9628,40.6488,-73.9603,40.6508]},
+    {"id":"queens-jackson-heights","name":"Jackson Heights · 80th / 35th","borough":"queens","category":"花园公寓候选","bbox":[-73.8872,40.7508,-73.8838,40.7530]},
+    {"id":"queens-forest-hills","name":"Forest Hills · Burns / Ascan","borough":"queens","category":"低层住宅候选","bbox":[-73.8440,40.7159,-73.8408,40.7183]},
+    {"id":"bronx-mott-haven","name":"Mott Haven · Alexander / 139th","borough":"bronx","category":"公寓候选","bbox":[-73.9250,40.8098,-73.9222,40.8120]},
+    {"id":"bronx-hunts-point","name":"Hunts Point · Food Center","borough":"bronx","category":"工业建筑候选","bbox":[-73.8815,40.8110,-73.8780,40.8136]},
+    {"id":"staten-st-george","name":"St George · St Marks / Westervelt","borough":"staten-island","category":"低层混合街区候选","bbox":[-74.0837,40.6400,-74.0805,40.6422]},
+    {"id":"staten-tottenville","name":"Tottenville · Main / Amboy","borough":"staten-island","category":"低层住宅候选","bbox":[-74.2527,40.5100,-74.2492,40.5125]}
+  ]
+}

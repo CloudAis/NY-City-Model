@@ -1,0 +1,21 @@
+PASS default evidence mode has12 real AOIs,918 unique source objects and no invented current facades
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+2 !== 1
+
+    at file:///workspace/nyc-3d-html/tests/facades-browser.mjs:27:234
+    at async check (file:///workspace/nyc-3d-html/tests/facades-browser.mjs:9:31)
+    at async file:///workspace/nyc-3d-html/tests/facades-browser.mjs:26:2 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 2,
+  expected: 1,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

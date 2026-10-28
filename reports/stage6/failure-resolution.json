@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-10-28T04:01:50.143908+00:00",
+  "observations": [
+    {
+      "issue": "initial Python downloader tests could not open local socket in restricted shell",
+      "evidence": "tests-first-attempt.log",
+      "resolution": "rerun with local execution permission;44tests passed"
+    },
+    {
+      "issue": "test accessor only supported VEC3/SCALAR, new UV requires VEC2",
+      "resolution": "parse UV accessor as2 floats; original shared geometry tests unchanged"
+    },
+    {
+      "issue": "actual Cesium shader compile failure",
+      "observed_console": "ERROR:0:37: '-' : syntax error",
+      "observed_shader_define": "#define SELECTED_FEATURE_ID dated-facade-fragment",
+      "resolution": "valid feature label facade; rule and actual rendered8groups passed"
+    },
+    {
+      "issue": "initial address/photo order association mistaken",
+      "resolution": "HABS location sketch, door4 detail, current north road and address coordinates checked; image left-to-right10,8,6,4; UV corrected without flipping source"
+    },
+    {
+      "issue": "reference button inside closed details was not visible in test",
+      "resolution": "open details before clicking; actual dialog/browser passed"
+    },
+    {
+      "issue": "redirect finalURL differs from immutable request cache key",
+      "resolution": "record and reuse request_url;23cachechecks passed"
+    }
+  ],
+  "scope": "record of actually observed failures and fixes, not a fresh reproduction or fabricated original console log"
+}

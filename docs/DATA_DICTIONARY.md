@@ -1,5 +1,7 @@
 # 字段字典
 
+阶段6facade.id=原ID+部件/环+端点哈希，是候选边而非实测立面ID；outward_azimuth_degrees为真北顺时针方位，width_projected_m为源投影长度，height_m/vertical_shape未知null，exposure可能共墙。components九类分别记状态。historical_evidence不改变current_complete。texture-processing保存原图SHA/日期/具体许可、角点/矩阵、像素尺寸/mask比例、标尺/照片推导值和宽度冲突，现实精度null。known_pixel_fraction不是实测整墙覆盖率；4语义正面可关联7条候选边，不能当7完整立面。
+
 阶段5landmarks/<slug>：dossier保存稳定原ID/BIN、身份范围、坐标或null、目标日期和四项statuses；dimensions.parameters保存source_value/unit、value_m、原文证据URL/路径/SHA/quote、换算/推导、uncertainty_m（未知null）和project_review_tolerance_m（项目阈值，非来源精度）。conflicts保留竞争数值/年代/选择依据。components区分已输出与缺失；materials类别证据与检查色度/粗糙度分开；references.views明确拍摄日/方位/校准状态；validation保存实际生成相机和数值残差、现实误差null。source-building.json为阶段2完整payload审计快照，其中height_m/ground_elevation_m只是legacy，不是阶段5canonical参数。manifest中的published_representations不等于fine_model_complete。
 
 原始字段和domains以保存的footprints-layer.json为准。

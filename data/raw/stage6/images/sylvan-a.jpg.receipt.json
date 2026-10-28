@@ -1,0 +1,17 @@
+{
+  "request_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:14200:14220/full/pct:25/0/default.jpg",
+  "final_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:14200:14220/full/pct:25/0/default.jpg",
+  "download_started_at": "2026-10-28T03:20:28.943607+00:00",
+  "download_completed_at": "2026-10-28T03:20:31.627745+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "image/jpeg",
+  "etag": null,
+  "last_modified_http": "Wed, 28 Oct 2026 03:20:31 GMT",
+  "bytes": 298727,
+  "sha256": "8bb9ba0f6f8d6a92898f222ec1dca82dd2ba3eb2e34cad1e82df1f0e47848f4d",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

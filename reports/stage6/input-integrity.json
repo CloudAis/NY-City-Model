@@ -1,0 +1,30 @@
+{
+  "at_utc": "2026-10-28T03:47:39.392534+00:00",
+  "baseline": "stage5 input-integrity SHA",
+  "large_inputs": [
+    {
+      "path": "data/processed/city/buildings.sqlite",
+      "sha256": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37",
+      "unchanged": true
+    },
+    {
+      "path": "data/intermediate/extracted/nyc_3dmodel_mn01/NYC_3DModel_MN01.3dm",
+      "sha256": "58f874e508a2e0501f0b803ad69c0ea4ef3e2262a86feec7a743b16600732c7c",
+      "unchanged": true
+    },
+    {
+      "path": "assets/buildings-city/manhattan/597_121_000-strict.glb",
+      "sha256": "63e3f2cf6731fdc4ef9aa52023a59fb8fd5b4ff9f88be7c54074c683ddfc8ab8",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/building-stage4/city/associations.sqlite",
+      "sha256": "bba320648dfdba61a757341ccaadd146fae1f2a94ed58de4199e56f4875dc74e",
+      "unchanged": true
+    }
+  ],
+  "prior_raw_checked": 2775,
+  "prior_raw_unchanged": true,
+  "tinnis_status_short": "",
+  "tinnis_untouched": true
+}

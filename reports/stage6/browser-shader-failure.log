@@ -1,0 +1,15 @@
+PASS default evidence mode has12 real AOIs,918 unique source objects and no invented current facades
+PASS all12 actual source AOIs load GLBs and explicit boundaries without accumulating old tilesets
+PASS per-face panel distinguishes historical front from unknown current sides without a whole-building truth label
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForFunction: Timeout 30000ms exceeded.
+    at /workspace/nyc-3d-html/tests/facades-browser.mjs:43:55
+    at async check (/workspace/nyc-3d-html/tests/facades-browser.mjs:9:31)
+    at async file:///workspace/nyc-3d-html/tests/facades-browser.mjs:37:2 {
+  name: 'TimeoutError'
+}
+
+Node.js v24.19.0

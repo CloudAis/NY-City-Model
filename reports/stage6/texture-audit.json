@@ -1,0 +1,73 @@
+{
+  "source": "data/raw/stage6/images/grove-1.tif",
+  "source_sha256": "274ad341b6de56b44f016a6389a93c8bfce92f7ee576f1bf65a5539aefc4def2",
+  "date": "1936-08-25",
+  "rights": {
+    "482_high.html": " Ms. Highsmith has stipulated that her photographs are in the public domain. (See P&amp;P Collection Files.) Photographs of sculpture or other works of art may be restricted by the copyright of the artist. ",
+    "114_habs.html": " The original measured drawings and most of the photographs and data pages in HABS/HAER/HALS were created for the U.S. Government and are considered to be in the public domain. However, occasionally material from a historical society or other source is included in the photographs or data pages. These materials are noted by the presence of a line crediting the original source, and it may be necessary to receive permission from the owner of such material before it can be published. In all cases the courtesy of an acknowledgment is requested if material is used in a publication. Privacy and publicity rights may also apply. "
+  },
+  "fronts": [
+    {
+      "address": "4 Grove Street",
+      "building_id": "nyc:footprints:doitt:233256",
+      "texture": "front-4.png",
+      "texture_sha256": "1b70820bef1129bbf4d77787b4bcec4bd80353bd3340093b9ca7922054f4b767",
+      "size_px": [
+        589,
+        755
+      ],
+      "unknown_pixel_fraction": 0.31055667367521556,
+      "control_reprojection_error_pixels": 3.2155493553843715e-13,
+      "width_conflict_m": -1.7763568394002505e-15,
+      "current_complete": false
+    },
+    {
+      "address": "6 Grove Street",
+      "building_id": "nyc:footprints:doitt:281428",
+      "texture": "front-6.png",
+      "texture_sha256": "f475468ff672198e8d3dfe51a7b87c6538e284d60e8120b0917bcaf3ff82f9ed",
+      "size_px": [
+        454,
+        755
+      ],
+      "unknown_pixel_fraction": 0.3103947253260204,
+      "control_reprojection_error_pixels": 6.252776074688882e-13,
+      "width_conflict_m": -1.1595325626379207,
+      "current_complete": false
+    },
+    {
+      "address": "8 Grove Street",
+      "building_id": "nyc:footprints:doitt:231563",
+      "texture": "front-8.png",
+      "texture_sha256": "9dffb7e06ba94f18f55b32a25751fd3538ca0ca67fe094b7bb3f590a97eee0a5",
+      "size_px": [
+        477,
+        761
+      ],
+      "unknown_pixel_fraction": 0.31272159274043587,
+      "control_reprojection_error_pixels": 3.4065740248191004e-13,
+      "width_conflict_m": -0.9068625055328043,
+      "current_complete": false
+    },
+    {
+      "address": "10 Grove Street",
+      "building_id": "nyc:footprints:doitt:138288",
+      "texture": "front-10.png",
+      "texture_sha256": "a06d709c20440b48cc7f4d4bf8000b491350ca38575df4ee2d576f20ca28dfe0",
+      "size_px": [
+        480,
+        773
+      ],
+      "unknown_pixel_fraction": 0.35162785683484266,
+      "control_reprojection_error_pixels": 3.4362478917267804e-13,
+      "width_conflict_m": -0.8115070733330194,
+      "current_complete": false
+    }
+  ],
+  "source_quality_unknown": true,
+  "pixel_error_not_metric_accuracy": true,
+  "inpainting": false,
+  "colour_matching": "none, monochrome source; no physical albedo claim",
+  "near_silhouette_geometry": "uncompleted: stairs, railings, cornice depths and roofs",
+  "front_to_back_copy": false
+}

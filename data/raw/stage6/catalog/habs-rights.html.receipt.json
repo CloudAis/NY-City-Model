@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.loc.gov/rr/print/res/114_habs.html",
+  "final_url": "https://guides.loc.gov/p-and-p-rights-and-restrictions/rights#114_habs.html",
+  "download_started_at": "2026-10-28T03:20:28.120901+00:00",
+  "download_completed_at": "2026-10-28T03:20:28.941640+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=UTF-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 40963,
+  "sha256": "ae32a4084d9443577b83ee80739c73c2d41439a1bfe3306e84ca47e24c19cd43",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

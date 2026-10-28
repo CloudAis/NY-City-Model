@@ -1,0 +1,141 @@
+{
+  "at_utc": "2026-10-28T03:42:19.860834+00:00",
+  "events": [
+    {
+      "source": "data/raw/stage6/catalog/charlton.json",
+      "path": "data/raw/stage6/catalog/charlton.json",
+      "sha256": "e4ec712246d4c0e5eba41f49e424040cf5670953cf76b4604616fc5b6e0bf96d",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/catalog/greene-search.json",
+      "path": "data/raw/stage6/catalog/greene-search.json",
+      "sha256": "79d7954acde0e68e5a71f468690ac898b923da64367c648fc5ce0c8b0518ccb2",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/catalog/grove-data.pdf",
+      "path": "data/raw/stage6/catalog/grove-data.pdf",
+      "sha256": "68d0aabd31097dbf786aad759de5a91062a6f73d3a08ae87868ea31e908330b9",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/catalog/grove.json",
+      "path": "data/raw/stage6/catalog/grove.json",
+      "sha256": "a3bc47a6714e4c712222f7872e2fcecfdb49ad4a0dbdaf29667b3e66379fd10d",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/catalog/habs-rights.html",
+      "error": "raw cache checksum/URL mismatch"
+    },
+    {
+      "source": "data/raw/stage6/catalog/highsmith-rights.html",
+      "error": "raw cache checksum/URL mismatch"
+    },
+    {
+      "source": "data/raw/stage6/catalog/loc-rights-table.csv",
+      "path": "data/raw/stage6/catalog/loc-rights-table.csv",
+      "sha256": "3c7ad29bc2ad742dc3b0b37145b71ce9b3aadeab19bbbdc359b2190a22b9f43c",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/catalog/row-search.json",
+      "path": "data/raw/stage6/catalog/row-search.json",
+      "sha256": "27c7f2b40826dbc07d7a69da1fcbb1a7001235c702bd8455118b21244920321c",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/catalog/sylvan-a.json",
+      "path": "data/raw/stage6/catalog/sylvan-a.json",
+      "sha256": "97dda6699827c265d2389d46da208877211aab5d691c9f50d216b8838c18f57f",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/catalog/sylvan-b.json",
+      "path": "data/raw/stage6/catalog/sylvan-b.json",
+      "sha256": "008e75a45f23205dfa8fa5294f908a021db2c8007e6b8c3bd9aba4b4556c4fe9",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-0.tif",
+      "path": "data/raw/stage6/drawings/grove-0.tif",
+      "sha256": "907867b81ff36fd1bf15fbcce7b14037a9fbfeb6b3e1da20fd088a7378d9ed0b",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-1.tif",
+      "path": "data/raw/stage6/drawings/grove-1.tif",
+      "sha256": "069d088864b51b6f5c78bbff21fcd322f6f3cea7baaa6447ef09b155bf1f4d37",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-2.tif",
+      "path": "data/raw/stage6/drawings/grove-2.tif",
+      "sha256": "44e457c009cb2c616d6ed4256e8afba1b34445b1ad6deb3555e82cdc2c5cc87a",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-3.tif",
+      "path": "data/raw/stage6/drawings/grove-3.tif",
+      "sha256": "204a7140364812839e3b35bfdfd38609f6258f845bbd46278e6a688c8b05ee05",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-4.tif",
+      "path": "data/raw/stage6/drawings/grove-4.tif",
+      "sha256": "3483f4edfb05edcb890eb1f424943276eb53905f925cb23b63ddb573f17c0564",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-5.tif",
+      "path": "data/raw/stage6/drawings/grove-5.tif",
+      "sha256": "cfca54134e148fe71d63bcd2fff71d289aa3f24c1c209ba5c5159cbb6294a4e4",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-6.tif",
+      "path": "data/raw/stage6/drawings/grove-6.tif",
+      "sha256": "cc5efd9ef88f2ddd88e305d49a628d484845ae9d803d0a409397a46d43746d48",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/drawings/grove-7.tif",
+      "path": "data/raw/stage6/drawings/grove-7.tif",
+      "sha256": "6a467abfe62616f40f2230070ce2564bbfa2d064e2e29c028faf0938c92c1db8",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/images/grove-1.tif",
+      "path": "data/raw/stage6/images/grove-1.tif",
+      "sha256": "274ad341b6de56b44f016a6389a93c8bfce92f7ee576f1bf65a5539aefc4def2",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/images/grove-2.tif",
+      "path": "data/raw/stage6/images/grove-2.tif",
+      "sha256": "6f9e34dc6f69403b4b57b52a0cb42094a063fcd990db5646b745946850cb79bb",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/images/grove-3.tif",
+      "path": "data/raw/stage6/images/grove-3.tif",
+      "sha256": "111f07b8f2dae1c4a466044ec7bc627910367bcd6b79c217e2dbd06cd79eb279",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/images/sylvan-a.jpg",
+      "path": "data/raw/stage6/images/sylvan-a.jpg",
+      "sha256": "8bb9ba0f6f8d6a92898f222ec1dca82dd2ba3eb2e34cad1e82df1f0e47848f4d",
+      "matches_retained_version": true
+    },
+    {
+      "source": "data/raw/stage6/images/sylvan-b.jpg",
+      "path": "data/raw/stage6/images/sylvan-b.jpg",
+      "sha256": "5e9037fcd951736de50b2345c6395a396bd02087ac98fd5a1257c8bce5248ef0",
+      "matches_retained_version": true
+    }
+  ],
+  "refresh": false,
+  "raw_overwrite_allowed": false
+}

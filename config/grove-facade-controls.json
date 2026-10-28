@@ -1,0 +1,230 @@
+{
+  "schema_version": 6,
+  "source_image": "data/raw/stage6/images/grove-1.tif",
+  "source_catalog": "data/raw/stage6/catalog/grove.json",
+  "source_drawing": "data/raw/stage6/drawings/grove-1.tif",
+  "observation_date": "1936-08-25",
+  "drawing_date": null,
+  "drawing_date_note": "HABS original measured drawing; exact survey/drawing date not independently established. Catalog compiled after1933.",
+  "source_preview_size": [
+    1800,
+    1246
+  ],
+  "native_size": [
+    5000,
+    3460
+  ],
+  "point_order": "top-left, top-right, bottom-right, bottom-left; manually traced photograph wall-plane corners",
+  "controls_status": "manual derived, not a calibrated metric camera; no independent reality accuracy claimed",
+  "drawing_scale": {
+    "zero_pixel": [
+      7520,
+      6272
+    ],
+    "twenty_five_feet_pixel": [
+      8775,
+      6272
+    ],
+    "length_international_ft": 25,
+    "basis": "visible original dual feet/metres graphic scale; ordinary architectural drawing units, not survey coordinates",
+    "front_grade_y": 2518,
+    "front_cornice_top_y": 1275,
+    "pixel_selection_tolerance": 5,
+    "source_accuracy_m": null
+  },
+  "mode_policy": {
+    "default": "evidence",
+    "historical_reference_requires_explicit_enable": true,
+    "procedural_completion_implemented": false,
+    "current_verified_facades": 0,
+    "current_complete_streets": 0
+  },
+  "fronts": [
+    {
+      "address": "4 Grove Street",
+      "building_id": "nyc:footprints:doitt:233256",
+      "base_bbl": "1005850015",
+      "quad_preview": [
+        [
+          1239,
+          595
+        ],
+        [
+          1410,
+          629
+        ],
+        [
+          1417,
+          961
+        ],
+        [
+          1240,
+          971
+        ]
+      ],
+      "front_metric": [
+        [
+          299487.54909621394,
+          62814.40240846357
+        ],
+        [
+          299493.394397379,
+          62813.685408494806
+        ]
+      ],
+      "wall_material": {
+        "status": "source_explicit_historical",
+        "value": "Flemish bond brick",
+        "reference": "HABS sheet1 annotation"
+      },
+      "notes": "Drawing documents this building only. Historical photo shutters differ from drawing; do not mix into one as-built date."
+    },
+    {
+      "address": "6 Grove Street",
+      "building_id": "nyc:footprints:doitt:281428",
+      "base_bbl": "1005850016",
+      "quad_preview": [
+        [
+          1064,
+          560
+        ],
+        [
+          1236,
+          596
+        ],
+        [
+          1235,
+          972
+        ],
+        [
+          1066,
+          982
+        ]
+      ],
+      "front_metric": [
+        [
+          299493.394397379,
+          62813.685408494806
+        ],
+        [
+          299499.0507985159,
+          62812.99150852256
+        ]
+      ],
+      "wall_material": {
+        "status": "derived_historical_photo",
+        "value": "brick-like appearance; chemical composition unverified",
+        "reference": "HABS photo119530p"
+      },
+      "notes": "Individual third-from-left photo region, no copied shutters from8; no building-specific measured drawing acquired."
+    },
+    {
+      "address": "8 Grove Street",
+      "building_id": "nyc:footprints:doitt:231563",
+      "base_bbl": "1005850017",
+      "quad_preview": [
+        [
+          836,
+          514
+        ],
+        [
+          1061,
+          559
+        ],
+        [
+          1065,
+          982
+        ],
+        [
+          834,
+          998
+        ]
+      ],
+      "front_metric": [
+        [
+          299499.0507985159,
+          62812.99150852256
+        ],
+        [
+          299504.6815996393,
+          62812.300808563705
+        ]
+      ],
+      "wall_material": {
+        "status": "derived_historical_photo",
+        "value": "brick-like appearance; composition unverified",
+        "reference": "HABS photo119530p"
+      },
+      "notes": "Individual second-from-left photo region with light shutters; not copied from4/6/10."
+    },
+    {
+      "address": "10 Grove Street",
+      "building_id": "nyc:footprints:doitt:138288",
+      "base_bbl": "1005850018",
+      "quad_preview": [
+        [
+          533,
+          447
+        ],
+        [
+          831,
+          509
+        ],
+        [
+          833,
+          1000
+        ],
+        [
+          521,
+          1019
+        ]
+      ],
+      "front_metric": [
+        [
+          299504.6815996393,
+          62812.300808563705
+        ],
+        [
+          299510.25600075687,
+          62811.61690858516
+        ]
+      ],
+      "wall_material": {
+        "status": "derived_historical_photo",
+        "value": "brick-like appearance; composition unverified",
+        "reference": "HABS photo119530p"
+      },
+      "notes": "Individual leftmost image region and visible end wall, neither applied to unseen building sides nor mistaken for4."
+    }
+  ],
+  "mask_policy": {
+    "lower_v_fraction": 0.78,
+    "upper_v_fraction": 0.07,
+    "edge_fraction": 0.015,
+    "neutral_rgb": [
+      148,
+      151,
+      152
+    ],
+    "purpose": "Mask foreground fence/steps, top cornice shadow and uncertain building seams. Unknown pixels use opaque neutral fill. No inpainting or generated completion."
+  },
+  "missing_geometry": [
+    "measured stoop/railing/cornice projection for all four fronts",
+    "roof volumes of6/8/10",
+    "current four-direction survey",
+    "current ground datum",
+    "unobstructed full entrances"
+  ],
+  "texture_role": "historical wall-plane photograph fragments, NOT physical PBR albedo or complete facade geometry",
+  "photo_direction_evidence": {
+    "source": "HABS sheet0 sketch:4 westernmost beside Hudson; retained PLUTO addresses + source outlines increase eastward; official roadbed north of fronts",
+    "image_order_left_to_right": [
+      "10",
+      "8",
+      "6",
+      "4"
+    ],
+    "uv_horizontal_world_direction": "photograph u increases westward, opposite the source edge East direction",
+    "note": "Do not infer photo order from ascending street numbers. Identified entrance photo119531p visibly bears4."
+  }
+}

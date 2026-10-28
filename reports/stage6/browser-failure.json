@@ -1,0 +1,101 @@
+{
+  "error": "TimeoutError: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#reference')\u001b[22m\n\u001b[2m    - locator resolved to <button id=\"reference\">查看已取得的原始参考</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    56 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+  "checks": [
+    "default evidence mode has12 real AOIs,918 unique source objects and no invented current facades",
+    "all12 actual source AOIs load GLBs and explicit boundaries without accumulating old tilesets",
+    "per-face panel distinguishes historical front from unknown current sides without a whole-building truth label",
+    "historical toggle loads four distinct licensed photo textures, restores evidence mode and never hides current outlines",
+    "fixed neutral observation path covers front, joins, close windows and the explicitly missing back"
+  ],
+  "errors": [],
+  "snapshot": {
+    "area": "manhattan-grove",
+    "outlineLoads": 1,
+    "historyLoads": 1,
+    "mode": "historical-reference",
+    "currentVerified": 0,
+    "completedStreets": 0,
+    "procedural": 0,
+    "historyLoaded": true,
+    "outlineLoaded": true,
+    "sourceBuildingCount": 7,
+    "selected": "nyc:footprints:doitt:233256",
+    "selectedFace": "nyc:footprints:doitt:233256:facade-candidate:0:0:d6b662ee0a0bd6ef",
+    "facadeCandidates": 6,
+    "view": "front",
+    "cameraFlying": false,
+    "errors": [],
+    "primitiveCount": 3,
+    "dataSources": 0,
+    "entities": 1,
+    "bloom": false,
+    "worldGroundRegistered": false,
+    "historyFrame": {
+      "world_crs": "EPSG:4978",
+      "geographic_crs": "EPSG:4979",
+      "origin_longitude_latitude_degrees": [
+        -74.00606634686112,
+        40.732328305275225
+      ],
+      "origin_ellipsoid_height_m": 0,
+      "origin_ecef_m": [
+        1333603.2442846762,
+        -4652686.3710026415,
+        4139943.764163188
+      ],
+      "enu_to_ecef_column_major": [
+        0.9612908744068637,
+        0.27553557806948914,
+        0,
+        0,
+        -0.17979414685936268,
+        0.6272673527630052,
+        0.7577662785534901,
+        0,
+        0.20879156960280143,
+        -0.7284338085067196,
+        0.6525260662128329,
+        0,
+        1333603.2442846762,
+        -4652686.3710026415,
+        4139943.764163188,
+        1
+      ],
+      "gltf_coordinates": "East,Up,-North",
+      "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+      "units": "metre",
+      "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+    },
+    "cameraWorld": [
+      1333608.5101678392,
+      -4652661.191116197,
+      4139980.9157956284
+    ],
+    "pickPoints": [
+      {
+        "x": 694.111512218624,
+        "y": 526.6861753318049
+      },
+      {
+        "x": 758.8168294419161,
+        "y": 527.8807094903035
+      },
+      {
+        "x": 795.3387678100739,
+        "y": 514.0383549456451
+      },
+      {
+        "x": 771.5066510365383,
+        "y": 501.7581668170965
+      },
+      {
+        "x": 718.1325331945986,
+        "y": 500.9490356547699
+      },
+      {
+        "x": 678.34235115426,
+        "y": 512.0905804582246
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.loc.gov/photos/?fo=json&c=15&at=results,pagination&q=Greene%20Street%20New%20York%20HABS",
+  "final_url": "https://www.loc.gov/photos/?fo=json&c=15&at=results,pagination&q=Greene%20Street%20New%20York%20HABS",
+  "download_started_at": "2026-10-28T03:19:58.420290+00:00",
+  "download_completed_at": "2026-10-28T03:19:59.370882+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json",
+  "etag": "\"df0ed0f5f1b1b93738e30ab99b32b104\"",
+  "last_modified_http": null,
+  "bytes": 167041,
+  "sha256": "79d7954acde0e68e5a71f468690ac898b923da64367c648fc5ce0c8b0518ccb2",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

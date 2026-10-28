@@ -1,0 +1,29 @@
+{
+  "at_utc": "2026-10-28T04:03:16.131369+00:00",
+  "path": "reports/nyc-stage6-facade-studies.zip",
+  "bytes": 60395578,
+  "sha256": "da85f4ce1365cd401979e1b51aeb0e18ba4a9bb3708d922b31e5e8e372b55d04",
+  "checked_files": 985,
+  "crc_and_every_payload_sha_checked": true,
+  "tested_entry_assets": [
+    "assets/DirectionalLight-G-jg1Ij8.js",
+    "assets/Matrix4-C-Gm_KdH.js",
+    "assets/facades-9zHWSv7W.js",
+    "assets/facades-D0IhEOrm.css",
+    "assets/landmarks-RvMjey1S.css",
+    "assets/landmarks-rn-brjCw.js",
+    "assets/widgets-B9DDZdqH.css",
+    "assets/widgets-DFb_0C97.js"
+  ],
+  "facade_browser_at": "2026-10-28T03:55:30.794Z",
+  "landmark_browser_at": "2026-10-28T03:56:21.981Z",
+  "areas": 12,
+  "source_objects": 918,
+  "historical_fragments": 4,
+  "complete_current_streets": 0,
+  "current_verified_facades": 0,
+  "stage6_originals_included": true,
+  "stage5_private_originals_included": false,
+  "standalone_result": "reports/stage6/standalone-browser.json; separate actual execution",
+  "scope": "local evidence inventories +4 historical fragments; not full city"
+}

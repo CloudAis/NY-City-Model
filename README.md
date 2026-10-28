@@ -1,5 +1,35 @@
 # 纽约真实尺度 3D HTML
 
+阶段6新增 [普通建筑逐面检视](facades.html)：五区12个明确边界、918个来源对象、10,667条立面候选边；实际处理Grove四栋各自的1936年正面照片，独立校正、遮罩和UV。**完整现状街段与已核验现状立面仍为0**，门廊、栏杆和屋顶实体未完成。见 [普通建筑报告](reports/FACADE_REVIEW.md) 和 [接续](docs/NEXT_STEPS.md)。
+
+启动 `npm run dev` → **http://localhost:5180/facades.html**。默认严格证据只显示已知轮廓；明确打开“1936年历史立面片段”才加载四个照片面，可完全移除。当前来源轮廓不隐藏，不以历史资料替代2026现状。其他范围没有铺随机或重复纹理。固定路径、逐面状态和原图预览均可查看。
+
+局部离线包 `reports/nyc-stage6-facade-studies.zip` 解压后执行 `python3 -m http.server 8000 --bind 127.0.0.1 --directory app`，打开 `http://localhost:8000/facades.html`；不是全市外观完成版。校验和实际解压运行结果在 `reports/stage6/release.json`、`standalone-browser.json`；普通file://未测。原始TIFF留本地并附来源/SHA，许可明确的政府原图可随研究包保留。
+
+阶段6重建顺序：
+
+```bash
+.venv/bin/python scripts/acquire_facade_sources.py
+.venv/bin/python scripts/build_facade_areas.py
+/usr/bin/python3 scripts/process_facade_images.py
+.venv/bin/python scripts/build_facade_street.py
+.venv/bin/python scripts/link_facade_parcels.py  # 只核对地块语境，不覆盖逐楼外观
+npm test
+npm run build
+node tests/facades-browser.mjs
+NYC_REPORT_DIR=reports/stage6/foundation node tests/foundation-browser.mjs
+.venv/bin/python scripts/report_facades.py
+npm run build
+.venv/bin/python scripts/package_facades.py
+node tests/facades-standalone.mjs
+# 单范围重建；重建Grove后再运行build_facade_street恢复历史关联
+.venv/bin/python scripts/build_facade_areas.py --area manhattan-soho
+```
+
+当前图像步骤使用系统Pillow11.1.0/numpy2.2.4，GIS沿用.venv。新环境可在独立环境安装这两个固定版本并用该Python运行图像脚本；没有声称GIS虚拟环境已有Pillow。配置、原始图路径/URL/许可/日期/SHA、各面状态和补齐队列在 `config/`、`data/manifests/stage6/`、`reports/stage6/`。
+
+以下为阶段5及更早检查点，未完成项继续保留。
+
 当前阶段5检查点新增 [地标检视入口](landmarks.html)：29栋独立档案、4栋部分研究、2个部分表示（One WTC主体与432 Park结构网格片段），**完整精细地标完成数0**。不是29栋精细模型交付；当前阶段仍有未完成项，详见 [地标研究与验证报告](reports/LANDMARK_REVIEW.md)、[接续](docs/NEXT_STEPS.md)。
 
 启动 `npm run dev` → **http://localhost:5180/landmarks.html**。固定中性光，支持四向/高处/街道视角、组件拾取、文献和逐参数证据入口。只作局部零高参考检视，全球地面基准未解决。One WTC可精确隐藏/恢复对应来源轮廓，19个邻楼保留；432因来源包括裙房且塔楼位置未确认而禁用替换。

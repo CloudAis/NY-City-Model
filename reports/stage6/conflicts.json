@@ -1,0 +1,42 @@
+[
+  {
+    "building_id": "nyc:footprints:doitt:233256",
+    "address": "4 Grove Street",
+    "historical_photo_plane_width_m": 5.889111534483128,
+    "current_source_edge_width_m": 5.8891115344831295,
+    "difference_m": -1.7763568394002505e-15,
+    "scope": "1936 common-plane manual projection vs retained overhead outline",
+    "selection": "Keep values and separate dated reference; never stretch to fit or promote current truth",
+    "independent_reality_error_m": null
+  },
+  {
+    "building_id": "nyc:footprints:doitt:281428",
+    "address": "6 Grove Street",
+    "historical_photo_plane_width_m": 4.539271785021044,
+    "current_source_edge_width_m": 5.698804347658965,
+    "difference_m": -1.1595325626379207,
+    "scope": "1936 common-plane manual projection vs retained overhead outline",
+    "selection": "Keep values and separate dated reference; never stretch to fit or promote current truth",
+    "independent_reality_error_m": null
+  },
+  {
+    "building_id": "nyc:footprints:doitt:231563",
+    "address": "8 Grove Street",
+    "historical_photo_plane_width_m": 4.766142670241008,
+    "current_source_edge_width_m": 5.673005175773812,
+    "difference_m": -0.9068625055328043,
+    "scope": "1936 common-plane manual projection vs retained overhead outline",
+    "selection": "Keep values and separate dated reference; never stretch to fit or promote current truth",
+    "independent_reality_error_m": null
+  },
+  {
+    "building_id": "nyc:footprints:doitt:138288",
+    "address": "10 Grove Street",
+    "historical_photo_plane_width_m": 4.8046897715278,
+    "current_source_edge_width_m": 5.616196844860819,
+    "difference_m": -0.8115070733330194,
+    "scope": "1936 common-plane manual projection vs retained overhead outline",
+    "selection": "Keep values and separate dated reference; never stretch to fit or promote current truth",
+    "independent_reality_error_m": null
+  }
+]

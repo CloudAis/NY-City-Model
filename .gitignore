@@ -56,3 +56,6 @@ data/raw/stage5/research/*
 data/intermediate/stage5/
 reports/nyc-stage5-landmark-studies.zip
 reports/nyc-stage5-landmark-studies.zip.tmp
+data/intermediate/stage6/
+reports/nyc-stage6-facade-studies.zip
+reports/nyc-stage6-facade-studies.zip.tmp

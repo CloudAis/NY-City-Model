@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.loc.gov/item/ny0381/?fo=json",
+  "final_url": "https://www.loc.gov/item/ny0381/?fo=json",
+  "download_started_at": "2026-10-28T03:20:26.017729+00:00",
+  "download_completed_at": "2026-10-28T03:20:27.103250+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json",
+  "etag": "\"16c4b41d3fa98f3b041eed9e8854fe3d\"",
+  "last_modified_http": null,
+  "bytes": 69721,
+  "sha256": "a3bc47a6714e4c712222f7872e2fcecfdb49ad4a0dbdaf29667b3e66379fd10d",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,7 @@
+PASS research, representations and completed fine models remain separate with fixed neutral lighting
+PASS One WTC and432 real evidence representations render six explicitly oriented views
+PASS actual merged model component picking keeps original building stable ID
+PASS source replacement hides exactly one source building and preserves every loaded neighbour, then restores it
+PASS partial podium/tower source cannot be erased by432 grid fragment; invalid mapping cannot hide neighbours
+PASS narrow layout, panel collapse and model switching preserve a usable nonzero viewport
+{"checks":6,"errors":[],"views":12}

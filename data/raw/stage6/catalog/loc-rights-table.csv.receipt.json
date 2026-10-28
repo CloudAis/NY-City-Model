@@ -1,0 +1,17 @@
+{
+  "request_url": "https://guides.loc.gov/ld.php?content_id=76336558",
+  "final_url": "https://guides.loc.gov/ld.php?content_id=76336558",
+  "download_started_at": "2026-10-28T03:21:48.688505+00:00",
+  "download_completed_at": "2026-10-28T03:21:49.494277+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/octet-stream",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 1105202,
+  "sha256": "3c7ad29bc2ad742dc3b0b37145b71ce9b3aadeab19bbbdc359b2190a22b9f43c",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

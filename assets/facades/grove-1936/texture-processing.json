@@ -1,0 +1,433 @@
+{
+  "schema_version": 6,
+  "fronts": [
+    {
+      "address": "4 Grove Street",
+      "building_id": "nyc:footprints:doitt:233256",
+      "base_bbl": "1005850015",
+      "quad_preview": [
+        [
+          1239,
+          595
+        ],
+        [
+          1410,
+          629
+        ],
+        [
+          1417,
+          961
+        ],
+        [
+          1240,
+          971
+        ]
+      ],
+      "front_metric": [
+        [
+          299487.54909621394,
+          62814.40240846357
+        ],
+        [
+          299493.394397379,
+          62813.685408494806
+        ]
+      ],
+      "wall_material": {
+        "status": "source_explicit_historical",
+        "value": "Flemish bond brick",
+        "reference": "HABS sheet1 annotation"
+      },
+      "notes": "Drawing documents this building only. Historical photo shutters differ from drawing; do not mix into one as-built date.",
+      "texture": "front-4.png",
+      "texture_sha256": "1b70820bef1129bbf4d77787b4bcec4bd80353bd3340093b9ca7922054f4b767",
+      "mask": "mask-4.png",
+      "size_px": [
+        589,
+        755
+      ],
+      "source_quad_native_px": [
+        [
+          3441.6666666666665,
+          1652.7777777777778
+        ],
+        [
+          3916.6666666666665,
+          1747.2222222222222
+        ],
+        [
+          3936.111111111111,
+          2669.4444444444443
+        ],
+        [
+          3444.4444444444443,
+          2697.222222222222
+        ]
+      ],
+      "image_to_texture_homography": [
+        [
+          0.6072308689596436,
+          -0.0016149757153181212,
+          -2087.2170446955115
+        ],
+        [
+          -0.08290020055661285,
+          0.41693924397590704,
+          -403.7930602111706
+        ],
+        [
+          -0.00013994675118693194,
+          2.1978039572152533e-05,
+          1.0
+        ]
+      ],
+      "metric_derivation": "4Grove drawing graphic scale + retained source-width reference + common-photo-plane projection; NOT independently calibrated",
+      "historical_plane_width_m": 5.889111534483128,
+      "historical_plane_height_m": 7.547139442231071,
+      "historical_plane_left_m": 0.0,
+      "photo_u_increases_world_west": true,
+      "current_source_front_width_m": 5.8891115344831295,
+      "width_conflict_m": -1.7763568394002505e-15,
+      "source_metric_accuracy_m": null,
+      "current_wall_match_verified": false,
+      "known_pixel_fraction": 0.6894433263247844,
+      "unknown_pixel_fraction": 0.31055667367521556,
+      "control_reprojection_error_pixels": 3.2155493553843715e-13,
+      "colour_operation": "none; grayscale source retained, no simulated albedo recovery",
+      "inpainting": false,
+      "generated_completion": false,
+      "uv_policy": "separate0..1 per facade; no repeat wrapping; photo aspect preserved on historical reference plane",
+      "observation_date": "1936-08-25",
+      "current_complete": false
+    },
+    {
+      "address": "6 Grove Street",
+      "building_id": "nyc:footprints:doitt:281428",
+      "base_bbl": "1005850016",
+      "quad_preview": [
+        [
+          1064,
+          560
+        ],
+        [
+          1236,
+          596
+        ],
+        [
+          1235,
+          972
+        ],
+        [
+          1066,
+          982
+        ]
+      ],
+      "front_metric": [
+        [
+          299493.394397379,
+          62813.685408494806
+        ],
+        [
+          299499.0507985159,
+          62812.99150852256
+        ]
+      ],
+      "wall_material": {
+        "status": "derived_historical_photo",
+        "value": "brick-like appearance; chemical composition unverified",
+        "reference": "HABS photo119530p"
+      },
+      "notes": "Individual third-from-left photo region, no copied shutters from8; no building-specific measured drawing acquired.",
+      "texture": "front-6.png",
+      "texture_sha256": "f475468ff672198e8d3dfe51a7b87c6538e284d60e8120b0917bcaf3ff82f9ed",
+      "mask": "mask-6.png",
+      "size_px": [
+        454,
+        755
+      ],
+      "source_quad_native_px": [
+        [
+          2955.5555555555557,
+          1555.5555555555554
+        ],
+        [
+          3433.333333333333,
+          1655.5555555555554
+        ],
+        [
+          3430.5555555555557,
+          2700.0
+        ],
+        [
+          2961.111111111111,
+          2727.777777777778
+        ]
+      ],
+      "image_to_texture_homography": [
+        [
+          0.500086970992486,
+          -0.0023700804312438944,
+          -1474.3480335958568
+        ],
+        [
+          -0.07828376167963937,
+          0.3740224169138326,
+          -350.44064179058324
+        ],
+        [
+          -0.00013368109539574485,
+          -8.52352372689372e-06,
+          1.0
+        ]
+      ],
+      "metric_derivation": "4Grove drawing graphic scale + retained source-width reference + common-photo-plane projection; NOT independently calibrated",
+      "historical_plane_width_m": 4.539271785021044,
+      "historical_plane_height_m": 7.549382673687164,
+      "historical_plane_left_m": 6.007687531488183,
+      "photo_u_increases_world_west": true,
+      "current_source_front_width_m": 5.698804347658965,
+      "width_conflict_m": -1.1595325626379207,
+      "source_metric_accuracy_m": null,
+      "current_wall_match_verified": false,
+      "known_pixel_fraction": 0.6896052746739796,
+      "unknown_pixel_fraction": 0.3103947253260204,
+      "control_reprojection_error_pixels": 6.252776074688882e-13,
+      "colour_operation": "none; grayscale source retained, no simulated albedo recovery",
+      "inpainting": false,
+      "generated_completion": false,
+      "uv_policy": "separate0..1 per facade; no repeat wrapping; photo aspect preserved on historical reference plane",
+      "observation_date": "1936-08-25",
+      "current_complete": false
+    },
+    {
+      "address": "8 Grove Street",
+      "building_id": "nyc:footprints:doitt:231563",
+      "base_bbl": "1005850017",
+      "quad_preview": [
+        [
+          836,
+          514
+        ],
+        [
+          1061,
+          559
+        ],
+        [
+          1065,
+          982
+        ],
+        [
+          834,
+          998
+        ]
+      ],
+      "front_metric": [
+        [
+          299499.0507985159,
+          62812.99150852256
+        ],
+        [
+          299504.6815996393,
+          62812.300808563705
+        ]
+      ],
+      "wall_material": {
+        "status": "derived_historical_photo",
+        "value": "brick-like appearance; composition unverified",
+        "reference": "HABS photo119530p"
+      },
+      "notes": "Individual second-from-left photo region with light shutters; not copied from4/6/10.",
+      "texture": "front-8.png",
+      "texture_sha256": "9dffb7e06ba94f18f55b32a25751fd3538ca0ca67fe094b7bb3f590a97eee0a5",
+      "mask": "mask-8.png",
+      "size_px": [
+        477,
+        761
+      ],
+      "source_quad_native_px": [
+        [
+          2322.222222222222,
+          1427.7777777777778
+        ],
+        [
+          2947.222222222222,
+          1552.7777777777778
+        ],
+        [
+          2958.333333333333,
+          2727.777777777778
+        ],
+        [
+          2316.6666666666665,
+          2772.222222222222
+        ]
+      ],
+      "image_to_texture_homography": [
+        [
+          0.4606671678038849,
+          0.0019035833380327462,
+          -1072.4894281105462
+        ],
+        [
+          -0.08046246393069045,
+          0.40231231965345354,
+          -387.5608679328276
+        ],
+        [
+          -0.0001415335955591431,
+          1.4489164973816209e-05,
+          1.0
+        ]
+      ],
+      "metric_derivation": "4Grove drawing graphic scale + retained source-width reference + common-photo-plane projection; NOT independently calibrated",
+      "historical_plane_width_m": 4.766142670241008,
+      "historical_plane_height_m": 7.600239899836577,
+      "historical_plane_left_m": 10.595158979782891,
+      "photo_u_increases_world_west": true,
+      "current_source_front_width_m": 5.673005175773812,
+      "width_conflict_m": -0.9068625055328043,
+      "source_metric_accuracy_m": null,
+      "current_wall_match_verified": false,
+      "known_pixel_fraction": 0.6872784072595641,
+      "unknown_pixel_fraction": 0.31272159274043587,
+      "control_reprojection_error_pixels": 3.4065740248191004e-13,
+      "colour_operation": "none; grayscale source retained, no simulated albedo recovery",
+      "inpainting": false,
+      "generated_completion": false,
+      "uv_policy": "separate0..1 per facade; no repeat wrapping; photo aspect preserved on historical reference plane",
+      "observation_date": "1936-08-25",
+      "current_complete": false
+    },
+    {
+      "address": "10 Grove Street",
+      "building_id": "nyc:footprints:doitt:138288",
+      "base_bbl": "1005850018",
+      "quad_preview": [
+        [
+          533,
+          447
+        ],
+        [
+          831,
+          509
+        ],
+        [
+          833,
+          1000
+        ],
+        [
+          521,
+          1019
+        ]
+      ],
+      "front_metric": [
+        [
+          299504.6815996393,
+          62812.300808563705
+        ],
+        [
+          299510.25600075687,
+          62811.61690858516
+        ]
+      ],
+      "wall_material": {
+        "status": "derived_historical_photo",
+        "value": "brick-like appearance; composition unverified",
+        "reference": "HABS photo119530p"
+      },
+      "notes": "Individual leftmost image region and visible end wall, neither applied to unseen building sides nor mistaken for4.",
+      "texture": "front-10.png",
+      "texture_sha256": "a06d709c20440b48cc7f4d4bf8000b491350ca38575df4ee2d576f20ca28dfe0",
+      "mask": "mask-10.png",
+      "size_px": [
+        480,
+        773
+      ],
+      "source_quad_native_px": [
+        [
+          1480.5555555555554,
+          1241.6666666666665
+        ],
+        [
+          2308.333333333333,
+          1413.888888888889
+        ],
+        [
+          2313.8888888888887,
+          2777.777777777778
+        ],
+        [
+          1447.2222222222222,
+          2830.5555555555557
+        ]
+      ],
+      "image_to_texture_homography": [
+        [
+          0.40397920873689913,
+          0.008475088295179662,
+          -608.6368964575347
+        ],
+        [
+          -0.08604038399974386,
+          0.4135489424503805,
+          -386.102368342935
+        ],
+        [
+          -0.00014275103635773997,
+          2.17101236164861e-05,
+          1.0
+        ]
+      ],
+      "metric_derivation": "4Grove drawing graphic scale + retained source-width reference + common-photo-plane projection; NOT independently calibrated",
+      "historical_plane_width_m": 4.8046897715278,
+      "historical_plane_height_m": 7.734077837298782,
+      "historical_plane_left_m": 15.417939967975217,
+      "photo_u_increases_world_west": true,
+      "current_source_front_width_m": 5.616196844860819,
+      "width_conflict_m": -0.8115070733330194,
+      "source_metric_accuracy_m": null,
+      "current_wall_match_verified": false,
+      "known_pixel_fraction": 0.6483721431651573,
+      "unknown_pixel_fraction": 0.35162785683484266,
+      "control_reprojection_error_pixels": 3.4362478917267804e-13,
+      "colour_operation": "none; grayscale source retained, no simulated albedo recovery",
+      "inpainting": false,
+      "generated_completion": false,
+      "uv_policy": "separate0..1 per facade; no repeat wrapping; photo aspect preserved on historical reference plane",
+      "observation_date": "1936-08-25",
+      "current_complete": false
+    }
+  ],
+  "photo_source": "data/raw/stage6/images/grove-1.tif",
+  "photo_sha256": "274ad341b6de56b44f016a6389a93c8bfce92f7ee576f1bf65a5539aefc4def2",
+  "drawing_sha256": "069d088864b51b6f5c78bbff21fcd322f6f3cea7baaa6447ef09b155bf1f4d37",
+  "controls_sha256": "c7e8e54f6537c2ef4b92cb2ada75337613931c9f5186963462b88a3ed36e2d4e",
+  "processor_sha256": "c5f8f9af65053e5decf869950a7040d4423f78b5753a671553430639043ad134",
+  "pillow_version": "11.1.0",
+  "numpy_version": "2.2.4",
+  "rights_table_sha256": "3c7ad29bc2ad742dc3b0b37145b71ce9b3aadeab19bbbdc359b2190a22b9f43c",
+  "rights": {
+    "482_high.html": " Ms. Highsmith has stipulated that her photographs are in the public domain. (See P&amp;P Collection Files.) Photographs of sculpture or other works of art may be restricted by the copyright of the artist. ",
+    "114_habs.html": " The original measured drawings and most of the photographs and data pages in HABS/HAER/HALS were created for the U.S. Government and are considered to be in the public domain. However, occasionally material from a historical society or other source is included in the photographs or data pages. These materials are noted by the presence of a line crediting the original source, and it may be necessary to receive permission from the owner of such material before it can be published. In all cases the courtesy of an acknowledgment is requested if material is used in a publication. Privacy and publicity rights may also apply. "
+  },
+  "credit": "Library of Congress, Prints & Photographs Division, HABS NY-449; photograph Arnold Moses,1936-08-25; drawings Harry Davis Riley",
+  "licence_scope": "Only identified original HABS government photo119530p and measured sheet1; no third-party copied image used",
+  "rights_table_decode": "cp1252; invalid legacy bytes replaced only during text parsing; raw preserved",
+  "drawing_scale_px_per_m": 164.6981627296588,
+  "drawing_front_wall_height_m": 7.547139442231075,
+  "physical_world_replacement_allowed": false,
+  "current_verified_facades": 0,
+  "complete_historical_facades": 0,
+  "photo_direction_evidence": {
+    "source": "HABS sheet0 sketch:4 westernmost beside Hudson; retained PLUTO addresses + source outlines increase eastward; official roadbed north of fronts",
+    "image_order_left_to_right": [
+      "10",
+      "8",
+      "6",
+      "4"
+    ],
+    "uv_horizontal_world_direction": "photograph u increases westward, opposite the source edge East direction",
+    "note": "Do not infer photo order from ascending street numbers. Identified entrance photo119531p visibly bears4."
+  },
+  "note": "Four distinct partial historical wall fragments, not four complete buildings or a completed current street"
+}

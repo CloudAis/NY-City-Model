@@ -1,0 +1,13 @@
+area,borough,theme_NOT_verified_use,source_buildings,facade_candidates,current_verified_facades,complete_current_streets
+manhattan-grove,manhattan,联排住宅,7,63,0,0
+manhattan-soho,manhattan,SoHo街墙,72,600,0,0
+manhattan-financial,manhattan,商务高层候选,24,432,0,0
+brooklyn-park-slope,brooklyn,联排住宅候选,122,1173,0,0
+brooklyn-dumbo,brooklyn,工业及改造建筑候选,14,199,0,0
+brooklyn-flatbush,brooklyn,公寓候选,72,1017,0,0
+queens-jackson-heights,queens,花园公寓候选,72,1409,0,0
+queens-forest-hills,queens,低层住宅候选,109,1161,0,0
+bronx-mott-haven,bronx,公寓候选,106,1094,0,0
+bronx-hunts-point,bronx,工业建筑候选,9,206,0,0
+staten-st-george,staten-island,低层混合街区候选,140,1969,0,0
+staten-tottenville,staten-island,低层住宅候选,171,1344,0,0

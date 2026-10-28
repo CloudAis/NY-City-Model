@@ -1,0 +1,35 @@
+{
+  "at_utc": "2026-10-28T04:01:50.287891+00:00",
+  "client_date": "2026-10-28 Asia/Singapore",
+  "cloud_connected": true,
+  "restart_required": false,
+  "node": "v24.19.0",
+  "gis_python": "3.12.14",
+  "image_python": "/usr/bin/python3, actualPillow11.1.0/numpy2.2.4",
+  "browser": "Chromium154 softwareWebGL2 actually exercised",
+  "disk_free_bytes": 9895739392,
+  "network_config_desired": "unrestricted; provider observation policy state unknown",
+  "actual_remote": "LOC catalog/media/rights table acquired; Commons initialHTTP503 not used",
+  "dev_http": [
+    {
+      "route": "facades.html",
+      "status": 200,
+      "content_type": "text/html"
+    },
+    {
+      "route": "datasets/facades/manifest.json",
+      "status": 200,
+      "content_type": "application/json"
+    },
+    {
+      "route": "datasets/facades/grove-1936/front-4.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "route": "landmarks.html",
+      "status": 200,
+      "content_type": "text/html"
+    }
+  ]
+}

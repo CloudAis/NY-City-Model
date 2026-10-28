@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.loc.gov/photos/?fo=json&c=15&at=results,pagination&q=row%20houses%20New%20York%20HABS",
+  "final_url": "https://www.loc.gov/photos/?fo=json&c=15&at=results,pagination&q=row%20houses%20New%20York%20HABS",
+  "download_started_at": "2026-10-28T03:19:59.373161+00:00",
+  "download_completed_at": "2026-10-28T03:20:00.478289+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json",
+  "etag": "\"6e5e09ace817376063f7c3aa93d73f5b\"",
+  "last_modified_http": null,
+  "bytes": 184485,
+  "sha256": "27c7f2b40826dbc07d7a69da1fcbb1a7001235c702bd8455118b21244920321c",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

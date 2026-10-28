@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.loc.gov/item/2011632276/?fo=json",
+  "final_url": "https://www.loc.gov/item/2011632276/?fo=json",
+  "download_started_at": "2026-10-28T03:19:56.074632+00:00",
+  "download_completed_at": "2026-10-28T03:19:56.998843+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json",
+  "etag": "\"7e455607098c52527735a74f7ef349eb\"",
+  "last_modified_http": null,
+  "bytes": 51491,
+  "sha256": "008e75a45f23205dfa8fa5294f908a021db2c8007e6b8c3bd9aba4b4556c4fe9",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

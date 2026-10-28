@@ -1,4 +1,20 @@
-# 当前阶段5接续（仍未完成精细地标目标）
+# 当前阶段6接续：完整街段外观尚未完成
+
+固定/workspace/nyc-3d-html，先读AGENTS、全部docs、reports/FACADE_REVIEW.md与stage6/quality.json。用户已授权普通建筑阶段，保留地标未完成项，不重建独立演示。
+
+直接输入：
+
+1. config/facade-areas.json和assets/facades/<area>：12明确范围、918对象、10,667候选边，原ID/部件/原页/真实完整轮廓/逐面未知。不是已测物理立面数。
+2. scripts/nyc/facades.py、build_facade_areas.py：只读原库和共享坐标，按area重建，不补高度或套地块用途。
+3. data/manifests/stage6/sources.json及23原载荷/receipt；acquire_facade_sources使用原请求URL、保留跳转最终URL，raw不可覆盖。
+4. config/grove-facade-controls.json、process_facade_images.py（系统Pillow11.1.0/numpy2.2.4）、build_facade_street.py：4独立1936面、遮罩/控制点/UV。照片顺序10、8、6、4，图纸仅4号，不复制给邻楼。
+5. reports/stage6的逐面CSV、补齐队列、冲突、44规则、8新浏览器、8基础回归与5机位；当前外观核验0，完整街段0。历史照片面不是已校准PBR或完整建筑。
+
+先补Grove当前可定年四向资料、墙线/地基/屋顶/入口台阶/门廊/栏杆/檐口尺度，解决约0.8–1.2m共同平面宽度偏差，必要时逐栋相机标定；不能拉伸或生成补图掩盖。默认证据模式只显示已知；历史参考可完全移除且不隐藏原轮廓。先验收一个完整街段，再扩至其余11范围，不能用4张照片面称整街完成。
+
+README有重建/验证/打包命令；重建Grove AOI后再执行街段关联步骤。每个新增素材分别核实下载/改造/离线分发权利，HABS条款不自动覆盖图录外部转载。继续当前阶段6，不自动进入下一阶段。
+
+## 历史：阶段5接续
 
 固定/workspace/nyc-3d-html；先读AGENTS、全部docs、reports/LANDMARK_REVIEW.md和reports/stage5/quality.json。当前基于68adbd4继续；Tinnis独立且未改动。云环境可访问，不需重启。
 

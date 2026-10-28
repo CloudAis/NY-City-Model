@@ -1,5 +1,7 @@
 # 架构
 
+阶段6同工程facades.html：只读RTree→12完整来源AOI→逐边候选面/未知构件→历史图像校正/遮罩→独立UV/feature ID照片面→默认严格/可移除历史参考→运行验证/覆盖报告。图像facade_math不依赖GIS，可用系统Pillow/numpy；GIS仍用原虚拟环境。4历史面不是完整普通建筑，不改既有地标资产与全市高度门控。
+
 阶段5沿用同一工程，新增landmarks.html与src/landmarks。独立档案→逐参数引用校验→局部组件GLB→3D Tiles→来源/模型/替换清单→实际浏览器证据→质量报告。研究/体量/立面/完整验证独立状态。One WTC部分主体与432线网格不计为完整精细模型。精确原ID筛选仅在参考检视器隐藏One WTC单对象；432项目含裙房故拒绝替换。全局替换权限保持false。照片/PDF原件不分发。
 
 TypeScript + Vite + CesiumJS；Python/pyproj/Shapely处理GIS；GLB/glTF 2.0 + 3D Tiles 1.1，CPU双精度定位，GPU瓦片ENU局部米坐标。固定版本在package-lock.json及requirements-lock.txt。

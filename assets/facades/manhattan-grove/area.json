@@ -1,0 +1,6444 @@
+{
+  "summary": {
+    "id": "manhattan-grove",
+    "name": "Grove Street · 4–10号及邻域",
+    "borough": "manhattan",
+    "category": "联排住宅",
+    "bbox": [
+      -74.00618,
+      40.73216,
+      -74.00572,
+      40.73237
+    ],
+    "priority_street": true,
+    "building_denominator": 7,
+    "facade_candidate_denominator": 63,
+    "buildings_with_any_current_verified_facade": 0,
+    "current_verified_facades": 0,
+    "unknown_facade_candidates": 63,
+    "denominator_note": "source overhead edges, including possible shared walls; NOT independently surveyed facade count",
+    "procedural_facades": 0,
+    "tileset": "manhattan-grove/tileset.json",
+    "details": "manhattan-grove/area.json",
+    "source_building_ids": [
+      "nyc:footprints:doitt:138288",
+      "nyc:footprints:doitt:19851",
+      "nyc:footprints:doitt:231563",
+      "nyc:footprints:doitt:233256",
+      "nyc:footprints:doitt:272591",
+      "nyc:footprints:doitt:281428",
+      "nyc:footprints:doitt:618366"
+    ],
+    "complete_street": false,
+    "category_status": "research_theme_NOT_verified_individual_use"
+  },
+  "boundary": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.00572,
+          40.73216
+        ],
+        [
+          -74.00572,
+          40.73237
+        ],
+        [
+          -74.00618,
+          40.73237
+        ],
+        [
+          -74.00618,
+          40.73216
+        ],
+        [
+          -74.00572,
+          40.73216
+        ]
+      ]
+    ]
+  },
+  "boundary_crs": "EPSG:4326 longitude,latitude degrees",
+  "selection_rule": "full source object intersects explicit boundary; never clip buildings or merge neighbours",
+  "origin_metric_m": [
+    299497.3769173026,
+    62807.37181015973
+  ],
+  "fixed_observation_path": [
+    {
+      "id": "north",
+      "label": "北侧街墙",
+      "azimuth_deg": 0,
+      "pitch_deg": -22,
+      "range_m": 220
+    },
+    {
+      "id": "east",
+      "label": "东侧检查",
+      "azimuth_deg": 90,
+      "pitch_deg": -22,
+      "range_m": 220
+    },
+    {
+      "id": "south",
+      "label": "南侧检查",
+      "azimuth_deg": 180,
+      "pitch_deg": -22,
+      "range_m": 220
+    },
+    {
+      "id": "west",
+      "label": "西侧检查",
+      "azimuth_deg": 270,
+      "pitch_deg": -22,
+      "range_m": 220
+    },
+    {
+      "id": "overview",
+      "label": "边界俯视",
+      "azimuth_deg": 0,
+      "pitch_deg": -75,
+      "range_m": 380
+    }
+  ],
+  "light": "fixed neutral day; no fog/bloom",
+  "buildings": [
+    {
+      "id": "nyc:footprints:doitt:138288",
+      "source_id": "138288",
+      "bin": "1009857",
+      "base_bbl": "1005850018",
+      "name": null,
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00013500.json",
+        "sha256": "4894b9c1417bc00e5bf5056614cd7b49b27c59eef1d393a718988002af8696d9",
+        "object_id": 388786
+      },
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.00587807774849,
+              40.73221913740595
+            ],
+            [
+              -74.00586353219013,
+              40.73230939070133
+            ],
+            [
+              -74.0057975424234,
+              40.732303235467114
+            ],
+            [
+              -74.00581208925368,
+              40.732212983080515
+            ],
+            [
+              -74.00587807774849,
+              40.73221913740595
+            ]
+          ]
+        ]
+      },
+      "source_version": "2026-10-27-city",
+      "outline_type": "overhead, wall baseline unverified",
+      "height_m": null,
+      "wall_shape_verified": false,
+      "roof_status": "unknown",
+      "facades": [
+        {
+          "id": "nyc:footprints:doitt:138288:facade-candidate:0:0:aad0befa9e6fb7f8",
+          "building_id": "nyc:footprints:doitt:138288",
+          "part_id": "nyc:footprints:doitt:138288:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299503.45219969144,
+              62802.27840654408
+            ],
+            [
+              299509.0265008068,
+              62801.59460657693
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00587807774849,
+              40.73221913740595
+            ],
+            [
+              -74.00581208925368,
+              40.732212983080515
+            ]
+          ],
+          "width_projected_m": 5.616085408868335,
+          "outward_azimuth_degrees": 186.98971493859872,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:138288:facade-candidate:0:0:2af4c7360bfa502b",
+          "building_id": "nyc:footprints:doitt:138288",
+          "part_id": "nyc:footprints:doitt:138288:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299509.0265008068,
+              62801.59460657693
+            ],
+            [
+              299510.25600075687,
+              62811.61690858516
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00581208925368,
+              40.732212983080515
+            ],
+            [
+              -74.0057975424234,
+              40.732303235467114
+            ]
+          ],
+          "width_projected_m": 10.097435697806441,
+          "outward_azimuth_degrees": 96.99009808264015,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:138288:facade-candidate:0:0:5015a7774a7e44af",
+          "building_id": "nyc:footprints:doitt:138288",
+          "part_id": "nyc:footprints:doitt:138288:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299510.25600075687,
+              62811.61690858516
+            ],
+            [
+              299504.6815996393,
+              62812.300808563705
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.0057975424234,
+              40.732303235467114
+            ],
+            [
+              -74.00586353219013,
+              40.73230939070133
+            ]
+          ],
+          "width_projected_m": 5.616196844860819,
+          "outward_azimuth_degrees": 6.990612922003203,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false,
+          "historical_evidence": {
+            "date": "1936-08-25",
+            "status": "partial_historical",
+            "material": {
+              "status": "derived_historical_photo",
+              "value": "brick-like appearance; composition unverified",
+              "reference": "HABS photo119530p"
+            },
+            "source": "HABS NY-449 photo119530p",
+            "occlusion": "foreground and uncertain edge pixels neutral-masked",
+            "components": {
+              "wall_material": {
+                "status": "derived_historical_photo",
+                "value": "brick-like appearance; composition unverified",
+                "reference": "HABS photo119530p"
+              },
+              "window_grid": {
+                "status": "derived_historical_photo",
+                "value": "3 upper main-storey openings,2 lower main-storey windows plus separate doorway; cropped basement/attic not counted",
+                "source": "individual photo119530p region"
+              },
+              "floor_divisions": {
+                "status": "derived_historical_photo",
+                "value": "two main street-facing storeys visible; current floor count not inferred"
+              },
+              "cornice": {
+                "status": "partial_historical_photo",
+                "value": "individual roofline visible in original; projection depth not measured, shadow mask excluded"
+              },
+              "entrance": {
+                "status": "partial_occluded",
+                "value": "each doorway retained separately; lower steps/fence masked"
+              },
+              "porch": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              },
+              "balcony": {
+                "status": "unknown",
+                "value": null
+              },
+              "fire_escape": {
+                "status": "unknown",
+                "value": null
+              },
+              "roof_equipment": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              }
+            },
+            "current_verified": false
+          }
+        },
+        {
+          "id": "nyc:footprints:doitt:138288:facade-candidate:0:0:6adb051be3600873",
+          "building_id": "nyc:footprints:doitt:138288",
+          "part_id": "nyc:footprints:doitt:138288:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299504.6815996393,
+              62812.300808563705
+            ],
+            [
+              299503.45219969144,
+              62802.27840654408
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00586353219013,
+              40.73230939070133
+            ],
+            [
+              -74.00587807774849,
+              40.73221913740595
+            ]
+          ],
+          "width_projected_m": 10.09752278902038,
+          "outward_azimuth_degrees": 276.98942260754603,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        }
+      ],
+      "reference_coverage": "no current per-facade photograph survey",
+      "missing": [
+        "dated current views",
+        "wall geometry",
+        "height/base datum",
+        "material/components"
+      ],
+      "use_classification": "area research theme only; no automatic parcel-to-building attribution",
+      "archival_front": {
+        "date": "1936-08-25",
+        "source": "https://www.loc.gov/item/ny0381/",
+        "association": "retained current source BBL/one source entity + PLUTO address + street sequence; historical wall match not independently verified",
+        "texture": "../grove-1936/front-10.png",
+        "scope": "partial historical front only",
+        "width_conflict_m": -0.8115070733330194,
+        "current_complete": false
+      }
+    },
+    {
+      "id": "nyc:footprints:doitt:19851",
+      "source_id": "19851",
+      "bin": "1009858",
+      "base_bbl": "1005850020",
+      "name": null,
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00021500.json",
+        "sha256": "3fba30cff89c54b7b2739e0db9f2a457dc684abd7845584b56e76ef629efcc99",
+        "object_id": 634658
+      },
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.00563662280517,
+              40.73220702773987
+            ],
+            [
+              -74.0057207714982,
+              40.732182274915786
+            ],
+            [
+              -74.00573546783906,
+              40.73221895099116
+            ],
+            [
+              -74.0057645373249,
+              40.73229149809745
+            ],
+            [
+              -74.00569061620612,
+              40.732313242749875
+            ],
+            [
+              -74.00565690686597,
+              40.73224693097352
+            ],
+            [
+              -74.00563662280517,
+              40.73220702773987
+            ]
+          ]
+        ]
+      },
+      "source_version": "2026-10-27-city",
+      "outline_type": "overhead, wall baseline unverified",
+      "height_m": null,
+      "wall_shape_verified": false,
+      "roof_status": "unknown",
+      "facades": [
+        {
+          "id": "nyc:footprints:doitt:19851:facade-candidate:0:0:761773cc2886436b",
+          "building_id": "nyc:footprints:doitt:19851",
+          "part_id": "nyc:footprints:doitt:19851:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299523.8489037337,
+              62800.93230688284
+            ],
+            [
+              299522.13570327125,
+              62805.363607712185
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00563662280517,
+              40.73220702773987
+            ],
+            [
+              -74.00565690686597,
+              40.73224693097352
+            ]
+          ],
+          "width_projected_m": 4.75094547061263,
+          "outward_azimuth_degrees": 68.85913473803359,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:19851:facade-candidate:0:0:9c6ce1f278d13ac8",
+          "building_id": "nyc:footprints:doitt:19851",
+          "part_id": "nyc:footprints:doitt:19851:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299522.13570327125,
+              62805.363607712185
+            ],
+            [
+              299519.2886024905,
+              62812.72760907016
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00565690686597,
+              40.73224693097352
+            ],
+            [
+              -74.00569061620612,
+              40.732313242749875
+            ]
+          ],
+          "width_projected_m": 7.895220000486271,
+          "outward_azimuth_degrees": 68.85858319905222,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:19851:facade-candidate:0:0:906105905d440e3d",
+          "building_id": "nyc:footprints:doitt:19851",
+          "part_id": "nyc:footprints:doitt:19851:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299519.2886024905,
+              62812.72760907016
+            ],
+            [
+              299513.04400133627,
+              62810.31330841745
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00569061620612,
+              40.732313242749875
+            ],
+            [
+              -74.0057645373249,
+              40.73229149809745
+            ]
+          ],
+          "width_projected_m": 6.69506469103674,
+          "outward_azimuth_degrees": 338.8586515297595,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:19851:facade-candidate:0:0:08238d638497ded8",
+          "building_id": "nyc:footprints:doitt:19851",
+          "part_id": "nyc:footprints:doitt:19851:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299513.04400133627,
+              62810.31330841745
+            ],
+            [
+              299515.4991020623,
+              62802.256906897
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.0057645373249,
+              40.73229149809745
+            ],
+            [
+              -74.00573546783906,
+              40.73221895099116
+            ]
+          ],
+          "width_projected_m": 8.422180539133027,
+          "outward_azimuth_degrees": 253.04820920716702,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:19851:facade-candidate:0:0:43faa98c5bce8b9c",
+          "building_id": "nyc:footprints:doitt:19851",
+          "part_id": "nyc:footprints:doitt:19851:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299515.4991020623,
+              62802.256906897
+            ],
+            [
+              299516.74030242674,
+              62798.18400613198
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00573546783906,
+              40.73221895099116
+            ],
+            [
+              -74.0057207714982,
+              40.732182274915786
+            ]
+          ],
+          "width_projected_m": 4.257827965796278,
+          "outward_azimuth_degrees": 253.04786103743987,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:19851:facade-candidate:0:0:0fb8b40623e7d17c",
+          "building_id": "nyc:footprints:doitt:19851",
+          "part_id": "nyc:footprints:doitt:19851:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299516.74030242674,
+              62798.18400613198
+            ],
+            [
+              299523.8489037337,
+              62800.93230688284
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.0057207714982,
+              40.732182274915786
+            ],
+            [
+              -74.00563662280517,
+              40.73220702773987
+            ]
+          ],
+          "width_projected_m": 7.621375831085174,
+          "outward_azimuth_degrees": 158.85897405072276,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        }
+      ],
+      "reference_coverage": "no current per-facade photograph survey",
+      "missing": [
+        "dated current views",
+        "wall geometry",
+        "height/base datum",
+        "material/components"
+      ],
+      "use_classification": "area research theme only; no automatic parcel-to-building attribution"
+    },
+    {
+      "id": "nyc:footprints:doitt:231563",
+      "source_id": "231563",
+      "bin": "1009856",
+      "base_bbl": "1005850017",
+      "name": null,
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00038500.json",
+        "sha256": "b21275bc90f42a3eebf8e7fad19bbbea983f6e44290c1560ce9746fd95a77c17",
+        "object_id": 1045425
+      },
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.00586353219013,
+              40.73230939070133
+            ],
+            [
+              -74.00587807774849,
+              40.73221913740595
+            ],
+            [
+              -74.00588299014942,
+              40.73218866395065
+            ],
+            [
+              -74.00588386448985,
+              40.73218323834281
+            ],
+            [
+              -74.00590562151856,
+              40.73218526787506
+            ],
+            [
+              -74.00595052180805,
+              40.73218945562819
+            ],
+            [
+              -74.00594458957663,
+              40.732226258812624
+            ],
+            [
+              -74.00593018963248,
+              40.73231560709773
+            ],
+            [
+              -74.0058694843389,
+              40.732309946011576
+            ],
+            [
+              -74.00586353219013,
+              40.73230939070133
+            ]
+          ]
+        ]
+      },
+      "source_version": "2026-10-27-city",
+      "outline_type": "overhead, wall baseline unverified",
+      "height_m": null,
+      "wall_shape_verified": false,
+      "roof_status": "unknown",
+      "facades": [
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:041246ca3e9e9984",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299504.6815996393,
+              62812.300808563705
+            ],
+            [
+              299504.17879953876,
+              62812.362508553975
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00586353219013,
+              40.73230939070133
+            ],
+            [
+              -74.0058694843389,
+              40.732309946011576
+            ]
+          ],
+          "width_projected_m": 0.5065716434065566,
+          "outward_azimuth_degrees": 6.992110154950587,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false,
+          "historical_evidence": {
+            "date": "1936-08-25",
+            "status": "partial_historical",
+            "material": {
+              "status": "derived_historical_photo",
+              "value": "brick-like appearance; composition unverified",
+              "reference": "HABS photo119530p"
+            },
+            "source": "HABS NY-449 photo119530p",
+            "occlusion": "foreground and uncertain edge pixels neutral-masked",
+            "components": {
+              "wall_material": {
+                "status": "derived_historical_photo",
+                "value": "brick-like appearance; composition unverified",
+                "reference": "HABS photo119530p"
+              },
+              "window_grid": {
+                "status": "derived_historical_photo",
+                "value": "3 upper main-storey openings,2 lower main-storey windows plus separate doorway; cropped basement/attic not counted",
+                "source": "individual photo119530p region"
+              },
+              "floor_divisions": {
+                "status": "derived_historical_photo",
+                "value": "two main street-facing storeys visible; current floor count not inferred"
+              },
+              "cornice": {
+                "status": "partial_historical_photo",
+                "value": "individual roofline visible in original; projection depth not measured, shadow mask excluded"
+              },
+              "entrance": {
+                "status": "partial_occluded",
+                "value": "each doorway retained separately; lower steps/fence masked"
+              },
+              "porch": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              },
+              "balcony": {
+                "status": "unknown",
+                "value": null
+              },
+              "fire_escape": {
+                "status": "unknown",
+                "value": null
+              },
+              "roof_equipment": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              }
+            },
+            "current_verified": false
+          }
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:9713724682243717",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299504.17879953876,
+              62812.362508553975
+            ],
+            [
+              299499.0507985159,
+              62812.99150852256
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.0058694843389,
+              40.732309946011576
+            ],
+            [
+              -74.00593018963248,
+              40.73231560709773
+            ]
+          ],
+          "width_projected_m": 5.166433532993488,
+          "outward_azimuth_degrees": 6.989103077349443,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false,
+          "historical_evidence": {
+            "date": "1936-08-25",
+            "status": "partial_historical",
+            "material": {
+              "status": "derived_historical_photo",
+              "value": "brick-like appearance; composition unverified",
+              "reference": "HABS photo119530p"
+            },
+            "source": "HABS NY-449 photo119530p",
+            "occlusion": "foreground and uncertain edge pixels neutral-masked",
+            "components": {
+              "wall_material": {
+                "status": "derived_historical_photo",
+                "value": "brick-like appearance; composition unverified",
+                "reference": "HABS photo119530p"
+              },
+              "window_grid": {
+                "status": "derived_historical_photo",
+                "value": "3 upper main-storey openings,2 lower main-storey windows plus separate doorway; cropped basement/attic not counted",
+                "source": "individual photo119530p region"
+              },
+              "floor_divisions": {
+                "status": "derived_historical_photo",
+                "value": "two main street-facing storeys visible; current floor count not inferred"
+              },
+              "cornice": {
+                "status": "partial_historical_photo",
+                "value": "individual roofline visible in original; projection depth not measured, shadow mask excluded"
+              },
+              "entrance": {
+                "status": "partial_occluded",
+                "value": "each doorway retained separately; lower steps/fence masked"
+              },
+              "porch": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              },
+              "balcony": {
+                "status": "unknown",
+                "value": null
+              },
+              "fire_escape": {
+                "status": "unknown",
+                "value": null
+              },
+              "roof_equipment": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              }
+            },
+            "current_verified": false
+          }
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:193c7e2a30761dc7",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299499.0507985159,
+              62812.99150852256
+            ],
+            [
+              299497.8336985662,
+              62803.06960654093
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00593018963248,
+              40.73231560709773
+            ],
+            [
+              -74.00594458957663,
+              40.732226258812624
+            ]
+          ],
+          "width_projected_m": 9.996272866457634,
+          "outward_azimuth_degrees": 276.9895375493864,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:703d3b1c831a7e59",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299497.8336985662,
+              62803.06960654093
+            ],
+            [
+              299497.3322985881,
+              62798.9827057173
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00594458957663,
+              40.732226258812624
+            ],
+            [
+              -74.00595052180805,
+              40.73218945562819
+            ]
+          ],
+          "width_projected_m": 4.117542990687132,
+          "outward_azimuth_degrees": 276.9904700466667,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:1ac9022c92bc10ee",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299497.3322985881,
+              62798.9827057173
+            ],
+            [
+              299501.1251993508,
+              62798.517405741135
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00595052180805,
+              40.73218945562819
+            ],
+            [
+              -74.00590562151856,
+              40.73218526787506
+            ]
+          ],
+          "width_projected_m": 3.8213348797869595,
+          "outward_azimuth_degrees": 186.99002578376738,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:316dd3c06bbb7ee1",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299501.1251993508,
+              62798.517405741135
+            ],
+            [
+              299502.96309971664,
+              62798.29190574847
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00590562151856,
+              40.73218526787506
+            ],
+            [
+              -74.00588386448985,
+              40.73218323834281
+            ]
+          ],
+          "width_projected_m": 1.8516824785505035,
+          "outward_azimuth_degrees": 186.99105246033494,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:9c0efbb2487e00f7",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299502.96309971664,
+              62798.29190574847
+            ],
+            [
+              299503.03699970845,
+              62798.894405868465
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00588386448985,
+              40.73218323834281
+            ],
+            [
+              -74.00588299014942,
+              40.73218866395065
+            ]
+          ],
+          "width_projected_m": 0.6070153238467042,
+          "outward_azimuth_degrees": 96.98887036021284,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:44c84cb1bbfd5514",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299503.03699970845,
+              62798.894405868465
+            ],
+            [
+              299503.45219969144,
+              62802.27840654408
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00588299014942,
+              40.73218866395065
+            ],
+            [
+              -74.00587807774849,
+              40.73221913740595
+            ]
+          ],
+          "width_projected_m": 3.409377010310825,
+          "outward_azimuth_degrees": 96.99109868333007,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:231563:facade-candidate:0:0:f5a016979320c585",
+          "building_id": "nyc:footprints:doitt:231563",
+          "part_id": "nyc:footprints:doitt:231563:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299503.45219969144,
+              62802.27840654408
+            ],
+            [
+              299504.6815996393,
+              62812.300808563705
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00587807774849,
+              40.73221913740595
+            ],
+            [
+              -74.00586353219013,
+              40.73230939070133
+            ]
+          ],
+          "width_projected_m": 10.09752278902038,
+          "outward_azimuth_degrees": 96.98942260754605,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        }
+      ],
+      "reference_coverage": "no current per-facade photograph survey",
+      "missing": [
+        "dated current views",
+        "wall geometry",
+        "height/base datum",
+        "material/components"
+      ],
+      "use_classification": "area research theme only; no automatic parcel-to-building attribution",
+      "archival_front": {
+        "date": "1936-08-25",
+        "source": "https://www.loc.gov/item/ny0381/",
+        "association": "retained current source BBL/one source entity + PLUTO address + street sequence; historical wall match not independently verified",
+        "texture": "../grove-1936/front-8.png",
+        "scope": "partial historical front only",
+        "width_conflict_m": -0.9068625055328043,
+        "current_complete": false
+      }
+    },
+    {
+      "id": "nyc:footprints:doitt:233256",
+      "source_id": "233256",
+      "bin": "1009854",
+      "base_bbl": "1005850015",
+      "name": null,
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+        "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+        "object_id": 1056656
+      },
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.00599715014044,
+              40.73232185225618
+            ],
+            [
+              -74.00601115483153,
+              40.732234954266694
+            ],
+            [
+              -74.00606504138335,
+              40.73223997987882
+            ],
+            [
+              -74.00608035264726,
+              40.73224140817789
+            ],
+            [
+              -74.00606634686112,
+              40.732328305275225
+            ],
+            [
+              -74.00601249575178,
+              40.73232328326394
+            ],
+            [
+              -74.00599715014044,
+              40.73232185225618
+            ]
+          ]
+        ]
+      },
+      "source_version": "2026-10-27-city",
+      "outline_type": "overhead, wall baseline unverified",
+      "height_m": null,
+      "wall_shape_verified": false,
+      "roof_status": "unknown",
+      "facades": [
+        {
+          "id": "nyc:footprints:doitt:233256:facade-candidate:0:0:da2d7f1e36cee0e7",
+          "building_id": "nyc:footprints:doitt:233256",
+          "part_id": "nyc:footprints:doitt:233256:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299493.394397379,
+              62813.685408494806
+            ],
+            [
+              299492.09809712484,
+              62813.84440848702
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00599715014044,
+              40.73232185225618
+            ],
+            [
+              -74.00601249575178,
+              40.73232328326394
+            ]
+          ],
+          "width_projected_m": 1.3060150636618069,
+          "outward_azimuth_degrees": 6.988858634955107,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false,
+          "historical_evidence": {
+            "date": "1936-08-25",
+            "status": "partial_historical",
+            "material": {
+              "status": "source_explicit_historical",
+              "value": "Flemish bond brick",
+              "reference": "HABS sheet1 annotation"
+            },
+            "source": "HABS NY-449 photo119530p",
+            "occlusion": "foreground and uncertain edge pixels neutral-masked",
+            "components": {
+              "wall_material": {
+                "status": "source_explicit_historical",
+                "value": "Flemish bond brick",
+                "reference": "HABS sheet1 annotation"
+              },
+              "window_grid": {
+                "status": "derived_historical_photo",
+                "value": "3 upper main-storey openings,2 lower main-storey windows plus separate doorway; cropped basement/attic not counted",
+                "source": "individual photo119530p region"
+              },
+              "floor_divisions": {
+                "status": "derived_historical_photo",
+                "value": "two main street-facing storeys visible; current floor count not inferred"
+              },
+              "cornice": {
+                "status": "partial_historical_photo",
+                "value": "individual roofline visible in original; projection depth not measured, shadow mask excluded"
+              },
+              "entrance": {
+                "status": "partial_occluded",
+                "value": "each doorway retained separately; lower steps/fence masked"
+              },
+              "porch": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              },
+              "balcony": {
+                "status": "unknown",
+                "value": null
+              },
+              "fire_escape": {
+                "status": "unknown",
+                "value": null
+              },
+              "roof_equipment": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              }
+            },
+            "current_verified": false
+          }
+        },
+        {
+          "id": "nyc:footprints:doitt:233256:facade-candidate:0:0:ad495f9cc74fe6e0",
+          "building_id": "nyc:footprints:doitt:233256",
+          "part_id": "nyc:footprints:doitt:233256:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299492.09809712484,
+              62813.84440848702
+            ],
+            [
+              299487.54909621394,
+              62814.40240846357
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00601249575178,
+              40.73232328326394
+            ],
+            [
+              -74.00606634686112,
+              40.732328305275225
+            ]
+          ],
+          "width_projected_m": 4.583096470849288,
+          "outward_azimuth_degrees": 6.98926106808252,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false,
+          "historical_evidence": {
+            "date": "1936-08-25",
+            "status": "partial_historical",
+            "material": {
+              "status": "source_explicit_historical",
+              "value": "Flemish bond brick",
+              "reference": "HABS sheet1 annotation"
+            },
+            "source": "HABS NY-449 photo119530p",
+            "occlusion": "foreground and uncertain edge pixels neutral-masked",
+            "components": {
+              "wall_material": {
+                "status": "source_explicit_historical",
+                "value": "Flemish bond brick",
+                "reference": "HABS sheet1 annotation"
+              },
+              "window_grid": {
+                "status": "derived_historical_photo",
+                "value": "3 upper main-storey openings,2 lower main-storey windows plus separate doorway; cropped basement/attic not counted",
+                "source": "individual photo119530p region"
+              },
+              "floor_divisions": {
+                "status": "derived_historical_photo",
+                "value": "two main street-facing storeys visible; current floor count not inferred"
+              },
+              "cornice": {
+                "status": "partial_historical_photo",
+                "value": "individual roofline visible in original; projection depth not measured, shadow mask excluded"
+              },
+              "entrance": {
+                "status": "partial_occluded",
+                "value": "each doorway retained separately; lower steps/fence masked"
+              },
+              "porch": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              },
+              "balcony": {
+                "status": "unknown",
+                "value": null
+              },
+              "fire_escape": {
+                "status": "unknown",
+                "value": null
+              },
+              "roof_equipment": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              }
+            },
+            "current_verified": false
+          }
+        },
+        {
+          "id": "nyc:footprints:doitt:233256:facade-candidate:0:0:d6b662ee0a0bd6ef",
+          "building_id": "nyc:footprints:doitt:233256",
+          "part_id": "nyc:footprints:doitt:233256:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299487.54909621394,
+              62814.40240846357
+            ],
+            [
+              299486.3652962672,
+              62804.75270653309
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00606634686112,
+              40.732328305275225
+            ],
+            [
+              -74.00608035264726,
+              40.73224140817789
+            ]
+          ],
+          "width_projected_m": 9.722043492035054,
+          "outward_azimuth_degrees": 276.9899764539292,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:233256:facade-candidate:0:0:67fece9da1bfdefd",
+          "building_id": "nyc:footprints:doitt:233256",
+          "part_id": "nyc:footprints:doitt:233256:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299486.3652962672,
+              62804.75270653309
+            ],
+            [
+              299487.6586965297,
+              62804.59400653541
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00608035264726,
+              40.73224140817789
+            ],
+            [
+              -74.00606504138335,
+              40.73223997987882
+            ]
+          ],
+          "width_projected_m": 1.303100122113799,
+          "outward_azimuth_degrees": 186.99124553380128,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:233256:facade-candidate:0:0:fd45b8b9e8813763",
+          "building_id": "nyc:footprints:doitt:233256",
+          "part_id": "nyc:footprints:doitt:233256:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299487.6586965297,
+              62804.59400653541
+            ],
+            [
+              299492.2106974376,
+              62804.03560656143
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00606504138335,
+              40.73223997987882
+            ],
+            [
+              -74.00601115483153,
+              40.732234954266694
+            ]
+          ],
+          "width_projected_m": 4.586122850117259,
+          "outward_azimuth_degrees": 186.98965881158892,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:233256:facade-candidate:0:0:36403c837711cb3a",
+          "building_id": "nyc:footprints:doitt:233256",
+          "part_id": "nyc:footprints:doitt:233256:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299492.2106974376,
+              62804.03560656143
+            ],
+            [
+              299493.394397379,
+              62813.685408494806
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00601115483153,
+              40.732234954266694
+            ],
+            [
+              -74.00599715014044,
+              40.73232185225618
+            ]
+          ],
+          "width_projected_m": 9.72213057434976,
+          "outward_azimuth_degrees": 96.98936497025052,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        }
+      ],
+      "reference_coverage": "no current per-facade photograph survey",
+      "missing": [
+        "dated current views",
+        "wall geometry",
+        "height/base datum",
+        "material/components"
+      ],
+      "use_classification": "area research theme only; no automatic parcel-to-building attribution",
+      "archival_front": {
+        "date": "1936-08-25",
+        "source": "https://www.loc.gov/item/ny0381/",
+        "association": "retained current source BBL/one source entity + PLUTO address + street sequence; historical wall match not independently verified",
+        "texture": "../grove-1936/front-4.png",
+        "scope": "partial historical front only",
+        "width_conflict_m": -1.7763568394002505e-15,
+        "current_complete": false
+      }
+    },
+    {
+      "id": "nyc:footprints:doitt:272591",
+      "source_id": "272591",
+      "bin": "1009853",
+      "base_bbl": "1005850014",
+      "name": null,
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00036000.json",
+        "sha256": "7fab02d1a206aca95c75d9245d77f8e1283921770e2b4674ea15759040871120",
+        "object_id": 1030498
+      },
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.00606634686112,
+              40.732328305275225
+            ],
+            [
+              -74.00608035264726,
+              40.73224140817789
+            ],
+            [
+              -74.00612385255023,
+              40.732245464463105
+            ],
+            [
+              -74.00613195214703,
+              40.73219520575755
+            ],
+            [
+              -74.00614465549124,
+              40.73219637213906
+            ],
+            [
+              -74.00616446873163,
+              40.73219819190761
+            ],
+            [
+              -74.00616281119521,
+              40.73220847670285
+            ],
+            [
+              -74.00614389796955,
+              40.732325825664425
+            ],
+            [
+              -74.00614235637221,
+              40.73233539454878
+            ],
+            [
+              -74.00606634686112,
+              40.732328305275225
+            ]
+          ]
+        ]
+      },
+      "source_version": "2026-10-27-city",
+      "outline_type": "overhead, wall baseline unverified",
+      "height_m": null,
+      "wall_shape_verified": false,
+      "roof_status": "unknown",
+      "facades": [
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:35d577a8476cc40a",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299487.54909621394,
+              62814.40240846357
+            ],
+            [
+              299481.1282949304,
+              62815.19010842842
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00606634686112,
+              40.732328305275225
+            ],
+            [
+              -74.00614235637221,
+              40.73233539454878
+            ]
+          ],
+          "width_projected_m": 6.468938116690898,
+          "outward_azimuth_degrees": 6.990070650163899,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:417734db6a27c691",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299481.1282949304,
+              62815.19010842842
+            ],
+            [
+              299480.99799493246,
+              62814.127508219484
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00614235637221,
+              40.73233539454878
+            ],
+            [
+              -74.00614389796955,
+              40.732325825664425
+            ]
+          ],
+          "width_projected_m": 1.0705593367418527,
+          "outward_azimuth_degrees": 276.9869035485859,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:999a0a08768190d9",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299480.99799493246,
+              62814.127508219484
+            ],
+            [
+              299479.3993950094,
+              62801.09620560644
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00614389796955,
+              40.732325825664425
+            ],
+            [
+              -74.00616281119521,
+              40.73220847670285
+            ]
+          ],
+          "width_projected_m": 13.128989660550502,
+          "outward_azimuth_degrees": 276.98972545284306,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:a3458592dfa34483",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299479.3993950094,
+              62801.09620560644
+            ],
+            [
+              299479.2592950194,
+              62799.95410537449
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00616281119521,
+              40.73220847670285
+            ],
+            [
+              -74.00616446873163,
+              40.73219819190761
+            ]
+          ],
+          "width_projected_m": 1.1506610912925725,
+          "outward_azimuth_degrees": 276.98943059031217,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:be03643048d043f9",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299479.2592950194,
+              62799.95410537449
+            ],
+            [
+              299480.93299535214,
+              62799.75190538837
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00616446873163,
+              40.73219819190761
+            ],
+            [
+              -74.00614465549124,
+              40.73219637213906
+            ]
+          ],
+          "width_projected_m": 1.6858699944717237,
+          "outward_azimuth_degrees": 186.8845026027481,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:b308e5eee54c0ee1",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299480.93299535214,
+              62799.75190538837
+            ],
+            [
+              299482.0060955629,
+              62799.622305389654
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00614465549124,
+              40.73219637213906
+            ],
+            [
+              -74.00613195214703,
+              40.73219520575755
+            ]
+          ],
+          "width_projected_m": 1.0808978776826454,
+          "outward_azimuth_degrees": 186.88233478882108,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:df6b0d5e02f22785",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299482.0060955629,
+              62799.622305389654
+            ],
+            [
+              299482.6906955384,
+              62805.20340650691
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00613195214703,
+              40.73219520575755
+            ],
+            [
+              -74.00612385255023,
+              40.732245464463105
+            ]
+          ],
+          "width_projected_m": 5.62293222505196,
+          "outward_azimuth_degrees": 96.98918456938793,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:b1fafed43acf1e11",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299482.6906955384,
+              62805.20340650691
+            ],
+            [
+              299486.3652962672,
+              62804.75270653309
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00612385255023,
+              40.732245464463105
+            ],
+            [
+              -74.00608035264726,
+              40.73224140817789
+            ]
+          ],
+          "width_projected_m": 3.702137353260809,
+          "outward_azimuth_degrees": 186.98856993716552,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:272591:facade-candidate:0:0:200180e63d3a353c",
+          "building_id": "nyc:footprints:doitt:272591",
+          "part_id": "nyc:footprints:doitt:272591:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299486.3652962672,
+              62804.75270653309
+            ],
+            [
+              299487.54909621394,
+              62814.40240846357
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00608035264726,
+              40.73224140817789
+            ],
+            [
+              -74.00606634686112,
+              40.732328305275225
+            ]
+          ],
+          "width_projected_m": 9.722043492035054,
+          "outward_azimuth_degrees": 96.98997645392923,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        }
+      ],
+      "reference_coverage": "no current per-facade photograph survey",
+      "missing": [
+        "dated current views",
+        "wall geometry",
+        "height/base datum",
+        "material/components"
+      ],
+      "use_classification": "area research theme only; no automatic parcel-to-building attribution"
+    },
+    {
+      "id": "nyc:footprints:doitt:281428",
+      "source_id": "281428",
+      "bin": "1009855",
+      "base_bbl": "1005850016",
+      "name": null,
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00034500.json",
+        "sha256": "cd596b7bb94a01f3de61db475538500ed437bbab2f18429dcd685a800e4c426e",
+        "object_id": 1026595
+      },
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.00593018963248,
+              40.73231560709773
+            ],
+            [
+              -74.00594458957663,
+              40.732226258812624
+            ],
+            [
+              -74.00595887211323,
+              40.732227590826554
+            ],
+            [
+              -74.00598168155622,
+              40.732229718445275
+            ],
+            [
+              -74.00598685774796,
+              40.73219760424552
+            ],
+            [
+              -74.00601672617358,
+              40.73220038976168
+            ],
+            [
+              -74.00601115483153,
+              40.732234954266694
+            ],
+            [
+              -74.00599715014044,
+              40.73232185225618
+            ],
+            [
+              -74.005970503967,
+              40.73231936733774
+            ],
+            [
+              -74.00593018963248,
+              40.73231560709773
+            ]
+          ]
+        ]
+      },
+      "source_version": "2026-10-27-city",
+      "outline_type": "overhead, wall baseline unverified",
+      "height_m": null,
+      "wall_shape_verified": false,
+      "roof_status": "unknown",
+      "facades": [
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:22b5065b3dfdc95e",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299499.0507985159,
+              62812.99150852256
+            ],
+            [
+              299495.6452978276,
+              62813.409308507704
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00593018963248,
+              40.73231560709773
+            ],
+            [
+              -74.005970503967,
+              40.73231936733774
+            ]
+          ],
+          "width_projected_m": 3.4310336293299337,
+          "outward_azimuth_degrees": 6.99042413316027,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false,
+          "historical_evidence": {
+            "date": "1936-08-25",
+            "status": "partial_historical",
+            "material": {
+              "status": "derived_historical_photo",
+              "value": "brick-like appearance; chemical composition unverified",
+              "reference": "HABS photo119530p"
+            },
+            "source": "HABS NY-449 photo119530p",
+            "occlusion": "foreground and uncertain edge pixels neutral-masked",
+            "components": {
+              "wall_material": {
+                "status": "derived_historical_photo",
+                "value": "brick-like appearance; chemical composition unverified",
+                "reference": "HABS photo119530p"
+              },
+              "window_grid": {
+                "status": "derived_historical_photo",
+                "value": "3 upper main-storey openings,2 lower main-storey windows plus separate doorway; cropped basement/attic not counted",
+                "source": "individual photo119530p region"
+              },
+              "floor_divisions": {
+                "status": "derived_historical_photo",
+                "value": "two main street-facing storeys visible; current floor count not inferred"
+              },
+              "cornice": {
+                "status": "partial_historical_photo",
+                "value": "individual roofline visible in original; projection depth not measured, shadow mask excluded"
+              },
+              "entrance": {
+                "status": "partial_occluded",
+                "value": "each doorway retained separately; lower steps/fence masked"
+              },
+              "porch": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              },
+              "balcony": {
+                "status": "unknown",
+                "value": null
+              },
+              "fire_escape": {
+                "status": "unknown",
+                "value": null
+              },
+              "roof_equipment": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              }
+            },
+            "current_verified": false
+          }
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:572ed07c0d183d67",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299495.6452978276,
+              62813.409308507704
+            ],
+            [
+              299493.394397379,
+              62813.685408494806
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.005970503967,
+              40.73231936733774
+            ],
+            [
+              -74.00599715014044,
+              40.73232185225618
+            ]
+          ],
+          "width_projected_m": 2.2677707186453144,
+          "outward_azimuth_degrees": 6.989169036623784,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false,
+          "historical_evidence": {
+            "date": "1936-08-25",
+            "status": "partial_historical",
+            "material": {
+              "status": "derived_historical_photo",
+              "value": "brick-like appearance; chemical composition unverified",
+              "reference": "HABS photo119530p"
+            },
+            "source": "HABS NY-449 photo119530p",
+            "occlusion": "foreground and uncertain edge pixels neutral-masked",
+            "components": {
+              "wall_material": {
+                "status": "derived_historical_photo",
+                "value": "brick-like appearance; chemical composition unverified",
+                "reference": "HABS photo119530p"
+              },
+              "window_grid": {
+                "status": "derived_historical_photo",
+                "value": "3 upper main-storey openings,2 lower main-storey windows plus separate doorway; cropped basement/attic not counted",
+                "source": "individual photo119530p region"
+              },
+              "floor_divisions": {
+                "status": "derived_historical_photo",
+                "value": "two main street-facing storeys visible; current floor count not inferred"
+              },
+              "cornice": {
+                "status": "partial_historical_photo",
+                "value": "individual roofline visible in original; projection depth not measured, shadow mask excluded"
+              },
+              "entrance": {
+                "status": "partial_occluded",
+                "value": "each doorway retained separately; lower steps/fence masked"
+              },
+              "porch": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              },
+              "balcony": {
+                "status": "unknown",
+                "value": null
+              },
+              "fire_escape": {
+                "status": "unknown",
+                "value": null
+              },
+              "roof_equipment": {
+                "status": "unknown_metric_geometry",
+                "value": null
+              }
+            },
+            "current_verified": false
+          }
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:05f80110352a5f09",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299493.394397379,
+              62813.685408494806
+            ],
+            [
+              299492.2106974376,
+              62804.03560656143
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00599715014044,
+              40.73232185225618
+            ],
+            [
+              -74.00601115483153,
+              40.732234954266694
+            ]
+          ],
+          "width_projected_m": 9.72213057434976,
+          "outward_azimuth_degrees": 276.9893649702505,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:2fb2ae730d1d6baa",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299492.2106974376,
+              62804.03560656143
+            ],
+            [
+              299491.73979746,
+              62800.197305794965
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00601115483153,
+              40.732234954266694
+            ],
+            [
+              -74.00601672617358,
+              40.73220038976168
+            ]
+          ],
+          "width_projected_m": 3.8670789444708027,
+          "outward_azimuth_degrees": 276.9904179234968,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:9872077616df5799",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299491.73979746,
+              62800.197305794965
+            ],
+            [
+              299494.2628979626,
+              62799.88780580328
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00601672617358,
+              40.73220038976168
+            ],
+            [
+              -74.00598685774796,
+              40.73219760424552
+            ]
+          ],
+          "width_projected_m": 2.542012272029196,
+          "outward_azimuth_degrees": 186.98941223543346,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:b90c643cc0f57678",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299494.2628979626,
+              62799.88780580328
+            ],
+            [
+              299494.700397944,
+              62803.4540065215
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00598685774796,
+              40.73219760424552
+            ],
+            [
+              -74.00598168155622,
+              40.732229718445275
+            ]
+          ],
+          "width_projected_m": 3.592936653542973,
+          "outward_azimuth_degrees": 96.99015968502997,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:9c4a5e70ca41fc13",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299494.700397944,
+              62803.4540065215
+            ],
+            [
+              299496.62719832675,
+              62803.217606534534
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00598168155622,
+              40.732229718445275
+            ],
+            [
+              -74.00595887211323,
+              40.732227590826554
+            ]
+          ],
+          "width_projected_m": 1.9412482243980382,
+          "outward_azimuth_degrees": 186.9907821797957,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:cbf57e56bfe1b9f8",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299496.62719832675,
+              62803.217606534534
+            ],
+            [
+              299497.8336985662,
+              62803.06960654093
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00595887211323,
+              40.732227590826554
+            ],
+            [
+              -74.00594458957663,
+              40.732226258812624
+            ]
+          ],
+          "width_projected_m": 1.2155438395507736,
+          "outward_azimuth_degrees": 186.98957563503498,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:281428:facade-candidate:0:0:7743e37b6c219f55",
+          "building_id": "nyc:footprints:doitt:281428",
+          "part_id": "nyc:footprints:doitt:281428:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299497.8336985662,
+              62803.06960654093
+            ],
+            [
+              299499.0507985159,
+              62812.99150852256
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00594458957663,
+              40.732226258812624
+            ],
+            [
+              -74.00593018963248,
+              40.73231560709773
+            ]
+          ],
+          "width_projected_m": 9.996272866457634,
+          "outward_azimuth_degrees": 96.98953754938641,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        }
+      ],
+      "reference_coverage": "no current per-facade photograph survey",
+      "missing": [
+        "dated current views",
+        "wall geometry",
+        "height/base datum",
+        "material/components"
+      ],
+      "use_classification": "area research theme only; no automatic parcel-to-building attribution",
+      "archival_front": {
+        "date": "1936-08-25",
+        "source": "https://www.loc.gov/item/ny0381/",
+        "association": "retained current source BBL/one source entity + PLUTO address + street sequence; historical wall match not independently verified",
+        "texture": "../grove-1936/front-6.png",
+        "scope": "partial historical front only",
+        "width_conflict_m": -1.1595325626379207,
+        "current_complete": false
+      }
+    },
+    {
+      "id": "nyc:footprints:doitt:618366",
+      "source_id": "618366",
+      "bin": "1009852",
+      "base_bbl": "1005850012",
+      "name": null,
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00036000.json",
+        "sha256": "7fab02d1a206aca95c75d9245d77f8e1283921770e2b4674ea15759040871120",
+        "object_id": 1030361
+      },
+      "geometry_wgs84": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.00616446873163,
+              40.73219819190761
+            ],
+            [
+              -74.00614465549124,
+              40.73219637213906
+            ],
+            [
+              -74.00613195214703,
+              40.73219520575755
+            ],
+            [
+              -74.00609554678672,
+              40.73219186140199
+            ],
+            [
+              -74.00607207561262,
+              40.73218970592492
+            ],
+            [
+              -74.00607891279536,
+              40.73214662614237
+            ],
+            [
+              -74.00614145757218,
+              40.73215237076741
+            ],
+            [
+              -74.00615594219119,
+              40.73215009530943
+            ],
+            [
+              -74.00615709216304,
+              40.73214284705571
+            ],
+            [
+              -74.0061585970649,
+              40.73213337092512
+            ],
+            [
+              -74.0062500466299,
+              40.73214177044094
+            ],
+            [
+              -74.00624668429212,
+              40.73216295778531
+            ],
+            [
+              -74.00637875004212,
+              40.732175087594804
+            ],
+            [
+              -74.00635080574953,
+              40.73235116554663
+            ],
+            [
+              -74.00634890811519,
+              40.732350991853174
+            ],
+            [
+              -74.0063277003059,
+              40.732349044320834
+            ],
+            [
+              -74.00618074199964,
+              40.732335545580476
+            ],
+            [
+              -74.00618173698632,
+              40.73232927708815
+            ],
+            [
+              -74.00619723319788,
+              40.73223164133381
+            ],
+            [
+              -74.00620199515643,
+              40.73220163883898
+            ],
+            [
+              -74.00616446873163,
+              40.73219819190761
+            ]
+          ]
+        ]
+      },
+      "source_version": "2026-10-27-city",
+      "outline_type": "overhead, wall baseline unverified",
+      "height_m": null,
+      "wall_shape_verified": false,
+      "roof_status": "unknown",
+      "facades": [
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:7d21ea2d650dd5f8",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299479.2592950194,
+              62799.95410537449
+            ],
+            [
+              299476.0892943812,
+              62800.337105361235
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00616446873163,
+              40.73219819190761
+            ],
+            [
+              -74.00620199515643,
+              40.73220163883898
+            ]
+          ],
+          "width_projected_m": 3.1930538729969116,
+          "outward_azimuth_degrees": 6.885049209671338,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:1b00594b47834336",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299476.0892943812,
+              62800.337105361235
+            ],
+            [
+              299476.491794362,
+              62803.668806022906
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00620199515643,
+              40.73220163883898
+            ],
+            [
+              -74.00619723319788,
+              40.73223164133381
+            ]
+          ],
+          "width_projected_m": 3.3559254362299487,
+          "outward_azimuth_degrees": 96.88441767790553,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:cabab7b83b75514c",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299476.491794362,
+              62803.668806022906
+            ],
+            [
+              299477.80159429787,
+              62814.51100819947
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00619723319788,
+              40.73223164133381
+            ],
+            [
+              -74.00618173698632,
+              40.73232927708815
+            ]
+          ],
+          "width_projected_m": 10.921031265840071,
+          "outward_azimuth_degrees": 96.88422911591957,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:9cf0ec1c117daa16",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299477.80159429787,
+              62814.51100819947
+            ],
+            [
+              299477.88569429854,
+              62815.207108340255
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00618173698632,
+              40.73232927708815
+            ],
+            [
+              -74.00618074199964,
+              40.732335545580476
+            ]
+          ],
+          "width_projected_m": 0.7011620469710755,
+          "outward_azimuth_degrees": 96.88481283210409,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:66ac3f692451f36f",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299477.88569429854,
+              62815.207108340255
+            ],
+            [
+              299465.4715918104,
+              62816.707008266516
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00618074199964,
+              40.732335545580476
+            ],
+            [
+              -74.0063277003059,
+              40.732349044320834
+            ]
+          ],
+          "width_projected_m": 12.504384845917858,
+          "outward_azimuth_degrees": 6.885121394637226,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:a9b20e57e1e61452",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299465.4715918104,
+              62816.707008266516
+            ],
+            [
+              299463.6800914576,
+              62816.923408256145
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.0063277003059,
+              40.732349044320834
+            ],
+            [
+              -74.00634890811519,
+              40.732350991853174
+            ]
+          ],
+          "width_projected_m": 1.804522781666568,
+          "outward_azimuth_degrees": 6.88339150048695,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:bb4c8caf7c1b092e",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299463.6800914576,
+              62816.923408256145
+            ],
+            [
+              299463.51979142125,
+              62816.94270825727
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00634890811519,
+              40.732350991853174
+            ],
+            [
+              -74.00635080574953,
+              40.73235116554663
+            ]
+          ],
+          "width_projected_m": 0.16145770871422657,
+          "outward_azimuth_degrees": 6.861168886488314,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:6d90833ae1fdef14",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299463.51979142125,
+              62816.94270825727
+            ],
+            [
+              299461.15779153706,
+              62797.38970433451
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00635080574953,
+              40.73235116554663
+            ],
+            [
+              -74.00637875004212,
+              40.732175087594804
+            ]
+          ],
+          "width_projected_m": 19.695151836336947,
+          "outward_azimuth_degrees": 276.8837833513204,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:7b6fa7192e7351db",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299461.15779153706,
+              62797.38970433451
+            ],
+            [
+              299472.3138937636,
+              62796.041904396014
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00637875004212,
+              40.732175087594804
+            ],
+            [
+              -74.00624668429212,
+              40.73216295778531
+            ]
+          ],
+          "width_projected_m": 11.237223036091061,
+          "outward_azimuth_degrees": 186.88454881873756,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:ea8a1775dda772a1",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299472.3138937636,
+              62796.041904396014
+            ],
+            [
+              299472.0296937787,
+              62793.68910392605
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00624668429212,
+              40.73216295778531
+            ],
+            [
+              -74.0062500466299,
+              40.73214177044094
+            ]
+          ],
+          "width_projected_m": 2.3699028846870362,
+          "outward_azimuth_degrees": 276.8834286061584,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:e428f33ea3adbd7f",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299472.0296937787,
+              62793.68910392605
+            ],
+            [
+              299479.75479532673,
+              62792.75580396207
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.0062500466299,
+              40.73214177044094
+            ],
+            [
+              -74.0061585970649,
+              40.73213337092512
+            ]
+          ],
+          "width_projected_m": 7.781275136499056,
+          "outward_azimuth_degrees": 186.88468421260694,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:54eff6ba6377f001",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299479.75479532673,
+              62792.75580396207
+            ],
+            [
+              299479.88199531916,
+              62793.80810418276
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.0061585970649,
+              40.73213337092512
+            ],
+            [
+              -74.00615709216304,
+              40.73214284705571
+            ]
+          ],
+          "width_projected_m": 1.0599601844108704,
+          "outward_azimuth_degrees": 96.88833460348661,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:caac1afe124e43ca",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299479.88199531916,
+              62793.80810418276
+            ],
+            [
+              299479.97919531603,
+              62794.61300434566
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00615709216304,
+              40.73214284705571
+            ],
+            [
+              -74.00615594219119,
+              40.73215009530943
+            ]
+          ],
+          "width_projected_m": 0.8107478717974367,
+          "outward_azimuth_degrees": 96.8816870700605,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:8c61f83a158541cb",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299479.97919531603,
+              62794.61300434566
+            ],
+            [
+              299481.2027955445,
+              62794.86560443089
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00615594219119,
+              40.73215009530943
+            ],
+            [
+              -74.00614145757218,
+              40.73215237076741
+            ]
+          ],
+          "width_projected_m": 1.249401585649443,
+          "outward_azimuth_degrees": 168.33169363505598,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:3dd6b82db4dc94f5",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299481.2027955445,
+              62794.86560443089
+            ],
+            [
+              299486.4861966034,
+              62794.227304463384
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00614145757218,
+              40.73215237076741
+            ],
+            [
+              -74.00607891279536,
+              40.73214662614237
+            ]
+          ],
+          "width_projected_m": 5.3218186362735524,
+          "outward_azimuth_degrees": 186.88465452854692,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:b3dc73945b4bd6a9",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299486.4861966034,
+              62794.227304463384
+            ],
+            [
+              299487.0640965794,
+              62799.01120541847
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00607891279536,
+              40.73214662614237
+            ],
+            [
+              -74.00607207561262,
+              40.73218970592492
+            ]
+          ],
+          "width_projected_m": 4.818679977996578,
+          "outward_azimuth_degrees": 96.88403714866465,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:ad7f841526b5f0e6",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299487.0640965794,
+              62799.01120541847
+            ],
+            [
+              299485.08139618015,
+              62799.25070540885
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00607207561262,
+              40.73218970592492
+            ],
+            [
+              -74.00609554678672,
+              40.73219186140199
+            ]
+          ],
+          "width_projected_m": 1.997113196224829,
+          "outward_azimuth_degrees": 6.883684736411231,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:4756656930778f61",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299485.08139618015,
+              62799.25070540885
+            ],
+            [
+              299482.0060955629,
+              62799.622305389654
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00609554678672,
+              40.73219186140199
+            ],
+            [
+              -74.00613195214703,
+              40.73219520575755
+            ]
+          ],
+          "width_projected_m": 3.097670161952894,
+          "outward_azimuth_degrees": 6.885859779180197,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:00fdfa4af05d48c4",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299482.0060955629,
+              62799.622305389654
+            ],
+            [
+              299480.93299535214,
+              62799.75190538837
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00613195214703,
+              40.73219520575755
+            ],
+            [
+              -74.00614465549124,
+              40.73219637213906
+            ]
+          ],
+          "width_projected_m": 1.0808978776826454,
+          "outward_azimuth_degrees": 6.88233478882109,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        },
+        {
+          "id": "nyc:footprints:doitt:618366:facade-candidate:0:0:146d8d3732a9e476",
+          "building_id": "nyc:footprints:doitt:618366",
+          "part_id": "nyc:footprints:doitt:618366:part:000",
+          "ring_index": 0,
+          "endpoints_metric_m": [
+            [
+              299480.93299535214,
+              62799.75190538837
+            ],
+            [
+              299479.2592950194,
+              62799.95410537449
+            ]
+          ],
+          "endpoints_lon_lat": [
+            [
+              -74.00614465549124,
+              40.73219637213906
+            ],
+            [
+              -74.00616446873163,
+              40.73219819190761
+            ]
+          ],
+          "width_projected_m": 1.6858699944717237,
+          "outward_azimuth_degrees": 6.884502602748116,
+          "shape_status": "derived_from_overhead_outline_NOT_verified_wall",
+          "vertical_shape": null,
+          "height_m": null,
+          "exposure": "unknown_may_be_party_wall",
+          "observation_date": null,
+          "occlusion": "not_surveyed",
+          "evidence_status": "unknown",
+          "reference_ids": [],
+          "components": {
+            "wall_material": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "window_grid": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "floor_divisions": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "cornice": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "entrance": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "porch": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "balcony": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "fire_escape": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            },
+            "roof_equipment": {
+              "status": "unknown",
+              "value": null,
+              "source": null
+            }
+          },
+          "generalized_material": null,
+          "procedural": false,
+          "current_complete": false
+        }
+      ],
+      "reference_coverage": "no current per-facade photograph survey",
+      "missing": [
+        "dated current views",
+        "wall geometry",
+        "height/base datum",
+        "material/components"
+      ],
+      "use_classification": "area research theme only; no automatic parcel-to-building attribution"
+    }
+  ]
+}
