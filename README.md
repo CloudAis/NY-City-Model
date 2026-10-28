@@ -1,5 +1,35 @@
 # 纽约真实尺度 3D HTML
 
+## GitHub下载与运行
+
+**部分完成版：完整现状精细建筑0；已发布五区来源轮廓与检查工具。**
+
+- [下载全部运行分包、单文件预览与源码](https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028)（六个运行ZIP约1.45GB，解压约6.2GiB）。
+- [逐文件下载和SHA256清单](reports/final-delivery/FILES.md)。
+- [最终验收](reports/FINAL_ACCEPTANCE.md)、[真实性与覆盖](reports/AUTHENTICITY_FINAL.md)、[已知缺口](docs/KNOWN_GAPS.md)。
+
+直接运行不需要Node、GIS库、云服务或外网；需要Python3标准库与支持WebGL2的浏览器。从Release把六个运行ZIP、delivery-manifest.json、assemble.py、start-local.py、update-local.py下载到同一目录，然后：
+
+```bash
+python3 assemble.py --parts-dir . --output nyc-local
+python3 nyc-local/start-local.py
+# http://127.0.0.1:8080/
+```
+
+也可用GitHub CLI下载至一个新目录：
+
+```bash
+gh release download v0.1.0-evidence-20261028 --repo CloudAis/NY-City-Model --dir nyc-release
+python3 nyc-release/assemble.py --parts-dir nyc-release --output nyc-local
+python3 nyc-local/start-local.py
+```
+
+Git仓库保存源码、锁文件、配置、样本、来源清单及验证记录；全市大资源随Release实际提供。**仅克隆仓库不包含被Git忽略的全量数据。** 要重新构建当前完整页面，组装Release后把`nyc-local/app/datasets/`的内容复制到源码`assets/`，再按[重建说明](docs/REBUILD.md)安装开发依赖和构建。多GiB原始GIS/主库/历史研究原件没有全部上传，来源再处理需要相应原始输入。
+
+单文件preview-single.html仅四块1936历史正面及部分WTC体量；HTTP/离线嵌入通过，默认file导航受测试环境企业策略限制。它不是全纽约完整版。独立实测现实精度未知；源转换忠实度检查不代替现实测绘。
+
+---
+
 **当前为第十阶段部分完成交付，以下旧阶段说明作为历史保留。** 全部已发布五区轮廓、检查工具及局部证据可本地离线运行；完整现状精细建筑0，不是完整纽约外观复刻。
 
 交付目录为`reports/final-delivery/`，包含**六个实际运行分包**、`delivery-manifest.json`、`SHA256SUMS`、Python组装/启动/更新脚本、单文件局部预览和开发源码ZIP。无需任何旧基础包。具体清单、限制与操作见[交付说明](docs/DELIVERY.md)，真实性见[最终真实性报告](reports/AUTHENTICITY_FINAL.md)，实际验收见[最终验收报告](reports/FINAL_ACCEPTANCE.md)。
