@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "repository": "CloudAis/NY-City-Model",
+  "release_tag": "v0.1.0-evidence-20261028",
+  "data_branch": "offline-packages-v0.1.0-evidence-20261028",
+  "source_checkpoint": "717a2e4",
+  "original_zip_bytes_unchanged": true,
+  "complete_current_fine_buildings": 0,
+  "files": [
+    {
+      "name": "FILES.md",
+      "bytes": 3925,
+      "sha256": "315fe0fe3567eb79da221189d5796c9ae0d91188ef7bafd557212aa655b701c3",
+      "storage": "file",
+      "path": "FILES.md"
+    },
+    {
+      "name": "FINAL_RECEIPT.md",
+      "bytes": 3150,
+      "sha256": "90ee126607f847ada26f4f0605b7f5aa1ae1179b3dab3db94386bff3b335b5d1",
+      "storage": "file",
+      "path": "FINAL_RECEIPT.md"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 1296,
+      "sha256": "32c312ba947efa4fa08859db4bb115da83f1e3a1063310db159d19cbd2581b5a",
+      "storage": "file",
+      "path": "SHA256SUMS"
+    },
+    {
+      "name": "START_HERE.md",
+      "bytes": 4985,
+      "sha256": "86f623a1b57541c7fc88a2e86ec4d0fd4097d2665c85db2aa000cf52f78661a8",
+      "storage": "file",
+      "path": "START_HERE.md"
+    },
+    {
+      "name": "assemble.py",
+      "bytes": 2774,
+      "sha256": "9f2e22c4800202156b797e4ccd3d00cd2a0a43cb1f62f21a3fbe48daf8a0c41e",
+      "storage": "file",
+      "path": "assemble.py"
+    },
+    {
+      "name": "delivery-manifest.json",
+      "bytes": 6671918,
+      "sha256": "9307c95280e81ccdd17a6637c7d8fa3fbacdc7d76aca85ae56f20a9f120dc71e",
+      "storage": "file",
+      "path": "delivery-manifest.json"
+    },
+    {
+      "name": "nyc-developer-source.zip",
+      "bytes": 61530580,
+      "sha256": "ff0647dbd742b71e211ac60861fc40e05dd249778c7e6ca3054505f246fb7a01",
+      "storage": "chunks",
+      "chunks": [
+        {
+          "path": "parts/nyc-developer-source.zip/0000.part",
+          "bytes": 33554432,
+          "sha256": "c7425d1560cb59f01bf9e4766b3753dbd3323ac573d0dda6e09782b3ae5eacbc"
+        },
+        {
+          "path": "parts/nyc-developer-source.zip/0001.part",
+          "bytes": 27976148,
+          "sha256": "4e92607ac86cd0bf743c49dba56d89230201f5c5217428b1be30104242071887"
+        }
+      ]
+    },
+    {
+      "name": "nyc-evidence-bronx.zip",
+      "bytes": 136771932,
+      "sha256": "90733c88146dacb749f560da8739ab0021c8cc68c93af58bcdca9a3d9067b12d",
+      "storage": "chunks",
+      "chunks": [
+        {
+          "path": "parts/nyc-evidence-bronx.zip/0000.part",
+          "bytes": 33554432,
+          "sha256": "cb29342e3fff8452f470c040b4d8a730b7464a310a7d080b7464662aee666831"
+        },
+        {
+          "path": "parts/nyc-evidence-bronx.zip/0001.part",
+          "bytes": 33554432,
+          "sha256": "c3926e631ab5bb13740491828b553e51a7ceae8cd5feca4607fc7a3bde36a5ce"
+        },
+        {
+          "path": "parts/nyc-evidence-bronx.zip/0002.part",
+          "bytes": 33554432,
+          "sha256": "29269d0aa92b4dc41de355d8d601aded6aa4d0a7b6ee22268eb7a705047bb167"
+        },
+        {
+          "path": "parts/nyc-evidence-bronx.zip/0003.part",
+          "bytes": 33554432,
+          "sha256": "df630164f2830fe6dca53431953b0895786738bf1cf14b6e067df2408ac07fc8"
+        },
+        {
+          "path": "parts/nyc-evidence-bronx.zip/0004.part",
+          "bytes": 2554204,
+          "sha256": "d688c4a62bcaf9f1ee6048220bd927dd7bb0890e951a604a0b2a680065e0db06"
+        }
+      ]
+    },
+    {
+      "name": "nyc-evidence-brooklyn.zip",
+      "bytes": 363533864,
+      "sha256": "b40d06b964486a1159fab9e332394d02d7434c39ec3bfbf559c736caf120b125",
+      "storage": "chunks",
+      "chunks": [
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0000.part",
+          "bytes": 33554432,
+          "sha256": "b59491bd98b5bceca26af10a23dbda690782f4daa6e16b6f359c929592311198"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0001.part",
+          "bytes": 33554432,
+          "sha256": "49912dea5cfc930ef4278f3a59e6a0f41a62a573df17d5ca8d09fd3890e66a9d"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0002.part",
+          "bytes": 33554432,
+          "sha256": "8070dabd84c7d605ccc5b3534073b1e2c93613a0b264f81e4f4621d4b2106950"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0003.part",
+          "bytes": 33554432,
+          "sha256": "3f743b6c6b56a83bf0ae5a9244edd34ddabdaeaf4014646a77588792745643a0"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0004.part",
+          "bytes": 33554432,
+          "sha256": "c25f5662d94439519720a3726a18f45aacea6061acce4471deb60d2bfc515aee"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0005.part",
+          "bytes": 33554432,
+          "sha256": "02f0f04dd55d0e4e23ea178ca0555ca95afe313658dc3459fc3254ae54b6ae60"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0006.part",
+          "bytes": 33554432,
+          "sha256": "789d7d1b8b49cbc6f079f93d8ce1376275c592e3c704ebcffca9309a9009aa94"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0007.part",
+          "bytes": 33554432,
+          "sha256": "26cd43978abf372fbc8f2598a9cb841ef087a74f2a01ce2db55b04f5dc4acb0d"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0008.part",
+          "bytes": 33554432,
+          "sha256": "683126a9b2740752d53c5d24cc21c2724aa0b5862af0356f566746ab24a17d46"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0009.part",
+          "bytes": 33554432,
+          "sha256": "eaa9b559e6506e0a9dcf94da5e57fb97a01b75afe5a7d2c8090239e669698db2"
+        },
+        {
+          "path": "parts/nyc-evidence-brooklyn.zip/0010.part",
+          "bytes": 27989544,
+          "sha256": "342ec6c8ffec90f07e8097d8354abd1a4ac19cb6bef43fe5fffc893a418e0e58"
+        }
+      ]
+    },
+    {
+      "name": "nyc-evidence-common.zip",
+      "bytes": 215234523,
+      "sha256": "82903f620423d47d482549ae1ceb4a2f0681c31197e115400fa254ba71ad102c",
+      "storage": "chunks",
+      "chunks": [
+        {
+          "path": "parts/nyc-evidence-common.zip/0000.part",
+          "bytes": 33554432,
+          "sha256": "8b8c24b2a7fdc32825b6da792d246755411dff19411abb79d41835a8dfea8030"
+        },
+        {
+          "path": "parts/nyc-evidence-common.zip/0001.part",
+          "bytes": 33554432,
+          "sha256": "b4902220a55a87d1dfe83340efc6c7bb3cecc75f58139a65856936847fde156e"
+        },
+        {
+          "path": "parts/nyc-evidence-common.zip/0002.part",
+          "bytes": 33554432,
+          "sha256": "5e3421aa1e4bbfad4f532f90f8371df8b3931a09817fe78431682e8fbf9734b2"
+        },
+        {
+          "path": "parts/nyc-evidence-common.zip/0003.part",
+          "bytes": 33554432,
+          "sha256": "93a0e7a2dca7d0728f177ebbac08994412063643e412605bbbc5def9245490e5"
+        },
+        {
+          "path": "parts/nyc-evidence-common.zip/0004.part",
+          "bytes": 33554432,
+          "sha256": "9b5461696b92f9cf434aefa5c3073cebacbf6affc319f1b8cae452c70a283a99"
+        },
+        {
+          "path": "parts/nyc-evidence-common.zip/0005.part",
+          "bytes": 33554432,
+          "sha256": "f84b02af123b260869f9e9ea5601b1cb74ff9b38f75b9a12600aaabf14adaa9a"
+        },
+        {
+          "path": "parts/nyc-evidence-common.zip/0006.part",
+          "bytes": 13907931,
+          "sha256": "59679655c7840ea5274ba5c3f735277954bd1fde2c4976467a0895902d0ac484"
+        }
+      ]
+    },
+    {
+      "name": "nyc-evidence-manhattan.zip",
+      "bytes": 71692556,
+      "sha256": "455fe1357cb6a374aa9e3e27212d72525d5fca3eb16396fa792bb32c3601c7b3",
+      "storage": "chunks",
+      "chunks": [
+        {
+          "path": "parts/nyc-evidence-manhattan.zip/0000.part",
+          "bytes": 33554432,
+          "sha256": "e7a92e877fab4b197a6dcb1c862a6acb600cfc208df336de884ab9df87d26c0e"
+        },
+        {
+          "path": "parts/nyc-evidence-manhattan.zip/0001.part",
+          "bytes": 33554432,
+          "sha256": "0d87753aab690baef3fe2d98336826d05e00f47b14765eeb2ae49c5befe4a317"
+        },
+        {
+          "path": "parts/nyc-evidence-manhattan.zip/0002.part",
+          "bytes": 4583692,
+          "sha256": "01eafc920d24dc0be00d3a70a77a1f4866665e01fe15218e5a204381cdcf2564"
+        }
+      ]
+    },
+    {
+      "name": "nyc-evidence-queens.zip",
+      "bytes": 497719582,
+      "sha256": "46cc967471af3c6249e4a94c6493197908e715921c387c3b64d3805666483c0a",
+      "storage": "chunks",
+      "chunks": [
+        {
+          "path": "parts/nyc-evidence-queens.zip/0000.part",
+          "bytes": 33554432,
+          "sha256": "25bde42d6a277151ef9dc22b069884ab0b7e3d3ddb664915b6b450183795ed78"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0001.part",
+          "bytes": 33554432,
+          "sha256": "04a1604925a548682fdc7ae0afc738c7ecd4b8450c57f2ad30991206c374387a"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0002.part",
+          "bytes": 33554432,
+          "sha256": "7cd86292222be2a6081125c3ac8b9ce7cbb63caf7e0b1a1528e786d7f67822a1"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0003.part",
+          "bytes": 33554432,
+          "sha256": "b5d34b082d982c012b9d35ec262762461f21ef8e2679ebe458fa43e9eef5047e"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0004.part",
+          "bytes": 33554432,
+          "sha256": "b5ebd8b66a81a1095331883fce2f11d628c7164d65339e1d7bc96306322f1950"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0005.part",
+          "bytes": 33554432,
+          "sha256": "cfa159b9cef1aa705bf2e28118469cc68bafe5f3904459f292d1f6775c484a4d"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0006.part",
+          "bytes": 33554432,
+          "sha256": "9c8f3faf7e3a1361d04eb4ca922fd0c7df8c42e7cc70da74643dbb865a7978ef"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0007.part",
+          "bytes": 33554432,
+          "sha256": "fae7432570361535ba23467f3adf37627e67485b0b984a126ccd179e1a6630f1"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0008.part",
+          "bytes": 33554432,
+          "sha256": "264bab9993d23fcb6f4bbff1ed23f8cb4b93885e9ae85a7680ef8dca39a29e59"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0009.part",
+          "bytes": 33554432,
+          "sha256": "0a06cc4b2ffc68fc657032b9aa8cc8f5d83d125d705ea9205a002da3a0f108d2"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0010.part",
+          "bytes": 33554432,
+          "sha256": "f540a8e8b39afbeb90619694058127664b896060901c8069bafbc44e869a4d48"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0011.part",
+          "bytes": 33554432,
+          "sha256": "d84562307fa99d0483b3a1dab688b47201f557b960576711b648cc35f0a23ca7"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0012.part",
+          "bytes": 33554432,
+          "sha256": "62696911d09d5805377676017110ef38e27a4c8eccbc200c4edca6f268ff8da8"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0013.part",
+          "bytes": 33554432,
+          "sha256": "b9003a028d6175b312071984d6db4895b22901285b46a4e2be30289bfa8f7135"
+        },
+        {
+          "path": "parts/nyc-evidence-queens.zip/0014.part",
+          "bytes": 27957534,
+          "sha256": "ccd9adbe1035168527f3512d2918cac76b3ac68be811f61be17972d2884d26ba"
+        }
+      ]
+    },
+    {
+      "name": "nyc-evidence-staten-island.zip",
+      "bytes": 163016737,
+      "sha256": "9441d9d2b98626c5181fa7e250ebb88aa2d1a7deea8159e39bcc65fbfd036bd2",
+      "storage": "chunks",
+      "chunks": [
+        {
+          "path": "parts/nyc-evidence-staten-island.zip/0000.part",
+          "bytes": 33554432,
+          "sha256": "e5ebb193fcd0a6cff451435e64b9522ce29811c7f34d4defe857ce2a5f71a601"
+        },
+        {
+          "path": "parts/nyc-evidence-staten-island.zip/0001.part",
+          "bytes": 33554432,
+          "sha256": "f4d5687e8733b8bf8b8d849b7a30b17cadb396558aa1c7f433933d85a7e4e3e5"
+        },
+        {
+          "path": "parts/nyc-evidence-staten-island.zip/0002.part",
+          "bytes": 33554432,
+          "sha256": "61871a6600281e96c44e14c82b31f9e4887a797364c81557dedc5a3618d206b3"
+        },
+        {
+          "path": "parts/nyc-evidence-staten-island.zip/0003.part",
+          "bytes": 33554432,
+          "sha256": "1601983ae98db936eae2d79a993e42e16d46750307921ddc77c21a66bfd8f37e"
+        },
+        {
+          "path": "parts/nyc-evidence-staten-island.zip/0004.part",
+          "bytes": 28799009,
+          "sha256": "ffd0da319aaa7d722bc5e0dd137362057ca836d6c447c737914c67b391060a30"
+        }
+      ]
+    },
+    {
+      "name": "preview-single.html",
+      "bytes": 1429325,
+      "sha256": "5c9b4d5c4529113f4820c9d1eedc2d63708aa569ddbfd8284caf356da0247780",
+      "storage": "file",
+      "path": "preview-single.html"
+    },
+    {
+      "name": "start-local.py",
+      "bytes": 1277,
+      "sha256": "73a3fc94c09e48bce35da6a0e0fd6f5a34539e827b6f6a1c80cdc19daf32ad3a",
+      "storage": "file",
+      "path": "start-local.py"
+    },
+    {
+      "name": "update-local.py",
+      "bytes": 7787,
+      "sha256": "19c4404c79c77085c07a8d4e5c84019e277ab882164bb0dd2845a531f8bf2f0a",
+      "storage": "file",
+      "path": "update-local.py"
+    }
+  ]
+}

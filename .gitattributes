@@ -1,0 +1,6 @@
+parts/** binary
+*.html -text
+*.json -text
+*.py -text
+*.md -text
+SHA256SUMS -text
