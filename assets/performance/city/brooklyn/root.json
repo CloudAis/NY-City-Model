@@ -1,0 +1,2518 @@
+{
+  "asset": {
+    "version": "1.1",
+    "extras": {
+      "mode": "strict",
+      "verified_building_solids": 0,
+      "not_world_ground": "ellipsoid display reference only",
+      "semantic_level": "outline_only regardless of hypothesis view"
+    }
+  },
+  "geometricError": 1000,
+  "root": {
+    "boundingVolume": {
+      "sphere": [
+        1339268.7016510325,
+        -4656934.697922378,
+        4133366.759434749,
+        14682.230555048478
+      ]
+    },
+    "geometricError": 500,
+    "refine": "ADD",
+    "children": [
+      {
+        "boundingVolume": {
+          "sphere": [
+            1336965.065583314,
+            -4657839.03826132,
+            4133373.208378643,
+            12182.978978477944
+          ]
+        },
+        "geometricError": 500,
+        "refine": "ADD",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                1336798.452608469,
+                -4661491.285259604,
+                4129467.0413922584,
+                6832.763230923372
+              ]
+            },
+            "geometricError": 500,
+            "refine": "ADD",
+            "children": [
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1335821.737638371,
+                    -4661620.506469525,
+                    4129467.0413922584,
+                    5717.788062544085
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1335821.737638371,
+                        -4662076.126699237,
+                        4128898.4443211933,
+                        4353.053221842873
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1335821.737638371,
+                            -4662176.079770838,
+                            4128388.9530553287,
+                            3320.8538854842845
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1335098.6144545511,
+                                -4662158.912415738,
+                                4128463.5943943383,
+                                2577.055085251819
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0000.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1336625.4696379793,
+                                -4662273.855941726,
+                                4128233.702900531,
+                                2496.446269463832
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0001.json"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1334998.0530683305,
+                            -4661009.241248075,
+                            4130374.8679666203,
+                            2353.9215059220733
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1334264.6306558007,
+                                -4661009.241248075,
+                                4130374.8679666203,
+                                1556.6239723565166
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0002.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1336128.4742198843,
+                                -4660653.162624869,
+                                4130227.5600546272,
+                                1159.6252333329094
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1335871.65442485,
+                                    -4660711.742693067,
+                                    4130227.5600546272,
+                                    891.7174233959022
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0003.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1336405.7793440584,
+                                    -4660574.097227531,
+                                    4130222.9629123453,
+                                    871.2320942560693
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0004.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1335088.6883751608,
+                        -4659870.324814537,
+                        4131330.1998886,
+                        3058.491796566457
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1334062.1944318332,
+                            -4660123.208959634,
+                            4131431.5008024815,
+                            1996.4644514932402
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1333521.1500107376,
+                                -4660373.932058929,
+                                4131364.2012797617,
+                                1396.3641566452268
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0005.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1334439.6729223148,
+                                -4660036.051790955,
+                                4131431.5008024815,
+                                1559.9300872593567
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1334293.8627947425,
+                                    -4660514.418531157,
+                                    4130976.937743422,
+                                    884.1173128194635
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0006.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1334439.6729223148,
+                                    -4659886.884510664,
+                                    4131556.8644016283,
+                                    1213.3167727318996
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0007.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1336060.985055408,
+                            -4659671.6379325185,
+                            4131283.0962377996,
+                            2050.661714573656
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1335494.7072730716,
+                                -4659842.334344328,
+                                4131366.5806917474,
+                                1453.3532131914221
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0008.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1336535.5808940637,
+                                -4659592.623464391,
+                                4131283.0962377996,
+                                1545.0351568721944
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1336463.1465588822,
+                                    -4659941.344527535,
+                                    4130987.402248118,
+                                    1082.1225859394012
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0009.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1336575.28274764,
+                                    -4659276.6348828515,
+                                    4131546.0577458753,
+                                    1114.8550675448687
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0010.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1338168.469351667,
+                    -4660968.762276584,
+                    4129113.596647255,
+                    5324.486289444234
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1338168.469351667,
+                        -4662089.306129357,
+                        4127972.1179884993,
+                        3529.995682650742
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1338168.469351667,
+                            -4662552.270101487,
+                            4127574.792904024,
+                            2621.036324875092
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1337576.3233020073,
+                                -4662618.672925814,
+                                4127574.792904024,
+                                1996.5162992640653
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0011.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338916.174139835,
+                                -4662330.308538651,
+                                4127588.703065926,
+                                1840.957560755809
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0012.json"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1338542.4284566883,
+                            -4661015.0639661085,
+                            4128980.7212640927,
+                            2009.7581337569713
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1337821.9038855918,
+                                -4661023.206668723,
+                                4129269.340355563,
+                                1233.5346214096426
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0013.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338962.2378779524,
+                                -4661015.0639661085,
+                                4128980.7212640927,
+                                1534.2497712422855
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338917.7451260062,
+                                    -4661342.072116887,
+                                    4128707.102210596,
+                                    1094.2482069780435
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0014.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1339028.3826085909,
+                                    -4660666.403836637,
+                                    4129275.9922962813,
+                                    1072.596228285946
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0015.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1338480.6249355865,
+                        -4659431.019037779,
+                        4130672.274692043,
+                        3112.7962966182595
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1338315.5332131514,
+                            -4660064.79484749,
+                            4130031.799655254,
+                            2196.7529971278127
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1337516.3332062238,
+                                -4660298.007657446,
+                                4130225.247340516,
+                                1342.0420092881786
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0016.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338883.6236055887,
+                                -4660062.691652024,
+                                4130031.799655254,
+                                1573.1516237784208
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338385.0564859095,
+                                    -4660208.420482149,
+                                    4130000.49873479,
+                                    1052.7807825730847
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0017.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1339325.73452339,
+                                    -4659973.419023778,
+                                    4130031.799655254,
+                                    1109.2369844509649
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0018.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1338599.65032897,
+                            -4658843.309557121,
+                            4131266.6833997807,
+                            2242.819326179648
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1337757.0325704012,
+                                -4659065.160217491,
+                                4131392.196579192,
+                                1362.4921365688942
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0019.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338968.9836017897,
+                                -4658843.309557121,
+                                4131266.6833997807,
+                                1835.7766223181045
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338946.477525338,
+                                    -4659212.859890904,
+                                    4130801.807760258,
+                                    1241.4843264755614
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0020.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338968.9836017897,
+                                    -4658650.096759617,
+                                    4131555.221503024,
+                                    1417.8218627548465
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0021.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "boundingVolume": {
+              "sphere": [
+                1336965.065583314,
+                -4655778.20641459,
+                4135687.960213474,
+                8424.17838247621
+              ]
+            },
+            "geometricError": 500,
+            "refine": "ADD",
+            "children": [
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1336243.6456889466,
+                    -4657946.841539873,
+                    4133707.717072673,
+                    5400.143351711874
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1335110.7783054572,
+                        -4657984.687802102,
+                        4133707.717072673,
+                        4166.957180104447
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1334742.2914140301,
+                            -4659181.003147988,
+                            4132516.213564602,
+                            2438.7692257142207
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1334170.3462958448,
+                                -4659181.003147988,
+                                4132516.213564602,
+                                1783.0992003591814
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0022.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1335772.438175736,
+                                -4658757.342104371,
+                                4132511.847308527,
+                                1324.897556838586
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0023.json"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1335165.3184058836,
+                            -4657102.319247218,
+                            4134585.273789743,
+                            2752.716016715006
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1334703.205924407,
+                                -4657102.319247218,
+                                4134585.273789743,
+                                2243.28261996403
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0024.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1336073.0404221907,
+                                -4656808.47815229,
+                                4134542.7866951516,
+                                1797.6730851335114
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1336101.2418078296,
+                                    -4657123.237702679,
+                                    4134160.3211685857,
+                                    1278.5202256905636
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0025.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1335998.5681418353,
+                                    -4656447.4477071855,
+                                    4134971.523116434,
+                                    1232.2493309741164
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0026.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1337860.1032319213,
+                        -4657425.405118157,
+                        4133457.7369917296,
+                        3683.3670206191805
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1337160.63783149,
+                            -4657490.115770018,
+                            4133457.7369917296,
+                            2941.2555407310374
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1337160.63783149,
+                                -4658141.968373604,
+                                4132712.5414586123,
+                                1823.5343760150074
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0027.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1336995.4435877046,
+                                -4656552.075486288,
+                                4134489.1202049893,
+                                1537.3466958722147
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1336940.947267775,
+                                    -4657025.9831231665,
+                                    4134023.3917283164,
+                                    870.6673792879251
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0028.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1336995.4435877046,
+                                    -4656343.382369276,
+                                    4134689.6341617964,
+                                    1135.8818991539465
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0029.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1338753.5465207694,
+                            -4657166.716577879,
+                            4133352.367953607,
+                            2747.2776523141747
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338742.112102126,
+                                -4657939.573554043,
+                                4132498.9984212066,
+                                1595.896650923462
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0030.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338753.5465207694,
+                                -4656752.829714735,
+                                4133846.7673729886,
+                                1954.8667639425555
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338427.6103056455,
+                                    -4656752.829714735,
+                                    4133846.7673729886,
+                                    1588.4657156785972
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0031.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1339342.671133345,
+                                    -4656654.186901829,
+                                    4133647.8084413568,
+                                    1325.2773182269702
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0032.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1337504.3134505744,
+                    -4653791.743316414,
+                    4137486.031327168,
+                    5582.315378818837
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1337455.1092356318,
+                        -4655185.5488757845,
+                        4135974.5396019993,
+                        3525.6865286482425
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1336481.5041536056,
+                            -4655185.5488757845,
+                            4136092.8924090266,
+                            2487.9058245988545
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1335498.7762846688,
+                                -4655495.269393876,
+                                4136109.3279288234,
+                                1457.395761560705
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0033.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1337159.8612838364,
+                                -4655180.199096398,
+                                4136092.8924090266,
+                                1761.7665002663648
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1337220.6923947986,
+                                    -4655550.1121993475,
+                                    4135726.51237707,
+                                    1237.5809838592768
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0034.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1337115.9829686536,
+                                    -4654827.238789228,
+                                    4136442.3196452046,
+                                    1254.5337796387657
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0035.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1338676.2652419703,
+                            -4655021.323839806,
+                            4135608.635870659,
+                            2240.3549002862237
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338595.6300194187,
+                                -4655393.44180912,
+                                4135158.7913172636,
+                                1621.6616268049056
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0036.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338809.5610452432,
+                                -4654596.545289772,
+                                4136111.1410047747,
+                                1569.0010460838803
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338356.8808230048,
+                                    -4654734.328758961,
+                                    4136123.206185434,
+                                    1095.6626506711418
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0037.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1339243.1027735197,
+                                    -4654477.900314545,
+                                    4136111.1410047747,
+                                    1114.801144632967
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0038.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1337504.3134505744,
+                        -4653250.396657847,
+                        4138145.064151532,
+                        4378.145429452714
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1337046.6203495464,
+                            -4653250.396657847,
+                            4138145.064151532,
+                            3734.6500450872
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1336618.3307566063,
+                                -4654055.5520292865,
+                                4137422.7839255203,
+                                2413.5282408666726
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0039.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1337702.2768082453,
+                                -4652217.874420647,
+                                4139094.7112433026,
+                                2186.1613751076798
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1337702.2768082453,
+                                    -4652645.108426698,
+                                    4138573.144208989,
+                                    1384.9983344929926
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0040.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1337829.2223283248,
+                                    -4651498.980150817,
+                                    4139907.9385413956,
+                                    1093.3380707140604
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0041.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1338889.2839380573,
+                            -4652559.663326755,
+                            4138413.5251573985,
+                            2807.3726586324474
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338952.9211494888,
+                                -4653231.53765033,
+                                4137624.123649254,
+                                1768.8065594269954
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0042.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1338836.0610191845,
+                                -4651898.20329574,
+                                4139192.512372984,
+                                1779.220851985622
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338942.5821535173,
+                                    -4652222.594123563,
+                                    4138755.004914081,
+                                    1224.253341377504
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0043.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1338761.5665923045,
+                                    -4651605.8391753705,
+                                    4139597.9931244347,
+                                    1256.28004883
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0044.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boundingVolume": {
+          "sphere": [
+            1341649.137201525,
+            -4655953.558100661,
+            4133283.511008081,
+            12106.179495704117
+          ]
+        },
+        "geometricError": 500,
+        "refine": "ADD",
+        "children": [
+          {
+            "boundingVolume": {
+              "sphere": [
+                1342500.0240211077,
+                -4659189.150235586,
+                4129456.864271853,
+                7023.238409363536
+              ]
+            },
+            "geometricError": 500,
+            "refine": "ADD",
+            "children": [
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1340601.1270083664,
+                    -4659946.134983298,
+                    4129595.7425005715,
+                    4974.306264152482
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1340602.2695496944,
+                        -4661134.09242201,
+                        4128199.670122605,
+                        3131.493249659674
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1340602.2695496944,
+                            -4661668.21162193,
+                            4127699.225720257,
+                            2225.797113355428
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340142.6571511999,
+                                -4661744.898727418,
+                                4127699.225720257,
+                                1750.7230580888308
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0045.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1341111.534767117,
+                                -4661541.871697514,
+                                4127694.1804923946,
+                                1701.0702391609468
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0046.json"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1340806.8325719335,
+                            -4660219.607572999,
+                            4129080.480174043,
+                            1845.4314642643708
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340228.972362951,
+                                -4660327.543905953,
+                                4129278.3102434427,
+                                1225.1819907010472
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0047.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1341127.1736274646,
+                                -4660219.607572999,
+                                4129080.480174043,
+                                1482.7011441527561
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341092.0568097057,
+                                    -4660425.975607106,
+                                    4128891.236550359,
+                                    1083.5431865334986
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0048.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341346.7441914957,
+                                    -4659828.785792621,
+                                    4129454.177543999,
+                                    899.0894402615722
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0049.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1340576.6731770965,
+                        -4658734.866254645,
+                        4131015.1261684797,
+                        3108.181959718094
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1340541.447334798,
+                            -4659401.276780069,
+                            4130423.1278383923,
+                            2150.5887761257677
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340131.9471331844,
+                                -4659401.276780069,
+                                4130423.1278383923,
+                                1688.6745529397017
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0050.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1341246.3135833996,
+                                -4659207.631034674,
+                                4130225.293805759,
+                                1393.3085059515565
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341246.3135833996,
+                                    -4659349.487208266,
+                                    4130035.4019379206,
+                                    1061.6161586588619
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0051.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341112.8600880546,
+                                    -4658876.020425148,
+                                    4130604.9401095314,
+                                    871.8617227243582
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0052.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1340741.9057641341,
+                            -4657938.448984483,
+                            4131737.1312433057,
+                            2020.5820313867894
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340312.9389295257,
+                                -4658008.266916964,
+                                4131737.1312433057,
+                                1557.4548000402565
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0053.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1341298.0662222663,
+                                -4657741.437428479,
+                                4131755.8583174376,
+                                1430.2611765167467
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341409.9451239428,
+                                    -4658120.586137867,
+                                    4131362.940350718,
+                                    872.8966987809306
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0054.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341298.0662222663,
+                                    -4657578.526771296,
+                                    4131932.538231953,
+                                    1089.1347509857203
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0055.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1343302.2950031227,
+                    -4659189.150235586,
+                    4129456.864271853,
+                    6070.9322948786685
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1343302.2950031227,
+                        -4659786.082088668,
+                        4128815.366662225,
+                        4635.655752071123
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1342121.5652602026,
+                            -4660323.234605041,
+                            4128730.2759681595,
+                            3335.695761194912
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1342121.5652602026,
+                                -4660773.615870811,
+                                4128123.131788059,
+                                2219.3232782633395
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0056.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1342168.261634876,
+                                -4658991.751716925,
+                                4130218.5217706077,
+                                1338.2216559161532
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0057.json"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1344041.5833396798,
+                            -4659690.370978659,
+                            4128815.366662225,
+                            3777.1371675581777
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1343209.4558406705,
+                                -4659977.981806513,
+                                4128815.366662225,
+                                2880.423105687727
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0058.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1344929.0299415623,
+                                -4659347.441047931,
+                                4128780.657323572,
+                                2825.1040028145594
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1344196.8344436418,
+                                    -4659233.72176984,
+                                    4129149.4604099425,
+                                    1817.7428756320737
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0059.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1345976.6036375607,
+                                    -4659776.538524099,
+                                    4128096.4760391237,
+                                    1502.3646775541874
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0060.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1343689.8421179233,
+                        -4657308.7582430765,
+                        4131381.822020908,
+                        3352.195612643765
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1342759.2951403377,
+                            -4657606.045912197,
+                            4131464.488928232,
+                            2371.8224932288604
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1342511.4333309757,
+                                -4658219.5355472155,
+                                4130793.8358225776,
+                                1429.7075337153096
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0061.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1342759.2951403377,
+                                -4657388.46561956,
+                                4131739.232691504,
+                                1825.6168760973994
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1342384.0752967852,
+                                    -4657399.145914989,
+                                    4131739.232691504,
+                                    1435.3035444370635
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0062.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1343245.4315799866,
+                                    -4657266.868728036,
+                                    4131728.416107186,
+                                    1324.3869483404837
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0063.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1344479.4939785227,
+                            -4657152.365690943,
+                            4131381.822020908,
+                            2512.717610215417
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1344188.3177973866,
+                                -4657742.826464903,
+                                4130806.258858896,
+                                1626.2045257965049
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0064.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1344788.680270271,
+                                -4656543.894806372,
+                                4131975.3952935315,
+                                1608.1944151847374
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1344311.802194131,
+                                    -4656593.828372158,
+                                    4132118.4788043406,
+                                    1107.8156071198778
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0065.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1345175.7051711786,
+                                    -4656543.894806372,
+                                    4131922.1649579545,
+                                    1197.668782352206
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0066.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "boundingVolume": {
+              "sphere": [
+                1341649.137201525,
+                -4653902.35877749,
+                4135925.7649325547,
+                8207.631221117894
+              ]
+            },
+            "geometricError": 500,
+            "refine": "ADD",
+            "children": [
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1340413.62512043,
+                    -4653902.35877749,
+                    4136083.1158625344,
+                    6521.353095819788
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1340951.3437878839,
+                        -4656156.35614413,
+                        4133643.7865593582,
+                        3156.8363484277893
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1340725.1224469473,
+                            -4656973.437738532,
+                            4132891.2622064156,
+                            2023.217660871302
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340216.4434152476,
+                                -4657060.884783274,
+                                4132891.2622064156,
+                                1485.3407037001584
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0067.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1341337.6990059798,
+                                -4656782.093166459,
+                                4132894.6831744267,
+                                1381.4431763675718
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0068.json"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1341025.60186634,
+                            -4655491.237812208,
+                            4134244.34764982,
+                            2175.180923351681
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340350.3606044352,
+                                -4655675.135248983,
+                                4134412.1288331794,
+                                1455.5146433852278
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0069.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1341443.8226542682,
+                                -4655491.237812208,
+                                4134244.34764982,
+                                1712.5351173620109
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341541.8838200318,
+                                    -4655807.189519703,
+                                    4133828.6305783615,
+                                    1181.2516175219139
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0070.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341418.471139891,
+                                    -4655247.9957561,
+                                    4134587.3550698925,
+                                    1253.9612689084274
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0071.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1340413.62512043,
+                        -4652884.045697897,
+                        4137286.7608786654,
+                        4392.520635473114
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1340835.6811021375,
+                            -4654208.307257023,
+                            4135739.5384748573,
+                            2312.689609759885
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340158.3135029566,
+                                -4654514.091431238,
+                                4135726.2330871066,
+                                1569.3808859017076
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0072.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1341241.1793195782,
+                                -4654174.392464548,
+                                4135739.5384748573,
+                                1841.2502676420427
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341203.0962975975,
+                                    -4654484.618705353,
+                                    4135352.031317099,
+                                    1249.0852193491755
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0073.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1341445.265237015,
+                                    -4653698.163328288,
+                                    4136293.0485280715,
+                                    1083.0823238932358
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0074.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1340413.62512043,
+                            -4652426.076170929,
+                            4137967.691250316,
+                            3178.981641917335
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340863.3944689287,
+                                -4653371.185164241,
+                                4136860.779631352,
+                                1655.5720422738632
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0075.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1340413.62512043,
+                                -4652385.179697037,
+                                4138170.3903498594,
+                                2559.784561693786
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1340739.6198075125,
+                                    -4652953.728526153,
+                                    4137427.7988963583,
+                                    1569.349115080602
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0076.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1340413.62512043,
+                                    -4652194.55386189,
+                                    4138535.0588093917,
+                                    1947.2721090497594
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0077.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "boundingVolume": {
+                  "sphere": [
+                    1344005.8085503639,
+                    -4654734.955044434,
+                    4134647.254734831,
+                    5400.193828075889
+                  ]
+                },
+                "geometricError": 500,
+                "refine": "ADD",
+                "children": [
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1342897.502069876,
+                        -4654757.567882117,
+                        4134647.254734831,
+                        4198.861697130487
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1343161.749195306,
+                            -4655752.921197934,
+                            4133483.1274015033,
+                            2644.5942765085124
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1343157.6790976222,
+                                -4656398.1890535345,
+                                4132874.124305751,
+                                1757.310814585549
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0078.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1343161.749195306,
+                                -4655251.248952022,
+                                4133948.534887567,
+                                1900.9064242739385
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1342555.469713367,
+                                    -4655439.091188818,
+                                    4133851.986112849,
+                                    1258.8930427587634
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0079.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1343706.433339735,
+                                    -4655125.002052734,
+                                    4133983.488324775,
+                                    1320.4883802686318
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0080.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1342706.6816483708,
+                            -4653835.641270224,
+                            4135737.955364234,
+                            2718.0209804336055
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1343158.9240108249,
+                                -4654381.614009999,
+                                4134965.7285980023,
+                                1669.7158886499783
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0081.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1342591.50803378,
+                                -4653626.737278313,
+                                4136173.1133826026,
+                                2006.7846365129265
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1342269.0065405983,
+                                    -4653626.737278313,
+                                    4136173.1133826026,
+                                    1675.343055250542
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0082.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1343222.204473311,
+                                    -4653577.5440938035,
+                                    4136078.5781023307,
+                                    1367.148108900878
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0083.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "boundingVolume": {
+                      "sphere": [
+                        1345495.2693302543,
+                        -4654331.187907348,
+                        4134296.909210507,
+                        3817.7073977276395
+                      ]
+                    },
+                    "geometricError": 500,
+                    "refine": "ADD",
+                    "children": [
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1345495.2693302543,
+                            -4654811.035030962,
+                            4133722.5889681913,
+                            2782.244771124748
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1344723.5389588932,
+                                -4655201.872442257,
+                                4133620.938423924,
+                                1911.2370321817837
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0084.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1345962.5784227143,
+                                -4654724.618898569,
+                                4133722.5889681913,
+                                2215.65831108279
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1345962.5784227143,
+                                    -4655056.333231991,
+                                    4133475.123679736,
+                                    1676.5257275936622
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0085.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1345961.0596127002,
+                                    -4654085.112656476,
+                                    4134277.8461653176,
+                                    1368.7338189231189
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0086.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "boundingVolume": {
+                          "sphere": [
+                            1345415.4434226789,
+                            -4653158.664092273,
+                            4135563.906144284,
+                            2089.5680796634583
+                          ]
+                        },
+                        "geometricError": 500,
+                        "refine": "ADD",
+                        "children": [
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1344900.2991073676,
+                                -4653332.531277018,
+                                4135573.270998385,
+                                1545.7931592959678
+                              ]
+                            },
+                            "geometricError": 500,
+                            "content": {
+                              "uri": "page-0087.json"
+                            }
+                          },
+                          {
+                            "boundingVolume": {
+                              "sphere": [
+                                1345817.975505692,
+                                -4653097.409139827,
+                                4135563.906144284,
+                                1658.4053915939044
+                              ]
+                            },
+                            "geometricError": 500,
+                            "refine": "ADD",
+                            "children": [
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1346017.0737123468,
+                                    -4653467.44008657,
+                                    4135154.140734343,
+                                    1071.4891380918382
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0088.json"
+                                }
+                              },
+                              {
+                                "boundingVolume": {
+                                  "sphere": [
+                                    1345758.1756940545,
+                                    -4652866.676588101,
+                                    4135834.3731592083,
+                                    1210.7875331092555
+                                  ]
+                                },
+                                "geometricError": 500,
+                                "content": {
+                                  "uri": "page-0089.json"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

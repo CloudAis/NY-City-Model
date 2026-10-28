@@ -74,3 +74,8 @@ assets/inspection/search/**
 !assets/inspection/search/manifest.json
 reports/nyc-stage78-inspection-overlay.zip
 reports/nyc-stage78-inspection-overlay.zip.tmp
+
+# Performance baselines, temporary package assemblies and release payloads stay local.
+data/intermediate/stage9/
+reports/nyc-stage9-performance-overlay.zip
+reports/nyc-stage9-performance-overlay.zip.tmp

@@ -16,9 +16,11 @@ canvas.parentElement!.append(hud);
 let collider:GroundCollider|undefined,walkMode=false,walkReady=false,walkBlocked=false;
 const walker={position:[0,0,0],yaw:0,pitch:-.15,fov:.85},walkKeys=new Set<string>();
 let localTool='point',localMeasurements:number[][]=[];
+let activeLoad:AbortController|undefined,terrainDisposed=false,contextLost=false;
 let walkFrame=0,walkTime=0;
 const gl=canvas.getContext('webgl2',{alpha:false,antialias:true,preserveDrawingBuffer:true});if(!gl)throw new Error('需要WebGL2，未用虚构地形代替');
 type Mesh={position:WebGLBuffer;normal:WebGLBuffer;indices:WebGLBuffer|null;count:number;mode:number;color:number[];offset:number[];layer:string};
+let terrainFrame=0;
 let meshes:Mesh[]=[],scene:OrthometricScene|undefined,framePending=false,manifest:FoundationManifest,loadGeneration=0,draws=0,error='',lastPick:unknown=null,lastMvp=new Matrix4();
 const flags:Record<string,boolean>={surface:true,water:true,outlines:true,north:true,grid:false,samples:false,bounds:false};
 const camera={yaw:.55,pitch:.82,distance:3000,pan:[0,0],targetHeight:0};
@@ -62,7 +64,7 @@ function prepare(data:OrthometricScene){
  ($('terrain-source')as HTMLAnchorElement).href=data.source.source_service+'?f=pjson';requestFrame();
 }
 function render(){
- framePending=false;if(!scene)return;const ratio=Math.min(devicePixelRatio,1.5),width=Math.floor(canvas.clientWidth*ratio),height=Math.floor(canvas.clientHeight*ratio);if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}gl!.viewport(0,0,width,height);gl!.clearColor(.055,.12,.15,1);gl!.clear(gl!.COLOR_BUFFER_BIT|gl!.DEPTH_BUFFER_BIT);gl!.enable(gl!.DEPTH_TEST);gl!.depthFunc(gl!.LEQUAL);gl!.useProgram(program);
+ framePending=false;if(terrainDisposed||contextLost||!scene||canvas.clientWidth<1||canvas.clientHeight<1)return;const ratio=Math.min(devicePixelRatio,1.5),width=Math.floor(canvas.clientWidth*ratio),height=Math.floor(canvas.clientHeight*ratio);if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}gl!.viewport(0,0,width,height);gl!.clearColor(.055,.12,.15,1);gl!.clear(gl!.COLOR_BUFFER_BIT|gl!.DEPTH_BUFFER_BIT);gl!.enable(gl!.DEPTH_TEST);gl!.depthFunc(gl!.LEQUAL);gl!.useProgram(program);
  const sampled=terrainSample(camera.pan[0],camera.pan[1]);if(sampled!==null)camera.targetHeight=sampled;
  const target=new Cartesian3(camera.pan[0],camera.pan[1],camera.targetHeight),horizontal=camera.distance*Math.cos(camera.pitch);let eye=new Cartesian3(target.x+Math.sin(camera.yaw)*horizontal,target.y-Math.cos(camera.yaw)*horizontal,target.z+Math.sin(camera.pitch)*camera.distance);if(walkMode){eye=Cartesian3.fromArray([walker.position[0],walker.position[1],walker.position[2]+1.7]);target.x=eye.x+Math.sin(walker.yaw)*Math.cos(walker.pitch);target.y=eye.y+Math.cos(walker.yaw)*Math.cos(walker.pitch);target.z=eye.z+Math.sin(walker.pitch);}else{const floor=terrainSample(eye.x,eye.y);if(floor!==null)eye.z=Math.max(eye.z,floor+3);}
  const direction=Cartesian3.normalize(Cartesian3.subtract(target,eye,new Cartesian3()),new Cartesian3()),right=Cartesian3.normalize(Cartesian3.cross(direction,Cartesian3.UNIT_Z,new Cartesian3()),new Cartesian3()),up=Cartesian3.cross(right,direction,new Cartesian3());const view=Matrix4.computeView(eye,direction,up,right,new Matrix4()),projection=Matrix4.computePerspectiveFieldOfView(walkMode?walker.fov:.85,width/height,walkMode?.1:Math.max(.25,camera.distance/15000),camera.distance*8+10000,new Matrix4());lastMvp=Matrix4.multiply(projection,view,new Matrix4());gl!.uniformMatrix4fv(mvpUniform,false,new Float32Array(Matrix4.toArray(lastMvp)));gl!.uniform1f(pointUniform,4*ratio);
@@ -76,7 +78,7 @@ function render(){
  gl!.depthMask(true);gl!.disable(gl!.POLYGON_OFFSET_FILL);draws++;$('terrain-north-label').hidden=!flags.north;$('terrain-scale').hidden=!flags.north;$('terrain-north-label').style.transform=`rotate(${-camera.yaw*180/Math.PI}deg)`;
  const span=2*camera.distance*Math.tan(.85/2),unit=10**Math.floor(Math.log10(span/8)),metres=[1,2,5,10].map(v=>v*unit).filter(v=>v<span/4).at(-1)??unit;$('terrain-scale').innerHTML=`<span style="width:${metres/span*canvas.clientWidth}px"></span><small>${metres>=1000?metres/1000+' km':metres+' m'} · 局部米制参考</small>`;
 }
-function requestFrame(){if(!framePending){framePending=true;requestAnimationFrame(render);}}
+function requestFrame(){if(terrainDisposed||contextLost)return;if(!framePending){framePending=true;terrainFrame=requestAnimationFrame(render);}}
 const pointers=new Map<number,{x:number;y:number}>();let dragDistance=0;
 canvas.oncontextmenu=e=>e.preventDefault();canvas.addEventListener('pointerdown',e=>{canvas.focus();canvas.setPointerCapture(e.pointerId);pointers.set(e.pointerId,{x:e.clientX,y:e.clientY});dragDistance=0;});
 canvas.addEventListener('pointermove',e=>{const old=pointers.get(e.pointerId);if(!old)return;const dx=e.clientX-old.x,dy=e.clientY-old.y;dragDistance+=Math.hypot(dx,dy);
@@ -93,8 +95,8 @@ function pick(clientX:number,clientY:number){
 canvas.addEventListener('pointerup',e=>{if(dragDistance<5&&pointers.size===1&&e.button===0)pick(e.clientX,e.clientY);pointers.delete(e.pointerId);});canvas.addEventListener('pointercancel',()=>{pointers.clear();stopWalkInput();});canvas.addEventListener('lostpointercapture',()=>{pointers.clear();stopWalkInput();});canvas.addEventListener('wheel',e=>{e.preventDefault();if(walkMode)walker.fov=Math.max(.6,Math.min(1.2,walker.fov*Math.exp(e.deltaY*.0005)));else camera.distance=Math.max(20,Math.min(15000,camera.distance*Math.exp(e.deltaY*.001)));requestFrame();},{passive:false});
 for(const key of Object.keys(flags))($('terrain-'+key)as HTMLInputElement).onchange=e=>{flags[key]=(e.target as HTMLInputElement).checked;requestFrame();};
 $('terrain-fit').onclick=()=>{if(scene)prepare(scene);};$('terrain-panel').onclick=()=>{const collapsed=app.classList.toggle('collapsed');$('terrain-panel').textContent=collapsed?'展开面板':'收起面板';$('terrain-panel').setAttribute('aria-expanded',String(!collapsed));requestFrame();};new ResizeObserver(requestFrame).observe(canvas);
-async function load(id:string){const generation=++loadGeneration;$('terrain-loading').hidden=false;try{const r=await fetch(new URL(`datasets/foundation/${manifest.datasets.find(d=>d.id===id)?.terrain??id+'.json'}`,document.baseURI));if(!r.ok)throw new Error(`DEM ${id}: HTTP ${r.status}`);const data=await r.json()as OrthometricScene;if(data.scene_kind!=='local_projected_orthometric_inspector'||data.terrain.height_datum!=='NAVD88'||data.terrain.vertical_exaggeration!==1||data.world_placement_allowed!==false)throw new Error('地形坐标或高程声明不符合检视契约');if(generation!==loadGeneration)return;stopWalkInput();walkMode=false;walkReady=false;collider=undefined;prepare(data);$('terrain-loading').hidden=true;if(params.has('walk'))await enterWalk();}catch(e){error=String(e);$('terrain-error').textContent=error;$('terrain-error').hidden=false;$('terrain-loading').hidden=true;}}
-async function init(){try{const r=await fetch(new URL(params.has('extended')?'datasets/environment/terrain-manifest.json':'datasets/foundation/manifest.json',document.baseURI));if(!r.ok)throw new Error('本地地形清单缺失');manifest=await r.json();const select=$('terrain-area')as HTMLSelectElement;for(const d of manifest.datasets)select.add(new Option(d.id,d.id));select.onchange=()=>void load(select.value);const requested=params.get('area');select.value=manifest.datasets.some(d=>d.id===requested)?requested!:manifest.datasets[0].id;await load(select.value);}catch(e){error=String(e);$('terrain-error').textContent=error;$('terrain-error').hidden=false;$('terrain-loading').hidden=true;}}
+async function load(id:string){activeLoad?.abort();activeLoad=new AbortController();const generation=++loadGeneration;$('terrain-loading').hidden=false;try{const r=await fetch(new URL(`datasets/foundation/${manifest.datasets.find(d=>d.id===id)?.terrain??id+'.json'}`,document.baseURI),{signal:activeLoad.signal});if(!r.ok)throw new Error(`DEM ${id}: HTTP ${r.status}`);const data=await r.json()as OrthometricScene;if(data.scene_kind!=='local_projected_orthometric_inspector'||data.terrain.height_datum!=='NAVD88'||data.terrain.vertical_exaggeration!==1||data.world_placement_allowed!==false)throw new Error('地形坐标或高程声明不符合检视契约');if(generation!==loadGeneration||terrainDisposed)return;stopWalkInput();walkMode=false;walkReady=false;collider=undefined;prepare(data);$('terrain-loading').hidden=true;if(params.has('walk'))await enterWalk();}catch(e){if(terrainDisposed||activeLoad?.signal.aborted)return;error=String(e);$('terrain-error').textContent=error;$('terrain-error').hidden=false;$('terrain-loading').hidden=true;}}
+async function init(){try{const r=await fetch(new URL(params.has('extended')?'datasets/environment/terrain-manifest.json':'datasets/foundation/manifest.json',document.baseURI));if(!r.ok)throw new Error('本地地形清单缺失');manifest=await r.json();const select=$('terrain-area')as HTMLSelectElement;for(const d of manifest.datasets)select.add(new Option(d.id,d.id));select.onchange=()=>void load(select.value);const requested=params.get('area');select.value=manifest.datasets.some(d=>d.id===requested)?requested!:manifest.datasets[0].id;await load(select.value);}catch(e){if(terrainDisposed||activeLoad?.signal.aborted)return;error=String(e);$('terrain-error').textContent=error;$('terrain-error').hidden=false;$('terrain-loading').hidden=true;}}
 if(new URLSearchParams(location.search).has('diagnostics'))Object.defineProperty(window,'__NYC_TERRAIN__',{value:{snapshot:()=>({id:scene?.id,sceneKind:scene?.scene_kind,worldPlacementAllowed:scene?.world_placement_allowed,datum:scene?.terrain.height_datum,exaggeration:1,triangles:scene?scene.terrain.indices.length/3:0,tiles:scene?.terrain.tiles.length,sourceRaster:scene?.source.masked_raster??scene?.source.raster,flags:{...flags},camera:{...camera,pan:[...camera.pan]},buffers:meshes.length*2+meshes.filter(m=>m.indices).length,draws,error,lastPick,walk:{enabled:walkMode,ready:walkReady,position:[...walker.position],eyeHeight:1.7,yaw:walker.yaw,pitch:walker.pitch,blocked:walkBlocked,keys:[...walkKeys],layer:'ground',collisionTriangles:collider?.spec.allowed_triangle_offsets.length??0},webglError:gl!.getError(),heightRange:scene?[Math.min(...scene.terrain.heights.filter((v):v is number=>v!==null)),Math.max(...scene.terrain.heights.filter((v):v is number=>v!==null))]:null,sceneDataShaIdentity:scene?.source.masked_raster??scene?.source.raster})}});
 function stopWalkInput(){walkKeys.clear();walkTime=0;if(walkFrame)cancelAnimationFrame(walkFrame);walkFrame=0;}
 function walkTick(time:number){
@@ -113,7 +115,7 @@ function walkTick(time:number){
 }
 async function enterWalk(){
  if(!scene)return;const id=scene.id,token=loadGeneration;
- const r=await fetch(new URL('datasets/environment/collision/'+id+'.json',document.baseURI));
+ const r=await fetch(new URL('datasets/environment/collision/'+id+'.json',document.baseURI),{signal:activeLoad?.signal});
  if(!r.ok)throw new Error('本区域未提供可靠的局部碰撞');
  const spec=await r.json()as CollisionSpec;
  if(token!==loadGeneration)return;
@@ -121,6 +123,7 @@ async function enterWalk(){
  if(!spec.spawn||collider.sample(spec.spawn[0],spec.spawn[1])===null)throw new Error('本样区没有可进入的受限地面');
  walker.position=[...spec.spawn];walkMode=true;walkReady=true;hud.hidden=false;
  $('walk-message').textContent='WASD移动 · 拖动转向 · 2017 DEM受限检查；不是当前实地通行验证';
+ const recovery=sessionStorage.getItem('nyc-terrain-recovery');if(recovery){sessionStorage.removeItem('nyc-terrain-recovery');const saved=JSON.parse(recovery);if(saved.id===id&&Array.isArray(saved.position)&&saved.position.length===3&&saved.position.every(Number.isFinite)){const z=collider.sample(saved.position[0],saved.position[1]);if(z!==null){walker.position=[saved.position[0],saved.position[1],z];walker.yaw=saved.yaw;walker.pitch=saved.pitch;}}}
  requestFrame();
  sendState();
 }
@@ -151,4 +154,6 @@ hud.querySelectorAll<HTMLButtonElement>('[data-walk-key]').forEach(b=>{
  b.onpointerdown=e=>{e.preventDefault();e.stopPropagation();b.setPointerCapture(e.pointerId);walkKeys.add(b.dataset.walkKey!);if(!walkFrame){walkTime=performance.now();walkFrame=requestAnimationFrame(walkTick);}};
  for(const event of ['pointerup','pointercancel','lostpointercapture'])b.addEventListener(event,()=>stopWalkInput());
 });
-addEventListener('pagehide',()=>{stopWalkInput();releaseMeshes();gl!.deleteProgram(program);});void init();
+canvas.addEventListener('webglcontextlost',e=>{e.preventDefault();contextLost=true;stopWalkInput();activeLoad?.abort();sessionStorage.setItem('nyc-terrain-recovery',JSON.stringify({id:scene?.id,position:walker.position,yaw:walker.yaw,pitch:walker.pitch}));$('terrain-error').hidden=false;$('terrain-error').textContent='局部图形上下文丢失；恢复后重新加载并核对保存的地面位置。';},{capture:true});
+canvas.addEventListener('webglcontextrestored',()=>location.reload());
+addEventListener('pagehide',()=>{terrainDisposed=true;if(terrainFrame)cancelAnimationFrame(terrainFrame);loadGeneration++;activeLoad?.abort();stopWalkInput();releaseMeshes();gl!.deleteProgram(program);});void init();

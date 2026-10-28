@@ -3,7 +3,7 @@ import {spawn} from 'node:child_process';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {setTimeout as delay} from 'node:timers/promises';
-const port=4190,base=`http://127.0.0.1:${port}/`,report='reports/stage8';
+const port=4190,base=`http://127.0.0.1:${port}/`,report=process.env.NYC_REPORT_DIR??'reports/stage8';
 const server=spawn(process.execPath,['node_modules/vite/bin/vite.js','preview','--host','127.0.0.1','--port',String(port),'--strictPort'],{stdio:'ignore'});
 let browser,page;const checks=[],errors=[],requests=[],observations=[],downloads=[],intentionalFailures=[];
 const snap=()=>page.evaluate(()=>window.__NYC_INSPECTION__.snapshot());
@@ -35,7 +35,7 @@ try{
    await page.screenshot({path:report+'/observations/'+p.id+'.png'});
   }
   await page.locator('[data-layer=buildings]').check();
-  await writeFile('reports/stage7/observation-views.json',JSON.stringify({at_utc:new Date().toISOString(),observations,scope:'actual navigation/reference observations, not field surveys or verified bridge heights'},null,2)+'\n');
+  await writeFile(process.env.NYC_OBSERVATION_REPORT??'reports/stage7/observation-views.json',JSON.stringify({at_utc:new Date().toISOString(),observations,scope:'actual navigation/reference observations, not field surveys or verified bridge heights'},null,2)+'\n');
  });
  await check('BIN,name,alias,address andborough queries resolve stable IDs; missing records do not crash',async()=>{
   await query('One WTC');assert.ok(await page.locator('#results [data-id]').count());await page.locator('#results [data-id="nyc:footprints:doitt:1114961"]').click();await page.waitForFunction(()=>window.__NYC_INSPECTION__.snapshot().selectedId==='nyc:footprints:doitt:1114961'&&!window.__NYC_INSPECTION__.snapshot().flying&&document.getElementById('details').textContent.includes('规范楼高'));assert.match(await page.locator('#details').innerText(),/规范楼高 \/ 基底：未知/);

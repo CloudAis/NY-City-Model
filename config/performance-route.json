@@ -1,0 +1,17 @@
+{
+ "schema_version":1,
+ "name":"nyc-fixed-route-v1",
+ "viewport":{"width":1440,"height":1000,"deviceScaleFactor":1},
+ "quality":"medium",
+ "real_scene_rule":"actual source GLB tileLoad and rendered WebGL draw; firstDraw alone is not the first real scene",
+ "steps":[
+  {"id":"city","action":"city","seconds":10},
+  {"id":"midtown","action":"preset","preset":"central-south","seconds":15},
+  {"id":"street-ground","action":"walk","area":"midtown","seconds":12,"scope":"restricted 2017 DEM ground inspection, not a completed street/body reproduction"},
+  {"id":"brooklyn","action":"preset","preset":"brooklyn-head","seconds":12},
+  {"id":"queens","action":"preset","preset":"queensboro-head","seconds":12},
+  {"id":"bronx","action":"preset","preset":"bruckner","seconds":12},
+  {"id":"staten-island","action":"preset","preset":"st-george-ferry","seconds":12},
+  {"id":"midtown-return","action":"preset","preset":"central-south","seconds":12}
+ ]
+}

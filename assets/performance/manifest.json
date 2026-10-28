@@ -1,0 +1,2048 @@
+{
+  "schema_version": 9,
+  "at_utc": "2026-10-28T08:09:16.935289+00:00",
+  "algorithm": "median split by widest ECEF centre extent; <=32 original leaves/page and <=32k compact source metadata",
+  "boroughs": [
+    {
+      "borough": "bronx",
+      "source": "assets/buildings-city/bronx/strict.json",
+      "source_sha256": "bbbfe3957886beca8afc20adc16c9c56d5632f05ddb738383228f29fa139cdab",
+      "original_leaf_count": 832,
+      "published_leaf_count": 832,
+      "root": "assets/performance/city/bronx/root.json",
+      "root_bytes": 30569,
+      "pages": [
+        {
+          "path": "assets/performance/city/bronx/page-0000.json",
+          "leaves": 26,
+          "bytes": 30897,
+          "sha256": "4d75140486c064c67f2c6db69028bd3f0dcc2d2a02f300b117973e2e3facfef3"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0001.json",
+          "leaves": 26,
+          "bytes": 30893,
+          "sha256": "69363c58ef2b890f53ea4a65ca29868b32cf64e436d5b160d0358a3c374f3c05"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0002.json",
+          "leaves": 26,
+          "bytes": 30931,
+          "sha256": "c06cc304c7abe76a2067f0bf8bace6f398f5d3709c5b31705e6256afd31eb9e3"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0003.json",
+          "leaves": 26,
+          "bytes": 30881,
+          "sha256": "48a02b5b1bc2fa50ce470fb6c8a011bbacddee26979bf3072bbdcf594bf67ed7"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0004.json",
+          "leaves": 26,
+          "bytes": 30883,
+          "sha256": "ff7dee5409ea1f68b8365fc0b5c4a9f32c3db9bf205f24a0c960fa1223d0899e"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0005.json",
+          "leaves": 26,
+          "bytes": 30898,
+          "sha256": "22d5fa852f4eb5dcbcc9525de34248080631eef3397b389b1b4d38331292b9be"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0006.json",
+          "leaves": 26,
+          "bytes": 30902,
+          "sha256": "fd53b74765eb766cfd4f3740eb5af3e474bdc6279aff1d1b0c1694f4359d9cab"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0007.json",
+          "leaves": 26,
+          "bytes": 30919,
+          "sha256": "d51eea43ad38c5201ba3b52bd5130dd5e5898d362fefa081de06abb5d7ed6d24"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0008.json",
+          "leaves": 26,
+          "bytes": 30896,
+          "sha256": "5dea378c6fda3434c80afb2835e0b2a29d7f33ef5cb1bfcd64bcbd82dc874cbc"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0009.json",
+          "leaves": 26,
+          "bytes": 30889,
+          "sha256": "c42463eb1e5aad89cf7a16c01ebff4315a9d06db923f67936a609ef22bcbd07b"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0010.json",
+          "leaves": 26,
+          "bytes": 30903,
+          "sha256": "6d2bbc7926256506212e681fa740fb0e6e8bbe670fe4d72e6533d9fa61ef020e"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0011.json",
+          "leaves": 26,
+          "bytes": 30905,
+          "sha256": "acd2ad907d410c2762f6df8ae49a8fb7ee1032e18c8ff1f3cbf7ff051c3ed320"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0012.json",
+          "leaves": 26,
+          "bytes": 30900,
+          "sha256": "efbf25215f43102463ff2a9cb2fcd9b211859e04d66256daba2ea24dd30d474e"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0013.json",
+          "leaves": 26,
+          "bytes": 30919,
+          "sha256": "612fdc76e449b1e3a60b583eb43cda5432e23ff896f73464d99d276e5afbe2bf"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0014.json",
+          "leaves": 26,
+          "bytes": 30880,
+          "sha256": "a7ad283649437cb04ff6953258b8a30159d78414f603111add72ff1e946e8ef6"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0015.json",
+          "leaves": 26,
+          "bytes": 30898,
+          "sha256": "4717c38c84e312f0604c583e892e6035dd6705c0a447e30918d8689efa023396"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0016.json",
+          "leaves": 26,
+          "bytes": 30909,
+          "sha256": "765905c1f48f3cc9b9382faf99d4a99b7f34ba3981c02189e4b784eba4545bd8"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0017.json",
+          "leaves": 26,
+          "bytes": 30925,
+          "sha256": "683d0f35c3a47ec4430f92bafd39f6a6273fde18738941b7316f1de8268e42da"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0018.json",
+          "leaves": 26,
+          "bytes": 30891,
+          "sha256": "0aa7e8d187bc4bd376cbb17e31ef4b26fd3db255822e243ed41e280b7181adc7"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0019.json",
+          "leaves": 26,
+          "bytes": 30926,
+          "sha256": "8b8627cc8a172d7a909b7998f0f9345b139636300fde74ec3077cec90dc1eaee"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0020.json",
+          "leaves": 26,
+          "bytes": 30903,
+          "sha256": "db8b31073ba9c004ffb474d18d72d6137b97f692cf29b029182cee00e3774368"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0021.json",
+          "leaves": 26,
+          "bytes": 30905,
+          "sha256": "3a2bffa621f2d746fac690f31ab70d3e67d371cfa578af0c211e0900cca9cc74"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0022.json",
+          "leaves": 26,
+          "bytes": 30897,
+          "sha256": "b2c256978f9a9c254842003190684e68e98a2fca701b4a76af30e76e48336f96"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0023.json",
+          "leaves": 26,
+          "bytes": 30929,
+          "sha256": "03f2df1685855d540dc8bc04cc4b3d5391e45cd717a588985edee5290d8955b0"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0024.json",
+          "leaves": 26,
+          "bytes": 30908,
+          "sha256": "b47d57d5c0a3d5b28e850aea78878a482254abe4d76f20f291bf2213f15e3ce3"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0025.json",
+          "leaves": 26,
+          "bytes": 30915,
+          "sha256": "87f9afddf05ee99ce9670aafe9b48f5c2037b32c4082505382fb9d3a56559772"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0026.json",
+          "leaves": 26,
+          "bytes": 30929,
+          "sha256": "e8d3c3e4fa150e05762d88e749c84f7e07654204670bfdceca7976ab982dd261"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0027.json",
+          "leaves": 26,
+          "bytes": 30952,
+          "sha256": "225520ce1e9dcab2ca6988e74dbc539eefe89a43140936f50a00334b74f0ae66"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0028.json",
+          "leaves": 26,
+          "bytes": 30911,
+          "sha256": "ade3af540a4377877ddb82198ee6531f6789e30f52a22739fa48f0e092693ea3"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0029.json",
+          "leaves": 26,
+          "bytes": 30939,
+          "sha256": "c17986c6641d52d70df49444869c0153279f467c0990888469937803f7213aea"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0030.json",
+          "leaves": 26,
+          "bytes": 30893,
+          "sha256": "c619e3d67a1e29a33654fa4fa749dce4b101c2fdc3a58b00aaae09f2c90fbf3d"
+        },
+        {
+          "path": "assets/performance/city/bronx/page-0031.json",
+          "leaves": 26,
+          "bytes": 30902,
+          "sha256": "162726a29fddb780cf7147298fb16cc888933be688699ba446cab067a8610b3d"
+        }
+      ]
+    },
+    {
+      "borough": "brooklyn",
+      "source": "assets/buildings-city/brooklyn/strict.json",
+      "source_sha256": "4b3b795e4440f95f98e86334368c08e54fbeda6e536193fce0568273d28377f4",
+      "original_leaf_count": 2074,
+      "published_leaf_count": 2074,
+      "root": "assets/performance/city/brooklyn/root.json",
+      "root_bytes": 101603,
+      "pages": [
+        {
+          "path": "assets/performance/city/brooklyn/page-0000.json",
+          "leaves": 32,
+          "bytes": 37947,
+          "sha256": "f1adff6a9ad29afe24c5192b2484539830e1ec336b968da3fbdb50dbd1a8b14d"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0001.json",
+          "leaves": 32,
+          "bytes": 37931,
+          "sha256": "875d8abad76d0f330f5d55e2aa6684f80fccf9d015cc2840fe0c28bc8bf2f2c5"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0002.json",
+          "leaves": 32,
+          "bytes": 37997,
+          "sha256": "2f51d9893f10f89b02f4ff90d24d2f3c404a19536a193de3adf17ebb0a7be27f"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0003.json",
+          "leaves": 16,
+          "bytes": 19278,
+          "sha256": "4d554aac4a8480077f6f3864e6efa602b25f85ca57b7c0823a379fa46fbc7b16"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0004.json",
+          "leaves": 17,
+          "bytes": 20431,
+          "sha256": "fc996082db02fdae362d3100ab6149739bcd8949f0b1cfcc987ae585a02af66b"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0005.json",
+          "leaves": 32,
+          "bytes": 38039,
+          "sha256": "7deab246b517eb164684c5fe268bcf8e09ac13d41f77903c9ba2d3356b477a3b"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0006.json",
+          "leaves": 16,
+          "bytes": 19226,
+          "sha256": "bee491e17b06276c2b84747a71448edcc362287ff5951ccbf4775869c4e3f108"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0007.json",
+          "leaves": 17,
+          "bytes": 20463,
+          "sha256": "c29f40b6823c43ed92bda3e3061a8a14b359e04645403896e4ee8e48f60a34ec"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0008.json",
+          "leaves": 32,
+          "bytes": 38032,
+          "sha256": "0fe38a794d172c35bd1d20328d0e95adac9ff9503256fecd867c48cc80000190"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0009.json",
+          "leaves": 16,
+          "bytes": 19275,
+          "sha256": "ca69847767a6d160e666576ab92a17ec280b828ec00c67187635d4fb1f0bd847"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0010.json",
+          "leaves": 17,
+          "bytes": 20439,
+          "sha256": "cc7942c0347700c2a89b98d356f6b3391340e4c5e7034eaf51b093a0668d1ccd"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0011.json",
+          "leaves": 32,
+          "bytes": 38006,
+          "sha256": "00f60836f2229406d305735e45c7117d30d96292b34e224a79cbee98723f2208"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0012.json",
+          "leaves": 32,
+          "bytes": 37961,
+          "sha256": "194b28a8e3fb0f4cb908cec11a6303b14885015fbbf28c539da7aeddd364776c"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0013.json",
+          "leaves": 32,
+          "bytes": 37972,
+          "sha256": "ffccc60e3fc6e6698182aa7f9e0111366ecd959b7a052d654ee4039c97d1bfe6"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0014.json",
+          "leaves": 16,
+          "bytes": 19269,
+          "sha256": "43a400ebd758162c910f03d7b53b84c8cb9ad6d8adc597f96cc27413634f3152"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0015.json",
+          "leaves": 17,
+          "bytes": 20418,
+          "sha256": "322e3bc8a5768ffb7c28c34b99fbb62c9bf0df7da020a770c1c7a966d1ce1fc2"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0016.json",
+          "leaves": 32,
+          "bytes": 38000,
+          "sha256": "b4500151f7566fb0f3e03f9437e7cdff88ce58a201c1376f96ccc2321061adc4"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0017.json",
+          "leaves": 16,
+          "bytes": 19273,
+          "sha256": "3b0ac1f6ff6ba3bd88d496a1757c8cd49c87ee9d1f868e572b62c25401544f23"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0018.json",
+          "leaves": 17,
+          "bytes": 20419,
+          "sha256": "94ca39b1ae69e28281081e47100a6e3f79fe8e7a8a1b517f38da504286cf65b1"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0019.json",
+          "leaves": 32,
+          "bytes": 38016,
+          "sha256": "fab39defdd401393b66bedffc387f55f3dfd64e343a91fe3a1af7c7a591a9421"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0020.json",
+          "leaves": 16,
+          "bytes": 19256,
+          "sha256": "307d63726f2b56c77a5f2da88280f3c3e4fcb9852b2ff1885cfc84ae05099a7a"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0021.json",
+          "leaves": 17,
+          "bytes": 20444,
+          "sha256": "060499f4ab083ce297458b80332b8ec386fe5e28e0cc0a9dcf9e9f2c44b0ec4a"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0022.json",
+          "leaves": 32,
+          "bytes": 37983,
+          "sha256": "44f5bf89baccc35c9f0f02e93582a64be1e058f46282b965b8262796dbbf825e"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0023.json",
+          "leaves": 32,
+          "bytes": 38008,
+          "sha256": "ffb5339458f249387ef8fd4654c9012ae95e123f0bac8c475e8269cf1909e58e"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0024.json",
+          "leaves": 32,
+          "bytes": 38001,
+          "sha256": "c1e0553d795a3b6bc0ee29386eff2c3c89cfa3bafde3ac44117de05d86ae1393"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0025.json",
+          "leaves": 16,
+          "bytes": 19280,
+          "sha256": "8e4e8cbfaa8e063d8a51135058d9057903daa7b1c5cd24d0d008c102529acdf7"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0026.json",
+          "leaves": 17,
+          "bytes": 20424,
+          "sha256": "1e041396ea62f57b2b24352a9379907a0cf7a043d601e2d0089b1d1c8f743efd"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0027.json",
+          "leaves": 32,
+          "bytes": 37994,
+          "sha256": "02f29cbfd9428724520038f92a048004e0845c3d464df0297b70d0f97903e449"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0028.json",
+          "leaves": 16,
+          "bytes": 19274,
+          "sha256": "81aeb1a10e1928d03fdc51b4bba9a80ce0a469aa9474ce2d21c88811448053d3"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0029.json",
+          "leaves": 17,
+          "bytes": 20462,
+          "sha256": "080281c8178f437e3199eed099c4de9da4e0a782dfc72397c540fbb7d3c19121"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0030.json",
+          "leaves": 32,
+          "bytes": 37980,
+          "sha256": "2fa74c6c3f78d48f621268c215e30b282eae0897c9f309a1b131e56a077899da"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0031.json",
+          "leaves": 16,
+          "bytes": 19260,
+          "sha256": "e8a274d4c5c029b0d8bdd18442444ad95b941590da0a9411328ee6981230ac86"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0032.json",
+          "leaves": 17,
+          "bytes": 20461,
+          "sha256": "f945488cd82f328e355f0afe582f171677d65d71cdae1ce1a2300a361f9afedd"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0033.json",
+          "leaves": 32,
+          "bytes": 37984,
+          "sha256": "a7251a9e9a0723c6f530bf87332c2f8d5222f8fe456d64d3d69aa84af52fcf0a"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0034.json",
+          "leaves": 16,
+          "bytes": 19300,
+          "sha256": "95a355c0479b75bbf2151e644ae80322f77a2375576c28741176de43b219c70f"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0035.json",
+          "leaves": 17,
+          "bytes": 20470,
+          "sha256": "c8e36ea0340d9121267a6744090ae1197f3ff072f9dcf80d23d88b895238ec03"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0036.json",
+          "leaves": 32,
+          "bytes": 37979,
+          "sha256": "3f473b95072539f4181c4d8ed7d9fd2236fa96b8b4ac8a655e2fab4dbd0a4b7a"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0037.json",
+          "leaves": 16,
+          "bytes": 19290,
+          "sha256": "ba28137f51855e9cbc6173b35725352f1a4e82027df820e6d4059b4ed18417a3"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0038.json",
+          "leaves": 17,
+          "bytes": 20434,
+          "sha256": "f3ebe5381e61be397d49cbf249f3d679d01636fd8b4650f6db6d7780215757f5"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0039.json",
+          "leaves": 32,
+          "bytes": 38009,
+          "sha256": "ecc323da4c18a296a21a379555b7634c14dd1f91622cdad86c00f503de855fc7"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0040.json",
+          "leaves": 16,
+          "bytes": 19256,
+          "sha256": "428b08ac8a29b2235d8687cf08bf83ed990117591a2bf5d901c47fa26b822773"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0041.json",
+          "leaves": 17,
+          "bytes": 20426,
+          "sha256": "66971ff891fd9d19fd2cefbb6f50873b858425963fdc26ca226064ae3ae0aa4e"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0042.json",
+          "leaves": 32,
+          "bytes": 37986,
+          "sha256": "36ff580f3a7295335d7ac794c0be30d0abb4d50c84da5abcda27b790b20a8615"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0043.json",
+          "leaves": 16,
+          "bytes": 19257,
+          "sha256": "c85ab72544c6ca7d6421ba60204dcc55eebeb9bc0a40c3575db2583932456f98"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0044.json",
+          "leaves": 17,
+          "bytes": 20448,
+          "sha256": "b15099331e6d4d31b6cf3c1ea7dbb7b9540015929637f9eba81e46a4073e5236"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0045.json",
+          "leaves": 32,
+          "bytes": 37994,
+          "sha256": "a136d8700a7e43f9b0cca862faab994210ba451501d62b6afe6939f7df339305"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0046.json",
+          "leaves": 32,
+          "bytes": 38002,
+          "sha256": "c25bd42bba023c44568351e40419434619bd53d252a71601d2653a17449388dd"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0047.json",
+          "leaves": 32,
+          "bytes": 37938,
+          "sha256": "30fe863feb766fa6f54582598b6c2738599955dd0f14680cc4934b9b7df4480f"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0048.json",
+          "leaves": 16,
+          "bytes": 19267,
+          "sha256": "ce0c7639f77bdee23fa05363cc44d24b7d7375e18d1b6b91318e061fb16958ca"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0049.json",
+          "leaves": 17,
+          "bytes": 20464,
+          "sha256": "653c5211384af7f0ff76d20aaa24aba160ea59f3b82dd0b92d579025b7f8ffb0"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0050.json",
+          "leaves": 32,
+          "bytes": 37965,
+          "sha256": "8daf08e90c35b5c21be60f8c79f565b712d457640fb9201b5f5b4f1528086e70"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0051.json",
+          "leaves": 16,
+          "bytes": 19247,
+          "sha256": "310d42da15f57bab49223394f73b082f70b233391a14ead1e4b3f80bc1e0cc75"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0052.json",
+          "leaves": 17,
+          "bytes": 20455,
+          "sha256": "f9f4e051ea5560811baf697d14162b3ff55bf48b7f1fa002af6fce56bbe85c5e"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0053.json",
+          "leaves": 32,
+          "bytes": 38022,
+          "sha256": "9d5d9db1906499fe1a5448e3d81f9ff448fe4367cf3b4502dead2bd2b4e9dfc3"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0054.json",
+          "leaves": 16,
+          "bytes": 19247,
+          "sha256": "146d2d0a5b5b40430a153eeac06d982ac1f0ffb1c2c0593322e9f8e26a3b6990"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0055.json",
+          "leaves": 17,
+          "bytes": 20453,
+          "sha256": "db60c8ad3be31a8925861ebf813467cb442dfc1fb8402bec5dc78f3bfc9db6fb"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0056.json",
+          "leaves": 32,
+          "bytes": 37966,
+          "sha256": "fb3f33176a45067f57c4ce652cd7fcde698058bd8e4a15f7a5dd2fea4a535c42"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0057.json",
+          "leaves": 32,
+          "bytes": 37986,
+          "sha256": "f32d7ee3d994fd2f5a6d687c0c52df4df659f884c5bb12d7ab78178316c674d9"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0058.json",
+          "leaves": 32,
+          "bytes": 37962,
+          "sha256": "50f45d19cfcc94597ab78147e28df0fd69c647eb12a736c04815a7c2d356910b"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0059.json",
+          "leaves": 16,
+          "bytes": 19257,
+          "sha256": "bcaf5f393596b485e7e6ec3a684783c32ecfb54cfb44dfb77348596d578c742b"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0060.json",
+          "leaves": 17,
+          "bytes": 20417,
+          "sha256": "eaae558224cec5780f2b399be2ddd08ea1b942091cd33cde3f27ec0456e9a71a"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0061.json",
+          "leaves": 32,
+          "bytes": 38028,
+          "sha256": "d11cb75916af220baa723a9d1a4fbe761a0a5c9f082f232701c1a51f90ff0461"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0062.json",
+          "leaves": 16,
+          "bytes": 19283,
+          "sha256": "e3cba3c4758ae553b8365f911666ccf613fcc9a9a03dee2936e1daea386500c6"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0063.json",
+          "leaves": 17,
+          "bytes": 20425,
+          "sha256": "71f546138910b9b0dc1c432bf9c369b220fdcd1d909d386ada41bef371ef2e13"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0064.json",
+          "leaves": 32,
+          "bytes": 37991,
+          "sha256": "b8e342971d8054315171899f61e0beae61857f74531bbf8081d93b6e3b918c62"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0065.json",
+          "leaves": 16,
+          "bytes": 19279,
+          "sha256": "faae33a443e7bddf351ea2c8d3e8879072e7d6a1078461cde43eaee89fcb5c59"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0066.json",
+          "leaves": 17,
+          "bytes": 20446,
+          "sha256": "5eb671aee6d523328c143a30c3f589241d4aa029c547e0f643538c371947e085"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0067.json",
+          "leaves": 32,
+          "bytes": 37963,
+          "sha256": "a8c459fda8945f35eb508b7b221ac83adb56f4336d56bb43b5f8d9274df15fb9"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0068.json",
+          "leaves": 32,
+          "bytes": 37992,
+          "sha256": "0a4841c01ae8b538ef9441733cff76106e90bfec99dedf41e9524c83ea5553ce"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0069.json",
+          "leaves": 32,
+          "bytes": 37997,
+          "sha256": "b37c354e3480606f50b16271cdea6eadddc7ae0d46f9b024c4eb96d5a5581146"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0070.json",
+          "leaves": 16,
+          "bytes": 19252,
+          "sha256": "fed06fd45311feb02f316afbd1b0002cbe3456a307c52e2ae9a646bf800b070f"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0071.json",
+          "leaves": 17,
+          "bytes": 20455,
+          "sha256": "f36bf1f34e483c49590d5fbef0c287b5f76ae7658080aee9dbd5b20860402d68"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0072.json",
+          "leaves": 32,
+          "bytes": 38042,
+          "sha256": "c510150d5779c9dfbcbd68b4a364529edd1cf855f70d4caf000226734fd7d1fe"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0073.json",
+          "leaves": 16,
+          "bytes": 19267,
+          "sha256": "10c1470a93bd52a81688696fbaa6cacfc124d2dd845b3833e321b369edb25a99"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0074.json",
+          "leaves": 17,
+          "bytes": 20446,
+          "sha256": "01568f2244e78c71296347c28ad37d9bb1f212ae888845f4570825766c3358d5"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0075.json",
+          "leaves": 32,
+          "bytes": 38002,
+          "sha256": "8c51d359aa83c7eb2e1831b0a05f7c810e84864f78ee1c460c947c1726c8f976"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0076.json",
+          "leaves": 16,
+          "bytes": 19271,
+          "sha256": "6176b45fc8f3df001c97148ab26bd5486d842d7c41e5d3a7bb9a5fd23dbc98e3"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0077.json",
+          "leaves": 17,
+          "bytes": 20424,
+          "sha256": "7400ce4fdd33fccda9eadbcaef33e7c059b65c60a2d63105adb11c33e41cb05b"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0078.json",
+          "leaves": 32,
+          "bytes": 38003,
+          "sha256": "75440df317e69063040b2d044c4d78ee9f182a972b0128e4698b6c4abe69cfd7"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0079.json",
+          "leaves": 16,
+          "bytes": 19247,
+          "sha256": "591d3e5ba1d0979bf11ce3c0644db9ff00c7b22e13c61abd0e041588c8e33be6"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0080.json",
+          "leaves": 17,
+          "bytes": 20430,
+          "sha256": "6ed035689ee0e0f2252de17c2ccf8caa1ec25661a5f4f84bdb7316ee68bf17fb"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0081.json",
+          "leaves": 32,
+          "bytes": 37987,
+          "sha256": "911e1a51053782b8895fb25153ee38a836d4119ce24d89cc06dc0f4dd72edfd4"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0082.json",
+          "leaves": 16,
+          "bytes": 19281,
+          "sha256": "4fce5216a3693950a2ce77f39b12c3fb9a4568a956a2b7b043c8258006301ecc"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0083.json",
+          "leaves": 17,
+          "bytes": 20435,
+          "sha256": "6125613143bd58ecae4d70cd696b2bb19a6a2e27425a1ddf994b24ba2b192363"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0084.json",
+          "leaves": 32,
+          "bytes": 38011,
+          "sha256": "f0c3e48ac95b8d918c876c67a0e8abeaff9aea923a3270b4645fc76c6fb3d00c"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0085.json",
+          "leaves": 16,
+          "bytes": 19265,
+          "sha256": "4d10d2a7a9a4548b569e9a028042cc6e3186c7df196e16a1ba25da54992b793f"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0086.json",
+          "leaves": 17,
+          "bytes": 20438,
+          "sha256": "8f517402f56c79e2b9461ccff628bdb8b04603266d37069575b9ed2f795ec1a8"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0087.json",
+          "leaves": 32,
+          "bytes": 37986,
+          "sha256": "2128c9eb359e2616bcdb6926e04df8ebd46582bc723b60a2091f78192448fec9"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0088.json",
+          "leaves": 16,
+          "bytes": 19276,
+          "sha256": "c55453ab4b54c272a953537f170d97f78180f9d398224aafdf5f523127d1204c"
+        },
+        {
+          "path": "assets/performance/city/brooklyn/page-0089.json",
+          "leaves": 17,
+          "bytes": 20419,
+          "sha256": "76e0dcbbb79c441c8952a3fb831048f4aeacb1d840cd4c85dee7b1cc40a5e0c7"
+        }
+      ]
+    },
+    {
+      "borough": "manhattan",
+      "source": "assets/buildings-city/manhattan/strict.json",
+      "source_sha256": "50cbdfa2339f57cb9edeba123b21dcfe78726941fd02d57882e2190b20e4bdab",
+      "original_leaf_count": 405,
+      "published_leaf_count": 405,
+      "root": "assets/performance/city/manhattan/root.json",
+      "root_bytes": 13570,
+      "pages": [
+        {
+          "path": "assets/performance/city/manhattan/page-0000.json",
+          "leaves": 25,
+          "bytes": 29836,
+          "sha256": "a50192d563d0d0ccaac02693362dcc64aecf07db8d60808da8c270098def1787"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0001.json",
+          "leaves": 25,
+          "bytes": 29829,
+          "sha256": "d761ae14bb04a8203454acccef1552ab59fc13a735d756cc7dd09b45bf10f405"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0002.json",
+          "leaves": 25,
+          "bytes": 29835,
+          "sha256": "75837ed24e712e36d13bf3e0485c97480bf968a364b451c06fdb60ea30bf7245"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0003.json",
+          "leaves": 26,
+          "bytes": 30988,
+          "sha256": "6feb93772d94daf0ffadcc5ba8e4ed3fc90f04f8d83ebd822be1055dac213a0d"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0004.json",
+          "leaves": 25,
+          "bytes": 29834,
+          "sha256": "cb1377bca2a4c08149621618df215b1a6a60fd85b30a229298a27950b9ef8d7e"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0005.json",
+          "leaves": 25,
+          "bytes": 29812,
+          "sha256": "1bcf0cd731153bb9aa2c506cc0debe94b4de9406c4eb84c6135f32c082a5673e"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0006.json",
+          "leaves": 25,
+          "bytes": 29810,
+          "sha256": "19637bd95cba2ee577ea62461c6be24138c9bd347a19745291671c6d3f2fef98"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0007.json",
+          "leaves": 26,
+          "bytes": 30980,
+          "sha256": "e9f7f4a2b980b1123a942fd6273ae796bdfd1560b51a448b9ac549fd6c71a5b7"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0008.json",
+          "leaves": 25,
+          "bytes": 29856,
+          "sha256": "a0d2e13c72af5d30f09a8a666b603810b66cdc145478006a32ccee6a23910ae5"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0009.json",
+          "leaves": 25,
+          "bytes": 29813,
+          "sha256": "a20357f7a02fa3715a14b436cb6a253101af274cd90ad0f4a5b2e51cc441b6dd"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0010.json",
+          "leaves": 25,
+          "bytes": 29813,
+          "sha256": "0ab1f64f7ea1be3ed2da852517ed69b26186a4f57b91a18abd801c266990db8f"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0011.json",
+          "leaves": 26,
+          "bytes": 30994,
+          "sha256": "4e2e4c0e77275e56121bb590c40951e35059a01c79381fd27d155418cb020136"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0012.json",
+          "leaves": 25,
+          "bytes": 29808,
+          "sha256": "d9a710eccd194897fd510e9f3a2882ca4786a9c4a0bb5a979c74490f90114e22"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0013.json",
+          "leaves": 26,
+          "bytes": 30998,
+          "sha256": "473c2826a88ad3755bd4eaa5f0fb6c9ac75758eca82c311e6b1114c812ef4dfa"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0014.json",
+          "leaves": 25,
+          "bytes": 29802,
+          "sha256": "6561b3a075b7ab94270c22012df804386a8b022ce6c40e82b7b5893e90c4696c"
+        },
+        {
+          "path": "assets/performance/city/manhattan/page-0015.json",
+          "leaves": 26,
+          "bytes": 31010,
+          "sha256": "4a8436a25aef8a51dac23223c770158201c53922fa5f95ee969176db79973730"
+        }
+      ]
+    },
+    {
+      "borough": "queens",
+      "source": "assets/buildings-city/queens/strict.json",
+      "source_sha256": "fbe3d97118e02fc9e1269c0c899053315b071c81d28f17b6769b25a278b8b9ee",
+      "original_leaf_count": 3003,
+      "published_leaf_count": 3003,
+      "root": "assets/performance/city/queens/root.json",
+      "root_bytes": 150508,
+      "pages": [
+        {
+          "path": "assets/performance/city/queens/page-0000.json",
+          "leaves": 23,
+          "bytes": 27399,
+          "sha256": "2722d8cfd46fb938ff7b999165ad128fede70474571c6ba0ccf3da27b8038d0a"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0001.json",
+          "leaves": 23,
+          "bytes": 27406,
+          "sha256": "7bcca780501092b4068d6ff40afc4cb887d2ec550336d308356c526144182c98"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0002.json",
+          "leaves": 23,
+          "bytes": 27408,
+          "sha256": "c7ee51d4ec589f8df8a00c172f26791a5be312eaaff1c822626433e2b23aa48d"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0003.json",
+          "leaves": 24,
+          "bytes": 28611,
+          "sha256": "1651ee67ddcd1d62ffb1896e886b052dba25f424c44a385fa828c8a4b52f4d5c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0004.json",
+          "leaves": 23,
+          "bytes": 27412,
+          "sha256": "6fef111eee6eb88d615ca5d3fe44a5541c4cc3965b5817f42a17929aee52b6e0"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0005.json",
+          "leaves": 24,
+          "bytes": 28532,
+          "sha256": "36471ff2acce2ded2f6fcb920189abf218dee0c1a612d2aefe6f5e77feede272"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0006.json",
+          "leaves": 23,
+          "bytes": 27440,
+          "sha256": "1bd0ac0e48c3df05e3ef9a8909ae798031462fbf2e4229d72e5714c56dbc6303"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0007.json",
+          "leaves": 24,
+          "bytes": 28606,
+          "sha256": "8847207af08f8a4c2ce86c92c23ec8b8076ede525756b1e37981e8b667ddcf27"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0008.json",
+          "leaves": 23,
+          "bytes": 27429,
+          "sha256": "4a4cd44eb57976736a741b9551803fc0b5c316fb4bdbca2b73fa72d4b8ff8845"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0009.json",
+          "leaves": 24,
+          "bytes": 28566,
+          "sha256": "18d9034fbcc1b114feb0941c4e599c084c937fcdabd948ebf181185815781b34"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0010.json",
+          "leaves": 23,
+          "bytes": 27421,
+          "sha256": "cfbb53bf2f4c5e3f017653060f1385e95032c999335c28cc2c2b22d3c3b21d45"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0011.json",
+          "leaves": 24,
+          "bytes": 28605,
+          "sha256": "cd3667eeb5e302f1c3ad14c07cfb03a45b21f0a29b1ffac2b18a93869f867173"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0012.json",
+          "leaves": 23,
+          "bytes": 27407,
+          "sha256": "b967964b775c461d21201d8929723eb856d3a4717b4fe79c69314353484b5869"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0013.json",
+          "leaves": 24,
+          "bytes": 28626,
+          "sha256": "db42936e7914bfe796d86818220fd3c4d2976cd8245430dc62f63be1d8de2900"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0014.json",
+          "leaves": 23,
+          "bytes": 27425,
+          "sha256": "094a5edd0aed893b12331ce84148d9e117478063d79d24163583cb8393fc5d84"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0015.json",
+          "leaves": 24,
+          "bytes": 28570,
+          "sha256": "de64f0964a1e9e8fe4a8226ea1391341b589dfcbfd7b4514287fb9ed87184aff"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0016.json",
+          "leaves": 23,
+          "bytes": 27442,
+          "sha256": "f9541df5d369e664b66f3bc2e81b026845ecf0f7625a9aeae3f1862a24d005f2"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0017.json",
+          "leaves": 23,
+          "bytes": 27442,
+          "sha256": "d23e1db99e9e663bfce2f5fa092a88454e324d4bf5b754372db086f9f08719a7"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0018.json",
+          "leaves": 23,
+          "bytes": 27439,
+          "sha256": "f865de732f748c0d491571aea6f132c1fcb2280454c489bb5aef0328c8be0091"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0019.json",
+          "leaves": 24,
+          "bytes": 28584,
+          "sha256": "81467aaf4300b2f01737a6174e645ee0a3c3ab8d92d42086ec386a2c1f86ba69"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0020.json",
+          "leaves": 23,
+          "bytes": 27420,
+          "sha256": "d21af39d6ee30dc3df88d4844be46db296d681ef8f8c54f5aae69f9420856b83"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0021.json",
+          "leaves": 24,
+          "bytes": 28578,
+          "sha256": "897f97e84d6dec9162432c805b1ac0471862900aba5ab67e62d3ca6ea1166a4c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0022.json",
+          "leaves": 23,
+          "bytes": 27404,
+          "sha256": "3c8c9d4bfc7cbf84c873a445c4fb98323b9718cad55810502e29d1bd56f36a72"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0023.json",
+          "leaves": 24,
+          "bytes": 28584,
+          "sha256": "e65beadac9bc39e7d303cea7b105b44f7b83524f347a79bce880508ee172864f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0024.json",
+          "leaves": 23,
+          "bytes": 27423,
+          "sha256": "301439697aab79d6cb3e39dc8bd1c00b2270c81e7ac5086dfcdef3e82ea98071"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0025.json",
+          "leaves": 24,
+          "bytes": 28607,
+          "sha256": "cd9eb39224bf9e1176382c24b22a6c4f5d4dd079bd1320ba768a48f0d61dab30"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0026.json",
+          "leaves": 23,
+          "bytes": 27470,
+          "sha256": "dd785a3d446a2dcb87562f7b65b949d3a7f7469ecf3293f1acd7c5d74b7c722d"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0027.json",
+          "leaves": 24,
+          "bytes": 28606,
+          "sha256": "402de15cc68f97077636941df0146bb83cf3529ee0b3fb0bd011b7c773cedfed"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0028.json",
+          "leaves": 23,
+          "bytes": 27450,
+          "sha256": "86387d4e707b9c9018bb5c19ae5798fc7029d0af056041dac00eb80fead50a25"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0029.json",
+          "leaves": 24,
+          "bytes": 28574,
+          "sha256": "72fb5a4d69e0e1dacfc09907fdb6f8c8e36284caebe6aca70a28a0fc360d1ee0"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0030.json",
+          "leaves": 23,
+          "bytes": 27410,
+          "sha256": "b9049bd60258d2e47eddb4006603af8925408a9cc5f0701454c233d5d3aed33e"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0031.json",
+          "leaves": 24,
+          "bytes": 28606,
+          "sha256": "1bd7f33a7eb6884f44abe7404d198599e36e213a91faa13cb32345c60f807517"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0032.json",
+          "leaves": 23,
+          "bytes": 27405,
+          "sha256": "15d077ba49c4c0e3d5a0241bcae984f3fecd72ce8e247d9911c033cc490aeab2"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0033.json",
+          "leaves": 23,
+          "bytes": 27413,
+          "sha256": "f382717cdec451e51a86fb1a2f40a32150e3e74b84d6c9323a1d092dbfd92d5f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0034.json",
+          "leaves": 23,
+          "bytes": 27397,
+          "sha256": "73d419d23ebd3bdf1cadd580308485db9316336b9b698f9307ad055478fff644"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0035.json",
+          "leaves": 24,
+          "bytes": 28584,
+          "sha256": "8b46b24c977ff4ff9adeb71e41268ccf389781fc13fa4b2d25c1a8d5727bc15c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0036.json",
+          "leaves": 23,
+          "bytes": 27399,
+          "sha256": "a24c57b71930791b5f46a2c9db508d60f3d61ec63bfe8c74b6cae17d182e9b81"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0037.json",
+          "leaves": 24,
+          "bytes": 28580,
+          "sha256": "33b8ff31c3306444337b4700771ef3fec257032a67aee36dd0dd587186578eb2"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0038.json",
+          "leaves": 23,
+          "bytes": 27452,
+          "sha256": "52e7b5b9eb030a5ed00fe04ccaa931a94420112a798a476630589fa621f9f4d8"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0039.json",
+          "leaves": 24,
+          "bytes": 28588,
+          "sha256": "680a7371bba55d08a27fcc52e817ed6d13b6e578e9f40753ee8dc4d4f49f35ec"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0040.json",
+          "leaves": 23,
+          "bytes": 27426,
+          "sha256": "17b56bc028f6f75d4d0984deefc506319fc3b5d3805bc879f2f24feb2e9d3d2d"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0041.json",
+          "leaves": 24,
+          "bytes": 28621,
+          "sha256": "c2451d91d87f647f3397e6de0d6b547f9f05d19275fdf2be8ef2a59aa01d1ef8"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0042.json",
+          "leaves": 23,
+          "bytes": 27413,
+          "sha256": "3af610ad652295922e364bd2ec077a6b0c462a5801f221f4b5e86a38c6bf851c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0043.json",
+          "leaves": 24,
+          "bytes": 28585,
+          "sha256": "1efaf8206eba6959b1c6f0391386d9c6c8d6f1373361a37030c8fa2e13302209"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0044.json",
+          "leaves": 23,
+          "bytes": 27440,
+          "sha256": "2cdfd57c04396bf668d12d4bfed8f34cf3bcece425efae3e1ffabd36caff71f9"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0045.json",
+          "leaves": 24,
+          "bytes": 28593,
+          "sha256": "f755e6a7207bc9cb78034edf9cbb14d9f1c51383b367dec6f2a4ab583f993c79"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0046.json",
+          "leaves": 23,
+          "bytes": 27408,
+          "sha256": "6df66a5a022c3ce86c7b4a98aced7b1a71a05c7c067bb36d0bb142954a294281"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0047.json",
+          "leaves": 24,
+          "bytes": 28605,
+          "sha256": "c3676389679f6265656182e7c55a18820832186defa3353b408bdc549b164b95"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0048.json",
+          "leaves": 23,
+          "bytes": 27457,
+          "sha256": "489117f6a9bf12407a818416efa8eb25b7a5eaaeaf6915cf3d027e0e4df5388f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0049.json",
+          "leaves": 24,
+          "bytes": 28601,
+          "sha256": "1c2cebd36bdeea3097ff893819bfa4bad7be5902efd37db536a7be324568f22b"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0050.json",
+          "leaves": 23,
+          "bytes": 27437,
+          "sha256": "4c559da98eca4f5c0cb2190a76fedf0ec0e9d230431813c706e55881e86aa05b"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0051.json",
+          "leaves": 24,
+          "bytes": 28609,
+          "sha256": "acd7998f502e5e8a303b971613a97e0ae61e09c6338fce29fa9a2e04a4e78149"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0052.json",
+          "leaves": 23,
+          "bytes": 27391,
+          "sha256": "c3e2f0239eaaad33b3ab5ececcc873fc7194ea7ec5ee9e682de43edfc71acfd6"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0053.json",
+          "leaves": 24,
+          "bytes": 28591,
+          "sha256": "36d493c93ac1bf96bc7a14ccf766bed3067102537933e5d211d839a2a3fb943d"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0054.json",
+          "leaves": 23,
+          "bytes": 27451,
+          "sha256": "f7b93f9ff1be73c2b1a6e09535006f1679347c997a85923380184e5ff8e00544"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0055.json",
+          "leaves": 24,
+          "bytes": 28611,
+          "sha256": "2ce89133caeab43bb75132a7cc7f0fca17eb249e33c1da93e87ff9e73e8c3af9"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0056.json",
+          "leaves": 23,
+          "bytes": 27422,
+          "sha256": "520ba31fe08d0adf6e5d5185eb7da616692a9f761b51c28f2f261946df4850e0"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0057.json",
+          "leaves": 24,
+          "bytes": 28594,
+          "sha256": "1500918295e043513f004eff2082f713376f7986dc4d207f2fbf9a0aa221a129"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0058.json",
+          "leaves": 23,
+          "bytes": 27414,
+          "sha256": "6d6b00397ba517484d60519570dff5b3d61b3ff31ef5523a4f41b2daa86cd0b3"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0059.json",
+          "leaves": 24,
+          "bytes": 28607,
+          "sha256": "2fb3fe3f76e6846aa01daa0f96d7131bc91af082739b08d0fb9c587c66d428d6"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0060.json",
+          "leaves": 23,
+          "bytes": 27439,
+          "sha256": "732d93786111c1a3625f44fa511e79aee2bdf41b71f01774b485d8c9b5b7b93c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0061.json",
+          "leaves": 24,
+          "bytes": 28594,
+          "sha256": "34929e849c5d4d0e3336957a285fadd61d03620e8f6fb09f4b401029168f18af"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0062.json",
+          "leaves": 23,
+          "bytes": 27442,
+          "sha256": "dac3aa95da21ad24bb7a7f770b5b7c783250453f8fa4fff73f5c070be3e55e1c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0063.json",
+          "leaves": 24,
+          "bytes": 28604,
+          "sha256": "05f0349f4c0a0a48b856b5a8ceb4d663cc0029b161231bd1ca7a48f6e8d99ef9"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0064.json",
+          "leaves": 23,
+          "bytes": 27389,
+          "sha256": "838981c6c7fda2ed0b4ddc11f3a89c0b711274ca901154bda647e54d842f43c9"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0065.json",
+          "leaves": 23,
+          "bytes": 27392,
+          "sha256": "87ac568c8e494c4465d28b2e7df725292b4e2aefb924d0d7d788f11e9319640c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0066.json",
+          "leaves": 23,
+          "bytes": 27415,
+          "sha256": "f82ac171adbc41f208e490d13f8f90c51d91d6c44d9d028d926f2316433d58a1"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0067.json",
+          "leaves": 24,
+          "bytes": 28582,
+          "sha256": "a20cf15b83cd65fa3a1dfe19ed2bffa8506b989179483a4eb0a78d94e1278398"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0068.json",
+          "leaves": 23,
+          "bytes": 27413,
+          "sha256": "a94f4714dee424f9bcbee12d39d8d29d9ccf181362c9659e0b511104dded13d0"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0069.json",
+          "leaves": 24,
+          "bytes": 28599,
+          "sha256": "16a0b07e84be3bd9c4c5b6690e31ebc33bdecb2cb7481c67a93db461e24caea5"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0070.json",
+          "leaves": 23,
+          "bytes": 27375,
+          "sha256": "037c2128a0e96d1ff4793e6469fac50971d1863f29bdec923fe477aab6e4d4e3"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0071.json",
+          "leaves": 24,
+          "bytes": 28619,
+          "sha256": "2b533791e4cabb0d1a9092cf658c102d7f703293c123f5cffc5fe01cbbfa6994"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0072.json",
+          "leaves": 23,
+          "bytes": 27411,
+          "sha256": "0c650db7f9aa61c0408d2c4c4630631d4e99ea38271ef79f3b6bbe00530d9efc"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0073.json",
+          "leaves": 24,
+          "bytes": 28565,
+          "sha256": "76a32a579108656b4c780df437fc4cce7a0cdf11dbbec56ba6c4cff23981deee"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0074.json",
+          "leaves": 23,
+          "bytes": 27403,
+          "sha256": "fc5bbd92d96a19af06116c1bf80b9c0d9ae791f53200158d726e344d5b16718d"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0075.json",
+          "leaves": 24,
+          "bytes": 28590,
+          "sha256": "fa7524ca5246628940de5dbc8f1d920cb854677f647982f58ae3e2a38a9ae56a"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0076.json",
+          "leaves": 23,
+          "bytes": 27421,
+          "sha256": "1476d8f0dfeecf6d87e2a446e4fc7101d6373d1ce62da1b1fabd2ac8086d46f4"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0077.json",
+          "leaves": 24,
+          "bytes": 28572,
+          "sha256": "e4642f4d9c2a8261319ca245edd3b17c19bc9b2e530b4ee100e4e9635afbe35f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0078.json",
+          "leaves": 23,
+          "bytes": 27440,
+          "sha256": "5cb4aa67000ef8badadc434dec6373a93ad21b4ac308bfe99d5c6ffdd9796d73"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0079.json",
+          "leaves": 24,
+          "bytes": 28584,
+          "sha256": "8e8261029f3f5c6b8295bb9852a10e561acefc802273cdfad7ccc661c204e6f7"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0080.json",
+          "leaves": 23,
+          "bytes": 27437,
+          "sha256": "6a3d0f404d7312af55572348b5d3a592f9df6bf443cee5392f25bbe5a1a59065"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0081.json",
+          "leaves": 24,
+          "bytes": 28603,
+          "sha256": "33d201d2be49619b447bfeb5819ecbda1c04620997069624c00ff0081809fd06"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0082.json",
+          "leaves": 23,
+          "bytes": 27436,
+          "sha256": "2360e7bb45840aac9f63b3d773edd9a5ae717c6802850ebf4b9f67d8370d55f8"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0083.json",
+          "leaves": 24,
+          "bytes": 28604,
+          "sha256": "b9db6fcb21cbe7a31a4aaf23f506e0bdc16d7636c52a56ba41a535ce536b4731"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0084.json",
+          "leaves": 23,
+          "bytes": 27404,
+          "sha256": "d944f79add42d15b7ba77c9b0363451de6611ee773aa6e9f7172eb294df17913"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0085.json",
+          "leaves": 24,
+          "bytes": 28582,
+          "sha256": "f6c5c753a85a776f68b6c0fd698e8611574320e0d1516ee34342dde596096006"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0086.json",
+          "leaves": 23,
+          "bytes": 27435,
+          "sha256": "6a280916804bfa42b87ed79fd00a424c463d9b26996e0ea6cc898deac04ea5ea"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0087.json",
+          "leaves": 24,
+          "bytes": 28580,
+          "sha256": "a38912c21da7427049ce4ca0c6a73d02e3832c250a78f64185de8ba8495c0d28"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0088.json",
+          "leaves": 23,
+          "bytes": 27436,
+          "sha256": "b70725e2fb33a211403e9e98d4d5b8dbad880953c51350ff670d742c9a615e69"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0089.json",
+          "leaves": 24,
+          "bytes": 28613,
+          "sha256": "dbdf38f5a94373dd9ba49b3b11a7b540dd14d023eee1b679b8d431328aa3fb5f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0090.json",
+          "leaves": 23,
+          "bytes": 27424,
+          "sha256": "b57982e15039963cb7fd620d2c2845c016a431dc7ae682b256e2f88c36905e3c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0091.json",
+          "leaves": 24,
+          "bytes": 28603,
+          "sha256": "5efb6e62c75d198b89870201a0d20df8a73c04d7a3d1588b7314cb67cada29ec"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0092.json",
+          "leaves": 23,
+          "bytes": 27428,
+          "sha256": "d25f90c5e5bee4aa60bf8ac6ab41f9a3f1d9a885684e03de5bd1058f27ce71c7"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0093.json",
+          "leaves": 24,
+          "bytes": 28597,
+          "sha256": "0414451c4efef9737d27a9734fc11cfc708de65b35a1f64a4e6d2d4a5f2f2e27"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0094.json",
+          "leaves": 23,
+          "bytes": 27449,
+          "sha256": "202e6d1aa0ec521c8828ee3984da39ff7ecb7678eaff57a12b3067ee25e066b2"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0095.json",
+          "leaves": 24,
+          "bytes": 28609,
+          "sha256": "fd84cb6b5e78df6fcae0516d23f9d6c5bc955077db142a359b880427992327cc"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0096.json",
+          "leaves": 23,
+          "bytes": 27440,
+          "sha256": "9baebf1b01e0bc02a263461ad06b0c3354a1de6c7409b95911901043e207fe5d"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0097.json",
+          "leaves": 23,
+          "bytes": 27393,
+          "sha256": "f60090046062288b2cabe8586144fb50f69a210c1044ab82dc2b06138d7b262f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0098.json",
+          "leaves": 23,
+          "bytes": 27427,
+          "sha256": "6077f168be04eb43e8c631e055aff391a345f9f34f2a2797782c5b86897c546f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0099.json",
+          "leaves": 24,
+          "bytes": 28585,
+          "sha256": "84f0bc4039c1d4115d082a7c7afdf011200c0d192d2b90844abd8e88582964bb"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0100.json",
+          "leaves": 23,
+          "bytes": 27415,
+          "sha256": "cd837547cd3fa36b7bf74de6b6807f189ac83fb3612ee0f054077371f210c58b"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0101.json",
+          "leaves": 24,
+          "bytes": 28616,
+          "sha256": "1b6967619d8e6f235febda5a834b6237d9d118d56052651c78af5685267f4b37"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0102.json",
+          "leaves": 23,
+          "bytes": 27425,
+          "sha256": "c56fab849b0fa924d500436fad6194207dc899114ee946fdbfc3fe5ab6bc107f"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0103.json",
+          "leaves": 24,
+          "bytes": 28588,
+          "sha256": "c9e25d520fc9e57a030255dc216b5aa0c491f4e9a7ca6703f284c6a312346a9d"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0104.json",
+          "leaves": 23,
+          "bytes": 27408,
+          "sha256": "8e139621ca1696ac7b4b7ddf54af7231eab206725b1f3742abadb614602e8d74"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0105.json",
+          "leaves": 24,
+          "bytes": 28622,
+          "sha256": "2f847d8bcdb312aa57040b724ce686e295a74e02f86d889c9f834e493c04adb0"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0106.json",
+          "leaves": 23,
+          "bytes": 27416,
+          "sha256": "327c6dc3b63ea876ea3d6695de3fc4c1491bc82d78eac535a064f80ced582ef7"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0107.json",
+          "leaves": 24,
+          "bytes": 28623,
+          "sha256": "cf4afea94cc8deff2b1a11a6981870e8526015134bb6e6544f55cbd438bac507"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0108.json",
+          "leaves": 23,
+          "bytes": 27449,
+          "sha256": "48ac63eebe98aac700adc516b1846d19c83ff353538fbf300555469f02ad8cb1"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0109.json",
+          "leaves": 24,
+          "bytes": 28623,
+          "sha256": "c927e12aa167c874da1145fe823149cddc819531a552ef50ff9c1597768bdcd9"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0110.json",
+          "leaves": 23,
+          "bytes": 27442,
+          "sha256": "98b18d60999d4a49a3c6456b47969deed1eebc058cbd7f8da5d9cf253dbb3398"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0111.json",
+          "leaves": 24,
+          "bytes": 28598,
+          "sha256": "4048ed4a0a497017ab02bce4ad6eb4d63f5ace2d5915bc1c0b7815f0e9510b95"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0112.json",
+          "leaves": 23,
+          "bytes": 27414,
+          "sha256": "6d7f1ec08a8177258176bc275cdb24a4e36c671094d52e2f37deb7cabe40a493"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0113.json",
+          "leaves": 24,
+          "bytes": 28631,
+          "sha256": "34e668edc7693b4a2647b23b6f3501a6fb83a841de766b8de23f7f9ac1688864"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0114.json",
+          "leaves": 23,
+          "bytes": 27405,
+          "sha256": "c29bdd5a87e0b276166f0ae655ac4b6742b99c71b571f01c7a05e6ab6ada50fe"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0115.json",
+          "leaves": 24,
+          "bytes": 28600,
+          "sha256": "4550a8508cfa38d273ec495dca0ce2cd7036c4a74c34ebada021ec67b1d827dd"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0116.json",
+          "leaves": 23,
+          "bytes": 27464,
+          "sha256": "b28ea65defaea6d3d3367c31b14fa3bf49236c67efc45fe1001c73dfc280730c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0117.json",
+          "leaves": 24,
+          "bytes": 28601,
+          "sha256": "02d6c95b8b2e8fc50b9305d07e1eea82e32c21b791173da7dbc6f3ef6b5500f9"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0118.json",
+          "leaves": 23,
+          "bytes": 27429,
+          "sha256": "cbb0f7c14c101d005e939b7207240259b1e33dff8359cba62eee1da662b7db65"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0119.json",
+          "leaves": 24,
+          "bytes": 28589,
+          "sha256": "24b1f5b558603e9b4f455a8e4371e5a3c98aaa71045d64b334f69d20e7a18195"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0120.json",
+          "leaves": 23,
+          "bytes": 27440,
+          "sha256": "e04ef59ee3abf949a26b5625b8406ce798ba8bb0d2df2ada34531d61baa7bf84"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0121.json",
+          "leaves": 24,
+          "bytes": 28586,
+          "sha256": "7dcaef96f175bff27ab2fbe7b3908c391bc44b7f3d88d44862d895133e2fbb0e"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0122.json",
+          "leaves": 23,
+          "bytes": 27416,
+          "sha256": "8f5666d813e65eb4917d99f156a94460d51fba0076c5724d0908538299381c77"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0123.json",
+          "leaves": 24,
+          "bytes": 28621,
+          "sha256": "d309098d6b824522e99a50187501c5702ffbb8b57eaf3864462cdf1e8c45ed7a"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0124.json",
+          "leaves": 23,
+          "bytes": 27443,
+          "sha256": "42bdd1415682a6c941d3328afc88032a0085ef3a64df6db62f631ce35bcd345a"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0125.json",
+          "leaves": 24,
+          "bytes": 28611,
+          "sha256": "061d660062b2fc3b6937ebc49345a0f4787941c74b47a368eb065bfcdf5af34c"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0126.json",
+          "leaves": 23,
+          "bytes": 27416,
+          "sha256": "8de4d1a6e1871fa5185814cd5f3e250e55b2a9d5f452b84f84fc2550ab03082a"
+        },
+        {
+          "path": "assets/performance/city/queens/page-0127.json",
+          "leaves": 24,
+          "bytes": 28607,
+          "sha256": "fbeaeecdfef06cc8866d6a73e42cf8840753590b9c8678f669b18866aa4da8dd"
+        }
+      ]
+    },
+    {
+      "borough": "staten-island",
+      "source": "assets/buildings-city/staten-island/strict.json",
+      "source_sha256": "def576d769fd9345bbe2a1d16efea47387fab1ae8bd8e3a6f265fc99a8916d02",
+      "original_leaf_count": 1069,
+      "published_leaf_count": 1069,
+      "root": "assets/performance/city/staten-island/root.json",
+      "root_bytes": 68147,
+      "pages": [
+        {
+          "path": "assets/performance/city/staten-island/page-0000.json",
+          "leaves": 16,
+          "bytes": 19331,
+          "sha256": "7b7637ef1449f461342806c7db365af1c2504d2accaa4a1d412d155a33b61816"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0001.json",
+          "leaves": 17,
+          "bytes": 20506,
+          "sha256": "43f780b3d190149e4bf1a5867f31a90dd2c48353f36ff17479bba937a049b0ef"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0002.json",
+          "leaves": 16,
+          "bytes": 19336,
+          "sha256": "ee4bb8969fa930bcb2da60614c3ba86fab380f3eb2a871bc98a3f917cc4f2d86"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0003.json",
+          "leaves": 17,
+          "bytes": 20520,
+          "sha256": "2ecbe0dac1bc35d831346c994812d01c8f28ff5f27b0219f51e6c5934ced7495"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0004.json",
+          "leaves": 16,
+          "bytes": 19344,
+          "sha256": "e2253082cc46bf1e369c4aa18e5f1a7794a6a80b0b9d166e7ac96495754ecc5f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0005.json",
+          "leaves": 17,
+          "bytes": 20514,
+          "sha256": "f18a6f76896884dcbb85604eb1d56e5baceb029a2a466128513b0f6a4a27442d"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0006.json",
+          "leaves": 17,
+          "bytes": 20498,
+          "sha256": "6d6849258088aecabc879128c6ac4717b6af78b86a00b8e759b72b70731af3c3"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0007.json",
+          "leaves": 17,
+          "bytes": 20505,
+          "sha256": "a0727ed1162680f90b514b16300ce1686bf0dc2899388578f653264dec03bdea"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0008.json",
+          "leaves": 16,
+          "bytes": 19350,
+          "sha256": "52c4d8cf91c5f1547ffbfc5b3c5c15e05e70582046601ded556a3040a896ad9c"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0009.json",
+          "leaves": 17,
+          "bytes": 20515,
+          "sha256": "cab9b0e1215faf85073a12b49e6b187fbca1d96ba11216a0cd2ad729a97afb8e"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0010.json",
+          "leaves": 17,
+          "bytes": 20514,
+          "sha256": "ac220e54aaa5f98e1417c578a7138a4700fc5d7038ebc44348e6c67dc32a27a0"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0011.json",
+          "leaves": 17,
+          "bytes": 20529,
+          "sha256": "bd7327598c525947a45579c11eb6e48187d7bfe2655110c28953c70c5ebaa036"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0012.json",
+          "leaves": 16,
+          "bytes": 19335,
+          "sha256": "af3fd61d88a56f560ad2877e9fed71302862b984de08a84aba1b4a3768cb9a33"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0013.json",
+          "leaves": 17,
+          "bytes": 20492,
+          "sha256": "db727842904169f77b8ce72b2e77f6e0f5bd2200de915d0436bd1327f5012e97"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0014.json",
+          "leaves": 17,
+          "bytes": 20523,
+          "sha256": "495720f12903b5a0330e60d9a84c2c07d5b0b5ede7225ace2e57378edefff89c"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0015.json",
+          "leaves": 17,
+          "bytes": 20534,
+          "sha256": "6e789a1a4fa3f886ed6c5c1c539d1686bf9632d9f8085dbf2086c6c1c4976345"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0016.json",
+          "leaves": 16,
+          "bytes": 19333,
+          "sha256": "f1a2ea0b9a143791c381c9a968b38ccf23bce34343da05fe3c2e6aeb430121bf"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0017.json",
+          "leaves": 17,
+          "bytes": 20494,
+          "sha256": "aa37d456f498c7bd3504549461eba91ae3be44c6f9ebf961b57ee985750c9184"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0018.json",
+          "leaves": 16,
+          "bytes": 19342,
+          "sha256": "816946d0ceb8f5c45fb988d354f41796111f50b39e17d8694c86a867c6c55bbf"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0019.json",
+          "leaves": 17,
+          "bytes": 20521,
+          "sha256": "fccb6cfb54c8bd20f8286360401076b7fb99d2f2621e086a40890bdf3ee6c700"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0020.json",
+          "leaves": 16,
+          "bytes": 19349,
+          "sha256": "0e7e087be754e94f7c851014715d4cc732ff06f46d5c1c57c31de3120b59285d"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0021.json",
+          "leaves": 17,
+          "bytes": 20503,
+          "sha256": "1eea03459514d98143a1a80cdd7d906e6163b59e056dce002162e9db76f2d228"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0022.json",
+          "leaves": 17,
+          "bytes": 20526,
+          "sha256": "e085d0f5a369d7285f6b86c3bbac7080ec3bf48a743fe29eb35675b24a3253c1"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0023.json",
+          "leaves": 17,
+          "bytes": 20538,
+          "sha256": "76396a0ec6b9a4759388acb1d1e0f2ddca41be2f1c53e8957b2bb7a83fa7f921"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0024.json",
+          "leaves": 16,
+          "bytes": 19334,
+          "sha256": "94b7c1bc98a9dd35ec5336729eb5b30601302c58107266c31ec2fdcab0c186fc"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0025.json",
+          "leaves": 17,
+          "bytes": 20518,
+          "sha256": "e8663d2b311ec28e27482020ee869588aa0223388bb428765f7e9e387e1147e7"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0026.json",
+          "leaves": 17,
+          "bytes": 20530,
+          "sha256": "7e44e098b93b3867f4a1d1e4b338e6145c3ad893cf1b3a5ee5eee3f5a5fa7d1f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0027.json",
+          "leaves": 17,
+          "bytes": 20550,
+          "sha256": "663924bfcc1e061b5c6b9eaeaf4c109b74c2843f18a228fefc66a723a2965794"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0028.json",
+          "leaves": 16,
+          "bytes": 19370,
+          "sha256": "cafb9006416c7536840e38ecf0963e57174664aad7d56df2ab882ec425fd1b04"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0029.json",
+          "leaves": 17,
+          "bytes": 20530,
+          "sha256": "8ec37b3de14d4ed4f586545df9169c3b2c1db7e10fce5ebacfa0df5081b568d5"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0030.json",
+          "leaves": 17,
+          "bytes": 20536,
+          "sha256": "7649ea72a763d2b1bfcace30463dd776502ec214de443837d95dc75f03d2893d"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0031.json",
+          "leaves": 17,
+          "bytes": 20545,
+          "sha256": "8f82205c5c17ac41dd765eaa1866d6290a9b640a478acbbe6a6485b96d625013"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0032.json",
+          "leaves": 16,
+          "bytes": 19341,
+          "sha256": "9fe5f16d008060471d04511ca1d691f345186afb675d9ebd49e6db08189e22f6"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0033.json",
+          "leaves": 17,
+          "bytes": 20502,
+          "sha256": "3c9917a43359c4710a6a7e99315dc024896151f91d2c3f220ce69fabbad5982f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0034.json",
+          "leaves": 16,
+          "bytes": 19341,
+          "sha256": "20aea630f31ed0bc51c3c4c725519f59f0115a963bfe5dd99bf76e70d9a12c4e"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0035.json",
+          "leaves": 17,
+          "bytes": 20528,
+          "sha256": "0ec7f41025d6f23d81f148a59541e7409803043a954cb39c808109e29ac7627f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0036.json",
+          "leaves": 16,
+          "bytes": 19354,
+          "sha256": "643411b814a3f8c943eb7c3c8cb4859f19b361dd6478c0dfe74f71019e2478a2"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0037.json",
+          "leaves": 17,
+          "bytes": 20510,
+          "sha256": "bd1fc65844082294d42cf1908003faa80137603b8ed09cc6a6a3d4e5676c60cb"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0038.json",
+          "leaves": 17,
+          "bytes": 20529,
+          "sha256": "bc7a6a5c0271cb9e6707217f6641dca1d6807a3316c8b9248a017360d745ceef"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0039.json",
+          "leaves": 17,
+          "bytes": 20522,
+          "sha256": "13bd253c67a3a5ff81ad22c509f179add374f873fb66bd85b656d3a51352b86f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0040.json",
+          "leaves": 16,
+          "bytes": 19344,
+          "sha256": "ea6514b7a9304c08ea1ebe856ba2fc8312dd0478c8fde6e39b8aa9c00efc4733"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0041.json",
+          "leaves": 17,
+          "bytes": 20487,
+          "sha256": "87da7c312b7a44abc8d9a081c39e9d62c5d1aed56b6e990156cb2e215be871e5"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0042.json",
+          "leaves": 17,
+          "bytes": 20515,
+          "sha256": "76ef4e589163d02093aca725d62ab6435d606112d5bc15b55f024c3d23185f1b"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0043.json",
+          "leaves": 17,
+          "bytes": 20510,
+          "sha256": "f1398fa9cbc1ac4139a9fb801db71762bf82ffb6c3bb408acedc1dea9a74164f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0044.json",
+          "leaves": 16,
+          "bytes": 19331,
+          "sha256": "488a0f22fe0aae112ef293bbc821a341ea3cde5a2250cbe0f7e5d35152f93e57"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0045.json",
+          "leaves": 17,
+          "bytes": 20519,
+          "sha256": "6211c1701301985f7a7d6c1a2591dccf0477cae7ea1f04cb8d412c5ce2dd9416"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0046.json",
+          "leaves": 17,
+          "bytes": 20512,
+          "sha256": "33f8296854c9dfe684c9cac33e0e5fd31f7f827d29612403f75c8fdf9eacf949"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0047.json",
+          "leaves": 17,
+          "bytes": 20520,
+          "sha256": "689e751c455e10aa4184846bfd40252070c9cacf8f1fd27bde0eb96c3052a2ed"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0048.json",
+          "leaves": 16,
+          "bytes": 19365,
+          "sha256": "516f00070c654babd031ba87aabe5ddefab736d245e60e62be1ba8e4f9d33dde"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0049.json",
+          "leaves": 17,
+          "bytes": 20555,
+          "sha256": "f3a7837f659568628eeea8f397eead6efe9fbac3fafa79b6d9f6c912472f5a25"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0050.json",
+          "leaves": 17,
+          "bytes": 20540,
+          "sha256": "89d9b874a4ba5136da4d8d0649ef7f2e286e8b9ad1de5b0238487bd7d57b8818"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0051.json",
+          "leaves": 17,
+          "bytes": 20529,
+          "sha256": "dbfbade11512d0e473d281c4f89315a080c71d066f38d25cdb86cecdfb03840f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0052.json",
+          "leaves": 16,
+          "bytes": 19369,
+          "sha256": "a7ea3cda53e00a554c2e78193a0eefcff76acaf9e91b6ef94a82421a89e6de36"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0053.json",
+          "leaves": 17,
+          "bytes": 20541,
+          "sha256": "f52469c191ea8d2475d952d55e629972d1322bae93608a41367b6b6be9bb33c6"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0054.json",
+          "leaves": 17,
+          "bytes": 20542,
+          "sha256": "05b9e666abb660ebe01e4f01430d86e508051bf4059a3b3ae6bdde790d6baf74"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0055.json",
+          "leaves": 17,
+          "bytes": 20537,
+          "sha256": "b49593f9d4beaa9ec51846d263283ccfcaa611c2b0b4b4a580418ba3608363b7"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0056.json",
+          "leaves": 16,
+          "bytes": 19350,
+          "sha256": "aaa2f68c33124e7b8e707fd1fe1e96e2c977132f29774737233384159ebe912f"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0057.json",
+          "leaves": 17,
+          "bytes": 20511,
+          "sha256": "7ec323b209610363079d1495add73beddf098aedd4ba8b871c11b4b90ecd0922"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0058.json",
+          "leaves": 17,
+          "bytes": 20508,
+          "sha256": "96bb48763b8a8519be10ce0829b207d738d84d67b769139c93091cb53d0576be"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0059.json",
+          "leaves": 17,
+          "bytes": 20524,
+          "sha256": "2a81d8ab39ec0121b0c345da521d03d035df75277d0ce12f8ec50c6eddfa661b"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0060.json",
+          "leaves": 16,
+          "bytes": 19358,
+          "sha256": "e5c27e9b367f0ad48047eb797f6976767924cce63322aea8f30d8b14f6cf8b46"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0061.json",
+          "leaves": 17,
+          "bytes": 20517,
+          "sha256": "fddce167b8f7b509eddd87e2a19c82e51a75869c42100ed7b476dab8474859bf"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0062.json",
+          "leaves": 17,
+          "bytes": 20522,
+          "sha256": "ec2fac032e9fed6cdfcc62e47d194d91db61e384f54ebb4588eae23d6b09418d"
+        },
+        {
+          "path": "assets/performance/city/staten-island/page-0063.json",
+          "leaves": 17,
+          "bytes": 20530,
+          "sha256": "6971eb0f9371e00bc3e10ba8ae51b136b3f3ed875c6994b4747e6d3746271ac2"
+        }
+      ]
+    }
+  ],
+  "geometry_modified": false,
+  "vertices_or_ids_removed": 0,
+  "geometry_compression": "none",
+  "original_precise_models_retained": true,
+  "original_whole_city_extent_retained": true,
+  "processor_sha256": "105c5f81fa52b6c89ea2bc153fa19c42d27cefc4d5d9fbe29f986db996993298"
+}
