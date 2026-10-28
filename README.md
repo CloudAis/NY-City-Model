@@ -266,3 +266,29 @@ NYC_REPORT_DIR=reports/stage8/facades node tests/facades-browser.mjs
 离线增量打包：`.venv/bin/python scripts/package_inspection.py`。`reports/nyc-stage78-inspection-overlay.zip`不含旧5.3GiB全市瓦片；覆盖旧stage4包的app，保留`app/datasets/buildings-city`，或从当前dist复制该目录。进入app用`python3 -m http.server 8080 --bind 127.0.0.1`，打开`http://127.0.0.1:8080/inspection.html`。包内START_HERE与OVERLAY_MANIFEST明确基底SHA和范围。
 
 对实际增量包复验：`node tests/inspection-package.mjs`（需本机HTTP监听和Chromium）。结果在reports/stage8/package-browser.json；它使用同卷临时解压并接回既有全市数据，清楚记录基底依赖。最终ZIP校验和在同名.sha256，包外复验记录不参与ZIP自包含。
+
+## 性能与稳定性检查点
+
+当前同一入口inspection.html；运行`npm run dev`，浏览http://localhost:5180/inspection.html。三档画质与缓存/自动策略见docs/QUALITY.md。主数据和原GLB/精细表示完整保留，assets/performance只增加引用目录。
+
+```bash
+.venv/bin/python scripts/build_streaming_catalog.py
+npm test
+node tests/performance/rules.mjs
+npm run build
+node tests/performance/faults.mjs
+NYC_REPORT_DIR=reports/stage9/inspection NYC_OBSERVATION_REPORT=reports/stage9/observations.json node tests/inspection-browser.mjs
+NYC_PERF_LABEL=optimized-final NYC_PERF_ROOT=dist node tests/performance/benchmark.mjs
+node tests/performance/soak.mjs
+node tests/performance/visual.mjs
+.venv/bin/python scripts/check_performance_integrity.py
+.venv/bin/python scripts/report_performance.py
+.venv/bin/python scripts/package_performance.py
+NYC_REPORT_DIR=reports/stage9 node tests/inspection-package.mjs
+```
+
+benchmark基线需保留data/intermediate/stage9/baseline（本轮af311b2编译快照，静态数据指向未改assets）；配对测试按顺序、同视口/条件执行，不与其他浏览器测试并行。soak默认1800现实秒，禁止用加速模拟替代；短NYC_SOAK_SECONDS只作预检，不记30分钟通过。每轮GC前后均记，GC和后台测试负载如实列出。
+
+源码Git不带多GiB主库/原五区瓦片，恢复方式仍按前期说明。性能增量包reports/nyc-stage9-performance-overlay.zip需保留既有app/datasets/buildings-city；它包含新代码、完整查询/环境/原精细检查资源和来源/验证记录，没有删改原基底。ZIP校验与解压运行结果在包外stage9/package*.json。
+
+性能对照和仍有回退的路线见reports/PERFORMANCE_REVIEW.md，真实时长/内存/故障见STABILITY_REVIEW.md。软件WebGL结果不能外推硬件GPU/真机；本轮未解决的全城高程、完整可信建筑主体等前期缺口继续保留。

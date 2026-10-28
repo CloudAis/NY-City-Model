@@ -1,0 +1,5041 @@
+{
+  "at_utc": "2026-10-28T07:39:41.042Z",
+  "label": "baseline",
+  "code_commit": "af311b255735b5f836967aba6c6cc434c77aacf1",
+  "browser": "154.0.8037.57",
+  "hardware": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "hardwareConcurrency": 5,
+    "deviceMemory": 32,
+    "dpr": 1,
+    "viewport": [
+      1440,
+      1000
+    ],
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "vendor": "Google Inc. (Google)"
+  },
+  "route": {
+    "schema_version": 1,
+    "name": "nyc-fixed-route-v1",
+    "viewport": {
+      "width": 1440,
+      "height": 1000,
+      "deviceScaleFactor": 1
+    },
+    "quality": "medium",
+    "real_scene_rule": "actual source GLB tileLoad and rendered WebGL draw; firstDraw alone is not the first real scene",
+    "steps": [
+      {
+        "id": "city",
+        "action": "city",
+        "seconds": 10
+      },
+      {
+        "id": "midtown",
+        "action": "preset",
+        "preset": "central-south",
+        "seconds": 15
+      },
+      {
+        "id": "street-ground",
+        "action": "walk",
+        "area": "midtown",
+        "seconds": 12,
+        "scope": "restricted 2017 DEM ground inspection, not a completed street/body reproduction"
+      },
+      {
+        "id": "brooklyn",
+        "action": "preset",
+        "preset": "brooklyn-head",
+        "seconds": 12
+      },
+      {
+        "id": "queens",
+        "action": "preset",
+        "preset": "queensboro-head",
+        "seconds": 12
+      },
+      {
+        "id": "bronx",
+        "action": "preset",
+        "preset": "bruckner",
+        "seconds": 12
+      },
+      {
+        "id": "staten-island",
+        "action": "preset",
+        "preset": "st-george-ferry",
+        "seconds": 12
+      },
+      {
+        "id": "midtown-return",
+        "action": "preset",
+        "preset": "central-south",
+        "seconds": 12
+      }
+    ]
+  },
+  "quality": "medium",
+  "http_cache_disabled": true,
+  "first_real_scene_ms": 9310,
+  "elapsed_wall_ms": 143894,
+  "steps": [
+    {
+      "id": "city",
+      "actual_elapsed_ms": 12087.79999999702,
+      "new_requests": 54,
+      "measurement": {
+        "samples": 554,
+        "raf_ms": {
+          "p50": 16.69999999999891,
+          "p95": 16.799999999999272,
+          "p99": 283.2999999999993
+        },
+        "render_intervals": 10,
+        "draw_calls": {
+          "total": 547,
+          "max_per_interval": 103
+        },
+        "submitted_triangles": 61795,
+        "submitted_lines": 512162,
+        "long_tasks": {
+          "count": 0,
+          "total_ms": 0,
+          "max_ms": 0
+        },
+        "resources": {
+          "known_buffer_bytes": 7911160,
+          "buffers": 413,
+          "textures": 415,
+          "programs": 9
+        },
+        "jsHeap": {
+          "used": 101664228,
+          "total": 138932512,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": null,
+      "viewer": {
+        "mode": "city",
+        "preset": "brooklyn-span",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 79999.99999991833,
+        "cameraWorld": [
+          1348478.7888179393,
+          -4713569.652680326,
+          4189816.813083796
+        ],
+        "heading": 6.283185307179586,
+        "pitch": -1.5707963267948966,
+        "worldClampCount": 1,
+        "loadedTotal": 126,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": true
+          },
+          {
+            "key": "city:manhattan",
+            "state": "hidden",
+            "loaded": 85,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "hidden",
+            "loaded": 36,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:queens",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:bronx",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:staten-island",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": false
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/roads.json",
+            "shown": true
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/water.json",
+            "shown": true
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/transport.json",
+            "shown": true
+          },
+          {
+            "key": "piers",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/piers.json",
+            "shown": true
+          },
+          {
+            "key": "rail",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-span/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 16,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42102.152637
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 4
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 315
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 241
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 17876
+        },
+        {
+          "name": "Resources",
+          "value": 115
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 22
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 4
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 2533
+        },
+        {
+          "name": "LayoutCount",
+          "value": 39
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 41
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.873245
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.112867
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.514939
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 5.40578
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 9.25378
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 2.346949
+        },
+        {
+          "name": "ThreadTime",
+          "value": 4.873235
+        },
+        {
+          "name": "ProcessTime",
+          "value": 8.37
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 56291596
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 118116352
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    },
+    {
+      "id": "midtown",
+      "actual_elapsed_ms": 20995.5,
+      "new_requests": 56,
+      "measurement": {
+        "samples": 823,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 50,
+          "p99": 266.59999999999854
+        },
+        "render_intervals": 26,
+        "draw_calls": {
+          "total": 1260,
+          "max_per_interval": 71
+        },
+        "submitted_triangles": 127102,
+        "submitted_lines": 1091915,
+        "long_tasks": {
+          "count": 2,
+          "total_ms": 715,
+          "max_ms": 504
+        },
+        "resources": {
+          "known_buffer_bytes": 9974892,
+          "buffers": 530,
+          "textures": 239,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 110507526,
+          "total": 159872206,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": null,
+      "viewer": {
+        "mode": "orbit",
+        "preset": "central-south",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 1392.7605309117266,
+        "cameraWorld": [
+          1335905.5549357543,
+          -4651039.145278678,
+          4143178.3552763406
+        ],
+        "heading": 1.3677947663381929e-13,
+        "pitch": -0.9600835728206398,
+        "worldClampCount": 1,
+        "loadedTotal": 174,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": true
+          },
+          {
+            "key": "city:manhattan",
+            "state": "ready",
+            "loaded": 130,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "ready",
+            "loaded": 36,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:queens",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:bronx",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:staten-island",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": true
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/roads.json",
+            "shown": true
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/water.json",
+            "shown": true
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/transport.json",
+            "shown": true
+          },
+          {
+            "key": "piers",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 15,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42123.510573
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 4
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 499
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 306
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 26956
+        },
+        {
+          "name": "Resources",
+          "value": 171
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 23
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 4
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 3551
+        },
+        {
+          "name": "LayoutCount",
+          "value": 63
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 79
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.895906
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.121652
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.592996
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 17.071001
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 21.729484
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 3.047929
+        },
+        {
+          "name": "ThreadTime",
+          "value": 15.927459
+        },
+        {
+          "name": "ProcessTime",
+          "value": 20.8
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 88797948
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 127553536
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    },
+    {
+      "id": "street-ground",
+      "actual_elapsed_ms": 13401.60000000149,
+      "new_requests": 7,
+      "measurement": {
+        "samples": 759,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 50
+        },
+        "render_intervals": 0,
+        "draw_calls": {
+          "total": 0,
+          "max_per_interval": 0
+        },
+        "submitted_triangles": 0,
+        "submitted_lines": 0,
+        "long_tasks": {
+          "count": 1,
+          "total_ms": 74,
+          "max_ms": 74
+        },
+        "resources": {
+          "known_buffer_bytes": 9974892,
+          "buffers": 530,
+          "textures": 239,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 61470974,
+          "total": 67954162,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": {
+        "measurement": {
+          "samples": 758,
+          "raf_ms": {
+            "p50": 16.699999999999818,
+            "p95": 16.799999999999955,
+            "p99": 49.899999999999864
+          },
+          "render_intervals": 19,
+          "draw_calls": {
+            "total": 114,
+            "max_per_interval": 6
+          },
+          "submitted_triangles": 157586,
+          "submitted_lines": 203832,
+          "long_tasks": {
+            "count": 1,
+            "total_ms": 74,
+            "max_ms": 74
+          },
+          "resources": {
+            "known_buffer_bytes": 937488,
+            "buffers": 22,
+            "textures": 0,
+            "programs": 1
+          },
+          "jsHeap": {
+            "used": 62279972,
+            "total": 70391404,
+            "limit": 4395630592
+          },
+          "gpu_vram_measured_bytes": null
+        },
+        "position": [
+          -45.57350809924537,
+          148.98848132252738,
+          21.230668074567777
+        ]
+      },
+      "viewer": {
+        "mode": "walk",
+        "preset": "central-south",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 1392.7605309117266,
+        "cameraWorld": [
+          1335905.5549357543,
+          -4651039.145278678,
+          4143178.3552763406
+        ],
+        "heading": 1.3677947663381929e-13,
+        "pitch": -0.9600835728206398,
+        "worldClampCount": 1,
+        "loadedTotal": 174,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": false
+          },
+          {
+            "key": "city:manhattan",
+            "state": "ready",
+            "loaded": 130,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "ready",
+            "loaded": 36,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:queens",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:bronx",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": false
+          },
+          {
+            "key": "city:staten-island",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": false
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/roads.json",
+            "shown": false
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/water.json",
+            "shown": false
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/transport.json",
+            "shown": false
+          },
+          {
+            "key": "piers",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 15,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "localWalkState": {
+          "area": "midtown",
+          "position": [
+            -45.57350809924537,
+            148.11390132252322,
+            21.235184987386067
+          ],
+          "yaw": 0,
+          "pitch": -0.15,
+          "ready": true,
+          "enabled": true,
+          "blocked": false
+        },
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42137.493567
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 4
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 167
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 213
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 894
+        },
+        {
+          "name": "Resources",
+          "value": 9
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 22
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 4
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 4
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 3314
+        },
+        {
+          "name": "LayoutCount",
+          "value": 94
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 115
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.921573
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.131859
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.710703
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 17.765258
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 23.03855
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 3.509157
+        },
+        {
+          "name": "ThreadTime",
+          "value": 16.889435
+        },
+        {
+          "name": "ProcessTime",
+          "value": 22.39
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 53155116
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 68833280
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    },
+    {
+      "id": "brooklyn",
+      "actual_elapsed_ms": 17513.20000000298,
+      "new_requests": 15,
+      "measurement": {
+        "samples": 611,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 50.09999999999127,
+          "p99": 266.6999999999971
+        },
+        "render_intervals": 20,
+        "draw_calls": {
+          "total": 1302,
+          "max_per_interval": 79
+        },
+        "submitted_triangles": 274488,
+        "submitted_lines": 1450580,
+        "long_tasks": {
+          "count": 3,
+          "total_ms": 601,
+          "max_ms": 311
+        },
+        "resources": {
+          "known_buffer_bytes": 11331840,
+          "buffers": 547,
+          "textures": 285,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 71813530,
+          "total": 84209514,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": null,
+      "viewer": {
+        "mode": "orbit",
+        "preset": "brooklyn-head",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 1392.679861161724,
+        "cameraWorld": [
+          1333812.0827526026,
+          -4654786.806529813,
+          4139666.141808801
+        ],
+        "heading": 2.3561004494387774,
+        "pitch": -0.9600845264831293,
+        "worldClampCount": 1,
+        "loadedTotal": 181,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": true
+          },
+          {
+            "key": "city:manhattan",
+            "state": "ready",
+            "loaded": 133,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "ready",
+            "loaded": 37,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:queens",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:bronx",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:staten-island",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": true
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/roads.json",
+            "shown": true
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/water.json",
+            "shown": true
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/transport.json",
+            "shown": true
+          },
+          {
+            "key": "piers",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/brooklyn-head/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 15,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42155.54688
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 5
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 269
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 231
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 4434
+        },
+        {
+          "name": "Resources",
+          "value": 24
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 25
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 6
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 5
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 2
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 3455
+        },
+        {
+          "name": "LayoutCount",
+          "value": 109
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 145
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.930978
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.138573
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.780838
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 29.808786
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 35.960181
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 4.301006
+        },
+        {
+          "name": "ThreadTime",
+          "value": 28.92211
+        },
+        {
+          "name": "ProcessTime",
+          "value": 35.5
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 60470376
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 79056896
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    },
+    {
+      "id": "queens",
+      "actual_elapsed_ms": 16862.60000000149,
+      "new_requests": 52,
+      "measurement": {
+        "samples": 635,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 33.30000000000291,
+          "p99": 333.20000000001164
+        },
+        "render_intervals": 24,
+        "draw_calls": {
+          "total": 1737,
+          "max_per_interval": 127
+        },
+        "submitted_triangles": 239016,
+        "submitted_lines": 1767398,
+        "long_tasks": {
+          "count": 5,
+          "total_ms": 548,
+          "max_ms": 332
+        },
+        "resources": {
+          "known_buffer_bytes": 12443780,
+          "buffers": 664,
+          "textures": 351,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 68007260,
+          "total": 97422496,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": null,
+      "viewer": {
+        "mode": "orbit",
+        "preset": "queensboro-head",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 1302.1760803823638,
+        "cameraWorld": [
+          1339348.0972095886,
+          -4650316.455146736,
+          4142741.3855997208
+        ],
+        "heading": 4.712537193395372,
+        "pitch": -0.8728356721634465,
+        "worldClampCount": 1,
+        "loadedTotal": 223,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": true
+          },
+          {
+            "key": "city:manhattan",
+            "state": "ready",
+            "loaded": 149,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "ready",
+            "loaded": 37,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:queens",
+            "state": "ready",
+            "loaded": 22,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:bronx",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:staten-island",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": true
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/roads.json",
+            "shown": true
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/water.json",
+            "shown": true
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/transport.json",
+            "shown": true
+          },
+          {
+            "key": "piers",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/piers.json",
+            "shown": true
+          },
+          {
+            "key": "rail",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/rail.json",
+            "shown": false
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/queensboro-head/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 17,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42172.882803
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 4
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 99
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 192
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 723
+        },
+        {
+          "name": "Resources",
+          "value": 9
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 21
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 4
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 4164
+        },
+        {
+          "name": "LayoutCount",
+          "value": 128
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 178
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.945396
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.150672
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.839943
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 39.814702
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 46.647527
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 4.896814
+        },
+        {
+          "name": "ThreadTime",
+          "value": 39.009696
+        },
+        {
+          "name": "ProcessTime",
+          "value": 46.49
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 68157924
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 89018368
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    },
+    {
+      "id": "bronx",
+      "actual_elapsed_ms": 16798.30000000447,
+      "new_requests": 59,
+      "measurement": {
+        "samples": 187,
+        "raf_ms": {
+          "p50": 16.70000000001164,
+          "p95": 250.10000000000582,
+          "p99": 416.6000000000058
+        },
+        "render_intervals": 73,
+        "draw_calls": {
+          "total": 4537,
+          "max_per_interval": 72
+        },
+        "submitted_triangles": 759573,
+        "submitted_lines": 5356257,
+        "long_tasks": {
+          "count": 2,
+          "total_ms": 595,
+          "max_ms": 544
+        },
+        "resources": {
+          "known_buffer_bytes": 14931096,
+          "buffers": 783,
+          "textures": 354,
+          "programs": 13
+        },
+        "jsHeap": {
+          "used": 82870011,
+          "total": 113950835,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": null,
+      "viewer": {
+        "mode": "orbit",
+        "preset": "bruckner",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 1392.7593448751832,
+        "cameraWorld": [
+          1339186.4643777444,
+          -4647385.4701981945,
+          4146197.64564946
+        ],
+        "heading": 4.440892098500626e-14,
+        "pitch": -0.9600835718385903,
+        "worldClampCount": 1,
+        "loadedTotal": 272,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": true
+          },
+          {
+            "key": "city:manhattan",
+            "state": "ready",
+            "loaded": 168,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "ready",
+            "loaded": 37,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:queens",
+            "state": "ready",
+            "loaded": 22,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:bronx",
+            "state": "ready",
+            "loaded": 26,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:staten-island",
+            "state": "ready",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": true
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/roads.json",
+            "shown": true
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/water.json",
+            "shown": true
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/transport.json",
+            "shown": true
+          },
+          {
+            "key": "piers",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/piers.json",
+            "shown": true
+          },
+          {
+            "key": "rail",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/rail.json",
+            "shown": false
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/bruckner/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 17,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42190.001719
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 4
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 289
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 247
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 10899
+        },
+        {
+          "name": "Resources",
+          "value": 68
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 22
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 4
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 5212
+        },
+        {
+          "name": "LayoutCount",
+          "value": 144
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 208
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.954031
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.155227
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.876642
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 44.585703
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 51.855639
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.284036
+        },
+        {
+          "name": "ThreadTime",
+          "value": 43.17798
+        },
+        {
+          "name": "ProcessTime",
+          "value": 51.05
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 65810576
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 96067584
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    },
+    {
+      "id": "staten-island",
+      "actual_elapsed_ms": 16268.5,
+      "new_requests": 51,
+      "measurement": {
+        "samples": 654,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 233.3000000000029
+        },
+        "render_intervals": 24,
+        "draw_calls": {
+          "total": 1366,
+          "max_per_interval": 67
+        },
+        "submitted_triangles": 137038,
+        "submitted_lines": 1434963,
+        "long_tasks": {
+          "count": 2,
+          "total_ms": 249,
+          "max_ms": 196
+        },
+        "resources": {
+          "known_buffer_bytes": 17095108,
+          "buffers": 912,
+          "textures": 479,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 71803738,
+          "total": 135055706,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": null,
+      "viewer": {
+        "mode": "orbit",
+        "preset": "st-george-ferry",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 1392.394436095286,
+        "cameraWorld": [
+          1330987.53346101,
+          -4660940.912397416,
+          4133686.2912744484
+        ],
+        "heading": 4.188904933266782,
+        "pitch": -0.960084221636877,
+        "worldClampCount": 1,
+        "loadedTotal": 313,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": true
+          },
+          {
+            "key": "city:manhattan",
+            "state": "ready",
+            "loaded": 168,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "ready",
+            "loaded": 37,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:queens",
+            "state": "ready",
+            "loaded": 22,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:bronx",
+            "state": "ready",
+            "loaded": 26,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:staten-island",
+            "state": "ready",
+            "loaded": 37,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": true
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/roads.json",
+            "shown": true
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/water.json",
+            "shown": true
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/transport.json",
+            "shown": true
+          },
+          {
+            "key": "piers",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/piers.json",
+            "shown": true
+          },
+          {
+            "key": "rail",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/rail.json",
+            "shown": false
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/st-george-ferry/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 17,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42206.909996
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 4
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 103
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 203
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 1243
+        },
+        {
+          "name": "Resources",
+          "value": 11
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 21
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 4
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 5867
+        },
+        {
+          "name": "LayoutCount",
+          "value": 166
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 243
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.976806
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.163763
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.926651
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 51.244653
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 59.233058
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 5.921185
+        },
+        {
+          "name": "ThreadTime",
+          "value": 49.895225
+        },
+        {
+          "name": "ProcessTime",
+          "value": 58.34
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 64829576
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 123068416
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    },
+    {
+      "id": "midtown-return",
+      "actual_elapsed_ms": 16466.60000000149,
+      "new_requests": 11,
+      "measurement": {
+        "samples": 733,
+        "raf_ms": {
+          "p50": 16.699999999982538,
+          "p95": 16.79999999998836,
+          "p99": 200
+        },
+        "render_intervals": 20,
+        "draw_calls": {
+          "total": 1341,
+          "max_per_interval": 83
+        },
+        "submitted_triangles": 96480,
+        "submitted_lines": 1467272,
+        "long_tasks": {
+          "count": 1,
+          "total_ms": 213,
+          "max_ms": 213
+        },
+        "resources": {
+          "known_buffer_bytes": 17003132,
+          "buffers": 902,
+          "textures": 498,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 78095962,
+          "total": 140485250,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "child": null,
+      "viewer": {
+        "mode": "orbit",
+        "preset": "central-south",
+        "flying": false,
+        "layers": {
+          "buildings": true,
+          "roads": true,
+          "sidewalk": false,
+          "median": false,
+          "water": true,
+          "parks": true,
+          "transport": true,
+          "piers": true,
+          "rail": false,
+          "rail-structure": false,
+          "trees": false,
+          "outlines": false,
+          "evidence": false
+        },
+        "quality": "medium",
+        "selectedId": null,
+        "hoverId": null,
+        "lastClickedBuildingId": null,
+        "selectedRecord": null,
+        "keys": [],
+        "cameraHeight": 1392.7605309117266,
+        "cameraWorld": [
+          1335905.5549357543,
+          -4651039.145278678,
+          4143178.3552763406
+        ],
+        "heading": 1.376676550535194e-13,
+        "pitch": -0.9600835728206425,
+        "worldClampCount": 1,
+        "loadedTotal": 316,
+        "unloadedTotal": 0,
+        "layerStates": [
+          {
+            "key": "parks",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+            "url": "environment/parks.json",
+            "shown": true
+          },
+          {
+            "key": "city:manhattan",
+            "state": "ready",
+            "loaded": 168,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/manhattan/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:brooklyn",
+            "state": "ready",
+            "loaded": 37,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/brooklyn/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:queens",
+            "state": "ready",
+            "loaded": 22,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/queens/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:bronx",
+            "state": "ready",
+            "loaded": 26,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/bronx/strict.json",
+            "shown": true
+          },
+          {
+            "key": "city:staten-island",
+            "state": "ready",
+            "loaded": 37,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "全市来源轮廓；7500m以上隐藏完整细节",
+            "url": "buildings-city/staten-island/strict.json",
+            "shown": true
+          },
+          {
+            "key": "roads",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/roads.json",
+            "shown": true
+          },
+          {
+            "key": "sidewalk",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/sidewalk.json",
+            "shown": false
+          },
+          {
+            "key": "median",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/median.json",
+            "shown": false
+          },
+          {
+            "key": "water",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/water.json",
+            "shown": true
+          },
+          {
+            "key": "transport",
+            "state": "ready",
+            "loaded": 1,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/transport.json",
+            "shown": true
+          },
+          {
+            "key": "piers",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail",
+            "state": "no-data",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "此观察范围没有已取得记录",
+            "url": ""
+          },
+          {
+            "key": "rail-structure",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/rail-structure.json",
+            "shown": false
+          },
+          {
+            "key": "trees",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/trees.json",
+            "shown": false
+          },
+          {
+            "key": "outlines",
+            "state": "hidden",
+            "loaded": 0,
+            "pending": 0,
+            "processing": 0,
+            "failures": 0,
+            "message": "projection reference; no physical height",
+            "url": "environment/central-south/outlines.json",
+            "shown": false
+          }
+        ],
+        "primitives": 15,
+        "errors": [],
+        "tileFailures": [],
+        "bookmarks": [],
+        "measurementPoints": [],
+        "lastPick": null,
+        "lastExportCredit": "",
+        "worldGroundRegistered": false,
+        "cityBodyEvidence": "outline only",
+        "lighting": "neutral-fixed",
+        "solarDatetime": null,
+        "pickPoints": []
+      },
+      "cdp_metrics": [
+        {
+          "name": "Timestamp",
+          "value": 42223.657664
+        },
+        {
+          "name": "AudioHandlers",
+          "value": 0
+        },
+        {
+          "name": "AudioWorkletProcessors",
+          "value": 0
+        },
+        {
+          "name": "Documents",
+          "value": 4
+        },
+        {
+          "name": "Frames",
+          "value": 2
+        },
+        {
+          "name": "JSEventListeners",
+          "value": 197
+        },
+        {
+          "name": "LayoutObjects",
+          "value": 242
+        },
+        {
+          "name": "MediaKeySessions",
+          "value": 0
+        },
+        {
+          "name": "MediaKeys",
+          "value": 0
+        },
+        {
+          "name": "Nodes",
+          "value": 4597
+        },
+        {
+          "name": "Resources",
+          "value": 22
+        },
+        {
+          "name": "ContextLifecycleStateObservers",
+          "value": 22
+        },
+        {
+          "name": "V8PerContextDatas",
+          "value": 4
+        },
+        {
+          "name": "WorkerGlobalScopes",
+          "value": 0
+        },
+        {
+          "name": "UACSSResources",
+          "value": 0
+        },
+        {
+          "name": "RTCPeerConnections",
+          "value": 0
+        },
+        {
+          "name": "ResourceFetchers",
+          "value": 4
+        },
+        {
+          "name": "AdSubframes",
+          "value": 0
+        },
+        {
+          "name": "DetachedScriptStates",
+          "value": 0
+        },
+        {
+          "name": "ArrayBufferContents",
+          "value": 5920
+        },
+        {
+          "name": "LayoutCount",
+          "value": 175
+        },
+        {
+          "name": "RecalcStyleCount",
+          "value": 264
+        },
+        {
+          "name": "LayoutDuration",
+          "value": 0.982561
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "value": 0.168422
+        },
+        {
+          "name": "DevToolsCommandDuration",
+          "value": 0.989005
+        },
+        {
+          "name": "ScriptDuration",
+          "value": 58.892683
+        },
+        {
+          "name": "V8CompileDuration",
+          "value": 0
+        },
+        {
+          "name": "TaskDuration",
+          "value": 67.303586
+        },
+        {
+          "name": "TaskOtherDuration",
+          "value": 6.270915
+        },
+        {
+          "name": "ThreadTime",
+          "value": 57.551948
+        },
+        {
+          "name": "ProcessTime",
+          "value": 66.39
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 72427200
+        },
+        {
+          "name": "JSHeapTotalSize",
+          "value": 127787008
+        },
+        {
+          "name": "FirstMeaningfulPaint",
+          "value": 42084.832955
+        },
+        {
+          "name": "DomContentLoaded",
+          "value": 42083.040295
+        },
+        {
+          "name": "NavigationStart",
+          "value": 42080.055848
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "url": "http://127.0.0.1:4194/inspection.html?diagnostics=1",
+      "at": 1793173037229
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/inspection-D7FEgcH9.js",
+      "at": 1793173037332
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/Matrix4-C-Gm_KdH.js",
+      "at": 1793173037341
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/widgets-yBKt2FfH.js",
+      "at": 1793173037349
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/core-BA6uwpR9.js",
+      "at": 1793173037351
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/widgets-B9DDZdqH.css",
+      "at": 1793173037352
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/inspection-Li3ryHKo.css",
+      "at": 1793173037353
+    },
+    {
+      "url": "http://127.0.0.1:4194/cesium/Assets/approximateTerrainHeights.json",
+      "at": 1793173040203
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/manifest.json",
+      "at": 1793173040213
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/inspection/search/manifest.json",
+      "at": 1793173040231
+    },
+    {
+      "url": "http://127.0.0.1:4194/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+      "at": 1793173041018
+    },
+    {
+      "url": "http://127.0.0.1:4194/cesium/Assets/Images/ion-credit.png",
+      "at": 1793173041103
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/parks.json",
+      "at": 1793173041142
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/strict.json",
+      "at": 1793173041146
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/strict.json",
+      "at": 1793173041147
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/strict.json",
+      "at": 1793173041147
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/strict.json",
+      "at": 1793173041148
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/strict.json",
+      "at": 1793173041149
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/roads.json",
+      "at": 1793173041149
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/sidewalk.json",
+      "at": 1793173041152
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/median.json",
+      "at": 1793173041152
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/water.json",
+      "at": 1793173041153
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/transport.json",
+      "at": 1793173041154
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/piers.json",
+      "at": 1793173041154
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/rail-structure.json",
+      "at": 1793173041155
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/trees.json",
+      "at": 1793173041182
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/outlines.json",
+      "at": 1793173041184
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_120_000-strict.glb",
+      "at": 1793173043140
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/roads.glb",
+      "at": 1793173043144
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/water.glb",
+      "at": 1793173043145
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/piers.glb",
+      "at": 1793173043148
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_120_000-strict.glb",
+      "at": 1793173043151
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_121_001-strict.glb",
+      "at": 1793173043152
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_121_000-strict.glb",
+      "at": 1793173043153
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_119_000-strict.glb",
+      "at": 1793173043158
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_120_000-strict.glb",
+      "at": 1793173043158
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_121_000-strict.glb",
+      "at": 1793173043159
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_120_000-strict.glb",
+      "at": 1793173043159
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_122_000-strict.glb",
+      "at": 1793173043160
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_122_001-strict.glb",
+      "at": 1793173043161
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_122_000-strict.glb",
+      "at": 1793173043163
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_122_001-strict.glb",
+      "at": 1793173043164
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_122_000-strict.glb",
+      "at": 1793173043164
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_122_001-strict.glb",
+      "at": 1793173043164
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/600_118_000-strict.glb",
+      "at": 1793173043853
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-span/transport.glb",
+      "at": 1793173044596
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_121_000-strict.glb",
+      "at": 1793173044598
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_121_001-strict.glb",
+      "at": 1793173044599
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/600_119_000-strict.glb",
+      "at": 1793173044600
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/601_119_000-strict.glb",
+      "at": 1793173044600
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/parks.glb",
+      "at": 1793173044600
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_121_000-strict.glb",
+      "at": 1793173044601
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_121_000-strict.glb",
+      "at": 1793173044601
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_122_000-strict.glb",
+      "at": 1793173044606
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_123_001-strict.glb",
+      "at": 1793173044606
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_123_000-strict.glb",
+      "at": 1793173044606
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_123_000-strict.glb",
+      "at": 1793173044607
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_123_001-strict.glb",
+      "at": 1793173044607
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_119_000-strict.glb",
+      "at": 1793173044607
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_123_000-strict.glb",
+      "at": 1793173044608
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_123_001-strict.glb",
+      "at": 1793173044608
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_123_000-strict.glb",
+      "at": 1793173044608
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_123_001-strict.glb",
+      "at": 1793173044608
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_121_002-strict.glb",
+      "at": 1793173045835
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/601_118_000-strict.glb",
+      "at": 1793173045837
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_122_002-strict.glb",
+      "at": 1793173045841
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/602_119_000-strict.glb",
+      "at": 1793173045841
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_122_002-strict.glb",
+      "at": 1793173045842
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_124_002-strict.glb",
+      "at": 1793173045843
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_124_000-strict.glb",
+      "at": 1793173045843
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_120_000-strict.glb",
+      "at": 1793173045844
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_122_001-strict.glb",
+      "at": 1793173045844
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_120_000-strict.glb",
+      "at": 1793173045844
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_124_000-strict.glb",
+      "at": 1793173045845
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_122_000-strict.glb",
+      "at": 1793173045845
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_122_000-strict.glb",
+      "at": 1793173045846
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_123_000-strict.glb",
+      "at": 1793173045846
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_124_001-strict.glb",
+      "at": 1793173045854
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_124_000-strict.glb",
+      "at": 1793173045854
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_124_002-strict.glb",
+      "at": 1793173045855
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_124_000-strict.glb",
+      "at": 1793173045855
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_124_001-strict.glb",
+      "at": 1793173046464
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_124_001-strict.glb",
+      "at": 1793173046471
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/600_117_000-strict.glb",
+      "at": 1793173046471
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/602_118_000-strict.glb",
+      "at": 1793173046472
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_125_000-strict.glb",
+      "at": 1793173046473
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_125_001-strict.glb",
+      "at": 1793173046474
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_125_000-strict.glb",
+      "at": 1793173046475
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_124_000-strict.glb",
+      "at": 1793173046476
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_121_000-strict.glb",
+      "at": 1793173046477
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_125_000-strict.glb",
+      "at": 1793173046479
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_123_001-strict.glb",
+      "at": 1793173046492
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_124_001-strict.glb",
+      "at": 1793173046495
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_123_000-strict.glb",
+      "at": 1793173046495
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_126_000-strict.glb",
+      "at": 1793173046496
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_121_000-strict.glb",
+      "at": 1793173046496
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_126_000-strict.glb",
+      "at": 1793173046497
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_126_000-strict.glb",
+      "at": 1793173046501
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_126_001-strict.glb",
+      "at": 1793173046502
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/600_117_001-strict.glb",
+      "at": 1793173047138
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_125_000-strict.glb",
+      "at": 1793173047140
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/603_119_000-strict.glb",
+      "at": 1793173047143
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_125_001-strict.glb",
+      "at": 1793173047149
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_125_000-strict.glb",
+      "at": 1793173047150
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_126_000-strict.glb",
+      "at": 1793173047151
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_126_001-strict.glb",
+      "at": 1793173047152
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_122_001-strict.glb",
+      "at": 1793173047152
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_122_000-strict.glb",
+      "at": 1793173047155
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_124_000-strict.glb",
+      "at": 1793173047156
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_124_002-strict.glb",
+      "at": 1793173047156
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_126_000-strict.glb",
+      "at": 1793173047157
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_126_001-strict.glb",
+      "at": 1793173047158
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_126_002-strict.glb",
+      "at": 1793173047159
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_118_000-strict.glb",
+      "at": 1793173047164
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_123_000-strict.glb",
+      "at": 1793173047165
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_125_000-strict.glb",
+      "at": 1793173047168
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_125_002-strict.glb",
+      "at": 1793173047169
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/601_117_000-strict.glb",
+      "at": 1793173047515
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/605_122_000-strict.glb",
+      "at": 1793173047516
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/605_121_000-strict.glb",
+      "at": 1793173047517
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/600_125_001-strict.glb",
+      "at": 1793173047517
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/606_122_000-strict.glb",
+      "at": 1793173047518
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/606_124_000-strict.glb",
+      "at": 1793173047524
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/606_123_000-strict.glb",
+      "at": 1793173047525
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/606_122_001-strict.glb",
+      "at": 1793173047526
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_124_001-strict.glb",
+      "at": 1793173047526
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/607_124_000-strict.glb",
+      "at": 1793173047526
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/607_124_001-strict.glb",
+      "at": 1793173047527
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/603_118_000-strict.glb",
+      "at": 1793173047528
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_125_001-strict.glb",
+      "at": 1793173047528
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_125_003-strict.glb",
+      "at": 1793173047528
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_126_000-strict.glb",
+      "at": 1793173047529
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_126_003-strict.glb",
+      "at": 1793173047530
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_126_002-strict.glb",
+      "at": 1793173047531
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/599_126_001-strict.glb",
+      "at": 1793173047531
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/607_124_002-strict.glb",
+      "at": 1793173047921
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/605_120_001-strict.glb",
+      "at": 1793173047932
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/605_120_000-strict.glb",
+      "at": 1793173047934
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/607_123_000-strict.glb",
+      "at": 1793173047935
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/606_121_001-strict.glb",
+      "at": 1793173047936
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/606_121_002-strict.glb",
+      "at": 1793173047937
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/606_121_000-strict.glb",
+      "at": 1793173047938
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/607_122_000-strict.glb",
+      "at": 1793173047939
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/607_122_001-strict.glb",
+      "at": 1793173047939
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/607_122_002-strict.glb",
+      "at": 1793173047940
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/604_120_000-strict.glb",
+      "at": 1793173047940
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/602_117_000-strict.glb",
+      "at": 1793173047940
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/604_119_000-strict.glb",
+      "at": 1793173047941
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/608_123_000-strict.glb",
+      "at": 1793173047942
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/608_123_002-strict.glb",
+      "at": 1793173047943
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/608_123_001-strict.glb",
+      "at": 1793173047944
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/605_119_000-strict.glb",
+      "at": 1793173047944
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/598_124_000-strict.glb",
+      "at": 1793173047945
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/roads.json",
+      "at": 1793173059561
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/sidewalk.json",
+      "at": 1793173059562
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/median.json",
+      "at": 1793173059562
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/water.json",
+      "at": 1793173059571
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/transport.json",
+      "at": 1793173059572
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/rail-structure.json",
+      "at": 1793173059572
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/trees.json",
+      "at": 1793173059572
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/outlines.json",
+      "at": 1793173059572
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/roads.glb",
+      "at": 1793173059635
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/transport.glb",
+      "at": 1793173059636
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/water.glb",
+      "at": 1793173059636
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_133_000-strict.glb",
+      "at": 1793173060435
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_134_000-strict.glb",
+      "at": 1793173060436
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_133_000-strict.glb",
+      "at": 1793173060436
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_132_000-strict.glb",
+      "at": 1793173060438
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_133_001-strict.glb",
+      "at": 1793173060440
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_133_000-strict.glb",
+      "at": 1793173060440
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_134_000-strict.glb",
+      "at": 1793173060442
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_134_000-strict.glb",
+      "at": 1793173060448
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_132_000-strict.glb",
+      "at": 1793173060448
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_135_002-strict.glb",
+      "at": 1793173060449
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_135_000-strict.glb",
+      "at": 1793173060450
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_135_001-strict.glb",
+      "at": 1793173060450
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_132_000-strict.glb",
+      "at": 1793173060450
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_132_001-strict.glb",
+      "at": 1793173060451
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_135_000-strict.glb",
+      "at": 1793173060452
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_135_000-strict.glb",
+      "at": 1793173060452
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/604_136_000-strict.glb",
+      "at": 1793173060453
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_134_000-strict.glb",
+      "at": 1793173060453
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_133_000-strict.glb",
+      "at": 1793173060699
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_136_000-strict.glb",
+      "at": 1793173060706
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/603_136_001-strict.glb",
+      "at": 1793173060709
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_133_001-strict.glb",
+      "at": 1793173060713
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_134_000-strict.glb",
+      "at": 1793173060713
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_134_001-strict.glb",
+      "at": 1793173060714
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_135_000-strict.glb",
+      "at": 1793173060714
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_133_001-strict.glb",
+      "at": 1793173060715
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_133_000-strict.glb",
+      "at": 1793173060715
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_135_000-strict.glb",
+      "at": 1793173060716
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_136_000-strict.glb",
+      "at": 1793173060716
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_135_001-strict.glb",
+      "at": 1793173060716
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_136_000-strict.glb",
+      "at": 1793173060717
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_136_000-strict.glb",
+      "at": 1793173060717
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_136_001-strict.glb",
+      "at": 1793173060718
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_132_000-strict.glb",
+      "at": 1793173060718
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/602_132_001-strict.glb",
+      "at": 1793173060718
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_132_000-strict.glb",
+      "at": 1793173060719
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_132_001-strict.glb",
+      "at": 1793173061221
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_134_000-strict.glb",
+      "at": 1793173061230
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_135_000-strict.glb",
+      "at": 1793173061233
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_135_000-strict.glb",
+      "at": 1793173061233
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_135_001-strict.glb",
+      "at": 1793173061235
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_136_000-strict.glb",
+      "at": 1793173061236
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_135_002-strict.glb",
+      "at": 1793173061240
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_136_001-strict.glb",
+      "at": 1793173061241
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/601_136_000-strict.glb",
+      "at": 1793173061241
+    },
+    {
+      "url": "http://127.0.0.1:4194/terrain.html?embedded=1&walk=1&extended=1&area=lower-manhattan&diagnostics=1",
+      "at": 1793173081090
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/terrain-rGLeqLVR.js",
+      "at": 1793173081143
+    },
+    {
+      "url": "http://127.0.0.1:4194/assets/terrain-D5J9fsKJ.css",
+      "at": 1793173081145
+    },
+    {
+      "url": "http://127.0.0.1:4194/terrain.html?embedded=1&walk=1&extended=1&area=midtown&diagnostics=1",
+      "at": 1793173081163
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/terrain-manifest.json",
+      "at": 1793173081261
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/foundation/midtown.json",
+      "at": 1793173081308
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/collision/midtown.json",
+      "at": 1793173081396
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/roads.json",
+      "at": 1793173094780
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/sidewalk.json",
+      "at": 1793173094780
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/median.json",
+      "at": 1793173094782
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/water.json",
+      "at": 1793173094782
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/transport.json",
+      "at": 1793173094783
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/rail-structure.json",
+      "at": 1793173094784
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/trees.json",
+      "at": 1793173094784
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/outlines.json",
+      "at": 1793173094784
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/597_121_000-strict.glb",
+      "at": 1793173094903
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/597_120_000-strict.glb",
+      "at": 1793173094903
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/597_119_000-strict.glb",
+      "at": 1793173094904
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/brooklyn/599_116_000-strict.glb",
+      "at": 1793173094904
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/roads.glb",
+      "at": 1793173095317
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/transport.glb",
+      "at": 1793173095317
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/brooklyn-head/water.glb",
+      "at": 1793173095318
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/roads.json",
+      "at": 1793173113165
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/sidewalk.json",
+      "at": 1793173113171
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/median.json",
+      "at": 1793173113172
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/water.json",
+      "at": 1793173113172
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/transport.json",
+      "at": 1793173113173
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/piers.json",
+      "at": 1793173113174
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/rail.json",
+      "at": 1793173113175
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/rail-structure.json",
+      "at": 1793173113176
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/trees.json",
+      "at": 1793173113176
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/outlines.json",
+      "at": 1793173113177
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/609_130_000-strict.glb",
+      "at": 1793173113229
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/609_131_000-strict.glb",
+      "at": 1793173113235
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/608_130_000-strict.glb",
+      "at": 1793173113239
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/608_131_000-strict.glb",
+      "at": 1793173113241
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/610_130_000-strict.glb",
+      "at": 1793173113243
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/608_131_000-strict.glb",
+      "at": 1793173113243
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_131_000-strict.glb",
+      "at": 1793173113244
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_130_000-strict.glb",
+      "at": 1793173113244
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/roads.glb",
+      "at": 1793173113335
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/water.glb",
+      "at": 1793173113344
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/piers.glb",
+      "at": 1793173113350
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/queensboro-head/transport.glb",
+      "at": 1793173113353
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/610_131_000-strict.glb",
+      "at": 1793173113354
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/609_129_000-strict.glb",
+      "at": 1793173113354
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/608_132_000-strict.glb",
+      "at": 1793173113354
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/607_129_000-strict.glb",
+      "at": 1793173113355
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_131_000-strict.glb",
+      "at": 1793173113355
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_132_000-strict.glb",
+      "at": 1793173113355
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/610_130_001-strict.glb",
+      "at": 1793173113709
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/608_129_000-strict.glb",
+      "at": 1793173113715
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/609_132_000-strict.glb",
+      "at": 1793173113716
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_130_000-strict.glb",
+      "at": 1793173113722
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/610_129_000-strict.glb",
+      "at": 1793173113723
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_131_000-strict.glb",
+      "at": 1793173113724
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_130_001-strict.glb",
+      "at": 1793173113724
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_130_000-strict.glb",
+      "at": 1793173113725
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_131_001-strict.glb",
+      "at": 1793173113728
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/606_129_000-strict.glb",
+      "at": 1793173113728
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/605_129_000-strict.glb",
+      "at": 1793173113730
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/607_128_000-strict.glb",
+      "at": 1793173113731
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/608_128_001-strict.glb",
+      "at": 1793173113732
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/608_128_000-strict.glb",
+      "at": 1793173113733
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/610_132_000-strict.glb",
+      "at": 1793173113734
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/610_132_001-strict.glb",
+      "at": 1793173113735
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/607_128_001-strict.glb",
+      "at": 1793173113735
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_133_000-strict.glb",
+      "at": 1793173113736
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/607_133_001-strict.glb",
+      "at": 1793173114130
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/608_133_000-strict.glb",
+      "at": 1793173114136
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/609_128_000-strict.glb",
+      "at": 1793173114138
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/606_128_000-strict.glb",
+      "at": 1793173114139
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/606_127_000-strict.glb",
+      "at": 1793173114139
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/queens/607_127_000-strict.glb",
+      "at": 1793173118268
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/roads.json",
+      "at": 1793173130386
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/sidewalk.json",
+      "at": 1793173130388
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/median.json",
+      "at": 1793173130388
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/water.json",
+      "at": 1793173130389
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/transport.json",
+      "at": 1793173130389
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/piers.json",
+      "at": 1793173130389
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/rail.json",
+      "at": 1793173130389
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/rail-structure.json",
+      "at": 1793173130390
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/trees.json",
+      "at": 1793173130397
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/outlines.json",
+      "at": 1793173130398
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_141_000-strict.glb",
+      "at": 1793173130439
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/612_141_000-strict.glb",
+      "at": 1793173130446
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/612_142_000-strict.glb",
+      "at": 1793173130448
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_142_000-strict.glb",
+      "at": 1793173130448
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/611_140_000-strict.glb",
+      "at": 1793173130449
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/613_140_000-strict.glb",
+      "at": 1793173130449
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/610_142_001-strict.glb",
+      "at": 1793173130451
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/610_143_000-strict.glb",
+      "at": 1793173130452
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/roads.glb",
+      "at": 1793173130510
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/piers.glb",
+      "at": 1793173130510
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/water.glb",
+      "at": 1793173130512
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/bruckner/transport.glb",
+      "at": 1793173130512
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/612_143_000-strict.glb",
+      "at": 1793173130513
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/611_142_000-strict.glb",
+      "at": 1793173130513
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_143_000-strict.glb",
+      "at": 1793173130513
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/611_141_000-strict.glb",
+      "at": 1793173130513
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/610_142_000-strict.glb",
+      "at": 1793173130514
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/610_141_000-strict.glb",
+      "at": 1793173130514
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_142_001-strict.glb",
+      "at": 1793173130875
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/612_140_000-strict.glb",
+      "at": 1793173130876
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_140_000-strict.glb",
+      "at": 1793173130877
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_143_001-strict.glb",
+      "at": 1793173130877
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/611_143_000-strict.glb",
+      "at": 1793173130877
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/614_142_000-strict.glb",
+      "at": 1793173130878
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/614_141_000-strict.glb",
+      "at": 1793173130880
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/614_142_001-strict.glb",
+      "at": 1793173130880
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/612_144_000-strict.glb",
+      "at": 1793173130881
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_144_000-strict.glb",
+      "at": 1793173130881
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/610_144_000-strict.glb",
+      "at": 1793173130882
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/611_144_000-strict.glb",
+      "at": 1793173130882
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/610_140_001-strict.glb",
+      "at": 1793173130882
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/609_143_001-strict.glb",
+      "at": 1793173130886
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/609_143_002-strict.glb",
+      "at": 1793173130886
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/609_143_000-strict.glb",
+      "at": 1793173130887
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/609_144_000-strict.glb",
+      "at": 1793173130887
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/609_144_001-strict.glb",
+      "at": 1793173130888
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/613_144_001-strict.glb",
+      "at": 1793173131268
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/614_143_000-strict.glb",
+      "at": 1793173131268
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/611_144_000-strict.glb",
+      "at": 1793173131268
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/614_140_000-strict.glb",
+      "at": 1793173131269
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/614_144_000-strict.glb",
+      "at": 1793173131269
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/615_143_000-strict.glb",
+      "at": 1793173131281
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/615_142_000-strict.glb",
+      "at": 1793173131282
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/610_140_000-strict.glb",
+      "at": 1793173131282
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/615_144_000-strict.glb",
+      "at": 1793173131282
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/615_144_001-strict.glb",
+      "at": 1793173131283
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/bronx/615_143_001-strict.glb",
+      "at": 1793173131283
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/609_144_002-strict.glb",
+      "at": 1793173131283
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/manhattan/609_144_003-strict.glb",
+      "at": 1793173131295
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/roads.json",
+      "at": 1793173147788
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/sidewalk.json",
+      "at": 1793173147794
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/median.json",
+      "at": 1793173147794
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/water.json",
+      "at": 1793173147795
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/transport.json",
+      "at": 1793173147795
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/piers.json",
+      "at": 1793173147796
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/rail.json",
+      "at": 1793173147796
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/rail-structure.json",
+      "at": 1793173147796
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/trees.json",
+      "at": 1793173147796
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/outlines.json",
+      "at": 1793173147797
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/587_106_000-strict.glb",
+      "at": 1793173147892
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/587_105_000-strict.glb",
+      "at": 1793173147905
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/roads.glb",
+      "at": 1793173147906
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/water.glb",
+      "at": 1793173147906
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_105_000-strict.glb",
+      "at": 1793173147907
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_105_001-strict.glb",
+      "at": 1793173147907
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/587_104_000-strict.glb",
+      "at": 1793173147908
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_104_001-strict.glb",
+      "at": 1793173147908
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_104_000-strict.glb",
+      "at": 1793173147909
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_104_002-strict.glb",
+      "at": 1793173147910
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_105_001-strict.glb",
+      "at": 1793173147910
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_105_002-strict.glb",
+      "at": 1793173147910
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_104_001-strict.glb",
+      "at": 1793173147911
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_104_000-strict.glb",
+      "at": 1793173147911
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_104_002-strict.glb",
+      "at": 1793173147911
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_106_000-strict.glb",
+      "at": 1793173147912
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_106_001-strict.glb",
+      "at": 1793173147912
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/piers.glb",
+      "at": 1793173148112
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/st-george-ferry/transport.glb",
+      "at": 1793173148624
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_106_000-strict.glb",
+      "at": 1793173148627
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_105_000-strict.glb",
+      "at": 1793173148628
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_103_000-strict.glb",
+      "at": 1793173148628
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_103_001-strict.glb",
+      "at": 1793173148632
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_103_000-strict.glb",
+      "at": 1793173148638
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_103_001-strict.glb",
+      "at": 1793173148639
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/587_103_000-strict.glb",
+      "at": 1793173148640
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/584_105_001-strict.glb",
+      "at": 1793173148640
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/584_105_000-strict.glb",
+      "at": 1793173148646
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/584_105_002-strict.glb",
+      "at": 1793173148647
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/584_104_001-strict.glb",
+      "at": 1793173148649
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/584_104_000-strict.glb",
+      "at": 1793173148788
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_103_002-strict.glb",
+      "at": 1793173148794
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/584_106_000-strict.glb",
+      "at": 1793173148794
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_102_001-strict.glb",
+      "at": 1793173148795
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_102_002-strict.glb",
+      "at": 1793173148795
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_102_000-strict.glb",
+      "at": 1793173148796
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/587_102_000-strict.glb",
+      "at": 1793173148796
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_101_001-strict.glb",
+      "at": 1793173149042
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/586_101_000-strict.glb",
+      "at": 1793173149044
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_102_000-strict.glb",
+      "at": 1793173152234
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/buildings-city/staten-island/585_102_001-strict.glb",
+      "at": 1793173152235
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/roads.json",
+      "at": 1793173164305
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/sidewalk.json",
+      "at": 1793173164311
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/median.json",
+      "at": 1793173164311
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/water.json",
+      "at": 1793173164312
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/transport.json",
+      "at": 1793173164312
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/rail-structure.json",
+      "at": 1793173164313
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/trees.json",
+      "at": 1793173164314
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/outlines.json",
+      "at": 1793173164314
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/roads.glb",
+      "at": 1793173164431
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/transport.glb",
+      "at": 1793173164434
+    },
+    {
+      "url": "http://127.0.0.1:4194/datasets/environment/central-south/water.glb",
+      "at": 1793173164434
+    }
+  ],
+  "real_hardware_gpu": false,
+  "notes": [
+    "rAF quantiles are UI heartbeat including idle; rendered intervals and submitted calls reported separately",
+    "submitted triangles include repeated frames, not unique model triangles",
+    "buffer bytes are estimates of known WebGL allocations, no VRAM measurement",
+    "street step limited to existing local DEM; no current complete street models"
+  ]
+}

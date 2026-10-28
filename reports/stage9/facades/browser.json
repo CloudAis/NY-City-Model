@@ -1,0 +1,224 @@
+{
+  "at_utc": "2026-10-28T08:55:22.189Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    "default evidence mode has12 real AOIs,918 unique source objects and no invented current facades",
+    "all12 actual source AOIs load GLBs and explicit boundaries without accumulating old tilesets",
+    "per-face panel distinguishes historical front from unknown current sides without a whole-building truth label",
+    "historical toggle loads four distinct licensed photo textures, restores evidence mode and never hides current outlines",
+    "fixed neutral observation path covers front, joins, close windows and the explicitly missing back",
+    "original reference previews are local, dated and separate from derived textures and current status",
+    "changing AOI removes historical fragments, disables unsuitable mode and preserves bounded resource counts",
+    "narrow screen can select buildings and faces, switch mode and collapse to a usable viewport"
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4187/facades.html?diagnostics=1",
+    "http://127.0.0.1:4187/assets/facades-BOuViu5H.js",
+    "http://127.0.0.1:4187/assets/Matrix4-C-Gm_KdH.js",
+    "http://127.0.0.1:4187/assets/widgets-C11COIAR.js",
+    "http://127.0.0.1:4187/assets/DirectionalLight-DmOqr7bR.js",
+    "http://127.0.0.1:4187/assets/widgets-B9DDZdqH.css",
+    "http://127.0.0.1:4187/assets/facades-D0IhEOrm.css",
+    "http://127.0.0.1:4187/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4187/datasets/facades/manifest.json",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/street.json",
+    "http://127.0.0.1:4187/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4187/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/area.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/tileset.json",
+    "http://127.0.0.1:4187/cesium/Workers/createGeometry.js",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/outline.glb",
+    "http://127.0.0.1:4187/cesium/Workers/transferTypedArrayTest.js",
+    "http://127.0.0.1:4187/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4187/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4187/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4187/cesium/Workers/createPolylineGeometry.js",
+    "http://127.0.0.1:4187/cesium/Workers/combineGeometry.js",
+    "http://127.0.0.1:4187/cesium/Workers/chunk-IGOYCRIJ.js",
+    "http://127.0.0.1:4187/cesium/Workers/chunk-J6FR5PFB.js",
+    "http://127.0.0.1:4187/cesium/Workers/chunk-GWE2HRAQ.js",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/area.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-soho/area.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-soho/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-soho/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-financial/area.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-financial/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-financial/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-park-slope/area.json",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-park-slope/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-park-slope/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-dumbo/area.json",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-dumbo/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-dumbo/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-flatbush/area.json",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-flatbush/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/brooklyn-flatbush/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/queens-jackson-heights/area.json",
+    "http://127.0.0.1:4187/datasets/facades/queens-jackson-heights/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/queens-jackson-heights/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/queens-forest-hills/area.json",
+    "http://127.0.0.1:4187/datasets/facades/queens-forest-hills/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/queens-forest-hills/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/bronx-mott-haven/area.json",
+    "http://127.0.0.1:4187/datasets/facades/bronx-mott-haven/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/bronx-mott-haven/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/bronx-hunts-point/area.json",
+    "http://127.0.0.1:4187/datasets/facades/bronx-hunts-point/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/bronx-hunts-point/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/staten-st-george/area.json",
+    "http://127.0.0.1:4187/datasets/facades/staten-st-george/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/staten-st-george/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/staten-tottenville/area.json",
+    "http://127.0.0.1:4187/datasets/facades/staten-tottenville/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/staten-tottenville/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/area.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/model.glb",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-4.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-6.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-8.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-10.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/model.glb",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-4.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-6.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-8.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-10.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/source-photo.jpg",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/source-drawing.jpg",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-soho/area.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-soho/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-soho/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/area.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/manhattan-grove/outline.glb",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/tileset.json",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/model.glb",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-4.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-6.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-8.png",
+    "http://127.0.0.1:4187/datasets/facades/grove-1936/front-10.png"
+  ],
+  "areas": [
+    {
+      "id": "manhattan-grove",
+      "buildings": 7,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "manhattan-soho",
+      "buildings": 72,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "manhattan-financial",
+      "buildings": 24,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "brooklyn-park-slope",
+      "buildings": 122,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "brooklyn-dumbo",
+      "buildings": 14,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "brooklyn-flatbush",
+      "buildings": 72,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "queens-jackson-heights",
+      "buildings": 72,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "queens-forest-hills",
+      "buildings": 109,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "bronx-mott-haven",
+      "buildings": 106,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "bronx-hunts-point",
+      "buildings": 9,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "staten-st-george",
+      "buildings": 140,
+      "actualGlbRequested": true
+    },
+    {
+      "id": "staten-tottenville",
+      "buildings": 171,
+      "actualGlbRequested": true
+    }
+  ],
+  "views": [
+    {
+      "id": "front",
+      "cameraWorld": [
+        1333608.5101678392,
+        -4652661.191116197,
+        4139980.9157956284
+      ],
+      "light": "fixed neutral",
+      "scope": "historical wall fragments; no roof/stoop/rear completion"
+    },
+    {
+      "id": "left",
+      "cameraWorld": [
+        1333588.3448906254,
+        -4652677.941414171,
+        4139970.2018275177
+      ],
+      "light": "fixed neutral",
+      "scope": "historical wall fragments; no roof/stoop/rear completion"
+    },
+    {
+      "id": "right",
+      "cameraWorld": [
+        1333636.94881679,
+        -4652666.046437325,
+        4139967.928528682
+      ],
+      "light": "fixed neutral",
+      "scope": "historical wall fragments; no roof/stoop/rear completion"
+    },
+    {
+      "id": "close",
+      "cameraWorld": [
+        1333611.384033212,
+        -4652678.476072965,
+        4139957.6355214184
+      ],
+      "light": "fixed neutral",
+      "scope": "historical wall fragments; no roof/stoop/rear completion"
+    },
+    {
+      "id": "rear",
+      "cameraWorld": [
+        1333621.693135407,
+        -4652707.18396586,
+        4139928.4194419854
+      ],
+      "light": "fixed neutral",
+      "scope": "historical wall fragments; no roof/stoop/rear completion"
+    }
+  ],
+  "current_verified_facades": 0,
+  "complete_current_streets": 0,
+  "scope": "actual partial historical photo planes and source inventories; NOT full facade or current street acceptance"
+}

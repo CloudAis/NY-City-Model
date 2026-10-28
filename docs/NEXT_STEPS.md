@@ -1,3 +1,21 @@
+# 性能与稳定性接续入口
+
+固定/workspace/nyc-3d-html。先读AGENTS、PROJECT_BRIEF、ARCHITECTURE、PROGRESS、QUALITY和reports/PERFORMANCE_REVIEW.md、STABILITY_REVIEW.md；实际源/运行检查点ebc86ce，最终文档/交付记录见本次Git提交。不另起演示、不变真实尺寸或丢原模型。
+
+直接使用：
+
+1. assets/performance/manifest及五区root/pages，完整引用7,383原严格叶；旧assets/buildings-city/主库/原精细资产完整，input-integrity保存原22178发布文件与其余来源SHA。不要因克隆缺大数据而补随机模型。
+2. src/inspection/runtime、search.worker、main及受限terrain入口。Cesium1.146两个private预算适配器升级需源码复核；公开loadJson用于可取消根JSON，Resource会克隆实例。
+3. config/performance-route、tests/performance的同探针基准/故障/固定机位/真实时长soak、scripts/report_performance与package_performance；短soak不能写30分通过。
+4. reports/stage9/comparison含逐段/整体受控数据，优化峰值主堆降低但部分P99回退；初方案结果也保留。soak/result实际1822.909秒、37轮、0错误且不重载，memory-trend明确GC与主isolate/估算范围。
+5. 性能ZIP是显式有完整旧五区基底依赖的overlay，包外SHA/实际解压检查不参与ZIP自校验循环。新静态目录/模型来源仍为原工程，不宣称当前全城精细复刻完成。
+
+后续优先：真实GPU/移动硬件上重复相同路线，多次配对测量与CPU/GPU分析，定位首景/跨区长帧，不以删楼、缩城或隐式换低模优化成绩。按真实设备重新选请求/创建预算；如派生几何LOD/压缩必须保留原件并加固定机位/数值误差。当前仅元数据与调度变化，不在此轮继续大规模重建。
+
+全局高程/桥面及可信建筑主体/屋顶/现状立面的前期任务仍独立待补，不把性能通过当真实性通过。当前授权范围已结束，下一阶段待用户明确指定。
+
+---
+
 # 第7/8部分接续入口
 
 固定/workspace/nyc-3d-html。先读AGENTS、全部docs、reports/ENVIRONMENT_REVIEW.md、INTERACTION_REVIEW.md、stage7/quality.json和stage8/browser.json。保持原坐标/轮廓与数据原件；不要另起演示或推定已完成全部物理环境。

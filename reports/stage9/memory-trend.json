@@ -1,0 +1,11 @@
+{
+  "last_ten_minutes_samples": 14,
+  "js_heap_after_forced_gc_min_mib": 54.6920051574707,
+  "max_mib": 57.02489471435547,
+  "slope_mib_per_minute": 0.11227716786500179,
+  "heap_forced_gc_is_intrusive": true,
+  "memory_scope": "CDP main-isolate heap; query Worker cache separately estimated; no VRAM interface",
+  "estimated_cesium_peak_bytes": 56850759,
+  "known_webgl_buffer_estimate_peak_bytes": 40203900,
+  "observed_live_heap_plateau": true
+}

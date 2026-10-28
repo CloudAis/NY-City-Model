@@ -1,0 +1,119 @@
+{
+  "started_utc": "2026-10-28T08:47:15.821Z",
+  "latest": {
+    "cycle": 36,
+    "at_utc": "2026-10-28T09:17:38.728Z",
+    "elapsed_real_seconds": 1822.907,
+    "cycle_seconds": 43.997,
+    "visibility": "visible",
+    "raf_ms": {
+      "p50": 16.699999999953434,
+      "p95": 250,
+      "p99": 383.30000000004657
+    },
+    "frame_samples": 972,
+    "render_intervals": 121,
+    "submitted_triangles": 648597,
+    "draw_calls": 7478,
+    "longTasks": [
+      {
+        "start": 1790376.599999994,
+        "duration": 173
+      },
+      {
+        "start": 1790587.1999999955,
+        "duration": 191
+      },
+      {
+        "start": 1791012.3999999985,
+        "duration": 188
+      },
+      {
+        "start": 1798110,
+        "duration": 751
+      },
+      {
+        "start": 1798991.6999999955,
+        "duration": 68
+      }
+    ],
+    "resources": {
+      "known_buffer_bytes": 40203900,
+      "buffers": 1989,
+      "textures": 720,
+      "programs": 16
+    },
+    "jsHeapBeforeForcedGC": {
+      "usedSize": 68027372,
+      "totalSize": 85213184,
+      "embedderHeapUsedSize": 7997344,
+      "backingStorageSize": 29940600
+    },
+    "jsHeapAfterForcedGC": {
+      "usedSize": 59234820,
+      "totalSize": 61231104,
+      "embedderHeapUsedSize": 3756368,
+      "backingStorageSize": 20927077
+    },
+    "estimatedCesiumResourceBytes": 56850759,
+    "runtime": {
+      "created": 979,
+      "destroyed": 970,
+      "stale": 0,
+      "styleWrites": 370,
+      "statsCalls": 11626,
+      "statsWrites": 1529,
+      "contextLost": false,
+      "renderFailed": false,
+      "queue": {
+        "active": 0,
+        "pending": 0,
+        "completed": 979,
+        "cancelled": 0
+      },
+      "search": {
+        "requested": 74,
+        "completed": 74,
+        "cancelled": 0,
+        "errors": 0,
+        "pending": 0,
+        "workerCache": {
+          "entries": 1,
+          "estimatedBytes": 1494858,
+          "hits": 73,
+          "fetches": 1,
+          "activeFetch": 0,
+          "queuedFetch": 0
+        }
+      },
+      "creationBudget": {
+        "applied": true,
+        "targetMs": 8,
+        "note": "soft creation budget: texture2/program2/buffer4ms; one indivisible job per type may exceed it"
+      },
+      "networkBudget": {
+        "applied": true,
+        "timeoutMs": 15000
+      },
+      "adaptive": {
+        "enabled": false,
+        "index": 1
+      },
+      "gpuMemoryIsEstimate": true
+    },
+    "loadedTotal": 1648,
+    "unloadedTotal": 0,
+    "requests": 3010,
+    "failedRequests": 26,
+    "localGround": {
+      "id": "central-park",
+      "position": [
+        -10.327697600102207,
+        11.128497600111908,
+        35.07344993221551
+      ],
+      "collisionTriangles": 4565
+    }
+  },
+  "errors": []
+}

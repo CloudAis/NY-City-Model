@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-28T09:21:18.520170+00:00",
+  "path": "reports/nyc-stage9-performance-overlay.zip",
+  "bytes": 228161836,
+  "sha256": "06499414c762f5db82f284e730bc1cd841d7adb4ca6181af6576919d7a91638c",
+  "files": 4025,
+  "crc_and_all_payload_sha_verified": true,
+  "standalone_full_city": false,
+  "base_requirement": {
+    "path": "app/datasets/buildings-city",
+    "manifest_sha256": "f0ec679a4d4ff41853e5d2bcbd61122ceecc85c807c945894e3af95e275854bb",
+    "source": "unchanged stage4 city base or current project dist",
+    "source_records": 1082964,
+    "no_buildings_removed": true
+  },
+  "candidate_commit": "ebc86cec1f8c3ba985bbfada07bb47e838eab8b6"
+}

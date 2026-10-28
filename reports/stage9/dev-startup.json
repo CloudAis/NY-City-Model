@@ -1,0 +1,25 @@
+{
+  "base": "http://127.0.0.1:5180/",
+  "responses": [
+    {
+      "path": "inspection.html",
+      "status": 200,
+      "bytes": 350
+    },
+    {
+      "path": "datasets/performance/manifest.json",
+      "status": 200,
+      "bytes": 77271
+    },
+    {
+      "path": "datasets/performance/city/manhattan/root.json",
+      "status": 200,
+      "bytes": 13570
+    },
+    {
+      "path": "datasets/inspection/search/manifest.json",
+      "status": 200,
+      "bytes": 15789
+    }
+  ]
+}

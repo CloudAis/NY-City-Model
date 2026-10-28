@@ -1,0 +1,9 @@
+baseline-verified city {"raf":{"p50":16.69999999999891,"p95":16.800000000000182,"p99":216.69999999999982},"requests":54,"heap":99186318}
+baseline-verified midtown {"raf":{"p50":16.69999999999709,"p95":16.80000000000291,"p99":216.70000000000073},"requests":56,"heap":80987874}
+baseline-verified street-ground {"raf":{"p50":16.69999999999709,"p95":16.80000000000291,"p99":50},"requests":7,"heap":61324424}
+baseline-verified brooklyn {"raf":{"p50":16.69999999999709,"p95":16.80000000000291,"p99":250},"requests":15,"heap":69867147}
+baseline-verified queens {"raf":{"p50":16.69999999999709,"p95":33.40000000000873,"p99":266.6000000000058},"requests":52,"heap":87700552}
+baseline-verified bronx {"raf":{"p50":16.69999999999709,"p95":16.80000000000291,"p99":333.3000000000029},"requests":59,"heap":88191822}
+baseline-verified staten-island {"raf":{"p50":16.69999999999709,"p95":16.80000000000291,"p99":216.6999999999971},"requests":51,"heap":83984453}
+baseline-verified midtown-return {"raf":{"p50":16.69999999999709,"p95":16.800000000017462,"p99":233.29999999998836},"requests":11,"heap":75995418}
+COMPLETE baseline-verified 8 errors 0

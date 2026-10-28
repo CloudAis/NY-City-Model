@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-28T08:49:49.188Z",
+  "checks": [
+    "two-root queue enforces concurrency,priority,cancellation and propagates failures without unhandled rejection",
+    "automatic quality is opt-in,bounded,uses30second hysteresis and can recover; manual-off prevents changes",
+    "pinned engine soft8ms adapter is shape-checked and quality tiers preserve geometry policy",
+    "pinned resource adapter applies15second XHR deadline,rejects timeout and restores original implementation"
+  ]
+}

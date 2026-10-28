@@ -4,7 +4,7 @@ import {readFile,writeFile,mkdir,mkdtemp,rm} from 'node:fs/promises';
 import {join} from 'node:path';
 import {setTimeout as delay} from 'node:timers/promises';
 import assert from 'node:assert/strict';
-const report='reports/stage8',temp=await mkdtemp(join(process.cwd(),'data/intermediate/stage7/package-'));
+const report=process.env.NYC_REPORT_DIR??'reports/stage8',temp=await mkdtemp(join(process.cwd(),'data/intermediate/stage7/package-'));
 const spec=JSON.parse(await readFile(report+'/package.json','utf8'));
 const zip=join(process.cwd(),spec.path),baseCity=join(process.cwd(),'dist/datasets/buildings-city');
 const setup=JSON.parse(execFileSync('.venv/bin/python',['-c',`import zipfile,pathlib,os,json,hashlib,sys

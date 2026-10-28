@@ -1,0 +1,23 @@
+COMPLETE [
+  {
+    fixture: 'midtown',
+    shape: [ 912, 1120, 3 ],
+    mean_absolute_rgb_difference_0_255: 0,
+    fraction_pixels_any_channel_difference_above20: 0,
+    note: 'same real camera,neutral light,original-precision mode; pixels are render comparison,not measured building accuracy'
+  },
+  {
+    fixture: 'brooklyn',
+    shape: [ 912, 1120, 3 ],
+    mean_absolute_rgb_difference_0_255: 0.000030349310776942355,
+    fraction_pixels_any_channel_difference_above20: 9.790100250626566e-7,
+    note: 'same real camera,neutral light,original-precision mode; pixels are render comparison,not measured building accuracy'
+  },
+  {
+    fixture: 'queens',
+    shape: [ 912, 1120, 3 ],
+    mean_absolute_rgb_difference_0_255: 0.000028391290726817044,
+    fraction_pixels_any_channel_difference_above20: 9.790100250626566e-7,
+    note: 'same real camera,neutral light,original-precision mode; pixels are render comparison,not measured building accuracy'
+  }
+]

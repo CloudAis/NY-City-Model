@@ -1,0 +1,822 @@
+{
+  "at_utc": "2026-10-28T09:20:40.272979+00:00",
+  "baseline_commit": "af311b255735b5f836967aba6c6cc434c77aacf1",
+  "optimized_commit": "ebc86cec1f8c3ba985bbfada07bb47e838eab8b6",
+  "first_real_scene_ms": {
+    "baseline": 4156,
+    "optimized": 3378
+  },
+  "same_hardware_viewport_dpr_quality_route_and_probe": true,
+  "baseline": {
+    "raf_ms": {
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "p99": 216.8000000000029
+    },
+    "render_active_raf_ms": {
+      "p50": 200,
+      "p95": 350,
+      "p99": 633.4000000000087
+    },
+    "long_tasks": 17,
+    "long_task_total_ms": 2420,
+    "js_heap_observed_peak_bytes": 99186318,
+    "known_buffer_estimate_peak_bytes": 16762164,
+    "requests": 395,
+    "diagnostic_panel_dom_updates": 670
+  },
+  "optimized": {
+    "raf_ms": {
+      "p50": 16.69999999999709,
+      "p95": 16.80000000000291,
+      "p99": 283.3999999999978
+    },
+    "render_active_raf_ms": {
+      "p50": 200,
+      "p95": 466.6999999999971,
+      "p99": 949.8999999999942
+    },
+    "long_tasks": 17,
+    "long_task_total_ms": 3954,
+    "js_heap_observed_peak_bytes": 52740453,
+    "known_buffer_estimate_peak_bytes": 12786116,
+    "requests": 333,
+    "diagnostic_panel_dom_updates": 0
+  },
+  "steps": [
+    {
+      "step": "city",
+      "baseline": {
+        "samples": 592,
+        "raf_ms": {
+          "p50": 16.69999999999891,
+          "p95": 16.800000000000182,
+          "p99": 216.69999999999982
+        },
+        "render_intervals": 11,
+        "draw_calls": {
+          "total": 521,
+          "max_per_interval": 102
+        },
+        "submitted_triangles": 61461,
+        "submitted_lines": 455933,
+        "long_tasks": {
+          "count": 0,
+          "total_ms": 0,
+          "max_ms": 0
+        },
+        "render_active_raf_ms": {
+          "p50": 216.69999999999982,
+          "p95": 300,
+          "p99": 300
+        },
+        "domWrites": {
+          "diagnosticPanel": 204,
+          "statusLabels": 408
+        },
+        "resources": {
+          "known_buffer_bytes": 7578216,
+          "buffers": 380,
+          "textures": 382,
+          "programs": 9
+        },
+        "jsHeap": {
+          "used": 99186318,
+          "total": 137651502,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 590,
+        "raf_ms": {
+          "p50": 16.69999999999891,
+          "p95": 16.799999999999272,
+          "p99": 116.80000000000018
+        },
+        "render_intervals": 13,
+        "draw_calls": {
+          "total": 320,
+          "max_per_interval": 34
+        },
+        "submitted_triangles": 74114,
+        "submitted_lines": 110510,
+        "long_tasks": {
+          "count": 0,
+          "total_ms": 0,
+          "max_ms": 0
+        },
+        "render_active_raf_ms": {
+          "p50": 99.90000000000055,
+          "p95": 283.40000000000055,
+          "p99": 283.40000000000055
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 21
+        },
+        "resources": {
+          "known_buffer_bytes": 2372744,
+          "buffers": 90,
+          "textures": 171,
+          "programs": 9
+        },
+        "jsHeap": {
+          "used": 37836205,
+          "total": 48653469,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 54,
+      "optimized_new_requests": 18,
+      "baseline_loaded_total": 117,
+      "optimized_loaded_total": 29
+    },
+    {
+      "step": "midtown",
+      "baseline": {
+        "samples": 895,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 216.70000000000073
+        },
+        "render_intervals": 24,
+        "draw_calls": {
+          "total": 1155,
+          "max_per_interval": 71
+        },
+        "submitted_triangles": 109174,
+        "submitted_lines": 989990,
+        "long_tasks": {
+          "count": 3,
+          "total_ms": 598,
+          "max_ms": 350
+        },
+        "render_active_raf_ms": {
+          "p50": 200,
+          "p95": 299.8999999999978,
+          "p99": 350
+        },
+        "domWrites": {
+          "diagnosticPanel": 294,
+          "statusLabels": 588
+        },
+        "resources": {
+          "known_buffer_bytes": 9642284,
+          "buffers": 501,
+          "textures": 217,
+          "programs": 13
+        },
+        "jsHeap": {
+          "used": 80987874,
+          "total": 134681138,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 711,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 133.29999999999927,
+          "p99": 266.7000000000007
+        },
+        "render_intervals": 38,
+        "draw_calls": {
+          "total": 1270,
+          "max_per_interval": 57
+        },
+        "submitted_triangles": 184986,
+        "submitted_lines": 1118169,
+        "long_tasks": {
+          "count": 5,
+          "total_ms": 1466,
+          "max_ms": 442
+        },
+        "render_active_raf_ms": {
+          "p50": 166.70000000000073,
+          "p95": 433.2999999999993,
+          "p99": 583.3000000000011
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 63
+        },
+        "resources": {
+          "known_buffer_bytes": 4436476,
+          "buffers": 207,
+          "textures": 71,
+          "programs": 8
+        },
+        "jsHeap": {
+          "used": 42647476,
+          "total": 61187780,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 56,
+      "optimized_new_requests": 60,
+      "baseline_loaded_total": 165,
+      "optimized_loaded_total": 86
+    },
+    {
+      "step": "street-ground",
+      "baseline": {
+        "samples": 745,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 50
+        },
+        "render_intervals": 0,
+        "draw_calls": {
+          "total": 0,
+          "max_per_interval": 0
+        },
+        "submitted_triangles": 0,
+        "submitted_lines": 0,
+        "long_tasks": {
+          "count": 1,
+          "total_ms": 67,
+          "max_ms": 67
+        },
+        "render_active_raf_ms": {
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "domWrites": {
+          "diagnosticPanel": 296,
+          "statusLabels": 592
+        },
+        "resources": {
+          "known_buffer_bytes": 9642284,
+          "buffers": 501,
+          "textures": 217,
+          "programs": 13
+        },
+        "jsHeap": {
+          "used": 61324424,
+          "total": 65396408,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 758,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 33.400000000001455
+        },
+        "render_intervals": 0,
+        "draw_calls": {
+          "total": 0,
+          "max_per_interval": 0
+        },
+        "submitted_triangles": 0,
+        "submitted_lines": 0,
+        "long_tasks": {
+          "count": 1,
+          "total_ms": 53,
+          "max_ms": 53
+        },
+        "render_active_raf_ms": {
+          "p50": null,
+          "p95": null,
+          "p99": null
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 66
+        },
+        "resources": {
+          "known_buffer_bytes": 4436476,
+          "buffers": 207,
+          "textures": 71,
+          "programs": 8
+        },
+        "jsHeap": {
+          "used": 32419213,
+          "total": 35386669,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 7,
+      "optimized_new_requests": 10,
+      "baseline_loaded_total": 165,
+      "optimized_loaded_total": 86
+    },
+    {
+      "step": "brooklyn",
+      "baseline": {
+        "samples": 742,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 250
+        },
+        "render_intervals": 20,
+        "draw_calls": {
+          "total": 1290,
+          "max_per_interval": 79
+        },
+        "submitted_triangles": 274488,
+        "submitted_lines": 1434667,
+        "long_tasks": {
+          "count": 1,
+          "total_ms": 353,
+          "max_ms": 353
+        },
+        "render_active_raf_ms": {
+          "p50": 49.900000000001455,
+          "p95": 349.90000000000146,
+          "p99": 349.90000000000146
+        },
+        "domWrites": {
+          "diagnosticPanel": 342,
+          "statusLabels": 684
+        },
+        "resources": {
+          "known_buffer_bytes": 10999400,
+          "buffers": 520,
+          "textures": 280,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 69867147,
+          "total": 77529071,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 541,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 500
+        },
+        "render_intervals": 27,
+        "draw_calls": {
+          "total": 1444,
+          "max_per_interval": 67
+        },
+        "submitted_triangles": 364148,
+        "submitted_lines": 1792965,
+        "long_tasks": {
+          "count": 3,
+          "total_ms": 534,
+          "max_ms": 250
+        },
+        "render_active_raf_ms": {
+          "p50": 233.3000000000029,
+          "p95": 633.2999999999956,
+          "p99": 1033.300000000003
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 99
+        },
+        "resources": {
+          "known_buffer_bytes": 7023016,
+          "buffers": 288,
+          "textures": 109,
+          "programs": 8
+        },
+        "jsHeap": {
+          "used": 38753780,
+          "total": 46677744,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 15,
+      "optimized_new_requests": 38,
+      "baseline_loaded_total": 172,
+      "optimized_loaded_total": 121
+    },
+    {
+      "step": "queens",
+      "baseline": {
+        "samples": 576,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 33.40000000000873,
+          "p99": 266.6000000000058
+        },
+        "render_intervals": 26,
+        "draw_calls": {
+          "total": 1785,
+          "max_per_interval": 89
+        },
+        "submitted_triangles": 251162,
+        "submitted_lines": 1782361,
+        "long_tasks": {
+          "count": 5,
+          "total_ms": 408,
+          "max_ms": 185
+        },
+        "render_active_raf_ms": {
+          "p50": 216.6999999999971,
+          "p95": 316.59999999999127,
+          "p99": 450.1000000000058
+        },
+        "domWrites": {
+          "diagnosticPanel": 442,
+          "statusLabels": 884
+        },
+        "resources": {
+          "known_buffer_bytes": 12111004,
+          "buffers": 633,
+          "textures": 316,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 87700552,
+          "total": 106440060,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 635,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 266.6000000000058
+        },
+        "render_intervals": 29,
+        "draw_calls": {
+          "total": 1555,
+          "max_per_interval": 66
+        },
+        "submitted_triangles": 261322,
+        "submitted_lines": 1716704,
+        "long_tasks": {
+          "count": 2,
+          "total_ms": 497,
+          "max_ms": 254
+        },
+        "render_active_raf_ms": {
+          "p50": 216.6999999999971,
+          "p95": 333.3000000000029,
+          "p99": 466.6999999999971
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 141
+        },
+        "resources": {
+          "known_buffer_bytes": 8134956,
+          "buffers": 405,
+          "textures": 148,
+          "programs": 8
+        },
+        "jsHeap": {
+          "used": 42114451,
+          "total": 54787631,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 52,
+      "optimized_new_requests": 51,
+      "baseline_loaded_total": 214,
+      "optimized_loaded_total": 168
+    },
+    {
+      "step": "bronx",
+      "baseline": {
+        "samples": 662,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 333.3000000000029
+        },
+        "render_intervals": 20,
+        "draw_calls": {
+          "total": 1279,
+          "max_per_interval": 74
+        },
+        "submitted_triangles": 177568,
+        "submitted_lines": 1299698,
+        "long_tasks": {
+          "count": 5,
+          "total_ms": 553,
+          "max_ms": 215
+        },
+        "render_active_raf_ms": {
+          "p50": 233.39999999999418,
+          "p95": 649.8999999999942,
+          "p99": 649.8999999999942
+        },
+        "domWrites": {
+          "diagnosticPanel": 543,
+          "statusLabels": 1086
+        },
+        "resources": {
+          "known_buffer_bytes": 14600168,
+          "buffers": 774,
+          "textures": 475,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 88191822,
+          "total": 114103150,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 623,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 33.30000000000291,
+          "p99": 216.6999999999971
+        },
+        "render_intervals": 33,
+        "draw_calls": {
+          "total": 1508,
+          "max_per_interval": 77
+        },
+        "submitted_triangles": 286372,
+        "submitted_lines": 1621823,
+        "long_tasks": {
+          "count": 2,
+          "total_ms": 373,
+          "max_ms": 211
+        },
+        "render_active_raf_ms": {
+          "p50": 183.29999999998836,
+          "p95": 433.3999999999942,
+          "p99": 466.6999999999971
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 177
+        },
+        "resources": {
+          "known_buffer_bytes": 10623616,
+          "buffers": 540,
+          "textures": 193,
+          "programs": 8
+        },
+        "jsHeap": {
+          "used": 52740453,
+          "total": 71018805,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 59,
+      "optimized_new_requests": 61,
+      "baseline_loaded_total": 263,
+      "optimized_loaded_total": 225
+    },
+    {
+      "step": "staten-island",
+      "baseline": {
+        "samples": 688,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.80000000000291,
+          "p99": 216.6999999999971
+        },
+        "render_intervals": 26,
+        "draw_calls": {
+          "total": 1530,
+          "max_per_interval": 73
+        },
+        "submitted_triangles": 150570,
+        "submitted_lines": 1647453,
+        "long_tasks": {
+          "count": 1,
+          "total_ms": 201,
+          "max_ms": 201
+        },
+        "render_active_raf_ms": {
+          "p50": 183.3000000000029,
+          "p95": 283.29999999998836,
+          "p99": 283.3000000000029
+        },
+        "domWrites": {
+          "diagnosticPanel": 634,
+          "statusLabels": 1268
+        },
+        "resources": {
+          "known_buffer_bytes": 16762164,
+          "buffers": 879,
+          "textures": 435,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 83984453,
+          "total": 109629085,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 559,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 183.29999999998836,
+          "p99": 333.3999999999942
+        },
+        "render_intervals": 30,
+        "draw_calls": {
+          "total": 1146,
+          "max_per_interval": 67
+        },
+        "submitted_triangles": 155626,
+        "submitted_lines": 1267494,
+        "long_tasks": {
+          "count": 2,
+          "total_ms": 541,
+          "max_ms": 279
+        },
+        "render_active_raf_ms": {
+          "p50": 266.8000000000029,
+          "p95": 416.6999999999971,
+          "p99": 650
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 219
+        },
+        "resources": {
+          "known_buffer_bytes": 12786116,
+          "buffers": 651,
+          "textures": 230,
+          "programs": 8
+        },
+        "jsHeap": {
+          "used": 49914972,
+          "total": 77030324,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 51,
+      "optimized_new_requests": 56,
+      "baseline_loaded_total": 304,
+      "optimized_loaded_total": 277
+    },
+    {
+      "step": "midtown-return",
+      "baseline": {
+        "samples": 692,
+        "raf_ms": {
+          "p50": 16.69999999999709,
+          "p95": 16.800000000017462,
+          "p99": 233.29999999998836
+        },
+        "render_intervals": 21,
+        "draw_calls": {
+          "total": 1395,
+          "max_per_interval": 83
+        },
+        "submitted_triangles": 102516,
+        "submitted_lines": 1522200,
+        "long_tasks": {
+          "count": 1,
+          "total_ms": 240,
+          "max_ms": 240
+        },
+        "render_active_raf_ms": {
+          "p50": 166.70000000001164,
+          "p95": 283.3000000000029,
+          "p99": 350
+        },
+        "domWrites": {
+          "diagnosticPanel": 670,
+          "statusLabels": 1340
+        },
+        "resources": {
+          "known_buffer_bytes": 16670692,
+          "buffers": 875,
+          "textures": 464,
+          "programs": 14
+        },
+        "jsHeap": {
+          "used": 75995418,
+          "total": 131783894,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "optimized": {
+        "samples": 696,
+        "raf_ms": {
+          "p50": 16.699999999982538,
+          "p95": 16.80000000000291,
+          "p99": 400
+        },
+        "render_intervals": 19,
+        "draw_calls": {
+          "total": 1146,
+          "max_per_interval": 71
+        },
+        "submitted_triangles": 65966,
+        "submitted_lines": 1375180,
+        "long_tasks": {
+          "count": 2,
+          "total_ms": 490,
+          "max_ms": 432
+        },
+        "render_active_raf_ms": {
+          "p50": 33.40000000000873,
+          "p95": 949.8999999999942,
+          "p99": 949.8999999999942
+        },
+        "domWrites": {
+          "diagnosticPanel": 0,
+          "statusLabels": 234
+        },
+        "resources": {
+          "known_buffer_bytes": 12694476,
+          "buffers": 645,
+          "textures": 229,
+          "programs": 8
+        },
+        "jsHeap": {
+          "used": 49601142,
+          "total": 79047550,
+          "limit": 4395630592
+        },
+        "gpu_vram_measured_bytes": null
+      },
+      "baseline_new_requests": 11,
+      "optimized_new_requests": 6,
+      "baseline_loaded_total": 307,
+      "optimized_loaded_total": 280
+    }
+  ],
+  "sample_size": "one controlled route run per final candidate; no statistical significance or universal60FPS claim",
+  "initial_candidate_retained": "optimized.json (4aa78c1); changed foveated/progressive settings to match baseline before final ebc86ce run",
+  "physical_gpu_vram_measured_bytes": null,
+  "data_integrity_errors": [],
+  "fixed_view_numeric": [
+    {
+      "fixture": "midtown",
+      "shape": [
+        912,
+        1120,
+        3
+      ],
+      "mean_absolute_rgb_difference_0_255": 0,
+      "fraction_pixels_any_channel_difference_above20": 0,
+      "note": "same real camera,neutral light,original-precision mode; pixels are render comparison,not measured building accuracy"
+    },
+    {
+      "fixture": "brooklyn",
+      "shape": [
+        912,
+        1120,
+        3
+      ],
+      "mean_absolute_rgb_difference_0_255": 3.0349310776942355e-05,
+      "fraction_pixels_any_channel_difference_above20": 9.790100250626566e-07,
+      "note": "same real camera,neutral light,original-precision mode; pixels are render comparison,not measured building accuracy"
+    },
+    {
+      "fixture": "queens",
+      "shape": [
+        912,
+        1120,
+        3
+      ],
+      "mean_absolute_rgb_difference_0_255": 2.8391290726817044e-05,
+      "fraction_pixels_any_channel_difference_above20": 9.790100250626566e-07,
+      "note": "same real camera,neutral light,original-precision mode; pixels are render comparison,not measured building accuracy"
+    }
+  ],
+  "baseline_teardown_errors": [
+    {
+      "label": "baseline",
+      "fixture": "midtown",
+      "phase": "teardown",
+      "error": "Cannot read properties of undefined (reading 'scene')"
+    },
+    {
+      "label": "baseline",
+      "fixture": "brooklyn",
+      "phase": "teardown",
+      "error": "Cannot read properties of undefined (reading 'scene')"
+    },
+    {
+      "label": "baseline",
+      "fixture": "queens",
+      "phase": "teardown",
+      "error": "Cannot read properties of undefined (reading 'scene')"
+    }
+  ],
+  "geometry_or_texture_lossy_compression": "none",
+  "source_model_geometry_change_m": 0,
+  "zero_change_basis": "originalGLB bytes, complete leaf transforms/bounds/request volumes/feature maps retained; not reality accuracy"
+}

@@ -62,3 +62,11 @@ state=source_outline_only或excluded_placeholder；reasons包含单位、地面�
 - Search：1,082,964来源记录；id/BIN/BBL/borough/name/address/aliases/bbox/raw引用/日期/证据。2253条具有来源名称或明确别名/地址，不制造缺失名称，不用地块地址无条件覆盖楼。BIN非唯一，返回多对象。
 - Bookmark schema1：相机ECEF位置/heading/pitch/roll、mode、preset、quality、layers、selectedId、savedAt、lighting.mode=neutral-fixed/datetime=null；localWalk为独立局部范围+位置/朝向，恢复须通过碰撞检查。未知版本拒绝替换；最多12条。保存日不是测绘年代。
 - reports/stage7/coverage：新源行去重数；conflicts数量为观察区候选对/点行数（不同观察区可重复），不是已证实物理冲突数。observations是导航点，不是实测控制点。
+
+## 性能与稳定性阶段 · 2026-10-28
+
+assets/performance/manifest保存原五区strict SHA、7383叶覆盖、330页路径/计数/字节/SHA、算法版本和geometry_modified=false。pages仅引用原GLB。
+
+reports/stage9：baseline-verified/optimized-final为相同probeVersion2的8段受控路线；sample_trace列为[浏览器performance.now毫秒、rAF间隔、该间隔绘制调用、提交三角形、提交线段]，都不是独立模型数量。loadedTotal是累计真实解析瓦片（可能含外部目录），不当作唯一建筑覆盖。
+
+JS heap来自performance.memory或CDP Runtime.getHeapUsage，后者明确usedSize/totalSize/embedderHeapUsedSize/backingStorageSize；Worker缓存字节是字符估算。gpu_vram_measured_bytes恒null，known_buffer_bytes/CesiumResourceBytes仅估算。soak每轮有真实elapsed、GC前后堆、创建/销毁/缓存卸载与请求计数；completed_required_duration须真实≥1800秒且无虚拟时间，same_code_entire_run比较构建指纹。

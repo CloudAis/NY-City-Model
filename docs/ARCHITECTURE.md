@@ -46,3 +46,11 @@ inspection.html整合原五区strict瓦片、25环境观察区、八个独立NAV
 地面检查复用terrain.html，通过同源postMessage握手读取/恢复相机，碰撞源SHA绑定实际渲染DEM三角形。道路、水面、来源建筑投影、桥梁/隧道口/铁路结构按1m操作缓冲排除，坡度>25°、NoData及边界不允许进入。不是细致墙体碰撞，桥面/地下/室内为空，不使用最高命中面吸附。新两个公园以extended清单接入，不改六个旧foundation资产。
 
 加载显示真实请求/瓦片处理/解析计数，不预估100%。无数据、隐藏、加载、失败分开；单瓦片失败不会抛弃全城。代次失效模型销毁，快速切换保留稳定来源ID。材质高亮仅作用选中feature条件；重复共享材质不改写。截图额外绘制来源署名条。
+
+## 性能与稳定性阶段 · 2026-10-28
+
+新增scripts/build_streaming_catalog.py：五区7383原strict叶的密度自适应目录，330页，保留原GLB/矩阵/包围体/请求范围；只改内容URI以引用原文件。src/inspection/runtime.ts有根队列2、画质/迟滞及受固定Cesium1.146形状检查的创建/XHR预算适配器。Cesium公开loadJson钩子为根元数据提供可取消12秒期限，Resource会克隆实例，不能依赖实例fetchJson覆盖。其余XHR15秒有限重试；原场景有界请求调度与加载失败状态保留。
+
+search.worker.ts处理查询与JSON解析、共享请求、14项/8MiB字符估算LRU和4fetch并发；客户端世代/取消/超时/销毁分开处理。未将全部glTF解析搬到新Worker，现有Cesium加载/TaskProcessor仍负责其工作。
+
+显式渲染循环每帧检查可见尺寸和isContextLost，局部地形/后台暂停世界；引擎按需提交实际绘制。styles8缓存与250ms计数刷新减少重复操作，tile监听器/队列/Worker/帧任务明确释放。上下文恢复通过sessionStorage视角检查点、重新加载和碰撞验证，非原地复用同GPU对象。源全局Z不解决仍保持受限检查。

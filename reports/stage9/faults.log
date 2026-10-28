@@ -1,0 +1,12 @@
+PASS quality tiers preserve original models; auto is opt-in and manual selection takes priority
+PASS rapid cross-borough switching discards stale roots and keeps ownership and root concurrency bounded
+PASS Worker query cancellation does not allow older results to replace current identity
+PASS 404 stops finite retries while other layers continue
+PASS corrupt GLB is isolated without per-frame retry or unhandled rejection
+PASS root timeout aborts after12seconds and leaves a recoverable failed layer
+PASS content XHR timeout uses a finite retry and then reports failure
+PASS offline failure retains world state and recovers through explicit cooled retry
+PASS actual freeze/resume and resize clear input; background visibility observation is recorded
+PASS actual WebGL context loss and restoration reconstruct the viewer and recover the saved view
+PASS local terrain context loss restores only a collision-validated saved ground position
+COMPLETE 11 checks,0unexpected errors
