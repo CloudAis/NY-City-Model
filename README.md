@@ -4,29 +4,26 @@
 
 **部分完成版：完整现状精细建筑0；已发布五区来源轮廓与检查工具。**
 
-- [下载全部运行分包、单文件预览与源码](https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028)（六个运行ZIP约1.45GB，解压约6.2GiB）。
-- [逐文件下载和SHA256清单](reports/final-delivery/FILES.md)。
-- [最终验收](reports/FINAL_ACCEPTANCE.md)、[真实性与覆盖](reports/AUTHENTICITY_FINAL.md)、[已知缺口](docs/KNOWN_GAPS.md)。
+- [版本说明](https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028-git)。
+- [全部实际运行资源和源码包的数据分支](https://github.com/CloudAis/NY-City-Model/tree/offline-packages-v0.1.0-evidence-20261028)：约1.5GB，以32MiB分块保留七个原ZIP的完整字节。
+- [文件与SHA256清单](reports/final-delivery/FILES.md)、[最终验收](reports/FINAL_ACCEPTANCE.md)、[真实性与覆盖](reports/AUTHENTICITY_FINAL.md)。
 
-直接运行不需要Node、GIS库、云服务或外网；需要Python3标准库与支持WebGL2的浏览器。从Release把六个运行ZIP、delivery-manifest.json、assemble.py、start-local.py、update-local.py下载到同一目录，然后：
+资源实际存储在独立Git分支，**不是Release附件或Git LFS**。当前云环境访问GitHub附件上传域返回401，因此使用普通Git传输；未新增GitHub Actions或仓库自动化写权限。可用以下命令下载、校验并本地运行：
 
 ```bash
-python3 assemble.py --parts-dir . --output nyc-local
+git clone --single-branch --depth 1 --branch offline-packages-v0.1.0-evidence-20261028 https://github.com/CloudAis/NY-City-Model.git nyc-offline
+cd nyc-offline
+python3 join-packages.py --output packages
+python3 packages/assemble.py --parts-dir packages --output nyc-local
 python3 nyc-local/start-local.py
 # http://127.0.0.1:8080/
 ```
 
-也可用GitHub CLI下载至一个新目录：
+建议12GiB以上可用空间（包含Git副本、分块、还原ZIP及运行目录）。首次从GitHub下载需要网络；下载完整后，拼接、校验和本地HTTP运行无需外网。需要Python3标准库和支持WebGL2的浏览器，运行不需Node、GIS库或云服务。join-packages.py只拼回已经实际提供的本地数据，不重新联网抓取纽约资料；缺少READY标记或校验失败会明确停止。
 
-```bash
-gh release download v0.1.0-evidence-20261028 --repo CloudAis/NY-City-Model --dir nyc-release
-python3 nyc-release/assemble.py --parts-dir nyc-release --output nyc-local
-python3 nyc-local/start-local.py
-```
+开发源码在main分支。为避免开发时同时下载大数据分支，可用`git clone --single-branch --branch main https://github.com/CloudAis/NY-City-Model.git`。要构建完整页面，组装离线数据后把`nyc-local/app/datasets/`内资源复制到源码assets/，再按[重建说明](docs/REBUILD.md)安装开发依赖。全量原始GIS/大主库/未知许可研究原件没有全部上传；Git仓库和源码ZIP不是完整raw离线重建输入。
 
-Git仓库保存源码、锁文件、配置、样本、来源清单及验证记录；全市大资源随Release实际提供。**仅克隆仓库不包含被Git忽略的全量数据。** 要重新构建当前完整页面，组装Release后把`nyc-local/app/datasets/`的内容复制到源码`assets/`，再按[重建说明](docs/REBUILD.md)安装开发依赖和构建。多GiB原始GIS/主库/历史研究原件没有全部上传，来源再处理需要相应原始输入。
-
-单文件preview-single.html仅四块1936历史正面及部分WTC体量；HTTP/离线嵌入通过，默认file导航受测试环境企业策略限制。它不是全纽约完整版。独立实测现实精度未知；源转换忠实度检查不代替现实测绘。
+单文件preview-single.html仅四块1936历史正面和部分WTC体量，不是全纽约模型。HTTP和离线内容嵌入实测通过，默认file导航受原测试环境企业策略限制。独立现实测量0，现实尺寸精度未知。
 
 ---
 

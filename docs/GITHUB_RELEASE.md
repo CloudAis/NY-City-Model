@@ -1,37 +1,37 @@
 # GitHub发布与更新
 
-仓库：https://github.com/CloudAis/NY-City-Model
-
-版本：https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028
-
 # 纽约五区来源轮廓与检查工具 · 部分完成版
 
-源码/验收基线：`717a2e4`。保留来源、坐标、原模型和真实性缺口；本次不新增建模或改动验证过的资源。
+**源码及完整运行资源已经按原验收范围发布。完整当前精细建筑0，未达到纽约完整外观复刻目标。**
 
-## 实际覆盖
+## 实际下载位置
 
-- 五区1,082,964来源记录，发布1,082,930非占位轮廓；来源抓取版本2026-10-27-city，不是建筑观测年份。
-- 两个部分地标表示、四块1936历史正面；完整当前精细建筑、可靠全城屋顶/逐立面完成数均0。
-- 334来源对象审计检查转换忠实度；独立现实测量0，现实尺寸精度未知。全球高程和当前外观资料仍有缺口。
+[开发工程与报告](https://github.com/CloudAis/NY-City-Model) · [全部实际运行资源的数据分支](https://github.com/CloudAis/NY-City-Model/tree/offline-packages-v0.1.0-evidence-20261028) · [文件/校验清单](https://github.com/CloudAis/NY-City-Model/blob/main/reports/final-delivery/FILES.md)
 
-## 下载与启动
-
-在Assets下载六个`nyc-evidence-*.zip`、delivery-manifest.json与三个Python脚本到同一目录。所有运行资源实际包含在分包中，无需旧版本或在线服务。
+**本版本的实际大资源在数据分支，不是下方Release附件。** 七个ZIP（六个运行分包和源码）按32MiB分块保存，总数据约1.5GB；拼接后与原始验收ZIP的SHA256一致。没有只给下载脚本替代数据，也没有随机楼群补齐未知。
 
 ```bash
-python3 assemble.py --parts-dir . --output nyc-local
+git clone --single-branch --depth 1 --branch offline-packages-v0.1.0-evidence-20261028 https://github.com/CloudAis/NY-City-Model.git nyc-offline
+cd nyc-offline
+python3 join-packages.py --output packages
+python3 packages/assemble.py --parts-dir packages --output nyc-local
 python3 nyc-local/start-local.py
 # http://127.0.0.1:8080/
 ```
 
-[全部文件、大小与校验和](https://github.com/CloudAis/NY-City-Model/releases/download/v0.1.0-evidence-20261028/FILES.md) · [SHA256SUMS](https://github.com/CloudAis/NY-City-Model/releases/download/v0.1.0-evidence-20261028/SHA256SUMS) · [操作说明](https://github.com/CloudAis/NY-City-Model/releases/download/v0.1.0-evidence-20261028/START_HERE.md) · [最终回执](https://github.com/CloudAis/NY-City-Model/releases/download/v0.1.0-evidence-20261028/FINAL_RECEIPT.md)
+建议12GiB以上可用空间。下载后拼接、SHA校验、127.0.0.1本地HTTP运行不需外网。多文件file://不受支持；preview单文件默认file导航被测试环境企业策略阻止，HTTP及离线内容嵌入通过。
 
-七个ZIP含六个完整运行分包和一个源码ZIP；源码、模型、纹理、Worker、Cesium依赖、局部地形、属性均按现有范围交付。全量原始GIS/大主库/未知许可研究原件没有全部上传，源码再处理范围见仓库docs/REBUILD.md。
+## 覆盖和验收范围
 
-## 已执行验证
+- 五区1,082,964来源记录，发布1,082,930非占位轮廓；抓取标签2026-10-27-city，不等于观测年份。
+- 两个部分地标表示、四块1936历史正面；完整当前精细建筑0，可靠全城屋顶/逐立面仍未完成。
+- 334来源对象复核证明源到模型的转换忠实度，独立现实测量0；不能报告现实尺寸精度。
+- 构建、类型检查和57规则通过；连续浏览30分5秒无页面异常，但40次requestfailed未保留原因。最终独立目录空缓存禁外网260请求全部成功。软件WebGL仍有长帧，真机GPU/移动未测。
 
-TypeScript/Vite构建和57规则通过。实际连续浏览30分5秒、33轮，无页面异常/重载；连续测试40次requestfailed未记录原因，不能称零网络失败。最终新目录空缓存禁外网260请求全部成功，实际五区GLB/Worker/拾取/地面/预览通过。软件WebGL仍存在长帧；真机GPU/手机未测。
+源码验收基线717a2e4，模型、纹理和七个ZIP原字节不变。当前Git分块与还原操作另有本地实际还原校验、服务器Git对象清单核对；详见仓库reports/github-publication.json。
 
-单文件preview仅局部历史证据与部分体量。HTTP及内容嵌入实测可用；默认file://被测试环境企业策略阻止，普通浏览器双击待测。完整现实外观目标未通过，因此以**Prerelease**发布。
+## 发布方式说明
 
-原六包、源码ZIP与资源校验和保持不变；GitHub版FILES.md改为可点击下载链接，相应SHA256SUMS目录行已更新。项目未擅自添加新的开源许可，原第三方/NYC/NYS/LOC署名保留，未知许可原图/PDF不作离线纹理分发。
+当前环境向uploads.github.com上传附件返回401，API和普通Git写入正常。新增持久Actions发布权限未获自动审批，未启用该方案；采用普通Git资源分支完成发布，不引入Git LFS、付费服务或自动化写权限。原main README历史已合并保留。
+
+原始全量GIS/大库和未知许可研究原件仍在原工作区，未全部上传。NYC/NYS/LOC与Cesium等署名/条款保留，未擅自给项目添加新的开源许可证。

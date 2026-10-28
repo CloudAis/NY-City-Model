@@ -1,0 +1,349 @@
+{
+  "at_utc": "2026-10-28T16:39:29.575504+00:00",
+  "repository": "CloudAis/NY-City-Model",
+  "branch": "offline-packages-v0.1.0-evidence-20261028",
+  "commit": "94da9bb040f26ffe15a97e30134edf93c28b0b71",
+  "remote_git_tree_all_files_match": true,
+  "file_count": 63,
+  "chunk_count": 48,
+  "max_blob_bytes": 33554432,
+  "all_payload_bytes_in_git": 1517645594,
+  "remote_files": {
+    ".gitattributes": {
+      "git_blob_sha1": "c78ebbf790045d2c615662f7bf3ea7b639aeda82",
+      "bytes": 81
+    },
+    "FILES.md": {
+      "git_blob_sha1": "dda5b0c9919d10b23106d4259c815716aa538577",
+      "bytes": 3925
+    },
+    "FINAL_RECEIPT.md": {
+      "git_blob_sha1": "851e6c6d05138f0b3c0c16d59d91021d77a1595e",
+      "bytes": 3150
+    },
+    "README.md": {
+      "git_blob_sha1": "8284c37b247adc8a7b7c42d74f211bf5a32a4393",
+      "bytes": 1473
+    },
+    "READY.json": {
+      "git_blob_sha1": "2200916bf6a19d0f3f7d50d3e938aaca17acab8b",
+      "bytes": 199
+    },
+    "SHA256SUMS": {
+      "git_blob_sha1": "e56cf02906f2a096824e3d11566af9e996a78865",
+      "bytes": 1296
+    },
+    "START_HERE.md": {
+      "git_blob_sha1": "6303382a8a5fd9b943d1def4054a487b4b50e8f5",
+      "bytes": 4985
+    },
+    "assemble.py": {
+      "git_blob_sha1": "141a4b0a2f38079689ae836880d2d44152a1067e",
+      "bytes": 2774
+    },
+    "bundle-index.json": {
+      "git_blob_sha1": "a0bf270d2c286b9fce0dd362f77c14278bb0a3c7",
+      "bytes": 13305
+    },
+    "delivery-manifest.json": {
+      "git_blob_sha1": "874d927a67df6893b51c5418bc2bcf330cdd730c",
+      "bytes": 6671918
+    },
+    "join-packages.py": {
+      "git_blob_sha1": "83030b9c382f1b1227f05b0eeb9459ba1826b986",
+      "bytes": 2224
+    },
+    "parts/nyc-developer-source.zip/0000.part": {
+      "git_blob_sha1": "87eb15dcb33653f48bc699d9765d86a9bc7add8c",
+      "bytes": 33554432
+    },
+    "parts/nyc-developer-source.zip/0001.part": {
+      "git_blob_sha1": "6b2a12aed40dc318f1d4aa6a5706d0c4cebb54b0",
+      "bytes": 27976148
+    },
+    "parts/nyc-evidence-bronx.zip/0000.part": {
+      "git_blob_sha1": "656320631f74749aa462286b1f2fc4cc7b628834",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-bronx.zip/0001.part": {
+      "git_blob_sha1": "51973f20b71170ed4b543f07e208bfe9457a44c5",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-bronx.zip/0002.part": {
+      "git_blob_sha1": "40babdd72568887dca2a61c58ae24146503ee353",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-bronx.zip/0003.part": {
+      "git_blob_sha1": "45fe9ccae71a1fdd799315b6ecacd4792072b65d",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-bronx.zip/0004.part": {
+      "git_blob_sha1": "b3f98d2febdef554084a8ed56a1f08ea2dae4e7b",
+      "bytes": 2554204
+    },
+    "parts/nyc-evidence-brooklyn.zip/0000.part": {
+      "git_blob_sha1": "b29001b299734cdfdf44f89d7273859fb560ca4c",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0001.part": {
+      "git_blob_sha1": "629202dc2d32257156f166d3136214af80b87a7f",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0002.part": {
+      "git_blob_sha1": "9c1fc90055a839257ad320ed1c584d2386361332",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0003.part": {
+      "git_blob_sha1": "9ae08633b244afb26fd109e109e71b310d6c06bb",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0004.part": {
+      "git_blob_sha1": "11450e453d41fd26d8510a12b9eaad8eb423541c",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0005.part": {
+      "git_blob_sha1": "812b5aaaf6e87354ead52eb3cbec159ef5c4989f",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0006.part": {
+      "git_blob_sha1": "01c570accf6da7352a1ca2e58d4199bbb8922111",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0007.part": {
+      "git_blob_sha1": "63d26a9420e0add66ef03e74657e71c89e736b1d",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0008.part": {
+      "git_blob_sha1": "b01c86b5723bf8dd5baff5b72729f90d96bb2db8",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0009.part": {
+      "git_blob_sha1": "b8978a165e7a5f610619e24a4af0c09d6ada1fb7",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-brooklyn.zip/0010.part": {
+      "git_blob_sha1": "fea9f7b6530c2a1529e9ff017140929edd5b1061",
+      "bytes": 27989544
+    },
+    "parts/nyc-evidence-common.zip/0000.part": {
+      "git_blob_sha1": "6ceb1265f070ec3a7324778159e2a208ceffb3ac",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-common.zip/0001.part": {
+      "git_blob_sha1": "2800f59d986355d06b4336fd9ab40fe249595d32",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-common.zip/0002.part": {
+      "git_blob_sha1": "b985fbb4139f548ed6d17f9062c2e1d961b6d75a",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-common.zip/0003.part": {
+      "git_blob_sha1": "cb82afef75222acc3783452afc6a37f52ad32856",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-common.zip/0004.part": {
+      "git_blob_sha1": "032839988300fe6e0f2597202a143810749e7647",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-common.zip/0005.part": {
+      "git_blob_sha1": "966ce0fd1dbcbdc0ff4e04b7c2710cb1ad60d085",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-common.zip/0006.part": {
+      "git_blob_sha1": "eda4f82ff191e68ebd213b97b6b16e13e2ac2fc6",
+      "bytes": 13907931
+    },
+    "parts/nyc-evidence-manhattan.zip/0000.part": {
+      "git_blob_sha1": "cc6763d817e641034100a750ba3fa0c3141e1c40",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-manhattan.zip/0001.part": {
+      "git_blob_sha1": "3af89d2eb74ef35d3223747cb02f66cfd916e78f",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-manhattan.zip/0002.part": {
+      "git_blob_sha1": "4357cc6d2a5590a1f98630faaef5c39fb39e8b57",
+      "bytes": 4583692
+    },
+    "parts/nyc-evidence-queens.zip/0000.part": {
+      "git_blob_sha1": "3a4694de735c2bf4b852f1288485ffbbff342af4",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0001.part": {
+      "git_blob_sha1": "80c9d3b265a28007209655d38d2447b435da0eff",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0002.part": {
+      "git_blob_sha1": "69639f63d6ad93aea72e3eb2daf98e558c594a30",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0003.part": {
+      "git_blob_sha1": "881a2363062c5a34b1781067699b415fb7b3d0af",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0004.part": {
+      "git_blob_sha1": "54dbc88de153cc3670fbcbbd3c4f935a59e0ca4a",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0005.part": {
+      "git_blob_sha1": "a596c336c781a22eda632fc6014e5c8089b62888",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0006.part": {
+      "git_blob_sha1": "ff3748503fec9b8f274a210ffd0178937445489b",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0007.part": {
+      "git_blob_sha1": "91b336ed96058a120657ad0d79b54ed6b0fdf636",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0008.part": {
+      "git_blob_sha1": "aff8cc0fc2147e792baf0652397cd1eeb7428a7a",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0009.part": {
+      "git_blob_sha1": "98241ea2d446417a72a1442590dbdc21ba97a69a",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0010.part": {
+      "git_blob_sha1": "bfb65fc1178cdd2e9ab52aebde6a7a42c4a3f89f",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0011.part": {
+      "git_blob_sha1": "66eede532f6c2cfd43f770829e369370ceb16650",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0012.part": {
+      "git_blob_sha1": "7c5c0d10b309da3bacbaffb7ccd2ae0054edff69",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0013.part": {
+      "git_blob_sha1": "05ecc0e8fea26d776f5f9ec00ff5886185d00f4d",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-queens.zip/0014.part": {
+      "git_blob_sha1": "501b74284baf455b3373a0a716d3c0fddb8211ce",
+      "bytes": 27957534
+    },
+    "parts/nyc-evidence-staten-island.zip/0000.part": {
+      "git_blob_sha1": "5504f9d584f2798f819a76b635561b0bba4e23ab",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-staten-island.zip/0001.part": {
+      "git_blob_sha1": "9dd7af440732a8137a930b69afb5f59c8646210b",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-staten-island.zip/0002.part": {
+      "git_blob_sha1": "95c4e45693549dd1f07c7acbe563aeba7e4cac33",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-staten-island.zip/0003.part": {
+      "git_blob_sha1": "56249a16fc094650bb69acf69469d4d2220b3fa8",
+      "bytes": 33554432
+    },
+    "parts/nyc-evidence-staten-island.zip/0004.part": {
+      "git_blob_sha1": "ddc5ee20b76d51b6abed079dc831a9e28f126140",
+      "bytes": 28799009
+    },
+    "preview-single.html": {
+      "git_blob_sha1": "ff9ae10da464d650e04d5ac62200590634227b69",
+      "bytes": 1429325
+    },
+    "start-local.py": {
+      "git_blob_sha1": "a1ccb98204d379238eb88945392d5ed13b7306e3",
+      "bytes": 1277
+    },
+    "test-join.py": {
+      "git_blob_sha1": "f4631e6e93c16d67469cfd08b3b90d6848485854",
+      "bytes": 2101
+    },
+    "update-local.py": {
+      "git_blob_sha1": "b262b7f69db695cbd3f79f0f0aa70b64795e8687",
+      "bytes": 7787
+    }
+  },
+  "binary_readback_checks": [
+    {
+      "name": "bundle-index.json",
+      "sha256": "975103462ec8f864c1a0a8b955a892f77ee2682db114fcdcd72e0f94df09063d",
+      "actual_binary_readback": true
+    },
+    {
+      "name": "READY.json",
+      "sha256": "dc48ec5016af4c20240b65b85a04c778e980b7df15fa84533beb0bd5b00bdae0",
+      "actual_binary_readback": true
+    },
+    {
+      "name": "join-packages.py",
+      "sha256": "34069eabdeccd7c929e62c219655744751258ceccc164f24affc5c3a9442e71b",
+      "actual_binary_readback": true
+    },
+    {
+      "path": "parts/nyc-evidence-bronx.zip/0004.part",
+      "bytes": 2554204,
+      "sha256": "d688c4a62bcaf9f1ee6048220bd927dd7bb0890e951a604a0b2a680065e0db06",
+      "actual_binary_readback": true
+    }
+  ],
+  "original_archives": [
+    {
+      "name": "nyc-developer-source.zip",
+      "bytes": 61530580,
+      "sha256": "ff0647dbd742b71e211ac60861fc40e05dd249778c7e6ca3054505f246fb7a01"
+    },
+    {
+      "name": "nyc-evidence-bronx.zip",
+      "bytes": 136771932,
+      "sha256": "90733c88146dacb749f560da8739ab0021c8cc68c93af58bcdca9a3d9067b12d"
+    },
+    {
+      "name": "nyc-evidence-brooklyn.zip",
+      "bytes": 363533864,
+      "sha256": "b40d06b964486a1159fab9e332394d02d7434c39ec3bfbf559c736caf120b125"
+    },
+    {
+      "name": "nyc-evidence-common.zip",
+      "bytes": 215234523,
+      "sha256": "82903f620423d47d482549ae1ceb4a2f0681c31197e115400fa254ba71ad102c"
+    },
+    {
+      "name": "nyc-evidence-manhattan.zip",
+      "bytes": 71692556,
+      "sha256": "455fe1357cb6a374aa9e3e27212d72525d5fca3eb16396fa792bb32c3601c7b3"
+    },
+    {
+      "name": "nyc-evidence-queens.zip",
+      "bytes": 497719582,
+      "sha256": "46cc967471af3c6249e4a94c6493197908e715921c387c3b64d3805666483c0a"
+    },
+    {
+      "name": "nyc-evidence-staten-island.zip",
+      "bytes": 163016737,
+      "sha256": "9441d9d2b98626c5181fa7e250ebb88aa2d1a7deea8159e39bcc65fbfd036bd2"
+    }
+  ],
+  "actual_local_rejoin_verified_files": 16,
+  "transport": "ordinary Git binary chunks, not Release attachments, Actions or Git LFS",
+  "complete_current_fine_buildings": 0,
+  "repository_url": "https://github.com/CloudAis/NY-City-Model",
+  "release_url": "https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028-git",
+  "release_tag": "v0.1.0-evidence-20261028-git",
+  "release_status": "verified_data_uploaded_release_publication_pending",
+  "source_acceptance_checkpoint": "717a2e4efea077a4a43913fe2faded55dc52848e",
+  "source_history_merge_commit": "bdc87a987609e685430c6f1499cd38958faf0d6d",
+  "existing_repository_initial_commit_preserved": "b5b413369aa881d136c51a20298c969acd4ff61a",
+  "release_asset_upload_domain_status": 401,
+  "release_attachments_claimed": false,
+  "GitHub_Actions_workflows_added": false,
+  "automatic_review_rejected_optional_workflow": {
+    "reason": "persistent manually triggerable contents:write workflow could publish/alter releases beyond clearly authorized automation scope",
+    "action_taken": "removed local uncommitted workflow and used ordinary Git data upload; no workflow permissions changed"
+  },
+  "restore_utility_checks": {
+    "actual_all_package_rejoin": 16,
+    "missing_ready_corrupt_bytes_existing_output_and_actual_file_restore": 4,
+    "all_passed": true
+  },
+  "original_validated_archive_bytes_changed": false,
+  "notes": "Only publication metadata/links differ; original source/runtime ZIPs, models, textures and master source data are unchanged. Git data branch carries actual bytes, not Git LFS pointers or a download-only script."
+}
