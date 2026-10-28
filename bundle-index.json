@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "repository": "CloudAis/NY-City-Model",
-  "release_tag": "v0.1.0-evidence-20261028",
+  "release_tag": "v0.1.0-evidence-20261028-git",
   "data_branch": "offline-packages-v0.1.0-evidence-20261028",
   "source_checkpoint": "717a2e4",
   "original_zip_bytes_unchanged": true,
@@ -366,5 +366,6 @@
       "storage": "file",
       "path": "update-local.py"
     }
-  ]
+  ],
+  "source_tag": "v0.1.0-evidence-20261028"
 }
