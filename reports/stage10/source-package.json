@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-28T14:03:37.026102+00:00",
+  "name": "nyc-developer-source.zip",
+  "bytes": 61530580,
+  "sha256": "ff0647dbd742b71e211ac60861fc40e05dd249778c7e6ca3054505f246fb7a01",
+  "files": 2406,
+  "actual_crc_and_every_payload_sha_verified": true,
+  "complete_raw_offline_rebuild": false,
+  "all_published_runtime_resources_delivered_separately": true
+}

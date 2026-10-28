@@ -1,5 +1,14 @@
 # 字段字典
 
+## 第十阶段审查字段
+
+- `schema_version:10`是审查/交付格式版本，不是建筑观测版本。`source_version:2026-10-27-city`是来源抓取标签。`target_reality_date:null`保留目标历元未确定，不能用review/download时间填充。
+- census的`source_records`为来源实体，`numerically_valid_geometries`含原占位，`published_outline_entities`排除34官方1003占位；`valid_source_height_number_unit_unresolved`仅数值合法。canonical/可靠高度/可信主体/可靠屋顶/完整当前立面独立为0，不能混成完成率。
+- `raw_to_metric_pipeline_deviation_m`、`source_to_gpu_outline_deviation_m`、`hypothesis_height_span_encoding_error_m`为处理忠实度，`reality_max_error_m:null`为无独立测量。不得交换含义。
+- DOB `source_row_id`与来源稳定ID列表多对多；`administrative_record`保留申请/批准/许可/签结/使用证日期各原字段。`physical_current_status:unresolved`、`physical_height_m:null`；job_type/status不自动变成竣工或拆除事实。
+- `delivery-manifest.files`逐文件`path/bytes/sha256/license_id`，`runtime_parts`为六个确实存在且含载荷的ZIP。`old_base_required:false`只描述运行资源。更新patch的scope/source_version/provenance/stable_ids及新旧SHA不能缺省。
+- 下载、处理、发布、实际浏览和独立现实核验是不同阶段；每个报告说明分母及排除规则。立面候选边数不作为物理立面总数。
+
 阶段6facade.id=原ID+部件/环+端点哈希，是候选边而非实测立面ID；outward_azimuth_degrees为真北顺时针方位，width_projected_m为源投影长度，height_m/vertical_shape未知null，exposure可能共墙。components九类分别记状态。historical_evidence不改变current_complete。texture-processing保存原图SHA/日期/具体许可、角点/矩阵、像素尺寸/mask比例、标尺/照片推导值和宽度冲突，现实精度null。known_pixel_fraction不是实测整墙覆盖率；4语义正面可关联7条候选边，不能当7完整立面。
 
 阶段5landmarks/<slug>：dossier保存稳定原ID/BIN、身份范围、坐标或null、目标日期和四项statuses；dimensions.parameters保存source_value/unit、value_m、原文证据URL/路径/SHA/quote、换算/推导、uncertainty_m（未知null）和project_review_tolerance_m（项目阈值，非来源精度）。conflicts保留竞争数值/年代/选择依据。components区分已输出与缺失；materials类别证据与检查色度/粗糙度分开；references.views明确拍摄日/方位/校准状态；validation保存实际生成相机和数值残差、现实误差null。source-building.json为阶段2完整payload审计快照，其中height_m/ground_elevation_m只是legacy，不是阶段5canonical参数。manifest中的published_representations不等于fine_model_complete。

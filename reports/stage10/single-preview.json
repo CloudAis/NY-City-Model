@@ -1,0 +1,22 @@
+{
+  "at_utc": "2026-10-28T13:41:18.932Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    "actual file navigation attempted; standalone content runs with allGLB and four original textures inline, explicit partial scope",
+    "actual front photo pixels visible,180degree orbit renders unknown rear neutral rather than mirrored photo",
+    "actual orbit,zoom,top view and20 switches retain bounded model/texture ownership",
+    "narrow viewport remains usable without page overflow; no real mobile hardware claim",
+    "same physical single file works over localHTTP with outside network blocked",
+    "unsupportedWebGL2 produces explicit finite error instead of an endless loading page"
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4201/preview-single.html"
+  ],
+  "fileMode": "blocked_by_enterprise_policy",
+  "blockedReason": "Error: page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///workspace/nyc-3d-html/preview-single.html\nCall log:\n\u001b[2m  - navigating to \"file:///workspace/nyc-3d-html/preview-single.html\", waiting until \"load\"\u001b[22m\n",
+  "embedded_mode": "actual offline setContent",
+  "http_mode": "actual localhostHTTP with outside routes blocked",
+  "real_mobile_hardware": false,
+  "complete_fine_buildings": 0
+}

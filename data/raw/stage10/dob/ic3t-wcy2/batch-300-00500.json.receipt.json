@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24where=bin__+in%28%275138037%27%2C%275141706%27%2C%275141912%27%2C%275142390%27%2C%275154517%27%2C%275156437%27%2C%275156439%27%2C%275156898%27%2C%275156913%27%2C%275157013%27%2C%275159455%27%2C%275159499%27%2C%275164932%27%2C%275166154%27%2C%275166155%27%2C%275166680%27%2C%275166781%27%2C%275166782%27%2C%275168157%27%2C%275168832%27%2C%275169552%27%2C%275169720%27%2C%275170474%27%2C%275171482%27%2C%275171490%27%2C%275171579%27%2C%275175161%27%2C%275175245%27%2C%275176259%27%2C%275176285%27%2C%275176286%27%2C%275176881%27%2C%275176926%27%2C%275177813%27%29&%24select=%3Aid+as+socrata_row_id%2Cbin__%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status%2Cjob_status_descrp%2Clatest_action_date%2Cpre__filing_date%2Capproved%2Cfully_permitted%2Csignoff_date%2Cexisting_height%2Cproposed_height%2Cexistingno_of_stories%2Cproposed_no_of_stories%2Clandmarked&%24order=%3Aid+ASC&%24limit=500&%24offset=500",
+  "final_url": "https://data.cityofnewyork.us/resource/ic3t-wcy2.json?%24where=bin__+in%28%275138037%27%2C%275141706%27%2C%275141912%27%2C%275142390%27%2C%275154517%27%2C%275156437%27%2C%275156439%27%2C%275156898%27%2C%275156913%27%2C%275157013%27%2C%275159455%27%2C%275159499%27%2C%275164932%27%2C%275166154%27%2C%275166155%27%2C%275166680%27%2C%275166781%27%2C%275166782%27%2C%275168157%27%2C%275168832%27%2C%275169552%27%2C%275169720%27%2C%275170474%27%2C%275171482%27%2C%275171490%27%2C%275171579%27%2C%275175161%27%2C%275175245%27%2C%275176259%27%2C%275176285%27%2C%275176286%27%2C%275176881%27%2C%275176926%27%2C%275177813%27%29&%24select=%3Aid+as+socrata_row_id%2Cbin__%2Cjob__%2Cdoc__%2Cjob_type%2Cjob_status%2Cjob_status_descrp%2Clatest_action_date%2Cpre__filing_date%2Capproved%2Cfully_permitted%2Csignoff_date%2Cexisting_height%2Cproposed_height%2Cexistingno_of_stories%2Cproposed_no_of_stories%2Clandmarked&%24order=%3Aid+ASC&%24limit=500&%24offset=500",
+  "download_started_at": "2026-10-28T12:52:14.159049+00:00",
+  "download_completed_at": "2026-10-28T12:52:14.864761+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC4xNTY3MF82XzQ2MTFGU1pYN2tTMXpZVDRvakVyYmNTaGpMYkVEQlU---gziqJ0DY4mxidoJ634Uf86tIFINRrRA--gzip--gzip\"",
+  "last_modified_http": "Tue, 27 Oct 2026 21:35:18 GMT",
+  "bytes": 31581,
+  "sha256": "7f0313c180c8f5e5d4e1b7ec4ce5e0e36726fa8b2851cf4222a9ec050baed3cf",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

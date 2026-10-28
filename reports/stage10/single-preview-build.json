@@ -1,0 +1,33 @@
+{
+  "at_utc": "2026-10-28T13:41:05.862817+00:00",
+  "path": "preview-single.html",
+  "bytes": 1429325,
+  "sha256": "5c9b4d5c4529113f4820c9d1eedc2d63708aa569ddbfd8284caf356da0247780",
+  "embedded_models": [
+    {
+      "id": "grove-1936",
+      "source_path": "assets/facades/grove-1936/model.glb",
+      "sha256": "269bd415204173e3c2b574de8649af5358df7ab821b79280adbb7c1e4a665ce2",
+      "image_count": 4,
+      "stable_ids": [
+        "nyc:footprints:doitt:233256",
+        "nyc:footprints:doitt:281428",
+        "nyc:footprints:doitt:231563",
+        "nyc:footprints:doitt:138288"
+      ],
+      "detail_level": "four partial historical photo planes, no complete physical building"
+    },
+    {
+      "id": "one-wtc-partial",
+      "source_path": "assets/landmarks/one-world-trade-center/model.glb",
+      "sha256": "71467a3c6d9a7042f9ca83f279e22da1d0e6b8cff2279d8ecf9b4046a07ca6ba",
+      "image_count": 0,
+      "stable_ids": [
+        "nyc:footprints:doitt:1114961"
+      ],
+      "detail_level": "partial faceted massing and spire axis; facade unknown"
+    }
+  ],
+  "complete_fine_buildings": 0,
+  "external_runtime_dependencies": 0
+}

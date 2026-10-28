@@ -7,7 +7,7 @@ import {setTimeout as delay} from 'node:timers/promises';
 import assert from 'node:assert/strict';
 import {installProbe} from './probe.mjs';
 const seconds=Number(process.env.NYC_SOAK_SECONDS??1800);assert.ok(seconds>0);
-const report='reports/stage9/soak',origin='http://127.0.0.1:4196';await mkdir(report,{recursive:true});
+const report=process.env.NYC_REPORT_DIR??'reports/stage9/soak',origin='http://127.0.0.1:4196';await mkdir(report,{recursive:true});
 async function fingerprint(){const result={};for(const p of (await readdir('dist/assets')).sort())result[p]=createHash('sha256').update(await readFile('dist/assets/'+p)).digest('hex');return result;}
 const codeFingerprint=await fingerprint(),commit=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();
 const server=spawn('python3',['-m','http.server','4196','--bind','127.0.0.1'],{cwd:'dist',stdio:'ignore'});

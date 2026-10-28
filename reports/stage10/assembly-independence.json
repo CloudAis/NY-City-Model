@@ -1,0 +1,8 @@
+{
+  "root": "/tmp/nyc-final-clean-20261028",
+  "regular_files": 25953,
+  "nonindependent_files": [],
+  "hardlinks_or_symlinks_used": false,
+  "workspace_fallback": false,
+  "actual_bytes_extracted": true
+}

@@ -1,5 +1,22 @@
 # 纽约真实尺度 3D HTML
 
+**当前为第十阶段部分完成交付，以下旧阶段说明作为历史保留。** 全部已发布五区轮廓、检查工具及局部证据可本地离线运行；完整现状精细建筑0，不是完整纽约外观复刻。
+
+交付目录为`reports/final-delivery/`，包含**六个实际运行分包**、`delivery-manifest.json`、`SHA256SUMS`、Python组装/启动/更新脚本、单文件局部预览和开发源码ZIP。无需任何旧基础包。具体清单、限制与操作见[交付说明](docs/DELIVERY.md)，真实性见[最终真实性报告](reports/AUTHENTICITY_FINAL.md)，实际验收见[最终验收报告](reports/FINAL_ACCEPTANCE.md)。
+
+```bash
+cd reports/final-delivery
+python3 assemble.py --parts-dir . --output ./nyc-local
+python3 nyc-local/start-local.py --port 8080
+# http://127.0.0.1:8080/index.html
+```
+
+源码已具备依赖时：`npm run dev` → **http://127.0.0.1:5180/release.html**。构建：`npm run build`，随后`python3 -m http.server 8080 --bind 127.0.0.1 --directory dist`，打开`/release.html`。开发dist保留原index为来源档案；最终运行包的index为覆盖说明入口，原档案另存source-audit.html。
+
+新单文件为根目录`preview-single.html`：Grove四块1936历史正面片段和OneWTC部分文献体量，无外部依赖，不是完整现状街段。HTTP与内容嵌入实测可用，默认file://被本机企业策略拦截，普通浏览器双击待测。运行包离线HTTP不等于支持多文件file://。源数据/年代、重建输入与更新回退见[重建](docs/REBUILD.md)、[更新](docs/UPDATE.md)。
+
+---
+
 阶段6新增 [普通建筑逐面检视](facades.html)：五区12个明确边界、918个来源对象、10,667条立面候选边；实际处理Grove四栋各自的1936年正面照片，独立校正、遮罩和UV。**完整现状街段与已核验现状立面仍为0**，门廊、栏杆和屋顶实体未完成。见 [普通建筑报告](reports/FACADE_REVIEW.md) 和 [接续](docs/NEXT_STEPS.md)。
 
 启动 `npm run dev` → **http://localhost:5180/facades.html**。默认严格证据只显示已知轮廓；明确打开“1936年历史立面片段”才加载四个照片面，可完全移除。当前来源轮廓不隐藏，不以历史资料替代2026现状。其他范围没有铺随机或重复纹理。固定路径、逐面状态和原图预览均可查看。

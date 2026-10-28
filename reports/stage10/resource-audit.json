@@ -1,0 +1,41 @@
+{
+  "at_utc": "2026-10-28T13:46:43.049039+00:00",
+  "runtime_files": 25888,
+  "runtime_bytes": 6634914392,
+  "glb_headers_checked": 15071,
+  "local_references_checked": 22789,
+  "errors": [],
+  "all_files_have_declared_rights_basis": true,
+  "license_classes": {
+    "cesium_distribution_third_party_notices": {
+      "basis": "licenses/cesium.md,cesium-third-party.json,cesium-engine.md,cesium-widgets.md; retain individual bundled third-party terms, not all assets re-labelled Apache",
+      "source": "installed official Cesium1.146.0 distribution"
+    },
+    "project_and_bundled_cesium_code": {
+      "basis": "project-generated code with CesiumApache2 code portions and third-party license files; no new project open-source licence assigned"
+    },
+    "loc_original_habs_ny449_public_domain_with_credit": {
+      "basis": "assets/facades/grove-1936/street.json original HABS government photo/sheet only; third-party copied material excluded",
+      "credit": "Library of Congress,Prints&Photographs Division,HABS NY-449; ArnoldMoses1936-08-25; HarryDavisRiley drawings"
+    },
+    "generated_partial_geometry_factual_dimensions": {
+      "basis": "generated geometry/factual dimensions and retained small source references; original unknown-rights photographs/PDF excluded"
+    },
+    "nys2017_dem_and_nyc_open_data_derived": {
+      "basis": "NYSITS public2017bare-earth service/NYC metadata Public,UseLimitationsNA; source attribution retained, not relabelled public-domain"
+    },
+    "nyc_open_data_or_project_generated_audit": {
+      "basis": "NYCOpenData Terms, original source manifests and capture/observation dates retained"
+    },
+    "project_generated_page_or_preview_with_embedded_credits": {
+      "basis": "project-generated; preview explicitly retains LOC/model factual credits"
+    }
+  },
+  "not_in_runtime": [
+    "unresolved-rights2024ortho tile",
+    "rawunknown-rightslandmarkphotos/PDF",
+    "commercialstreetview/3Dtiles",
+    "unconfiguredcloudterrain/CDNs"
+  ],
+  "fonts": "system font stacks and vendor bundled assets only; no online font dependency"
+}

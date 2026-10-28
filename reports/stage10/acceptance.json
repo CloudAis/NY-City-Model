@@ -1,0 +1,218 @@
+{
+  "schema_version": 10,
+  "at_utc": "2026-10-28T14:03:26.665710+00:00",
+  "source_version": "2026-10-27-city",
+  "code_base_commit": "3e78d136e75827b0b64a0e4cdb0ebf91963bba2a",
+  "worktree_candidate_fingerprint": "soak/result.json codeFingerprint + input-lock, not a claim HEAD was clean at test time",
+  "overall": "partial reality build; complete published runtime delivered only when package receipts exist",
+  "complete_real_city_exteriors": false,
+  "complete_current_fine_buildings": 0,
+  "independent_reality_error_m": null,
+  "requirements": [
+    {
+      "requirement": 1,
+      "status": "passed_source_census",
+      "evidence": "census.json,input-lock.json,borough-coverage.csv",
+      "note": "all source records reread; real physical building universe not independently counted"
+    },
+    {
+      "requirement": 2,
+      "status": "passed_distinctions",
+      "evidence": "census.json,package-browser.json",
+      "note": "download/processed/published/actual visible/independently verified separate"
+    },
+    {
+      "requirement": 3,
+      "status": "passed_with_scope_limit",
+      "evidence": "AUTHENTICITY_FINAL.md",
+      "note": "source denominator and34original exclusions, not reality coverage"
+    },
+    {
+      "requirement": 4,
+      "status": "partial",
+      "evidence": "lifecycle-all-source.csv.gz,lifecycle-candidates.json",
+      "note": "target epoch not unified; all current physical statuses unknown; DOB work candidates not completion proof"
+    },
+    {
+      "requirement": 5,
+      "status": "passed_disclosure",
+      "evidence": "release.html,KNOWN_GAPS.md",
+      "note": "unknown layers/fields and non-completed body/roof/facade clearly flagged"
+    },
+    {
+      "requirement": 6,
+      "status": "partial",
+      "evidence": "independent-evidence.json,evidence-lock.json",
+      "note": "227objects have independent DOB administration; independently surveyed position/outline/height0"
+    },
+    {
+      "requirement": 7,
+      "status": "partial",
+      "evidence": "review-summary.json,object-review.json",
+      "note": "334source objects/309nonplaceholder across five boroughs rechecked against raw/GLB, not200independent real surveys"
+    },
+    {
+      "requirement": 8,
+      "status": "partial",
+      "evidence": "landmark-checklist.json,landmarks/browser.json",
+      "note": "29dossier8aspect audit; only2partial representations, no missing-view fabricated completion"
+    },
+    {
+      "requirement": 9,
+      "status": "passed_disclosure",
+      "evidence": "review-summary.json,AUTHENTICITY_FINAL.md",
+      "note": "position/outline/height/roof/facade/reality errors separate; reality max error null"
+    },
+    {
+      "requirement": 10,
+      "status": "passed_no_unsupported_precision",
+      "evidence": "AUTHENTICITY_FINAL.md",
+      "note": "numerical fidelity does not imply source or real-world accuracy"
+    },
+    {
+      "requirement": 11,
+      "status": "passed",
+      "evidence": "tests-final.log,typecheck.log,build-final.log,final-build-match.json,core.json",
+      "note": "57rule tests; GIS/polygons/null/pagination/ID/streaming/replacement + actual browser suites"
+    },
+    {
+      "requirement": 12,
+      "status": "passed_source_scene",
+      "evidence": "inspection/browser.json,observations.json,soak/result.json",
+      "note": "25actual source observations; global physical height remains blocked"
+    },
+    {
+      "requirement": 13,
+      "status": "passed",
+      "evidence": "resource-audit.json,package-browser.json",
+      "note": "all GLB headers/references and fresh cache local requests; no old cache substitute"
+    },
+    {
+      "requirement": 14,
+      "status": "passed_declared_rights_audit",
+      "evidence": "resource-audit.json,runtime-files.json,delivery-manifest.json",
+      "note": "per-file rights basis, individual third-party notices, unknown-rights originals excluded"
+    },
+    {
+      "requirement": 15,
+      "status": "passed",
+      "evidence": "nyc-developer-source.zip,source-package.json,REBUILD.md",
+      "note": "source/locks/scripts/docs/samples; all raw originals retained locally, not all in source ZIP"
+    },
+    {
+      "requirement": 16,
+      "status": "passed_current_published_runtime",
+      "evidence": "six actual ZIPs,package.json",
+      "note": "all current published assets; complete real-city exterior models NOT achieved"
+    },
+    {
+      "requirement": 17,
+      "status": "passed",
+      "evidence": "delivery-manifest.json,assemble.py",
+      "note": "five borough ZIPs + common; no old base, no download-only placeholder"
+    },
+    {
+      "requirement": 18,
+      "status": "passed",
+      "evidence": "start-local.py,package-server.log",
+      "note": "actual127.0.0.1 starter in independently extracted new directory"
+    },
+    {
+      "requirement": 19,
+      "status": "passed_disclosure",
+      "evidence": "DELIVERY.md,single-preview.json",
+      "note": "offline localHTTP vsfile double-click explicitly separated"
+    },
+    {
+      "requirement": 20,
+      "status": "passed",
+      "evidence": "package-browser.json",
+      "note": "no CDN,online font,unconfigured cloud or paid API runtime requirement"
+    },
+    {
+      "requirement": 21,
+      "status": "passed",
+      "evidence": "package-browser.json",
+      "note": "fresh Chromium context,cache disabled,outside blocked,localhost preserved,all five actual leaf loads"
+    },
+    {
+      "requirement": 22,
+      "status": "partial",
+      "evidence": "preview-single.html,single-preview-build.json",
+      "note": "real original evidence embedded,4historical fronts+partialWTC, complete current fine sample0"
+    },
+    {
+      "requirement": 23,
+      "status": "partial_environment_limit",
+      "evidence": "single-preview.json",
+      "note": "defaultfile blocked by enterprise policy; actual offline embedding and localHTTP pass; unsupportedWebGL finite error"
+    },
+    {
+      "requirement": 24,
+      "status": "passed",
+      "evidence": "preview-single.html",
+      "note": "explicit local partial research title, not full New York model"
+    },
+    {
+      "requirement": 25,
+      "status": "passed_documentation",
+      "evidence": "DELIVERY.md,REBUILD.md,AUTHENTICITY_FINAL.md,KNOWN_GAPS.md",
+      "note": "sources,rights,coverage and limitations persist with project"
+    },
+    {
+      "requirement": 26,
+      "status": "passed_disclosure",
+      "evidence": "environment.json,QUALITY.md,PERFORMANCE_REVIEW.md,package.json",
+      "note": "softwareChromium154,viewport/DPR,actual sizes/years/quality; other browsers/mobile hardware not tested"
+    },
+    {
+      "requirement": 27,
+      "status": "passed",
+      "evidence": "assembly.log,package-browser.json,delivery-manifest.json,SHA256SUMS",
+      "note": "real new-directory extraction/start; per-file and per-archive checksums"
+    },
+    {
+      "requirement": 28,
+      "status": "passed_conservative_update_tool",
+      "evidence": "incremental-rebuild.json,update-tests.log,UPDATE.md",
+      "note": "actualsingleID/full20objecttile/boroughindex;3scopepatch+rollback,owner-loss rejected; no real newepoch matching claim"
+    },
+    {
+      "requirement": 29,
+      "status": "passed_honest_partial_status",
+      "evidence": "acceptance.json,AUTHENTICITY_FINAL.md",
+      "note": "unmet exterior/roof/facade/independentreality goals remain partial"
+    },
+    {
+      "requirement": 30,
+      "status": "passed_handoff_scope",
+      "evidence": "DELIVERY.md,package.json,FINAL_ACCEPTANCE.md",
+      "note": "launch/currentcoverage/fine0/numericalvsrealprecision/performance/remaininginputs"
+    }
+  ],
+  "performance": {
+    "real_continuous_seconds": 1805.459,
+    "completed_real_30_minutes": true,
+    "errors": [],
+    "gpu_vram_measured": false,
+    "comparison": "phase9fixedroutefirstscene4156→3378ms,pooledrAFP99216.8→283.4ms; regression retained, no universal60FPS",
+    "phase10_condition": "same software machine; additional rule/browser/rebuild tasks ran concurrently in the early part; not a new paired performance benchmark",
+    "cycles": 33,
+    "requests": 2759,
+    "failed_requests": 40,
+    "failed_request_reason_limit": "legacy soak harness counts requestfailed including cancellations but does not retain errorText; do not claim zero network failures. Fresh package test separately logs reasons.",
+    "tail_after_forced_gc_main_heap_mib_min": 54.46944046020508,
+    "tail_after_forced_gc_main_heap_mib_max": 56.95672607421875,
+    "tail_slope_mib_per_minute": 0.017959096732938915,
+    "main_document_navigated_once": true,
+    "root_created": 874,
+    "root_destroyed": 865,
+    "tile_unloaded_events": 0,
+    "note": "main JS isolate after explicitly forcedGC percycle; resource caches warm, estimatedGPU notmeasuredVRAM; bounded observed window notproof all leaks absent; root destruction observed, no leaf tileUnload events if0"
+  },
+  "initial_failures_retained": [
+    "tests.log localTCPsandboxrestriction; rerun elevated tests-final.log passed",
+    "update-tests initially caught neighbour-map weakness; fixed, final realowner tests passed",
+    "single-browser initial policy-navigation race; newpage fallback fixed without bypassing enterprise policy"
+  ]
+}

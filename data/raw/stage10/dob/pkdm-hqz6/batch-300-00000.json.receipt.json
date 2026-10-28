@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/pkdm-hqz6.json?%24where=bin+in%28%275138037%27%2C%275141706%27%2C%275141912%27%2C%275142390%27%2C%275154517%27%2C%275156437%27%2C%275156439%27%2C%275156898%27%2C%275156913%27%2C%275157013%27%2C%275159455%27%2C%275159499%27%2C%275164932%27%2C%275166154%27%2C%275166155%27%2C%275166680%27%2C%275166781%27%2C%275166782%27%2C%275168157%27%2C%275168832%27%2C%275169552%27%2C%275169720%27%2C%275170474%27%2C%275171482%27%2C%275171490%27%2C%275171579%27%2C%275175161%27%2C%275175245%27%2C%275176259%27%2C%275176285%27%2C%275176286%27%2C%275176881%27%2C%275176926%27%2C%275177813%27%29&%24select=%3Aid+as+socrata_row_id%2Cbin%2Cjob_filing_name%2Cjob_type%2Csubmitted_date%2Cc_of_o_status%2Cc_of_o_filing_type%2Cc_of_o_issuance_date%2Capplication_number%2Cc_of_o_number&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "final_url": "https://data.cityofnewyork.us/resource/pkdm-hqz6.json?%24where=bin+in%28%275138037%27%2C%275141706%27%2C%275141912%27%2C%275142390%27%2C%275154517%27%2C%275156437%27%2C%275156439%27%2C%275156898%27%2C%275156913%27%2C%275157013%27%2C%275159455%27%2C%275159499%27%2C%275164932%27%2C%275166154%27%2C%275166155%27%2C%275166680%27%2C%275166781%27%2C%275166782%27%2C%275168157%27%2C%275168832%27%2C%275169552%27%2C%275169720%27%2C%275170474%27%2C%275171482%27%2C%275171490%27%2C%275171579%27%2C%275175161%27%2C%275175245%27%2C%275176259%27%2C%275176285%27%2C%275176286%27%2C%275176881%27%2C%275176926%27%2C%275177813%27%29&%24select=%3Aid+as+socrata_row_id%2Cbin%2Cjob_filing_name%2Cjob_type%2Csubmitted_date%2Cc_of_o_status%2Cc_of_o_filing_type%2Cc_of_o_issuance_date%2Capplication_number%2Cc_of_o_number&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "download_started_at": "2026-10-28T12:52:50.926342+00:00",
+  "download_completed_at": "2026-10-28T12:52:51.264919+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"aW5kaWEuNDgzNF81XzE2MDRqa2tOZVJ5QmhGNFZIdWI3ZWlnUTR5Y21yT1E---gzipWixqN7VSt5MLRU-fru6m-7bBSiw--gzip--gzip\"",
+  "last_modified_http": "Tue, 27 Oct 2026 20:01:26 GMT",
+  "bytes": 15081,
+  "sha256": "221d1b4188b8a185151eb38f047922838821ad96e61a1cc6633db34e67ab87b2",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

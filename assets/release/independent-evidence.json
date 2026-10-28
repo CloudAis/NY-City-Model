@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-28T12:52:52.518241+00:00",
+  "reviewed_source_objects": 334,
+  "review_objects_with_dob_records": 227,
+  "dob_record_rows": 29722,
+  "independent_surveyed_geometry_controls": 0,
+  "independent_as_built_height_checks": 0,
+  "can_compute_reality_error_m": false,
+  "records": "independent-administrative-records.json",
+  "scope": "independent administrative identity/work-history evidence only; source BIN may map to multiple components/records",
+  "no_record_meaning": "absence is not proof of no construction or alteration",
+  "date_policy": "permit,filing,signoff/occupancy dates retained separately; none is automatically footprint observation date"
+}

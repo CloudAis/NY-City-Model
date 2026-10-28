@@ -1,0 +1,12 @@
+/workspace/nyc-3d-html/scripts/final_review.py:39: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  _,fixed,_=esri_polygon(f['geometry']['rings']);projected=transform(Transformer.from_crs(wkid,32118,always_xy=True).transform,fixed);delta=projected.hausdorff_distance(g)
+FINAL_REVIEW 30
+FINAL_REVIEW 60
+FINAL_REVIEW 90
+FINAL_REVIEW 120
+FINAL_REVIEW 150
+FINAL_REVIEW 180
+FINAL_REVIEW 210
+FINAL_REVIEW 270
+FINAL_REVIEW 300
+REVIEW_COMPLETE 334 errors 0 max {'raw_to_metric_m': 0.0, 'source_to_gpu_outline_m': 2.9750040408623087e-05, 'height_hypothesis_encoding_m': 1.4587926841613807e-05, 'triangulation_area_m2': 4.3655745685100555e-11}

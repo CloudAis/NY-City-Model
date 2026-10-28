@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/rbx6-tga4.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/rbx6-tga4.json",
+  "download_started_at": "2026-10-28T12:41:49.733614+00:00",
+  "download_completed_at": "2026-10-28T12:41:50.629077+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 82732,
+  "sha256": "2b39740c3cf067b0c08264f6d2cd8536b521dd50792f5a2937e45da9b4391d57",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

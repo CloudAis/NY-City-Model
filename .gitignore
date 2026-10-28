@@ -79,3 +79,11 @@ reports/nyc-stage78-inspection-overlay.zip.tmp
 data/intermediate/stage9/
 reports/nyc-stage9-performance-overlay.zip
 reports/nyc-stage9-performance-overlay.zip.tmp
+
+# Final delivery archives and isolated rebuilds are real local artifacts, not Git blobs.
+reports/final-delivery/*.zip
+reports/final-delivery/*.zip.tmp
+data/intermediate/stage10/
+data/intermediate/rebuild-*/
+data/raw/stage10/**/*.json
+!data/raw/stage10/**/*.receipt.json

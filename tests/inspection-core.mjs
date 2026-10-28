@@ -40,4 +40,4 @@ for(const area of foundation.datasets){
  assert.equal(collider.sample(1e7,1e7),null);
 }
 checks.push('eight actual DEM spawns use allowed rendered triangles; no fake zero ground');
-await writeFile('reports/stage8/core.json',JSON.stringify({at_utc:new Date().toISOString(),checks,actual_dem_spawns:foundation.datasets.length,synthetic_geometry_scope:'isolated collision unit test only; never a city asset'},null,2)+'\n');
+await writeFile(process.env.NYC_CORE_REPORT??'reports/stage8/core.json',JSON.stringify({at_utc:new Date().toISOString(),checks,actual_dem_spawns:foundation.datasets.length,synthetic_geometry_scope:'isolated collision unit test only; never a city asset'},null,2)+'\n');

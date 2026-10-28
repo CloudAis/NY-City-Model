@@ -1,0 +1,5 @@
+PASS movement integrates real elapsed time consistently at20,60,144FPS
+PASS identity handler tolerates empty, destroyed, out-of-bounds and malformed picks
+PASS horizontal,3D and signed height differences remain distinct in same-datum local coordinates
+PASS ground collider never chooses a higher bridge floor and rejects unknown cells
+PASS unknown bookmark version or fields cannot replace valid world state

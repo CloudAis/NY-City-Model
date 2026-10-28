@@ -1,0 +1,34 @@
+{
+  "at_utc": "2026-10-28T14:01:38.066318+00:00",
+  "root": "/tmp/nyc-final-release-20261028",
+  "address": "http://127.0.0.1:8080/",
+  "bind": "127.0.0.1",
+  "actual_default_startup": true,
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 504
+    },
+    {
+      "path": "inspection.html",
+      "status": 200,
+      "bytes": 791
+    },
+    {
+      "path": "preview-single.html",
+      "status": 200,
+      "bytes": 1429325
+    },
+    {
+      "path": "datasets/buildings-city/manifest.json",
+      "status": 200,
+      "bytes": 6914
+    },
+    {
+      "path": "datasets/release/summary.json",
+      "status": 200,
+      "bytes": 7755
+    }
+  ]
+}

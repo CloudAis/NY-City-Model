@@ -1,0 +1,14 @@
+{
+  "schema_version":10,
+  "scope":"actual five-borough package regression; not a new paired performance benchmark",
+  "viewport":{"width":1440,"height":1000,"deviceScaleFactor":1},
+  "borough_observations":[
+    {"borough":"manhattan","preset":"central-south"},
+    {"borough":"brooklyn","preset":"manhattan-head","note":"Manhattan Bridge DUMBO head. brooklyn-head is Brooklyn Bridge MANHATTAN head, not Brooklyn borough."},
+    {"borough":"queens","preset":"queensboro-head"},
+    {"borough":"bronx","preset":"bruckner"},
+    {"borough":"staten-island","preset":"st-george-ferry"}
+  ],
+  "other_checks":["full-city reset","stable building search and actual line pick","restricted local2017NAVD88 ground walk","self-contained partial evidence preview"],
+  "previous_benchmark_limit":"phase9 route v1's step labelled brooklyn actually used a Manhattan bridgehead. Its same-coordinate paired timings remain valid, but that step is not Brooklyn coverage. Preserve historical results; do not relabel them as measurements at the corrected coordinate."
+}

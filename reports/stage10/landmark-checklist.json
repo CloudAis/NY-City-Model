@@ -1,0 +1,1945 @@
+{
+  "at_utc": "2026-10-28T13:14:57.288544+00:00",
+  "dossiers": 29,
+  "complete_fine_buildings": 0,
+  "scope": "per-dossier evidence/model gap audit; not false all-direction visual verification for unmodelled buildings",
+  "landmarks": [
+    {
+      "slug": "1-hanson-place",
+      "name": "1 Hanson Place",
+      "stable_building_id": null,
+      "dossier": "landmarks/1-hanson-place/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "10-hudson-yards",
+      "name": "10 Hudson Yards",
+      "stable_building_id": null,
+      "dossier": "landmarks/10-hudson-yards/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "111-west-57th-street",
+      "name": "111 West 57th Street",
+      "stable_building_id": null,
+      "dossier": "landmarks/111-west-57th-street/dossier.json",
+      "statuses": {
+        "research": "partial_architect_source_acquired",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "30-hudson-yards",
+      "name": "30 Hudson Yards",
+      "stable_building_id": null,
+      "dossier": "landmarks/30-hudson-yards/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "30-rockefeller-plaza",
+      "name": "30 Rockefeller Plaza",
+      "stable_building_id": null,
+      "dossier": "landmarks/30-rockefeller-plaza/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "432-park-avenue",
+      "name": "432 Park Avenue",
+      "stable_building_id": "nyc:footprints:doitt:1119374",
+      "dossier": "landmarks/432-park-avenue/dossier.json",
+      "statuses": {
+        "research": "partial_missing_mechanical_elevations",
+        "massing": "structural_grid_fragment_only",
+        "facade": "not_completed",
+        "validation": "source_geometry_runtime_checked_reality_open"
+      },
+      "model_exists": true,
+      "model_sha256": "764a5bdedb37f277063c39d9538eb06555e086c5d9f117dba3c496c39b44ca6f",
+      "source_parameters": [
+        {
+          "id": "width_m",
+          "value_m": 28.498800000000003,
+          "quantity": "length",
+          "source_value": 93.5,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "park-engineer",
+            "path": "data/raw/stage5/research/432-structure-engineers.html",
+            "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+            "url": "https://www.structuremag.org/article/432-park/",
+            "quote": "width and length of 93.5 feet",
+            "status": "source_explicit",
+            "note": "",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.15,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "grid_pitch_m",
+          "value_m": 4.7244,
+          "quantity": "length",
+          "source_value": 15.5,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "park-engineer",
+            "path": "data/raw/stage5/research/432-structure-engineers.html",
+            "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+            "url": "https://www.structuremag.org/article/432-park/",
+            "quote": "15.5-foot by 15.5-foot grid",
+            "status": "source_explicit",
+            "note": "",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.05,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "roof_height_m",
+          "value_m": 425.5008,
+          "quantity": "height_above_ground",
+          "source_value": 1396,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "park-engineer",
+            "path": "data/raw/stage5/research/432-structure-engineers.html",
+            "sha256": "4a8beb2b46722b11b40326de4cdfed9511753a8e4d0c55b50f2253d5a6e378aa",
+            "url": "https://www.structuremag.org/article/432-park/",
+            "quote": "1,396 feet high",
+            "status": "source_explicit",
+            "note": "",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:19:21.985496+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.1,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "window_edge_m",
+          "value_m": 3.048,
+          "quantity": "length",
+          "source_value": 10,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "park-owner",
+            "path": "data/raw/stage5/research/432-home.html",
+            "sha256": "75cf77e98cc5a9c92a5eb712f87cad94c6bf0fdb8d14a6cf3460f8b4edfb568c",
+            "url": "https://www.432parkavenue.com/",
+            "quote": "10'x10' insulated glass windows",
+            "status": "source_explicit",
+            "note": "NOT emitted: engineer mechanical-floor elevations unknown; architect approximate10m² differs from owner100ft².",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:04:30.002577+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.15,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        }
+      ],
+      "aspects": {
+        "base": {
+          "status": "replacement_rejected",
+          "source_or_gap": "source polygon includes podium/adjacent identities; no unsafe replacement"
+        },
+        "main_body": {
+          "status": "partial_grid_lines",
+          "source_or_gap": "425.5008m height,28.4988m width; no volumetric concrete/glazing"
+        },
+        "setbacks": {
+          "status": "unknown",
+          "source_or_gap": "mechanical-floor elevations unresolved"
+        },
+        "crown": {
+          "status": "unknown",
+          "source_or_gap": "roof/mechanical equipment unresolved"
+        },
+        "highest_point": {
+          "status": "published_parameter_only",
+          "source_or_gap": "no independently measured highest point"
+        },
+        "facades": {
+          "status": "not_completed",
+          "source_or_gap": "4.7244m grid lines; windows not emitted"
+        },
+        "orientation": {
+          "status": "source_footprint_derived",
+          "source_or_gap": "not independently verified"
+        },
+        "era": {
+          "status": "reference_dates_retained",
+          "source_or_gap": "not a current exterior survey"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "56-leonard-street",
+      "name": "56 Leonard Street",
+      "stable_building_id": null,
+      "dossier": "landmarks/56-leonard-street/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "bronx-county-courthouse",
+      "name": "Bronx County Courthouse",
+      "stable_building_id": null,
+      "dossier": "landmarks/bronx-county-courthouse/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "brooklyn-museum",
+      "name": "Brooklyn Museum",
+      "stable_building_id": null,
+      "dossier": "landmarks/brooklyn-museum/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "brooklyn-tower",
+      "name": "Brooklyn Tower",
+      "stable_building_id": null,
+      "dossier": "landmarks/brooklyn-tower/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "central-park-tower",
+      "name": "Central Park Tower",
+      "stable_building_id": null,
+      "dossier": "landmarks/central-park-tower/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "chrysler-building",
+      "name": "Chrysler Building",
+      "stable_building_id": null,
+      "dossier": "landmarks/chrysler-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "citi-field",
+      "name": "Citi Field",
+      "stable_building_id": null,
+      "dossier": "landmarks/citi-field/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "empire-state-building",
+      "name": "Empire State Building",
+      "stable_building_id": "nyc:footprints:doitt:778052",
+      "dossier": "landmarks/empire-state-building/dossier.json",
+      "statuses": {
+        "research": "partial_owner_sources_acquired",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "flatiron-building",
+      "name": "Flatiron Building",
+      "stable_building_id": null,
+      "dossier": "landmarks/flatiron-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "grand-central-terminal",
+      "name": "Grand Central Terminal",
+      "stable_building_id": null,
+      "dossier": "landmarks/grand-central-terminal/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "guggenheim-museum",
+      "name": "Solomon R. Guggenheim Museum",
+      "stable_building_id": null,
+      "dossier": "landmarks/guggenheim-museum/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "metlife-building",
+      "name": "MetLife Building",
+      "stable_building_id": null,
+      "dossier": "landmarks/metlife-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "metropolitan-museum",
+      "name": "Metropolitan Museum of Art",
+      "stable_building_id": null,
+      "dossier": "landmarks/metropolitan-museum/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "nypl-schwarzman",
+      "name": "Stephen A. Schwarzman Building",
+      "stable_building_id": null,
+      "dossier": "landmarks/nypl-schwarzman/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "one-vanderbilt",
+      "name": "One Vanderbilt",
+      "stable_building_id": null,
+      "dossier": "landmarks/one-vanderbilt/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "one-world-trade-center",
+      "name": "One World Trade Center",
+      "stable_building_id": "nyc:footprints:doitt:1114961",
+      "dossier": "landmarks/one-world-trade-center/dossier.json",
+      "statuses": {
+        "research": "partial_conflicts_and_missing_views",
+        "massing": "partial_evidence_bound_main_volume",
+        "facade": "not_completed",
+        "validation": "source_geometry_runtime_checked_reality_open"
+      },
+      "model_exists": true,
+      "model_sha256": "71467a3c6d9a7042f9ca83f279e22da1d0e6b8cff2279d8ecf9b4046a07ca6ba",
+      "source_parameters": [
+        {
+          "id": "base_width_m",
+          "value_m": 62.484,
+          "quantity": "length",
+          "source_value": 205,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "wtc-engineer-2012",
+            "path": "data/raw/stage5/research/1wtc-2012-engineering.pdf",
+            "sha256": "c316be9f05ad43fbdc25c288b5ab3fdc2fb0ebacec3ae763d1f25f5fdbdcd6c2",
+            "url": "https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf",
+            "quote": "205-foot (62.5-meter) square plan",
+            "status": "source_explicit",
+            "note": "2012 construction-design source; current source footprint ~62m supports this better than 2014 prose 200ft. Conflict retained, NOT resolved by choosing newer page.",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:24:12.512174+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.7,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "podium_top_m",
+          "value_m": 57.912000000000006,
+          "quantity": "length",
+          "source_value": 190,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "wtc-engineer-2012",
+            "path": "data/raw/stage5/research/1wtc-2012-engineering.pdf",
+            "sha256": "c316be9f05ad43fbdc25c288b5ab3fdc2fb0ebacec3ae763d1f25f5fdbdcd6c2",
+            "url": "https://constructsteel.org/wp-content/uploads/2024/11/F-WTC-Nov121-Thomas-Gernay.pdf",
+            "quote": "office levels start 190 feet (58meters)",
+            "status": "source_explicit",
+            "note": "",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:24:12.512174+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.5,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "roof_width_m",
+          "value_m": 45.72,
+          "quantity": "length",
+          "source_value": 150,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "wtc-architect",
+            "path": "data/raw/stage5/research/1wtc-som.html",
+            "sha256": "df35df6eaad3eb418fef557cdbf00843ef411986a2af5960cda6ce8af563598c",
+            "url": "https://www.som.com/projects/one-world-trade-center/",
+            "quote": "150-foot-by-150-foot square",
+            "status": "source_explicit",
+            "note": "Current architect page selected; 2012 engineer gives145ft. Roof dimension conflict remains unresolved; model is evidence-bound partial massing.",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:09:08.112246+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 1.524,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "roof_height_m",
+          "value_m": 416.9664,
+          "quantity": "height_above_ground",
+          "source_value": 1368,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "wtc-engineer",
+            "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+            "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+            "url": "https://www.structuremag.org/article/one-world-trade-center/",
+            "quote": "main roof at 1368 feet (417m)",
+            "status": "source_explicit",
+            "note": "",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:18:37.847800+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.5,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "spire_above_roof_m",
+          "value_m": 124.3584,
+          "quantity": "spire_extent_above_roof",
+          "source_value": 408,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "wtc-engineer",
+            "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+            "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+            "url": "https://www.structuremag.org/article/one-world-trade-center/",
+            "quote": "408 feet (124m) tall spire",
+            "status": "source_explicit",
+            "note": "Axis only; diameter, ring radii, beacon and cable attachments unknown. SOM441ft includes a different described extent; do not subtract it from total to get roof.",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:18:37.847800+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.5,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        },
+        {
+          "id": "total_height_m",
+          "value_m": 541.3248,
+          "quantity": "architectural_top_above_ground",
+          "source_value": 1776,
+          "source_unit": "international_foot",
+          "evidence": {
+            "source": "wtc-engineer",
+            "path": "data/raw/stage5/research/1wtc-structure-engineers.html",
+            "sha256": "6097e3085b77f7c5da5db16decdd9e3acfe1134b95cc3d6eead3d7ccdc958095",
+            "url": "https://www.structuremag.org/article/one-world-trade-center/",
+            "quote": "1,776 feet (541 m)",
+            "status": "source_explicit",
+            "note": "",
+            "independently_verified": false,
+            "observation_date": null,
+            "downloaded_at": "2026-10-27T16:18:37.847800+00:00",
+            "reuse": "reference-only; no original photos/PDF redistributed as model textures"
+          },
+          "uncertainty_m": null,
+          "project_review_tolerance_m": 0.5,
+          "uncertainty_note": "Publisher parameter-specific accuracy unknown. Project review tolerances are modelling choices, NOT measured source/reality uncertainty. Source conflicts are separately retained.",
+          "unit_conversion": "international foot * 0.3048 exactly per NIST, structural architecture NOT geodetic surveying"
+        }
+      ],
+      "aspects": {
+        "base": {
+          "status": "source_conflict_partial",
+          "source_or_gap": "205 vs200ft design references; foundation not globally registered"
+        },
+        "main_body": {
+          "status": "partial_source_bound_model",
+          "source_or_gap": "eight-facet massing, roof416.9664m; not complete as-built volume"
+        },
+        "setbacks": {
+          "status": "partial_outline_only",
+          "source_or_gap": "podium transition only; entry details absent"
+        },
+        "crown": {
+          "status": "unknown",
+          "source_or_gap": "no antenna diameter/construction invented"
+        },
+        "highest_point": {
+          "status": "source_parameter_axis_only",
+          "source_or_gap": "541.3248m factual published extent; antenna model only axis"
+        },
+        "facades": {
+          "status": "unknown",
+          "source_or_gap": "neutral materials,no complete curtain wall"
+        },
+        "orientation": {
+          "status": "source_footprint_derived",
+          "source_or_gap": "stable ID direction retained; no independent orientation survey"
+        },
+        "era": {
+          "status": "mixed_reference_dates_flagged",
+          "source_or_gap": "2012/2014 design plus undated pages, not asserted2026as-built"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "st-george-theatre",
+      "name": "St. George Theatre",
+      "stable_building_id": null,
+      "dossier": "landmarks/st-george-theatre/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "st-patricks-cathedral",
+      "name": "St. Patrick’s Cathedral",
+      "stable_building_id": null,
+      "dossier": "landmarks/st-patricks-cathedral/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "staten-island-borough-hall",
+      "name": "Staten Island Borough Hall",
+      "stable_building_id": null,
+      "dossier": "landmarks/staten-island-borough-hall/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "twa-flight-center",
+      "name": "TWA Flight Center",
+      "stable_building_id": null,
+      "dossier": "landmarks/twa-flight-center/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "un-secretariat",
+      "name": "United Nations Secretariat Building",
+      "stable_building_id": null,
+      "dossier": "landmarks/un-secretariat/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "woolworth-building",
+      "name": "Woolworth Building",
+      "stable_building_id": null,
+      "dossier": "landmarks/woolworth-building/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    },
+    {
+      "slug": "yankee-stadium",
+      "name": "Yankee Stadium",
+      "stable_building_id": null,
+      "dossier": "landmarks/yankee-stadium/dossier.json",
+      "statuses": {
+        "research": "queued",
+        "massing": "not_started",
+        "facade": "not_started",
+        "validation": "not_started"
+      },
+      "model_exists": false,
+      "model_sha256": null,
+      "source_parameters": [],
+      "aspects": {
+        "base": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "main_body": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "setbacks": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "crown": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "highest_point": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "facades": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "orientation": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        },
+        "era": {
+          "status": "not_verified",
+          "reality_error_m": null,
+          "source_or_gap": "no completed model/current independently calibrated views"
+        }
+      },
+      "independent_current_reality_verification": false,
+      "complete_fine_building": false
+    }
+  ]
+}

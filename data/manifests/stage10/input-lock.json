@@ -1,0 +1,46 @@
+{
+  "schema_version": 10,
+  "at_utc": "2026-10-28T13:12:54.065741+00:00",
+  "source_capture": "2026-10-27-city",
+  "review_date": "2026-10-28",
+  "review_timezone": "Asia/Singapore",
+  "target_reality_date": null,
+  "target_date_note": "user has not specified a single historical/current model epoch; review date is NOT observation date",
+  "files": [
+    {
+      "path": "data/processed/city/buildings.sqlite",
+      "bytes": 4943364096,
+      "sha256": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37"
+    },
+    {
+      "path": "data/processed/building-stage4/city/associations.sqlite",
+      "bytes": 4569452544,
+      "sha256": "bba320648dfdba61a757341ccaadd146fae1f2a94ed58de4199e56f4875dc74e"
+    },
+    {
+      "path": "assets/buildings-city/manifest.json",
+      "bytes": 6914,
+      "sha256": "f0ec679a4d4ff41853e5d2bcbd61122ceecc85c807c945894e3af95e275854bb"
+    },
+    {
+      "path": "data/manifests/stage4/generated-files.jsonl",
+      "bytes": 3532736,
+      "sha256": "fb4c2d091998a05d0fdfbce8ecf3d4034bd806c2c0592b571bc0c9b550265517"
+    },
+    {
+      "path": "assets/landmarks/manifest.json",
+      "bytes": 8820,
+      "sha256": "0deca6ec46f987f5bd5e999f4a704fe79ed0a046a5cb69a88c57d1cb7f18b19f"
+    },
+    {
+      "path": "assets/facades/manifest.json",
+      "bytes": 46916,
+      "sha256": "d4be20fda3e89f7421c1c745fb1e95512b59f07ff157b0297385d9732185b416"
+    },
+    {
+      "path": "data/manifests/sources.json",
+      "bytes": 17104,
+      "sha256": "f2664e8e8cb26f92f5b4014485c63cadd04080a4da1b5b5e66a02efcc43f9b54"
+    }
+  ]
+}

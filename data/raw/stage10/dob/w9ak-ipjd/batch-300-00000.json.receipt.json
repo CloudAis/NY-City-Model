@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=bin+in%28%275138037%27%2C%275141706%27%2C%275141912%27%2C%275142390%27%2C%275154517%27%2C%275156437%27%2C%275156439%27%2C%275156898%27%2C%275156913%27%2C%275157013%27%2C%275159455%27%2C%275159499%27%2C%275164932%27%2C%275166154%27%2C%275166155%27%2C%275166680%27%2C%275166781%27%2C%275166782%27%2C%275168157%27%2C%275168832%27%2C%275169552%27%2C%275169720%27%2C%275170474%27%2C%275171482%27%2C%275171490%27%2C%275171579%27%2C%275175161%27%2C%275175245%27%2C%275176259%27%2C%275176285%27%2C%275176286%27%2C%275176881%27%2C%275176926%27%2C%275177813%27%29&%24select=%3Aid+as+socrata_row_id%2Cbin%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cfirst_permit_date%2Capproved_date%2Csignoff_date%2Cexisting_height%2Cproposed_height%2Cfull_demolition_work_type_%2Cjob_description&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "final_url": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?%24where=bin+in%28%275138037%27%2C%275141706%27%2C%275141912%27%2C%275142390%27%2C%275154517%27%2C%275156437%27%2C%275156439%27%2C%275156898%27%2C%275156913%27%2C%275157013%27%2C%275159455%27%2C%275159499%27%2C%275164932%27%2C%275166154%27%2C%275166155%27%2C%275166680%27%2C%275166781%27%2C%275166782%27%2C%275168157%27%2C%275168832%27%2C%275169552%27%2C%275169720%27%2C%275170474%27%2C%275171482%27%2C%275171490%27%2C%275171579%27%2C%275175161%27%2C%275175245%27%2C%275176259%27%2C%275176285%27%2C%275176286%27%2C%275176881%27%2C%275176926%27%2C%275177813%27%29&%24select=%3Aid+as+socrata_row_id%2Cbin%2Cjob_filing_number%2Cjob_type%2Cfiling_status%2Cfiling_date%2Ccurrent_status_date%2Cfirst_permit_date%2Capproved_date%2Csignoff_date%2Cexisting_height%2Cproposed_height%2Cfull_demolition_work_type_%2Cjob_description&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "download_started_at": "2026-10-28T12:52:43.947308+00:00",
+  "download_completed_at": "2026-10-28T12:52:44.642610+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC40OTQ4NV8xMV8zNDUzWlBtd25jamRMQVdETGRGc0JhOUZBV0lTZUVj---gzipPXjxU73b6b6wxHCdkwqZD7iiXCs--gzip--gzip\"",
+  "last_modified_http": "Tue, 27 Oct 2026 20:32:32 GMT",
+  "bytes": 159379,
+  "sha256": "6469b73f5f98002e2fc94e0da2a1decc4f2e23bf1e996a07013b97078307e165",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,4 +1,16 @@
-# 性能与稳定性接续入口
+# 最终验收后接续入口
+
+固定/workspace/nyc-3d-html，先读AGENTS、PROJECT_BRIEF、ARCHITECTURE、DATA_DICTIONARY、PROGRESS、本文件与reports/FINAL_ACCEPTANCE.md、AUTHENTICITY_FINAL.md。当前交付是完整发布资产的本地工程，**不是完整现状五区建筑复刻**，不另起演示也不自动继续新阶段。
+
+可直接使用：六个`reports/final-delivery/nyc-evidence-*.zip`+交付清单/脚本、源码包；完整主库/关联库/2014原模型/原始page仍本地保留；334复核、29地标八方面缺口、独立DOB记录与锁在reports/stage10和data/manifests/stage10。默认运行入口先显示部分完成范围；单文件预览只含四历史片段及一部分地标。
+
+下一轮须由用户选定现实目标历元。优先取得HEIGHT_ROOF实际feet定义、地面基准与DEM匹配框架说明；选择具独立现状尺度/年代/许可的真实街段和地标，补墙基线、屋顶部件、逐面证据后再生产可信主体，避免重复制作看似完整的展示。需保留独立校准控制，至少200个分层现实核验尚未完成。详细最小输入和失败复现见最终报告及KNOWN_GAPS。
+
+增量更新走docs/UPDATE.md完整owner保护/新版本/历史回退；重建走REBUILD.md。新的数据不得覆盖raw，来源发生变化另存新capture。任何精度或完成率宣称必须有独立证据和分母。
+
+以下为历史接续，当前交付状态以文件顶部和最终报告为准。
+
+# 性能与稳定性接续入口（历史）
 
 固定/workspace/nyc-3d-html。先读AGENTS、PROJECT_BRIEF、ARCHITECTURE、PROGRESS、QUALITY和reports/PERFORMANCE_REVIEW.md、STABILITY_REVIEW.md；实际源/运行检查点ebc86ce，最终文档/交付记录见本次Git提交。不另起演示、不变真实尺寸或丢原模型。
 

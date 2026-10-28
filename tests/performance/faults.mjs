@@ -3,7 +3,7 @@ import {spawn} from 'node:child_process';
 import {writeFile,mkdir} from 'node:fs/promises';
 import {setTimeout as delay} from 'node:timers/promises';
 import assert from 'node:assert/strict';
-const origin='http://127.0.0.1:4195',report='reports/stage9';
+const origin='http://127.0.0.1:4195',report=process.env.NYC_REPORT_DIR??'reports/stage9';
 const server=spawn(process.execPath,['node_modules/vite/bin/vite.js','preview','--host','127.0.0.1','--port','4195','--strictPort'],{stdio:'ignore'});
 let browser,page,phase='normal';const checks=[],errors=[],expectedConsole=[],requests=[],observations={};
 const snap=()=>page.evaluate(()=>window.__NYC_INSPECTION__.snapshot());

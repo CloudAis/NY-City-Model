@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/pkdm-hqz6.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/pkdm-hqz6.json",
+  "download_started_at": "2026-10-28T12:52:51.276214+00:00",
+  "download_completed_at": "2026-10-28T12:52:51.606827+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 43974,
+  "sha256": "e8ba04fca1d44b269c503f70135e55c7c9c598114a08188e38c485617eae0cb5",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

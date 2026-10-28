@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-28T14:00:08.954764+00:00",
+  "final_manifest_sha256": "9307c95280e81ccdd17a6637c7d8fa3fbacdc7d76aca85ae56f20a9f120dc71e",
+  "runtime_assembled": "/tmp/nyc-final-release-20261028",
+  "runtime_checksum_verified": true,
+  "actual_final_new_directory_browser": "package-browser.json",
+  "code_fingerprint_after_final_build": "final-build-match.json",
+  "original_data_integrity": "input-integrity.json",
+  "update_recovery_boundary_simulated_test": "update-tests-final.log",
+  "embedded_receipt_note": "runtime contains earlier genuine receipt snapshot; final outer/source receipts include final common/docs/preview bytes and final independent directory; no original city GLB changed"
+}

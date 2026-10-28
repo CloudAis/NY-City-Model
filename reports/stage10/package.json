@@ -1,0 +1,53 @@
+{
+  "at_utc": "2026-10-28T13:51:38.568577+00:00",
+  "runtime_parts": [
+    {
+      "name": "nyc-evidence-common.zip",
+      "bytes": 215234523,
+      "sha256": "82903f620423d47d482549ae1ceb4a2f0681c31197e115400fa254ba71ad102c",
+      "files": 3797,
+      "uncompressed_bytes": 1104973621
+    },
+    {
+      "name": "nyc-evidence-manhattan.zip",
+      "bytes": 71692556,
+      "sha256": "455fe1357cb6a374aa9e3e27212d72525d5fca3eb16396fa792bb32c3601c7b3",
+      "files": 1220,
+      "uncompressed_bytes": 300087797
+    },
+    {
+      "name": "nyc-evidence-brooklyn.zip",
+      "bytes": 363533864,
+      "sha256": "b40d06b964486a1159fab9e332394d02d7434c39ec3bfbf559c736caf120b125",
+      "files": 6227,
+      "uncompressed_bytes": 1654543109
+    },
+    {
+      "name": "nyc-evidence-queens.zip",
+      "bytes": 497719582,
+      "sha256": "46cc967471af3c6249e4a94c6493197908e715921c387c3b64d3805666483c0a",
+      "files": 9014,
+      "uncompressed_bytes": 2266376675
+    },
+    {
+      "name": "nyc-evidence-bronx.zip",
+      "bytes": 136771932,
+      "sha256": "90733c88146dacb749f560da8739ab0021c8cc68c93af58bcdca9a3d9067b12d",
+      "files": 2501,
+      "uncompressed_bytes": 595288101
+    },
+    {
+      "name": "nyc-evidence-staten-island.zip",
+      "bytes": 163016737,
+      "sha256": "9441d9d2b98626c5181fa7e250ebb88aa2d1a7deea8159e39bcc65fbfd036bd2",
+      "files": 3212,
+      "uncompressed_bytes": 736347752
+    }
+  ],
+  "runtime_file_count": 25971,
+  "runtime_uncompressed_bytes": 6657617055,
+  "manifest_sha256": "9307c95280e81ccdd17a6637c7d8fa3fbacdc7d76aca85ae56f20a9f120dc71e",
+  "crc_and_actual_archive_payload_sha_verified": true,
+  "complete_runtime": true,
+  "complete_city_exteriors": false
+}

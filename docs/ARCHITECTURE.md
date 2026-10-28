@@ -1,5 +1,11 @@
 # 架构
 
+## 最终交付架构
+
+沿用TypeScript/Vite/Cesium、PythonGIS及原始高精度→分瓦片ENU→GLB/3DTiles管线，未换数据/引擎或修改真实尺寸。`release.html`读取本地实际验收统计，最终包映射为index；原档案单独保留source-audit。`scripts/final_census.py`、`final_review.py`、`acquire_final_evidence.py`、`final_evidence_report.py`分开全量统计、源模型忠实度、独立行政资料与真实性结论。
+
+`delivery/`只用Python标准库，六个实际分包覆盖全部五区叶、属性、环境、地形和本地Cesium依赖。`package_final.py`逐载荷SHA/CRC验证，`assemble.py`在空新目录真实解压并复核；`update-local.py`保留历史、完整owner稳定ID及反向回退。`preview-single.html`独立内嵌原GLB/历史纹理，不使用主工程缓存/云服务。完整原始主库与历史模型本地保留；源码包与全部raw重建输入明确区分。
+
 阶段6同工程facades.html：只读RTree→12完整来源AOI→逐边候选面/未知构件→历史图像校正/遮罩→独立UV/feature ID照片面→默认严格/可移除历史参考→运行验证/覆盖报告。图像facade_math不依赖GIS，可用系统Pillow/numpy；GIS仍用原虚拟环境。4历史面不是完整普通建筑，不改既有地标资产与全市高度门控。
 
 阶段5沿用同一工程，新增landmarks.html与src/landmarks。独立档案→逐参数引用校验→局部组件GLB→3D Tiles→来源/模型/替换清单→实际浏览器证据→质量报告。研究/体量/立面/完整验证独立状态。One WTC部分主体与432线网格不计为完整精细模型。精确原ID筛选仅在参考检视器隐藏One WTC单对象；432项目含裙房故拒绝替换。全局替换权限保持false。照片/PDF原件不分发。

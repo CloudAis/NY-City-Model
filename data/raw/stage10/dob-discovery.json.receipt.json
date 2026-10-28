@@ -1,0 +1,17 @@
+{
+  "request_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=DOB+NOW+Build+Job+Application+Filings&limit=6",
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=DOB+NOW+Build+Job+Application+Filings&limit=6",
+  "download_started_at": "2026-10-28T12:40:34.921168+00:00",
+  "download_completed_at": "2026-10-28T12:40:35.926545+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 92156,
+  "sha256": "8e89b648c9893d29e5355379a02e5b7d4b77f3840493457ea29a47ad3806b0eb",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

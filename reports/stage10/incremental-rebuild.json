@@ -1,0 +1,20 @@
+{
+  "by_id_source_records": 1,
+  "by_tile_source_records": 20,
+  "whole_owner_strict_glb_byte_identical": true,
+  "whole_owner_sha256": "63e3f2cf6731fdc4ef9aa52023a59fb8fd5b4ff9f88be7c54074c683ddfc8ab8",
+  "borough_index_rebuilt": {
+    "borough": "manhattan",
+    "records": 45172,
+    "scope": "actual full borough reindex only, full borough GLB republish not rerun"
+  },
+  "isolated_paths": "/tmp/nyc-final-rebuild-*",
+  "raw_source_modified": false,
+  "update_scopes_actual_tested": [
+    "building",
+    "tile",
+    "borough"
+  ],
+  "rollback_actual_tested": true,
+  "neighbour_loss_rejected": true
+}

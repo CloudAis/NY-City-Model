@@ -1,0 +1,29 @@
+{
+  "at_utc": "2026-10-28T13:48:02.390810+00:00",
+  "after_final_build_exact_bundle_match_to_30minute_candidate": true,
+  "bundle_fingerprint": {
+    "DirectionalLight-PvIkUog4.js": "4378b37d193ba2863b32ed9992177411691181f17f2ab76826f7cb40f8841ea3",
+    "Matrix4-BFlood-d.js": "ca8775ecc9dbaac8c33fe9dd88bf3a8a64503c1a57a0ce13d77cbcbe4ddf4f63",
+    "buildings-BKu9o8dy.js": "a059518e17ec32b66fcc79cd6e268c3e98355c2276aaa21719ccbf54e3eb5285",
+    "buildings-CFUJpzUp.css": "1b173151971187cdca8fba39ad8f3022501cc055fc1bb1e467f434f24647e6d3",
+    "core-cjUe2LAc.js": "68a517b5048a42e1cef95343931083c8eae21a32dcd047f57a4cffb63ecda2c8",
+    "facades-D0IhEOrm.css": "7358061702a5224e5277044e7a3a88886fd826397a49e53838be0d4b441aee45",
+    "facades-moxqANOj.js": "05300ffb5d02e42b8ba1c29938c4fb9d38c5fd8c97a2d20b234016afa1cdbc0a",
+    "inspection-76KC-D0k.css": "c82c7a53d174ecd11c74497facf55503ec697703214e9df106be6e17ea1be449",
+    "inspection-FMokcPE7.js": "d889c25d6368a8ec1781ea5f1f22333534cd64b0c6d20e7b55af0566310daa17",
+    "landmarks-C7ECIBha.js": "f831a959ce394418b5be4d8cb519a2bb4382bf2ff1eb9ef0f85b2a2a22c0bb15",
+    "landmarks-RvMjey1S.css": "056480e56883c7df8e1964950247eda7fa6028c618266b6e51948240528c806d",
+    "main-Byp8XRnP.css": "b9283c962d21d2c2ebd3ae4745d213bbce3fafc58a47c6b011d5e160a2e1a32c",
+    "main-ClViO1em.js": "412248b830956535a779585376869f4ab9d33b835600107fbedc2f9ca06abb62",
+    "modulepreload-polyfill-P2Xu9kJm.js": "418c206484b89b68ef5f067277831e583fc9193a62aadf4de269acaaeb12a85f",
+    "release-C7IyjUaq.js": "8ab4a068f92bdc0c5a1f7d996fa343e04590a0e1a8d83e72e6bd4b7a48dabd5d",
+    "release-Cn6jj2at.css": "3392edeb324cc8d370ef19921be84aea10d5c569b03c3b84a391ced41442d0eb",
+    "search.worker-DQY9J2L4.js": "d13b09527221f62ef523c546e6eb5a51f2b0bd3950515917d91c81c65ffe8eab",
+    "terrain-BBslvsCL.js": "49ac90555ad7368b5f3630625d9c9edc6522c3434315ba91c1dc3bef105acff8",
+    "terrain-D5J9fsKJ.css": "2e1294b6ebc43e09cbe8b5591ec801709f8210afe76b33b786c8e5260c70b572",
+    "widgets-B9DDZdqH.css": "d27da7dcfc6bdcd1a166fa11a775fddc97cc06fbd2160c7a2e721c5044210a16",
+    "widgets-D_ww0pXm.js": "5d6492658d8ee30c3860196ec4b802cb6196a5f3ff9610a182c12a0af5864743"
+  },
+  "preview_independently_rebuilt_and_six_groups_retested": true,
+  "changed_data_and_docs_are_not_measured_render_code": true
+}

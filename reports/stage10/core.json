@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-28T13:18:09.706Z",
+  "checks": [
+    "movement integrates real elapsed time consistently at20,60,144FPS",
+    "identity handler tolerates empty, destroyed, out-of-bounds and malformed picks",
+    "horizontal,3D and signed height differences remain distinct in same-datum local coordinates",
+    "ground collider never chooses a higher bridge floor and rejects unknown cells",
+    "unknown bookmark version or fields cannot replace valid world state",
+    "eight actual DEM spawns use allowed rendered triangles; no fake zero ground"
+  ],
+  "actual_dem_spawns": 8,
+  "synthetic_geometry_scope": "isolated collision unit test only; never a city asset"
+}

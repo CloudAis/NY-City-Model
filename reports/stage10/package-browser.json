@@ -1,0 +1,1508 @@
+{
+  "at_utc": "2026-10-28T13:55:35.351Z",
+  "assembled_root": "/tmp/nyc-final-release-20261028",
+  "browser": "154.0.8037.57",
+  "http_cache_disabled": true,
+  "fresh_browser_context": true,
+  "outside_network_blocked": true,
+  "external_requests": [],
+  "workspace_fallback": false,
+  "real_mobile_hardware": false,
+  "checks": [
+    "fresh-cache final index honestly shows complete runtime and incomplete current building exteriors",
+    "all five boroughs load real local strict GLBs and metadata without disabling building regions",
+    "local search Worker resolves stable ID and actual source line can be picked after tile unloading",
+    "local ground walkthrough uses real NAVD88 collision data and preserves blocked global vertical registration",
+    "packaged standalone preview renders embedded real evidence and ends loading",
+    "all declared package parts include all original strict and hypothesis file references"
+  ],
+  "boroughs": [
+    {
+      "preset": "central-south",
+      "borough": "manhattan",
+      "loaded": [
+        {
+          "key": "parks",
+          "loaded": 1
+        },
+        {
+          "key": "city:manhattan",
+          "loaded": 25
+        },
+        {
+          "key": "city:brooklyn",
+          "loaded": 2
+        },
+        {
+          "key": "roads",
+          "loaded": 1
+        },
+        {
+          "key": "water",
+          "loaded": 1
+        },
+        {
+          "key": "transport",
+          "loaded": 1
+        }
+      ],
+      "worldGroundRegistered": false
+    },
+    {
+      "preset": "manhattan-head",
+      "borough": "brooklyn",
+      "loaded": [
+        {
+          "key": "parks",
+          "loaded": 1
+        },
+        {
+          "key": "city:manhattan",
+          "loaded": 38
+        },
+        {
+          "key": "city:brooklyn",
+          "loaded": 4
+        },
+        {
+          "key": "roads",
+          "loaded": 1
+        },
+        {
+          "key": "water",
+          "loaded": 1
+        }
+      ],
+      "worldGroundRegistered": false
+    },
+    {
+      "preset": "queensboro-head",
+      "borough": "queens",
+      "loaded": [
+        {
+          "key": "parks",
+          "loaded": 1
+        },
+        {
+          "key": "city:manhattan",
+          "loaded": 45
+        },
+        {
+          "key": "city:brooklyn",
+          "loaded": 9
+        },
+        {
+          "key": "city:queens",
+          "loaded": 2
+        },
+        {
+          "key": "roads",
+          "loaded": 1
+        },
+        {
+          "key": "water",
+          "loaded": 1
+        }
+      ],
+      "worldGroundRegistered": false
+    },
+    {
+      "preset": "bruckner",
+      "borough": "bronx",
+      "loaded": [
+        {
+          "key": "parks",
+          "loaded": 1
+        },
+        {
+          "key": "city:manhattan",
+          "loaded": 57
+        },
+        {
+          "key": "city:brooklyn",
+          "loaded": 9
+        },
+        {
+          "key": "city:queens",
+          "loaded": 14
+        },
+        {
+          "key": "city:bronx",
+          "loaded": 2
+        },
+        {
+          "key": "roads",
+          "loaded": 1
+        },
+        {
+          "key": "water",
+          "loaded": 1
+        },
+        {
+          "key": "transport",
+          "loaded": 1
+        },
+        {
+          "key": "piers",
+          "loaded": 1
+        }
+      ],
+      "worldGroundRegistered": false
+    },
+    {
+      "preset": "st-george-ferry",
+      "borough": "staten-island",
+      "loaded": [
+        {
+          "key": "parks",
+          "loaded": 1
+        },
+        {
+          "key": "city:manhattan",
+          "loaded": 62
+        },
+        {
+          "key": "city:brooklyn",
+          "loaded": 9
+        },
+        {
+          "key": "city:queens",
+          "loaded": 14
+        },
+        {
+          "key": "city:bronx",
+          "loaded": 14
+        },
+        {
+          "key": "city:staten-island",
+          "loaded": 10
+        },
+        {
+          "key": "roads",
+          "loaded": 1
+        },
+        {
+          "key": "water",
+          "loaded": 1
+        },
+        {
+          "key": "transport",
+          "loaded": 1
+        },
+        {
+          "key": "piers",
+          "loaded": 1
+        }
+      ],
+      "worldGroundRegistered": false
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4202/index.html",
+    "http://127.0.0.1:4202/assets/release-C7IyjUaq.js",
+    "http://127.0.0.1:4202/assets/modulepreload-polyfill-P2Xu9kJm.js",
+    "http://127.0.0.1:4202/assets/release-Cn6jj2at.css",
+    "http://127.0.0.1:4202/datasets/release/summary.json",
+    "http://127.0.0.1:4202/inspection.html?diagnostics=1",
+    "http://127.0.0.1:4202/assets/inspection-FMokcPE7.js",
+    "http://127.0.0.1:4202/assets/Matrix4-BFlood-d.js",
+    "http://127.0.0.1:4202/assets/modulepreload-polyfill-P2Xu9kJm.js",
+    "http://127.0.0.1:4202/assets/widgets-D_ww0pXm.js",
+    "http://127.0.0.1:4202/assets/core-cjUe2LAc.js",
+    "http://127.0.0.1:4202/assets/widgets-B9DDZdqH.css",
+    "http://127.0.0.1:4202/assets/inspection-76KC-D0k.css",
+    "http://127.0.0.1:4202/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4202/datasets/environment/manifest.json",
+    "http://127.0.0.1:4202/datasets/inspection/search/manifest.json",
+    "http://127.0.0.1:4202/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4202/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4202/datasets/environment/parks.json",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/roads.json",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/water.json",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/transport.json",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/roads.glb",
+    "http://127.0.0.1:4202/datasets/environment/parks.glb",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/piers.json",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/water.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/root.json",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/transport.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/brooklyn/root.json",
+    "http://127.0.0.1:4202/datasets/performance/city/queens/root.json",
+    "http://127.0.0.1:4202/datasets/performance/city/bronx/root.json",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/root.json",
+    "http://127.0.0.1:4202/datasets/environment/brooklyn-span/piers.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0000.json",
+    "http://127.0.0.1:4202/datasets/performance/city/brooklyn/page-0039.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0002.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0003.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0006.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_120_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_120_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/600_118_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_121_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_121_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_121_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/central-south/roads.json",
+    "http://127.0.0.1:4202/datasets/environment/central-south/water.json",
+    "http://127.0.0.1:4202/datasets/environment/central-south/transport.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0007.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0005.json",
+    "http://127.0.0.1:4202/datasets/environment/central-south/roads.glb",
+    "http://127.0.0.1:4202/datasets/environment/central-south/water.glb",
+    "http://127.0.0.1:4202/datasets/environment/central-south/transport.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0008.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_133_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0009.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_134_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_133_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_132_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_133_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_133_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_134_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_134_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_132_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_135_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_135_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0010.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_135_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_132_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_132_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_135_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_135_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_136_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_134_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_133_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_136_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_136_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_133_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/roads.json",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/water.json",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/transport.json",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/piers.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/602_118_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/602_119_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/roads.glb",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/water.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_121_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_121_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/transport.glb",
+    "http://127.0.0.1:4202/datasets/environment/manhattan-head/piers.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/601_119_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/601_118_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_121_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_120_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/603_119_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/603_118_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/brooklyn/page-0035.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_120_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_122_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_121_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/roads.json",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/water.json",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/transport.json",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/piers.json",
+    "http://127.0.0.1:4202/datasets/performance/city/queens/page-0033.json",
+    "http://127.0.0.1:4202/datasets/performance/city/queens/page-0032.json",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/roads.glb",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/water.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/607_130_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/608_132_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/609_130_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/609_131_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/transport.glb",
+    "http://127.0.0.1:4202/datasets/environment/queensboro-head/piers.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/606_131_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/607_132_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/608_130_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/608_131_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/610_130_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/610_130_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/606_130_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/606_132_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0004.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0001.json",
+    "http://127.0.0.1:4202/datasets/performance/city/queens/page-0036.json",
+    "http://127.0.0.1:4202/datasets/performance/city/queens/page-0034.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/610_131_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/608_131_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/607_131_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/608_129_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/609_129_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/queens/607_129_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/roads.json",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/water.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0011.json",
+    "http://127.0.0.1:4202/datasets/performance/city/bronx/page-0001.json",
+    "http://127.0.0.1:4202/datasets/performance/city/bronx/page-0000.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0013.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0014.json",
+    "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0012.json",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/transport.json",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/piers.json",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/roads.glb",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/piers.glb",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/transport.glb",
+    "http://127.0.0.1:4202/datasets/environment/bruckner/water.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_141_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/612_141_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/612_142_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_142_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_142_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/612_140_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/611_141_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/612_143_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/611_142_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/611_140_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/613_140_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_143_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_140_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_143_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/611_143_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/bronx/614_142_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/610_142_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/roads.json",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/water.json",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/transport.json",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/piers.json",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/roads.glb",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/water.glb",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/transport.glb",
+    "http://127.0.0.1:4202/datasets/environment/st-george-ferry/piers.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0063.json",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0062.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_106_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_105_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_105_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_105_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_106_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_104_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_104_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_104_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_104_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0055.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_105_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_105_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_105_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_104_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_104_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_104_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_106_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_106_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_103_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_103_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0054.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_103_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_103_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_103_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_105_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_105_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_104_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_105_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_104_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0051.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_103_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0053.json",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0060.json",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0050.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_106_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_102_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_102_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_102_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_102_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0061.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_101_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_101_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0056.json",
+    "http://127.0.0.1:4202/assets/search.worker-DQY9J2L4.js",
+    "http://127.0.0.1:4202/datasets/inspection/search/names/manhattan.json",
+    "http://127.0.0.1:4202/datasets/inspection/search/names/brooklyn.json",
+    "http://127.0.0.1:4202/datasets/inspection/search/names/queens.json",
+    "http://127.0.0.1:4202/datasets/inspection/search/names/bronx.json",
+    "http://127.0.0.1:4202/datasets/inspection/search/names/staten-island.json",
+    "http://127.0.0.1:4202/datasets/inspection/search/ids/961.json",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_120_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_121_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_121_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_122_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_122_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_122_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_120_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_122_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_122_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_123_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/596_120_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_123_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_123_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_123_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_119_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_124_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_122_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_119_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_122_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_122_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_123_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_123_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_124_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_122_001-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_119_000-strict.glb",
+    "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_122_002-strict.glb",
+    "http://127.0.0.1:4202/datasets/inspection/search/ids/920.json",
+    "http://127.0.0.1:4202/datasets/inspection/search/ids/239.json",
+    "http://127.0.0.1:4202/terrain.html?embedded=1&walk=1&extended=1&area=lower-manhattan&diagnostics=1",
+    "http://127.0.0.1:4202/assets/terrain-BBslvsCL.js",
+    "http://127.0.0.1:4202/assets/Matrix4-BFlood-d.js",
+    "http://127.0.0.1:4202/assets/modulepreload-polyfill-P2Xu9kJm.js",
+    "http://127.0.0.1:4202/assets/core-cjUe2LAc.js",
+    "http://127.0.0.1:4202/assets/terrain-D5J9fsKJ.css",
+    "http://127.0.0.1:4202/datasets/environment/terrain-manifest.json",
+    "http://127.0.0.1:4202/datasets/foundation/lower-manhattan.json",
+    "http://127.0.0.1:4202/datasets/environment/collision/lower-manhattan.json",
+    "http://127.0.0.1:4202/preview-single.html"
+  ],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:4202/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/release-C7IyjUaq.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/release-Cn6jj2at.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/release/summary.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/inspection.html?diagnostics=1",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/inspection-FMokcPE7.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/Matrix4-BFlood-d.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/widgets-B9DDZdqH.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/inspection-76KC-D0k.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/core-cjUe2LAc.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/widgets-D_ww0pXm.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/cesium/Assets/approximateTerrainHeights.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/cesium/Assets/Images/ion-credit.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/parks.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/parks.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/brooklyn/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/queens/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/bronx/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0000.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/brooklyn-span/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0002.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/brooklyn/page-0039.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0003.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0006.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/600_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/central-south/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/central-south/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/central-south/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0007.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/central-south/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/central-south/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0005.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/central-south/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0008.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0009.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_133_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_135_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0010.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_135_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_132_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/605_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_136_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_133_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/603_136_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/604_136_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/602_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/602_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/manhattan-head/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_121_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/601_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/601_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/603_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/brooklyn/page-0035.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/brooklyn/603_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/602_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/queens/page-0032.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/queens/page-0033.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/607_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/608_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/609_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/606_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/queensboro-head/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/607_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/609_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/608_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/610_130_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/606_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/608_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/610_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/606_132_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0004.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0001.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/queens/page-0036.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/queens/page-0034.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/610_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/608_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/608_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/607_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/queens/609_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/607_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0011.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/bronx/page-0001.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/bronx/page-0000.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0013.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0014.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/manhattan/page-0012.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/bruckner/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/612_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/612_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_142_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/612_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/611_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/612_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/611_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/613_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/611_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_143_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/613_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/611_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/bronx/614_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/610_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/st-george-ferry/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0063.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0062.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_105_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_104_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_104_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0055.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_105_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_105_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_104_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_104_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_106_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_103_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0054.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_103_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_103_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_103_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_103_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_105_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_105_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0051.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_104_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0060.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0053.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/585_103_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0050.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_102_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/584_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_102_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/587_102_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_102_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0061.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_101_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/staten-island/586_101_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/performance/city/staten-island/page-0056.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/search.worker-DQY9J2L4.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/names/manhattan.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/names/brooklyn.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/names/queens.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/names/bronx.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/names/staten-island.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/ids/961.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/596_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_123_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/598_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_122_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/600_123_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/597_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/599_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/buildings-city/manhattan/601_122_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/ids/920.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/inspection/search/ids/239.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/terrain.html?embedded=1&walk=1&extended=1&area=lower-manhattan&diagnostics=1",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/Matrix4-BFlood-d.js",
+      "status": 304
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "status": 304
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/core-cjUe2LAc.js",
+      "status": 304
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/terrain-D5J9fsKJ.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/assets/terrain-BBslvsCL.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/terrain-manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/foundation/lower-manhattan.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/datasets/environment/collision/lower-manhattan.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4202/preview-single.html",
+      "status": 200
+    }
+  ],
+  "failedRequests": [],
+  "server_binding": "127.0.0.1",
+  "scope": "all current published resources present; actual five-borough leaf loads and picking; not a survey or completed fine exterior model"
+}

@@ -1,0 +1,119 @@
+{
+  "started_utc": "2026-10-28T13:13:27.085Z",
+  "latest": {
+    "cycle": 32,
+    "at_utc": "2026-10-28T13:43:32.531Z",
+    "elapsed_real_seconds": 1805.446,
+    "cycle_seconds": 50.895,
+    "visibility": "visible",
+    "raf_ms": {
+      "p50": 16.699999999953434,
+      "p95": 283.39999999990687,
+      "p99": 516.6000000000931
+    },
+    "frame_samples": 995,
+    "render_intervals": 95,
+    "submitted_triangles": 383704,
+    "draw_calls": 6062,
+    "longTasks": [
+      {
+        "start": 1766794.1000000015,
+        "duration": 307
+      },
+      {
+        "start": 1767139.700000003,
+        "duration": 282
+      },
+      {
+        "start": 1774347.3999999985,
+        "duration": 77
+      },
+      {
+        "start": 1778589.1000000015,
+        "duration": 72
+      },
+      {
+        "start": 1778897.5,
+        "duration": 130
+      }
+    ],
+    "resources": {
+      "known_buffer_bytes": 39915580,
+      "buffers": 1974,
+      "textures": 733,
+      "programs": 16
+    },
+    "jsHeapBeforeForcedGC": {
+      "usedSize": 67441904,
+      "totalSize": 83329024,
+      "embedderHeapUsedSize": 7758000,
+      "backingStorageSize": 29919711
+    },
+    "jsHeapAfterForcedGC": {
+      "usedSize": 58023028,
+      "totalSize": 60444672,
+      "embedderHeapUsedSize": 3619160,
+      "backingStorageSize": 20821067
+    },
+    "estimatedCesiumResourceBytes": 56450155,
+    "runtime": {
+      "created": 874,
+      "destroyed": 865,
+      "stale": 0,
+      "styleWrites": 330,
+      "statsCalls": 10383,
+      "statsWrites": 1439,
+      "contextLost": false,
+      "renderFailed": false,
+      "queue": {
+        "active": 0,
+        "pending": 0,
+        "completed": 874,
+        "cancelled": 0
+      },
+      "search": {
+        "requested": 66,
+        "completed": 66,
+        "cancelled": 0,
+        "errors": 0,
+        "pending": 0,
+        "workerCache": {
+          "entries": 1,
+          "estimatedBytes": 1494858,
+          "hits": 65,
+          "fetches": 1,
+          "activeFetch": 0,
+          "queuedFetch": 0
+        }
+      },
+      "creationBudget": {
+        "applied": true,
+        "targetMs": 8,
+        "note": "soft creation budget: texture2/program2/buffer4ms; one indivisible job per type may exceed it"
+      },
+      "networkBudget": {
+        "applied": true,
+        "timeoutMs": 15000
+      },
+      "adaptive": {
+        "enabled": false,
+        "index": 1
+      },
+      "gpuMemoryIsEstimate": true
+    },
+    "loadedTotal": 1542,
+    "unloadedTotal": 0,
+    "requests": 2759,
+    "failedRequests": 40,
+    "localGround": {
+      "id": "midtown",
+      "position": [
+        -45.57350809924537,
+        148.95278132253156,
+        21.230852453112444
+      ],
+      "collisionTriangles": 59
+    }
+  },
+  "errors": []
+}

@@ -1,0 +1,461 @@
+[
+  {
+    "dataset": "ic3t-wcy2",
+    "official_entry": "https://data.cityofnewyork.us/Housing-Development/DOB-Job-Application-Filings/ic3t-wcy2",
+    "metadata": "data/raw/stage10/ic3t-wcy2-metadata.json",
+    "metadata_sha256": "2121c9eb62d1327a1a5603db120da3c7279b269ae1f7a62f11031b2f178eeb86",
+    "field_types": {
+      "bin__": "text",
+      "job__": "text",
+      "doc__": "text",
+      "job_type": "text",
+      "job_status": "text",
+      "job_status_descrp": "text",
+      "latest_action_date": "text",
+      "pre__filing_date": "text",
+      "approved": "text",
+      "fully_permitted": "text",
+      "signoff_date": "text",
+      "existing_height": "number",
+      "proposed_height": "number",
+      "existingno_of_stories": "number",
+      "proposed_no_of_stories": "number",
+      "landmarked": "text"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-00000.json",
+        "sha256": "ec68c608145eb4e83ebc60662cf4ed298de8002b7eafbb4efed1d7e1479aa257",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-00500.json",
+        "sha256": "9a07da4f61fceebe3c63948e90370a6fbdc0c9c9f33eae6a5039aaa3eb8c749e",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-01000.json",
+        "sha256": "8d50d6647020074c0094dc0b6e57117c27f2bbc9efbb6cd3745030572bd1363c",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-01500.json",
+        "sha256": "f059d046bd32ae4215661797242ce4d21ee757a7c6ff057dac27b99da17b394f",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-02000.json",
+        "sha256": "d84f537c2d9f6567d3009714caccd6ba4fde365926ce755151fa02ce5fc3b088",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-02500.json",
+        "sha256": "a18805aef3631a5e36a3075a76d9d9c6529a9458c7b581544bbb8d5d381c34e0",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-03000.json",
+        "sha256": "2ee6019b33cbb1a26db868caf21003eb087efc8025fec2f8ea7ea013f7cb6565",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-03500.json",
+        "sha256": "4476ab16ea6b3d89eeb945a1be434892ee34f72cb4cd512e7d2027538f8ff083",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-04000.json",
+        "sha256": "767740b7c88e8b0d329fbfe2ee41d115b01db84fdd0366df942661392205b894",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-04500.json",
+        "sha256": "72800a418a9a53b664019827865634c075b9567ebe9d65e1eeb1041ebf7d09c1",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-05000.json",
+        "sha256": "1eb400a80d42e690127bc352e9874b5219c5f77b95def3b5eeca30751f5b2441",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-05500.json",
+        "sha256": "f667ddd97439a7275fc6bf9726ba2f4df00f5000c0b6896ca46f215c8602abd3",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-06000.json",
+        "sha256": "92ebe6c9913a0fa4877145da6053f84dfe1058fe917934717a1cc4b16bd8f32b",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-06500.json",
+        "sha256": "b3bf27f97732259a137d20194056de6a12a421517a3d793f501c662b385ad164",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-07000.json",
+        "sha256": "47fd6ecc416e2a4890bd9f9a48469bc5faa6f0b37ef62801d35328890dfd38b5",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-07500.json",
+        "sha256": "1a4888c25546d199cc762e8bbd0c20576bf1d1706b832281113b6c3db8d1e800",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-08000.json",
+        "sha256": "b64b2335c59324e0200d9644752328e6f0cf532c376553d88331698b62956f49",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-000-08500.json",
+        "sha256": "b9a83a28887465cf2273b2cec7749f92dcbe30f2af5ecf861d3259d94cf1cf96",
+        "records": 442
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-00000.json",
+        "sha256": "10ed92da383f14d9eba37a494e645e9e310df9f1d7f9f383355f89a0ef6d0be3",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-00500.json",
+        "sha256": "61727430bc9a44842292a0dea6e7c29867540bc38e34e40161acc0ae30cc491e",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-01000.json",
+        "sha256": "8e64191c3027c0672c02a50e751f4b5bfe2efe0213bac2c7f81e1c42571176fc",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-01500.json",
+        "sha256": "eee3a839e368c5c3cfeb6f95208e0daa5edd3c4e8e9898e527ddb6dfad0354a4",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-02000.json",
+        "sha256": "059e4da38255598f3f5524984c7175d41c8e85bca6f4efb123aeeecb18fb98d7",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-02500.json",
+        "sha256": "0b6bec5b392ca02724e6e2a6a40f76ec89e8ba09caea7e809b5142f494debe4c",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-03000.json",
+        "sha256": "3a90d7abb2ad453bae990069f58a24c3bb8691db731c4673086c08d9e3949609",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-03500.json",
+        "sha256": "ae3aa277d33980554a777f14b1829d622c6493c23cddadd3a2125c4fa99c110b",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-050-04000.json",
+        "sha256": "cab0512cc9526a149444fa03718200a84ce6b93d72975c01a240a7ffb1453d1e",
+        "records": 61
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-100-00000.json",
+        "sha256": "817b02812055cbef92777007c7edd87c0ea0cc099aa26d2372de4d45d50fd27d",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-100-00500.json",
+        "sha256": "11ca1bb217e840ec60d0e1c7ca5f16da6a7eb2ea81c2dbc973aca3af6cc18b33",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-100-01000.json",
+        "sha256": "f8f014ddb37b0543f6fdf26db2a9602770ef742530574b7bb7f571b5368eac9c",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-100-01500.json",
+        "sha256": "5061d6bd94624ae5b4c58051f45e3938d77241a0d0722066db7b0f2f7d9b8fc9",
+        "records": 220
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-150-00000.json",
+        "sha256": "d93447047316c446e49e26b96260de1f4827306b7c246371a592164f96e9e4a5",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-150-00500.json",
+        "sha256": "40b286e5b1b5e6cf51f7803b3a61517e06ef46eeabb9962ac7342a6576b98a06",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-150-01000.json",
+        "sha256": "2e26fc0321cb3eeb81b5a81abf7483fbb01a73f774b291292df19a45328b9c7d",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-150-01500.json",
+        "sha256": "ff972940bb6d2ebe0af7ecc5b048a619839e2c7a3eb89ec164eb74899f33f19d",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-150-02000.json",
+        "sha256": "e142d17319dfab391d9a2608d7930eaa027eadd0ecacd1d40f02c8e4ec89d40f",
+        "records": 261
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-200-00000.json",
+        "sha256": "5ddef0fa45449bd1372d8f3cbee0c1944d286888b085e08389753f1caff20659",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-200-00500.json",
+        "sha256": "2b0f7ae94a991367bd660221e86cd5b4a98cfa7bb9f7d931bc2503f039ccb300",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-200-01000.json",
+        "sha256": "3e9006d1019a8e806d615b5646dcf125067def77c3fdc000949cfa731418e94b",
+        "records": 223
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-250-00000.json",
+        "sha256": "3aca01283325b11d1f8c03593a103c61aefe490b981a299701278122a9a67fa0",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-250-00500.json",
+        "sha256": "5014ed9522c665b1c188705fb4bf2df01423537b5cb23cde6a513e58d18409d7",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-250-01000.json",
+        "sha256": "be06d11db20da652afc28686543a618da77f71ba32311b71d164cceb1145c5f2",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-250-01500.json",
+        "sha256": "3a2275b494928897e9f2c748f1da40e84cffe3677c46e87f0f021025086b8633",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-250-02000.json",
+        "sha256": "e41251db9f08f469169f63858d69568c8f720400c10201037e2c7fec6bc89ec2",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-250-02500.json",
+        "sha256": "e150aecdf223dea796abab3bdef8d3006b6afb1adc911f40e25ca137defc726c",
+        "records": 455
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-300-00000.json",
+        "sha256": "5280e1e9cd580ec7c75dc7c3822c40c3c57dfc09d666993c40c6bc8e36b58aef",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/ic3t-wcy2/batch-300-00500.json",
+        "sha256": "7f0313c180c8f5e5d4e1b7ec4ce5e0e36726fa8b2851cf4222a9ec050baed3cf",
+        "records": 77
+      }
+    ],
+    "records": 21739,
+    "unique_rows": 21739,
+    "capture_started_at": "2026-10-28T12:49:02.311646+00:00",
+    "capture_ended_at": "2026-10-28T12:52:15.379848+00:00",
+    "rows_updated_at": 1793138198,
+    "end_rows_updated_at": 1793138198,
+    "metadata_stable_during_capture": true,
+    "transaction_snapshot": false,
+    "license": "NYC Open Data Terms; original metadata retained",
+    "source_scope": "334 review BINs only, not full-city permits",
+    "independence": "DOB administrative source was not used to generate footprint geometry; submission/status is not independent as-built surveying",
+    "height_units_resolved": false
+  },
+  {
+    "dataset": "w9ak-ipjd",
+    "official_entry": "https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Build-Job-Application-Filings/w9ak-ipjd",
+    "metadata": "data/raw/stage10/w9ak-ipjd-metadata.json",
+    "metadata_sha256": "5d50e8a68113b911065a8e0f1879b5abcf7c94a9d6294df5aedd1fc5fd083184",
+    "field_types": {
+      "bin": "text",
+      "job_filing_number": "text",
+      "job_type": "text",
+      "filing_status": "text",
+      "filing_date": "calendar_date",
+      "current_status_date": "calendar_date",
+      "first_permit_date": "calendar_date",
+      "approved_date": "calendar_date",
+      "signoff_date": "calendar_date",
+      "existing_height": "text",
+      "proposed_height": "text",
+      "full_demolition_work_type_": "text",
+      "job_description": "text"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-000-00000.json",
+        "sha256": "1b771914dcf9011d61b2f2f908437f8f4028b84572b2a40ac27d699884a106ac",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-000-00500.json",
+        "sha256": "d3de8f430d99ec7d0a8448f2761709053dd22e4d286cd85a225683b5846ea28c",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-000-01000.json",
+        "sha256": "c58f5e29429212b57eace1fbf120a924e0e1a4d66933cdb53964604e46fc47ea",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-000-01500.json",
+        "sha256": "cb12c5b211df755557eef64251b4fc23c7921e5c3f453289e1afa02dc58ae0e5",
+        "records": 398
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-050-00000.json",
+        "sha256": "d02e1a8a374378e89c46d6fe73fcdd14024d1ba78c2c1a0687082d58b32b5338",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-050-00500.json",
+        "sha256": "758aab68490c33a093fdf402375d312dc4883a6685054b1de0732f958abb91f4",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-050-01000.json",
+        "sha256": "36b20dd69f3cedba544fb346842ea88b05b198bbaa4935d625f35fa46eabf042",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-050-01500.json",
+        "sha256": "75843e48ac1cc87d06bfd356c6ab00fb5700481811a4182f544296e741a53268",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-050-02000.json",
+        "sha256": "d561cfaeed87e0262e076f8c40f807f9ba9a505be66ce888bccd38af43d1f21c",
+        "records": 383
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-100-00000.json",
+        "sha256": "dae30d6bff8dbaa6eceb5eb3bbe13c9edcad53feb4c9e8c7671c07b2821eaeea",
+        "records": 460
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-150-00000.json",
+        "sha256": "cd680d891a3fa6e6450a21fc365438c3f94b4cfd8925a9d20e198508597c2ff9",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-150-00500.json",
+        "sha256": "50451326a648a891e0bc468aa0dfcd6fe28a574ed018bdd9a7d47397e351a62a",
+        "records": 227
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-200-00000.json",
+        "sha256": "90ad7bc97d91d9c9ce62ff30ac58bb086cf6712fa2eedac45cdaa2af70720fc6",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-200-00500.json",
+        "sha256": "b2ea69ebf5f09b836e9cb209b955d7c2a5d2ce9e715a1b8fce2f97096fef746a",
+        "records": 256
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-250-00000.json",
+        "sha256": "34d7b478a6a3fe3db6b8a66a553d31a33ad5bab476d48e070d160aad469ca258",
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-250-00500.json",
+        "sha256": "0376c4cdada41a417b1da59d9a6f82ce8675cf040dd452c3631a45f1ff3b6ff9",
+        "records": 307
+      },
+      {
+        "path": "data/raw/stage10/dob/w9ak-ipjd/batch-300-00000.json",
+        "sha256": "6469b73f5f98002e2fc94e0da2a1decc4f2e23bf1e996a07013b97078307e165",
+        "records": 325
+      }
+    ],
+    "records": 7356,
+    "unique_rows": 7356,
+    "capture_started_at": "2026-10-28T12:52:15.417416+00:00",
+    "capture_ended_at": "2026-10-28T12:52:45.275978+00:00",
+    "rows_updated_at": 1793133155,
+    "end_rows_updated_at": 1793133155,
+    "metadata_stable_during_capture": true,
+    "transaction_snapshot": false,
+    "license": "NYC Open Data Terms; original metadata retained",
+    "source_scope": "334 review BINs only, not full-city permits",
+    "independence": "DOB administrative source was not used to generate footprint geometry; submission/status is not independent as-built surveying",
+    "height_units_resolved": false
+  },
+  {
+    "dataset": "pkdm-hqz6",
+    "official_entry": "https://data.cityofnewyork.us/Housing-Development/DOB-NOW-Certificate-of-Occupancy/pkdm-hqz6",
+    "metadata": "data/raw/stage10/pkdm-hqz6-metadata.json",
+    "metadata_sha256": "e8ba04fca1d44b269c503f70135e55c7c9c598114a08188e38c485617eae0cb5",
+    "field_types": {
+      "bin": "text",
+      "job_filing_name": "text",
+      "job_type": "text",
+      "submitted_date": "calendar_date",
+      "c_of_o_status": "text",
+      "c_of_o_filing_type": "text",
+      "c_of_o_issuance_date": "text",
+      "application_number": "text",
+      "c_of_o_number": "text"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage10/dob/pkdm-hqz6/batch-000-00000.json",
+        "sha256": "35a85811233cedee569b99d97d0bf64de1d64ed7e25fd60c2d06f918fe6735cb",
+        "records": 77
+      },
+      {
+        "path": "data/raw/stage10/dob/pkdm-hqz6/batch-050-00000.json",
+        "sha256": "8c16846bfb7160cbb23caa8c4b1a8dcee0e28662703c9a0f02bf5292abcd1f78",
+        "records": 117
+      },
+      {
+        "path": "data/raw/stage10/dob/pkdm-hqz6/batch-100-00000.json",
+        "sha256": "f209dc47897e93982af9f0debae89b8628d3d908a0a5268d6a6b9833546743f0",
+        "records": 43
+      },
+      {
+        "path": "data/raw/stage10/dob/pkdm-hqz6/batch-150-00000.json",
+        "sha256": "e4e42ff958397c6e8604e353da3b1a258bcf56911b16537a940b94b7a1bad456",
+        "records": 122
+      },
+      {
+        "path": "data/raw/stage10/dob/pkdm-hqz6/batch-200-00000.json",
+        "sha256": "d133932ce75a0b8b507b1b8ce54618c648db3706da303f6e59daefe61354341c",
+        "records": 92
+      },
+      {
+        "path": "data/raw/stage10/dob/pkdm-hqz6/batch-250-00000.json",
+        "sha256": "a3e42fa9888ed088e8832c0a3c924eb1a36234634d4d782568635228ef2b2cd6",
+        "records": 132
+      },
+      {
+        "path": "data/raw/stage10/dob/pkdm-hqz6/batch-300-00000.json",
+        "sha256": "221d1b4188b8a185151eb38f047922838821ad96e61a1cc6633db34e67ab87b2",
+        "records": 44
+      }
+    ],
+    "records": 627,
+    "unique_rows": 627,
+    "capture_started_at": "2026-10-28T12:52:45.322129+00:00",
+    "capture_ended_at": "2026-10-28T12:52:51.607869+00:00",
+    "rows_updated_at": 1793131286,
+    "end_rows_updated_at": 1793131286,
+    "metadata_stable_during_capture": true,
+    "transaction_snapshot": false,
+    "license": "NYC Open Data Terms; original metadata retained",
+    "source_scope": "334 review BINs only, not full-city permits",
+    "independence": "DOB administrative source was not used to generate footprint geometry; submission/status is not independent as-built surveying",
+    "height_units_resolved": false
+  }
+]

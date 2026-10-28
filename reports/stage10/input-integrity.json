@@ -1,0 +1,117 @@
+{
+  "at_utc": "2026-10-28T13:28:39.350519+00:00",
+  "original_baseline": "af311b2",
+  "all_original_city_published_files_verified": 22149,
+  "original_city_bytes": 5503941577,
+  "additional_city_files_compared_to_original_zip": [
+    "assets/buildings-city/manifest.json",
+    "assets/buildings-city/quality-report.json",
+    "assets/buildings-city/sources.json",
+    "assets/buildings-city/representation-policy.json",
+    "assets/buildings-city/staten-island/hypothesis.json",
+    "assets/buildings-city/staten-island/strict.json",
+    "assets/buildings-city/staten-island/tiles.json",
+    "assets/buildings-city/staten-island/quality.json",
+    "assets/buildings-city/staten-island/anomalies.jsonl",
+    "assets/buildings-city/bronx/hypothesis.json",
+    "assets/buildings-city/bronx/strict.json",
+    "assets/buildings-city/bronx/tiles.json",
+    "assets/buildings-city/bronx/quality.json",
+    "assets/buildings-city/bronx/anomalies.jsonl",
+    "assets/buildings-city/brooklyn/hypothesis.json",
+    "assets/buildings-city/brooklyn/strict.json",
+    "assets/buildings-city/brooklyn/tiles.json",
+    "assets/buildings-city/brooklyn/quality.json",
+    "assets/buildings-city/brooklyn/anomalies.jsonl",
+    "assets/buildings-city/manhattan/hypothesis.json",
+    "assets/buildings-city/manhattan/strict.json",
+    "assets/buildings-city/manhattan/tiles.json",
+    "assets/buildings-city/manhattan/quality.json",
+    "assets/buildings-city/manhattan/anomalies.jsonl",
+    "assets/buildings-city/queens/hypothesis.json",
+    "assets/buildings-city/queens/strict.json",
+    "assets/buildings-city/queens/tiles.json",
+    "assets/buildings-city/queens/quality.json",
+    "assets/buildings-city/queens/anomalies.jsonl"
+  ],
+  "retained_local_receipts_not_runtime_zip": 7383,
+  "all_actual_original_city_files_verified": 22178,
+  "stage7_published_environment_search_files_verified": 2763,
+  "original_raw_files_verified": 2775,
+  "stage7_raw_files_verified": 219,
+  "baseline_tracked_assets_verified": 259,
+  "large_inputs": [
+    {
+      "path": "data/processed/city/buildings.sqlite",
+      "sha256": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/building-stage4/city/associations.sqlite",
+      "sha256": "bba320648dfdba61a757341ccaadd146fae1f2a94ed58de4199e56f4875dc74e",
+      "unchanged": true
+    },
+    {
+      "path": "data/intermediate/extracted/nyc_3dmodel_mn01/NYC_3DModel_MN01.3dm",
+      "sha256": "58f874e508a2e0501f0b803ad69c0ea4ef3e2262a86feec7a743b16600732c7c",
+      "unchanged": true
+    },
+    {
+      "path": "reports/nyc-stage4-buildings.zip",
+      "sha256": "3ef4134c36541b6842f5e5698c6a21607202def7a05a830354c05e3941b5b045",
+      "unchanged": true
+    },
+    {
+      "path": "assets/buildings-city/manhattan/597_121_000-strict.glb",
+      "sha256": "63e3f2cf6731fdc4ef9aa52023a59fb8fd5b4ff9f88be7c54074c683ddfc8ab8",
+      "unchanged": true
+    }
+  ],
+  "largest_original_glb_files": [
+    {
+      "bytes": 1380424,
+      "path": "assets/buildings-city/manhattan/610_152_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1254924,
+      "path": "assets/buildings-city/manhattan/611_153_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1163416,
+      "path": "assets/buildings-city/manhattan/610_150_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1163120,
+      "path": "assets/buildings-city/manhattan/611_152_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1161456,
+      "path": "assets/buildings-city/bronx/612_148_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1116772,
+      "path": "assets/buildings-city/manhattan/610_151_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1095004,
+      "path": "assets/buildings-city/manhattan/604_139_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1076768,
+      "path": "assets/buildings-city/bronx/614_151_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1066136,
+      "path": "assets/buildings-city/manhattan/609_148_000-hypothesis.glb"
+    },
+    {
+      "bytes": 1029100,
+      "path": "assets/buildings-city/bronx/615_151_000-hypothesis.glb"
+    }
+  ],
+  "errors": [],
+  "tinnis_untouched": true,
+  "original_geometry_compression_or_model_replacement": false,
+  "master_building_records": 1082964,
+  "nonplaceholder_source_outlines": 1082930
+}

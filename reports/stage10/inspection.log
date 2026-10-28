@@ -1,0 +1,13 @@
+PASS full source index,25 genuine presets and default reference limits are visible
+PASS 25 river,bridgehead,pier,interchange,park and slope presets load actual local environment
+PASS BIN,name,alias,address andborough queries resolve stable IDs; missing records do not crash
+PASS flight cancellation,return selected,top andcity reset preserve camera limits and selection
+PASS freeflight uses actual keys and stops on keyup,blur,pointer cancellation andresize
+PASS point reading and two-point measurement distinguish unknown world height from horizontal distance
+PASS camera bookmarks save and restore view,layers and quality; invalid import preserves current records
+PASS restricted local NAVD88 walk moves on actual ground and stops on blur without snapping to bridges
+PASS layer toggles and rapid source switches keep stable IDs without unbounded stale loads
+PASS screenshot export includes data attribution beyond the raw WebGL canvas
+PASS one failed source tile is reported while remaining environment and city browsing continue
+PASS emulated mobile touch zoom and pan,resize and collapse leave a usable viewport
+{"checks":12,"observations":25,"errors":[]}

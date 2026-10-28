@@ -1,0 +1,86 @@
+{
+  "at_utc": "2026-10-28T14:06:04.786378+00:00",
+  "files": [
+    {
+      "name": "nyc-evidence-common.zip",
+      "bytes": 215234523,
+      "sha256": "82903f620423d47d482549ae1ceb4a2f0681c31197e115400fa254ba71ad102c"
+    },
+    {
+      "name": "nyc-evidence-manhattan.zip",
+      "bytes": 71692556,
+      "sha256": "455fe1357cb6a374aa9e3e27212d72525d5fca3eb16396fa792bb32c3601c7b3"
+    },
+    {
+      "name": "nyc-evidence-brooklyn.zip",
+      "bytes": 363533864,
+      "sha256": "b40d06b964486a1159fab9e332394d02d7434c39ec3bfbf559c736caf120b125"
+    },
+    {
+      "name": "nyc-evidence-queens.zip",
+      "bytes": 497719582,
+      "sha256": "46cc967471af3c6249e4a94c6493197908e715921c387c3b64d3805666483c0a"
+    },
+    {
+      "name": "nyc-evidence-bronx.zip",
+      "bytes": 136771932,
+      "sha256": "90733c88146dacb749f560da8739ab0021c8cc68c93af58bcdca9a3d9067b12d"
+    },
+    {
+      "name": "nyc-evidence-staten-island.zip",
+      "bytes": 163016737,
+      "sha256": "9441d9d2b98626c5181fa7e250ebb88aa2d1a7deea8159e39bcc65fbfd036bd2"
+    },
+    {
+      "name": "nyc-developer-source.zip",
+      "bytes": 61530580,
+      "sha256": "ff0647dbd742b71e211ac60861fc40e05dd249778c7e6ca3054505f246fb7a01"
+    },
+    {
+      "name": "preview-single.html",
+      "bytes": 1429325,
+      "sha256": "5c9b4d5c4529113f4820c9d1eedc2d63708aa569ddbfd8284caf356da0247780"
+    },
+    {
+      "name": "delivery-manifest.json",
+      "bytes": 6671918,
+      "sha256": "9307c95280e81ccdd17a6637c7d8fa3fbacdc7d76aca85ae56f20a9f120dc71e"
+    },
+    {
+      "name": "assemble.py",
+      "bytes": 2774,
+      "sha256": "9f2e22c4800202156b797e4ccd3d00cd2a0a43cb1f62f21a3fbe48daf8a0c41e"
+    },
+    {
+      "name": "start-local.py",
+      "bytes": 1277,
+      "sha256": "73a3fc94c09e48bce35da6a0e0fd6f5a34539e827b6f6a1c80cdc19daf32ad3a"
+    },
+    {
+      "name": "update-local.py",
+      "bytes": 7787,
+      "sha256": "19c4404c79c77085c07a8d4e5c84019e277ab882164bb0dd2845a531f8bf2f0a"
+    },
+    {
+      "name": "START_HERE.md",
+      "bytes": 4985,
+      "sha256": "86f623a1b57541c7fc88a2e86ec4d0fd4097d2665c85db2aa000cf52f78661a8"
+    },
+    {
+      "name": "FINAL_RECEIPT.md",
+      "bytes": 3150,
+      "sha256": "90ee126607f847ada26f4f0605b7f5aa1ae1179b3dab3db94386bff3b335b5d1"
+    }
+  ],
+  "runtime_compressed_bytes": 1447969194,
+  "runtime_file_count": 25971,
+  "runtime_bytes": 6657617055,
+  "final_independent_directory": "/tmp/nyc-final-release-20261028",
+  "fresh_cache_requests": 260,
+  "fresh_cache_failed_requests": [],
+  "fresh_cache_bad_http": [],
+  "actual_five_borough_glb": true,
+  "outside_requests": [],
+  "complete_real_city_exteriors": false,
+  "source_crc_and_payload_sha_verified": true
+}
