@@ -30,7 +30,7 @@ try{
   const cycle=cycles.length,begin=Date.now(),probeMark=await page.evaluate(()=>window.__PERF_PROBE__.mark());
   await page.locator('#city-reset').click();await delay(4000);
   await page.locator('#preset').selectOption('central-south');await ready('central-south');
-  const canvas=page.locator('#globe canvas'),b=await canvas.boundingBox();await page.mouse.move(b.x+b.width*.5,b.y+b.height*.5);await page.mouse.wheel(110);await delay(300);await page.mouse.wheel(-110);await page.mouse.down();await page.mouse.move(b.x+b.width*.53,b.y+b.height*.52,{steps:10});await page.mouse.up();await delay(3500);
+  const canvas=page.locator('#globe canvas'),b=await canvas.boundingBox();await page.mouse.move(b.x+b.width*.5,b.y+b.height*.5);await page.mouse.wheel(0,110);await delay(300);await page.mouse.wheel(0,-110);await page.mouse.down();await page.mouse.move(b.x+b.width*.53,b.y+b.height*.52,{steps:10});await page.mouse.up();await delay(3500);
   await page.locator('#query').fill('id:233256');await page.locator('#search-form button').click();await page.locator('#results [data-id]').first().click();await page.locator('#mode').selectOption('top');
   await page.waitForFunction(()=>document.getElementById('details').textContent.includes('规范楼高'));assert.equal((await snap()).selectedId,'nyc:footprints:doitt:233256');await delay(1500);
   await page.locator('#mode').selectOption('walk');await page.locator('#walk-area').selectOption(cycle%3===0?'central-park':'midtown');

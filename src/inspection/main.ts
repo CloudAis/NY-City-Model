@@ -109,7 +109,7 @@ async function createLayer(entry:LayerEntry){
   try{
    const profile=PROFILES[quality as Quality],city=entry.key.startsWith('city:');
    const model=await Cesium3DTileset.fromUrl(resource,{maximumScreenSpaceError:profile.sse,cacheBytes:(city?profile.cacheMiB:8)*1048576,maximumCacheOverflowBytes:(city?profile.overflowMiB:4)*1048576,
-    cullRequestsWhileMoving:true,cullRequestsWhileMovingMultiplier:60,preloadWhenHidden:false,preloadFlightDestinations:true,dynamicScreenSpaceError:false,foveatedScreenSpaceError:false,progressiveResolutionHeightFraction:0});
+    cullRequestsWhileMoving:true,cullRequestsWhileMovingMultiplier:60,preloadWhenHidden:false,preloadFlightDestinations:true,dynamicScreenSpaceError:false,foveatedScreenSpaceError:true,progressiveResolutionHeightFraction:0.3});
    runtime.created++;
    if(controller.signal.aborted||bank.get(entry.key)!==entry||disposed){model.destroy();runtime.destroyed++;runtime.stale++;return;}
    entry.model=model;entry.cleanups=[];entry.state=visible(entry.key)?'awaiting-visible-content':'hidden';
