@@ -1,4 +1,6 @@
-# GitHub发布接续
+# GitHub发布完成
+
+已实际公开预发布版本 https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028-git；完整资源位于 https://github.com/CloudAis/NY-City-Model/tree/offline-packages-v0.1.0-evidence-20261028。源码main、数据分支、版本标签及公开说明均已到位。附件接口仍返回401，实际资源采用普通Git分块交付；63文件/48块服务端对象匹配、4次二进制回读及16文件实际还原校验通过。本次仅处理发布与链接，原ZIP、模型、主数据及真实性状态不变。
 
 用户确认目标为CloudAis/NY-City-Model。已有仓库原README历史已合并保留；源码已上传main，完整七个原ZIP以48个实际数据块放入独立Git数据分支，服务器63文件Git对象和字节数全部匹配，4项实际二进制回读SHA通过，本地16文件实际拼回通过。原ZIP和模型字节未改，完整现状精细建筑仍0。Release附件域返回401；未启用被自动审批拒绝的持久Actions发布权限，采用普通Git完成资源传输。正式版本及最终发布状态见reports/github-publication.json和docs/GITHUB_RELEASE.md。
 

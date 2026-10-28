@@ -328,7 +328,7 @@
   "repository_url": "https://github.com/CloudAis/NY-City-Model",
   "release_url": "https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028-git",
   "release_tag": "v0.1.0-evidence-20261028-git",
-  "release_status": "verified_data_uploaded_release_publication_pending",
+  "release_status": "published",
   "source_acceptance_checkpoint": "717a2e4efea077a4a43913fe2faded55dc52848e",
   "source_history_merge_commit": "bdc87a987609e685430c6f1499cd38958faf0d6d",
   "existing_repository_initial_commit_preserved": "b5b413369aa881d136c51a20298c969acd4ff61a",
@@ -345,5 +345,118 @@
     "all_passed": true
   },
   "original_validated_archive_bytes_changed": false,
-  "notes": "Only publication metadata/links differ; original source/runtime ZIPs, models, textures and master source data are unchanged. Git data branch carries actual bytes, not Git LFS pointers or a download-only script."
+  "notes": "Only publication metadata/links differ; original source/runtime ZIPs, models, textures and master source data are unchanged. Git data branch carries actual bytes, not Git LFS pointers or a download-only script.",
+  "release_id": 426875014,
+  "published_at_utc": "2026-10-28T16:43:54Z",
+  "verified_at_utc": "2026-10-28T16:50:11.328745+00:00",
+  "release_attachments": 0,
+  "temporary_upload_refs_cleanup": {
+    "removed_own_temporary_refs": [
+      {
+        "ref": "nyc-payload-20261028-01",
+        "commit": "68c3e50ec8097dd073cb8d2ec2f94e490949c9ec"
+      },
+      {
+        "ref": "nyc-payload-20261028-02",
+        "commit": "22febf041ed7e77f546cf4cd46f5d10423437565"
+      },
+      {
+        "ref": "nyc-payload-20261028-03",
+        "commit": "d6d648934d9d3338d1f730cf22e08cfa00f0c031"
+      },
+      {
+        "ref": "nyc-payload-20261028-04",
+        "commit": "2743e100ad4b053544bde017f4678948758ef7f3"
+      },
+      {
+        "ref": "nyc-payload-20261028-05",
+        "commit": "62e65a1eb5ad2d850d05007295e5fc617c4a0d57"
+      },
+      {
+        "ref": "nyc-payload-20261028-06",
+        "commit": "526042e3f7a248cc80a8d2b6bd8b9d91396fbf9c"
+      },
+      {
+        "ref": "nyc-payload-20261028-07",
+        "commit": "838b806b3027ea7f571039ea43de141bca2360db"
+      },
+      {
+        "ref": "nyc-payload-20261028-08",
+        "commit": "e45056997195368120bfca4ebba038e2a883b390"
+      },
+      {
+        "ref": "nyc-payload-20261028-09",
+        "commit": "44df51a7d76dd2407dcb49e2db418ff66d29b582"
+      },
+      {
+        "ref": "nyc-payload-20261028-10",
+        "commit": "2b1681f5b5a41b04a39ddce089c028046c5f2560"
+      },
+      {
+        "ref": "nyc-payload-20261028-11",
+        "commit": "913457e55e20314dabdfb6fddfb2434d182928b0"
+      },
+      {
+        "ref": "nyc-payload-20261028-12",
+        "commit": "9310b575db2aace3ba5aec428b3a19d56a83c0c8"
+      },
+      {
+        "ref": "nyc-payload-20261028-13",
+        "commit": "ffdaedbf6d55cdc8bd839ca51e8c0a2a0b176872"
+      },
+      {
+        "ref": "nyc-payload-20261028-14",
+        "commit": "14cb953bbe6a76f33bb702956c383d43603a5e49"
+      },
+      {
+        "ref": "nyc-payload-20261028-15",
+        "commit": "aa805aac2dd9d69c308cc3ebdf2612e9ec31bcaf"
+      },
+      {
+        "ref": "nyc-payload-20261028-16",
+        "commit": "cfe9a402db8d99c6bc0944bb812b2921656da03a"
+      },
+      {
+        "ref": "nyc-payload-20261028-17",
+        "commit": "f7f1266afc938a770f66440f8633323a60fb8736"
+      },
+      {
+        "ref": "nyc-payload-20261028-18",
+        "commit": "251842e7443c70cbe70939f58bcad16e431263fa"
+      },
+      {
+        "ref": "nyc-payload-20261028-19",
+        "commit": "b179367e819977613ec55a36f3106f8213648ff2"
+      },
+      {
+        "ref": "nyc-payload-20261028-20",
+        "commit": "87e017302c77c4b846fb3d0797be8d9d021d184d"
+      },
+      {
+        "ref": "offline-packages-upload-20261028",
+        "commit": "abcb4084853208eccbd4670f2157158615590bf1"
+      }
+    ],
+    "skipped_if_changed": [],
+    "complete_data_branch_preserved": {
+      "repository": "CloudAis/NY-City-Model",
+      "branch": "offline-packages-v0.1.0-evidence-20261028",
+      "head": "94da9bb040f26ffe15a97e30134edf93c28b0b71",
+      "tree": "5d56056a123a76fc125926dad3305b5dbfe46f66",
+      "all_bytes_committed_and_pushed": true,
+      "ordinary_Git_blob_API_assembly": true
+    }
+  },
+  "public_link_checks": [
+    {
+      "url": "https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028-git",
+      "http_status": 200
+    },
+    {
+      "url": "https://github.com/CloudAis/NY-City-Model/tree/offline-packages-v0.1.0-evidence-20261028/start-local.py",
+      "http_status": 200,
+      "redirect_to_blob": true
+    }
+  ],
+  "actual_final_local_index_verify_after_tag_update": 16
 }
