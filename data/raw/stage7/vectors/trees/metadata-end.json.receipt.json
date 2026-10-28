@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/uvpi-gqnh.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/uvpi-gqnh.json",
+  "download_started_at": "2026-10-28T05:26:45.762949+00:00",
+  "download_completed_at": "2026-10-28T05:26:46.171878+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 70282,
+  "sha256": "9eb53e7eb5086ff94e8f7b80741c8e82509884e6d7e23f118e64718d7fb7f2b2",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

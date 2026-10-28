@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.nyc.gov/html/dot/html/infrastructure/williamsburg-bridge.shtml",
+  "final_url": "https://www.nyc.gov/html/dot/html/infrastructure/williamsburg-bridge.shtml",
+  "download_started_at": "2026-10-28T05:22:18.837010+00:00",
+  "download_completed_at": "2026-10-28T05:22:19.131116+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 23931,
+  "sha256": "ef7a515e6b1100f1d8ee86d63ab045b6a3c127c98712e1b1a9c8e0afab79a760",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

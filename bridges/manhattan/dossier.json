@@ -1,0 +1,77 @@
+{
+  "id": "manhattan",
+  "name": "Manhattan Bridge",
+  "source_values": [
+    {
+      "quantity": "lower_abutment_length",
+      "source_value": 5790,
+      "source_unit": "international_foot",
+      "value_m": 1764.7920000000001,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "source_quote": "5,790 feet",
+      "url": "https://www.nyc.gov/html/dot/html/infrastructure/manhattan-bridge.shtml",
+      "path": "data/raw/stage7/bridges/manhattan.html",
+      "sha256": "c8645782f93e561b99ddabc93285aaffcfa4cf98d10d86843ecc6e96520449e4",
+      "accuracy_m": null,
+      "observation_date": null,
+      "scope_note": "clearance/tower extent is NOT absolute deck elevation; reference water/tide datum not established"
+    },
+    {
+      "quantity": "upper_portal_length",
+      "source_value": 6090,
+      "source_unit": "international_foot",
+      "value_m": 1856.2320000000002,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "source_quote": "6,090 feet",
+      "url": "https://www.nyc.gov/html/dot/html/infrastructure/manhattan-bridge.shtml",
+      "path": "data/raw/stage7/bridges/manhattan.html",
+      "sha256": "c8645782f93e561b99ddabc93285aaffcfa4cf98d10d86843ecc6e96520449e4",
+      "accuracy_m": null,
+      "observation_date": null,
+      "scope_note": "clearance/tower extent is NOT absolute deck elevation; reference water/tide datum not established"
+    },
+    {
+      "quantity": "main_span",
+      "source_value": 1470,
+      "source_unit": "international_foot",
+      "value_m": 448.05600000000004,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "source_quote": "Main span: 1,470 feet",
+      "url": "https://www.nyc.gov/html/dot/html/infrastructure/manhattan-bridge.shtml",
+      "path": "data/raw/stage7/bridges/manhattan.html",
+      "sha256": "c8645782f93e561b99ddabc93285aaffcfa4cf98d10d86843ecc6e96520449e4",
+      "accuracy_m": null,
+      "observation_date": null,
+      "scope_note": "clearance/tower extent is NOT absolute deck elevation; reference water/tide datum not established"
+    }
+  ],
+  "width_m": null,
+  "deck_absolute_elevation_m": null,
+  "deck_vertical_datum": null,
+  "tower_absolute_top_m": null,
+  "approach_grade_profile": null,
+  "bridgehead_survey_control": null,
+  "physical_world_placement_allowed": false,
+  "rendering": "official transport outline only; no unverified deck/tower/cable mesh",
+  "same_city_scope": "selected main spans connect NYC boroughs; no NJ approach included as NYC coverage",
+  "publication_date": null,
+  "downloaded_at": "2026-10-28T05:22:18.836020+00:00",
+  "research_status": "partial_primary_facts",
+  "model_complete": false,
+  "validation": {
+    "horizontal_reference": "source transport outlines at observation windows",
+    "vertical_continuity": false,
+    "under_bridge_clearance": false,
+    "width_verified": false
+  },
+  "missing": [
+    "dated deck survey and vertical datum",
+    "width",
+    "tower/base elevations",
+    "approach geometry and continuity",
+    "structural component dimensions"
+  ]
+}

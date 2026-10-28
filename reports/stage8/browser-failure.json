@@ -1,0 +1,269 @@
+{
+  "error": "AssertionError [ERR_ASSERTION]: The input did not match the regular expression /规范楼高 \\/ 基底：未知/. Input:\n\n'读取稳定来源ID：nyc:footprints:doitt:1114961'\n",
+  "checks": [
+    "full source index,25 genuine presets and default reference limits are visible",
+    "25 river,bridgehead,pier,interchange,park and slope presets load actual local environment"
+  ],
+  "errors": [],
+  "snapshot": {
+    "mode": "orbit",
+    "preset": "grove-street",
+    "flying": true,
+    "layers": {
+      "buildings": true,
+      "roads": true,
+      "sidewalk": false,
+      "median": false,
+      "water": true,
+      "parks": true,
+      "transport": true,
+      "piers": true,
+      "rail": false,
+      "rail-structure": false,
+      "trees": false,
+      "outlines": false,
+      "evidence": false
+    },
+    "quality": "medium",
+    "selectedId": "nyc:footprints:doitt:1114961",
+    "hoverId": null,
+    "lastClickedBuildingId": null,
+    "selectedRecord": {
+      "id": "nyc:footprints:doitt:1114961",
+      "bin": "1088469",
+      "bbl": "1000580001",
+      "borough": "manhattan",
+      "name": "Tower 1 World Trade Ctr",
+      "address": "285 Fulton St, New York, NY, 10007",
+      "aliases": [
+        "One World Trade Center",
+        "One WTC",
+        "1WTC"
+      ],
+      "bbox": [
+        -74.01367461841798,
+        40.712627343046066,
+        -74.0126761510748,
+        40.71339075363618
+      ],
+      "source_version": "2026-10-27-city",
+      "raw_record": {
+        "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00044000.json",
+        "sha256": "5cf99ad2546902c7857fe5ff9336ee00dab65102d53adef3cac7a37bba339088",
+        "object_id": 1078710
+      },
+      "relative_height_raw_ft": 1408.377901,
+      "canonical_height_m": null,
+      "ground_ellipsoid_m": null,
+      "roof_status": "unknown",
+      "facade_status": "unknown",
+      "observation_date": null,
+      "last_edited_at": "2021-06-15T18:55:40+00:00",
+      "state": "source_outline_only",
+      "feature_code": 2100
+    },
+    "keys": [],
+    "cameraHeight": 1326.7380654945875,
+    "cameraWorld": [
+      1333567.8720118548,
+      -4654959.259056728,
+      4139450.585820528
+    ],
+    "heading": 1.3251510868090142,
+    "pitch": -1.0174058076897214,
+    "worldClampCount": 2,
+    "loadedTotal": 232,
+    "unloadedTotal": 0,
+    "layerStates": [
+      {
+        "key": "parks",
+        "state": "ready",
+        "loaded": 1,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "Central Park / Prospect Park完整来源边界，非植被模型",
+        "url": "environment/parks.json",
+        "shown": true
+      },
+      {
+        "key": "city:manhattan",
+        "state": "ready",
+        "loaded": 92,
+        "pending": 0,
+        "processing": 5,
+        "failures": 0,
+        "message": "全市来源轮廓；7500m以上隐藏完整细节",
+        "url": "buildings-city/manhattan/strict.json",
+        "shown": true
+      },
+      {
+        "key": "city:brooklyn",
+        "state": "ready",
+        "loaded": 53,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "全市来源轮廓；7500m以上隐藏完整细节",
+        "url": "buildings-city/brooklyn/strict.json",
+        "shown": true
+      },
+      {
+        "key": "city:queens",
+        "state": "ready",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "全市来源轮廓；7500m以上隐藏完整细节",
+        "url": "buildings-city/queens/strict.json",
+        "shown": true
+      },
+      {
+        "key": "city:bronx",
+        "state": "ready",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "全市来源轮廓；7500m以上隐藏完整细节",
+        "url": "buildings-city/bronx/strict.json",
+        "shown": true
+      },
+      {
+        "key": "city:staten-island",
+        "state": "ready",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "全市来源轮廓；7500m以上隐藏完整细节",
+        "url": "buildings-city/staten-island/strict.json",
+        "shown": true
+      },
+      {
+        "key": "roads",
+        "state": "ready",
+        "loaded": 1,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "projection reference; no physical height",
+        "url": "environment/grove-street/roads.json",
+        "shown": true
+      },
+      {
+        "key": "sidewalk",
+        "state": "hidden",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "projection reference; no physical height",
+        "url": "environment/grove-street/sidewalk.json",
+        "shown": false
+      },
+      {
+        "key": "median",
+        "state": "hidden",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "projection reference; no physical height",
+        "url": "environment/grove-street/median.json",
+        "shown": false
+      },
+      {
+        "key": "water",
+        "state": "no-data",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "此观察范围没有已取得记录",
+        "url": ""
+      },
+      {
+        "key": "transport",
+        "state": "no-data",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "此观察范围没有已取得记录",
+        "url": ""
+      },
+      {
+        "key": "piers",
+        "state": "no-data",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "此观察范围没有已取得记录",
+        "url": ""
+      },
+      {
+        "key": "rail",
+        "state": "no-data",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "此观察范围没有已取得记录",
+        "url": ""
+      },
+      {
+        "key": "rail-structure",
+        "state": "hidden",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "projection reference; no physical height",
+        "url": "environment/grove-street/rail-structure.json",
+        "shown": false
+      },
+      {
+        "key": "trees",
+        "state": "hidden",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "projection reference; no physical height",
+        "url": "environment/grove-street/trees.json",
+        "shown": false
+      },
+      {
+        "key": "outlines",
+        "state": "hidden",
+        "loaded": 0,
+        "pending": 0,
+        "processing": 0,
+        "failures": 0,
+        "message": "projection reference; no physical height",
+        "url": "environment/grove-street/outlines.json",
+        "shown": false
+      }
+    ],
+    "primitives": 13,
+    "errors": [],
+    "tileFailures": [],
+    "bookmarks": [],
+    "measurementPoints": [],
+    "lastPick": null,
+    "lastExportCredit": "",
+    "worldGroundRegistered": false,
+    "cityBodyEvidence": "outline only",
+    "lighting": "neutral-fixed",
+    "solarDatetime": null,
+    "pickPoints": [
+      {
+        "x": 870.4942555102734,
+        "y": 1084.584944628616
+      }
+    ]
+  }
+}

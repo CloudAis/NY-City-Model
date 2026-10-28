@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/dwer-xbgx.json?%24select=count%28%2A%29&%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-73.9581098+40.7360390%2C-73.9318824+40.7360390%2C-73.9318824+40.7559610%2C-73.9581098+40.7559610%2C-73.9581098+40.7360390%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9384398+40.8000442%2C-73.9095514+40.8000442%2C-73.9095514+40.8219553%2C-73.9384398+40.8219553%2C-73.9384398+40.8000442%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-74.0912296+40.6330231%2C-74.0637700+40.6330231%2C-74.0637700+40.6539766%2C-74.0912296+40.6539766%2C-74.0912296+40.6330231%29%29%27%29",
+  "final_url": "https://data.cityofnewyork.us/resource/dwer-xbgx.json?%24select=count%28%2A%29&%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-73.9581098+40.7360390%2C-73.9318824+40.7360390%2C-73.9318824+40.7559610%2C-73.9581098+40.7559610%2C-73.9581098+40.7360390%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9384398+40.8000442%2C-73.9095514+40.8000442%2C-73.9095514+40.8219553%2C-73.9384398+40.8219553%2C-73.9384398+40.8000442%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-74.0912296+40.6330231%2C-74.0637700+40.6330231%2C-74.0637700+40.6539766%2C-74.0912296+40.6539766%2C-74.0912296+40.6330231%29%29%27%29",
+  "download_started_at": "2026-10-28T05:24:42.034913+00:00",
+  "download_completed_at": "2026-10-28T05:24:42.411558+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC40MjI0Ml8zXzM0cEJnQ05zbzQ5MVE3eUZSMjRCOFRJZzh6d05R--gzirnyu9l99lG68eT-SK7eTt7GWvn8---gzip\"",
+  "last_modified_http": "Tue, 30 Apr 2024 16:39:41 GMT",
+  "bytes": 18,
+  "sha256": "13c572ef2837bdeb3eecec9e48e1bd298125b3a49aa0832c628780b0104f3694",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

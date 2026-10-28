@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/dwer-xbgx.json?%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-73.9785581+40.7647964%2C-73.9690419+40.7647964%2C-73.9690419+40.7720036%2C-73.9785581+40.7720036%2C-73.9785581+40.7647964%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9724492+40.7813955%2C-73.9605508+40.7813955%2C-73.9605508+40.7904045%2C-73.9724492+40.7904045%2C-73.9724492+40.7813955%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9749453+40.6694459%2C-73.9642547+40.6694459%2C-73.9642547+40.6775541%2C-73.9749453+40.6775541%2C-73.9749453+40.6694459%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9725440+40.6534459%2C-73.9618560+40.6534459%2C-73.9618560+40.6615541%2C-73.9725440+40.6615541%2C-73.9725440+40.6534459%29%29%27%29&%24select=%3Aid+as+socrata_row_id%2Cthe_geom%2Csource_id%2Csub_code%2Cfeat_code%2Cstatus%2Cshape_leng%2Cshape_area&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "final_url": "https://data.cityofnewyork.us/resource/dwer-xbgx.json?%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-73.9785581+40.7647964%2C-73.9690419+40.7647964%2C-73.9690419+40.7720036%2C-73.9785581+40.7720036%2C-73.9785581+40.7647964%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9724492+40.7813955%2C-73.9605508+40.7813955%2C-73.9605508+40.7904045%2C-73.9724492+40.7904045%2C-73.9724492+40.7813955%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9749453+40.6694459%2C-73.9642547+40.6694459%2C-73.9642547+40.6775541%2C-73.9749453+40.6775541%2C-73.9749453+40.6694459%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9725440+40.6534459%2C-73.9618560+40.6534459%2C-73.9618560+40.6615541%2C-73.9725440+40.6615541%2C-73.9725440+40.6534459%29%29%27%29&%24select=%3Aid+as+socrata_row_id%2Cthe_geom%2Csource_id%2Csub_code%2Cfeat_code%2Cstatus%2Cshape_leng%2Cshape_area&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "download_started_at": "2026-10-28T05:24:37.913667+00:00",
+  "download_completed_at": "2026-10-28T05:24:38.482223+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC40MjI0Ml8zXzM0Smx5Wk9DVExWeG9xZHg3dm9XQXZMNEdYb1U0---gzipWOMwpCeXuAUAnAyhuFOBdKqRX3w--gzip--gzip\"",
+  "last_modified_http": "Tue, 30 Apr 2024 16:39:41 GMT",
+  "bytes": 77656,
+  "sha256": "b2f1e87e715da92ed8a89bee3342a913d5c8ed1cc31f424e28072c2c5b0a100e",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

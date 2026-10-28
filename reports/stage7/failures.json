@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-28T06:14:28.998938+00:00",
+  "unresolved_source_gaps": [
+    "global vertical datum/frame conflict",
+    "bridge deck profiles/widths unknown",
+    "current street furniture not acquired",
+    "full city environmental coverage not downloaded"
+  ],
+  "browser_injected_failure": "one GLB HTTP404 deliberately tested; see reports/stage8/browser.json",
+  "earlier_browser_failures": "first key timing, lostpointercapture measurement suppression fixed; original failure artifacts retained. Observation predicate tightened after screenshot review.",
+  "unobserved": "no independent surveying, bridge under-space physical verification, real mobile device, hardware GPU or other browser"
+}

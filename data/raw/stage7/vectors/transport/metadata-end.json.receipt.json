@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/r9cu-9r7b.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/r9cu-9r7b.json",
+  "download_started_at": "2026-10-28T05:24:21.766815+00:00",
+  "download_completed_at": "2026-10-28T05:24:22.347587+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 14572,
+  "sha256": "14cfd56a15e331e6bafbc8d9c1c97c4d9c846a42225fdab39af4a78c94d74c94",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

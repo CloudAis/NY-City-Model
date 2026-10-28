@@ -1,3 +1,17 @@
+# 当前第7/8部分检查点 · 2026-10-28
+
+沿用feb9d79，同工程实施静态真实环境与统一检查。源码/现有修改保留，Tinnis未改；云环境运行正常无需重启。
+
+已取得219份新原载荷及清单，8类环境来源小范围分页、五桥资料；25预设发布真实道路/岸线/公园/人行道/结构参考，两个新2017公园裸地DEM，八区保守地面碰撞。全市静态搜索1,082,964来源记录，2253有来源名称/地址/别名；默认仍是已知轮廓，不补未知高度。
+
+统一inspection页面含相机模式、真实时间移动/输入清理、稳定ID查询拾取、量距、图层、实际加载/故障隔离、25预设、书签与署名截图。八个独立NAVD88检查区不向世界错误叠加。
+
+实际验证：53规则、六组核心逻辑/八真实spawn、TypeScript/Vite构建；新浏览器12组与25道路实际解析观察、两个公园检查；原地形8/地标6/立面8回归。Chromium154/SwiftShader，模拟触屏，无真机结论。完整命令和证据见reports/ENVIRONMENT_REVIEW.md、INTERACTION_REVIEW.md及stage7/8。2775旧原载荷及大输入、旧foundation SHA保持。
+
+未完成：全球垂直框架、真实路/桥面连续和桥下通行，完整五桥模型0，当前街具/全城环境仍缺口；旧可信建筑主体/屋顶/当前完整立面缺口延续。第7部分不能写全部物理验收通过。第8部分受数据限制明确限制近地/桥面/室内，不生成虚构空间。包为有明确基底依赖的离线overlay，非完整纽约终版。
+
+历史阶段记录保留如下。
+
 # 阶段实况
 
 ## 阶段6 · 样区与历史片段管线，完整街段未验收
@@ -111,3 +125,5 @@ Node24.19/npm11.9、Python3.12.14、系统GDAL与Chromium可用；起始没有Py
 实际恢复/幂等：中城第1批后控制退出75再恢复，812唯一ID且首批raw SHA/mtime保持；HTTP本地服务实际截断后Range恢复；全市重跑记录数/语义SHA不变；本地bbox精确查询299 ID与原API一致；上下文重跑SHA/mtime不变；实际影像单瓦片补抓。单文件两个AOI完全离线内容执行/交互通过，file://仍被企业策略阻止，正常浏览器双击待测。
 
 证据：reports/VALIDATION.md、data-quality.json、borough-coverage.csv、city-record-issues.json、real-resume.json、city-idempotence.json、context-idempotence.json、real-tile-refetch.json、stage2-*.log、browser-report.json、single-preview-report.json。逐raw SHA/时间/版本/许可/坐标/处理器清单在data/manifests；大数据本地保留、Git忽略策略明确，浏览器包只携带有限真实样区。第三阶段输入和未完成项已写NEXT_STEPS。
+
+第7/8最终离线复验：增量ZIP 214,120,968 bytes，全部CRC/载荷SHA通过；实际解压接入22,178个未改旧全市文件，在禁外网Chromium完成4组检查（本地模型/索引、公园地面、书签恢复、实际两点高差），零错误。ZIP SHA见reports/stage8/package.json，与package-browser.json一致。开发服务器5180的页面、环境/地形/搜索清单均HTTP200。检查点为本次Git提交；该段为打包后追加的最终外部复验记录。

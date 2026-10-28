@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/uvpi-gqnh.json?%24where=%28longitude+between+-73.9786051+and+-73.9671949+AND+latitude+between+40.7090757+and+40.7177243%29+OR+%28longitude+between+-73.9693540+and+-73.9598460+AND+latitude+between+40.7064964+and+40.7137036%29+OR+%28longitude+between+-73.9596519+and+-73.9489481+AND+latitude+between+40.7522459+and+40.7603541%29+OR+%28longitude+between+-73.9503951+and+-73.9404049+AND+latitude+between+40.7522162+and+40.7597838%29&%24select=%3Aid+as+socrata_row_id%2Ctree_id%2Cblock_id%2Ccreated_at%2Ctree_dbh%2Cstump_diam%2Ccurb_loc%2Cstatus%2Chealth%2Cspc_latin%2Cspc_common%2Csteward%2Cguards%2Csidewalk%2Cuser_type%2Cproblems%2Croot_stone%2Croot_grate%2Croot_other%2Ctrunk_wire%2Ctrnk_light%2Ctrnk_other%2Cbrch_light%2Cbrch_shoe%2Cbrch_other%2Caddress%2Czipcode%2Czip_city%2Ccb_num%2Cborocode%2Cboroname%2Ccncldist%2Cst_assem%2Cst_senate%2Cnta%2Cnta_name%2Cboro_ct%2Cstate%2Clatitude%2Clongitude%2Cx_sp%2Cy_sp%2Ccouncil_district%2Ccensus_tract%2Cbin%2Cbbl&%24order=%3Aid+ASC&%24limit=500&%24offset=1000",
+  "final_url": "https://data.cityofnewyork.us/resource/uvpi-gqnh.json?%24where=%28longitude+between+-73.9786051+and+-73.9671949+AND+latitude+between+40.7090757+and+40.7177243%29+OR+%28longitude+between+-73.9693540+and+-73.9598460+AND+latitude+between+40.7064964+and+40.7137036%29+OR+%28longitude+between+-73.9596519+and+-73.9489481+AND+latitude+between+40.7522459+and+40.7603541%29+OR+%28longitude+between+-73.9503951+and+-73.9404049+AND+latitude+between+40.7522162+and+40.7597838%29&%24select=%3Aid+as+socrata_row_id%2Ctree_id%2Cblock_id%2Ccreated_at%2Ctree_dbh%2Cstump_diam%2Ccurb_loc%2Cstatus%2Chealth%2Cspc_latin%2Cspc_common%2Csteward%2Cguards%2Csidewalk%2Cuser_type%2Cproblems%2Croot_stone%2Croot_grate%2Croot_other%2Ctrunk_wire%2Ctrnk_light%2Ctrnk_other%2Cbrch_light%2Cbrch_shoe%2Cbrch_other%2Caddress%2Czipcode%2Czip_city%2Ccb_num%2Cborocode%2Cboroname%2Ccncldist%2Cst_assem%2Cst_senate%2Cnta%2Cnta_name%2Cboro_ct%2Cstate%2Clatitude%2Clongitude%2Cx_sp%2Cy_sp%2Ccouncil_district%2Ccensus_tract%2Cbin%2Cbbl&%24order=%3Aid+ASC&%24limit=500&%24offset=1000",
+  "download_started_at": "2026-10-28T05:25:57.637146+00:00",
+  "download_completed_at": "2026-10-28T05:25:58.287388+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC40OTczMl8zXzIyOXZEbEtwb25pX1g3UUV6WDE0Wjd0bl9zOHB0dw---gzikHqyT1YpQJKX9kw_YDQeMaZWrlU--gzip--gzip\"",
+  "last_modified_http": "Thu, 13 Sep 2018 14:58:58 GMT",
+  "bytes": 234904,
+  "sha256": "f034ef9b3d01e44de6f9576bcbdfd07497e2bc937d25988175407b139257c693",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

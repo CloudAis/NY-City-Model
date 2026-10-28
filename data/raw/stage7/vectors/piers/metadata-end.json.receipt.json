@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/6hbv-tek4.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/6hbv-tek4.json",
+  "download_started_at": "2026-10-28T05:25:50.319256+00:00",
+  "download_completed_at": "2026-10-28T05:25:50.683132+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 14330,
+  "sha256": "a754aac4965b8f73dab6545de76203c750a2dac58f418b5dc18812ef86585efb",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

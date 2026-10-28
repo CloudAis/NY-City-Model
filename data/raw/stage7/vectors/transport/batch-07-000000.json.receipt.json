@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/r9cu-9r7b.json?%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-73.9581098+40.7360390%2C-73.9318824+40.7360390%2C-73.9318824+40.7559610%2C-73.9581098+40.7559610%2C-73.9581098+40.7360390%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9384398+40.8000442%2C-73.9095514+40.8000442%2C-73.9095514+40.8219553%2C-73.9384398+40.8219553%2C-73.9384398+40.8000442%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-74.0912296+40.6330231%2C-74.0637700+40.6330231%2C-74.0637700+40.6539766%2C-74.0912296+40.6539766%2C-74.0912296+40.6330231%29%29%27%29&%24select=%3Aid+as+socrata_row_id%2Cthe_geom%2Csource_id%2Csub_code%2Cfeat_code%2Cname%2Cstatus%2Cshape_leng%2Cshape_area&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "final_url": "https://data.cityofnewyork.us/resource/r9cu-9r7b.json?%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-73.9581098+40.7360390%2C-73.9318824+40.7360390%2C-73.9318824+40.7559610%2C-73.9581098+40.7559610%2C-73.9581098+40.7360390%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9384398+40.8000442%2C-73.9095514+40.8000442%2C-73.9095514+40.8219553%2C-73.9384398+40.8219553%2C-73.9384398+40.8000442%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-74.0912296+40.6330231%2C-74.0637700+40.6330231%2C-74.0637700+40.6539766%2C-74.0912296+40.6539766%2C-74.0912296+40.6330231%29%29%27%29&%24select=%3Aid+as+socrata_row_id%2Cthe_geom%2Csource_id%2Csub_code%2Cfeat_code%2Cname%2Cstatus%2Cshape_leng%2Cshape_area&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "download_started_at": "2026-10-28T05:24:20.947169+00:00",
+  "download_completed_at": "2026-10-28T05:24:21.741915+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC40MjAyMV8zXzUwNzFqTDlrbjdEd0pELTJYdjJaQTUzNkUxa1hV---gzipArNE1Y6qk9uR8n7sGq4cUqDdjPE--gzip--gzip\"",
+  "last_modified_http": "Thu, 25 Apr 2024 13:40:09 GMT",
+  "bytes": 1076016,
+  "sha256": "c1928f26da1c465c8a599ee482361a7aad4a1d227c01d558909a76edff765654",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

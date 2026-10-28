@@ -3,7 +3,7 @@ import {spawn} from 'node:child_process';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import {setTimeout as delay} from 'node:timers/promises';
-const port=4187,base=`http://127.0.0.1:${port}/`,report='reports/stage6';
+const port=4187,base=`http://127.0.0.1:${port}/`,report=process.env.NYC_REPORT_DIR??'reports/stage6';
 const server=spawn(process.execPath,['node_modules/vite/bin/vite.js','preview','--host','127.0.0.1','--port',String(port),'--strictPort'],{stdio:'ignore'});
 let browser,page,evidencePrimitiveCount;const errors=[],requests=[],checks=[],areaResults=[],views=[];
 async function check(name,fn){await fn();checks.push(name);console.log('PASS',name);}

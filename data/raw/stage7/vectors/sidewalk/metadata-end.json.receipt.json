@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/52n9-sdep.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/52n9-sdep.json",
+  "download_started_at": "2026-10-28T05:25:09.193734+00:00",
+  "download_completed_at": "2026-10-28T05:25:09.414747+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 12286,
+  "sha256": "82d39d93b95ea24cfd75546fed7b7ba313c9220a26caa86646c04aeed53eb738",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

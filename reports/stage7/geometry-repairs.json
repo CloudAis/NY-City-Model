@@ -1,0 +1,118 @@
+[
+  {
+    "source_dataset": "52n9-sdep",
+    "row_id": "row-9uyp-m5ft-4224",
+    "area_before_m2": 73297.90560897053,
+    "area_after_m2": 73297.90560897037,
+    "area_change_m2": -1.6007106751203537e-10,
+    "raw_manifest": "data/raw/stage7/catalog/sidewalk-dataset.json",
+    "stage": "before clipping"
+  },
+  {
+    "source_dataset": "52n9-sdep",
+    "row_id": "row-rrs6~vb7f_zipp",
+    "area_before_m2": 3595.73408006793,
+    "area_after_m2": 3595.734080067913,
+    "area_change_m2": -1.6825651982799172e-11,
+    "raw_manifest": "data/raw/stage7/catalog/sidewalk-dataset.json",
+    "stage": "before clipping"
+  },
+  {
+    "source_dataset": "52n9-sdep",
+    "row_id": "row-n7wf.3cwk~8yn2",
+    "area_before_m2": 10485.242012721363,
+    "area_after_m2": 10485.242012721415,
+    "area_change_m2": 5.275069270282984e-11,
+    "raw_manifest": "data/raw/stage7/catalog/sidewalk-dataset.json",
+    "stage": "before clipping"
+  },
+  {
+    "source_dataset": "52n9-sdep",
+    "row_id": "row-j5wr.fnp5-fjfw",
+    "area_before_m2": 2164.795562665946,
+    "area_after_m2": 2164.79556266595,
+    "area_change_m2": 4.092726157978177e-12,
+    "raw_manifest": "data/raw/stage7/catalog/sidewalk-dataset.json",
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/walk-bronx-mott-haven-roadbed.json",
+    "source_row_id": "row-59g3~k2kw_qdyb",
+    "area_before_m2": 1605.5687426801117,
+    "area_after_m2": 1605.5687426801103,
+    "area_change_m2": -1.3642420526593924e-12,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/walk-bronx-mott-haven-roadbed.json",
+    "source_row_id": "row-jx8k_qepx~9qfw",
+    "area_before_m2": 4551.870693887399,
+    "area_after_m2": 4551.870693887406,
+    "area_change_m2": 6.366462912410498e-12,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/walk-bronx-mott-haven-roadbed.json",
+    "source_row_id": "row-c74w.qauu-fnyu",
+    "area_before_m2": 1470.2998324129728,
+    "area_after_m2": 1470.2998324129742,
+    "area_change_m2": 1.3642420526593924e-12,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/verrazzano-head-roadbed.json",
+    "source_row_id": "row-edb5-t38w.zarn",
+    "area_before_m2": 27472.62181886862,
+    "area_after_m2": 27472.62181886866,
+    "area_change_m2": 4.001776687800884e-11,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/bruckner-roadbed.json",
+    "source_row_id": "row-59g3~k2kw_qdyb",
+    "area_before_m2": 1605.5687426801117,
+    "area_after_m2": 1605.5687426801103,
+    "area_change_m2": -1.3642420526593924e-12,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/brooklyn-head-roadbed.json",
+    "source_row_id": "row-dcng~ibum.eg76",
+    "area_before_m2": 2291.1563441657895,
+    "area_after_m2": 2291.156344165788,
+    "area_change_m2": -1.3642420526593924e-12,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/walk-lower-manhattan-roadbed.json",
+    "source_row_id": "row-humm_98tb-rnub",
+    "area_before_m2": 1649.312502949393,
+    "area_after_m2": 1649.3125029493938,
+    "area_change_m2": 6.821210263296962e-13,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/walk-lower-manhattan-roadbed.json",
+    "source_row_id": "row-dcng~ibum.eg76",
+    "area_before_m2": 2291.1563441657895,
+    "area_after_m2": 2291.156344165788,
+    "area_change_m2": -1.3642420526593924e-12,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/walk-central-park-roadbed.json",
+    "source_row_id": "row-3vq2-m79g~y57p",
+    "area_before_m2": 5782.4865918888945,
+    "area_after_m2": 5782.486591888893,
+    "area_change_m2": -1.8189894035458565e-12,
+    "stage": "before clipping"
+  },
+  {
+    "raw_cache": "data/intermediate/stage7/walk-midtown-roadbed.json",
+    "source_row_id": "row-vw6x-ekgj.vzv3",
+    "area_before_m2": 1530.5068911710553,
+    "area_after_m2": 1530.5068911710566,
+    "area_change_m2": 1.3642420526593924e-12,
+    "stage": "before clipping"
+  }
+]

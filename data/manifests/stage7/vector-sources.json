@@ -1,0 +1,1064 @@
+[
+  {
+    "name": "transport",
+    "dataset_id": "r9cu-9r7b",
+    "metadata": "data/raw/stage7/catalog/transport-dataset.json",
+    "geometry_field": "the_geom",
+    "fields": {
+      "the_geom": "multipolygon",
+      "source_id": "number",
+      "sub_code": "number",
+      "feat_code": "number",
+      "name": "text",
+      "status": "text",
+      "shape_leng": "number",
+      "shape_area": "number"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-00-000000.json",
+        "sha256": "a22b6925474d7cc78425a0ae5306f25a82508cc407c2d324aac0c22435e8e744",
+        "batch": 0,
+        "records": 19
+      },
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-01-000000.json",
+        "sha256": "cf1a7dcb307760bb7637ef453898c23c257054532b73869809e08aecc5aa193a",
+        "batch": 1,
+        "records": 15
+      },
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-02-000000.json",
+        "sha256": "314c25ead47297447bfe7ddcb06d0318e6dd2147543ac0c8a56b4cac4e007912",
+        "batch": 2,
+        "records": 13
+      },
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-03-000000.json",
+        "sha256": "9a527d45829dfc051f93314039842b9d8fb24b89293933b5276e6b8a8ee82a25",
+        "batch": 3,
+        "records": 38
+      },
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-04-000000.json",
+        "sha256": "f767e2c0dd28b535b365deba34823ddfc3c24d914a039acf5a702f15acd420d7",
+        "batch": 4,
+        "records": 41
+      },
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-05-000000.json",
+        "sha256": "59f4e4962e755918da47be142409b9a537b7791306cfc061ae4dba9e254a5647",
+        "batch": 5,
+        "records": 13
+      },
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-06-000000.json",
+        "sha256": "8184c263053883a3d43302c2b55249cf54dc4f15c60642e17d74618802d8db70",
+        "batch": 6,
+        "records": 72
+      },
+      {
+        "path": "data/raw/stage7/vectors/transport/batch-07-000000.json",
+        "sha256": "c1928f26da1c465c8a599ee482361a7aad4a1d227c01d558909a76edff765654",
+        "batch": 7,
+        "records": 112
+      }
+    ],
+    "unique_rows": 257,
+    "batch_counts": [
+      19,
+      15,
+      13,
+      38,
+      41,
+      13,
+      72,
+      112
+    ],
+    "capture_started_at": "2026-10-28T05:24:08.879583+00:00",
+    "capture_finished_at": "2026-10-28T05:24:22.348322+00:00",
+    "rows_updated_at": 1714052412,
+    "page_updated_at": 1765383224,
+    "observation_period": null,
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  },
+  {
+    "name": "rail",
+    "dataset_id": "anc7-97cy",
+    "metadata": "data/raw/stage7/catalog/rail-dataset.json",
+    "geometry_field": "the_geom",
+    "fields": {
+      "the_geom": "multiline",
+      "source_id": "number",
+      "feat_code": "number",
+      "sub_code": "number",
+      "name": "text",
+      "status": "text",
+      "shape_leng": "number"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-00-000000.json",
+        "sha256": "297b0e419844f1f5cb4d257510edda6ede9c481c08531e1b74a3c0194a6cd8c0",
+        "batch": 0,
+        "records": 13
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-01-000000.json",
+        "sha256": "d6d9d4c6ef5d5d654453e1faec18d6bba4e46f30866be100e1f7af9b2fc8e76d",
+        "batch": 1,
+        "records": 14
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-03-000000.json",
+        "sha256": "e712972016acc7d5d0a4ed8cf6f2a3f12ebe61d295f38a6d792d25aaaf6b21c5",
+        "batch": 3,
+        "records": 281
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-04-000000.json",
+        "sha256": "55f46c0578e0da3730c7d71917f7ab1235f0908df58a5ddbdcfbd81183622a15",
+        "batch": 4,
+        "records": 34
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-05-000000.json",
+        "sha256": "9df03cd78e9ef93965e96285cdf88954081b6000851219ddf8fd6544faf3c8c6",
+        "batch": 5,
+        "records": 89
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-06-000000.json",
+        "sha256": "7648b0087e921fe009593e391a66d789ff40872ddc94436c86a842453f1437c4",
+        "batch": 6,
+        "records": 23
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-07-000000.json",
+        "sha256": "6aee1317f14bf01a05decc7f74dbd37229c993524e2753a4d0018aed0499c430",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-07-000500.json",
+        "sha256": "9d1bbb6bcb2651d5e58c3e46682a6d22187a708d5fb97f3156942e185f8a5a3e",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail/batch-07-001000.json",
+        "sha256": "50bbe09d1c3921a84c341b22a585b7356a067c3aff438fb4c179d5f2f37a79f5",
+        "batch": 7,
+        "records": 95
+      }
+    ],
+    "unique_rows": 1268,
+    "batch_counts": [
+      13,
+      14,
+      0,
+      281,
+      34,
+      89,
+      23,
+      1095
+    ],
+    "capture_started_at": "2026-10-28T05:24:22.837897+00:00",
+    "capture_finished_at": "2026-10-28T05:24:33.347163+00:00",
+    "rows_updated_at": 1714051904,
+    "page_updated_at": 1765382634,
+    "observation_period": null,
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  },
+  {
+    "name": "rail-structure",
+    "dataset_id": "dwer-xbgx",
+    "metadata": "data/raw/stage7/catalog/rail-structure-dataset.json",
+    "geometry_field": "the_geom",
+    "fields": {
+      "the_geom": "multipolygon",
+      "source_id": "number",
+      "sub_code": "number",
+      "feat_code": "number",
+      "status": "text",
+      "shape_leng": "number",
+      "shape_area": "number"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-00-000000.json",
+        "sha256": "d63b092aea9b38f1e92e0fce2bb318d1595af3d2b86d7065246cab4bf12f13db",
+        "batch": 0,
+        "records": 119
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-01-000000.json",
+        "sha256": "c3bb2b7aa1ac2cd5247a6cc8ce4cbe9d06401cc05beb4ea47355fa337597e025",
+        "batch": 1,
+        "records": 56
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-02-000000.json",
+        "sha256": "142ba09a578ea578ea92d6232ce16b66cee592a6e7b5b855d825bbbea68b38c3",
+        "batch": 2,
+        "records": 11
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-03-000000.json",
+        "sha256": "d11345dae63750b65f681faf4f49adb2afd78f9ed117f58e0f919ce271dff96b",
+        "batch": 3,
+        "records": 115
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-04-000000.json",
+        "sha256": "b2f1e87e715da92ed8a89bee3342a913d5c8ed1cc31f424e28072c2c5b0a100e",
+        "batch": 4,
+        "records": 120
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-05-000000.json",
+        "sha256": "c7c0f8f8e551bc0d3fd8f566216fcc24f35a9a4ab1248dabaefa662bf12460bd",
+        "batch": 5,
+        "records": 44
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-06-000000.json",
+        "sha256": "4fe2aa76177883da1aca17aa553cda2a6a36a78f47b5fc7fe2c8c5664a80f17a",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-06-000500.json",
+        "sha256": "0ad94c82357ffe1f7eed7eeb5603e97ef22494f2d1d9e7b15a8474cd0de303d7",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-06-001000.json",
+        "sha256": "1eefd3abf00f24b58983e85eb2713242e2b8844e9c07b514edd150850d19ec28",
+        "batch": 6,
+        "records": 385
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-07-000000.json",
+        "sha256": "57b612de357c3a8db4040e81859fce3112fb9033a8de8751f4f82a16940b3c21",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/rail-structure/batch-07-000500.json",
+        "sha256": "0d1d034fd657ca72779541c23f13a4f04c96e22829e93ba2e4aac220ed691833",
+        "batch": 7,
+        "records": 2
+      }
+    ],
+    "unique_rows": 2095,
+    "batch_counts": [
+      119,
+      56,
+      11,
+      115,
+      120,
+      44,
+      1385,
+      502
+    ],
+    "capture_started_at": "2026-10-28T05:24:33.531332+00:00",
+    "capture_finished_at": "2026-10-28T05:24:44.044416+00:00",
+    "rows_updated_at": 1714495160,
+    "page_updated_at": 1765383549,
+    "observation_period": null,
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  },
+  {
+    "name": "sidewalk",
+    "dataset_id": "52n9-sdep",
+    "metadata": "data/raw/stage7/catalog/sidewalk-dataset.json",
+    "geometry_field": "the_geom",
+    "fields": {
+      "the_geom": "multipolygon",
+      "source_id": "number",
+      "sub_code": "number",
+      "feat_code": "number",
+      "status": "text",
+      "shape_leng": "number",
+      "shape_area": "number"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-00-000000.json",
+        "sha256": "1bdd12e32acb832216e5a61a667a1469ccd7c2c58f9915bf723f70873382440f",
+        "batch": 0,
+        "records": 226
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-01-000000.json",
+        "sha256": "970982d2f1f632e9efa34fcf99d57736382960580d4d240c030318b94affd027",
+        "batch": 1,
+        "records": 176
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-02-000000.json",
+        "sha256": "ba21f341ac0b21b8419dd85796ecd6fe7895b02322784a48dae6c33584fc2d1d",
+        "batch": 2,
+        "records": 161
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-03-000000.json",
+        "sha256": "77bef755a8664c0b27b816a7d89d47892154c5aba7cdd911e31e64458128819e",
+        "batch": 3,
+        "records": 226
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-04-000000.json",
+        "sha256": "b2b71576899e0bf8951c6019e10a0d61ee4fcb7bf5b94b1b82db65e66b46de12",
+        "batch": 4,
+        "records": 175
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-05-000000.json",
+        "sha256": "e19ea6bd60fb142b7e0b06e0443fc49c4e121c42eb1e21d67401d214f4cc3f77",
+        "batch": 5,
+        "records": 219
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-06-000000.json",
+        "sha256": "eb2eacd6db86daf14b3bec8157431d6dea63488ad8a8e4f540e687f6713a8d04",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-06-000500.json",
+        "sha256": "31eefd3931e814aca2e06944866bc84fe4270af17b19632117193306b01a138f",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-06-001000.json",
+        "sha256": "bbaacff7e15bad09de5b54480deaffda7151fc7df4adfa038bb8b390f0f3bdf8",
+        "batch": 6,
+        "records": 129
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-07-000000.json",
+        "sha256": "701f1fca2a66f680f0d834ec3d6b69c3ef811c1321307149409cb4180772461c",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-07-000500.json",
+        "sha256": "6ee3c0fc6ad8334b47d8cd7aa04a3e9243bf5af57b212d2fd24118610569fe13",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/sidewalk/batch-07-001000.json",
+        "sha256": "0a8b6b6c5137972dc0d2cc6715d6aa2fd270fe4ccd93aaa6d82d8dfc0b6b4630",
+        "batch": 7,
+        "records": 33
+      }
+    ],
+    "unique_rows": 2872,
+    "batch_counts": [
+      226,
+      176,
+      161,
+      226,
+      175,
+      219,
+      1129,
+      1033
+    ],
+    "capture_started_at": "2026-10-28T05:24:44.512504+00:00",
+    "capture_finished_at": "2026-10-28T05:25:09.415844+00:00",
+    "rows_updated_at": 1713990022,
+    "page_updated_at": 1765382416,
+    "observation_period": null,
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  },
+  {
+    "name": "median",
+    "dataset_id": "ees7-4ufv",
+    "metadata": "data/raw/stage7/catalog/median-dataset.json",
+    "geometry_field": "the_geom",
+    "fields": {
+      "the_geom": "multipolygon",
+      "source_id": "number",
+      "street_nam": "text",
+      "feat_code": "number",
+      "sub_code": "number",
+      "status": "text",
+      "shape_leng": "number",
+      "shape_area": "number"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/median/batch-00-000000.json",
+        "sha256": "489b43b8a704846fa6c48f4b63138cfd94deccc78f8911092aad9e4b131d2e46",
+        "batch": 0,
+        "records": 109
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-01-000000.json",
+        "sha256": "5dc71f65a7d8026c5e3ef7528ede5a29916f97169fee5c8b34f0dfe3bc5961e9",
+        "batch": 1,
+        "records": 106
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-02-000000.json",
+        "sha256": "d0e8aacaf467ce9e2523547fc7f2985fd3c9788727a4180fc0d9330c530785da",
+        "batch": 2,
+        "records": 73
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-03-000000.json",
+        "sha256": "07019cc5d508f808f4e1b346efde69d1c601a9ddca37e97bcb94481ed6e1bfb1",
+        "batch": 3,
+        "records": 155
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-04-000000.json",
+        "sha256": "6526fb9cbb00374ee1675af0b0ef41f9dee5a31548c401606c68f8446004bfc6",
+        "batch": 4,
+        "records": 150
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-05-000000.json",
+        "sha256": "259f1f340a557b9918bf3d9d1380299ccb19aa6af81fc8c680d265aa6f7b5ee8",
+        "batch": 5,
+        "records": 59
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-06-000000.json",
+        "sha256": "81ec1dafb540b180baa62b646da980007e08e4dc2e8391f84d19ec8f2f4901ae",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-06-000500.json",
+        "sha256": "e04fa86878a637f64070449d1aed3d1b368f80ece15a0a4fe7b531b3a45e8478",
+        "batch": 6,
+        "records": 152
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-07-000000.json",
+        "sha256": "cf479b987af01a1d39b24948dbd6105a96d17eba3829722eac22261c5a3f5111",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/median/batch-07-000500.json",
+        "sha256": "844be8b4a1806678eddc01c825df030423373f6206ce5e70c38de982ae55d20e",
+        "batch": 7,
+        "records": 46
+      }
+    ],
+    "unique_rows": 1568,
+    "batch_counts": [
+      109,
+      106,
+      73,
+      155,
+      150,
+      59,
+      652,
+      546
+    ],
+    "capture_started_at": "2026-10-28T05:25:09.924183+00:00",
+    "capture_finished_at": "2026-10-28T05:25:42.211892+00:00",
+    "rows_updated_at": 1713990524,
+    "page_updated_at": 1765384128,
+    "observation_period": null,
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  },
+  {
+    "name": "piers",
+    "dataset_id": "6hbv-tek4",
+    "metadata": "data/raw/stage7/catalog/piers-dataset.json",
+    "geometry_field": "the_geom",
+    "fields": {
+      "the_geom": "multipolygon",
+      "source_id": "number",
+      "sub_code": "number",
+      "feat_code": "number",
+      "elevation": "number",
+      "status": "text",
+      "shape_leng": "number",
+      "shape_area": "number"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/piers/batch-00-000000.json",
+        "sha256": "df150db174baa9415c5468c1c3006e7e8e9c026afa3cb7a3e3ff4b1a66510d9e",
+        "batch": 0,
+        "records": 26
+      },
+      {
+        "path": "data/raw/stage7/vectors/piers/batch-01-000000.json",
+        "sha256": "7754a4bb8bbb65403a23cfe5bca933d03dad875769446eb011fd5d136537f3b2",
+        "batch": 1,
+        "records": 21
+      },
+      {
+        "path": "data/raw/stage7/vectors/piers/batch-02-000000.json",
+        "sha256": "9c1f65e5d1f2cf68627cbbc120757be984862522275f9e7ff208e75d0d334fae",
+        "batch": 2,
+        "records": 22
+      },
+      {
+        "path": "data/raw/stage7/vectors/piers/batch-03-000000.json",
+        "sha256": "00605107a4f3e0a30104305ffe7093b8315553319941ec08c2561bb6ce3ca1e1",
+        "batch": 3,
+        "records": 42
+      },
+      {
+        "path": "data/raw/stage7/vectors/piers/batch-05-000000.json",
+        "sha256": "44cb16470e1c0e08d40e8f1a0ef86ca49cf49cc39c9717add911165507c6bf67",
+        "batch": 5,
+        "records": 1
+      },
+      {
+        "path": "data/raw/stage7/vectors/piers/batch-06-000000.json",
+        "sha256": "ae6a1f4c0d5a38772cc941553ad82da02d67d382edd4f13689baef9bf4a2a5d3",
+        "batch": 6,
+        "records": 82
+      },
+      {
+        "path": "data/raw/stage7/vectors/piers/batch-07-000000.json",
+        "sha256": "031c21a21e1b2c4038cbe26f74565d2cb7ca1a2a2a50938ea142bdd79f0e2061",
+        "batch": 7,
+        "records": 94
+      }
+    ],
+    "unique_rows": 218,
+    "batch_counts": [
+      26,
+      21,
+      22,
+      42,
+      0,
+      1,
+      82,
+      94
+    ],
+    "capture_started_at": "2026-10-28T05:25:42.997684+00:00",
+    "capture_finished_at": "2026-10-28T05:25:50.684964+00:00",
+    "rows_updated_at": 1714073765,
+    "page_updated_at": 1765383470,
+    "observation_period": null,
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  },
+  {
+    "name": "parks",
+    "dataset_id": "enfh-gkve",
+    "metadata": "data/raw/stage7/catalog/parks-dataset.json",
+    "geometry_field": "multipolygon",
+    "fields": {
+      "acquisitiondate": "calendar_date",
+      "acres": "number",
+      "address": "text",
+      "borough": "text",
+      "class": "text",
+      "communityboard": "number",
+      "councildistrict": "text",
+      "department": "text",
+      "gisobjid": "number",
+      "gispropnum": "text",
+      "globalid": "text",
+      "jurisdiction": "text",
+      "location": "text",
+      "mapped": "text",
+      "name311": "text",
+      "nys_assembly": "number",
+      "nys_senate": "number",
+      "objectid": "number",
+      "omppropid": "text",
+      "parentid": "text",
+      "permit": "checkbox",
+      "permitdistrict": "text",
+      "permitparent": "text",
+      "pip_ratable": "checkbox",
+      "precinct": "number",
+      "retired": "checkbox",
+      "signname": "text",
+      "subcategory": "text",
+      "typecategory": "text",
+      "us_congress": "number",
+      "waterfront": "checkbox",
+      "zipcode": "text",
+      "multipolygon": "multipolygon"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/parks/batch-00-000000.json",
+        "sha256": "fe7c2d188390dc96df2391b4a23d31a7a486b00a83796e1de85b8c086d22e63d",
+        "batch": 0,
+        "records": 2
+      }
+    ],
+    "unique_rows": 2,
+    "batch_counts": [
+      2
+    ],
+    "capture_started_at": "2026-10-28T05:25:51.123906+00:00",
+    "capture_finished_at": "2026-10-28T05:25:52.255398+00:00",
+    "rows_updated_at": 1792155908,
+    "page_updated_at": 1792155907,
+    "observation_period": null,
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  },
+  {
+    "name": "trees",
+    "dataset_id": "uvpi-gqnh",
+    "metadata": "data/raw/stage7/catalog/trees-dataset.json",
+    "geometry_field": null,
+    "fields": {
+      "tree_id": "number",
+      "block_id": "number",
+      "created_at": "calendar_date",
+      "tree_dbh": "number",
+      "stump_diam": "number",
+      "curb_loc": "text",
+      "status": "text",
+      "health": "text",
+      "spc_latin": "text",
+      "spc_common": "text",
+      "steward": "text",
+      "guards": "text",
+      "sidewalk": "text",
+      "user_type": "text",
+      "problems": "text",
+      "root_stone": "text",
+      "root_grate": "text",
+      "root_other": "text",
+      "trunk_wire": "text",
+      "trnk_light": "text",
+      "trnk_other": "text",
+      "brch_light": "text",
+      "brch_shoe": "text",
+      "brch_other": "text",
+      "address": "text",
+      "zipcode": "number",
+      "zip_city": "text",
+      "cb_num": "number",
+      "borocode": "number",
+      "boroname": "text",
+      "cncldist": "number",
+      "st_assem": "number",
+      "st_senate": "number",
+      "nta": "text",
+      "nta_name": "text",
+      "boro_ct": "number",
+      "state": "text",
+      "latitude": "number",
+      "longitude": "number",
+      "x_sp": "number",
+      "y_sp": "number",
+      "council_district": "number",
+      "census_tract": "number",
+      "bin": "number",
+      "bbl": "number"
+    },
+    "pages": [
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-00-000000.json",
+        "sha256": "530b3770f181d16233c0e974d3aeb68ca602dfe6dc4175a8bc82917c732454d2",
+        "batch": 0,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-00-000500.json",
+        "sha256": "57022f49b440341a72c2cba4f93cac72dad253fd611758fe04fc683b3b6abff5",
+        "batch": 0,
+        "records": 431
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-01-000000.json",
+        "sha256": "7333ee5f19e615f7cee46e46edf5054419232b0cb45106c17066e7753919c406",
+        "batch": 1,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-01-000500.json",
+        "sha256": "e4fc8aafb2a45c229a7ebe1e4851277dc131f30a09e929c70be25e3c163939a7",
+        "batch": 1,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-01-001000.json",
+        "sha256": "f034ef9b3d01e44de6f9576bcbdfd07497e2bc937d25988175407b139257c693",
+        "batch": 1,
+        "records": 248
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-02-000000.json",
+        "sha256": "696ccdd8d20d0a0b19c0e79195f0ab8227376673b1d3e2e2e2426f8bdef4ad86",
+        "batch": 2,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-02-000500.json",
+        "sha256": "cd7ab1458a48cdfb0575c8e8905388a99b263c623c408c4eea02b3dc35a0d5ab",
+        "batch": 2,
+        "records": 331
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-03-000000.json",
+        "sha256": "ca316bc578dc2d5cc1d2f84758962ffb174322d512835598b4d6ce38b36c43cd",
+        "batch": 3,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-03-000500.json",
+        "sha256": "2a609f37f9341d6add6760f34e6e48261d3cb7251cd63c9bfc2a3a34e0a8b4e3",
+        "batch": 3,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-03-001000.json",
+        "sha256": "bd304dafb39eccdedd41dc841cbbbff2618d7c269a5e769fe7be10e791146a98",
+        "batch": 3,
+        "records": 306
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-04-000000.json",
+        "sha256": "023561594370f5b217292c0b8f7d472d9a85ce6cfa81c94f4954dc94dcf8ab0a",
+        "batch": 4,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-04-000500.json",
+        "sha256": "d179f1b4265cd32a32cb8872a7b5d519f6bbe885de96c5455dcf60ace8b7c0c7",
+        "batch": 4,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-04-001000.json",
+        "sha256": "edd3ad1d1f1a1cd322a2af2cab965f1da283c8cf7bdb5a58af2dab8f81cd75f7",
+        "batch": 4,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-04-001500.json",
+        "sha256": "836c786a72bd6387c2a807430d93bd5fc6e5c8dbf0bc13b1223644ecbfa1c733",
+        "batch": 4,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-04-002000.json",
+        "sha256": "dcda97de2e3b478c60057feeab59ed8251cd483fb6266680e0674206a7250d4f",
+        "batch": 4,
+        "records": 443
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-05-000000.json",
+        "sha256": "3db07cb3c336010194908ded48a2c899139a84f91e1e482ec0f1ae51ac52f35e",
+        "batch": 5,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-05-000500.json",
+        "sha256": "754bb77f72b7bbd57b75f034568e6ac76adaf992dcd5109a17139c68e16d3751",
+        "batch": 5,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-05-001000.json",
+        "sha256": "f96ee3aecc8f2c6f7abfc01828f5ff194005a8acf4c4143baf958bc944c8c5c9",
+        "batch": 5,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-05-001500.json",
+        "sha256": "bc18c5650b11768a69ec0d6edf6d191564c1f34a6f5bfe276c9eb4df1eea46bf",
+        "batch": 5,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-05-002000.json",
+        "sha256": "fa6ff0aa638f2d8229842168e41b3ed19adac195c23f56061b630d7f5cff10a5",
+        "batch": 5,
+        "records": 206
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-000000.json",
+        "sha256": "ed7498912d00c4b07a2bf50bf41b803bbe3840fc8cda1e3c53e0361710ebc298",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-000500.json",
+        "sha256": "b4b24666ffea3a0f3c8127b89227bf58a5e9d20276c06b0aefe743d68eeff8e6",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-001000.json",
+        "sha256": "fcc1967f7cddbf368b6edf782e09875d54e1e3eab90380ca7cfa56db7fbb30c6",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-001500.json",
+        "sha256": "06a90210dd62f68e479104d10ab4bb23cafe87182aa2b140720bb4317a122012",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-002000.json",
+        "sha256": "f78b5af5d3eabb319fe584131df092ed846c203dbe9333eaa3cfd0047a9f9d4d",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-002500.json",
+        "sha256": "c61608c925fb29cdc8fbeb838c373779198492c374bed26065cbe7e91e5cb480",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-003000.json",
+        "sha256": "07fc8a3aaaf911f4fc917ff28e48c4d768c616291f636a23ed72d7a1fd00c31a",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-003500.json",
+        "sha256": "431220c3b38ec4dd7c556d9ee0b61caf919809ea0959055a276eff6819419ef3",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-004000.json",
+        "sha256": "5e806843e0d0536ef682cb3435db0e3764a8c3e0aa139182edf8b095d9681de9",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-004500.json",
+        "sha256": "4ff98e68c92509b13878d5f4973fb671cc82b9576d6984aeb925f5754f727dcc",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-005000.json",
+        "sha256": "a6d991ffe8f7ee5f69596f64ff3e21a6048813ad5f30a8906e795e9b8b1f86dc",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-005500.json",
+        "sha256": "61ea6c70284807539062bcbea2fe5ecf7ef788a4630b2c53dbabd20bd200b09f",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-006000.json",
+        "sha256": "54811c53d739f62fddfb691c0066696690cf57e99871c34291d0609f7f67b0dd",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-006500.json",
+        "sha256": "42b0e5048a4aa7396259671338689489e3bf050a202f635db020386ce457ecd2",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-007000.json",
+        "sha256": "f169f0873b5babdb33fe52973cfb2c8c639215074cde3f751b822ccdc959d617",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-007500.json",
+        "sha256": "66ffe47731cd14cbf5290cd7f588952f1957d1f5c506dc4ab650b8adb1fed384",
+        "batch": 6,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-06-008000.json",
+        "sha256": "0d19c7b21279eecf3edb572f89ca6afeb0efeb9f6a32d04c82368c16355ce076",
+        "batch": 6,
+        "records": 366
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-000000.json",
+        "sha256": "9dbb6e844667566259e7eadd554494594ae20eba6b03f9f76a67c99ab793d411",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-000500.json",
+        "sha256": "28d0c5c29bcdc160f7287fcc884a677ee3678f2e790ab74b0b902564ede9bb69",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-001000.json",
+        "sha256": "9289b3835369a7742d1a4f32f24e981813b6fd2a5cbfbf4b5c54a680c98387a5",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-001500.json",
+        "sha256": "517f7a12797747325243442a0e7ad40f3eb0194cfa57573f80543ba435d5242a",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-002000.json",
+        "sha256": "90b2f90f78c9bdf7bf22767356efd6883418769b92be97603d403353d6debaa1",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-002500.json",
+        "sha256": "6220a8308424f395c8cbc6b55522647387f045c76db59079f25cca911ee5e704",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-003000.json",
+        "sha256": "4be807730223d6ffa2b6d9d7fbe865eec2e6d9eea6de7bc62deb386bc89a83a2",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-003500.json",
+        "sha256": "d3d2901e34876151234b9f48c371f60867b430c246db212e780073370525c285",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-004000.json",
+        "sha256": "2f5c35b11da8d4732dcde0b382f88a5f95ff0f92504c5b87dbcdda83814e9949",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-004500.json",
+        "sha256": "1bd6e6e6d52776d9d594267b6979f6e730ef02a931a337321b9e989db42c9924",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-005000.json",
+        "sha256": "bb590dea55306ff0d03d003b88ad97f91b36bbf3046dd4aadc8c7a7deb98d8d9",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-005500.json",
+        "sha256": "2d5d6f513c90730345cb7d6bbf7c4fb675d26195a90b474b28d30f60442ce4c9",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-006000.json",
+        "sha256": "37c207ad54fd7bb2f7913c4ef39fa441ed5b542ca1e016777ae8cbe4156dc24b",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-006500.json",
+        "sha256": "ddc1d40ef48066c1d62102fdf82f6b949e89c4f00bbfda3515b5e82c84c8caa4",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-007000.json",
+        "sha256": "02882925f6e6765537255a8d42f1432bc7cfb9ece131d2bb9703ac6cfe3d64a7",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-007500.json",
+        "sha256": "d7c5be157413b33f4af432925e9e4328cbfd6c49acaecea362a8273141017205",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-008000.json",
+        "sha256": "762815da7f818f706369c72ee86fbeb078514dc3f52df36dde50c4739cc5e2bc",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-008500.json",
+        "sha256": "2ad283517805a381241bb2c5ec70da08b0eb4dc9e127654db0fb8f4c92d06ec9",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-009000.json",
+        "sha256": "e146b5e81c85632c05bb0017615ab78ba033bf4bb6d0cef5c7c12f0c30aed0f3",
+        "batch": 7,
+        "records": 500
+      },
+      {
+        "path": "data/raw/stage7/vectors/trees/batch-07-009500.json",
+        "sha256": "e3f15fa6999e6527dde2b48033a30b7786c188347c9377929706a675a48aee24",
+        "batch": 7,
+        "records": 110
+      }
+    ],
+    "unique_rows": 24164,
+    "batch_counts": [
+      931,
+      1248,
+      831,
+      1306,
+      2443,
+      2206,
+      8366,
+      9610
+    ],
+    "capture_started_at": "2026-10-28T05:25:52.737421+00:00",
+    "capture_finished_at": "2026-10-28T05:26:46.175177+00:00",
+    "rows_updated_at": 1507124486,
+    "page_updated_at": 1731421699,
+    "observation_period": "2015–2016 census",
+    "source_dates": "planimetric feature acquisition dates in captured rules; not inferred from download",
+    "coordinate_contract": "Socrata geometry longitude,latitude degrees; ignore any unverified Z",
+    "consistency": "stable row-ID pages, counts per overlapping batch and end metadata; not a transactional snapshot",
+    "scope": "25 observation windows plus6 existing DEM extents; parks selected by actual signname",
+    "licence": "NYC Open Data Terms; source metadata retained",
+    "citywide_complete": false
+  }
+]

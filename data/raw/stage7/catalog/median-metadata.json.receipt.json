@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/he4e-vxnk.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/he4e-vxnk.json",
+  "download_started_at": "2026-10-28T05:22:17.165047+00:00",
+  "download_completed_at": "2026-10-28T05:22:17.799310+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 5895,
+  "sha256": "30744759582cc267de3540be265ba8ae0d7e4506b5952322c50dd4053ecabd14",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

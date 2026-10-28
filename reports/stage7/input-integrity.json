@@ -1,0 +1,116 @@
+{
+  "at_utc": "2026-10-28T06:10:58.656067+00:00",
+  "baseline": "feb9d79",
+  "old_raw_files_verified": 2775,
+  "large_inputs": [
+    {
+      "path": "data/processed/city/buildings.sqlite",
+      "sha256": "b46c24384282157f8e7b9568425600db09bd71376b2ff1ed42f62592cd7f5b37",
+      "unchanged": true
+    },
+    {
+      "path": "data/processed/building-stage4/city/associations.sqlite",
+      "sha256": "bba320648dfdba61a757341ccaadd146fae1f2a94ed58de4199e56f4875dc74e",
+      "unchanged": true
+    },
+    {
+      "path": "data/intermediate/extracted/nyc_3dmodel_mn01/NYC_3DModel_MN01.3dm",
+      "sha256": "58f874e508a2e0501f0b803ad69c0ea4ef3e2262a86feec7a743b16600732c7c",
+      "unchanged": true
+    },
+    {
+      "path": "reports/nyc-stage4-buildings.zip",
+      "sha256": "3ef4134c36541b6842f5e5698c6a21607202def7a05a830354c05e3941b5b045",
+      "unchanged": true
+    },
+    {
+      "path": "assets/buildings-city/manhattan/597_121_000-strict.glb",
+      "sha256": "63e3f2cf6731fdc4ef9aa52023a59fb8fd5b4ff9f88be7c54074c683ddfc8ab8",
+      "unchanged": true
+    }
+  ],
+  "old_foundation_assets": [
+    {
+      "path": "assets/foundation/axes-diagnostic.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/bronx-mott-haven-overlays.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/bronx-mott-haven.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/brooklyn-dumbo-overlays.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/brooklyn-dumbo.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/building-elevations.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/coordinate-audit.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/height-policy.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/lower-manhattan-overlays.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/lower-manhattan.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/manifest.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/midtown-overlays.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/midtown.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/queens-lic-overlays.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/queens-lic.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/registration.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/sources.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/staten-st-george-overlays.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/staten-st-george.json",
+      "unchanged": true
+    },
+    {
+      "path": "assets/foundation/summary.json",
+      "unchanged": true
+    }
+  ],
+  "errors": [],
+  "tinnis_untouched": true
+}

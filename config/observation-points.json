@@ -1,0 +1,31 @@
+{
+ "version":"2026-10-28-stage7",
+ "meaning":"Real-location inspection presets, not independently measured control points. Coordinates are navigation targets in longitude,latitude degrees.",
+ "points":[
+  {"id":"brooklyn-span","name":"Brooklyn Bridge · 跨河","kind":"cross-river","borough":"manhattan","lon":-73.9969,"lat":40.7060,"radius_m":480,"heading":35,"pitch":-40,"range_m":2300},
+  {"id":"brooklyn-head","name":"Brooklyn Bridge · 曼哈顿桥头","kind":"bridgehead","borough":"manhattan","lon":-74.0032,"lat":40.7119,"radius_m":400,"heading":135,"pitch":-55,"range_m":1700},
+  {"id":"manhattan-span","name":"Manhattan Bridge · 跨河","kind":"cross-river","borough":"brooklyn","lon":-73.9905,"lat":40.7077,"radius_m":480,"heading":20,"pitch":-40,"range_m":2300},
+  {"id":"manhattan-head","name":"Manhattan Bridge · DUMBO桥头","kind":"bridgehead","borough":"brooklyn","lon":-73.9860,"lat":40.7035,"radius_m":380,"heading":320,"pitch":-50,"range_m":1700},
+  {"id":"williamsburg-span","name":"Williamsburg Bridge · 跨河","kind":"cross-river","borough":"brooklyn","lon":-73.9729,"lat":40.7134,"radius_m":480,"heading":0,"pitch":-45,"range_m":2300},
+  {"id":"williamsburg-head","name":"Williamsburg Bridge · 布鲁克林桥头","kind":"bridgehead","borough":"brooklyn","lon":-73.9646,"lat":40.7101,"radius_m":400,"heading":270,"pitch":-55,"range_m":1700},
+  {"id":"queensboro-span","name":"Queensboro Bridge · 跨河","kind":"cross-river","borough":"queens","lon":-73.9543,"lat":40.7563,"radius_m":450,"heading":20,"pitch":-40,"range_m":2300},
+  {"id":"queensboro-head","name":"Queensboro Bridge · Queensbridge","kind":"bridgehead","borough":"queens","lon":-73.9454,"lat":40.7560,"radius_m":420,"heading":270,"pitch":-50,"range_m":1700},
+  {"id":"verrazzano-span","name":"Verrazzano-Narrows · 主跨","kind":"cross-river","borough":"staten-island","lon":-74.0445,"lat":40.6065,"radius_m":650,"heading":30,"pitch":-40,"range_m":3000},
+  {"id":"verrazzano-head","name":"Verrazzano-Narrows · 史岛桥头","kind":"bridgehead","borough":"staten-island","lon":-74.0580,"lat":40.6020,"radius_m":550,"heading":60,"pitch":-50,"range_m":2000},
+  {"id":"pier40","name":"Hudson River · Pier40","kind":"pier","borough":"manhattan","lon":-74.0126,"lat":40.7283,"radius_m":400,"heading":100,"pitch":-55,"range_m":1700},
+  {"id":"brooklyn-pier1","name":"Brooklyn Bridge Park · Pier1","kind":"pier","borough":"brooklyn","lon":-73.9958,"lat":40.7026,"radius_m":400,"heading":65,"pitch":-55,"range_m":1700},
+  {"id":"st-george-ferry","name":"St George · 渡轮岸线","kind":"pier","borough":"staten-island","lon":-74.0726,"lat":40.6435,"radius_m":420,"heading":240,"pitch":-55,"range_m":1700},
+  {"id":"gowanus","name":"Gowanus · Hamilton Avenue立交","kind":"interchange","borough":"brooklyn","lon":-73.9994,"lat":40.6723,"radius_m":450,"heading":30,"pitch":-60,"range_m":1700},
+  {"id":"bruckner","name":"Mott Haven · Bruckner立交","kind":"interchange","borough":"bronx","lon":-73.9245,"lat":40.8043,"radius_m":450,"heading":0,"pitch":-55,"range_m":1700},
+  {"id":"queens-plaza","name":"Queens Plaza · 多层交通","kind":"interchange","borough":"queens","lon":-73.9405,"lat":40.7505,"radius_m":400,"heading":300,"pitch":-60,"range_m":1700},
+  {"id":"central-south","name":"Central Park · 南界","kind":"park-boundary","borough":"manhattan","lon":-73.9738,"lat":40.7684,"radius_m":400,"heading":0,"pitch":-55,"range_m":1700},
+  {"id":"central-reservoir","name":"Central Park · Reservoir","kind":"park-water","borough":"manhattan","lon":-73.9665,"lat":40.7859,"radius_m":500,"heading":0,"pitch":-65,"range_m":1800},
+  {"id":"prospect-north","name":"Prospect Park · 北界","kind":"park-boundary","borough":"brooklyn","lon":-73.9696,"lat":40.6735,"radius_m":450,"heading":180,"pitch":-55,"range_m":1700},
+  {"id":"prospect-lake","name":"Prospect Park · 湖岸","kind":"park-water","borough":"brooklyn","lon":-73.9672,"lat":40.6575,"radius_m":450,"heading":0,"pitch":-65,"range_m":1700},
+  {"id":"st-george-slope","name":"St George · 坡地街区","kind":"slope","borough":"staten-island","lon":-74.0830,"lat":40.6417,"radius_m":350,"heading":70,"pitch":-50,"range_m":1700},
+  {"id":"morningside-slope","name":"Morningside · 坡地公园","kind":"slope","borough":"manhattan","lon":-73.9593,"lat":40.8055,"radius_m":350,"heading":110,"pitch":-50,"range_m":1700},
+  {"id":"highbridge","name":"High Bridge · 桥头坡地","kind":"slope","borough":"bronx","lon":-73.9324,"lat":40.8427,"radius_m":400,"heading":45,"pitch":-50,"range_m":1700},
+  {"id":"forest-hills","name":"Forest Hills Gardens · 住宅退界","kind":"slope","borough":"queens","lon":-73.8421,"lat":40.7172,"radius_m":350,"heading":0,"pitch":-55,"range_m":1700},
+  {"id":"grove-street","name":"Grove Street · 4–10号","kind":"street","borough":"manhattan","lon":-74.00594,"lat":40.73227,"radius_m":180,"heading":180,"pitch":-65,"range_m":1500}
+ ]
+}

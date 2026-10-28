@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/api/views/enfh-gkve.json",
+  "final_url": "https://data.cityofnewyork.us/api/views/enfh-gkve.json",
+  "download_started_at": "2026-10-28T05:20:06.034726+00:00",
+  "download_completed_at": "2026-10-28T05:20:07.075358+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 53273,
+  "sha256": "d6abb1858f1e475c0a541598bea33ebd41e87776d0e7a3ca5aea877ecc92fc2e",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

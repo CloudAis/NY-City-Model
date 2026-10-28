@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/uvpi-gqnh.json?%24select=count%28%2A%29&%24where=%28longitude+between+-74.0080800+and+-74.0038000+AND+latitude+between+40.7306484+and+40.7338916%29+OR+%28longitude+between+-74.0219716+and+-74.0010282+AND+latitude+between+40.7000291+and+40.7159708%29+OR+%28longitude+between+-73.9959505+and+-73.9700421+AND+latitude+between+40.7421525+and+40.7618475%29+OR+%28longitude+between+-74.0017792+and+-73.9782150+AND+latitude+between+40.6920350+and+40.7099647%29",
+  "final_url": "https://data.cityofnewyork.us/resource/uvpi-gqnh.json?%24select=count%28%2A%29&%24where=%28longitude+between+-74.0080800+and+-74.0038000+AND+latitude+between+40.7306484+and+40.7338916%29+OR+%28longitude+between+-74.0219716+and+-74.0010282+AND+latitude+between+40.7000291+and+40.7159708%29+OR+%28longitude+between+-73.9959505+and+-73.9700421+AND+latitude+between+40.7421525+and+40.7618475%29+OR+%28longitude+between+-74.0017792+and+-73.9782150+AND+latitude+between+40.6920350+and+40.7099647%29",
+  "download_started_at": "2026-10-28T05:26:13.439058+00:00",
+  "download_completed_at": "2026-10-28T05:26:13.781639+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC40OTczMl8zXzIyOW1kSmtPMkR1WjhtRmc2Q3lXbXVBVTNKTmFnUQ-h_Ws_EwWDf5as7f4BcYIPEtwpNo--gzip--gzip\"",
+  "last_modified_http": "Thu, 13 Sep 2018 14:58:58 GMT",
+  "bytes": 19,
+  "sha256": "33e39611ffc65533bb3abbc16aced92f74da9ac6b3d621ed5f2fdedd0fa14093",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

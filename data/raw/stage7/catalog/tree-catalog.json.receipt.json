@@ -1,0 +1,17 @@
+{
+  "request_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=2015%20street%20tree%20census%20tree%20data&limit=5",
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=2015%20street%20tree%20census%20tree%20data&limit=5",
+  "download_started_at": "2026-10-28T05:19:23.565481+00:00",
+  "download_completed_at": "2026-10-28T05:19:24.303910+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 44239,
+  "sha256": "6f19cb3c142ec65d1364b529311c4073df355aa3b88d1257467fd9f08642bece",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

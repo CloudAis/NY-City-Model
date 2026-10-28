@@ -1,0 +1,178 @@
+{
+  "at": "2026-10-28T06:10:08.656Z",
+  "browser": "154.0.8037.57",
+  "checks": [
+    "research, representations and completed fine models remain separate with fixed neutral lighting",
+    "One WTC and432 real evidence representations render six explicitly oriented views",
+    "actual merged model component picking keeps original building stable ID",
+    "source replacement hides exactly one source building and preserves every loaded neighbour, then restores it",
+    "partial podium/tower source cannot be erased by432 grid fragment; invalid mapping cannot hide neighbours",
+    "narrow layout, panel collapse and model switching preserve a usable nonzero viewport"
+  ],
+  "errors": [],
+  "requests": [
+    "http://127.0.0.1:4185/landmarks.html?diagnostics=1",
+    "http://127.0.0.1:4185/assets/landmarks-CHP5XnIc.js",
+    "http://127.0.0.1:4185/assets/Matrix4-C-Gm_KdH.js",
+    "http://127.0.0.1:4185/assets/widgets-yBKt2FfH.js",
+    "http://127.0.0.1:4185/assets/DirectionalLight-B63b9-n0.js",
+    "http://127.0.0.1:4185/assets/widgets-B9DDZdqH.css",
+    "http://127.0.0.1:4185/assets/landmarks-RvMjey1S.css",
+    "http://127.0.0.1:4185/cesium/Assets/approximateTerrainHeights.json",
+    "http://127.0.0.1:4185/datasets/landmarks/manifest.json",
+    "http://127.0.0.1:4185/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+    "http://127.0.0.1:4185/cesium/Assets/Images/ion-credit.png",
+    "http://127.0.0.1:4185/datasets/landmarks/research-queue.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dossier.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dimensions.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/tileset.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/model.glb",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dossier.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dimensions.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/tileset.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/model.glb",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/dossier.json",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/dimensions.json",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/tileset.json",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/model.glb",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dossier.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dimensions.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/tileset.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/model.glb",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/context.json",
+    "http://127.0.0.1:4185/datasets/buildings-city/manhattan/597_121_000-strict.glb",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/dossier.json",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/dimensions.json",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/tileset.json",
+    "http://127.0.0.1:4185/datasets/landmarks/432-park-avenue/model.glb",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dossier.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/dimensions.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/tileset.json",
+    "http://127.0.0.1:4185/datasets/landmarks/one-world-trade-center/model.glb"
+  ],
+  "generatedViews": [
+    {
+      "slug": "one-world-trade-center",
+      "view": "north",
+      "cameraLocalEnu": [
+        -1.1641532182693481e-9,
+        974.3846400012262,
+        297.7286400012672
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "east",
+      "cameraLocalEnu": [
+        974.3846399988979,
+        0,
+        297.7286400012672
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "south",
+      "cameraLocalEnu": [
+        -1.1641532182693481e-9,
+        -974.3846400016919,
+        297.7286400003359
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "west",
+      "cameraLocalEnu": [
+        -974.3846400012262,
+        -4.656612873077393e-10,
+        297.7286400003359
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "high",
+      "cameraLocalEnu": [
+        -9.313225746154785e-10,
+        8.000000001396984,
+        701.324800000526
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "one-world-trade-center",
+      "view": "street",
+      "cameraLocalEnu": [
+        -1.1641532182693481e-9,
+        -676.6560000008903,
+        1.7000000001862645
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "north",
+      "cameraLocalEnu": [
+        1.1641532182693481e-9,
+        765.9014399987645,
+        234.02543999999762
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "east",
+      "cameraLocalEnu": [
+        765.9014400017913,
+        0,
+        234.02543999813497
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "south",
+      "cameraLocalEnu": [
+        1.1641532182693481e-9,
+        -765.9014399996959,
+        234.02543999999762
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "west",
+      "cameraLocalEnu": [
+        -765.901439999463,
+        9.313225746154785e-10,
+        234.02543999813497
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "high",
+      "cameraLocalEnu": [
+        9.313225746154785e-10,
+        8.000000000465661,
+        585.5008000005037
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    },
+    {
+      "slug": "432-park-avenue",
+      "view": "street",
+      "cameraLocalEnu": [
+        1.1641532182693481e-9,
+        -531.8760000010952,
+        1.699999999254942
+      ],
+      "referenceCalibration": "not calibrated, generated view is NOT an acquired reference photo"
+    }
+  ],
+  "referenceImagesCalibrated": 0,
+  "fullyDetailedModelsValidated": 0,
+  "scope": "runtime and dimension/source checks of partial representations, NOT full current landmark or real-world geometric verification"
+}

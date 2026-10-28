@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27T09:16:15.590518+00:00",
+  "datasets": [
+    {
+      "id": "lower-manhattan",
+      "terrain": "lower-manhattan.json",
+      "overlays": "lower-manhattan-overlays.json",
+      "bounds_metric_m": [
+        298143.0610316689,
+        59227.84484610553,
+        299913.1261487182,
+        60997.90996315484
+      ],
+      "valid_dem_samples": 54190,
+      "height_range_navd88_m": [
+        -10.794368743896484,
+        15.336339950561523
+      ]
+    },
+    {
+      "id": "midtown",
+      "terrain": "midtown.json",
+      "overlays": "midtown-overlays.json",
+      "bounds_metric_m": [
+        300342.02465510374,
+        63905.35518920299,
+        302529.55304386717,
+        66092.88357796644
+      ],
+      "valid_dem_samples": 65992,
+      "height_range_navd88_m": [
+        -4.398258209228516,
+        25.243696212768555
+      ]
+    },
+    {
+      "id": "brooklyn-dumbo",
+      "terrain": "brooklyn-dumbo.json",
+      "overlays": "brooklyn-dumbo-overlays.json",
+      "bounds_metric_m": [
+        299849.6163376346,
+        58339.89201196541,
+        301840.89378856076,
+        60331.169462891514
+      ],
+      "valid_dem_samples": 55317,
+      "height_range_navd88_m": [
+        -0.7802879810333252,
+        28.105571746826172
+      ]
+    },
+    {
+      "id": "queens-lic",
+      "terrain": "queens-lic.json",
+      "overlays": "queens-lic-overlays.json",
+      "bounds_metric_m": [
+        303538.4505441063,
+        63227.29475903844,
+        305752.15390446445,
+        65440.99811939655
+      ],
+      "valid_dem_samples": 65150,
+      "height_range_navd88_m": [
+        -15.050167083740234,
+        17.76073455810547
+      ]
+    },
+    {
+      "id": "bronx-mott-haven",
+      "terrain": "bronx-mott-haven.json",
+      "overlays": "bronx-mott-haven-overlays.json",
+      "bounds_metric_m": [
+        305194.9714118007,
+        70335.98477421244,
+        307630.30809654994,
+        72771.32145896173
+      ],
+      "valid_dem_samples": 65220,
+      "height_range_navd88_m": [
+        -2.391723394393921,
+        26.214197158813477
+      ]
+    },
+    {
+      "id": "staten-st-george",
+      "terrain": "staten-st-george.json",
+      "overlays": "staten-st-george-overlays.json",
+      "bounds_metric_m": [
+        292281.95299767575,
+        51790.78577230392,
+        294606.7325081079,
+        54115.565282736105
+      ],
+      "valid_dem_samples": 31311,
+      "height_range_navd88_m": [
+        -2.3920865058898926,
+        71.75956726074219
+      ]
+    },
+    {
+      "id": "prospect-park",
+      "terrain": "../environment/terrain/prospect-park.json",
+      "bounds_metric_m": [
+        301301.9901608946,
+        53821.57611206291,
+        303640.3480687891,
+        56159.93401995743
+      ],
+      "valid_dem_samples": 66049,
+      "height_range_navd88_m": [
+        8.985208511352539,
+        60.713218688964844
+      ]
+    },
+    {
+      "id": "central-park",
+      "terrain": "../environment/terrain/central-park.json",
+      "bounds_metric_m": [
+        300891.50649217574,
+        66386.47219355883,
+        304857.3423706185,
+        70352.30807200154
+      ],
+      "valid_dem_samples": 61168,
+      "height_range_navd88_m": [
+        -3.112173080444336,
+        42.83767318725586
+      ]
+    }
+  ],
+  "height_contract": "NAVD88 metre terrain is separate from WGS84 ellipsoid world. No fixed city offset.",
+  "dem_source": "NYC 2017 / NYS public ImageServer; cached offline crops",
+  "global_terrain_registered": false,
+  "global_terrain_block": "source horizontal realization conflict",
+  "ground_source_not_dsm": true,
+  "geoid_grid_local": "data/raw/stage3/geoid/us_noaa_g2012bu0.tif",
+  "geoid_applied_to_dem": false,
+  "axes": {
+    "tileset": "axes-diagnostic.json",
+    "frame": {
+      "world_crs": "EPSG:4978",
+      "geographic_crs": "EPSG:4979",
+      "origin_longitude_latitude_degrees": [
+        -74.011,
+        40.708
+      ],
+      "origin_ellipsoid_height_m": 200,
+      "origin_ecef_m": [
+        1333729.8347071055,
+        -4654641.1950873025,
+        4138026.6328525334
+      ],
+      "enu_to_ecef_column_major": [
+        0.9613145967959673,
+        0.2754528017410729,
+        0.0,
+        0.0,
+        -0.17965148879526438,
+        0.6269734684977183,
+        0.7580432786942878,
+        0.0,
+        0.20880514495733052,
+        -0.7287180688118924,
+        0.6522042529962637,
+        0.0,
+        1333729.8347071055,
+        -4654641.1950873025,
+        4138026.6328525334,
+        1.0
+      ],
+      "gltf_coordinates": "East,Up,-North",
+      "engine_conversion": "glTF Y-up -> tiles Z-up: (x,y,z)->(x,-z,y), applied exactly once",
+      "units": "metre",
+      "height_reference": "WGS84 ellipsoid; source orthometric heights need a separate approved operation"
+    },
+    "endpoints_enu_m": {
+      "E": [
+        100,
+        0,
+        0
+      ],
+      "W": [
+        -100,
+        0,
+        0
+      ],
+      "N": [
+        0,
+        100,
+        0
+      ],
+      "S": [
+        0,
+        -100,
+        0
+      ],
+      "U": [
+        0,
+        0,
+        100
+      ],
+      "D": [
+        0,
+        0,
+        -100
+      ]
+    },
+    "diagnostic_only": true,
+    "default_visible": false
+  },
+  "scope": "six existing source crops plus two full park bounding extents; separate NAVD88 scenes"
+}

@@ -1,0 +1,17 @@
+{
+  "request_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Planimetric%20Sidewalk&limit=4",
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Planimetric%20Sidewalk&limit=4",
+  "download_started_at": "2026-10-28T05:20:04.305992+00:00",
+  "download_completed_at": "2026-10-28T05:20:04.994556+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 11225,
+  "sha256": "dfc4e88a56bffba9cc15749878cbf5cb00a06696631d83badf6685598155e6da",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

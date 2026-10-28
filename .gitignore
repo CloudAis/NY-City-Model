@@ -59,3 +59,18 @@ reports/nyc-stage5-landmark-studies.zip.tmp
 data/intermediate/stage6/
 reports/nyc-stage6-facade-studies.zip
 reports/nyc-stage6-facade-studies.zip.tmp
+# Stage7/8 bulk immutable downloads and rebuildable browser assets stay local.
+data/intermediate/stage7/
+data/raw/stage7/**
+!data/raw/stage7/**/
+!data/raw/stage7/**/*.receipt.json
+assets/environment/**
+!assets/environment/**/
+!assets/environment/manifest.json
+!assets/environment/bridges.json
+!assets/environment/terrain-manifest.json
+!assets/environment/collision/*.json
+assets/inspection/search/**
+!assets/inspection/search/manifest.json
+reports/nyc-stage78-inspection-overlay.zip
+reports/nyc-stage78-inspection-overlay.zip.tmp

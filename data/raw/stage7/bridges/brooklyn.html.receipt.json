@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml",
+  "final_url": "https://www.nyc.gov/html/dot/html/infrastructure/brooklyn-bridge.shtml",
+  "download_started_at": "2026-10-28T05:22:17.800621+00:00",
+  "download_completed_at": "2026-10-28T05:22:18.305833+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 25143,
+  "sha256": "f3a65cc05a71b5917fce4da8a6b780bf192806d0bd78278525ba8125eec41091",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

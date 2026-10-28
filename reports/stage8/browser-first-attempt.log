@@ -1,0 +1,24 @@
+PASS full source index,25 genuine presets and default reference limits are visible
+PASS 25 river,bridgehead,pier,interchange,park and slope presets load actual local environment
+PASS BIN,name,alias,address andborough queries resolve stable IDs; missing records do not crash
+PASS flight cancellation,return selected,top andcity reset preserve camera limits and selection
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  assert.ok(Math.hypot(...a.map((v,i)=>v-b[i]))>3)
+
+    at file:///workspace/nyc-3d-html/tests/inspection-browser.mjs:56:126
+    at async check (file:///workspace/nyc-3d-html/tests/inspection-browser.mjs:10:31)
+    at async file:///workspace/nyc-3d-html/tests/inspection-browser.mjs:54:2 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

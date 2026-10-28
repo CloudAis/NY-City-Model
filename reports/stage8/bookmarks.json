@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "bookmarks": [
+    {
+      "schema": 1,
+      "name": "verified test view",
+      "savedAt": "2026-10-28T06:15:03.292Z",
+      "mode": "top",
+      "preset": "central-reservoir",
+      "quality": "low",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": false,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "camera": {
+        "position": [
+          1336119.5545093452,
+          -4649341.22991554,
+          4145625.795341824
+        ],
+        "heading": 6.283185307179586,
+        "pitch": -1.5707953876670189,
+        "roll": 0
+      },
+      "selectedId": null,
+      "lighting": {
+        "mode": "neutral-fixed",
+        "datetime": null,
+        "note": "No solar date simulation; savedAt is record time, not observation date"
+      }
+    }
+  ]
+}

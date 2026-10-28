@@ -1,0 +1,17 @@
+{
+  "request_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=parks%20properties&limit=8",
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=parks%20properties&limit=8",
+  "download_started_at": "2026-10-28T05:19:22.680107+00:00",
+  "download_completed_at": "2026-10-28T05:19:23.564293+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 43988,
+  "sha256": "51b9eb8726150a03c2717be03619175c1bca40ff9608f12aacc22ad149e03962",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

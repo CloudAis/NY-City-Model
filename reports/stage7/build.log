@@ -1,0 +1,31 @@
+ENV brooklyn-span 137 trees 204
+ENV brooklyn-head 334 trees 272
+ENV manhattan-span 156 trees 310
+ENV manhattan-head 201 trees 256
+ENV williamsburg-span 75 trees 91
+ENV williamsburg-head 917 trees 851
+ENV queensboro-span 77 trees 80
+ENV queensboro-head 397 trees 307
+ENV verrazzano-span 0 trees 0
+ENV verrazzano-head 396 trees 133
+ENV pier40 120 trees 336
+ENV brooklyn-pier1 262 trees 359
+ENV st-george-ferry 71 trees 151
+ENV gowanus 453 trees 401
+ENV bruckner 338 trees 313
+ENV queens-plaza 385 trees 433
+ENV central-south 198 trees 255
+ENV central-reservoir 532 trees 710
+ENV prospect-north 1260 trees 1276
+ENV prospect-lake 66 trees 188
+ENV st-george-slope 916 trees 679
+ENV morningside-slope 370 trees 651
+ENV highbridge 223 trees 434
+ENV forest-hills 675 trees 430
+ENV grove-street 342 trees 354
+WALK lower-manhattan 288
+WALK midtown 59
+WALK brooklyn-dumbo 460
+WALK queens-lic 701
+WALK bronx-mott-haven 560
+WALK staten-st-george 241

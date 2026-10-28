@@ -1,0 +1,25 @@
+{
+  "base": "http://127.0.0.1:5180/",
+  "responses": [
+    {
+      "path": "inspection.html",
+      "status": 200,
+      "bytes": 350
+    },
+    {
+      "path": "datasets/environment/manifest.json",
+      "status": 200,
+      "bytes": 38908
+    },
+    {
+      "path": "datasets/environment/terrain/central-park.json",
+      "status": 200,
+      "bytes": 5704310
+    },
+    {
+      "path": "datasets/inspection/search/manifest.json",
+      "status": 200,
+      "bytes": 15789
+    }
+  ]
+}

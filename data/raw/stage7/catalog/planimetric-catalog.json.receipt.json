@@ -1,0 +1,17 @@
+{
+  "request_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=NYC%20Planimetric%20Database&limit=100",
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=NYC%20Planimetric%20Database&limit=100",
+  "download_started_at": "2026-10-28T05:22:12.992240+00:00",
+  "download_completed_at": "2026-10-28T05:22:13.912269+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 169458,
+  "sha256": "b99fcf7c89d723f8bc69d1efd58db7fd6277c00d777137b7a571ed12c4c2b618",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

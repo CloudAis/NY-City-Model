@@ -1,0 +1,77 @@
+{
+  "id": "verrazzano",
+  "name": "Verrazzano-Narrows Bridge",
+  "source_values": [
+    {
+      "quantity": "tower_height",
+      "source_value": 693,
+      "source_unit": "international_foot",
+      "value_m": 211.2264,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "source_quote": "693 foot high towers",
+      "url": "https://www.mta.info/agency/bridges-and-tunnels/verrazzano-narrows-bridge",
+      "path": "data/raw/stage7/bridges/verrazzano.html",
+      "sha256": "0addeea2f8c6527219165c30d3ca3d1c8cf6fa41ddabb93951277c3c558f3cb3",
+      "accuracy_m": null,
+      "observation_date": null,
+      "scope_note": "clearance/tower extent is NOT absolute deck elevation; reference water/tide datum not established"
+    },
+    {
+      "quantity": "tower_distance_main_span",
+      "source_value": 4260,
+      "source_unit": "international_foot",
+      "value_m": 1298.448,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "source_quote": "4,260 foot distance between them",
+      "url": "https://www.mta.info/agency/bridges-and-tunnels/verrazzano-narrows-bridge",
+      "path": "data/raw/stage7/bridges/verrazzano.html",
+      "sha256": "0addeea2f8c6527219165c30d3ca3d1c8cf6fa41ddabb93951277c3c558f3cb3",
+      "accuracy_m": null,
+      "observation_date": null,
+      "scope_note": "clearance/tower extent is NOT absolute deck elevation; reference water/tide datum not established"
+    },
+    {
+      "quantity": "reported_seasonal_deck_difference",
+      "source_value": 12,
+      "source_unit": "international_foot",
+      "value_m": 3.6576000000000004,
+      "status": "source_explicit",
+      "independently_verified": false,
+      "source_quote": "12 feet lower in the summer",
+      "url": "https://www.mta.info/agency/bridges-and-tunnels/verrazzano-narrows-bridge",
+      "path": "data/raw/stage7/bridges/verrazzano.html",
+      "sha256": "0addeea2f8c6527219165c30d3ca3d1c8cf6fa41ddabb93951277c3c558f3cb3",
+      "accuracy_m": null,
+      "observation_date": null,
+      "scope_note": "clearance/tower extent is NOT absolute deck elevation; reference water/tide datum not established"
+    }
+  ],
+  "width_m": null,
+  "deck_absolute_elevation_m": null,
+  "deck_vertical_datum": null,
+  "tower_absolute_top_m": null,
+  "approach_grade_profile": null,
+  "bridgehead_survey_control": null,
+  "physical_world_placement_allowed": false,
+  "rendering": "official transport outline only; no unverified deck/tower/cable mesh",
+  "same_city_scope": "selected main spans connect NYC boroughs; no NJ approach included as NYC coverage",
+  "publication_date": null,
+  "downloaded_at": "2026-10-28T05:22:20.785948+00:00",
+  "research_status": "partial_primary_facts",
+  "model_complete": false,
+  "validation": {
+    "horizontal_reference": "source transport outlines at observation windows",
+    "vertical_continuity": false,
+    "under_bridge_clearance": false,
+    "width_verified": false
+  },
+  "missing": [
+    "dated deck survey and vertical datum",
+    "width",
+    "tower/base elevations",
+    "approach geometry and continuity",
+    "structural component dimensions"
+  ]
+}

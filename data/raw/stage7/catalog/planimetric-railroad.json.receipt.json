@@ -1,0 +1,17 @@
+{
+  "request_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Planimetric%20Railroad&limit=4",
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Planimetric%20Railroad&limit=4",
+  "download_started_at": "2026-10-28T05:20:02.547144+00:00",
+  "download_completed_at": "2026-10-28T05:20:03.486818+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 14597,
+  "sha256": "d3fd6dc4cbbf11a0984fa8854956489858f4ebc9cd93ce753f5f83a2cdf67ea4",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

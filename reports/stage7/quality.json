@@ -1,0 +1,117 @@
+{
+  "at_utc": "2026-10-28T06:14:28.997851+00:00",
+  "coverage": {
+    "observations": 25,
+    "park_records": 2,
+    "source_unique_features": {
+      "transport": 257,
+      "rail": 1268,
+      "rail-structure": 2095,
+      "sidewalk": 2872,
+      "median": 1568,
+      "piers": 218,
+      "parks": 2,
+      "trees": 24164
+    },
+    "road_building_overlap_candidates": 121,
+    "tree_overlap_candidates": 1633,
+    "walks": [
+      {
+        "id": "lower-manhattan",
+        "allowed_triangles": 288,
+        "available": true,
+        "collision": "collision/lower-manhattan.json"
+      },
+      {
+        "id": "midtown",
+        "allowed_triangles": 59,
+        "available": true,
+        "collision": "collision/midtown.json"
+      },
+      {
+        "id": "brooklyn-dumbo",
+        "allowed_triangles": 460,
+        "available": true,
+        "collision": "collision/brooklyn-dumbo.json"
+      },
+      {
+        "id": "queens-lic",
+        "allowed_triangles": 701,
+        "available": true,
+        "collision": "collision/queens-lic.json"
+      },
+      {
+        "id": "bronx-mott-haven",
+        "allowed_triangles": 560,
+        "available": true,
+        "collision": "collision/bronx-mott-haven.json"
+      },
+      {
+        "id": "staten-st-george",
+        "allowed_triangles": 241,
+        "available": true,
+        "collision": "collision/staten-st-george.json"
+      },
+      {
+        "id": "prospect-park",
+        "allowed_triangles": 9834,
+        "available": true,
+        "collision": "collision/prospect-park.json"
+      },
+      {
+        "id": "central-park",
+        "allowed_triangles": 4565,
+        "available": true,
+        "collision": "collision/central-park.json"
+      }
+    ],
+    "physical_road_surfaces_verified": 0,
+    "physical_bridge_decks_verified": 0,
+    "global_z_alignment_verified": false,
+    "geometry_repairs": "make_valid derived; original raw retained; no building geometry modified",
+    "cross_border_structures": "no NJ approach acquired as NYC coverage; selected five main bridges are NYC bridges, maritime jurisdiction not inferred from shore-clipped polygons",
+    "published_25window_unique_source_ids": {
+      "transport": 129,
+      "rail": 426,
+      "rail-structure": 466,
+      "sidewalk": 1166,
+      "median": 650,
+      "piers": 106,
+      "parks": 2,
+      "trees": 9163,
+      "roads": 2365,
+      "water": 31,
+      "outlines": 8633
+    }
+  },
+  "raw_payload_files": 219,
+  "published_files": 2763,
+  "published_bytes": 956911889,
+  "static_search_records": 1082964,
+  "named_addressed_or_alias_records": 2253,
+  "completed_physical_bridge_models": 0,
+  "verified_global_vertical_alignment": false,
+  "verified_current_facade_streets": 0,
+  "estimated_or_display_content": [
+    "ellipsoid reference draw-order offsets",
+    "NAVD88 water displayH=0 only for rivers/sea; not tide",
+    "DEM display decimation",
+    "1m collision safety buffer is operational, not measured",
+    "fixed neutral light"
+  ],
+  "not_generated": [
+    "random buildings/trees/traffic",
+    "invented lanes/furniture",
+    "ground rail for ambiguous underground2400",
+    "unverified deck heights/interiors",
+    "default building heights"
+  ],
+  "unresolved": [
+    "five bridge width/deck absoluteZ/approach profiles",
+    "global DEM source realization/geoid registration",
+    "road/sidewalk/deck vertical continuity",
+    "new current measured street-furniture data",
+    "hardware mobile/physical GPU validation"
+  ],
+  "acceptance": "reference layers and restricted local inspection implemented; physical environment alignment not accepted"
+}

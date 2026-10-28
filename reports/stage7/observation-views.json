@@ -1,0 +1,363 @@
+{
+  "at_utc": "2026-10-28T06:14:37.101Z",
+  "observations": [
+    {
+      "id": "brooklyn-span",
+      "kind": "cross-river",
+      "cameraHeight": 1478.6550854661498,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "brooklyn-head",
+      "kind": "bridgehead",
+      "cameraHeight": 1392.633031238191,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "manhattan-span",
+      "kind": "cross-river",
+      "cameraHeight": 1478.6552848713434,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "manhattan-head",
+      "kind": "bridgehead",
+      "cameraHeight": 1302.3692204578122,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "williamsburg-span",
+      "kind": "cross-river",
+      "cameraHeight": 1626.5533989666926,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "williamsburg-head",
+      "kind": "bridgehead",
+      "cameraHeight": 1392.6328872357412,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "queensboro-span",
+      "kind": "cross-river",
+      "cameraHeight": 1478.655282969912,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "queensboro-head",
+      "kind": "bridgehead",
+      "cameraHeight": 1302.3690077586205,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "verrazzano-span",
+      "kind": "cross-river",
+      "cameraHeight": 1928.7773460267904,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "verrazzano-head",
+      "kind": "bridgehead",
+      "cameraHeight": 1532.2183571098356,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "pier40",
+      "kind": "pier",
+      "cameraHeight": 1392.6328958294919,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "brooklyn-pier1",
+      "kind": "pier",
+      "cameraHeight": 1392.6329387507528,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "st-george-ferry",
+      "kind": "pier",
+      "cameraHeight": 1392.632959669242,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "gowanus",
+      "kind": "interchange",
+      "cameraHeight": 1472.299896010931,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "bruckner",
+      "kind": "interchange",
+      "cameraHeight": 1392.6331741453573,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "queens-plaza",
+      "kind": "interchange",
+      "cameraHeight": 1472.2997860328753,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "central-south",
+      "kind": "park-boundary",
+      "cameraHeight": 1392.6331746113972,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "central-reservoir",
+      "kind": "park-water",
+      "cameraHeight": 1631.3994798725387,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "prospect-north",
+      "kind": "park-boundary",
+      "cameraHeight": 1392.6331757675061,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "prospect-lake",
+      "kind": "park-water",
+      "cameraHeight": 1540.763791502496,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "st-george-slope",
+      "kind": "slope",
+      "cameraHeight": 1302.3690508097307,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "morningside-slope",
+      "kind": "slope",
+      "cameraHeight": 1302.36904967692,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "highbridge",
+      "kind": "slope",
+      "cameraHeight": 1302.369187519755,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "water",
+        "transport",
+        "piers"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "forest-hills",
+      "kind": "slope",
+      "cameraHeight": 1392.6331752755698,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads",
+        "transport"
+      ],
+      "verticalPhysicalAcceptance": false
+    },
+    {
+      "id": "grove-street",
+      "kind": "street",
+      "cameraHeight": 1359.4932538471742,
+      "actualLoaded": [
+        "parks",
+        "city:manhattan",
+        "city:brooklyn",
+        "roads"
+      ],
+      "verticalPhysicalAcceptance": false
+    }
+  ],
+  "scope": "actual navigation/reference observations, not field surveys or verified bridge heights"
+}

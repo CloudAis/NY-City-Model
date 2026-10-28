@@ -1,0 +1,25 @@
+PASS full source index,25 genuine presets and default reference limits are visible
+PASS 25 river,bridgehead,pier,interchange,park and slope presets load actual local environment
+PASS BIN,name,alias,address andborough queries resolve stable IDs; missing records do not crash
+PASS flight cancellation,return selected,top andcity reset preserve camera limits and selection
+PASS freeflight uses actual keys and stops on keyup,blur,pointer cancellation andresize
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /水平测地距离≈/. Input:
+
+'第一点已读，点击第二点。'
+
+    at file:///workspace/nyc-3d-html/tests/inspection-browser.mjs:72:166
+    at async check (file:///workspace/nyc-3d-html/tests/inspection-browser.mjs:10:31)
+    at async file:///workspace/nyc-3d-html/tests/inspection-browser.mjs:68:2 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '第一点已读，点击第二点。',
+  expected: /水平测地距离≈/,
+  operator: 'match',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

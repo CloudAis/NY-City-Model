@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/6hbv-tek4.json?%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-74.0871555+40.6385468%2C-74.0788445+40.6385468%2C-74.0788445+40.6448532%2C-74.0871555+40.6448532%2C-74.0871555+40.6385468%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9634657+40.8023468%2C-73.9551343+40.8023468%2C-73.9551343+40.8086532%2C-73.9634657+40.8086532%2C-73.9634657+40.8023468%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9371635+40.8390964%2C-73.9276365+40.8390964%2C-73.9276365+40.8463036%2C-73.9371635+40.8463036%2C-73.9371635+40.8390964%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.8462602+40.7140468%2C-73.8379398+40.7140468%2C-73.8379398+40.7203532%2C-73.8462602+40.7203532%2C-73.8462602+40.7140468%29%29%27%29&%24select=%3Aid+as+socrata_row_id%2Cthe_geom%2Csource_id%2Csub_code%2Cfeat_code%2Celevation%2Cstatus%2Cshape_leng%2Cshape_area&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "final_url": "https://data.cityofnewyork.us/resource/6hbv-tek4.json?%24where=intersects%28the_geom%2C+%27POLYGON+%28%28-74.0871555+40.6385468%2C-74.0788445+40.6385468%2C-74.0788445+40.6448532%2C-74.0871555+40.6448532%2C-74.0871555+40.6385468%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9634657+40.8023468%2C-73.9551343+40.8023468%2C-73.9551343+40.8086532%2C-73.9634657+40.8086532%2C-73.9634657+40.8023468%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.9371635+40.8390964%2C-73.9276365+40.8390964%2C-73.9276365+40.8463036%2C-73.9371635+40.8463036%2C-73.9371635+40.8390964%29%29%27%29+OR+intersects%28the_geom%2C+%27POLYGON+%28%28-73.8462602+40.7140468%2C-73.8379398+40.7140468%2C-73.8379398+40.7203532%2C-73.8462602+40.7203532%2C-73.8462602+40.7140468%29%29%27%29&%24select=%3Aid+as+socrata_row_id%2Cthe_geom%2Csource_id%2Csub_code%2Cfeat_code%2Celevation%2Cstatus%2Cshape_leng%2Cshape_area&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "download_started_at": "2026-10-28T05:25:47.575858+00:00",
+  "download_completed_at": "2026-10-28T05:25:47.871807+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"Zm94dHJvdC40MjA5NV8yXzMySjZSSXFJdFc2YjFCUDZLSGI4Y3R5Uk9Celpj---gziphTP58EuWi-Ux_FxWD1bwiOpEZqI--gzip--gzip\"",
+  "last_modified_http": "Thu, 25 Apr 2024 19:36:03 GMT",
+  "bytes": 20091,
+  "sha256": "44cb16470e1c0e08d40e8f1a0ef86ca49cf49cc39c9717add911165507c6bf67",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

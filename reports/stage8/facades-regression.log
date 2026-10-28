@@ -1,0 +1,9 @@
+PASS default evidence mode has12 real AOIs,918 unique source objects and no invented current facades
+PASS all12 actual source AOIs load GLBs and explicit boundaries without accumulating old tilesets
+PASS per-face panel distinguishes historical front from unknown current sides without a whole-building truth label
+PASS historical toggle loads four distinct licensed photo textures, restores evidence mode and never hides current outlines
+PASS fixed neutral observation path covers front, joins, close windows and the explicitly missing back
+PASS original reference previews are local, dated and separate from derived textures and current status
+PASS changing AOI removes historical fragments, disables unsuitable mode and preserves bounded resource counts
+PASS narrow screen can select buildings and faces, switch mode and collapse to a usable viewport
+{"checks":8,"errors":[],"areas":12,"views":5}

@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-28T06:20:24.184695+00:00",
+  "path": "reports/nyc-stage78-inspection-overlay.zip",
+  "bytes": 214120968,
+  "sha256": "022c85c2f810a575a74d0c415ef1a7cc7740ebdd687e6bb51e9891b9df6491f0",
+  "files": 3608,
+  "crc_and_all_payload_sha_verified": true,
+  "standalone_full_city": false,
+  "base_requirement": {
+    "path": "app/datasets/buildings-city",
+    "origin": "unchanged stage4 offline city; also available in current local dist",
+    "manifest_sha256": "f0ec679a4d4ff41853e5d2bcbd61122ceecc85c807c945894e3af95e275854bb",
+    "original_stage4_zip_sha256": "3ef4134c36541b6842f5e5698c6a21607202def7a05a830354c05e3941b5b045"
+  }
+}

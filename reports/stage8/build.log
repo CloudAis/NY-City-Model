@@ -1,0 +1,43 @@
+
+> nyc-real-scale-3d@0.1.0 build
+> npm run check && vite build
+
+
+> nyc-real-scale-3d@0.1.0 check
+> tsc --noEmit
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 1643 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/terrain.html                             0.58 kB │ gzip:     0.37 kB
+dist/buildings.html                           0.61 kB │ gzip:     0.38 kB
+dist/index.html                               0.63 kB │ gzip:     0.37 kB
+dist/facades.html                             0.69 kB │ gzip:     0.38 kB
+dist/landmarks.html                           0.69 kB │ gzip:     0.39 kB
+dist/inspection.html                          0.69 kB │ gzip:     0.38 kB
+dist/assets/buildings-CFUJpzUp.css            3.33 kB │ gzip:     1.26 kB
+dist/assets/terrain-D5J9fsKJ.css              4.29 kB │ gzip:     1.45 kB
+dist/assets/inspection-Li3ryHKo.css           4.58 kB │ gzip:     1.57 kB
+dist/assets/landmarks-RvMjey1S.css            4.68 kB │ gzip:     1.63 kB
+dist/assets/facades-D0IhEOrm.css              5.98 kB │ gzip:     1.97 kB
+dist/assets/main-Byp8XRnP.css                 8.07 kB │ gzip:     2.54 kB
+dist/assets/widgets-B9DDZdqH.css             24.01 kB │ gzip:     5.37 kB
+dist/assets/DirectionalLight-B63b9-n0.js      0.39 kB │ gzip:     0.25 kB
+dist/assets/core-BA6uwpR9.js                  2.05 kB │ gzip:     1.10 kB
+dist/assets/buildings-zoJuuDOY.js             9.40 kB │ gzip:     4.94 kB
+dist/assets/landmarks-CHP5XnIc.js            11.17 kB │ gzip:     5.51 kB
+dist/assets/facades-jOOwmu2i.js              13.01 kB │ gzip:     6.34 kB
+dist/assets/main-C1y0KnlI.js                 19.43 kB │ gzip:     8.71 kB
+dist/assets/terrain-rGLeqLVR.js              21.35 kB │ gzip:     9.46 kB
+dist/assets/inspection-D7FEgcH9.js           27.52 kB │ gzip:    12.09 kB
+dist/assets/Matrix4-C-Gm_KdH.js              59.12 kB │ gzip:    14.81 kB
+dist/assets/widgets-yBKt2FfH.js           4,110.23 kB │ gzip: 1,110.67 kB
+
+✓ built in 1.75s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

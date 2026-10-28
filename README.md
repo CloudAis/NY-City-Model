@@ -233,3 +233,36 @@ PY
 ```
 
 阶段4构建在同一文件系统上对大资源建立普通硬链接以节约第二份磁盘，不支持时复制；ZIP保存独立字节。发布资源原子替换，最终测试后再打包。没有云资源或收费接口启动前提。当前主体验证缺口不因打包或浏览器成功而消失。
+
+## 当前入口：第7/8部分环境与模型检查
+
+工程固定在/workspace/nyc-3d-html。运行 `npm run dev` 后打开 `http://localhost:5180/inspection.html`；已有index/terrain/buildings/landmarks/facades入口保留。`npm run build` 生成dist；离线以本机HTTP服务启动（不是file://），无需ion/云地形/底图凭据。
+
+25预设覆盖五区；查询支持来源名称/别名/明确地址、BIN（至少4位）、`id:233256`。点击/悬停原轮廓可查稳定ID，返回选中、Esc取消飞行、俯视/环绕/自由飞行、八区受限NAVD88检查。WASD/QE移动，Shift慢速；鼠标拖动旋转/右键平移/滚轮缩放，触点双指缩放与平移。地面只允许已知DEM三角形，桥面/道路/水面/地下/室内禁止。
+
+量测区分全球水平测地距离与局部NAVD88空间/高差；缺高程不报零。书签保存在本地浏览器，可导入导出；截图带来源署名。光照固定中性，不支持太阳日期/夜景。所有道路/桥梁全球图层是明确标记的参考投影，不能当物理接地表面。
+
+重建（先保留原数据，网络仅下载步骤使用）：
+
+```bash
+.venv/bin/python scripts/acquire_environment.py
+.venv/bin/python scripts/research_bridges.py
+.venv/bin/python scripts/build_environment.py --vectors-only
+.venv/bin/python scripts/acquire_park_terrain.py
+.venv/bin/python scripts/build_environment.py
+.venv/bin/python scripts/build_city_search.py
+.venv/bin/python scripts/report_environment.py
+npm test
+node tests/inspection-core.mjs
+npm run build
+node tests/inspection-browser.mjs
+NYC_REPORT_DIR=reports/stage8/foundation node tests/foundation-browser.mjs
+NYC_REPORT_DIR=reports/stage8/landmarks node tests/landmarks-browser.mjs
+NYC_REPORT_DIR=reports/stage8/facades node tests/facades-browser.mjs
+```
+
+先用--vectors-only发布公园边界，获取两个公园DEM后完整构建纳入八区；还需要现有六区foundation。若只有源码克隆，必须按旧阶段说明恢复city库/context/全市瓦片，不能以空数据冒充全市。来源清单data/manifests/stage7/sources.json，环境/交互报告reports/ENVIRONMENT_REVIEW.md与INTERACTION_REVIEW.md，未解决物理高程/桥梁项详见docs/KNOWN_GAPS.md。
+
+离线增量打包：`.venv/bin/python scripts/package_inspection.py`。`reports/nyc-stage78-inspection-overlay.zip`不含旧5.3GiB全市瓦片；覆盖旧stage4包的app，保留`app/datasets/buildings-city`，或从当前dist复制该目录。进入app用`python3 -m http.server 8080 --bind 127.0.0.1`，打开`http://127.0.0.1:8080/inspection.html`。包内START_HERE与OVERLAY_MANIFEST明确基底SHA和范围。
+
+对实际增量包复验：`node tests/inspection-package.mjs`（需本机HTTP监听和Chromium）。结果在reports/stage8/package-browser.json；它使用同卷临时解压并接回既有全市数据，清楚记录基底依赖。最终ZIP校验和在同名.sha256，包外复验记录不参与ZIP自包含。

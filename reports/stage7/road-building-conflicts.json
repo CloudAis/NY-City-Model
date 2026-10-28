@@ -1,0 +1,1575 @@
+[
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:1263692",
+    "road_id": "nyc:roadbed:row:row-seax.8n6s~3erc",
+    "area_m2": 26.349630682222575,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00015000.json",
+      "sha256": "7a157c98f8fddc04841549a7153f308dd559daeb7326c6b87874d54ea8079238",
+      "object_id": 52555
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:1264289",
+    "road_id": "nyc:roadbed:row:row-nb6s_dudp~knxp",
+    "area_m2": 24.64396692075469,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64283
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:1264289",
+    "road_id": "nyc:roadbed:row:row-djm4_8gmd_bgzf",
+    "area_m2": 6.585865978694737,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64283
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:1292505",
+    "road_id": "nyc:roadbed:row:row-u7pf-4pf6_t28m",
+    "area_m2": 15.607871931631978,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037500.json",
+      "sha256": "e96aef2908384ad1bee11855b6ee52ea9eab560cdb63f4c3b87fc202ded14a29",
+      "object_id": 1036557
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:1292505",
+    "road_id": "nyc:roadbed:row:row-e4aa-z7fd~mb7j",
+    "area_m2": 15.607871931631978,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037500.json",
+      "sha256": "e96aef2908384ad1bee11855b6ee52ea9eab560cdb63f4c3b87fc202ded14a29",
+      "object_id": 1036557
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:191396",
+    "road_id": "nyc:roadbed:row:row-2h6h.zu8x.wedn",
+    "area_m2": 1.174311089730877,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00312500.json",
+      "sha256": "f0ab0948e303f1c38aa9c07081e614af0785cd11aac6f2e53c9956a6b93e4cdd",
+      "object_id": 1034046
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:58291",
+    "road_id": "nyc:roadbed:row:row-cnu3_fq9y_ea4h",
+    "area_m2": 868.9363376896806,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00256500.json",
+      "sha256": "2372a028cd40cba91c9d8db2beea3ce61c3d966c2492a11dff7ae110276d1474",
+      "object_id": 856371
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-span",
+    "building_id": "nyc:footprints:doitt:58291",
+    "road_id": "nyc:roadbed:row:row-seax.8n6s~3erc",
+    "area_m2": 594.5738561165464,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00256500.json",
+      "sha256": "2372a028cd40cba91c9d8db2beea3ce61c3d966c2492a11dff7ae110276d1474",
+      "object_id": 856371
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1110161",
+    "road_id": "nyc:roadbed:row:row-zepi-sj2g_je7f",
+    "area_m2": 1.2377511062024364,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00004500.json",
+      "sha256": "1e47740ec0029a0d364eed246a52079de75c5e205d399f8df4ba28dd2074d646",
+      "object_id": 112331
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1117123",
+    "road_id": "nyc:roadbed:row:row-zepi-sj2g_je7f",
+    "area_m2": 1.0129950669715908,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00004500.json",
+      "sha256": "1e47740ec0029a0d364eed246a52079de75c5e205d399f8df4ba28dd2074d646",
+      "object_id": 111884
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1264274",
+    "road_id": "nyc:roadbed:row:row-rdp8_8dpx_5iwk",
+    "area_m2": 14.955068306777733,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002500.json",
+      "sha256": "18d2a85b8e4c31571b2a214c841f293435d539d17f66ec87f8d6e8594f2820a6",
+      "object_id": 64219
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1264274",
+    "road_id": "nyc:roadbed:row:row-kxr4~g5nk_8vfg",
+    "area_m2": 6.044605380088724,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002500.json",
+      "sha256": "18d2a85b8e4c31571b2a214c841f293435d539d17f66ec87f8d6e8594f2820a6",
+      "object_id": 64219
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1264275",
+    "road_id": "nyc:roadbed:row:row-cb48.iutn~z667",
+    "area_m2": 20.263007803252453,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002500.json",
+      "sha256": "18d2a85b8e4c31571b2a214c841f293435d539d17f66ec87f8d6e8594f2820a6",
+      "object_id": 64274
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1264275",
+    "road_id": "nyc:roadbed:row:row-98xi.vc24.cmtp",
+    "area_m2": 5.40246632053444,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002500.json",
+      "sha256": "18d2a85b8e4c31571b2a214c841f293435d539d17f66ec87f8d6e8594f2820a6",
+      "object_id": 64274
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1264525",
+    "road_id": "nyc:roadbed:row:row-7aqv.yaw3.3gbh",
+    "area_m2": 17.67096328275029,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002500.json",
+      "sha256": "18d2a85b8e4c31571b2a214c841f293435d539d17f66ec87f8d6e8594f2820a6",
+      "object_id": 64211
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:1272401",
+    "road_id": "nyc:roadbed:row:row-7aqv.yaw3.3gbh",
+    "area_m2": 1.413666544469411,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037500.json",
+      "sha256": "e96aef2908384ad1bee11855b6ee52ea9eab560cdb63f4c3b87fc202ded14a29",
+      "object_id": 1041078
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:515967",
+    "road_id": "nyc:roadbed:row:row-e4bd-8y34_5fqx",
+    "area_m2": 8.548538222391596,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037500.json",
+      "sha256": "e96aef2908384ad1bee11855b6ee52ea9eab560cdb63f4c3b87fc202ded14a29",
+      "object_id": 1037227
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-head",
+    "building_id": "nyc:footprints:doitt:935626",
+    "road_id": "nyc:roadbed:row:row-e4bd-8y34_5fqx",
+    "area_m2": 8.371397808208116,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00002000.json",
+      "sha256": "1999bb8b29e85a729364b9683bcdfb4c60a1d5465baa805d4c8daf3914696852",
+      "object_id": 51922
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-span",
+    "building_id": "nyc:footprints:doitt:1260388",
+    "road_id": "nyc:roadbed:row:row-67xp_ki9j_cifu",
+    "area_m2": 129.2718037425944,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00004000.json",
+      "sha256": "858f605138d85eaff35b06da4cf0e5de025cf4a2559da88f4eb3c1179bfb7127",
+      "object_id": 111487
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-span",
+    "building_id": "nyc:footprints:doitt:1260388",
+    "road_id": "nyc:roadbed:row:row-kjhv.gt5f.ezi8",
+    "area_m2": 90.45533518477743,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00004000.json",
+      "sha256": "858f605138d85eaff35b06da4cf0e5de025cf4a2559da88f4eb3c1179bfb7127",
+      "object_id": 111487
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264285",
+    "road_id": "nyc:roadbed:row:row-9ktm_tp8g_yesk",
+    "area_m2": 31.563578072966553,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64280
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264285",
+    "road_id": "nyc:roadbed:row:row-w56q-z7s9.s4cx",
+    "area_m2": 1.5723159573861187,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64280
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264286",
+    "road_id": "nyc:roadbed:row:row-tif2-zyfr_5rzz",
+    "area_m2": 20.11544098398563,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64281
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264286",
+    "road_id": "nyc:roadbed:row:row-t2ph.w2fq.j6hu",
+    "area_m2": 7.4485005684432934,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64281
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264287",
+    "road_id": "nyc:roadbed:row:row-mt2f-7mep_4e4q",
+    "area_m2": 18.339674942830957,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64282
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264287",
+    "road_id": "nyc:roadbed:row:row-i9g2~a6v4-yk2r",
+    "area_m2": 1.792325387829039,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64282
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264287",
+    "road_id": "nyc:roadbed:row:row-f75i-4cu8~dh8i",
+    "area_m2": 24.07553002962834,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64282
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264316",
+    "road_id": "nyc:roadbed:row:row-es3n.sc94~hsqp",
+    "area_m2": 19.685976380016864,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64278
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264316",
+    "road_id": "nyc:roadbed:row:row-99zu_gegg_6hqs",
+    "area_m2": 1.0987738655579773,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64278
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264317",
+    "road_id": "nyc:roadbed:row:row-9i6w.2xnv_wh54",
+    "area_m2": 18.40948006527525,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64279
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:1264317",
+    "road_id": "nyc:roadbed:row:row-2hyw~biqm-f8j4",
+    "area_m2": 6.986764169281525,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64279
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:764458",
+    "road_id": "nyc:roadbed:row:row-67xp_ki9j_cifu",
+    "area_m2": 396.3274666312,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00038500.json",
+      "sha256": "484ef65812ec01508ebc5499ce37406e928f6f06f6690a08e05f59a1af804359",
+      "object_id": 150461
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "manhattan-head",
+    "building_id": "nyc:footprints:doitt:764458",
+    "road_id": "nyc:roadbed:row:row-kjhv.gt5f.ezi8",
+    "area_m2": 269.65768948869254,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00038500.json",
+      "sha256": "484ef65812ec01508ebc5499ce37406e928f6f06f6690a08e05f59a1af804359",
+      "object_id": 150461
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-span",
+    "building_id": "nyc:footprints:doitt:276966",
+    "road_id": "nyc:roadbed:row:row-73vr~eb84-rsh7",
+    "area_m2": 311.5767777552356,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00051000.json",
+      "sha256": "50c12488411288fb225c1c60878dcde088b60cf2d13ebdfdf9db5292c1181073",
+      "object_id": 190598
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-span",
+    "building_id": "nyc:footprints:doitt:276966",
+    "road_id": "nyc:roadbed:row:row-9dcd-ucuv-rarx",
+    "area_m2": 217.07204840124896,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00051000.json",
+      "sha256": "50c12488411288fb225c1c60878dcde088b60cf2d13ebdfdf9db5292c1181073",
+      "object_id": 190598
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-span",
+    "building_id": "nyc:footprints:doitt:798603",
+    "road_id": "nyc:roadbed:row:row-73vr~eb84-rsh7",
+    "area_m2": 238.38575784523653,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00065500.json",
+      "sha256": "78c9f1e249f8315fa4124d5abb2937af9e4e68d447a89f6b24b3cd7dd1a51a2b",
+      "object_id": 238858
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-span",
+    "building_id": "nyc:footprints:doitt:798603",
+    "road_id": "nyc:roadbed:row:row-9dcd-ucuv-rarx",
+    "area_m2": 261.0034559905436,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00065500.json",
+      "sha256": "78c9f1e249f8315fa4124d5abb2937af9e4e68d447a89f6b24b3cd7dd1a51a2b",
+      "object_id": 238858
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-head",
+    "building_id": "nyc:footprints:doitt:276966",
+    "road_id": "nyc:roadbed:row:row-73vr~eb84-rsh7",
+    "area_m2": 388.6251128070238,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00051000.json",
+      "sha256": "50c12488411288fb225c1c60878dcde088b60cf2d13ebdfdf9db5292c1181073",
+      "object_id": 190598
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-head",
+    "building_id": "nyc:footprints:doitt:276966",
+    "road_id": "nyc:roadbed:row:row-9dcd-ucuv-rarx",
+    "area_m2": 389.02872746473724,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00051000.json",
+      "sha256": "50c12488411288fb225c1c60878dcde088b60cf2d13ebdfdf9db5292c1181073",
+      "object_id": 190598
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-head",
+    "building_id": "nyc:footprints:doitt:798603",
+    "road_id": "nyc:roadbed:row:row-73vr~eb84-rsh7",
+    "area_m2": 238.38575784523653,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00065500.json",
+      "sha256": "78c9f1e249f8315fa4124d5abb2937af9e4e68d447a89f6b24b3cd7dd1a51a2b",
+      "object_id": 238858
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "williamsburg-head",
+    "building_id": "nyc:footprints:doitt:798603",
+    "road_id": "nyc:roadbed:row:row-9dcd-ucuv-rarx",
+    "area_m2": 261.0034559905436,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00065500.json",
+      "sha256": "78c9f1e249f8315fa4124d5abb2937af9e4e68d447a89f6b24b3cd7dd1a51a2b",
+      "object_id": 238858
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:1283745",
+    "road_id": "nyc:roadbed:row:row-spsm_xq59.8hfg",
+    "area_m2": 10.274778307123166,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+      "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+      "object_id": 71415
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:1283745",
+    "road_id": "nyc:roadbed:row:row-fjyg_b9c3-hq2j",
+    "area_m2": 8.605667897434822,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+      "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+      "object_id": 71415
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:688439",
+    "road_id": "nyc:roadbed:row:row-97vw.xq68-6se5",
+    "area_m2": 83.22992301445069,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00025500.json",
+      "sha256": "bc63b58b351734d77dd254631f0d26d73ef68b3a9db596a6ab83ae678c675383",
+      "object_id": 757668
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:77995",
+    "road_id": "nyc:roadbed:row:row-7jk2~u3w3_uj8j",
+    "area_m2": 718.3301684435427,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "object_id": 1059654
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:77995",
+    "road_id": "nyc:roadbed:row:row-5kqf.x4xt_f7ac",
+    "area_m2": 916.9592781119607,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "object_id": 1059654
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:77995",
+    "road_id": "nyc:roadbed:row:row-spsm_xq59.8hfg",
+    "area_m2": 839.6719752986265,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "object_id": 1059654
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:77995",
+    "road_id": "nyc:roadbed:row:row-ue9a~cdd4_ama4",
+    "area_m2": 980.7986329299619,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "object_id": 1059654
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-span",
+    "building_id": "nyc:footprints:doitt:77995",
+    "road_id": "nyc:roadbed:row:row-fjyg_b9c3-hq2j",
+    "area_m2": 774.8300376130006,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "object_id": 1059654
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:1289115",
+    "road_id": "nyc:roadbed:row:row-bgbm_fy3m_gcm4",
+    "area_m2": 114.3025729620059,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00171500.json",
+      "sha256": "7a3f608059cf1b27c4db003666be5f8f1d1c40f22b8f70f30c9d65f80ce5873e",
+      "object_id": 393196
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:1289115",
+    "road_id": "nyc:roadbed:row:row-7jk2~u3w3_uj8j",
+    "area_m2": 5.421242501957689,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00171500.json",
+      "sha256": "7a3f608059cf1b27c4db003666be5f8f1d1c40f22b8f70f30c9d65f80ce5873e",
+      "object_id": 393196
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:1289115",
+    "road_id": "nyc:roadbed:row:row-5kqf.x4xt_f7ac",
+    "area_m2": 158.9106165259495,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00171500.json",
+      "sha256": "7a3f608059cf1b27c4db003666be5f8f1d1c40f22b8f70f30c9d65f80ce5873e",
+      "object_id": 393196
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:1289115",
+    "road_id": "nyc:roadbed:row:row-ue9a~cdd4_ama4",
+    "area_m2": 169.50188712162634,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00171500.json",
+      "sha256": "7a3f608059cf1b27c4db003666be5f8f1d1c40f22b8f70f30c9d65f80ce5873e",
+      "object_id": 393196
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:332780",
+    "road_id": "nyc:roadbed:row:row-7jk2~u3w3_uj8j",
+    "area_m2": 20.377703870548316,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00030500.json",
+      "sha256": "0a14d16bacf5f2ed5b892577f0f381373997c2d1d8ed22e1eca649ed2d12d47b",
+      "object_id": 87339
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:332780",
+    "road_id": "nyc:roadbed:row:row-5kqf.x4xt_f7ac",
+    "area_m2": 58.23409559784122,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00030500.json",
+      "sha256": "0a14d16bacf5f2ed5b892577f0f381373997c2d1d8ed22e1eca649ed2d12d47b",
+      "object_id": 87339
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:332780",
+    "road_id": "nyc:roadbed:row:row-ue9a~cdd4_ama4",
+    "area_m2": 63.53010664748861,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00030500.json",
+      "sha256": "0a14d16bacf5f2ed5b892577f0f381373997c2d1d8ed22e1eca649ed2d12d47b",
+      "object_id": 87339
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:332780",
+    "road_id": "nyc:roadbed:row:row-fjyg_b9c3-hq2j",
+    "area_m2": 95.78159245085526,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00030500.json",
+      "sha256": "0a14d16bacf5f2ed5b892577f0f381373997c2d1d8ed22e1eca649ed2d12d47b",
+      "object_id": 87339
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queensboro-head",
+    "building_id": "nyc:footprints:doitt:332780",
+    "road_id": "nyc:roadbed:row:row-spsm_xq59.8hfg",
+    "area_m2": 102.06706149304141,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00030500.json",
+      "sha256": "0a14d16bacf5f2ed5b892577f0f381373997c2d1d8ed22e1eca649ed2d12d47b",
+      "object_id": 87339
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:1033837",
+    "road_id": "nyc:roadbed:row:row-a2kh-ph6v.v7jy",
+    "area_m2": 45.61006993422548,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00040000.json",
+      "sha256": "3059ae0000fa63993c8a075a8c949354564ee6e89feb809226ccb24bf9e7cf67",
+      "object_id": 1050736
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:1114216",
+    "road_id": "nyc:roadbed:row:row-a2kh-ph6v.v7jy",
+    "area_m2": 131.31198868804793,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "object_id": 1059510
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:1114216",
+    "road_id": "nyc:roadbed:row:row-gi9w~brzh_tr66",
+    "area_m2": 131.4090095428561,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00042500.json",
+      "sha256": "74617e80598333cd061bcd6ca3054df238fefbacb9613dded0b50ec49f029919",
+      "object_id": 1059510
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:1189864",
+    "road_id": "nyc:roadbed:row:row-a2kh-ph6v.v7jy",
+    "area_m2": 179.0679009703482,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00038000.json",
+      "sha256": "3d18bb325a3dae189579152241879dc582210db9fd0a695d80df84fcb0f8cf05",
+      "object_id": 1042570
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:1262801",
+    "road_id": "nyc:roadbed:row:row-gi9w~brzh_tr66",
+    "area_m2": 103.5264166386781,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00037000.json",
+      "sha256": "51bf8cd8a96bfd7a84ce942952d442b654f41574149baa08ca76526368afeb24",
+      "object_id": 1034980
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:203218",
+    "road_id": "nyc:roadbed:row:row-gi9w~brzh_tr66",
+    "area_m2": 88.36370721986854,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00019500.json",
+      "sha256": "007b74620912be3509c59a5f373680b3975e648f0fb9a0cf0163eab4442ec241",
+      "object_id": 574909
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:291169",
+    "road_id": "nyc:roadbed:row:row-gi9w~brzh_tr66",
+    "area_m2": 289.58427870352006,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00007500.json",
+      "sha256": "5a6bb0ed627be01eb89858dd46e4e67fee37ff598700f8dfc592938d10a2a00c",
+      "object_id": 201754
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:455290",
+    "road_id": "nyc:roadbed:row:row-a2kh-ph6v.v7jy",
+    "area_m2": 15.701601792121544,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00040000.json",
+      "sha256": "3059ae0000fa63993c8a075a8c949354564ee6e89feb809226ccb24bf9e7cf67",
+      "object_id": 1050577
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:662433",
+    "road_id": "nyc:roadbed:row:row-gi9w~brzh_tr66",
+    "area_m2": 40.51663331512385,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00028000.json",
+      "sha256": "29f303354478be52df4a4010ae930d23319bea178cd9756257f9aec70527a135",
+      "object_id": 840890
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:679805",
+    "road_id": "nyc:roadbed:row:row-gi9w~brzh_tr66",
+    "area_m2": 184.83120013174255,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00008000.json",
+      "sha256": "d0a9f7a01e528714e75739dbe0febd1ca75e4fcaa3f417ba00d79d97b8b86b1e",
+      "object_id": 216045
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "pier40",
+    "building_id": "nyc:footprints:doitt:747229",
+    "road_id": "nyc:roadbed:row:row-gi9w~brzh_tr66",
+    "area_m2": 49.70237693350296,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00006500.json",
+      "sha256": "e219e58c46a4046f38abb473def9ff3477d12b34f1b88d734390e3f6bc6cf82e",
+      "object_id": 184501
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-pier1",
+    "building_id": "nyc:footprints:doitt:1263692",
+    "road_id": "nyc:roadbed:row:row-seax.8n6s~3erc",
+    "area_m2": 26.349630682222575,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00015000.json",
+      "sha256": "7a157c98f8fddc04841549a7153f308dd559daeb7326c6b87874d54ea8079238",
+      "object_id": 52555
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-pier1",
+    "building_id": "nyc:footprints:doitt:1264289",
+    "road_id": "nyc:roadbed:row:row-nb6s_dudp~knxp",
+    "area_m2": 24.64396692075469,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64283
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-pier1",
+    "building_id": "nyc:footprints:doitt:1264289",
+    "road_id": "nyc:roadbed:row:row-djm4_8gmd_bgzf",
+    "area_m2": 6.585865978694737,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018000.json",
+      "sha256": "2d731215199606c948209ddc91ef563cfbdd35025449ce43e143e67baa551ab0",
+      "object_id": 64283
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-pier1",
+    "building_id": "nyc:footprints:doitt:1281464",
+    "road_id": "nyc:roadbed:row:row-hi68_rmq9~jbx5",
+    "area_m2": 11.874236109957755,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00326000.json",
+      "sha256": "c05a959af8ac4ead11be88b6ea287b2e33257231a0d48bf3c8eb0948fd3ed951",
+      "object_id": 1076788
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-pier1",
+    "building_id": "nyc:footprints:doitt:191396",
+    "road_id": "nyc:roadbed:row:row-2h6h.zu8x.wedn",
+    "area_m2": 1.174311089730877,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00312500.json",
+      "sha256": "f0ab0948e303f1c38aa9c07081e614af0785cd11aac6f2e53c9956a6b93e4cdd",
+      "object_id": 1034046
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-pier1",
+    "building_id": "nyc:footprints:doitt:58291",
+    "road_id": "nyc:roadbed:row:row-cnu3_fq9y_ea4h",
+    "area_m2": 868.9363376896806,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00256500.json",
+      "sha256": "2372a028cd40cba91c9d8db2beea3ce61c3d966c2492a11dff7ae110276d1474",
+      "object_id": 856371
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "brooklyn-pier1",
+    "building_id": "nyc:footprints:doitt:58291",
+    "road_id": "nyc:roadbed:row:row-seax.8n6s~3erc",
+    "area_m2": 594.5738561165464,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00256500.json",
+      "sha256": "2372a028cd40cba91c9d8db2beea3ce61c3d966c2492a11dff7ae110276d1474",
+      "object_id": 856371
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-6f9m.da4h.7zyi",
+    "area_m2": 52.69964881015958,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-4r5e_tx3u~v72n",
+    "area_m2": 139.12466739861623,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-ggmj_z3xb~82uc",
+    "area_m2": 36.01367194166312,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-38cn.7w5k_vvbk",
+    "area_m2": 2.0584507007048116,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-5zvi-iujc-b7pz",
+    "area_m2": 172.83855757591246,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-7ppb.hgf2.geic",
+    "area_m2": 281.1896969413802,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-4uke_yyyu.2cri",
+    "area_m2": 1429.2413538071012,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:12677",
+    "road_id": "nyc:roadbed:row:row-xuzx_vsh3_2j52",
+    "area_m2": 428.215994737474,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00013500.json",
+      "sha256": "f050c1eab1e06f112a6eff477300044dafd8e6e1e0e736e0be0b518f07b4fa4c",
+      "object_id": 82330
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "st-george-ferry",
+    "building_id": "nyc:footprints:doitt:299154",
+    "road_id": "nyc:roadbed:row:row-6bh2.8bfz-v4x7",
+    "area_m2": 6.008787295952156,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-staten-island/page-00038500.json",
+      "sha256": "9b04c2f5b7f50e91b693f760b90a9af1cc97114fdbaa3c422e18c053f8d31b03",
+      "object_id": 288584
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "gowanus",
+    "building_id": "nyc:footprints:doitt:1008575",
+    "road_id": "nyc:roadbed:row:row-cynw~hb2r_6wqy",
+    "area_m2": 0.8384822980017329,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00018500.json",
+      "sha256": "5877d87d201d927118b940bb5660ca32c78e021e979d2e0b665e0a2363ca4c2b",
+      "object_id": 65768
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "gowanus",
+    "building_id": "nyc:footprints:doitt:1249947",
+    "road_id": "nyc:roadbed:row:row-v42j~7p5x_sb68",
+    "area_m2": 5.6861377463459615,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00020000.json",
+      "sha256": "d4eb8211c2505de5e88c961a15daca1abf59494af823d6cb1458dce3c4440e00",
+      "object_id": 72838
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "gowanus",
+    "building_id": "nyc:footprints:doitt:1249947",
+    "road_id": "nyc:roadbed:row:row-brqw_u9hp~5ieh",
+    "area_m2": 494.77369301655483,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00020000.json",
+      "sha256": "d4eb8211c2505de5e88c961a15daca1abf59494af823d6cb1458dce3c4440e00",
+      "object_id": 72838
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "gowanus",
+    "building_id": "nyc:footprints:doitt:1250310",
+    "road_id": "nyc:roadbed:row:row-zi4i~f99d.dux5",
+    "area_m2": 4.808333939241518,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00016500.json",
+      "sha256": "0aa247f6adf9403132501242d9e2bc801a43a2e4dc5d2804397ce4bb769e22eb",
+      "object_id": 55359
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "gowanus",
+    "building_id": "nyc:footprints:doitt:1297347",
+    "road_id": "nyc:roadbed:row:row-28nj_qgu4~dp5j",
+    "area_m2": 10.823351448906806,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00328000.json",
+      "sha256": "a7cc7906b805f85c1550999c65b6a9828db5ea2383247b951efade247adfc59f",
+      "object_id": 1085012
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "gowanus",
+    "building_id": "nyc:footprints:doitt:982368",
+    "road_id": "nyc:roadbed:row:row-36hs-7r7y-nrf9",
+    "area_m2": 1.3807313458000516,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-brooklyn/page-00324500.json",
+      "sha256": "bbcec6bbc028e72d8eb833c289e415fa1e9e679dd2945f7f11bbd92a90d24217",
+      "object_id": 1072503
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "bruckner",
+    "building_id": "nyc:footprints:doitt:1010816",
+    "road_id": "nyc:roadbed:row:row-aqcp-wgjc-a7wh",
+    "area_m2": 2.6493840028391666,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-bronx/page-00013000.json",
+      "sha256": "28c59a3ee38c554c99103a6c4fbf67022225dd8bf58773d3c962c041a3ebd51f",
+      "object_id": 119419
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queens-plaza",
+    "building_id": "nyc:footprints:doitt:1189083",
+    "road_id": "nyc:roadbed:row:row-uvr8.ib53.2cje",
+    "area_m2": 9.165611486124824,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00056000.json",
+      "sha256": "f272278c5bd48ebc1d7188a4b04c1ede562bb8dc2f6996f224825d707ef82174",
+      "object_id": 126305
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queens-plaza",
+    "building_id": "nyc:footprints:doitt:1259706",
+    "road_id": "nyc:roadbed:row:row-7jk2~u3w3_uj8j",
+    "area_m2": 7.241168479310575,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00022000.json",
+      "sha256": "9a761458b34adbbe9f4b0fd00197b578d0870aa8e3f457e65f64320c26f46bad",
+      "object_id": 57159
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queens-plaza",
+    "building_id": "nyc:footprints:doitt:1259706",
+    "road_id": "nyc:roadbed:row:row-5kqf.x4xt_f7ac",
+    "area_m2": 147.92036346669926,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00022000.json",
+      "sha256": "9a761458b34adbbe9f4b0fd00197b578d0870aa8e3f457e65f64320c26f46bad",
+      "object_id": 57159
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queens-plaza",
+    "building_id": "nyc:footprints:doitt:1259706",
+    "road_id": "nyc:roadbed:row:row-fjyg_b9c3-hq2j",
+    "area_m2": 1.9422122433224454,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00022000.json",
+      "sha256": "9a761458b34adbbe9f4b0fd00197b578d0870aa8e3f457e65f64320c26f46bad",
+      "object_id": 57159
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queens-plaza",
+    "building_id": "nyc:footprints:doitt:285104",
+    "road_id": "nyc:roadbed:row:row-9gf7.gw8k_y3pj",
+    "area_m2": 8.40810446000569,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00116500.json",
+      "sha256": "b21e9ac4a60bf71c584f50895053bd2f9234e7e1ea32abf75e5004f3a1ff1e44",
+      "object_id": 266154
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "queens-plaza",
+    "building_id": "nyc:footprints:doitt:802835",
+    "road_id": "nyc:roadbed:row:row-9gf7.gw8k_y3pj",
+    "area_m2": 1.0617842186100541,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00169000.json",
+      "sha256": "0a6111f703f1c1f6eeed0fdb9b3c4bb23824f0aa175ff3c3b6f76795f9a98dfb",
+      "object_id": 387141
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "morningside-slope",
+    "building_id": "nyc:footprints:doitt:1269538",
+    "road_id": "nyc:roadbed:row:row-ph3y_pzg9_ibs6",
+    "area_m2": 62.37999007220979,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+      "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+      "object_id": 66963
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "morningside-slope",
+    "building_id": "nyc:footprints:doitt:1269538",
+    "road_id": "nyc:roadbed:row:row-aa3v~egac_nx8y",
+    "area_m2": 5.255541636961937,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+      "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+      "object_id": 66963
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "morningside-slope",
+    "building_id": "nyc:footprints:doitt:1269914",
+    "road_id": "nyc:roadbed:row:row-s7xg.67eb.4myb",
+    "area_m2": 28.168009413909818,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+      "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+      "object_id": 66964
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "morningside-slope",
+    "building_id": "nyc:footprints:doitt:1269914",
+    "road_id": "nyc:roadbed:row:row-26u2-zmfz.sfgw",
+    "area_m2": 5.048984647711862,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00003000.json",
+      "sha256": "2748bb6164b93aa71a233422b70d18f055c379664946a179ad9b4ac7e6d6eb7b",
+      "object_id": 66964
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1265654",
+    "road_id": "nyc:roadbed:row:row-rtt7_fk48-sx45",
+    "area_m2": 28.63298384746083,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91156
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1265654",
+    "road_id": "nyc:roadbed:row:row-rvs3-jhvs.fevt",
+    "area_m2": 3.2007840799521867,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91156
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1266511",
+    "road_id": "nyc:roadbed:row:row-8id7.7md4_jkj8",
+    "area_m2": 21.859439123087498,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00027500.json",
+      "sha256": "b73c741786615d64d4418577b08d2ac08355c762d864bfbe38e8ffd2fbf5590c",
+      "object_id": 69814
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1266511",
+    "road_id": "nyc:roadbed:row:row-cfu7~hh45_uy5w",
+    "area_m2": 8.727340103829064,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00027500.json",
+      "sha256": "b73c741786615d64d4418577b08d2ac08355c762d864bfbe38e8ffd2fbf5590c",
+      "object_id": 69814
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1267203",
+    "road_id": "nyc:roadbed:row:row-dqbq~tidn_mw5v",
+    "area_m2": 34.57159945938007,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91155
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1267203",
+    "road_id": "nyc:roadbed:row:row-ar8q.hmsw.sstn",
+    "area_m2": 10.99266145192004,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91155
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1267706",
+    "road_id": "nyc:roadbed:row:row-is4h~76nn-ec4t",
+    "area_m2": 26.849979615641555,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91157
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:1267706",
+    "road_id": "nyc:roadbed:row:row-anqy_p9nd_78vj",
+    "area_m2": 3.6013666827852013,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91157
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:33246",
+    "road_id": "nyc:roadbed:row:row-8giu-qqvv.r3hv",
+    "area_m2": 0.5769135674237962,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00096000.json",
+      "sha256": "48fec3ee100f29fb2f9c313f8d7f19035ef0dc776abd0e5ee6f24847b14dd51a",
+      "object_id": 219216
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:381238",
+    "road_id": "nyc:roadbed:row:row-8giu-qqvv.r3hv",
+    "area_m2": 1.3702097806689273,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00269500.json",
+      "sha256": "9af31ee708821bcb2342c8559f66f7be7af55df8b6c6d4887707699b62c947c6",
+      "object_id": 621842
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:406596",
+    "road_id": "nyc:roadbed:row:row-8giu-qqvv.r3hv",
+    "area_m2": 0.9417974192572184,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00129000.json",
+      "sha256": "8708ec86b9ab2626bc507998600f42de5d2d8f53cf6572967fe8888a80875b14",
+      "object_id": 296289
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:58202",
+    "road_id": "nyc:roadbed:row:row-8giu-qqvv.r3hv",
+    "area_m2": 0.5471549714725006,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00264000.json",
+      "sha256": "089322b5de73008649f59ec23099e8a6960dddf9c6bb854f1ef56775115f7568",
+      "object_id": 608130
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:783276",
+    "road_id": "nyc:roadbed:row:row-f9wm-5x2i.hucr",
+    "area_m2": 7.5994579107514255,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00437000.json",
+      "sha256": "f9e3496413453efe3ff9a7908959d81c921d59b31be64755ae28700db345e251",
+      "object_id": 1003405
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:825954",
+    "road_id": "nyc:roadbed:row:row-cfu7~hh45_uy5w",
+    "area_m2": 0.748587740661891,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91153
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:897287",
+    "road_id": "nyc:roadbed:row:row-kjv2.g6zy.vhud",
+    "area_m2": 1.7778814768008375,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00068500.json",
+      "sha256": "f0303d9f9bda0cc1cd46d8c06da3bf67e6e29d3da1f492a47739f55a93209cc6",
+      "object_id": 154738
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:99541",
+    "road_id": "nyc:roadbed:row:row-k35c~pv6q.yxmx",
+    "area_m2": 1.1814739373901437,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91152
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:99541",
+    "road_id": "nyc:roadbed:row:row-rtt7_fk48-sx45",
+    "area_m2": 5.347547436245217,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91152
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "forest-hills",
+    "building_id": "nyc:footprints:doitt:99541",
+    "road_id": "nyc:roadbed:row:row-rvs3-jhvs.fevt",
+    "area_m2": 3.7310140565231764,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-queens/page-00032000.json",
+      "sha256": "f641758464d1e45f4efab9b03bf49c2ca9b320a5d846d662c0f3370cc1dae115",
+      "object_id": 91152
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  },
+  {
+    "preset": "grove-street",
+    "building_id": "nyc:footprints:doitt:559680",
+    "road_id": "nyc:roadbed:row:row-a3ie~kmn3_54he",
+    "area_m2": 1.1619029032734536,
+    "building_raw": {
+      "path": "data/raw/footprints/2026-10-27-city/city-manhattan/page-00004000.json",
+      "sha256": "858f605138d85eaff35b06da4cf0e5de025cf4a2559da88f4eb3c1179bfb7127",
+      "object_id": 110608
+    },
+    "reason": "overhead outline vs2D road, dates/level need review; NOT proven physical collision",
+    "geometry_modified": false
+  }
+]

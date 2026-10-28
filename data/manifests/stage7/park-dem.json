@@ -1,0 +1,56 @@
+[
+  {
+    "id": "prospect-park",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -73.97943027257423,
+      40.65130393315869,
+      -73.96212731680119,
+      40.67243908784274
+    ],
+    "raster": "data/raw/stage7/terrain/prospect-park.tif",
+    "sha256": "53fba4e60513fec4d3787da1bf4dbba07dbfcf404f7d9b1bd7b95c446cd3b247",
+    "masked_raster": "data/raw/stage7/terrain/prospect-park.lerc",
+    "masked_sha256": "793905ffe6437b11e66b844a2ea8d6c372b76a49de06106558c4e802fb2d14f0",
+    "export_metadata": "data/raw/stage7/terrain/prospect-park-export.json",
+    "lerc_export_metadata": "data/raw/stage7/terrain/prospect-park-lerc-export.json",
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "unresolved genericNAD83 vs NAD83(2011)",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "processing": "actual257x257 server bilinear resampling; LERC validity mask; display step2; not native resolution"
+  },
+  {
+    "id": "central-park",
+    "surface_kind": "bare_earth_dem",
+    "request_bbox_wgs84": [
+      -73.98226289740279,
+      40.764424057173116,
+      -73.94964041300456,
+      40.80026634044721
+    ],
+    "raster": "data/raw/stage7/terrain/central-park.tif",
+    "sha256": "f7ba888ec1baace8a3e4d4338e2057c971fbd519eeb767cdde70d3fe4b4f5f45",
+    "masked_raster": "data/raw/stage7/terrain/central-park.lerc",
+    "masked_sha256": "a2abf364bf1b34e0cd84c6a350adc25e0af9feb48164da271e056061fe5f944a",
+    "export_metadata": "data/raw/stage7/terrain/central-park-export.json",
+    "lerc_export_metadata": "data/raw/stage7/terrain/central-park-lerc-export.json",
+    "source_service": "https://elevation.its.ny.gov/arcgis/rest/services/NYC_TopoBathymetric_2017_1_meter/ImageServer",
+    "vertical_units": "metre",
+    "vertical_datum": "NAVD88",
+    "geoid_model": "GEOID12B",
+    "source_horizontal_frame": "unresolved genericNAD83 vs NAD83(2011)",
+    "source_capture_period": [
+      "2017-05-03",
+      "2017-07-26"
+    ],
+    "source_description_evidence": "data/raw/stage3/catalog/NYC_TopoBathymetric_2017_1_meter.json",
+    "processing": "actual257x257 server bilinear resampling; LERC validity mask; display step2; not native resolution"
+  }
+]

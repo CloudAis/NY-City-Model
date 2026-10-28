@@ -1,0 +1,17 @@
+{
+  "request_url": "http://web.mta.info/bandt/html/veraz.html",
+  "final_url": "https://www.mta.info/agency/bridges-and-tunnels/verrazzano-narrows-bridge",
+  "download_started_at": "2026-10-28T05:22:19.538899+00:00",
+  "download_completed_at": "2026-10-28T05:22:20.785948+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": "\"1793134905\"",
+  "last_modified_http": "Tue, 27 Oct 2026 21:01:45 GMT",
+  "bytes": 54454,
+  "sha256": "0addeea2f8c6527219165c30d3ca3d1c8cf6fa41ddabb93951277c3c558f3cb3",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

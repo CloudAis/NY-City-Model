@@ -1,0 +1,17 @@
+{
+  "request_url": "https://data.cityofnewyork.us/resource/enfh-gkve.json?%24where=upper%28signname%29+in+%28%27CENTRAL+PARK%27%2C%27PROSPECT+PARK%27%29&%24select=%3Aid+as+socrata_row_id%2Cacquisitiondate%2Cacres%2Caddress%2Cborough%2Cclass%2Ccommunityboard%2Ccouncildistrict%2Cdepartment%2Cgisobjid%2Cgispropnum%2Cglobalid%2Cjurisdiction%2Clocation%2Cmapped%2Cname311%2Cnys_assembly%2Cnys_senate%2Cobjectid%2Comppropid%2Cparentid%2Cpermit%2Cpermitdistrict%2Cpermitparent%2Cpip_ratable%2Cprecinct%2Cretired%2Csignname%2Csubcategory%2Ctypecategory%2Cus_congress%2Cwaterfront%2Czipcode%2Cmultipolygon&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "final_url": "https://data.cityofnewyork.us/resource/enfh-gkve.json?%24where=upper%28signname%29+in+%28%27CENTRAL+PARK%27%2C%27PROSPECT+PARK%27%29&%24select=%3Aid+as+socrata_row_id%2Cacquisitiondate%2Cacres%2Caddress%2Cborough%2Cclass%2Ccommunityboard%2Ccouncildistrict%2Cdepartment%2Cgisobjid%2Cgispropnum%2Cglobalid%2Cjurisdiction%2Clocation%2Cmapped%2Cname311%2Cnys_assembly%2Cnys_senate%2Cobjectid%2Comppropid%2Cparentid%2Cpermit%2Cpermitdistrict%2Cpermitparent%2Cpip_ratable%2Cprecinct%2Cretired%2Csignname%2Csubcategory%2Ctypecategory%2Cus_congress%2Cwaterfront%2Czipcode%2Cmultipolygon&%24order=%3Aid+ASC&%24limit=500&%24offset=0",
+  "download_started_at": "2026-10-28T05:25:51.526425+00:00",
+  "download_completed_at": "2026-10-28T05:25:51.911629+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": "W/\"aG90ZWwuMzEzNTdfNF8xNjhLUWVON2ZBaFBiRXJyTDhmb0M1VWwtXzJQTTQ---gzipOnYjCGob0Zwy_yJItMcapw9zmFw--gzip--gzip\"",
+  "last_modified_http": "Fri, 16 Oct 2026 13:05:07 GMT",
+  "bytes": 14578,
+  "sha256": "fe7c2d188390dc96df2391b4a23d31a7a486b00a83796e1de85b8c086d22e63d",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

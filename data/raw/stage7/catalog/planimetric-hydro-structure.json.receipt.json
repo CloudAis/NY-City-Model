@@ -1,0 +1,17 @@
+{
+  "request_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Planimetric%20Hydro%20Structure&limit=4",
+  "final_url": "https://api.us.socrata.com/api/catalog/v1?search_context=data.cityofnewyork.us&q=Planimetric%20Hydro%20Structure&limit=4",
+  "download_started_at": "2026-10-28T05:20:03.488333+00:00",
+  "download_completed_at": "2026-10-28T05:20:04.305172+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "application/json;charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 130,
+  "sha256": "04dac2aa973bee1e2cb2f14bf9afa3b5ace65042219b1961145009640dc1b41c",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

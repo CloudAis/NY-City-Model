@@ -1,3 +1,21 @@
+# 第7/8部分接续入口
+
+固定/workspace/nyc-3d-html。先读AGENTS、全部docs、reports/ENVIRONMENT_REVIEW.md、INTERACTION_REVIEW.md、stage7/quality.json和stage8/browser.json。保持原坐标/轮廓与数据原件；不要另起演示或推定已完成全部物理环境。
+
+可直接输入：
+
+1. assets/environment/manifest、25区域3D Tiles/context、parks-source、桥梁dossiers与data/manifests/stage7，219原始载荷本地保留。用acquire_environment复核更新，变化另存版本。
+2. scripts/build_environment.py --vectors-only生成真实边界输入，acquire_park_terrain取两公园，再完整build_environment产生八区碰撞。新terrain-manifest不修改旧foundation六区资产。
+3. src/inspection的core/search/ground/main与inspection.html；搜索静态分片775MB、大环境145MB本地缓存，源码Git只留清单/脚本和小碰撞。没有数据恢复时明确失败，不生成替代楼群。
+4. reports/stage7的121道路候选、1633树投影候选、14几何修复、25真实观察截图/记录、input-integrity；它们不是独立测量或已确认建筑侵路。
+5. 第8部分完整验证记录、三入口回归与offline overlay；真实手机/硬件GPU/多浏览器未测。
+
+优先继续解决DEM实际参考框架/格网、桥面绝对高程/宽度/引桥纵断/塔截面、同年代道路/基础关系，逐桥真实模型与桥下碰撞后才解除地面限制。再补有日期许可的路灯/设施/公园路径资料。既有建筑canonical高度仍空、当前完整立面/可信主体未完成；不把交互或来源数量当作几何完成。
+
+当前范围止于用户授权第7/8部分；后续工作待用户明确指定，不自动引入交通、动态人车或艺术夜景。
+
+---
+
 # 当前阶段6接续：完整街段外观尚未完成
 
 固定/workspace/nyc-3d-html，先读AGENTS、全部docs、reports/FACADE_REVIEW.md与stage6/quality.json。用户已授权普通建筑阶段，保留地标未完成项，不重建独立演示。

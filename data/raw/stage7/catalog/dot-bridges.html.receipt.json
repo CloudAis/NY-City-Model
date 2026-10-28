@@ -1,0 +1,17 @@
+{
+  "request_url": "https://www.nyc.gov/html/dot/html/infrastructure/bridges.shtml",
+  "final_url": "https://www.nyc.gov/html/dot/html/infrastructure/bridges.shtml",
+  "download_started_at": "2026-10-28T05:19:24.305032+00:00",
+  "download_completed_at": "2026-10-28T05:19:24.716666+00:00",
+  "http_method": "GET",
+  "request_body_sha256": null,
+  "request_body": null,
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "etag": null,
+  "last_modified_http": null,
+  "bytes": 33122,
+  "sha256": "b3ff8dbecefc509512d3f81a281e45b37acb8a2c57063e44c32637a6bef82929",
+  "resumed_from_bytes": 0,
+  "pipeline_version": "0.1.0-stage2"
+}

@@ -1,0 +1,71 @@
+{
+  "observations": 25,
+  "park_records": 2,
+  "source_unique_features": {
+    "transport": 257,
+    "rail": 1268,
+    "rail-structure": 2095,
+    "sidewalk": 2872,
+    "median": 1568,
+    "piers": 218,
+    "parks": 2,
+    "trees": 24164
+  },
+  "road_building_overlap_candidates": 121,
+  "tree_overlap_candidates": 1633,
+  "walks": [
+    {
+      "id": "lower-manhattan",
+      "allowed_triangles": 288,
+      "available": true,
+      "collision": "collision/lower-manhattan.json"
+    },
+    {
+      "id": "midtown",
+      "allowed_triangles": 59,
+      "available": true,
+      "collision": "collision/midtown.json"
+    },
+    {
+      "id": "brooklyn-dumbo",
+      "allowed_triangles": 460,
+      "available": true,
+      "collision": "collision/brooklyn-dumbo.json"
+    },
+    {
+      "id": "queens-lic",
+      "allowed_triangles": 701,
+      "available": true,
+      "collision": "collision/queens-lic.json"
+    },
+    {
+      "id": "bronx-mott-haven",
+      "allowed_triangles": 560,
+      "available": true,
+      "collision": "collision/bronx-mott-haven.json"
+    },
+    {
+      "id": "staten-st-george",
+      "allowed_triangles": 241,
+      "available": true,
+      "collision": "collision/staten-st-george.json"
+    },
+    {
+      "id": "prospect-park",
+      "allowed_triangles": 9834,
+      "available": true,
+      "collision": "collision/prospect-park.json"
+    },
+    {
+      "id": "central-park",
+      "allowed_triangles": 4565,
+      "available": true,
+      "collision": "collision/central-park.json"
+    }
+  ],
+  "physical_road_surfaces_verified": 0,
+  "physical_bridge_decks_verified": 0,
+  "global_z_alignment_verified": false,
+  "geometry_repairs": "make_valid derived; original raw retained; no building geometry modified",
+  "cross_border_structures": "no NJ approach acquired as NYC coverage; selected five main bridges are NYC bridges, maritime jurisdiction not inferred from shore-clipped polygons"
+}

@@ -54,3 +54,11 @@ canonical_height_m和ground_ellipsoid_m保持null。relative_height_raw_ft是来
 state=source_outline_only或excluded_placeholder；reasons包含单位、地面基准、墙线、屋顶部件、观测日、缺失/异常楼高及非普通主体类型原因。历史/拆除状态不能仅由旧模型或编辑日判断；本阶段未确认。GLB严格/假设有相同源ID与parts表，模型表现不是新建筑实体。
 
 工业抽查的parcel_context保留PLUTO LandUse06、主建筑分类和numbldgs；它不等于被抽查单栋的用途。complex_outline标签不等于复杂屋顶证据。原始来源、管线数值误差与现实实测误差分开记录。
+
+## 第7/8部分字段
+- environment feature：id（来源dataset/row稳定键）、source_dataset、kind/code、geometry/geometry_metric、source_period、原properties、canonical_height_m=null、vertical_state。rail.possible_hidden_underground对2400为true，render_as_ground_track始终false。树木ID为nyc:trees2015:<tree_id>，不是当前树冠。
+- transport/pier：保留原Z但source_z_not_interpreted=true，不猜foot/基准。桥梁dossier.source_values逐项quantity/source_value/source_unit/value_m/source_quote/path/SHA/status，independently_verified=false；deck_absolute_elevation_m/width等未知不填。
+- collision：terrain_source_sha256、allowed_triangle_offsets、ground层、spawn、1.7m眼高、1.4m/s、25°限制、1m操作缓冲；bridge_decks/tunnel_interiors为空，current_real_world_walkability_verified=false。碰撞体不等同渲染所有细节。
+- Search：1,082,964来源记录；id/BIN/BBL/borough/name/address/aliases/bbox/raw引用/日期/证据。2253条具有来源名称或明确别名/地址，不制造缺失名称，不用地块地址无条件覆盖楼。BIN非唯一，返回多对象。
+- Bookmark schema1：相机ECEF位置/heading/pitch/roll、mode、preset、quality、layers、selectedId、savedAt、lighting.mode=neutral-fixed/datetime=null；localWalk为独立局部范围+位置/朝向，恢复须通过碰撞检查。未知版本拒绝替换；最多12条。保存日不是测绘年代。
+- reports/stage7/coverage：新源行去重数；conflicts数量为观察区候选对/点行数（不同观察区可重复），不是已证实物理冲突数。observations是导航点，不是实测控制点。
