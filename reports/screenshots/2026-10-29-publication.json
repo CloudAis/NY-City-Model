@@ -1,0 +1,191 @@
+{
+  "verified_at_utc": "2026-10-29T00:46:36.284076+00:00",
+  "repository": "CloudAis/NY-City-Model",
+  "branch": "main",
+  "screenshot_commit": "6aa8774472295011f6554cb21d381cae074ff252",
+  "gallery_url": "https://github.com/CloudAis/NY-City-Model/tree/main/reports/screenshots/2026-10-29",
+  "zip_url": "https://github.com/CloudAis/NY-City-Model/raw/refs/heads/main/reports/screenshots/2026-10-29/nyc-20-views-2026-10-29.zip",
+  "png_count": 20,
+  "remote_file_count": 26,
+  "all_remote_git_objects_and_sizes_match": true,
+  "files": [
+    {
+      "path": "reports/screenshots/2026-10-29/01-manhattan-brooklyn-head-oblique.png",
+      "bytes": 359761,
+      "git_blob_sha1": "02dd09b57935f16e077a8a7bb942a3d68262e5e1",
+      "sha256": "68a549f8539c0d4801702734cc74dc8a0be502ad1856d7f96215ae1cf2918974"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/02-manhattan-brooklyn-head-top.png",
+      "bytes": 410979,
+      "git_blob_sha1": "617fe13842cc3850a5d91bf6172d37a0d1b899b4",
+      "sha256": "df7972478b70ca220e503edf00a43849ca6aaf363934e73513800e056ee65562"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/03-manhattan-central-south-oblique.png",
+      "bytes": 425519,
+      "git_blob_sha1": "32aeeec12582c872c3cd822231f088a065c99856",
+      "sha256": "8eca4bb34e3086f7593db52ef411e5bc48bcc36d654eb2a362468abf8dd466f2"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/04-manhattan-central-south-top.png",
+      "bytes": 391332,
+      "git_blob_sha1": "4c3ebcfe36181d31b822a08edd4098c6d87ba61b",
+      "sha256": "76ad6f8444f76afe6464ff9b4069c1a92655cb30972ba1b4aaa4277bc7adddc1"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/05-brooklyn-manhattan-head-oblique.png",
+      "bytes": 303927,
+      "git_blob_sha1": "c98d3c57bc5aa6645c650a71cf2d27b82dc34549",
+      "sha256": "f57eed39ff9d9d4240465d02ff3ddebd4c60cf52faaf5d54842f716c16d7a180"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/06-brooklyn-manhattan-head-top.png",
+      "bytes": 199542,
+      "git_blob_sha1": "8ee70f3f6002ebd08654804d3943a371d14e46f8",
+      "sha256": "d4b98df65e26dc876b8354e7957be988f4dbcbe65f2894f18941ce32d085a9bc"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/07-brooklyn-prospect-north-oblique.png",
+      "bytes": 528049,
+      "git_blob_sha1": "82c221e5ea5f6018f381eb686ae2f4502b9fab33",
+      "sha256": "d8ba0a4f44f64b96a45cac1fac3418600bf20a3899e709b5c32df669b6b75f98"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/08-brooklyn-prospect-north-top.png",
+      "bytes": 507178,
+      "git_blob_sha1": "81b0fb3cf9611730ff19db2c0cf7b6502685d7fd",
+      "sha256": "886998b7f8965ca868cbda81d695c1fdef1958c8368d117955e6afeefd3bce15"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/09-queens-queens-plaza-oblique.png",
+      "bytes": 338109,
+      "git_blob_sha1": "bc09068afa8ecfed936cc3ee35bebd2208b88b62",
+      "sha256": "c7f6b60936f55e5c6f4026484732f2273aebcc08313ce4c1d696196b826c73f0"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/10-queens-queens-plaza-top.png",
+      "bytes": 404440,
+      "git_blob_sha1": "2b6d37d0f03470a76742c9f71b6303274cbd5ffd",
+      "sha256": "6da3d0bc47afeee65cfbee3930c08e583bd6b27967922038bc10f7ab88023aa0"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/11-queens-forest-hills-oblique.png",
+      "bytes": 514234,
+      "git_blob_sha1": "ff6280de98c3ba88a3ecfae1fce4bac8cb45e2be",
+      "sha256": "e34f6e527fa47a91742a7f94501dcf0fbceced16c9c10b889dd2d8de90534177"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/12-queens-forest-hills-top.png",
+      "bytes": 489730,
+      "git_blob_sha1": "8bb07ed86f692b5ca57951fcc40e06693db72691",
+      "sha256": "0cee79fae1c17253fbc89d72ccad26a8981c8bd2d1544c93f68ed997c52f6a3f"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/13-bronx-bruckner-oblique.png",
+      "bytes": 328750,
+      "git_blob_sha1": "2b758cc2c76b03d26dc77107d310beac3c3a1fd4",
+      "sha256": "4066fe25b0622dae8deb8e3c2054ef6401ed09235ceaf85fc5e549a3c0524867"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/14-bronx-bruckner-top.png",
+      "bytes": 318147,
+      "git_blob_sha1": "7fd9d57118406ea4f4bff7e68bcd2b915133c82b",
+      "sha256": "8963b3ef486fd8a5c21714387179128e7b2b5128d90b8efb45da222be236ace5"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/15-bronx-highbridge-oblique.png",
+      "bytes": 435040,
+      "git_blob_sha1": "e18aad23df26f5983f228384bcf663d92cc5226b",
+      "sha256": "9bf4e31bdfe8383564711a98900a2bf62011a25d8a209bc3df4418f64bf29a89"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/16-bronx-highbridge-top.png",
+      "bytes": 395358,
+      "git_blob_sha1": "e291a7c6cc6b5b48d2aabed03076db8613187008",
+      "sha256": "47be39b8c901add771e4aaf7b3027fd0608924ad86a5f1509ff4654233600136"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/17-staten-island-st-george-ferry-oblique.png",
+      "bytes": 222447,
+      "git_blob_sha1": "1ab3f50cc1c14dacce85cefa8588bae2cca26404",
+      "sha256": "98a8ce0fa61e50b275f0eadd6d746bb17aabf140cc0ad0830b90fe83f51c7935"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/18-staten-island-st-george-ferry-top.png",
+      "bytes": 220740,
+      "git_blob_sha1": "93f8590bedc826a0a85d75978048b907891cbb90",
+      "sha256": "e186e3a41fe360802d5516c321c0ec40ebd2b20d873b404caf9ada567559dfb1"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/19-staten-island-st-george-slope-oblique.png",
+      "bytes": 325825,
+      "git_blob_sha1": "f1c4f61496f5e1055f56eac74b0b733bc6f79b5b",
+      "sha256": "b5d271267650cb136a2ff0caf931319812b0cd7b40c1e19487dfef2dd373861d"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/20-staten-island-st-george-slope-top.png",
+      "bytes": 368523,
+      "git_blob_sha1": "3f06a5bae5cf00e3a92b0a0437c972e47f1d1050",
+      "sha256": "be231dcbf27dcd098dffaea82b0d28bfd531538db42f5d89c9d61cd5bc59c69a"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/README.md",
+      "bytes": 6880,
+      "git_blob_sha1": "c5697a200d319dcabb32d8636e50baa2f7e5e2e6",
+      "sha256": "8eec0177b097203cd5f6fd61753c3e8462ddd4b13a6fd00cfd01b9db14f746b4"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/SHA256SUMS",
+      "bytes": 2036,
+      "git_blob_sha1": "64af1d495676fe7dc6ea1c518f896419fd5f00ae",
+      "sha256": "afdddd6dc3344f33e4d796c8372bd820b515a5169838c37cb9e9631033b71d9a"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/VALIDATION.md",
+      "bytes": 2360,
+      "git_blob_sha1": "b3eddd6f95145e26d163e15c7bf2fad2f7c2b4f9",
+      "sha256": "2bd92da2257cb265a8e07541372f52fe6dc7f29b7b0b9b7280d2b9e27018cc8d"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/ZIP_SHA256SUMS",
+      "bytes": 94,
+      "git_blob_sha1": "ec1a4daa0c3c5d1b5334410c8ccb90af7b8775f9",
+      "sha256": "5b773153dc9cb67d35b087e7772146179c57c3b4121554b9b1d795344d21b30f"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/manifest.json",
+      "bytes": 137270,
+      "git_blob_sha1": "f61fcee879a50e1a06a52f567612a02cb1340bbb",
+      "sha256": "7f37cb4f2299e76a67250c1888f655faea026c6458afe96bd101df1077f07125"
+    },
+    {
+      "path": "reports/screenshots/2026-10-29/nyc-20-views-2026-10-29.zip",
+      "bytes": 7378340,
+      "git_blob_sha1": "33d19297f968442e2ae9def882df5b9ecc950f25",
+      "sha256": "b3d4b6b6b44b7e81d1e9b4a8e6db8ab1d098ea6f8ebde95c4686e71dde7fdbe8"
+    }
+  ],
+  "binary_readbacks": [
+    {
+      "file": "01-manhattan-brooklyn-head-oblique.png",
+      "bytes": 359761,
+      "sha256": "68a549f8539c0d4801702734cc74dc8a0be502ad1856d7f96215ae1cf2918974",
+      "actual_github_binary_readback": true
+    },
+    {
+      "file": "20-staten-island-st-george-slope-top.png",
+      "bytes": 368523,
+      "sha256": "be231dcbf27dcd098dffaea82b0d28bfd531538db42f5d89c9d61cd5bc59c69a",
+      "actual_github_binary_readback": true
+    },
+    {
+      "file": "nyc-20-views-2026-10-29.zip",
+      "bytes": 7378340,
+      "sha256": "b3d4b6b6b44b7e81d1e9b4a8e6db8ab1d098ea6f8ebde95c4686e71dde7fdbe8",
+      "actual_github_binary_readback": true
+    }
+  ],
+  "offline_package_branch_unchanged": "94da9bb040f26ffe15a97e30134edf93c28b0b71",
+  "scope": "Actual screenshots of existing strict source outlines/reference environment; no new 3D building claim."
+}
