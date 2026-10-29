@@ -1,0 +1,4775 @@
+{
+  "schema": 1,
+  "started_at_utc": "2026-10-29T00:41:41.034Z",
+  "user_timezone": "Asia/Taipei",
+  "source_commit": "64cde3fe8d378612eed762db90169515bd26b3ab",
+  "runtime_root": "/tmp/nyc-final-release-20261028",
+  "origin": "http://127.0.0.1:8080",
+  "entry": "/index.html",
+  "viewport": {
+    "width": 1600,
+    "height": 1000,
+    "deviceScaleFactor": 1
+  },
+  "quality": "high",
+  "automatic_quality": false,
+  "screenshot_method": "Existing #screenshot UI exports its actual WebGL canvas and source credit strip; no image synthesis or geometry changes",
+  "scope": "Source-defined footprints and reference environment projections; not verified 3D buildings, bridge decks, or global ground elevations.",
+  "city_body_evidence": "source outlines only",
+  "independently_verified_building_dimensions": false,
+  "world_ground_registered": false,
+  "target_count": 20,
+  "environment": {
+    "system": "Linux",
+    "release": "6.18.55",
+    "arch": "x64",
+    "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+    "logical_cpus": 5,
+    "node": "v24.19.0",
+    "hardware_gpu_tested": false,
+    "headless": true,
+    "browser": "154.0.8037.57",
+    "launch_args": [
+      "--no-sandbox",
+      "--disable-dev-shm-usage",
+      "--use-angle=swiftshader",
+      "--enable-unsafe-swiftshader"
+    ],
+    "webgl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "vendor": "Google Inc. (Google)",
+      "gpu_memory_measured_bytes": null
+    }
+  },
+  "runtime_locks": [
+    {
+      "path": "delivery-manifest.json",
+      "sha256": "9307c95280e81ccdd17a6637c7d8fa3fbacdc7d76aca85ae56f20a9f120dc71e"
+    },
+    {
+      "path": "app/index.html",
+      "sha256": "8643faea0a6b27ec8c5c78ee8ff3196777f5aeee2bb28bc23b467e67961ad137"
+    },
+    {
+      "path": "app/inspection.html",
+      "sha256": "c052e71dd3cd0ca83ab362d20dcbeeecc4c8a162c7b4c25f415a8908853b59d0"
+    },
+    {
+      "path": "app/datasets/environment/manifest.json",
+      "sha256": "3f7303d6345f71bbca29f4caaf0aecceae091db76bcb6c49a679d3a612bd43cf"
+    },
+    {
+      "path": "app/datasets/buildings-city/manifest.json",
+      "sha256": "f0ec679a4d4ff41853e5d2bcbd61122ceecc85c807c945894e3af95e275854bb"
+    },
+    {
+      "path": "app/datasets/buildings-city/manhattan/strict.json",
+      "sha256": "50cbdfa2339f57cb9edeba123b21dcfe78726941fd02d57882e2190b20e4bdab"
+    },
+    {
+      "path": "app/datasets/buildings-city/brooklyn/strict.json",
+      "sha256": "4b3b795e4440f95f98e86334368c08e54fbeda6e536193fce0568273d28377f4"
+    },
+    {
+      "path": "app/datasets/buildings-city/queens/strict.json",
+      "sha256": "fbe3d97118e02fc9e1269c0c899053315b071c81d28f17b6769b25a278b8b9ee"
+    },
+    {
+      "path": "app/datasets/buildings-city/bronx/strict.json",
+      "sha256": "bbbfe3957886beca8afc20adc16c9c56d5632f05ddb738383228f29fa139cdab"
+    },
+    {
+      "path": "app/datasets/buildings-city/staten-island/strict.json",
+      "sha256": "def576d769fd9345bbe2a1d16efea47387fab1ae8bd8e3a6f265fc99a8916d02"
+    }
+  ],
+  "views": [
+    {
+      "sequence": 1,
+      "file": "01-manhattan-brooklyn-head-oblique.png",
+      "label": "曼哈顿 · 布鲁克林大桥曼哈顿桥头",
+      "borough": "manhattan",
+      "preset": "brooklyn-head",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:41:54.407Z",
+      "png_bytes": 359761,
+      "sha256": "68a549f8539c0d4801702734cc74dc8a0be502ad1856d7f96215ae1cf2918974",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -74.0032,
+      "target_latitude_degrees": 40.7119,
+      "camera": {
+        "ecef_metres": [
+          1333748.03116993,
+          -4654814.698678103,
+          4139655.4158890587
+        ],
+        "height_above_display_ellipsoid_m": 1392.633031238191,
+        "heading_radians": 2.3561004517275883,
+        "pitch_radians": -0.9600845248813039
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 35,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 9,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 2,
+      "file": "02-manhattan-brooklyn-head-top.png",
+      "label": "曼哈顿 · 布鲁克林大桥曼哈顿桥头",
+      "borough": "manhattan",
+      "preset": "brooklyn-head",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:41:58.119Z",
+      "png_bytes": 410979,
+      "sha256": "df7972478b70ca220e503edf00a43849ca6aaf363934e73513800e056ee65562",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -74.0032,
+      "target_latitude_degrees": 40.7119,
+      "camera": {
+        "ecef_metres": [
+          1334598.975801905,
+          -4655281.010562142,
+          4139333.3170779366
+        ],
+        "height_above_display_ellipsoid_m": 1700.0000000014347,
+        "heading_radians": 6.283185307179586,
+        "pitch_radians": -1.5707954402071111
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 36,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 9,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 3,
+      "file": "03-manhattan-central-south-oblique.png",
+      "label": "曼哈顿 · 中央公园南界",
+      "borough": "manhattan",
+      "preset": "central-south",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:42:03.878Z",
+      "png_bytes": 425519,
+      "sha256": "8eca4bb34e3086f7593db52ef411e5bc48bcc36d654eb2a362468abf8dd466f2",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9738,
+      "target_latitude_degrees": 40.7684,
+      "camera": {
+        "ecef_metres": [
+          1335968.28050491,
+          -4651047.090901047,
+          4143149.2101973365
+        ],
+        "height_above_display_ellipsoid_m": 1392.6331746113972,
+        "heading_radians": 1.4033219031261979e-13,
+        "pitch_radians": -0.9600835789223887
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 86,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 9,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 4,
+      "file": "04-manhattan-central-south-top.png",
+      "label": "曼哈顿 · 中央公园南界",
+      "borough": "manhattan",
+      "preset": "central-south",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:42:07.020Z",
+      "png_bytes": 391332,
+      "sha256": "76ad6f8444f76afe6464ff9b4069c1a92655cb30972ba1b4aaa4277bc7adddc1",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9738,
+      "target_latitude_degrees": 40.7684,
+      "camera": {
+        "ecef_metres": [
+          1335856.7764569512,
+          -4650658.900114298,
+          4144088.4524154994
+        ],
+        "height_above_display_ellipsoid_m": 1699.999999999394,
+        "heading_radians": 6.283185307179585,
+        "pitch_radians": -1.5707954399566981
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 86,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 9,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 5,
+      "file": "05-brooklyn-manhattan-head-oblique.png",
+      "label": "布鲁克林 · DUMBO曼哈顿大桥桥头",
+      "borough": "brooklyn",
+      "preset": "manhattan-head",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:42:11.547Z",
+      "png_bytes": 303927,
+      "sha256": "f57eed39ff9d9d4240465d02ff3ddebd4c60cf52faaf5d54842f716c16d7a180",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.986,
+      "target_latitude_degrees": 40.7035,
+      "camera": {
+        "ecef_metres": [
+          1336906.8562722804,
+          -4655506.215245921,
+          4137732.0534607656
+        ],
+        "height_above_display_ellipsoid_m": 1302.3692204578122,
+        "heading_radians": 5.5851483009010545,
+        "pitch_radians": -0.8728355412355144
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 93,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 20,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 6,
+      "file": "06-brooklyn-manhattan-head-top.png",
+      "label": "布鲁克林 · DUMBO曼哈顿大桥桥头",
+      "borough": "brooklyn",
+      "preset": "manhattan-head",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:42:14.424Z",
+      "png_bytes": 199542,
+      "sha256": "d4b98df65e26dc876b8354e7957be988f4dbcbe65f2894f18941ce32d085a9bc",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.986,
+      "target_latitude_degrees": 40.7035,
+      "camera": {
+        "ecef_metres": [
+          1336164.2941938837,
+          -4655465.08243464,
+          4138626.0180967166
+        ],
+        "height_above_display_ellipsoid_m": 1699.9999999991996,
+        "heading_radians": 6.283185307179586,
+        "pitch_radians": -1.5707954399566981
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 93,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 22,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 7,
+      "file": "07-brooklyn-prospect-north-oblique.png",
+      "label": "布鲁克林 · 展望公园北界",
+      "borough": "brooklyn",
+      "preset": "prospect-north",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:42:22.632Z",
+      "png_bytes": 528049,
+      "sha256": "d8ba0a4f44f64b96a45cac1fac3418600bf20a3899e709b5c32df669b6b75f98",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9696,
+      "target_latitude_degrees": 40.6735,
+      "camera": {
+        "ecef_metres": [
+          1337856.8374535893,
+          -4656335.554681219,
+          4136638.3918969543
+        ],
+        "height_above_display_ellipsoid_m": 1392.6331757675061,
+        "heading_radians": 3.1415926535897976,
+        "pitch_radians": -0.9600850339713709
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 93,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 101,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 8,
+      "file": "08-brooklyn-prospect-north-top.png",
+      "label": "布鲁克林 · 展望公园北界",
+      "borough": "brooklyn",
+      "preset": "prospect-north",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:42:28.225Z",
+      "png_bytes": 507178,
+      "sha256": "886998b7f8965ca868cbda81d695c1fdef1958c8368d117955e6afeefd3bce15",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9696,
+      "target_latitude_degrees": 40.6735,
+      "camera": {
+        "ecef_metres": [
+          1338096.721341553,
+          -4657170.457075294,
+          4136099.2306069196
+        ],
+        "height_above_display_ellipsoid_m": 1700.0000000004022,
+        "heading_radians": 6.283185307179586,
+        "pitch_radians": -1.5707954404575952
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 93,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 9,
+      "file": "09-queens-queens-plaza-oblique.png",
+      "label": "皇后区 · Queens Plaza",
+      "borough": "queens",
+      "preset": "queens-plaza",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:42:34.984Z",
+      "png_bytes": 338109,
+      "sha256": "c7f6b60936f55e5c6f4026484732f2273aebcc08313ce4c1d696196b826c73f0",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9405,
+      "target_latitude_degrees": 40.7505,
+      "camera": {
+        "ecef_metres": [
+          1339655.0096934568,
+          -4651026.356856595,
+          4142111.7556092064
+        ],
+        "height_above_display_ellipsoid_m": 1472.2997860328753,
+        "heading_radians": 5.236087796123114,
+        "pitch_radians": -1.04733034266002
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 95,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 37,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 10,
+      "file": "10-queens-queens-plaza-top.png",
+      "label": "皇后区 · Queens Plaza",
+      "borough": "queens",
+      "preset": "queens-plaza",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:42:37.844Z",
+      "png_bytes": 404440,
+      "sha256": "6da3d0bc47afeee65cfbee3930c08e583bd6b27967922038bc10f7ab88023aa0",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9405,
+      "target_latitude_degrees": 40.7505,
+      "camera": {
+        "ecef_metres": [
+          1338918.599991782,
+          -4651129.20096836,
+          4142582.3902935255
+        ],
+        "height_above_display_ellipsoid_m": 1699.9999999992501,
+        "heading_radians": 6.283185307179586,
+        "pitch_radians": -1.5707954400818958
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 95,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 44,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 11,
+      "file": "11-queens-forest-hills-oblique.png",
+      "label": "皇后区 · Forest Hills Gardens",
+      "borough": "queens",
+      "preset": "forest-hills",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:42:46.301Z",
+      "png_bytes": 514234,
+      "sha256": "e34f6e527fa47a91742a7f94501dcf0fbceced16c9c10b889dd2d8de90534177",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.8421,
+      "target_latitude_degrees": 40.7172,
+      "camera": {
+        "ecef_metres": [
+          1347688.3523183411,
+          -4651528.371410138,
+          4138839.94091752
+        ],
+        "height_above_display_ellipsoid_m": 1392.6331752755698,
+        "heading_radians": 6.283185307179537,
+        "pitch_radians": -0.9600835804785253
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 95,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 130,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 12,
+      "file": "12-queens-forest-hills-top.png",
+      "label": "皇后区 · Forest Hills Gardens",
+      "borough": "queens",
+      "preset": "forest-hills",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:42:49.270Z",
+      "png_bytes": 489730,
+      "sha256": "0cee79fae1c17253fbc89d72ccad26a8981c8bd2d1544c93f68ed997c52f6a3f",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.8421,
+      "target_latitude_degrees": 40.7172,
+      "camera": {
+        "ecef_metres": [
+          1347576.189884876,
+          -4651141.244267151,
+          4139779.5436781016
+        ],
+        "height_above_display_ellipsoid_m": 1700.000000001632,
+        "heading_radians": 6.283185307179585,
+        "pitch_radians": -1.5707954400818958
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 95,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 13,
+      "file": "13-bronx-bruckner-oblique.png",
+      "label": "布朗克斯 · Mott Haven / Bruckner",
+      "borough": "bronx",
+      "preset": "bruckner",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:42:55.560Z",
+      "png_bytes": 328750,
+      "sha256": "4066fe25b0622dae8deb8e3c2054ef6401ed09235ceaf85fc5e549a3c0524867",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9245,
+      "target_latitude_degrees": 40.8043,
+      "camera": {
+        "ecef_metres": [
+          1339248.606034841,
+          -4647393.3042292325,
+          4146168.792850819
+        ],
+        "height_above_display_ellipsoid_m": 1392.6331741453573,
+        "heading_radians": 5.5067062021407764e-14,
+        "pitch_radians": -0.960083577832799
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 116,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 32,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 14,
+      "file": "14-bronx-bruckner-top.png",
+      "label": "布朗克斯 · Mott Haven / Bruckner",
+      "borough": "bronx",
+      "preset": "bruckner",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:42:58.428Z",
+      "png_bytes": 318147,
+      "sha256": "8963b3ef486fd8a5c21714387179128e7b2b5128d90b8efb45da222be236ace5",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9245,
+      "target_latitude_degrees": 40.8043,
+      "camera": {
+        "ecef_metres": [
+          1339136.6050734506,
+          -4647004.6441136375,
+          4147107.7818194446
+        ],
+        "height_above_display_ellipsoid_m": 1699.9999999990362,
+        "heading_radians": 6.2831853071795845,
+        "pitch_radians": -1.5707954398315178
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 116,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 32,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 15,
+      "file": "15-bronx-highbridge-oblique.png",
+      "label": "布朗克斯 · High Bridge桥头坡地",
+      "borough": "bronx",
+      "preset": "highbridge",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:43:05.792Z",
+      "png_bytes": 435040,
+      "sha256": "9bf4e31bdfe8383564711a98900a2bf62011a25d8a209bc3df4418f64bf29a89",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9324,
+      "target_latitude_degrees": 40.8427,
+      "camera": {
+        "ecef_metres": [
+          1337038.173198012,
+          -4644920.006719771,
+          4149490.9379221327
+        ],
+        "height_above_display_ellipsoid_m": 1302.369187519755,
+        "heading_radians": 0.7852934455672687,
+        "pitch_radians": -0.8728355206280356
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 136,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 59,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 16,
+      "file": "16-bronx-highbridge-top.png",
+      "label": "布朗克斯 · High Bridge桥头坡地",
+      "borough": "bronx",
+      "preset": "highbridge",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:43:10.197Z",
+      "png_bytes": 395358,
+      "sha256": "47be39b8c901add771e4aaf7b3027fd0608924ad86a5f1509ff4654233600136",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -73.9324,
+      "target_latitude_degrees": 40.8427,
+      "camera": {
+        "ecef_metres": [
+          1337724.0886305822,
+          -4644509.695375735,
+          4150335.5844393736
+        ],
+        "height_above_display_ellipsoid_m": 1699.9999999989586,
+        "heading_radians": 6.283185307179586,
+        "pitch_radians": -1.5707954397063557
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 138,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 59,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "awaiting-visible-content",
+          "parsed_count": 0,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 17,
+      "file": "17-staten-island-st-george-ferry-oblique.png",
+      "label": "史泰登岛 · St George渡轮岸线",
+      "borough": "staten-island",
+      "preset": "st-george-ferry",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:43:16.446Z",
+      "png_bytes": 222447,
+      "sha256": "98a8ce0fa61e50b275f0eadd6d746bb17aabf140cc0ad0830b90fe83f51c7935",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -74.0726,
+      "target_latitude_degrees": 40.6435,
+      "camera": {
+        "ecef_metres": [
+          1330979.0929003789,
+          -4660894.801238607,
+          4133741.00105559
+        ],
+        "height_above_display_ellipsoid_m": 1392.632959669242,
+        "heading_radians": 4.188904947778271,
+        "pitch_radians": -0.9600842274998991
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 138,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 59,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "ready",
+          "parsed_count": 37,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 18,
+      "file": "18-staten-island-st-george-ferry-top.png",
+      "label": "史泰登岛 · St George渡轮岸线",
+      "borough": "staten-island",
+      "preset": "st-george-ferry",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:43:19.535Z",
+      "png_bytes": 220740,
+      "sha256": "e186e3a41fe360802d5516c321c0ec40ebd2b20d873b404caf9ada567559dfb1",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -74.0726,
+      "target_latitude_degrees": 40.6435,
+      "camera": {
+        "ecef_metres": [
+          1330318.2276843325,
+          -4661656.225161932,
+          4133571.3191201356
+        ],
+        "height_above_display_ellipsoid_m": 1699.999999999336,
+        "heading_radians": 6.283185307179586,
+        "pitch_radians": -1.5707954404575952
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 138,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 105,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 59,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "ready",
+          "parsed_count": 37,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "water",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "transport",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "piers",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 19,
+      "file": "19-staten-island-st-george-slope-oblique.png",
+      "label": "史泰登岛 · St George坡地街区",
+      "borough": "staten-island",
+      "preset": "st-george-slope",
+      "view": "斜视",
+      "captured_at_utc": "2026-10-29T00:43:24.387Z",
+      "png_bytes": 325825,
+      "sha256": "b5d271267650cb136a2ff0caf931319812b0cd7b40c1e19487dfef2dd373861d",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -74.083,
+      "target_latitude_degrees": 40.6417,
+      "camera": {
+        "ecef_metres": [
+          1328504.2865726333,
+          -4662248.330878703,
+          4132876.9681724715
+        ],
+        "height_above_display_ellipsoid_m": 1302.3690508097307,
+        "heading_radians": 1.2215920146909376,
+        "pitch_radians": -0.8728355187470167
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 138,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 108,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 59,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "ready",
+          "parsed_count": 42,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    },
+    {
+      "sequence": 20,
+      "file": "20-staten-island-st-george-slope-top.png",
+      "label": "史泰登岛 · St George坡地街区",
+      "borough": "staten-island",
+      "preset": "st-george-slope",
+      "view": "俯视",
+      "captured_at_utc": "2026-10-29T00:43:27.587Z",
+      "png_bytes": 368523,
+      "sha256": "be231dcbf27dcd098dffaea82b0d28bfd531538db42f5d89c9d61cd5bc59c69a",
+      "dimensions": {
+        "width": 1280,
+        "height": 982
+      },
+      "target_longitude_degrees": -74.083,
+      "target_latitude_degrees": 40.6417,
+      "camera": {
+        "ecef_metres": [
+          1329507.762916654,
+          -4662022.854493665,
+          4133419.6087031667
+        ],
+        "height_above_display_ellipsoid_m": 1699.9999999988083,
+        "heading_radians": 6.283185307179586,
+        "pitch_radians": -1.5707954404575952
+      },
+      "attribution": "NYC OTI / NYC Open Data; NYC Parks2015–2016 census; CesiumJS Apache-2.0 · reference scene",
+      "layers": {
+        "buildings": true,
+        "roads": true,
+        "sidewalk": false,
+        "median": false,
+        "water": true,
+        "parks": true,
+        "transport": true,
+        "piers": true,
+        "rail": false,
+        "rail-structure": false,
+        "trees": false,
+        "outlines": false,
+        "evidence": false
+      },
+      "visible_layer_states": [
+        {
+          "key": "parks",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:manhattan",
+          "state": "ready",
+          "parsed_count": 138,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:brooklyn",
+          "state": "ready",
+          "parsed_count": 108,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:queens",
+          "state": "ready",
+          "parsed_count": 134,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:bronx",
+          "state": "ready",
+          "parsed_count": 59,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "city:staten-island",
+          "state": "ready",
+          "parsed_count": 45,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        },
+        {
+          "key": "roads",
+          "state": "ready",
+          "parsed_count": 1,
+          "pending": 0,
+          "processing": 0,
+          "failures": 0
+        }
+      ],
+      "page_errors_so_far": 0,
+      "console_errors_so_far": 0
+    }
+  ],
+  "errors": [],
+  "console_errors": [],
+  "failed_requests": [],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:8080/index.html",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/release-C7IyjUaq.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/release-Cn6jj2at.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/release/summary.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/inspection.html?diagnostics=1",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/inspection-FMokcPE7.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/core-cjUe2LAc.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/inspection-76KC-D0k.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/widgets-B9DDZdqH.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/Matrix4-BFlood-d.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/assets/widgets-D_ww0pXm.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/cesium/Assets/approximateTerrainHeights.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/inspection/search/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/cesium/Assets/Images/ion-credit.png",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/parks.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/parks.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-span/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-head/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-head/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-head/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/root.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0000.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0001.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-head/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-head/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/brooklyn-head/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0039.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/599_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/598_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/599_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0002.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/599_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/598_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/600_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/600_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/600_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/600_121_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/599_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/599_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/598_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/598_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/598_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/601_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/600_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/600_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/601_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/600_122_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/601_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/597_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/597_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/601_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/601_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0003.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0033.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/597_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/600_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/601_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/600_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/599_123_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/599_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/598_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0024.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0035.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0042.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0040.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/597_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/central-south/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/central-south/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0006.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0007.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0005.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0008.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0009.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0010.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/central-south/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/central-south/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/604_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/central-south/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/604_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/central-south/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/605_133_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/605_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/604_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/605_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/605_132_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_135_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_135_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/605_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/605_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/604_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/604_136_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_136_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_136_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_133_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_134_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_133_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_136_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_136_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_136_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_135_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_132_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/601_134_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/606_132_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/607_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/601_135_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/607_135_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0011.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/607_136_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/607_136_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/607_135_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0032.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/601_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_119_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_117_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/manhattan-head/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/601_117_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_117_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_118_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/600_117_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/600_117_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0004.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/602_123_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/603_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_117_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_117_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/prospect-north/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/prospect-north/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0036.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0034.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0031.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0029.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0032.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0028.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/prospect-north/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/prospect-north/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_112_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_112_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/605_112_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_112_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/605_113_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_112_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/605_113_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_113_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_113_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/605_113_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_111_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_113_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_111_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_113_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/606_112_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/606_112_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/606_111_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/604_110_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_112_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0027.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_112_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_112_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_112_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/605_110_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/605_111_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_111_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_111_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_111_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_111_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/606_113_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/606_113_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/605_113_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/606_113_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/606_110_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0026.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0030.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0025.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_110_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_110_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_110_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_110_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_113_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_113_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_113_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_113_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/603_113_004-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_111_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_111_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_110_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_112_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_110_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0067.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_112_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_110_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_111_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_111_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_112_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_112_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_111_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_111_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_111_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_110_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0037.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_110_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_110_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_110_004-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_111_004-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_110_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_112_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0069.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0023.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/602_112_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0068.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_113_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0038.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/brooklyn/607_113_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0072.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/queens-plaza/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/queens-plaza/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0033.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/609_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_128_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/608_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/609_128_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/queens-plaza/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/609_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/queens-plaza/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/608_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/611_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_130_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/609_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/611_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0034.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/608_128_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/608_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/611_130_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/608_128_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/607_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/611_128_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/607_128_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/611_131_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/609_127_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/609_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/611_131_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/607_128_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0035.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_127_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/611_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/610_132_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/608_127_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/608_132_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_133_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_130_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_130_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0036.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_131_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_131_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_131_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_128_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_129_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/612_131_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0038.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/forest-hills/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/forest-hills/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0024.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0029.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0028.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0030.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0052.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0023.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/forest-hills/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/forest-hills/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_121_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_121_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_123_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_122_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_121_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_121_004-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0031.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_121_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_121_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_124_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0025.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_124_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_120_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/626_120_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0049.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0053.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/627_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_123_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_123_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_122_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_122_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_123_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_122_004-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_122_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_124_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_124_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_122_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_120_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_120_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_120_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0048.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0054.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/625_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_121_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_121_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_121_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_121_004-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0022.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_121_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/629_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_121_005-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/629_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/629_124_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/629_124_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/629_124_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/629_124_004-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/629_123_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/623_124_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/623_124_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_120_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_123_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0043.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0021.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/queens/page-0027.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/628_120_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_120_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_120_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/queens/624_120_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0001.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0013.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0000.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/612_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0014.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/bruckner/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/613_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_142_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/611_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_143_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/611_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0012.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_142_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_141_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_142_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0004.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_144_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_144_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_144_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_144_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_140_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_143_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_143_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_140_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_144_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_144_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_144_003-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_144_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_144_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0005.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_143_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_144_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_142_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_144_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_143_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0003.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0002.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0006.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_149_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_150_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/manhattan/page-0015.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_149_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/highbridge/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/611_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0008.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_151_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_149_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/611_149_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_151_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_151_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_151_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_152_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_152_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_151_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/612_151_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/612_152_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_149_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_152_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0010.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_152_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_151_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/611_148_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_148_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_148_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_151_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_149_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/612_153_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_152_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_153_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0009.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/614_149_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_150_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/613_148_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_150_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_151_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/bronx/page-0007.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/612_148_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/610_153_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/611_154_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/bronx/615_149_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_148_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/manhattan/609_148_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/water.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0063.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0055.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0054.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0062.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0051.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0053.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/transport.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/piers.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/water.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/transport.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-ferry/piers.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_105_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/587_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/587_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/587_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_104_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_104_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_105_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_104_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_105_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_104_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_106_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_103_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_103_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/587_103_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/584_105_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0060.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/584_105_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/584_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/584_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0050.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_102_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/staten-island/page-0061.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/587_102_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_102_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/586_102_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-slope/roads.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/584_104_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_103_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/584_104_001-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_103_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/585_103_002-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0022.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/environment/st-george-slope/roads.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0005.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/performance/city/brooklyn/page-0002.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/583_105_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/583_106_000-strict.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8080/datasets/buildings-city/staten-island/583_105_001-strict.glb",
+      "status": 200
+    }
+  ],
+  "blocked_external_requests": [],
+  "fresh_browser_context": true,
+  "http_cache_disabled": true,
+  "external_network_blocked": true,
+  "opened_entry": {
+    "title": "纽约真实数据工程 · 部分完成验收交付",
+    "state": {
+      "ready": true,
+      "sourceVersion": "2026-10-27-city",
+      "total": 1082964,
+      "completeFineLandmarks": 0,
+      "overall": "partial evidence build; complete real city building bodies/exteriors NOT accepted"
+    }
+  },
+  "completed_at_utc": "2026-10-29T00:43:27.677Z",
+  "complete": true,
+  "runtime_locks_unchanged": true
+}

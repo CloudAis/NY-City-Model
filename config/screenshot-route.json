@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "description": "Twenty actual browser exports of the published strict-evidence runtime: two areas per borough, oblique and top-down per area.",
+  "viewport": {"width": 1600, "height": 1000, "deviceScaleFactor": 1},
+  "quality": "high",
+  "modes": ["orbit", "top"],
+  "scope": "Source-defined footprints and reference environment projections; not verified 3D buildings, bridge decks, or global ground elevations.",
+  "areas": [
+    {"borough": "manhattan", "preset": "brooklyn-head", "label": "曼哈顿 · 布鲁克林大桥曼哈顿桥头"},
+    {"borough": "manhattan", "preset": "central-south", "label": "曼哈顿 · 中央公园南界"},
+    {"borough": "brooklyn", "preset": "manhattan-head", "label": "布鲁克林 · DUMBO曼哈顿大桥桥头"},
+    {"borough": "brooklyn", "preset": "prospect-north", "label": "布鲁克林 · 展望公园北界"},
+    {"borough": "queens", "preset": "queens-plaza", "label": "皇后区 · Queens Plaza"},
+    {"borough": "queens", "preset": "forest-hills", "label": "皇后区 · Forest Hills Gardens"},
+    {"borough": "bronx", "preset": "bruckner", "label": "布朗克斯 · Mott Haven / Bruckner"},
+    {"borough": "bronx", "preset": "highbridge", "label": "布朗克斯 · High Bridge桥头坡地"},
+    {"borough": "staten-island", "preset": "st-george-ferry", "label": "史泰登岛 · St George渡轮岸线"},
+    {"borough": "staten-island", "preset": "st-george-slope", "label": "史泰登岛 · St George坡地街区"}
+  ]
+}

@@ -7,6 +7,7 @@
 - [版本说明](https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028-git)。
 - [全部实际运行资源和源码包的数据分支](https://github.com/CloudAis/NY-City-Model/tree/offline-packages-v0.1.0-evidence-20261028)：约1.5GB，以32MiB分块保留七个原ZIP的完整字节。
 - [文件与SHA256清单](reports/final-delivery/FILES.md)、[最终验收](reports/FINAL_ACCEPTANCE.md)、[真实性与覆盖](reports/AUTHENTICITY_FINAL.md)。
+- [当前运行包的20张实际浏览器截图](reports/screenshots/2026-10-29/README.md)：五区各两个区域、斜视与俯视；附PNG下载包和真实相机/请求记录，显示现有轮廓与参考图层。
 
 资源实际存储在独立Git分支，**不是Release附件或Git LFS**。当前云环境访问GitHub附件上传域返回401，因此使用普通Git传输；未新增GitHub Actions或仓库自动化写权限。可用以下命令下载、校验并本地运行：
 

@@ -1,3 +1,9 @@
+# 用户追加：20视角截图 · 2026-10-29（Asia/Taipei）
+
+实际打开既有独立运行包`/tmp/nyc-final-release-20261028`的index与inspection，保持来源轮廓和中性光，用已有带署名截图按钮导出20张1280×982 PNG；五区各两个区域，每个区域斜视/俯视各一张。抓拍UTC为2026-10-29T00:41:41.034Z至00:43:27.677Z，对应用户时区08:41–08:43。原始精度1×、1600×1000浏览器视口、DPR1、Chromium154.0.8037.57/SwiftShader，无物理GPU结论。
+
+20张图像逐一解码、尺寸和SHA256核对、全部不同；缩略总览已实际观察。575个本地HTTP响应，无失败请求、坏HTTP、页面错误、控制台错误或外网请求；10项运行包入口/来源清单/五区strict清单SHA前后一致。画面仍是二维来源轮廓及投影图层，水系等在观察窗口边缘有裁剪边界；本次不补画、不修改模型、不提升真实性完成状态。图像/相机/来源/请求记录见`reports/screenshots/2026-10-29/`，复现脚本为`scripts/capture_published_views.mjs`，路线为`config/screenshot-route.json`。GitHub上传结果以后续实际推送和服务端回读为准，不在此处预先声称成功。
+
 # GitHub发布完成
 
 已实际公开预发布版本 https://github.com/CloudAis/NY-City-Model/releases/tag/v0.1.0-evidence-20261028-git；完整资源位于 https://github.com/CloudAis/NY-City-Model/tree/offline-packages-v0.1.0-evidence-20261028。源码main、数据分支、版本标签及公开说明均已到位。附件接口仍返回401，实际资源采用普通Git分块交付；63文件/48块服务端对象匹配、4次二进制回读及16文件实际还原校验通过。本次仅处理发布与链接，原ZIP、模型、主数据及真实性状态不变。
